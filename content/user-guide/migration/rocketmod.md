@@ -23,8 +23,8 @@ By default, the OpenMod RocketMod Bridge will use RocketMod's own Permissions.xm
 To install the RocketMod Permission Link plugin, run `openmod install OpenMod.Rocket.PermissionLink` and then reload or restart.
 
 ## Differences between the OpenMod RocketMod Bridge and RocketMod
-* The OpenMod RocketMod Bridge is based on a patched version of the [LDM RocketMod fork](https://github.com/SmartlyDressedGames/Legally-Distinct-Missile), it is not a reimplementation of the RocketMod API. This will ensure compatibility with most RocketMod plugins, including those which access private RocketMod fields via reflection.
-* The OpenMod RocketMod Bridge is an OpenMod plugin instead of a standalone Unturned module.
-* RocketMod does not support unloading at runtime, as it never unbinds from events. With OpenMod, you can completely unload RocketMod or OpenMod at runtime.
-* RocketMod's command handling has been changed to utilize OpenMod's command system to avoid conflicting commands.
-* RocketMod's logging system has been changed to proxy to OpenMod's logging system (Serilog).
+- The OpenMod RocketMod Bridge is based on a patched version of the [LDM RocketMod fork](https://github.com/SmartlyDressedGames/Legally-Distinct-Missile), it is not a reimplementation of the RocketMod API. This will ensure compatibility with most RocketMod plugins, including those which access private RocketMod fields via reflection.
+- The OpenMod RocketMod Bridge is an OpenMod plugin instead of a standalone Unturned module.
+- RocketMod does not support unloading at runtime, as it never unbinds from events. With OpenMod, you can completely unload RocketMod or OpenMod at runtime.
+- RocketMod's command handling has been changed to utilize OpenMod's command system to avoid conflicting commands.
+- RocketMod's logging system has been changed to proxy to OpenMod's logging system (Serilog).
