@@ -10,7 +10,7 @@ pages:
     - Home: index.md
     - User Guide:
         - Installation:
-            - Unturned: user-guide/installation/unturned.md
+            - Installing OpenMod for Unturned: user-guide/installation/unturned.md
         - Migration:
             - Migrating from RocketMod: user-guide/migration/rocketmod.md         
         - Plugins: 
