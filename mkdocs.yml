@@ -48,6 +48,7 @@ theme:
 markdown_extensions:
   - admonition
   - meta
+  - sane_lists
   - codehilite:
       guess_lang: true
   - toc:

@@ -15,12 +15,12 @@ You can install and use RocketMod plugins just like how you would do with the Ro
 ## Caveats
 - RocketMod plugins are *not* converted to OpenMod plugins, so you can not manage them from OpenMod.
 - RocketMod is completely separated from OpenMod and has it's own configuration system, permissions system, command system etc. 
-- OpenMod commands will always override RocketMod commands when a conflict occur.
+- OpenMod commands will always override RocketMod commands when a conflict occurs.
 
 ## Linking RocketMod to OpenMod Permissions
-By default, the OpenMod RocketMod Bridge will use RocketMod's own Permissions.xml when handling permissions for RocketMod plugins. This might be a problem as you would have to maintain two different permission systems. The PermissionLink solves this issue by forcing RocketMod to use OpenMod's permission system. Keep in mind that this solution may not be compatible with other permissions plugins for RocketMod.
+By default, the OpenMod RocketMod Bridge will use RocketMod's own Permissions.xml when handling permissions for RocketMod plugins. This might be a problem as you would have to maintain two different permission systems. The RocketMod Permission Link plugin solves this issue by forcing RocketMod to use OpenMod's permission system. Keep in mind that it may not be compatible with other permissions plugins for RocketMod.
 
-To install the permission link, run `openmod install OpenMod.Rocket.PermissionLink` and then reload or restart.
+To install the RocketMod Permission Link plugin, run `openmod install OpenMod.Rocket.PermissionLink` and then reload or restart.
 
 ## Differences between the OpenMod RocketMod Bridge and RocketMod
 * The OpenMod RocketMod Bridge is based on a patched version of the [LDM RocketMod fork](https://github.com/SmartlyDressedGames/Legally-Distinct-Missile), it is not a reimplementation of the RocketMod API. This will ensure compatibility with most RocketMod plugins, including those which access private RocketMod fields via reflection.
