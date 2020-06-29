@@ -16,19 +16,17 @@ pages:
             - Migrating from RocketMod: user-guide/migration/rocketmod.md         
         - Plugins: 
             - Installing and Managing Plugins: user-guide/plugins/plugin-management.md
-        - OpenMod Concepts:
-            - Configurations: user-guide/configuration/configurations.md
-            - Translations: user-guide/configuration/translations.md
-            - Permissions: user-guide/configuration/permissions.md
-            - Logging: user-guide/configuration/logging.md
+        - Configurations: user-guide/configurations.md
+        - Translations: user-guide/translations.md
+        - Permissions: user-guide/permissions.md
+        - Logging: user-guide/logging.md
     - Development Guide:
-        - Getting Started:
-            - Making your first plugin: development-guide/getting-started/making-your-first-plugin.md
-            - Commands: development-guide/getting-started/commands.md
-            - Scheduling: development-guide/getting-started/scheduling.md
-            - Logging: development-guide/getting-started/logging.md
-            - Configurations: development-guide/getting-started/configurations.md
-            - Permissions: development-guide/getting-started/permissions.md
+        - Making your first plugin: development-guide/making-your-first-plugin.md
+        - Commands: development-guide/commands.md
+        - Scheduling: development-guide/scheduling.md
+        - Logging: development-guide/logging.md
+        - Configurations: development-guide/configurations.md
+        - Permissions: development-guide/permissions.md
         - Events:
             - OpenMod Events: development-guide/events/events.md
             - Built-in Events: development-guide/events/builtin-events.md
