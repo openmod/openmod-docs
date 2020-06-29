@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Welcome to OpenMod Dcoumentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+OpenMod is a .NET plugin framework.
 
-## Commands
+If you would like to install OpenMod, installation guides for the following platforms are available:
+* [Unturned](user-guide/installation/unturned.md).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+If you want to make plugins for OpenMod, you can get started by reading the [Making your first plugin](development-guide/getting-started/making-your-first-plugin.md) page.
