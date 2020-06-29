@@ -1,7 +1,9 @@
 site_name: OpenMod Documentation
 coypright: 'The OpenMod Documentation is licensed under the terms of the Creative Commons Attribution Share Alike 4.0 International license.'
+site_description: 'OpenMod .NET Plugin Framwework Documentation'
 docs_dir: 'content'
 repo_name: 'openmod/openmod'
+site_url: 'https://openmod.github.io/openmod-docs/'
 repo_url: 'https://github.com/openmod/openmod'
 edit_uri: 'https://github.com/openmod/openmod-docs/edit/master/content/'
 pages:
