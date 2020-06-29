@@ -15,7 +15,7 @@ You can install and use RocketMod plugins just like how you would do with the Ro
 ## Caveats
 - RocketMod plugins are *not* converted to OpenMod plugins, so you can not manage them from OpenMod.
 - RocketMod is completely separated from OpenMod and has it's own configuration system, permissions system, command system etc. 
-- OpenMod commands will always override RocketMod commands when a conflicts occur.
+- OpenMod commands will always override RocketMod commands when a conflict occur.
 
 ## Linking RocketMod to OpenMod Permissions
 By default, the OpenMod RocketMod Bridge will use RocketMod's own Permissions.xml when handling permissions for RocketMod plugins. This might be a problem as you would have to maintain two different permission systems. The PermissionLink solves this issue by forcing RocketMod to use OpenMod's permission system. Keep in mind that this solution may not be compatible with other permissions plugins for RocketMod.
