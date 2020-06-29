@@ -812,13 +812,15 @@
                 
                 <h1 id="migrating-from-rocketmod-to-openmod">Migrating from RocketMod to OpenMod<a class="headerlink" href="#migrating-from-rocketmod-to-openmod" title="Permanent link">¶</a></h1>
 <p>OpenMod has built-in support for RocketMod plugins, most RocketMod plugins should work without need for workarounds or rewrites. </p>
-<p>To use use RocketMod plugins, follow these steps:<br/>
-1. After <a href="../../installation/unturned/">installing OpenMod for Unturned</a> remove the "Rocket.Unturned" folder from the "Modules" folder inside Unturned. If you were using RocketMod before, keep the "Rocket" folder inside your server's folder.
-2. Start your server, wait for OpenMod to load and then install the <a href="https://github.com/openmod/openmod/tree/master/unturned/rocketmod">OpenMod RocketMod Bridge</a>: <code>openmod install OpenMod.Rocket.Unturned</code>.
-3. To finish migration, restart your server or reload OpenMod: <code>openmod reload</code>.</p>
+<p>To use use RocketMod plugins, follow these steps:</p>
+<ol>
+<li>After <a href="../../installation/unturned/">installing OpenMod for Unturned</a> remove the "Rocket.Unturned" folder from the "Modules" folder inside Unturned. If you were using RocketMod before, keep the "Rocket" folder inside your server's folder.</li>
+<li>Start your server, wait for OpenMod to load and then install the <a href="https://github.com/openmod/openmod/tree/master/unturned/rocketmod">OpenMod RocketMod Bridge</a>: <code>openmod install OpenMod.Rocket.Unturned</code>.</li>
+<li>To finish migration, restart your server or reload OpenMod: <code>openmod reload</code>.</li>
+</ol>
 <h2 id="using-the-openmod-rocketmod-bridge">Using the OpenMod RocketMod Bridge<a class="headerlink" href="#using-the-openmod-rocketmod-bridge" title="Permanent link">¶</a></h2>
-<p>The OpenMod RocketMod Bridge exactly behaves like the RocketMod module.<br/>
-You can install and use RocketMod plugins just like how you would do with the RocketMod module: Add the dll files to your <code>Rocket/Plugins</code> folder inside your server's folder and restart or reload RocketMod: <code>rocketmod reload</code>.</p>
+<p>You can use the OpenMod RocketMod Bridge exactly like the RocketMod module.<br/>
+For example, to install RocketMod plugins just add the dll files to your <code>Rocket/Plugins</code> folder inside your server's folder and restart or reload RocketMod: <code>rocketmod reload</code>.</p>
 <h2 id="caveats">Caveats<a class="headerlink" href="#caveats" title="Permanent link">¶</a></h2>
 <ul>
 <li>RocketMod plugins are <em>not</em> converted to OpenMod plugins, so you can not manage them from OpenMod.</li>
