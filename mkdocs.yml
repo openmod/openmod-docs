@@ -30,9 +30,7 @@ pages:
         - Events:
             - OpenMod Events: development-guide/events/events.md
             - Built-in Events: development-guide/events/builtin-events.md
-            - Game Events: development-guide/events/game-events.md            
-    - About:
-        - Documentation: about/documentation.md
+            - Game Events: development-guide/events/game-events.md
 plugins:
   - search
   - autoreflinks
