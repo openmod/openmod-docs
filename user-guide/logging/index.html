@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#logging" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -403,6 +408,8 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
     
     <a href="./" title="Logging" class="md-nav__link md-nav__link--active">
       Logging
@@ -633,6 +640,21 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -646,9 +668,48 @@
                   
                 
                 
-                  <h1>Logging</h1>
-                
-                <p>TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO </p>
+                <h1 id="logging">Logging<a class="headerlink" href="#logging" title="Permanent link">¶</a></h1>
+<p>OpenMod uses <a href="https://serilog.net/">Serilog</a> by default for logging.</p>
+<p>Serilog is configured through the logging.yaml in the <code>OpenMod</code> directory.
+You can find the documentation for the Serilog configuration <a href="https://github.com/serilog/serilog-settings-configuration">here</a> (you will have to convert from json to yaml).</p>
+<p>Serilog supports many <a href="https://github.com/serilog/serilog/wiki/Provided-Sinks">sinks</a> as logging target. You can install new sinks via the <code>openmod install &lt;package id&gt;</code> command and configure them in the logging.yaml.</p>
+<p>For example, this is how you would configure logging to MySQL/MariaDB instead to file:</p>
+<ol>
+<li>Install the MariaDB Sink: <code>openmod install Serilog.Sinks.MariaDB</code></li>
+<li>Configure sink in logging.yaml:
+<div class="highlight"><pre><span></span><code><span class="nt">Serilog</span><span class="p">:</span>
+  <span class="nt">Using</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">Serilog</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">Serilog.Sinks.Console</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">Serilog.Sinks.File</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">Serilog.Sinks.Async</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">Serilog.Sinks.MariaDB</span> <span class="c1"># Do not forget to add your sink here</span>
+  <span class="nt">WriteTo</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">Name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Async</span> <span class="c1"># By default OpenMod logs async for performance reasons</span>
+    <span class="nt">Args</span><span class="p">:</span>
+      <span class="nt">configure</span><span class="p">:</span>
+      <span class="p p-Indicator">-</span> <span class="nt">Name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">MariaDB</span>
+        <span class="nt">Args</span><span class="p">:</span>
+          <span class="nt">connectionString</span><span class="p">:</span> <span class="s">"server=..."</span><span class="err">,</span> <span class="c1"># See https://www.connectionstrings.com/mysql/</span>
+          <span class="nt">tableName</span><span class="p">:</span> <span class="s">"logs"</span><span class="err">,</span>
+          <span class="nt">autoCreateTable</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+      <span class="p p-Indicator">-</span> <span class="nt">Name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Console</span>
+        <span class="nt">Args</span><span class="p">:</span>
+          <span class="nt">theme</span><span class="p">:</span> <span class="s">"Serilog.Sinks.SystemConsole.Themes.AnsiConsoleTheme::Code,</span><span class="nv"> </span><span class="s">Serilog.Sinks.Console"</span>
+          <span class="nt">outputTemplate</span><span class="p">:</span> <span class="s">"[{Timestamp:HH:mm:ss}</span><span class="nv"> </span><span class="s">{Level:u3}]</span><span class="nv"> </span><span class="s">{Message:lj}{NewLine}{Exception}"</span>
+  <span class="nt">Enrich</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">FromLogContext</span>
+  <span class="nt">MinimumLevel</span><span class="p">:</span>
+    <span class="nt">Default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Information</span> <span class="c1"># Only log Information or higher by default</span>
+    <span class="nt">Override</span><span class="p">:</span>
+      <span class="c1"># You can configure when specific events should be logged</span>
+      <span class="c1"># In this example, the Microsoft.EntityFrameworkCore events below are only logged if Warning or higher</span>
+      <span class="nt">Microsoft.EntityFrameworkCore.Database.Command</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Warning</span>
+      <span class="nt">Microsoft.EntityFrameworkCore.Infrastructure</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Warning</span>
+      <span class="nt">Microsoft.EntityFrameworkCore.Database.Connection</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Warning</span>
+      <span class="nt">Microsoft.EntityFrameworkCore.Query</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Warning</span>
+</code></pre></div></li>
+</ol>
                 
               
               
