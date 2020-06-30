@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#translations" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -379,6 +384,8 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
     
     <a href="./" title="Translations" class="md-nav__link md-nav__link--active">
       Translations
@@ -591,6 +598,21 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -604,9 +626,22 @@
                   
                 
                 
-                  <h1>Translations</h1>
-                
-                <p>TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO </p>
+                <h1 id="translations">Translations<a class="headerlink" href="#translations" title="Permanent link">¶</a></h1>
+<p>Translations files allow you to translate or customize OpenMod or plugin messages.<br/>
+OpenMod's translation <code>openmod.translations.yaml</code> can be found inside the <code>OpenMod</code> directory:
+<div class="highlight"><pre><span></span><code><span class="nt">commands</span><span class="p">:</span>
+  <span class="nt">openmod</span><span class="p">:</span>
+    <span class="nt">restricted</span><span class="p">:</span> <span class="s">"This</span><span class="nv"> </span><span class="s">command</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">restricted."</span>
+  <span class="nt">errors</span><span class="p">:</span>
+    <span class="nt">out_of_range_error</span><span class="p">:</span> <span class="s">"Too</span><span class="nv"> </span><span class="s">few</span><span class="nv"> </span><span class="s">arguments:</span><span class="nv"> </span><span class="s">missing</span><span class="nv"> </span><span class="s">parameter</span><span class="nv"> </span><span class="s">at</span><span class="nv"> </span><span class="s">index</span><span class="nv"> </span><span class="s">{Index}</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">type</span><span class="nv"> </span><span class="s">{Type.Name}"</span>
+    <span class="nt">parse_error</span><span class="p">:</span> <span class="s">"Parse</span><span class="nv"> </span><span class="s">error:</span><span class="nv"> </span><span class="s">could</span><span class="nv"> </span><span class="s">not</span><span class="nv"> </span><span class="s">parse</span><span class="nv"> </span><span class="s">{Value}</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">{Type.Name}"</span>
+    <span class="nt">not_found</span><span class="p">:</span> <span class="s">"Command</span><span class="nv"> </span><span class="s">was</span><span class="nv"> </span><span class="s">not</span><span class="nv"> </span><span class="s">found:</span><span class="nv"> </span><span class="s">{CommandName}"</span>
+    <span class="nt">wrong_usage</span><span class="p">:</span> <span class="s">"Wrong</span><span class="nv"> </span><span class="s">command</span><span class="nv"> </span><span class="s">usage.</span><span class="nv"> </span><span class="s">Correct</span><span class="nv"> </span><span class="s">usage:</span><span class="nv"> </span><span class="s">{Command}</span><span class="nv"> </span><span class="s">{Syntax}"</span>
+</code></pre></div></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Translation files are currently not updated automatically. If OpenMod or a plugin adds a new translation, you will have to add it manually to the yaml file or delete the file so it gets recreated.</p>
+</div>
                 
               
               
