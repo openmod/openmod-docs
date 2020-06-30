@@ -1,6 +1,9 @@
-# Welcome to OpenMod Dcoumentation
+# OpenMod Dodumentation
+Welcome to the OpenMod Documentation.
 
 OpenMod is a .NET plugin framework.
+
+
 
 If you would like to install OpenMod, installation guides for the following platforms are available:
 
