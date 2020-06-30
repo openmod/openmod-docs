@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#configurations" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -367,6 +372,8 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
     
     <a href="./" title="Configurations" class="md-nav__link md-nav__link--active">
       Configurations
@@ -633,6 +640,21 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -646,9 +668,14 @@
                   
                 
                 
-                  <h1>Configurations</h1>
-                
-                <p>TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO </p>
+                <h1 id="configurations">Configurations<a class="headerlink" href="#configurations" title="Permanent link">¶</a></h1>
+<p>OpenMod uses <a href="https://yaml.org/">YAML</a> for configurations.<br/>
+You can find a quick YAML guide <a href="https://blog.codemagic.io/what-you-can-do-with-yaml/">here</a></p>
+<p>Plugin specific configurations are stored in the <code>plugins/&lt;plugin id&gt;</code> directory.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Configuration files are currently not updated automatically. If OpenMod or a plugin adds a new field, you will have to add it manually to the yaml file or delete the file so it gets recreated.</p>
+</div>
                 
               
               
