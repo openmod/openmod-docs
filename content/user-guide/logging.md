@@ -1,7 +1,7 @@
 # Logging
 OpenMod uses [Serilog](https://serilog.net/) by default for logging.
 
-Serilog is configured through the logging.yaml in the `OpenMod` directory.
+Serilog is configured through the `logging.yaml` in the `OpenMod` directory.
 You can find the documentation for the Serilog configuration [here](https://github.com/serilog/serilog-settings-configuration) (you will have to convert from json to yaml).
 
 Serilog supports many [sinks](https://github.com/serilog/serilog/wiki/Provided-Sinks) as logging target. You can install new sinks via the `openmod install <package id>` command and configure them in the logging.yaml.
@@ -9,7 +9,7 @@ Serilog supports many [sinks](https://github.com/serilog/serilog/wiki/Provided-S
 For example, this is how you would configure logging to MySQL/MariaDB instead to file:
 
 1. Install the MariaDB Sink: `openmod install Serilog.Sinks.MariaDB`
-2. Configure sink in logging.yaml:
+2. Add the MariaDB Sink to the logging.yaml:
 ```yaml
 Serilog:
   Using:
