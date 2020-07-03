@@ -19,7 +19,7 @@
     
     
       
-        <title>Services and Dependency Injection - OpenMod Documentation</title>
+        <title>Services - OpenMod Documentation</title>
       
     
     
@@ -90,7 +90,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Services and Dependency Injection
+              Services
             
           </span>
         </div>
@@ -416,10 +416,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Development Guide
@@ -470,6 +472,60 @@
     <a href="../translations/" title="Translations" class="md-nav__link">
       Translations
     </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Services
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Services" class="md-nav__link md-nav__link--active">
+      Services
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -528,16 +584,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-8" type="checkbox" id="nav-3-8">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-9" type="checkbox" id="nav-3-9">
     
-    <label class="md-nav__link" for="nav-3-8">
+    <label class="md-nav__link" for="nav-3-9">
       Events
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Events" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-8">
+      <label class="md-nav__title" for="nav-3-9">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -624,34 +680,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#what-does-dependency-injection-mean-for-me" class="md-nav__link">
-    What does Dependency Injection mean for me?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#list-of-services" class="md-nav__link">
-    List of services
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    Example
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#further-reading" class="md-nav__link">
-    Further reading
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -674,25 +702,29 @@
                 
                 <h1 id="services-and-dependency-injection">Services and Dependency Injection<a class="headerlink" href="#services-and-dependency-injection" title="Permanent link">¶</a></h1>
 <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h2>
-<p>OpenMod, like a lot of modern .NET projects, uses Dependency Injection. This guide aims to simplify it and explain what it means for plugin developers using OpenMod.</p>
-<h2 id="what-does-dependency-injection-mean-for-me">What does Dependency Injection mean for me?<a class="headerlink" href="#what-does-dependency-injection-mean-for-me" title="Permanent link">¶</a></h2>
-<p>In short, you do not have to create public static instances of any of your classes.</p>
-<p>Your plugins services can have a constructor with any services provided by OpenMod and these will all be passed automatically by the container.</p>
-<p>You can also add your own services to the container, which will add them to the ecosystem. You do NOT need to do this for commands or event handlers however (they are registered automatically by OpenMod)</p>
-<h2 id="list-of-services">List of services<a class="headerlink" href="#list-of-services" title="Permanent link">¶</a></h2>
+<p>OpenMod, like other modern .NET projects, uses the dependency injection pattern. This guide aims to simplify it and explain what it means for plugin developers using OpenMod.</p>
+<p>Plugins, commands, event listeners and services can automatically get references to any other services provided by OpenMod or plugins just by adding their interfaces to the constructor.  </p>
+<h1 id="registering-your-own-services">Registering your own Services<a class="headerlink" href="#registering-your-own-services" title="Permanent link">¶</a></h1>
+<p>You can register your own services by implementing the <code>IServiceConfigurator</code> or <code>IContainerConfigurator</code> interfaces in any class.</p>
+<h2 id="list-of-built-in-openmod-services">List of built-in OpenMod Services<a class="headerlink" href="#list-of-built-in-openmod-services" title="Permanent link">¶</a></h2>
 <p>TODOODODOODODODOODODODODOODODODO</p>
-<h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">¶</a></h2>
-<p>I would like to access my plugin's configuration in a command. Here is how I do this:</p>
+<h2 id="dependency-injection-example">Dependency Injection Example<a class="headerlink" href="#dependency-injection-example" title="Permanent link">¶</a></h2>
+<p>Assume you want to access your plugin's instance and configuration from a command. Here is how you could do it:</p>
 <div class="highlight"><pre><span></span><code><span class="c1">//This is now accessible by the execute method</span>
-<span class="k">private</span> <span class="n">IConfiguration</span> <span class="n">m_Configuration</span><span class="p">;</span>
+<span class="k">private</span> <span class="k">readonly</span> <span class="n">IConfiguration</span> <span class="n">m_Configuration</span><span class="p">;</span>
+<span class="k">private</span> <span class="k">readonly</span> <span class="n">MyPlugin</span> <span class="n">m_MyPlugin</span><span class="p">;</span>
 
-<span class="k">public</span> <span class="nf">AnnounceCommand</span><span class="p">(</span><span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">,</span> <span class="n">IConfiguration</span> <span class="n">configuration</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="n">m_Configuration</span> <span class="p">=</span> <span class="n">configuration</span><span class="p">;</span>
-        <span class="p">}</span>
+<span class="k">public</span> <span class="nf">EchoCommand</span><span class="p">(</span>
+    <span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">,</span> 
+    <span class="n">MyPlugin</span> <span class="n">myPlugin</span><span class="p">,</span>
+    <span class="n">IConfiguration</span> <span class="n">configuration</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">m_MyPlugin</span> <span class="p">=</span> <span class="n">myPlugin</span><span class="p">;</span>
+    <span class="n">m_Configuration</span> <span class="p">=</span> <span class="n">configuration</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div>
 <h2 id="further-reading">Further reading<a class="headerlink" href="#further-reading" title="Permanent link">¶</a></h2>
-<p>If you'd like to know more about dependency injection and how it works - OpenMod is using the Autofac container. Look up examples of this on google.</p>
+<p>For more, read the <a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection">Dependency injection page on docs.microsoft.com</a>.</p>
                 
               
               
@@ -707,6 +739,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../translations/" title="Translations" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Translations
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../scheduling/" title="Scheduling" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Scheduling
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

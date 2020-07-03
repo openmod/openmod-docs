@@ -541,8 +541,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-a-basic-announce-command" class="md-nav__link">
-    Adding a basic announce Command
+  <a href="#adding-a-basic-command" class="md-nav__link">
+    Adding a Basic Command
   </a>
   
 </li>
@@ -581,6 +581,18 @@
   <li class="md-nav__item">
     <a href="../translations/" title="Translations" class="md-nav__link">
       Translations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../services/" title="Services" class="md-nav__link">
+      Services
     </a>
   </li>
 
@@ -640,16 +652,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-8" type="checkbox" id="nav-3-8">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-9" type="checkbox" id="nav-3-9">
     
-    <label class="md-nav__link" for="nav-3-8">
+    <label class="md-nav__link" for="nav-3-9">
       Events
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Events" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-8">
+      <label class="md-nav__title" for="nav-3-9">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -791,8 +803,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-a-basic-announce-command" class="md-nav__link">
-    Adding a basic announce Command
+  <a href="#adding-a-basic-command" class="md-nav__link">
+    Adding a Basic Command
   </a>
   
 </li>
@@ -870,47 +882,42 @@ cd C:\Users\&lt;Username&gt;\source\repos\MyPlugin\
 <p>If you want to create an Unturned plugin project, you can use the following command:
 <div class="highlight"><pre><span></span><code>dotnet new openmod-unturned-plugin --FullPluginName "My Unturned Plugin" --PluginId "MyName.MyUnturnedPlugin"
 </code></pre></div></p>
-<h2 id="adding-a-basic-announce-command">Adding a basic announce Command<a class="headerlink" href="#adding-a-basic-announce-command" title="Permanent link">¶</a></h2>
-<p>Now that you've set up your plugin, you can now start creating commands. Firstly create a new class. In this example we are creating an announce command, so let's just call it AnnounceCommand. We want to make it override Command. This will most likely show an error, but first let's check it's correct before we go into that.</p>
+<h2 id="adding-a-basic-command">Adding a Basic Command<a class="headerlink" href="#adding-a-basic-command" title="Permanent link">¶</a></h2>
+<p>Now that you've set up your plugin, you can now start creating commands. Firstly create a new class. In this example we are creating an echo command, so let's just call it EchoCommand. We want to make it override Command. This will most likely show an error, but first let's check it's correct before we go into that.</p>
 <p>This is what your class should now look like:</p>
-<div class="highlight"><pre><span></span><code><span class="k">namespace</span> <span class="nn">MessageAnnouncer</span>
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">EchoCommand</span> <span class="p">:</span> <span class="n">Command</span>
 <span class="p">{</span>
-    <span class="k">public</span> <span class="k">class</span> <span class="nc">AnnounceCommand</span> <span class="p">:</span> <span class="n">Command</span>
-    <span class="p">{</span>
-    <span class="p">}</span>
-
 <span class="p">}</span>
 </code></pre></div>
-<p>Let's go ahead and fix the error by implementing the method ExecuteAsync() and a constructor. For now, do not worry about what async is. This is going to be the method that executes what you want your command to perform.</p>
+<p>Let's go ahead and fix the error by implementing the method <code>ExecuteAsync()</code> and a constructor. For now, do not worry about what async is. This is going to be the method that executes what you want your command to perform.</p>
 <p>So now, you will be wanting to know how you can actually access the in-game data and methods. You can access the command context without the parameters, by simply using Context (this comes from using the Command abstract class).
 This will allow you to access the Player, from now it is actually quite easy, let's see a finished product of this command.</p>
-<div class="highlight"><pre><span></span><code><span class="na">[Command("announce")]</span>
-<span class="na">[CommandDescription("Announce a message")]</span>
+<div class="highlight"><pre><span></span><code><span class="na">[Command("echo")]</span>
+<span class="na">[CommandDescription("Echo a message")]</span>
 <span class="na">[CommandSyntax("&lt;message&gt;")]</span>
-<span class="k">public</span> <span class="k">class</span> <span class="nc">AnnounceCommand</span> <span class="p">:</span> <span class="n">Command</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">EchoCommand</span> <span class="p">:</span> <span class="n">Command</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="nf">EchoCommand</span><span class="p">(</span><span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
     <span class="p">{</span>
-        <span class="k">public</span> <span class="nf">AnnounceCommand</span><span class="p">(</span><span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
-        <span class="p">{</span>
 
-        <span class="p">}</span>
-
-
-        <span class="k">protected</span> <span class="k">override</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnExecuteAsync</span><span class="p">()</span>
-        <span class="p">{</span>
-            <span class="c1">//This gets us the text that the user wants to announce. We are accessing an array of parameters, which are separated by spaces when the command is called in game</span>
-            <span class="kt">string</span> <span class="n">text</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">[</span><span class="m">0</span><span class="p">];</span>
-
-            <span class="c1">//Do not worry about the await just yet</span>
-            <span class="k">await</span> <span class="n">Context</span><span class="p">.</span><span class="n">Actor</span><span class="p">.</span><span class="n">PrintMessageAsync</span><span class="p">(</span><span class="n">text</span><span class="p">);</span>
-            <span class="c1">//Do not get confused, this will only send a message to the caller. You must use the game's own implementation of broadcast to send to the entire server</span>
-
-        <span class="p">}</span>
     <span class="p">}</span>
+
+    <span class="k">protected</span> <span class="k">override</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnExecuteAsync</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="c1">// This gets us the text that the user wants to echo.</span>
+        <span class="kt">string</span> <span class="n">text</span> <span class="p">=</span> <span class="kt">string</span><span class="p">.</span><span class="n">Join</span><span class="p">(</span><span class="s">" "</span><span class="p">,</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">);</span>
+
+        <span class="k">await</span> <span class="n">Context</span><span class="p">.</span><span class="n">Actor</span><span class="p">.</span><span class="n">PrintMessageAsync</span><span class="p">(</span><span class="n">text</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 </code></pre></div>
-<p>You should now understand what is happening here OnExecuteAsync is getting called by the command handler and it is providing you with the commands "context". At the top, you will see we are setting our command info using attributes.</p>
+<p>OnExecuteAsync is getting called by the command executor and provides you with the commands "context". At the top of the class, you will see we are setting our command metadata using attributes.</p>
+<p>For more, visit the <a href="../commands.md">commands documentation</a>.</p>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
-<p>Do not use static plugin instances, instead always pass instances by reference.<br/>
-OpenMod can dynamically create and destroy your plugin instances, which would result in wrong instances being used.</p>
+<ul>
+<li><strong>Do not</strong> use static plugin instances, instead always pass instances by reference.<br/>
+OpenMod dynamically creates and destroys your plugin instances, which would result in wrong instances being used after reloads.</li>
+</ul>
                 
               
               
