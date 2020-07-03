@@ -789,46 +789,46 @@ It will enqueue the given task on a thread pool. This can be used to run tasks d
 <p>The following examples work on all OpenMod platforms.</p>
 <h3 id="running-a-delayed-task">Running a delayed Task<a class="headerlink" href="#running-a-delayed-task" title="Permanent link">¶</a></h3>
 <p>You can delay a Task like this:</p>
-<p><div class="highlight"><pre><span></span><code>public async Task MyTask()
-{
-    m_Logger.LogInformation("Waiting 5 seconds...");
-    await Task.Wait(TimeSpan.FromSeconds(5));
-    m_Logger.LogInformation("Done!");
-}
+<p><div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">MyTask</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="s">"Waiting 5 seconds..."</span><span class="p">);</span>
+    <span class="k">await</span> <span class="n">Task</span><span class="p">.</span><span class="n">Wait</span><span class="p">(</span><span class="n">TimeSpan</span><span class="p">.</span><span class="n">FromSeconds</span><span class="p">(</span><span class="m">5</span><span class="p">));</span>
+    <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="s">"Done!"</span><span class="p">);</span>
+<span class="p">}</span>
 </code></pre></div>
 Then call AsyncHelper.Schedule like this:
-<div class="highlight"><pre><span></span><code>AsyncHelper.Schedule("My Task", () =&gt; MyTask());
+<div class="highlight"><pre><span></span><code><span class="n">AsyncHelper</span><span class="p">.</span><span class="n">Schedule</span><span class="p">(</span><span class="s">"My Task"</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="n">MyTask</span><span class="p">());</span>
 </code></pre></div></p>
 <h3 id="running-a-task-periodically">Running a Task periodically<a class="headerlink" href="#running-a-task-periodically" title="Permanent link">¶</a></h3>
 <p>If you want to run a Task periodically, all you have to do is to surround your task with a while loop:</p>
-<p><div class="highlight"><pre><span></span><code>public async Task MyPeriodicTask(IOpenModPlugin myPlugin)
-{
-    while(myPlugin.IsAlive) // ensure this task runs only as long as the plugin is loaded 
-    {
-        m_Logger.LogInformation("Waiting 5 seconds...");
-        await Task.Wait(TimeSpan.FromSeconds(5));
-        m_Logger.LogInformation("Done!");
-    }
-}
+<p><div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">MyPeriodicTask</span><span class="p">(</span><span class="n">IOpenModPlugin</span> <span class="n">myPlugin</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">while</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">.</span><span class="n">IsAlive</span><span class="p">)</span> <span class="c1">// ensure this task runs only as long as the plugin is loaded </span>
+    <span class="p">{</span>
+        <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="s">"Waiting 5 seconds..."</span><span class="p">);</span>
+        <span class="k">await</span> <span class="n">Task</span><span class="p">.</span><span class="n">Wait</span><span class="p">(</span><span class="n">TimeSpan</span><span class="p">.</span><span class="n">FromSeconds</span><span class="p">(</span><span class="m">5</span><span class="p">));</span>
+        <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="s">"Done!"</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 </code></pre></div>
 Then call AsyncHelper.Schedule like earlier, but passing the plugin instance:
-<div class="highlight"><pre><span></span><code>AsyncHelper.Schedule("My Task", () =&gt; MyPeriodicTask(myPlugin));
+<div class="highlight"><pre><span></span><code><span class="n">AsyncHelper</span><span class="p">.</span><span class="n">Schedule</span><span class="p">(</span><span class="s">"My Task"</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="n">MyPeriodicTask</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">));</span>
 </code></pre></div></p>
 <h2 id="unityengine">UnityEngine<a class="headerlink" href="#unityengine" title="Permanent link">¶</a></h2>
 <p>The following examples only work with games using the UnityEngine such as Unturned.</p>
 <h3 id="running-a-task-on-every-update">Running a Task on every Update<a class="headerlink" href="#running-a-task-on-every-update" title="Permanent link">¶</a></h3>
 <p>Like in the <code>Running a Task Periodically</code> example, we will use a while loop again.<br/>
 Notice how the return type has changed to <code>UniTask</code> and how the call to the <code>AsyncHelper.Schedule</code> method has changed.</p>
-<div class="highlight"><pre><span></span><code>public async UniTask MyUpdateTask(IOpenModPlugin myPlugin)
-{
-    await UniTask.SwitchToMainThread(); // ensure this runs on main thread first.
-    int i = 0;
-    while(myPlugin.IsAlive) // ensure this task runs only as long as the plugin is loaded 
-    {
-        await UniTask.DelayFrame(1, PlayerLoopTiming.Update);
-        m_Logger.LogInformation($"Frame update: {++i}");
-    }
-}
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">UniTask</span> <span class="nf">MyUpdateTask</span><span class="p">(</span><span class="n">IOpenModPlugin</span> <span class="n">myPlugin</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">await</span> <span class="n">UniTask</span><span class="p">.</span><span class="n">SwitchToMainThread</span><span class="p">();</span> <span class="c1">// ensure this runs on main thread first.</span>
+    <span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+    <span class="k">while</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">.</span><span class="n">IsAlive</span><span class="p">)</span> <span class="c1">// ensure this task runs only as long as the plugin is loaded </span>
+    <span class="p">{</span>
+        <span class="k">await</span> <span class="n">UniTask</span><span class="p">.</span><span class="n">DelayFrame</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="n">PlayerLoopTiming</span><span class="p">.</span><span class="n">Update</span><span class="p">);</span>
+        <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="err">$</span><span class="s">"Frame update: {++i}"</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 </code></pre></div>
 <p>Let's break this down.<br/>
 Inspect the following line:
@@ -851,7 +851,7 @@ The second parameter, PlayerLoopTiming.Update, sets which type of update it shou
 <li>LastPostLateUpdate</li>
 </ul>
 <p>To schedule your task, call the AsyncHelper like this: 
-<div class="highlight"><pre><span></span><code>AsyncHelper.Schedule("My Task", () =&gt; MyUpdateTask(myPlugin).AsTask() /* for UniTask, you will have to use .AsTask() */);
+<div class="highlight"><pre><span></span><code><span class="n">AsyncHelper</span><span class="p">.</span><span class="n">Schedule</span><span class="p">(</span><span class="s">"My Task"</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="n">MyUpdateTask</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">).</span><span class="n">AsTask</span><span class="p">()</span> <span class="cm">/* for UniTask, you will have to use .AsTask() */</span><span class="p">);</span>
 </code></pre></div></p>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
 <p>If your task runs periodically, always ensure it stops running when your plugin gets unloaded. <br/>
