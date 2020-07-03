@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#logging" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -481,6 +486,8 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
     
     <a href="./" title="Logging" class="md-nav__link md-nav__link--active">
       Logging
@@ -591,6 +598,21 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -604,9 +626,22 @@
                   
                 
                 
-                  <h1>Logging</h1>
-                
-                <p>TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO </p>
+                <h1 id="logging">Logging<a class="headerlink" href="#logging" title="Permanent link">¶</a></h1>
+<p>OpenMod uses the <code>Microsoft.Extensions.Logging</code> package for logging abstractions and <a href="https://serilog.net/">Serilog</a> as the logging implementation for it.</p>
+<p>For more, check out the <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger?view=dotnet-plat-ext-3.1">ILogger Interface documentation on docs.microsoft.com</a>. </p>
+<p>You can get a logger instance by injecting it via dependency injection:
+<div class="highlight"><pre><span></span><code>public class MyPlugin : OpenModUniversalPlugin
+{
+    private readonly ILogger&lt;MyPlugin&gt; m_Logger; 
+
+    public MyPlugin(ILogger&lt;MyPlugin&gt; logger, IServiceProvider serviceProvider) : base(serviceProvider)
+    {
+        m_Logger = logger;
+        m_Logger.LogInformation("Hello world!");
+    }
+}
+</code></pre></div></p>
+<p>The generic part (<code>XX</code> in <code>ILogger&lt;XX&gt;</code>) must equal to the class that is using the logger.</p>
                 
               
               
