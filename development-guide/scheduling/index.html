@@ -789,20 +789,19 @@ It will enqueue the given task on a thread pool. This can be used to run tasks d
 <p>The following examples work on all OpenMod platforms.</p>
 <h3 id="running-a-delayed-task">Running a delayed Task<a class="headerlink" href="#running-a-delayed-task" title="Permanent link">¶</a></h3>
 <p>You can delay a Task like this:</p>
-<div class="highlight"><pre><span></span><code>public async Task MyTask()
+<p><div class="highlight"><pre><span></span><code>public async Task MyTask()
 {
     m_Logger.LogInformation("Waiting 5 seconds...");
     await Task.Wait(TimeSpan.FromSeconds(5));
     m_Logger.LogInformation("Done!");
 }
-
-Then call AsyncHelper.Schedule like this:
-```cs
-AsyncHelper.Schedule("My Task", () =&gt; MyTask());
 </code></pre></div>
+Then call AsyncHelper.Schedule like this:
+<div class="highlight"><pre><span></span><code>AsyncHelper.Schedule("My Task", () =&gt; MyTask());
+</code></pre></div></p>
 <h3 id="running-a-task-periodically">Running a Task periodically<a class="headerlink" href="#running-a-task-periodically" title="Permanent link">¶</a></h3>
 <p>If you want to run a Task periodically, all you have to do is to surround your task with a while loop:</p>
-<div class="highlight"><pre><span></span><code>public async Task MyPeriodicTask(IOpenModPlugin myPlugin)
+<p><div class="highlight"><pre><span></span><code>public async Task MyPeriodicTask(IOpenModPlugin myPlugin)
 {
     while(myPlugin.IsAlive) // ensure this task runs only as long as the plugin is loaded 
     {
@@ -811,11 +810,10 @@ AsyncHelper.Schedule("My Task", () =&gt; MyTask());
         m_Logger.LogInformation("Done!");
     }
 }
-
-Then call AsyncHelper.Schedule like earlier, but passing the plugin instance:
-```cs
-AsyncHelper.Schedule("My Task", () =&gt; MyPeriodicTask(myPlugin));
 </code></pre></div>
+Then call AsyncHelper.Schedule like earlier, but passing the plugin instance:
+<div class="highlight"><pre><span></span><code>AsyncHelper.Schedule("My Task", () =&gt; MyPeriodicTask(myPlugin));
+</code></pre></div></p>
 <h2 id="unityengine">UnityEngine<a class="headerlink" href="#unityengine" title="Permanent link">¶</a></h2>
 <p>The following examples only work with games using the UnityEngine such as Unturned.</p>
 <h3 id="running-a-task-on-every-update">Running a Task on every Update<a class="headerlink" href="#running-a-task-on-every-update" title="Permanent link">¶</a></h3>
