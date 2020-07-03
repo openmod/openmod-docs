@@ -31,7 +31,7 @@ mkdir C:\Users\<Username>\source\repos\MyPlugin\
 cd C:\Users\<Username>\source\repos\MyPlugin\
 ``` 
 
-After that, install the Rocket Plugin Templates for .NET Core SDK:
+After that, install the OpenMod Plugin Templates for .NET Core SDK:
 ```
 dotnet new -i "OpenMod.Templates::*"
 ```
