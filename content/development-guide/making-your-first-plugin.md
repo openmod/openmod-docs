@@ -6,7 +6,7 @@
 
 ## IDEs
 
-IDEs (integrated development environment) are always good for a projects like these.
+IDEs (integrated development environment) are always good for a projects like these. These are what you will use to code your plugin.
 
 * Jetbrains Rider - Can be acquired for free with a student license. Works on Linux
 
@@ -30,7 +30,7 @@ The following are dependant on what kind of plugin you want to make:
 * OpenMod.UnityEngine
 
 
-If you're not developing a univerval plugin, make sure to include the base game assemblies (with unity they tend to be called Assembly-CSharp.dll)
+If you're not developing a univerval plugin, make sure to add references to the base game assemblies (with unity they tend to be called Assembly-CSharp.dll)
 
 
 
