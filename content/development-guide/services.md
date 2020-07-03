@@ -14,16 +14,23 @@ You can also add your own services to the container, which will add them to the 
 
 ## List of services
 
-| **Service**                                     |  **Usage**                                             |
-|-------------------------------------------------|------------------------------------------------------|
-| IConfiguration                                  | Reading/Saving Configurations                         |
-| IDependencyContainer                            | Inversion of Control                                 |
-| IDependencyResolver                             | Resolving Services                                   |
-| IEventBus                                       | Eventing                                             |
-| IHost                                           | Service for RocketMod Host                           |
-| ILogger                                         | Logging                                              |
-| IRuntime                                        | Bootstrapping RocketMod                              |
-| IPermissionChecker                              | Permission checks                                    |
+| **Service**                                     |
+|-------------------------------------------------|
+| ICommandExecutor                                |
+| ICommandStore                                   |
+| ICommandPermissionBuilder                       |
+| ICurrentCommandContextAccessor                  |
+| IOpenModStringLocaliser                         | 
+| IDataStoreFactory                               | 
+| IOpenModDataStoreAccessor                       | 
+| IEventBus                                       | 
+| IOpenModHost                                    | 
+| IPermissionChecker                              | 
+| IPermissionRolesDataStore                       |    
+| IUserDataSeeder                                 | 
+| IUserDataStore                                  | 
+| IUserManager                                    | 
+| IRuntime                                        | 
 
 
 ## Example
