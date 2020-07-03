@@ -541,8 +541,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-a-basic-teleport-command" class="md-nav__link">
-    Adding a basic Teleport Command
+  <a href="#adding-a-basic-announce-command" class="md-nav__link">
+    Adding a basic announce Command
   </a>
   
 </li>
@@ -779,8 +779,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-a-basic-teleport-command" class="md-nav__link">
-    Adding a basic Teleport Command
+  <a href="#adding-a-basic-announce-command" class="md-nav__link">
+    Adding a basic announce Command
   </a>
   
 </li>
@@ -858,8 +858,43 @@ cd C:\Users\&lt;Username&gt;\source\repos\MyPlugin\
 <p>If you want to create an Unturned plugin project, you can use the following command:
 <div class="highlight"><pre><span></span><code>dotnet new openmod-unturned-plugin --FullPluginName "My Unturned Plugin" --PluginId "MyName.MyUnturnedPlugin"
 </code></pre></div></p>
-<h2 id="adding-a-basic-teleport-command">Adding a basic Teleport Command<a class="headerlink" href="#adding-a-basic-teleport-command" title="Permanent link">¶</a></h2>
-<p>TODO</p>
+<h2 id="adding-a-basic-announce-command">Adding a basic announce Command<a class="headerlink" href="#adding-a-basic-announce-command" title="Permanent link">¶</a></h2>
+<p>Now that you've set up your plugin, you can now start creating commands. Firstly create a new class. In this example we are creating a teleport command, so let's just call it TeleportCommand. We want to make it override Command. This will most likely show an error, but first let's check it's correct before we go into that.</p>
+<p>This is what your class should now look like:</p>
+<div class="highlight"><pre><span></span><code><span class="k">namespace</span> <span class="nn">MessageAnnouncer</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">class</span> <span class="nc">AnnounceCommand</span> <span class="p">:</span> <span class="n">Command</span>
+    <span class="p">{</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div>
+<p>Let's go ahead and fix the error by implementing the method ExecuteAsync() and a constructor. For now, do not worry about what async is. This is going to be the method that executes what you want your command to perform.</p>
+<p>So now, you will be wanting to know how you can actually access the in-game data and methods. You can access the command context without the parameters, by simply using Context (this comes from using the Command abstract class).
+This will allow you to access the Player, from now it is actually quite easy, let's see a finished product of this command.</p>
+<div class="highlight"><pre><span></span><code><span class="na">[Command("announce")]</span>
+<span class="na">[CommandDescription("Announce a message")]</span>
+<span class="na">[CommandSyntax("&lt;message&gt;")]</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">AnnounceCommand</span> <span class="p">:</span> <span class="n">Command</span>
+    <span class="p">{</span>
+        <span class="k">public</span> <span class="nf">AnnounceCommand</span><span class="p">(</span><span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
+        <span class="p">{</span>
+
+        <span class="p">}</span>
+
+
+        <span class="k">protected</span> <span class="k">override</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnExecuteAsync</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="c1">//This gets us the text that the user wants to announce. We are accessing an array of parameters, which are separated by spaces when the command is called in game</span>
+            <span class="kt">string</span> <span class="n">text</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">[</span><span class="m">0</span><span class="p">];</span>
+
+            <span class="c1">//Do not worry about the await just yet</span>
+            <span class="k">await</span> <span class="n">Context</span><span class="p">.</span><span class="n">Actor</span><span class="p">.</span><span class="n">PrintMessageAsync</span><span class="p">(</span><span class="n">text</span><span class="p">);</span>
+
+        <span class="p">}</span>
+    <span class="p">}</span>
+</code></pre></div>
+<p>You should now understand what is happening here OnExecuteAsync is getting called by the command handler and it is providing you with the commands "context". At the top, you will see we are setting our command info using attributes.</p>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
 <p>Do not use static plugin instances, instead always pass instances by reference.<br/>
 OpenMod can dynamically create and destroy your plugin instances, which would result in wrong instances being used.</p>
