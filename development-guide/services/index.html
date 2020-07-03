@@ -517,21 +517,21 @@
       
         <li class="md-nav__item">
   <a href="#registering-your-own-services" class="md-nav__link">
-    Registering your own Services
+    Registering your own services
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#list-of-built-in-services" class="md-nav__link">
-    List of built-in services
+  <a href="#built-in-openmod-services" class="md-nav__link">
+    Built-in OpenMod services
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#dependency-injection-example" class="md-nav__link">
-    Dependency Injection Example
+    Dependency injection example
   </a>
   
 </li>
@@ -696,21 +696,21 @@
       
         <li class="md-nav__item">
   <a href="#registering-your-own-services" class="md-nav__link">
-    Registering your own Services
+    Registering your own services
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#list-of-built-in-services" class="md-nav__link">
-    List of built-in services
+  <a href="#built-in-openmod-services" class="md-nav__link">
+    Built-in OpenMod services
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#dependency-injection-example" class="md-nav__link">
-    Dependency Injection Example
+    Dependency injection example
   </a>
   
 </li>
@@ -745,9 +745,11 @@
                 <h1 id="services-and-dependency-injection">Services and Dependency Injection<a class="headerlink" href="#services-and-dependency-injection" title="Permanent link">¶</a></h1>
 <p>OpenMod, like other modern .NET projects, uses the dependency injection pattern. This guide aims to simplify it and explain what it means for plugin developers using OpenMod.</p>
 <p>Plugins, commands, event listeners and services can automatically get references to any other services provided by OpenMod or plugins just by adding their interfaces to the constructor.  </p>
-<h2 id="registering-your-own-services">Registering your own Services<a class="headerlink" href="#registering-your-own-services" title="Permanent link">¶</a></h2>
-<p>You can register your own services by implementing the <code>IServiceConfigurator</code> or <code>IContainerConfigurator</code> interfaces in any class.</p>
-<h2 id="list-of-built-in-services">List of built-in services<a class="headerlink" href="#list-of-built-in-services" title="Permanent link">¶</a></h2>
+<h2 id="registering-your-own-services">Registering your own services<a class="headerlink" href="#registering-your-own-services" title="Permanent link">¶</a></h2>
+<p>There are two ways to register a service:
+1. Registering by using the<code>[Service]</code> attribute for the interface and <code>[ServiceImplementation]</code> for the concrete class.
+2. Registering manually by implementing the <code>IServiceConfigurator</code> or <code>IContainerConfigurator</code> interfaces. Classes which implement these interfaces are automatically instantiated when the IoC container is configured and can be used to configure the container directly. </p>
+<h2 id="built-in-openmod-services">Built-in OpenMod services<a class="headerlink" href="#built-in-openmod-services" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
@@ -808,7 +810,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="dependency-injection-example">Dependency Injection Example<a class="headerlink" href="#dependency-injection-example" title="Permanent link">¶</a></h2>
+<h2 id="dependency-injection-example">Dependency injection example<a class="headerlink" href="#dependency-injection-example" title="Permanent link">¶</a></h2>
 <p>Assume you want to access your plugin's instance and configuration from a command. Here is how you could do it:</p>
 <div class="highlight"><pre><span></span><code><span class="k">private</span> <span class="k">readonly</span> <span class="n">IConfiguration</span> <span class="n">m_Configuration</span><span class="p">;</span>
 <span class="k">private</span> <span class="k">readonly</span> <span class="n">MyPlugin</span> <span class="n">m_MyPlugin</span><span class="p">;</span>
