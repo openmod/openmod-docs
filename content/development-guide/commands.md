@@ -149,7 +149,7 @@ public class CommandAwesomeMore : Command
 }
 ```
 
-## Best Pracices
+## Best Practices
 * **Do not** handle sub commands yourself (e.g. `if(Context.Parameters[0] == "add")`). OpenMod can not discover your subcommands and provide additional help or tab completion in that case.  
 * **Do not** hardcode messages. Instead, use [translations](../translations.md) so users can customize and translate your messages.
 * When writing commands, keep in mind that any type of user could execute your command by default. Maybe a plugin adds a DiscordUser and someone from Discord executes your command. Try to write your commands in a way that works with all kind of users or restrict the allowed actors as mentioned earlier.
