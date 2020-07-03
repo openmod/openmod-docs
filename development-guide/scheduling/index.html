@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#scheduling-tasks" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -469,10 +474,92 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Scheduling
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
     
     <a href="./" title="Scheduling" class="md-nav__link md-nav__link--active">
       Scheduling
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#universal" class="md-nav__link">
+    Universal
+  </a>
+  
+    <nav class="md-nav" aria-label="Universal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#running-a-delayed-task" class="md-nav__link">
+    Running a delayed Task
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-a-task-periodically" class="md-nav__link">
+    Running a Task periodically
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unity" class="md-nav__link">
+    Unity
+  </a>
+  
+    <nav class="md-nav" aria-label="Unity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#running-a-task-on-every-update" class="md-nav__link">
+    Running a Task on every Update
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -591,6 +678,85 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#universal" class="md-nav__link">
+    Universal
+  </a>
+  
+    <nav class="md-nav" aria-label="Universal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#running-a-delayed-task" class="md-nav__link">
+    Running a delayed Task
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-a-task-periodically" class="md-nav__link">
+    Running a Task periodically
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unity" class="md-nav__link">
+    Unity
+  </a>
+  
+    <nav class="md-nav" aria-label="Unity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#running-a-task-on-every-update" class="md-nav__link">
+    Running a Task on every Update
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -604,9 +770,82 @@
                   
                 
                 
-                  <h1>Scheduling</h1>
-                
-                <p>TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO </p>
+                <h1 id="scheduling-tasks">Scheduling Tasks<a class="headerlink" href="#scheduling-tasks" title="Permanent link">¶</a></h1>
+<p>OpenMod provides the <code>AsyncHelper.Schedule</code> method for fire-and-forget tasks.<br/>
+It will enqueue the given task on a thread pool. This can be used to run tasks delayed or periodically.  </p>
+<h2 id="universal">Universal<a class="headerlink" href="#universal" title="Permanent link">¶</a></h2>
+<p>The following examples work on all OpenMod platforms.</p>
+<h3 id="running-a-delayed-task">Running a delayed Task<a class="headerlink" href="#running-a-delayed-task" title="Permanent link">¶</a></h3>
+<p>You can delay a Task like this:</p>
+<div class="highlight"><pre><span></span><code>public async Task MyTask()
+{
+    m_Logger.LogInformation("Waiting 5 seconds...");
+    await Task.Wait(TimeSpan.FromSeconds(5));
+    m_Logger.LogInformation("Done!");
+}
+
+Then call AsyncHelper.Schedule like this:
+```cs
+AsyncHelper.Schedule("My Task", () =&gt; MyTask());
+</code></pre></div>
+<h3 id="running-a-task-periodically">Running a Task periodically<a class="headerlink" href="#running-a-task-periodically" title="Permanent link">¶</a></h3>
+<p>If you want to run a Task periodically, all you have to do is to surround your task with a while loop:</p>
+<div class="highlight"><pre><span></span><code>public async Task MyPeriodicTask(IOpenModPlugin myPlugin)
+{
+    while(myPlugin.IsAlive) // ensure this task runs only as long as the plugin is loaded 
+    {
+        m_Logger.LogInformation("Waiting 5 seconds...");
+        await Task.Wait(TimeSpan.FromSeconds(5));
+        m_Logger.LogInformation("Done!");
+    }
+}
+
+Then call AsyncHelper.Schedule like earlier, but passing the plugin instance:
+```cs
+AsyncHelper.Schedule("My Task", () =&gt; MyPeriodicTask(myPlugin));
+</code></pre></div>
+<h2 id="unity">Unity<a class="headerlink" href="#unity" title="Permanent link">¶</a></h2>
+<p>The following examples only work with games using the UnityEngine such as Unturned.</p>
+<h3 id="running-a-task-on-every-update">Running a Task on every Update<a class="headerlink" href="#running-a-task-on-every-update" title="Permanent link">¶</a></h3>
+<p>Like in the <code>Running a Task Periodically</code> example, we will use a while loop again.<br/>
+Notice how the return type has changed to <code>UniTask</code> and how the call to the <code>AsyncHelper.Schedule</code> method has changed.</p>
+<div class="highlight"><pre><span></span><code>public async UniTask MyUpdateTask(IOpenModPlugin myPlugin)
+{
+    await UniTask.SwitchToMainThread(); // ensure this runs on main thread first.
+    int i = 0;
+    while(myPlugin.IsAlive) // ensure this task runs only as long as the plugin is loaded 
+    {
+        await UniTask.DelayFrame(1, PlayerLoopTiming.Update);
+        m_Logger.LogInformation($"Frame update: {++i}");
+    }
+}
+</code></pre></div>
+<p>Let's break this down.<br/>
+Inspect the following line:
+<code>await UniTask.DelayFrame(1, PlayerLoopTiming.Update)</code><br/>
+The first parameter, the 1, defines how many frames to wait. So this example will always wait one frame, and hence runs on every frame update.<br/>
+The second parameter, PlayerLoopTiming.Update, sets which type of update it should wait for. In this example it is a normal frame update. You can use other update types such as FixedUpdate too.</p>
+<p>The following update types are available:</p>
+<ul>
+<li>EarlyUpdate,</li>
+<li>LastEarlyUpdate,</li>
+<li>FixedUpdate,</li>
+<li>LastFixedUpdate,</li>
+<li>PreUpdate,</li>
+<li>LastPreUpdate,</li>
+<li>Update,</li>
+<li>LastUpdate,</li>
+<li>PreLateUpdate,</li>
+<li>LastPreLateUpdate,</li>
+<li>PostLateUpdate,</li>
+<li>LastPostLateUpdate</li>
+</ul>
+<p>To schedule your task, call the AsyncHelper like this: 
+<div class="highlight"><pre><span></span><code>AsyncHelper.Schedule("My Task", () =&gt; MyPeriodicTask(myPlugin).AsTask() /* for UniTask, you will have to use .AsTask() */);
+</code></pre></div></p>
+<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
+<p>If your task runs periodically, always ensure it stops running when your plugin gets unloaded. <br/>
+<strong>Do not</strong> use Thread.Sleep or similar blocking methods like non-async I/O methods in Tasks. These methods will block the thread and prevent other tasks from running. Always use the async Task methods instead, like <code>Task.Wait</code>.</p>
                 
               
               
