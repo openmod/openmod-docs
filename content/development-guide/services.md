@@ -53,4 +53,4 @@ public EchoCommand(
 ```
 
 ## Further reading
-For more, read the [Dependency injection page on docs.microsoft.com](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection).
+For more, read the [Dependency injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection) page on docs.microsoft.com.

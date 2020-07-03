@@ -33,4 +33,4 @@ You can install your plugin with `openmod install <YourPackageId>`.
     You may get the "PackageOrVersionNotFound" error after trying to install your plugin. This means your upload has not 
     been verified or indexed yet. It usually takes about an hour until nuget.org uploads are verified and indexed.
 
-For more, read the [Publish to nuget.org page](https://docs.microsoft.com/en-us/nuget/nuget-org/publish-a-package) and the [Create and publish a NuGet package (dotnet CLI)](https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli) pages on docs.microsoft.com.
+For more, read the [Publish to nuget.org](https://docs.microsoft.com/en-us/nuget/nuget-org/publish-a-package) and [Create and publish a NuGet package (dotnet CLI)](https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli) pages on docs.microsoft.com.
