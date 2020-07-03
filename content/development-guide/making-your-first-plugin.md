@@ -87,6 +87,9 @@ So now, you will be wanting to know how you can actually access the in-game data
 This will allow you to access the Player, from now it is actually quite easy, let's see a finished product of this command.
 
 ```c#
+[Command("announce")]
+[CommandDescription("Announce a message")]
+[CommandSyntax("<message>")]
 public class AnnounceCommand : Command
     {
         public AnnounceCommand(IServiceProvider serviceProvider) : base(serviceProvider)
@@ -107,7 +110,7 @@ public class AnnounceCommand : Command
     }
 ```
 
-You should now understand what is happening here OnExecuteAsync is getting called by the command handler and it is providing you with the commands "context".
+You should now understand what is happening here OnExecuteAsync is getting called by the command handler and it is providing you with the commands "context". At the top, you will see we are setting our command info using attributes.
 
 
 
