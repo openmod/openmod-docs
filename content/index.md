@@ -1,4 +1,4 @@
-# OpenMod Dodumentation
+# OpenMod Documentation
 Welcome to the OpenMod Documentation.
 
 OpenMod is a .NET plugin framework.
