@@ -22,11 +22,11 @@ I would like to access my plugin's configuration in a command. Here is how I do 
 
 ```c#
 //This is now accessible by the execute method
-private IConfiguration _configuration;
+private IConfiguration m_Configuration;
 
 public AnnounceCommand(IServiceProvider serviceProvider, IConfiguration configuration) : base(serviceProvider)
         {
-            _configuration = configuration;
+            m_Configuration = configuration;
         }
 ```
 
