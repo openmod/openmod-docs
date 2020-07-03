@@ -516,20 +516,6 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    Introduction
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-does-dependency-injection-mean-for-me" class="md-nav__link">
-    What does Dependency Injection mean for me?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#registering-your-own-services" class="md-nav__link">
     Registering your own Services
   </a>
@@ -537,8 +523,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#list-of-services" class="md-nav__link">
-    List of services
+  <a href="#list-of-built-in-services" class="md-nav__link">
+    List of built-in services
   </a>
   
 </li>
@@ -709,20 +695,6 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    Introduction
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-does-dependency-injection-mean-for-me" class="md-nav__link">
-    What does Dependency Injection mean for me?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#registering-your-own-services" class="md-nav__link">
     Registering your own Services
   </a>
@@ -730,8 +702,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#list-of-services" class="md-nav__link">
-    List of services
+  <a href="#list-of-built-in-services" class="md-nav__link">
+    List of built-in services
   </a>
   
 </li>
@@ -771,14 +743,11 @@
                 
                 
                 <h1 id="services-and-dependency-injection">Services and Dependency Injection<a class="headerlink" href="#services-and-dependency-injection" title="Permanent link">¶</a></h1>
-<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h2>
 <p>OpenMod, like other modern .NET projects, uses the dependency injection pattern. This guide aims to simplify it and explain what it means for plugin developers using OpenMod.</p>
-<h2 id="what-does-dependency-injection-mean-for-me">What does Dependency Injection mean for me?<a class="headerlink" href="#what-does-dependency-injection-mean-for-me" title="Permanent link">¶</a></h2>
-<p>In short, you do not have to create public static instances of any of your classes.</p>
 <p>Plugins, commands, event listeners and services can automatically get references to any other services provided by OpenMod or plugins just by adding their interfaces to the constructor.  </p>
 <h2 id="registering-your-own-services">Registering your own Services<a class="headerlink" href="#registering-your-own-services" title="Permanent link">¶</a></h2>
 <p>You can register your own services by implementing the <code>IServiceConfigurator</code> or <code>IContainerConfigurator</code> interfaces in any class.</p>
-<h2 id="list-of-services">List of services<a class="headerlink" href="#list-of-services" title="Permanent link">¶</a></h2>
+<h2 id="list-of-built-in-services">List of built-in services<a class="headerlink" href="#list-of-built-in-services" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
