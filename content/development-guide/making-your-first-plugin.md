@@ -12,6 +12,9 @@ Install the latest .NET Core SDK from [here](https://dotnet.microsoft.com/downlo
 ## Installing the IDE for coding
 After setting up .NET Core SDK, we will need to install an IDE. The IDE provides us an environment where we can code our plugins.
 
+### Rider
+If you are using Linux, you can install [Rider](https://www.jetbrains.com/rider/). Although it is paid, it can be obtained for free by applying for a Jetbrains Student License (applicable to a wide variety of situations). It works very similarly to Visual Studio.
+
 ### Visual Studio Code
 You can use [install Visual Studio Code](https://code.visualstudio.com/) for developing plugins and is supported on Linux, MacOS and Windows. Visual Studio Code is the preferred solution for small- to mid-sized projects. It is supported for all OpenMod platforms.
 
