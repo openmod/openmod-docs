@@ -833,12 +833,14 @@ The <code>[CommandActor(Type)]</code> attribute allows you to specify such restr
 </code></pre></div></p>
 <h2 id="exceptions">Exceptions<a class="headerlink" href="#exceptions" title="Permanent link">¶</a></h2>
 <p>Exceptions derivering from <code>UserFriendlyException</code> are automatically catched by OpenMod and displayed to the user in a user friendly way.  </p>
-<p>These built-in exceptions available:<br/>
-* NotEnoughPermissionException, can be thrown if the user does not have enough permission to execute an action.
-* CommandWrongUsageException, can be thrown on wrong command usage. Displays correct usage based on command syntax.
-* CommandIndexOutOfRangeException, thrown automatically by Parameters.Get if the given index is bigger than the arguments length.
-* CommandParameterParseException, thrown automatically by Parameters.Get if the parameter could not be parsed to the expected type.
-* CommandNotFoundException, thrown automatically if a command was not found.</p>
+<p>These built-in exceptions available: </p>
+<ul>
+<li>NotEnoughPermissionException, can be thrown if the user does not have enough permission to execute an action.</li>
+<li>CommandWrongUsageException, can be thrown on wrong command usage. Displays correct usage based on command syntax.</li>
+<li>CommandIndexOutOfRangeException, thrown automatically by Parameters.Get if the given index is bigger than the arguments length.</li>
+<li>CommandParameterParseException, thrown automatically by Parameters.Get if the parameter could not be parsed to the expected type.</li>
+<li>CommandNotFoundException, thrown automatically if a command was not found.</li>
+</ul>
 <div class="highlight"><pre><span></span><code>public async Task OnExecuteAsync()
 {
     var player = Context.Parameters.Get&lt;string&gt;(0);
