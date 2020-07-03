@@ -1,5 +1,5 @@
 # Publishing to nuget.org
-If you want your plugin to be installable from `openmod install`, you need to publish it to nuget.org.
+If you want your plugin to be installable from `openmod install`, you will need to publish it to nuget.org.  
 You will need a Microsoft account for [nuget.org](https://www.nuget.org/). 
 
 # Preparing your plugin for NuGet
