@@ -11,7 +11,7 @@
         <meta name="description" content="OpenMod .NET Plugin Framwework Documentation">
       
       
-        <link rel="canonical" href="https://openmod.github.io/openmod-docs/development-guide/making-your-first-plugin/">
+        <link rel="canonical" href="https://openmod.github.io/openmod-docs/development-guide/services/">
       
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
@@ -19,7 +19,7 @@
     
     
       
-        <title>Making your first plugin - OpenMod Documentation</title>
+        <title>Services and Dependency Injection - OpenMod Documentation</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#making-your-first-plugin" class="md-skip">
+        <a href="#services-and-dependency-injection" class="md-skip">
           Skip to content
         </a>
       
@@ -90,7 +90,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Making your first plugin
+              Services and Dependency Injection
             
           </span>
         </div>
@@ -416,12 +416,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
       Development Guide
@@ -443,121 +441,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Making your first plugin
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
-        </span>
-      </label>
-    
-    <a href="./" title="Making your first plugin" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../making-your-first-plugin/" title="Making your first plugin" class="md-nav__link">
       Making your first plugin
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installing-net-core-sdk" class="md-nav__link">
-    Installing .NET Core SDK
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installing-the-ide-for-coding" class="md-nav__link">
-    Installing the IDE for coding
-  </a>
-  
-    <nav class="md-nav" aria-label="Installing the IDE for coding">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#rider" class="md-nav__link">
-    Rider
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#visual-studio-code" class="md-nav__link">
-    Visual Studio Code
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#visual-studio" class="md-nav__link">
-    Visual Studio
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#generating-the-plugin-project" class="md-nav__link">
-    Generating the Plugin Project
-  </a>
-  
-    <nav class="md-nav" aria-label="Generating the Plugin Project">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    Example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-a-basic-announce-command" class="md-nav__link">
-    Adding a basic announce Command
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
-    Best Practices
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -730,76 +618,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installing-net-core-sdk" class="md-nav__link">
-    Installing .NET Core SDK
+  <a href="#introduction" class="md-nav__link">
+    Introduction
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#installing-the-ide-for-coding" class="md-nav__link">
-    Installing the IDE for coding
+  <a href="#what-does-dependency-injection-mean-for-me" class="md-nav__link">
+    What does Dependency Injection mean for me?
   </a>
-  
-    <nav class="md-nav" aria-label="Installing the IDE for coding">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#rider" class="md-nav__link">
-    Rider
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#visual-studio-code" class="md-nav__link">
-    Visual Studio Code
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#visual-studio" class="md-nav__link">
-    Visual Studio
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#generating-the-plugin-project" class="md-nav__link">
-    Generating the Plugin Project
+  <a href="#list-of-services" class="md-nav__link">
+    List of services
   </a>
   
-    <nav class="md-nav" aria-label="Generating the Plugin Project">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     Example
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#adding-a-basic-announce-command" class="md-nav__link">
-    Adding a basic announce Command
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
-    Best Practices
+  <a href="#further-reading" class="md-nav__link">
+    Further reading
   </a>
   
 </li>
@@ -816,7 +664,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/openmod/openmod-docs/edit/master/content/development-guide/making-your-first-plugin.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/openmod/openmod-docs/edit/master/content/development-guide/services.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -824,93 +672,27 @@
                   
                 
                 
-                <h1 id="making-your-first-plugin">Making your first plugin<a class="headerlink" href="#making-your-first-plugin" title="Permanent link">¶</a></h1>
-<p>In this guide we will cover:</p>
-<ol>
-<li>Setting up development environment.</li>
-<li>Creating a plugin project.</li>
-<li>Writing a basic plugin.</li>
-</ol>
-<h2 id="installing-net-core-sdk">Installing .NET Core SDK<a class="headerlink" href="#installing-net-core-sdk" title="Permanent link">¶</a></h2>
-<p>Install the latest .NET Core SDK from <a href="https://dotnet.microsoft.com/download/dotnet-core/3.1">here</a> (you should dowlnoad a dotnet-sdk-xxxxx.zip).</p>
-<h2 id="installing-the-ide-for-coding">Installing the IDE for coding<a class="headerlink" href="#installing-the-ide-for-coding" title="Permanent link">¶</a></h2>
-<p>After setting up .NET Core SDK, we will need to install an IDE. The IDE provides us an environment where we can code our plugins.</p>
-<h3 id="rider">Rider<a class="headerlink" href="#rider" title="Permanent link">¶</a></h3>
-<p>If you are using Linux, you can install <a href="https://www.jetbrains.com/rider/">Rider</a>. Although it is paid, it can be obtained for free by applying for a Jetbrains Student License (applicable to a wide variety of situations). It works very similarly to Visual Studio.</p>
-<h3 id="visual-studio-code">Visual Studio Code<a class="headerlink" href="#visual-studio-code" title="Permanent link">¶</a></h3>
-<p>You can use <a href="https://code.visualstudio.com/">install Visual Studio Code</a> for developing plugins and is supported on Linux, MacOS and Windows. Visual Studio Code is the preferred solution for small- to mid-sized projects. It is supported for all OpenMod platforms.</p>
-<h3 id="visual-studio">Visual Studio<a class="headerlink" href="#visual-studio" title="Permanent link">¶</a></h3>
-<p>If you want a full IDE experience, download and install <a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio Community Edition</a>. Visual Studio is only supported on Windows platforms. When the installer starts, select "Visual Studio 2019 Community Edition" (or newer, if available). After that select the .NET Core cross-platform development and the .NET Desktop Development options like shown below. </p>
-<p><img alt="Selecting .NET desktop development option" src="https://docs.microsoft.com/en-us/visualstudio/install/media/vs2017-modify-workloads.png?view=vs-2017g"/></p>
-<p><img alt="Selecting .NET Core cross-platform development option" src="https://static.packt-cdn.com/products/9781787281905/graphics/image_05_002.png"/></p>
-<h2 id="generating-the-plugin-project">Generating the Plugin Project<a class="headerlink" href="#generating-the-plugin-project" title="Permanent link">¶</a></h2>
-<p>Start cmd or Powershell and navigate to the folder where you want to create the plugin project.</p>
-<p>E.g.
-<div class="highlight"><pre><span></span><code>mkdir C:\Users\&lt;Username&gt;\source\repos\MyPlugin\
-cd C:\Users\&lt;Username&gt;\source\repos\MyPlugin\
-</code></pre></div></p>
-<p>After that, install the OpenMod Plugin Templates for .NET Core SDK:
-<div class="highlight"><pre><span></span><code>dotnet new -i "OpenMod.Templates::*"
-</code></pre></div></p>
-<p>Finally, you can generate the plugin project with this command:<br/>
-<div class="highlight"><pre><span></span><code>dotnet new openmod-universal-plugin --PluginId &lt;PluginId&gt; [--FullPluginName &lt;FullPluginName&gt;]
-</code></pre></div></p>
-<p>or, if you want to develop a plugin for Unturned:<br/>
-<div class="highlight"><pre><span></span><code>dotnet new openmod-unturned-plugin --PluginId &lt;PluginId&gt; [--FullPluginName &lt;FullPluginName&gt;]
-</code></pre></div></p>
-<p><code>PluginId</code> must be a unique identifier for your plugin. By convention, it is the same as the NuGet package ID.<br/>
-<code>FullPluginName</code> is optional and will set how your plugin should be displayed to the user.</p>
-<p>To get the full help for the command, you can use the --help switch like this:<br/>
-<div class="highlight"><pre><span></span><code>dotnet new openmod-universal-plugin --help
-</code></pre></div></p>
-<p>or, for Unturned:<br/>
-<div class="highlight"><pre><span></span><code>dotnet new openmod-unturned-plugin --help
-</code></pre></div></p>
-<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">¶</a></h3>
-<p>If you want to create an Unturned plugin project, you can use the following command:
-<div class="highlight"><pre><span></span><code>dotnet new openmod-unturned-plugin --FullPluginName "My Unturned Plugin" --PluginId "MyName.MyUnturnedPlugin"
-</code></pre></div></p>
-<h2 id="adding-a-basic-announce-command">Adding a basic announce Command<a class="headerlink" href="#adding-a-basic-announce-command" title="Permanent link">¶</a></h2>
-<p>Now that you've set up your plugin, you can now start creating commands. Firstly create a new class. In this example we are creating an announce command, so let's just call it AnnounceCommand. We want to make it override Command. This will most likely show an error, but first let's check it's correct before we go into that.</p>
-<p>This is what your class should now look like:</p>
-<div class="highlight"><pre><span></span><code><span class="k">namespace</span> <span class="nn">MessageAnnouncer</span>
-<span class="p">{</span>
-    <span class="k">public</span> <span class="k">class</span> <span class="nc">AnnounceCommand</span> <span class="p">:</span> <span class="n">Command</span>
-    <span class="p">{</span>
-    <span class="p">}</span>
+                <h1 id="services-and-dependency-injection">Services and Dependency Injection<a class="headerlink" href="#services-and-dependency-injection" title="Permanent link">¶</a></h1>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h2>
+<p>OpenMod, like a lot of modern .NET projects, uses Dependency Injection. This guide aims to simplify it and explain what it means for plugin developers using OpenMod.</p>
+<h2 id="what-does-dependency-injection-mean-for-me">What does Dependency Injection mean for me?<a class="headerlink" href="#what-does-dependency-injection-mean-for-me" title="Permanent link">¶</a></h2>
+<p>In short, you do not have to create public static instances of any of your classes.</p>
+<p>Your plugins services can have a constructor with any services provided by OpenMod and these will all be passed automatically by the container.</p>
+<p>You can also add your own services to the container, which will add them to the ecosystem. You do NOT need to do this for commands or event handlers however (they are registered automatically by OpenMod)</p>
+<h2 id="list-of-services">List of services<a class="headerlink" href="#list-of-services" title="Permanent link">¶</a></h2>
+<p>TODOODODOODODODOODODODODOODODODO</p>
+<h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">¶</a></h2>
+<p>I would like to access my plugin's configuration in a command. Here is how I do this:</p>
+<div class="highlight"><pre><span></span><code><span class="c1">//This is now accessible by the execute method</span>
+<span class="k">private</span> <span class="n">IConfiguration</span> <span class="n">m_Configuration</span><span class="p">;</span>
 
-<span class="p">}</span>
-</code></pre></div>
-<p>Let's go ahead and fix the error by implementing the method ExecuteAsync() and a constructor. For now, do not worry about what async is. This is going to be the method that executes what you want your command to perform.</p>
-<p>So now, you will be wanting to know how you can actually access the in-game data and methods. You can access the command context without the parameters, by simply using Context (this comes from using the Command abstract class).
-This will allow you to access the Player, from now it is actually quite easy, let's see a finished product of this command.</p>
-<div class="highlight"><pre><span></span><code><span class="na">[Command("announce")]</span>
-<span class="na">[CommandDescription("Announce a message")]</span>
-<span class="na">[CommandSyntax("&lt;message&gt;")]</span>
-<span class="k">public</span> <span class="k">class</span> <span class="nc">AnnounceCommand</span> <span class="p">:</span> <span class="n">Command</span>
-    <span class="p">{</span>
-        <span class="k">public</span> <span class="nf">AnnounceCommand</span><span class="p">(</span><span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
+<span class="k">public</span> <span class="nf">AnnounceCommand</span><span class="p">(</span><span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">,</span> <span class="n">IConfiguration</span> <span class="n">configuration</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
         <span class="p">{</span>
-
+            <span class="n">m_Configuration</span> <span class="p">=</span> <span class="n">configuration</span><span class="p">;</span>
         <span class="p">}</span>
-
-
-        <span class="k">protected</span> <span class="k">override</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnExecuteAsync</span><span class="p">()</span>
-        <span class="p">{</span>
-            <span class="c1">//This gets us the text that the user wants to announce. We are accessing an array of parameters, which are separated by spaces when the command is called in game</span>
-            <span class="kt">string</span> <span class="n">text</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">[</span><span class="m">0</span><span class="p">];</span>
-
-            <span class="c1">//Do not worry about the await just yet</span>
-            <span class="k">await</span> <span class="n">Context</span><span class="p">.</span><span class="n">Actor</span><span class="p">.</span><span class="n">PrintMessageAsync</span><span class="p">(</span><span class="n">text</span><span class="p">);</span>
-            <span class="c1">//Do not get confused, this will only send a message to the caller. You must use the game's own implementation of broadcast to send to the entire server</span>
-
-        <span class="p">}</span>
-    <span class="p">}</span>
 </code></pre></div>
-<p>You should now understand what is happening here OnExecuteAsync is getting called by the command handler and it is providing you with the commands "context". At the top, you will see we are setting our command info using attributes.</p>
-<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
-<p>Do not use static plugin instances, instead always pass instances by reference.<br/>
-OpenMod can dynamically create and destroy your plugin instances, which would result in wrong instances being used.</p>
+<h2 id="further-reading">Further reading<a class="headerlink" href="#further-reading" title="Permanent link">¶</a></h2>
+<p>If you'd like to know more about dependency injection and how it works - OpenMod is using the Autofac container. Look up examples of this on google.</p>
                 
               
               
@@ -925,41 +707,6 @@ OpenMod can dynamically create and destroy your plugin instances, which would re
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
-        
-          <a href="../../user-guide/logging/" title="Logging" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-            </div>
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Logging
-              </div>
-            </div>
-          </a>
-        
-        
-          <a href="../commands/" title="Commands" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Commands
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
