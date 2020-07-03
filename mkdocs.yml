@@ -32,7 +32,7 @@ pages:
             - OpenMod Events: development-guide/events/events.md
             - Built-in Events: development-guide/events/builtin-events.md
             - Game Events: development-guide/events/game-events.md
-        - Uploading to nuget.org: development-guide/uploading-to-nuget.md
+        - Uploading to nuget.org: development-guide/publishing-to-nuget.md
 plugins:
   - search
   - autoreflinks

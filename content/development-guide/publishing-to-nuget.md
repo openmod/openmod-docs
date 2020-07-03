@@ -1,5 +1,5 @@
-# Uploading to nuget.org
-If you want your plugin to be installable from `openmod install`, you need to upload it to nuget.org.
+# Publishing to nuget.org
+If you want your plugin to be installable from `openmod install`, you need to publish it to nuget.org.
 You will need a Microsoft account for [nuget.org](https://www.nuget.org/). 
 
 # Preparing your plugin for NuGet
@@ -23,7 +23,7 @@ You will need a Microsoft account for [nuget.org](https://www.nuget.org/).
 5. Copy your newly created key. Save your key securely as you can not retrieve it again.
 6. Save your key: 
 
-## Uploading the plugin to NuGet
+## Uploading the plugin
 1. Navigate to your plugin's folder. Execute the following command: `dotnet build --configuration Release`.
 2. Go to `bin/Release/` and push to NuGet: `dotnet push <yourpackageid.x.x.x.nupkg> -n -k <your nuget.org key> -s https://api.nuget.org/v3/index.json`
     
