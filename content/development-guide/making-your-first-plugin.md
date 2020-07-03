@@ -12,6 +12,9 @@ Install the latest .NET Core SDK from [here](https://dotnet.microsoft.com/downlo
 ## Installing the IDE for coding
 After setting up .NET Core SDK, we will need to install an IDE. The IDE provides us an environment where we can code our plugins.
 
+### Rider
+If you are using Linux, you can install [Rider](https://www.jetbrains.com/rider/). Although it is paid, it can be obtained for free by applying for a Jetbrains Student License (applicable to a wide variety of situations). It works very similarly to Visual Studio.
+
 ### Visual Studio Code
 You can use [install Visual Studio Code](https://code.visualstudio.com/) for developing plugins and is supported on Linux, MacOS and Windows. Visual Studio Code is the preferred solution for small- to mid-sized projects. It is supported for all OpenMod platforms.
 
@@ -65,55 +68,47 @@ If you want to create an Unturned plugin project, you can use the following comm
 dotnet new openmod-unturned-plugin --FullPluginName "My Unturned Plugin" --PluginId "MyName.MyUnturnedPlugin"
 ```
 
-## Adding a basic announce Command
-Now that you've set up your plugin, you can now start creating commands. Firstly create a new class. In this example we are creating an announce command, so let's just call it AnnounceCommand. We want to make it override Command. This will most likely show an error, but first let's check it's correct before we go into that.
+## Adding a Basic Command
+Now that you've set up your plugin, you can now start creating commands. Firstly create a new class. In this example we are creating an echo command, so let's just call it EchoCommand. We want to make it override Command. This will most likely show an error, but first let's check it's correct before we go into that.
 
 This is what your class should now look like:
 
 ```c#
-namespace MessageAnnouncer
+public class EchoCommand : Command
 {
-    public class AnnounceCommand : Command
-    {
-    }
-
 }
-
 ```
 
-Let's go ahead and fix the error by implementing the method ExecuteAsync() and a constructor. For now, do not worry about what async is. This is going to be the method that executes what you want your command to perform.
+Let's go ahead and fix the error by implementing the method `ExecuteAsync()` and a constructor. For now, do not worry about what async is. This is going to be the method that executes what you want your command to perform.
 
 So now, you will be wanting to know how you can actually access the in-game data and methods. You can access the command context without the parameters, by simply using Context (this comes from using the Command abstract class).
 This will allow you to access the Player, from now it is actually quite easy, let's see a finished product of this command.
 
 ```c#
-[Command("announce")]
-[CommandDescription("Announce a message")]
+[Command("echo")]
+[CommandDescription("Echo a message")]
 [CommandSyntax("<message>")]
-public class AnnounceCommand : Command
+public class EchoCommand : Command
+{
+    public EchoCommand(IServiceProvider serviceProvider) : base(serviceProvider)
     {
-        public AnnounceCommand(IServiceProvider serviceProvider) : base(serviceProvider)
-        {
             
-        }
-
-
-        protected override async Task OnExecuteAsync()
-        {
-            //This gets us the text that the user wants to announce. We are accessing an array of parameters, which are separated by spaces when the command is called in game
-            string text = Context.Parameters[0];
-            
-            //Do not worry about the await just yet
-            await Context.Actor.PrintMessageAsync(text);
-            //Do not get confused, this will only send a message to the caller. You must use the game's own implementation of broadcast to send to the entire server
-
-        }
     }
+
+    protected override async Task OnExecuteAsync()
+    {
+        // This gets us the text that the user wants to echo.
+        string text = string.Join(" ", Context.Parameters);
+            
+        await Context.Actor.PrintMessageAsync(text);
+    }
+}
 ```
 
-You should now understand what is happening here OnExecuteAsync is getting called by the command handler and it is providing you with the commands "context". At the top, you will see we are setting our command info using attributes.
+OnExecuteAsync is getting called by the command executor and provides you with the commands "context". At the top of the class, you will see we are setting our command metadata using attributes.
 
-
+For more, visit the [commands documentation](../commands.md).
 
 ## Best Practices
-Do not use static plugin instances, instead always pass instances by reference. The reason for that is that Rocket can dynamically create and destroy your plugin instances, which could result in wrong instances being used.
+* **Do not** use static plugin instances, instead always pass instances by reference.  
+OpenMod dynamically creates and destroys your plugin instances, which would result in wrong instances being used after reloads.
