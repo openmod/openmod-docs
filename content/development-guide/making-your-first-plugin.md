@@ -18,6 +18,9 @@ You can use [install Visual Studio Code](https://code.visualstudio.com/) for dev
 ### Visual Studio
 If you want a full IDE experience, download and install [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/). Visual Studio is only supported on Windows platforms. When the installer starts, select "Visual Studio 2019 Community Edition" (or newer, if available). After that select the .NET Core cross-platform development and the .NET Desktop Development options like shown below. 
 
+### Rider
+If you are using Linux, you can install [Rider](https://www.jetbrains.com/rider/). Although it is paid, it can be obtained for free by applying for a Jetbrains Student License (applicable to a wide variety of situations). It works very similarly to Visual Studio.
+
 ![Selecting .NET desktop development option](https://docs.microsoft.com/en-us/visualstudio/install/media/vs2017-modify-workloads.png?view=vs-2017g)
 
 ![Selecting .NET Core cross-platform development option](https://static.packt-cdn.com/products/9781787281905/graphics/image_05_002.png)
