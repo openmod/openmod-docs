@@ -8,7 +8,7 @@ To create a command, simply create a class that inherits from one of these:
 * UnturnedCommand (for Unturned plugins)
 
 In this example, we will make a universal command:
-```cs
+```c#
 public class CommandAwesome : Command
 {
     public CommandAwesome(IServiceProvider serviceProvider) : base(serviceProvider)
@@ -22,7 +22,7 @@ public class CommandAwesome : Command
     how to integrate translation files.
 
 After that, add some metadata to describe our command and it's usage:
-```cs
+```c#
 [Command("awesome")] // The primary name for the command. Usually it is defined lowercase. 
 [CommandAlias("awsm")] // Add "awsm" as alias.
 [CommandAlias("aw")] // Add "aw" as alias.
@@ -36,7 +36,7 @@ public class CommandAwesome : Command
 ```
 
 Finally implement OnExecuteAsync:
-```cs
+```c#
 [Command("awesome")] 
 [CommandAlias("awsm")]
 [CommandAlias("aw")]
@@ -58,7 +58,7 @@ public class CommandAwesome : Command
 
 ## Parameters
 When we handle commands, we usually also need to handle parameters. The command context provides a Parameter proprety. Let's use it:  
-```cs
+```c#
 public async Task OnExecuteAsync()
 {
     // assume we want the command to be called like this: /awesome <player> <amount>
@@ -70,7 +70,7 @@ public async Task OnExecuteAsync()
 ```
 
 After that, we need to describe how users can use the command. Add the syntax metadata to the command class:
-```cs
+```c#
 [CommandSyntax("<player> [amount]")] // Describe the syntax/usage. Use <> for required arguments and [] for optional arguments.
 ```
 
@@ -79,23 +79,23 @@ If you are not developing universal plugins, you may want to limit who can execu
 The `[CommandActor(Type)]` attribute allows you to specify such restrictions.
 
 For example, if you would like to restrict a command's usage to UnturnedUser and ConsoleUser, you could add the following:
-```cs
+```c#
 [CommandActor(typeof(UnturnedUser))]
 [CommandActor(typeof(ConsoleUser))]
 ```
 
 ## Exceptions
-Exceptions derivering from `UserFriendlyException` are automatically catched by OpenMod and displayed to the user in a user friendly way.  
+Exceptions derivered from `UserFriendlyException` are automatically catched by OpenMod and displayed to the user in a user friendly way.  
 
 These built-in exceptions available: 
- 
+
 * NotEnoughPermissionException, can be thrown if the user does not have enough permission to execute an action.
 * CommandWrongUsageException, can be thrown on wrong command usage. Displays correct usage based on command syntax.
 * CommandIndexOutOfRangeException, thrown automatically by Parameters.Get if the given index is bigger than the arguments length.
 * CommandParameterParseException, thrown automatically by Parameters.Get if the parameter could not be parsed to the expected type.
 * CommandNotFoundException, thrown automatically if a command was not found.
 
-```cs
+```c#
 public async Task OnExecuteAsync()
 {
     var player = Context.Parameters.Get<string>(0);
@@ -114,7 +114,7 @@ public async Task OnExecuteAsync()
 By design and for consistency reasons, you can not define a command permission manually. OpenMod will automatically assign a permission to the command instead. You can use the `help <yourcommand>` command to figure out what the base permission for your command is.
 
 Assume you want to restrict the `awesome` command if count is more than 10. This is how you would do it:
-```cs
+```c#
 public async Task OnExecuteAsync()
 {
     var player = Context.Parameters.Get<string>(0);
@@ -133,7 +133,7 @@ public async Task OnExecuteAsync()
 You can add subcommands to a command by using the `[CommandParent]` attribute. This allows OpenMod to discover your subcommands and provide additional help and tab autocompletion.
 
 The following command will execute when a user types "/awesome more". The `CommandAwesome.OnExecuteAsync` method will not execute in this case.
-```cs
+```c#
 [Command("more")] 
 [CommandDescription("My more awesome command")]
 [CommandParent(typeof(CommandAwesome))] // set "awesome" as parent.

@@ -8,7 +8,7 @@ The following examples work on all OpenMod platforms.
 ### Running a delayed Task
 You can delay a Task like this:
 
-```cs
+```c#
 public async Task MyTask()
 {
     m_Logger.LogInformation("Waiting 5 seconds...");
@@ -17,14 +17,14 @@ public async Task MyTask()
 }
 ```
 Then call AsyncHelper.Schedule like this:
-```cs
+```c#
 AsyncHelper.Schedule("My Task", () => MyTask());
 ```
 
 ### Running a Task periodically
 If you want to run a Task periodically, all you have to do is to surround your task with a while loop:
 
-```cs
+```c#
 public async Task MyPeriodicTask(IOpenModPlugin myPlugin)
 {
     while(myPlugin.IsAlive) // ensure this task runs only as long as the plugin is loaded 
@@ -36,7 +36,7 @@ public async Task MyPeriodicTask(IOpenModPlugin myPlugin)
 }
 ```
 Then call AsyncHelper.Schedule like earlier, but passing the plugin instance:
-```cs
+```c#
 AsyncHelper.Schedule("My Task", () => MyPeriodicTask(myPlugin));
 ```
 
@@ -47,7 +47,7 @@ The following examples only work with games using the UnityEngine such as Unturn
 Like in the `Running a Task Periodically` example, we will use a while loop again.  
 Notice how the return type has changed to `UniTask` and how the call to the `AsyncHelper.Schedule` method has changed.
 
-```cs
+```c#
 public async UniTask MyUpdateTask(IOpenModPlugin myPlugin)
 {
     await UniTask.SwitchToMainThread(); // ensure this runs on main thread first.
@@ -83,7 +83,7 @@ The following update types are available:
 * LastPostLateUpdate
 
 To schedule your task, call the AsyncHelper like this: 
-```cs
+```c#
 AsyncHelper.Schedule("My Task", () => MyUpdateTask(myPlugin).AsTask() /* for UniTask, you will have to use .AsTask() */);
 ```
 

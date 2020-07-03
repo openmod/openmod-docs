@@ -5,7 +5,7 @@ OpenMod uses the `Microsoft.Extensions.Logging` package for logging abstractions
 For more, check out the [ILogger Interface documentation on docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger?view=dotnet-plat-ext-3.1). 
 
 You can get a logger instance by injecting it via dependency injection:
-```cs
+```c#
 public class MyPlugin : OpenModUniversalPlugin
 {
     private readonly ILogger<MyPlugin> m_Logger; 
