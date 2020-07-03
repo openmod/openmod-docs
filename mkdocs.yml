@@ -27,6 +27,7 @@ pages:
         - Logging: development-guide/logging.md
         - Configurations: development-guide/configurations.md
         - Permissions: development-guide/permissions.md
+        - Services: development-guide/services.md
         - Events:
             - OpenMod Events: development-guide/events/events.md
             - Built-in Events: development-guide/events/builtin-events.md

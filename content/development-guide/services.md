@@ -25,11 +25,11 @@ I would like to access my plugin's configuration in a command. Here is how I do 
 private IConfiguration m_Configuration;
 
 public AnnounceCommand(IServiceProvider serviceProvider, IConfiguration configuration) : base(serviceProvider)
-        {
-            m_Configuration = configuration;
-        }
+{
+    m_Configuration = configuration;
+}
 ```
 
 ## Further reading
-
+****
 If you'd like to know more about dependency injection and how it works - OpenMod is using the Autofac container. Look up examples of this on google.
