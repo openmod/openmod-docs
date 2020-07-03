@@ -66,7 +66,7 @@ dotnet new openmod-unturned-plugin --FullPluginName "My Unturned Plugin" --Plugi
 ```
 
 ## Adding a basic announce Command
-Now that you've set up your plugin, you can now start creating commands. Firstly create a new class. In this example we are creating a teleport command, so let's just call it TeleportCommand. We want to make it implement ICommand. This will most likely show an error, but first let's check it's correct before we go into that.
+Now that you've set up your plugin, you can now start creating commands. Firstly create a new class. In this example we are creating a teleport command, so let's just call it TeleportCommand. We want to make it override Command. This will most likely show an error, but first let's check it's correct before we go into that.
 
 This is what your class should now look like:
 
