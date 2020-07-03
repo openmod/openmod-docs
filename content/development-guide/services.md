@@ -17,11 +17,13 @@ You can register your own services by implementing the `IServiceConfigurator` or
 
 | **Service**                                     |
 |-------------------------------------------------|
+| IConfiguration                                  |
 | ICommandExecutor                                |
 | ICommandStore                                   |
 | ICommandPermissionBuilder                       |
 | ICurrentCommandContextAccessor                  |
-| IOpenModStringLocaliser                         | 
+| IStringLocalizer                                |
+| IOpenModStringLocalizer                         | 
 | IDataStoreFactory                               | 
 | IOpenModDataStoreAccessor                       | 
 | IEventBus                                       | 
@@ -35,19 +37,20 @@ You can register your own services by implementing the `IServiceConfigurator` or
 
 
 ## Dependency Injection Example
-
 Assume you want to access your plugin's instance and configuration from a command. Here is how you could do it:
 
 ```c#
-//This is now accessible from the execute method
-private IConfiguration m_Configuration;
+private readonly IConfiguration m_Configuration;
+private readonly MyPlugin m_MyPlugin;
 
-public AnnounceCommand(IServiceProvider serviceProvider, IConfiguration configuration) : base(serviceProvider)
-{
+public EchoCommand(
+    IServiceProvider serviceProvider, 
+    MyPlugin myPlugin,
+    IConfiguration configuration) : base(serviceProvider)
+    m_MyPlugin = myPlugin;
     m_Configuration = configuration;
 }
 ```
 
 ## Further reading
-****
 For more, read the [Dependency injection page on docs.microsoft.com](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection).
