@@ -87,7 +87,8 @@ For example, if you would like to restrict a command's usage to UnturnedUser and
 ## Exceptions
 Exceptions derivering from `UserFriendlyException` are automatically catched by OpenMod and displayed to the user in a user friendly way.  
 
-These built-in exceptions available:  
+These built-in exceptions available: 
+ 
 * NotEnoughPermissionException, can be thrown if the user does not have enough permission to execute an action.
 * CommandWrongUsageException, can be thrown on wrong command usage. Displays correct usage based on command syntax.
 * CommandIndexOutOfRangeException, thrown automatically by Parameters.Get if the given index is bigger than the arguments length.
