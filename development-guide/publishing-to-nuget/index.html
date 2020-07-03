@@ -603,9 +603,49 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Publishing to nuget.org
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
     <a href="./" title="Publishing to nuget.org" class="md-nav__link md-nav__link--active">
       Publishing to nuget.org
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-your-plugin-for-nuget" class="md-nav__link">
+    Preparing your plugin for NuGet
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uploading-the-plugin" class="md-nav__link">
+    Uploading the plugin
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -632,6 +672,30 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-your-plugin-for-nuget" class="md-nav__link">
+    Preparing your plugin for NuGet
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uploading-the-plugin" class="md-nav__link">
+    Uploading the plugin
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -653,7 +717,7 @@
                 <h1 id="publishing-to-nugetorg">Publishing to nuget.org<a class="headerlink" href="#publishing-to-nugetorg" title="Permanent link">¶</a></h1>
 <p>If you want your plugin to be installable from <code>openmod install</code>, you will need to publish it to nuget.org.<br/>
 You will need a Microsoft account for <a href="https://www.nuget.org/">nuget.org</a>. </p>
-<h1 id="preparing-your-plugin-for-nuget">Preparing your plugin for NuGet<a class="headerlink" href="#preparing-your-plugin-for-nuget" title="Permanent link">¶</a></h1>
+<h2 id="preparing-your-plugin-for-nuget">Preparing your plugin for NuGet<a class="headerlink" href="#preparing-your-plugin-for-nuget" title="Permanent link">¶</a></h2>
 <ol>
 <li>Add the following to your plugin's .csproj
 <div class="highlight"><pre><span></span><code><span class="nt">&lt;PropertyGroup&gt;</span>
@@ -684,7 +748,7 @@ You will need a Microsoft account for <a href="https://www.nuget.org/">nuget.org
 <p>You may get the "PackageOrVersionNotFound" error after trying to install your plugin. This means your upload has not 
 been verified or indexed yet. It usually takes about an hour until nuget.org uploads are verified and indexed.</p>
 </div>
-<p>For more, read the <a href="https://docs.microsoft.com/en-us/nuget/nuget-org/publish-a-package">Publish to nuget.org</a> and <a href="https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli">Create and publish a NuGet package (dotnet CLI)</a> pages on docs.microsoft.com.</p>
+<p>For more, read the <a href="https://docs.microsoft.com/en-us/nuget/nuget-org/publish-a-package">Publishing packages</a> and <a href="https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli">Create and publish a NuGet package (dotnet CLI)</a> pages on docs.microsoft.com.</p>
                 
               
               
