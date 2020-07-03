@@ -15,7 +15,7 @@ public async Task MyTask()
     await Task.Wait(TimeSpan.FromSeconds(5));
     m_Logger.LogInformation("Done!");
 }
-
+```
 Then call AsyncHelper.Schedule like this:
 ```cs
 AsyncHelper.Schedule("My Task", () => MyTask());
@@ -34,7 +34,7 @@ public async Task MyPeriodicTask(IOpenModPlugin myPlugin)
         m_Logger.LogInformation("Done!");
     }
 }
-
+```
 Then call AsyncHelper.Schedule like earlier, but passing the plugin instance:
 ```cs
 AsyncHelper.Schedule("My Task", () => MyPeriodicTask(myPlugin));
