@@ -531,11 +531,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#unity" class="md-nav__link">
-    Unity
+  <a href="#unityengine" class="md-nav__link">
+    UnityEngine
   </a>
   
-    <nav class="md-nav" aria-label="Unity">
+    <nav class="md-nav" aria-label="UnityEngine">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -724,11 +724,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#unity" class="md-nav__link">
-    Unity
+  <a href="#unityengine" class="md-nav__link">
+    UnityEngine
   </a>
   
-    <nav class="md-nav" aria-label="Unity">
+    <nav class="md-nav" aria-label="UnityEngine">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -804,7 +804,7 @@ Then call AsyncHelper.Schedule like earlier, but passing the plugin instance:
 ```cs
 AsyncHelper.Schedule("My Task", () =&gt; MyPeriodicTask(myPlugin));
 </code></pre></div>
-<h2 id="unity">Unity<a class="headerlink" href="#unity" title="Permanent link">¶</a></h2>
+<h2 id="unityengine">UnityEngine<a class="headerlink" href="#unityengine" title="Permanent link">¶</a></h2>
 <p>The following examples only work with games using the UnityEngine such as Unturned.</p>
 <h3 id="running-a-task-on-every-update">Running a Task on every Update<a class="headerlink" href="#running-a-task-on-every-update" title="Permanent link">¶</a></h3>
 <p>Like in the <code>Running a Task Periodically</code> example, we will use a while loop again.<br/>
@@ -822,8 +822,8 @@ Notice how the return type has changed to <code>UniTask</code> and how the call 
 </code></pre></div>
 <p>Let's break this down.<br/>
 Inspect the following line:
-<code>await UniTask.DelayFrame(1, PlayerLoopTiming.Update)</code><br/>
-The first parameter, the 1, defines how many frames to wait. So this example will always wait one frame, and hence runs on every frame update.<br/>
+<code>await UniTask.DelayFrame(1, PlayerLoopTiming.Update)</code> </p>
+<p>The first parameter, the 1, defines how many frames to wait. So this example will always wait one frame, and hence runs on every frame update.<br/>
 The second parameter, PlayerLoopTiming.Update, sets which type of update it should wait for. In this example it is a normal frame update. You can use other update types such as FixedUpdate too.</p>
 <p>The following update types are available:</p>
 <ul>
@@ -841,7 +841,7 @@ The second parameter, PlayerLoopTiming.Update, sets which type of update it shou
 <li>LastPostLateUpdate</li>
 </ul>
 <p>To schedule your task, call the AsyncHelper like this: 
-<div class="highlight"><pre><span></span><code>AsyncHelper.Schedule("My Task", () =&gt; MyPeriodicTask(myPlugin).AsTask() /* for UniTask, you will have to use .AsTask() */);
+<div class="highlight"><pre><span></span><code>AsyncHelper.Schedule("My Task", () =&gt; MyUpdateTask(myPlugin).AsTask() /* for UniTask, you will have to use .AsTask() */);
 </code></pre></div></p>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
 <p>If your task runs periodically, always ensure it stops running when your plugin gets unloaded. <br/>
