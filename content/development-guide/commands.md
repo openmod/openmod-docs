@@ -2,6 +2,7 @@
 OpenMod provides a strong command framework.
 
 To create a command, simply create a class that inherits from one of these:
+
 * Command (for univeral plugins)
 * UnityEngineCommand (for UnityEngine plugins)
 * UnturnedCommand (for Unturned plugins)
@@ -17,7 +18,8 @@ public class CommandAwesome : Command
 ```
 
 !!! Note
-    In the following examples no translations are used. I
+    In the following examples no translations are used. See [translations](../translations.md) on information on 
+    how to integrate translation files.
 
 After that, add some metadata to describe our command and it's usage:
 ```cs
