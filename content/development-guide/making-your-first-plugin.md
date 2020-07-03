@@ -72,4 +72,5 @@ dotnet new openmod-unturned-plugin --FullPluginName "My Unturned Plugin" --Plugi
 TODO
 
 ## Best Practices
-Do not use static plugin instances, instead always pass instances by reference. The reason for that is that Rocket can dynamically create and destroy your plugin instances, which could result in wrong instances being used.
+Do not use static plugin instances, instead always pass instances by reference.  
+OpenMod can dynamically create and destroy your plugin instances, which would result in wrong instances being used.
