@@ -105,6 +105,7 @@ public class AnnounceCommand : Command
             
             //Do not worry about the await just yet
             await Context.Actor.PrintMessageAsync(text);
+            //Do not get confused, this will only send a message to the caller. You must use the game's own implementation of broadcast to send to the entire server
 
         }
     }
