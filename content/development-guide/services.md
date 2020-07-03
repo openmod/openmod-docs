@@ -1,19 +1,13 @@
 # Services and Dependency Injection
 
-##Introduction
-
 OpenMod, like other modern .NET projects, uses the dependency injection pattern. This guide aims to simplify it and explain what it means for plugin developers using OpenMod.
-
-## What does Dependency Injection mean for me?
-
-In short, you do not have to create public static instances of any of your classes.
 
 Plugins, commands, event listeners and services can automatically get references to any other services provided by OpenMod or plugins just by adding their interfaces to the constructor.  
 
 ## Registering your own Services
 You can register your own services by implementing the `IServiceConfigurator` or `IContainerConfigurator` interfaces in any class.
 
-## List of services
+## List of built-in services
 
 | **Service**                                     |
 |-------------------------------------------------|
