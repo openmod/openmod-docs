@@ -527,8 +527,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#best-pracices" class="md-nav__link">
-    Best Pracices
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
   </a>
   
 </li>
@@ -732,8 +732,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#best-pracices" class="md-nav__link">
-    Best Pracices
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
   </a>
   
 </li>
@@ -760,10 +760,12 @@
                 
                 <h1 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">¶</a></h1>
 <p>OpenMod provides a strong command framework.</p>
-<p>To create a command, simply create a class that inherits from one of these:
-* Command (for univeral plugins)
-* UnityEngineCommand (for UnityEngine plugins)
-* UnturnedCommand (for Unturned plugins)</p>
+<p>To create a command, simply create a class that inherits from one of these:</p>
+<ul>
+<li>Command (for univeral plugins)</li>
+<li>UnityEngineCommand (for UnityEngine plugins)</li>
+<li>UnturnedCommand (for Unturned plugins)</li>
+</ul>
 <p>In this example, we will make a universal command:
 <div class="highlight"><pre><span></span><code>public class CommandAwesome : Command
 {
@@ -774,7 +776,8 @@
 </code></pre></div></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>In the following examples no translations are used. I</p>
+<p>In the following examples no translations are used. See <a href="../translations.md">translations</a> on information on 
+how to integrate translation files.</p>
 </div>
 <p>After that, add some metadata to describe our command and it's usage:
 <div class="highlight"><pre><span></span><code>[Command("awesome")] // The primary name for the command. Usually it is defined lowercase. 
@@ -885,7 +888,7 @@ public class CommandAwesomeMore : Command
     }
 }
 </code></pre></div></p>
-<h2 id="best-pracices">Best Pracices<a class="headerlink" href="#best-pracices" title="Permanent link">¶</a></h2>
+<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
 <ul>
 <li><strong>Do not</strong> handle sub commands yourself (e.g. <code>if(Context.Parameters[0] == "add")</code>). OpenMod can not discover your subcommands and provide additional help or tab completion in that case.  </li>
 <li><strong>Do not</strong> hardcode messages. Instead, use <a href="../translations.md">translations</a> so users can customize and translate your messages.</li>
