@@ -11,7 +11,7 @@
         <meta name="description" content="OpenMod .NET Plugin Framwework Documentation">
       
       
-        <link rel="canonical" href="https://openmod.github.io/openmod-docs/development-guide/how-upload-your-plugin-to-nuget/">
+        <link rel="canonical" href="https://openmod.github.io/openmod-docs/development-guide/uploading-to-nuget/">
       
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
@@ -19,7 +19,7 @@
     
     
       
-        <title>How upload your plugin to Nuget.org - OpenMod Documentation</title>
+        <title>Uploading to nuget.org - OpenMod Documentation</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-upload-your-plugin-to-nugetorg" class="md-skip">
+        <a href="#uploading-to-nugetorg" class="md-skip">
           Skip to content
         </a>
       
@@ -90,7 +90,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              How upload your plugin to Nuget.org
+              Uploading to nuget.org
             
           </span>
         </div>
@@ -416,10 +416,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Development Guide
@@ -467,8 +469,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../translations/" title="Translations" class="md-nav__link">
-      Translations
+    <a href="../scheduling/" title="Scheduling" class="md-nav__link">
+      Scheduling
     </a>
   </li>
 
@@ -481,18 +483,6 @@
   <li class="md-nav__item">
     <a href="../services/" title="Services" class="md-nav__link">
       Services
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../scheduling/" title="Scheduling" class="md-nav__link">
-      Scheduling
     </a>
   </li>
 
@@ -540,16 +530,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-9" type="checkbox" id="nav-3-9">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-8" type="checkbox" id="nav-3-8">
     
-    <label class="md-nav__link" for="nav-3-9">
+    <label class="md-nav__link" for="nav-3-8">
       Events
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Events" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-9">
+      <label class="md-nav__title" for="nav-3-8">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -599,6 +589,27 @@
   </li>
 
         
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Uploading to nuget.org" class="md-nav__link md-nav__link--active">
+      Uploading to nuget.org
+    </a>
+    
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -621,30 +632,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#how-get-the-nupkg-from-your-plugin" class="md-nav__link">
-    How get the .nupkg from your plugin
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#uploading-the-plugin-to-nuget" class="md-nav__link">
-    Uploading the plugin to Nuget
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -655,7 +642,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/openmod/openmod-docs/edit/master/content/development-guide/how-upload-your-plugin-to-nuget.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/openmod/openmod-docs/edit/master/content/development-guide/uploading-to-nuget.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -663,27 +650,42 @@
                   
                 
                 
-                <h1 id="how-upload-your-plugin-to-nugetorg">How upload your plugin to Nuget.org<a class="headerlink" href="#how-upload-your-plugin-to-nugetorg" title="Permanent link">¶</a></h1>
-<p>For this guide you need:</p>
+                <h1 id="uploading-to-nugetorg">Uploading to nuget.org<a class="headerlink" href="#uploading-to-nugetorg" title="Permanent link">¶</a></h1>
+<p>If you want your plugin to be installable from <code>openmod install</code>, you need to upload it to nuget.org.
+You will need a Microsoft account for <a href="https://www.nuget.org/">nuget.org</a>. </p>
+<h1 id="preparing-your-plugin-for-nuget">Preparing your plugin for NuGet<a class="headerlink" href="#preparing-your-plugin-for-nuget" title="Permanent link">¶</a></h1>
 <ol>
-<li>A <code>.nupkg</code> from your plugin.</li>
-<li>A microsoft account to use <a href="https://www.nuget.org/">Nuget.org</a>. </li>
+<li>Add the following to your plugin's .csproj
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;PropertyGroup&gt;</span>
+  <span class="nt">&lt;PackageId&gt;</span>Your PackageId<span class="nt">&lt;/PackageId&gt;</span> <span class="c">&lt;!-- must be unique, should be same as your plugin ID --&gt;</span>
+  <span class="nt">&lt;PackageDescription&gt;</span>Your plugin description<span class="nt">&lt;/PackageDescription&gt;</span>
+  <span class="nt">&lt;PackageLicenseExpression&gt;</span>Your License<span class="nt">&lt;/PackageLicenseExpression&gt;</span> <span class="c">&lt;!-- see https://spdx.org/licenses/ --&gt;</span>
+  <span class="nt">&lt;PackageAuthor&gt;</span>Your name<span class="nt">&lt;/PackageAuthor&gt;</span>
+  <span class="nt">&lt;PackageTags&gt;</span>openmod openmod-plugin XXX<span class="nt">&lt;/PackageTags&gt;</span> <span class="c">&lt;!-- XXX can be unturned, unityengine or universal depending on your plugin --&gt;</span>
+  <span class="nt">&lt;Version&gt;</span>x.x.x<span class="nt">&lt;/Version&gt;</span> <span class="c">&lt;!-- Your plugins version. Must be semversion, see https://semver.org/ --&gt;</span>
+  <span class="nt">&lt;AssemblyVersion&gt;</span>x.x.x<span class="nt">&lt;/AssemblyVersion&gt;</span> <span class="c">&lt;!-- set same as package version, required for dynamicalliy updating your plugin --&gt;</span>
+  <span class="nt">&lt;GeneratePackageOnBuild&gt;</span>true<span class="nt">&lt;/GeneratePackageOnBuild&gt;</span>
+  <span class="nt">&lt;GenerateNugetPackage&gt;</span>true<span class="nt">&lt;/GenerateNugetPackage&gt;</span>  
+<span class="nt">&lt;/PropertyGroup&gt;</span>
+</code></pre></div></li>
+<li>Sign in to <a href="https://nuget.org">nuget.org</a>.</li>
+<li>Click on your username, select API Keys.</li>
+<li>Select create. Add a name, select the <code>Push</code> scope and add <code>*</code> as Glob pattern, then select create.</li>
+<li>Copy your newly created key. Save your key securely as you can not retrieve it again.</li>
+<li>Save your key: </li>
 </ol>
-<h2 id="how-get-the-nupkg-from-your-plugin">How get the <code>.nupkg</code> from your plugin<a class="headerlink" href="#how-get-the-nupkg-from-your-plugin" title="Permanent link">¶</a></h2>
-<p>Go to <strong>YourPluginFolder/bin/Debug</strong> and get the <code>.nupkg</code> file.</p>
-<h2 id="uploading-the-plugin-to-nuget">Uploading the plugin to Nuget<a class="headerlink" href="#uploading-the-plugin-to-nuget" title="Permanent link">¶</a></h2>
-<p>First go to <a href="https://www.nuget.org/">Nuget.org</a> and if you not already do, sign in with your microsoft account later select <strong>Upload</strong> on the top menu.
-You will see something like this:</p>
-<p><img alt="Nuget Upload Site" src="https://docs.microsoft.com/en-us/nuget/nuget-org/media/publish_uploadyourpackage.png"/></p>
-<p>Now select <strong>Browse</strong> and upload your <code>.nupkg</code> file to the site, nuget.org tells you if the package name is available.</p>
+<h2 id="uploading-the-plugin-to-nuget">Uploading the plugin to NuGet<a class="headerlink" href="#uploading-the-plugin-to-nuget" title="Permanent link">¶</a></h2>
+<ol>
+<li>Navigate to your plugin's folder. Execute the following command: <code>dotnet build --configuration Release</code>.</li>
+<li>Go to <code>bin/Release/</code> and push to NuGet: <code>dotnet push &lt;yourpackageid.x.x.x.nupkg&gt; -n -k &lt;your nuget.org key&gt; -s https://api.nuget.org/v3/index.json</code></li>
+</ol>
+<p>You can install your plugin with <code>openmod install &lt;YourPackageId&gt;</code>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>If your package name isn't available you can change this in the plugin metadata above the namespace in your main <strong>.cs</strong></p>
+<p>You may get the "PackageOrVersionNotFound" error after trying to install your plugin. This means your upload has not 
+been verified or indexed yet. It usually takes about an hour until nuget.org uploads are verified and indexed.</p>
 </div>
-<p>If the package name is available, nuget.org opens a Verify section in which you can review the metadata from the package manifest.
-With the <strong>PackageId</strong> you can install your plugin in your server using <code>openmod install {PackageId}</code>.</p>
-<p>Under all information you can see a section to add documentation for your plugin.</p>
-<p>When all the information is ready, select the <strong>Submit</strong> button.</p>
+<p>For more, read the <a href="https://docs.microsoft.com/en-us/nuget/nuget-org/publish-a-package">Publish to nuget.org page</a> and the <a href="https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli">Create and publish a NuGet package (dotnet CLI)</a> pages on docs.microsoft.com.</p>
                 
               
               
@@ -698,6 +700,27 @@ With the <strong>PackageId</strong> you can install your plugin in your server u
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../events/game-events/" title="Game Events" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Game Events
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

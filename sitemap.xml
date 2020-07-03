@@ -44,15 +44,11 @@
      <lastmod>2020-07-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://openmod.github.io/openmod-docs/development-guide/translations/</loc>
+     <loc>https://openmod.github.io/openmod-docs/development-guide/scheduling/</loc>
      <lastmod>2020-07-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://openmod.github.io/openmod-docs/development-guide/services/</loc>
-     <lastmod>2020-07-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://openmod.github.io/openmod-docs/development-guide/scheduling/</loc>
      <lastmod>2020-07-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -77,6 +73,10 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://openmod.github.io/openmod-docs/development-guide/events/game-events/</loc>
+     <lastmod>2020-07-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://openmod.github.io/openmod-docs/development-guide/uploading-to-nuget/</loc>
      <lastmod>2020-07-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
