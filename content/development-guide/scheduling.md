@@ -40,7 +40,7 @@ Then call AsyncHelper.Schedule like earlier, but passing the plugin instance:
 AsyncHelper.Schedule("My Task", () => MyPeriodicTask(myPlugin));
 ```
 
-## Unity
+## UnityEngine
 The following examples only work with games using the UnityEngine such as Unturned.
 
 ### Running a Task on every Update
@@ -63,6 +63,7 @@ public async UniTask MyUpdateTask(IOpenModPlugin myPlugin)
 Let's break this down.  
 Inspect the following line:
 `await UniTask.DelayFrame(1, PlayerLoopTiming.Update)`  
+
 The first parameter, the 1, defines how many frames to wait. So this example will always wait one frame, and hence runs on every frame update.  
 The second parameter, PlayerLoopTiming.Update, sets which type of update it should wait for. In this example it is a normal frame update. You can use other update types such as FixedUpdate too.
 
@@ -83,7 +84,7 @@ The following update types are available:
 
 To schedule your task, call the AsyncHelper like this: 
 ```cs
-AsyncHelper.Schedule("My Task", () => MyPeriodicTask(myPlugin).AsTask() /* for UniTask, you will have to use .AsTask() */);
+AsyncHelper.Schedule("My Task", () => MyUpdateTask(myPlugin).AsTask() /* for UniTask, you will have to use .AsTask() */);
 ```
 
 ## Best Practices
