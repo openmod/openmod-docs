@@ -49,4 +49,4 @@ public AnnounceCommand(IServiceProvider serviceProvider, IConfiguration configur
 
 ## Further reading
 ****
-If you'd like to know more about dependency injection and how it works - OpenMod is using the Autofac container. Look up examples of this on google.
+For more, read the [Dependency injection page on docs.microsoft.com](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection).
