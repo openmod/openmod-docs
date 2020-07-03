@@ -14,14 +14,24 @@ You can also add your own services to the container, which will add them to the 
 
 ## List of services
 
-TODOODODOODODODOODODODODOODODODO
+| **Service**                                     |  **Usage**                                             |
+|-------------------------------------------------|------------------------------------------------------|
+| IConfiguration                                  | Reading/Saving Configurations                         |
+| IDependencyContainer                            | Inversion of Control                                 |
+| IDependencyResolver                             | Resolving Services                                   |
+| IEventBus                                       | Eventing                                             |
+| IHost                                           | Service for RocketMod Host                           |
+| ILogger                                         | Logging                                              |
+| IRuntime                                        | Bootstrapping RocketMod                              |
+| IPermissionChecker                              | Permission checks                                    |
+
 
 ## Example
 
 I would like to access my plugin's configuration in a command. Here is how I do this:
 
 ```c#
-//This is now accessible by the execute method
+//This is now accessible from the execute method
 private IConfiguration m_Configuration;
 
 public AnnounceCommand(IServiceProvider serviceProvider, IConfiguration configuration) : base(serviceProvider)
