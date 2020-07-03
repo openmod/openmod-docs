@@ -65,8 +65,51 @@ If you want to create an Unturned plugin project, you can use the following comm
 dotnet new openmod-unturned-plugin --FullPluginName "My Unturned Plugin" --PluginId "MyName.MyUnturnedPlugin"
 ```
 
-## Adding a basic Teleport Command
-TODO
+## Adding a basic announce Command
+Now that you've set up your plugin, you can now start creating commands. Firstly create a new class. In this example we are creating a teleport command, so let's just call it TeleportCommand. We want to make it implement ICommand. This will most likely show an error, but first let's check it's correct before we go into that.
+
+This is what your class should now look like:
+
+```c#
+namespace MessageAnnouncer
+{
+    public class AnnounceCommand : Command
+    {
+    }
+
+}
+
+```
+
+Let's go ahead and fix the error by implementing the method ExecuteAsync() and a constructor. For now, do not worry about what async is. This is going to be the method that executes what you want your command to perform.
+
+So now, you will be wanting to know how you can actually access the in-game data and methods. You can access the command context without the parameters, by simply using Context (this comes from using the Command abstract class).
+This will allow you to access the Player, from now it is actually quite easy, let's see a finished product of this command.
+
+```c#
+public class AnnounceCommand : Command
+    {
+        public AnnounceCommand(IServiceProvider serviceProvider) : base(serviceProvider)
+        {
+            
+        }
+
+
+        protected override async Task OnExecuteAsync()
+        {
+            //This gets us the text that the user wants to announce. We are accessing an array of parameters, which are separated by spaces when the command is called in game
+            string text = Context.Parameters[0];
+            
+            //Do not worry about the await just yet
+            await Context.Actor.PrintMessageAsync(text);
+
+        }
+    }
+```
+
+You should now understand what is happening here OnExecuteAsync is getting called by the command handler and it is providing you with the commands "context".
+
+
 
 ## Best Practices
 Do not use static plugin instances, instead always pass instances by reference. The reason for that is that Rocket can dynamically create and destroy your plugin instances, which could result in wrong instances being used.
