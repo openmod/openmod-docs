@@ -1,35 +1,34 @@
 # Services and Dependency Injection
 
-##Introduction
+## Introduction
 
-OpenMod, like a lot of modern .NET projects, uses Dependency Injection. This guide aims to simplify it and explain what it means for plugin developers using OpenMod.
+OpenMod, like other modern .NET projects, uses the dependency injection pattern. This guide aims to simplify it and explain what it means for plugin developers using OpenMod.
 
-## What does Dependency Injection mean for me?
+Plugins, commands, event listeners and services can automatically get references to any other services provided by OpenMod or plugins just by adding their interfaces to the constructor.  
 
-In short, you do not have to create public static instances of any of your classes.
+# Registering your own Services
+You can register your own services by implementing the `IServiceConfigurator` or `IContainerConfigurator` interfaces in any class.
 
-Your plugins services can have a constructor with any services provided by OpenMod and these will all be passed automatically by the container.
-
-You can also add your own services to the container, which will add them to the ecosystem. You do NOT need to do this for commands or event handlers however (they are registered automatically by OpenMod)
-
-## List of services
-
+## List of built-in OpenMod Services
 TODOODODOODODODOODODODODOODODODO
 
-## Example
-
-I would like to access my plugin's configuration in a command. Here is how I do this:
+## Dependency Injection Example
+Assume you want to access your plugin's instance and configuration from a command. Here is how you could do it:
 
 ```c#
 //This is now accessible by the execute method
-private IConfiguration m_Configuration;
+private readonly IConfiguration m_Configuration;
+private readonly MyPlugin m_MyPlugin;
 
-public AnnounceCommand(IServiceProvider serviceProvider, IConfiguration configuration) : base(serviceProvider)
-        {
-            m_Configuration = configuration;
-        }
+public EchoCommand(
+    IServiceProvider serviceProvider, 
+    MyPlugin myPlugin,
+    IConfiguration configuration) : base(serviceProvider)
+{
+    m_MyPlugin = myPlugin;
+    m_Configuration = configuration;
+}
 ```
 
 ## Further reading
-
-If you'd like to know more about dependency injection and how it works - OpenMod is using the Autofac container. Look up examples of this on google.
+For more, read the [Dependency injection page on docs.microsoft.com](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection).
