@@ -2,7 +2,7 @@
 
 OpenMod has built-in support for RocketMod plugins. Most RocketMod plugins should work without the need for workarounds or rewrites. 
 
-To use use RocketMod plugins, follow these steps:
+To use RocketMod plugins, follow these steps:
 
 1. After [installing OpenMod for Unturned](../installation/unturned.md), remove the "Rocket.Unturned" folder from the "Modules" folder inside Unturned. If you were using RocketMod before, keep the "Rocket" folder inside your server's folder.
 2. Start your server, wait for OpenMod to load, and then install the [OpenMod RocketMod Bridge](https://github.com/openmod/openmod/tree/master/unturned/rocketmod): `openmod install OpenMod.Rocket.Unturned`.
