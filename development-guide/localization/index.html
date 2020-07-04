@@ -777,13 +777,13 @@ After that, add the following to your .csproj file:
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></p>
-<p><code>commands.awesome</code> defines the key for the translation. By default, it equals to the path of the yaml file. You can use any path, it does not have to start with <code>commands</code>. See <a href="../confiugration.md">configuration</a> for more about such paths.  </p>
-<p><code>new { Actor = Actor, Amount = amount }</code> passes the parameters for the translations.</p>
+<p><code>commands.awesome</code> defines the key for the translation. By default, it equals to the path inside the yaml file. You can use any valid path. See <a href="../configuration.md">configuration</a> for more about paths.  </p>
+<p><code>new { Actor = Actor, Amount = amount }</code> sets the arguments for the translations.</p>
 <p>We now need to add a new translation to the <code>translations.yaml</code>:
 <div class="highlight"><pre><span></span><code><span class="nt">commands</span><span class="p">:</span> 
   <span class="nt">awesome</span><span class="p">:</span> <span class="s">"{Actor.DisplayName}</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">{Amount}x</span><span class="nv"> </span><span class="s">awesome!"</span>
 </code></pre></div></p>
-<p>Notice how we can access properties of the Actor parameter by calling <code>Actor.DisplayName</code>. By default, OpenMod uses SmartFormat.NET for parsing parameters. See the <a href="https://github.com/axuno/SmartFormat/wiki">SmartFormat.NET wiki</a> for more information. </p>
+<p>Notice how we can access properties of the Actor parameter by calling <code>Actor.DisplayName</code>. By default, OpenMod uses SmartFormat.NET for parsing arguments. See the <a href="https://github.com/axuno/SmartFormat/wiki">SmartFormat.NET wiki</a> for more information. </p>
                 
               
               
