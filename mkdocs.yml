@@ -15,7 +15,7 @@ pages:
         - Migration:
             - Migrating from RocketMod: user-guide/migration/rocketmod.md         
         - Plugins: 
-            - Installing and Managing Plugins: user-guide/plugins/plugin-management.md
+            - Installing and managing plugins: user-guide/plugins/plugin-management.md
         - Configurations: user-guide/configurations.md
         - Localization: user-guide/localization.md
         - Permissions: user-guide/permissions.md
@@ -23,17 +23,17 @@ pages:
     - Development Guide:
         - Making your first plugin: development-guide/making-your-first-plugin.md
         - Commands: development-guide/commands.md
-        - Configuration: development-guide/configuration.md # todo
+        - Configuration: development-guide/configuration.md
         - Localization: development-guide/localization.md
         - Scheduling: development-guide/scheduling.md
-        - Services: development-guide/services.md # not complete
+        - Services: development-guide/services.md
         - Logging: development-guide/logging.md
-        - Permissions: development-guide/permissions.md # todo
+        - Permissions: development-guide/permissions.md
         - Data Store: development-guide/datastore.md # todo
         - Events:
-            - OpenMod Events: development-guide/events/events.md # todo
-            - Built-in Events: development-guide/events/builtin-events.md # todo
-            - Game Events: development-guide/events/game-events.md # todo
+            - Events and event listeners: development-guide/events/events.md # todo
+            - Built-in events: development-guide/events/builtin-events.md # todo
+            - Game events: development-guide/events/game-events.md # todo
         - Publishing to nuget.org: development-guide/publishing-to-nuget.md
 plugins:
   - search
