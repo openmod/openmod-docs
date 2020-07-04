@@ -12,7 +12,7 @@ You can delay a Task like this:
 public async Task MyTask()
 {
     m_Logger.LogInformation("Waiting 5 seconds...");
-    await Task.Wait(TimeSpan.FromSeconds(5));
+    await Task.Delay(TimeSpan.FromSeconds(5));
     m_Logger.LogInformation("Done!");
 }
 ```
@@ -30,7 +30,7 @@ public async Task MyPeriodicTask(IOpenModPlugin myPlugin)
     while(myPlugin.IsAlive) // ensure this task runs only as long as the plugin is loaded 
     {
         m_Logger.LogInformation("Waiting 5 seconds...");
-        await Task.Wait(TimeSpan.FromSeconds(5));
+        await Task.Delay(TimeSpan.FromSeconds(5));
         m_Logger.LogInformation("Done!");
     }
 }
@@ -89,4 +89,4 @@ AsyncHelper.Schedule("My Task", () => MyUpdateTask(myPlugin).AsTask() /* for Uni
 
 ## Best Practices
 If your task runs periodically, always ensure it stops running when your plugin gets unloaded.   
-**Do not** use Thread.Sleep or similar blocking methods like non-async I/O methods in Tasks. These methods will block the thread and prevent other tasks from running. Always use the async Task methods instead, like `Task.Wait`.
+**Do not** use Thread.Sleep or similar blocking methods like non-async I/O methods in Tasks. These methods will block the thread and prevent other tasks from running. Always use the async Task methods instead, like `Task.Delay`.
