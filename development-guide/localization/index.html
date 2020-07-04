@@ -348,8 +348,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/plugins/plugin-management/" title="Installing and Managing Plugins" class="md-nav__link">
-      Installing and Managing Plugins
+    <a href="../../user-guide/plugins/plugin-management/" title="Installing and managing plugins" class="md-nav__link">
+      Installing and managing plugins
     </a>
   </li>
 
@@ -627,8 +627,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/events/" title="OpenMod Events" class="md-nav__link">
-      OpenMod Events
+    <a href="../events/events/" title="Events and event listeners" class="md-nav__link">
+      Events and event listeners
     </a>
   </li>
 
@@ -639,8 +639,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/builtin-events/" title="Built-in Events" class="md-nav__link">
-      Built-in Events
+    <a href="../events/builtin-events/" title="Built-in events" class="md-nav__link">
+      Built-in events
     </a>
   </li>
 
@@ -651,8 +651,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/game-events/" title="Game Events" class="md-nav__link">
-      Game Events
+    <a href="../events/game-events/" title="Game events" class="md-nav__link">
+      Game events
     </a>
   </li>
 
@@ -740,7 +740,7 @@
                 
                 <h1 id="localization">Localization<a class="headerlink" href="#localization" title="Permanent link">¶</a></h1>
 <p>Localization allows users to customize and translate your plugins messages.<br/>
-This is achieved through the translations.yaml and the IStringLocalizer service.  </p>
+This is achieved through the translations.yaml file and the IStringLocalizer service.  </p>
 <h2 id="adding-the-translationsyaml">Adding the translations.yaml<a class="headerlink" href="#adding-the-translationsyaml" title="Permanent link">¶</a></h2>
 <p>Create a new file called "translations.yaml" inside your projects root directory.<br/>
 After that, add the following to your .csproj file: 
@@ -785,11 +785,11 @@ After that, add the following to your .csproj file:
     <span class="p">{</span>
         <span class="kt">var</span> <span class="n">count</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;(</span><span class="m">0</span><span class="p">);</span>
 
-        <span class="k">await</span> <span class="nf">PrintAsync</span><span class="p">(</span><span class="n">m_StringLocalizer</span><span class="p">[</span><span class="s">"commands.awesome"</span><span class="p">,</span> <span class="k">new</span> <span class="p">{</span> <span class="n">Actor</span> <span class="p">=</span> <span class="n">Actor</span><span class="p">,</span> <span class="n">Amount</span> <span class="p">=</span> <span class="n">amount</span> <span class="p">}]);</span>
+        <span class="k">await</span> <span class="nf">PrintAsync</span><span class="p">(</span><span class="n">m_StringLocalizer</span><span class="p">[</span><span class="s">"commands:awesome"</span><span class="p">,</span> <span class="k">new</span> <span class="p">{</span> <span class="n">Actor</span> <span class="p">=</span> <span class="n">Actor</span><span class="p">,</span> <span class="n">Amount</span> <span class="p">=</span> <span class="n">amount</span> <span class="p">}]);</span>
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></p>
-<p><code>commands.awesome</code> defines the key for the translation. By default, it equals to the path inside the yaml file. You can use any valid path, such as <code>messages.awesome</code>, just <code>awesome</code>, etc. See <a href="../configuration.md">configuration</a> for more about paths.  </p>
+<p><code>commands:awesome</code> defines the key for the translation. By default, it equals to the path inside the yaml file. You can use any valid path, such as <code>messages:awesome</code>, just <code>awesome</code>, etc.</p>
 <p><code>new { Actor = Actor, Amount = amount }</code> sets the arguments for the translations.</p>
 <p>We now need to add a new translation to the <code>translations.yaml</code>:
 <div class="highlight"><pre><span></span><code><span class="nt">commands</span><span class="p">:</span> 

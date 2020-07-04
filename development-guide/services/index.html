@@ -348,8 +348,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/plugins/plugin-management/" title="Installing and Managing Plugins" class="md-nav__link">
-      Installing and Managing Plugins
+    <a href="../../user-guide/plugins/plugin-management/" title="Installing and managing plugins" class="md-nav__link">
+      Installing and managing plugins
     </a>
   </li>
 
@@ -551,11 +551,31 @@
     Registering your own services
   </a>
   
+    <nav class="md-nav" aria-label="Registering your own services">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#service-lifetimes" class="md-nav__link">
+    Service Lifetimes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#built-in-openmod-services" class="md-nav__link">
     Built-in OpenMod services
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
   </a>
   
 </li>
@@ -634,8 +654,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/events/" title="OpenMod Events" class="md-nav__link">
-      OpenMod Events
+    <a href="../events/events/" title="Events and event listeners" class="md-nav__link">
+      Events and event listeners
     </a>
   </li>
 
@@ -646,8 +666,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/builtin-events/" title="Built-in Events" class="md-nav__link">
-      Built-in Events
+    <a href="../events/builtin-events/" title="Built-in events" class="md-nav__link">
+      Built-in events
     </a>
   </li>
 
@@ -658,8 +678,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/game-events/" title="Game Events" class="md-nav__link">
-      Game Events
+    <a href="../events/game-events/" title="Game events" class="md-nav__link">
+      Game events
     </a>
   </li>
 
@@ -723,11 +743,31 @@
     Registering your own services
   </a>
   
+    <nav class="md-nav" aria-label="Registering your own services">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#service-lifetimes" class="md-nav__link">
+    Service Lifetimes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#built-in-openmod-services" class="md-nav__link">
     Built-in OpenMod services
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
   </a>
   
 </li>
@@ -796,7 +836,7 @@
     <span class="n">Task</span> <span class="nf">ClearVehiclesAsync</span><span class="p">();</span>
 <span class="p">}</span>
 
-<span class="na">[ServiceImplementation]</span>
+<span class="na">[ServiceImplementation(Lifetime = ServiceLifetime.Transient)]</span>
 <span class="k">public</span> <span class="k">class</span> <span class="nc">VehicleClearingService</span> <span class="p">:</span> <span class="n">IVehicleClearingService</span><span class="p">,</span> <span class="n">IAsyncDisposable</span>
 <span class="p">{</span>
     <span class="k">private</span> <span class="k">readonly</span> <span class="n">IStringLocalizer</span> <span class="n">m_StringLocalizer</span><span class="p">;</span>
@@ -815,7 +855,7 @@
 
     <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">ClearVehiclesAsync</span><span class="p">()</span> 
     <span class="p">{</span>
-        <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="n">m_StringLocalizer</span><span class="p">[</span><span class="s">"messages.clearing_vehicles"</span><span class="p">]);</span> <span class="c1">// translation is read from the plugins translation</span>
+        <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="n">m_StringLocalizer</span><span class="p">[</span><span class="s">"messages:clearing_vehicles"</span><span class="p">]);</span> <span class="c1">// translation is read from the plugins translation</span>
         <span class="c1">// call game apis to clear vehicles...</span>
     <span class="p">}</span>
 
@@ -832,6 +872,14 @@
 <p>Custom services have a different lifetime then plugins. Even if your plugin unloads your service will be still alive and used.  <br/>
 Services are created before plugins load and are destroyed when openmod reloads or the server shuts down.</p>
 </div>
+<h3 id="service-lifetimes">Service Lifetimes<a class="headerlink" href="#service-lifetimes" title="Permanent link">¶</a></h3>
+<p>You might have noticed that the VehicleClearingService's Lifetime was set to <code>Lifetime = ServiceLifetime.Transient</code>.  </p>
+<p>The following lifetimes are available:</p>
+<ul>
+<li><strong>Transient</strong>: The service gets recreated every time it gets resolved. Every resolution and injection of this service will have a unique instance. This is the default lifetime.</li>
+<li><strong>Scoped</strong>: The service will share the same instance across the same command or event.</li>
+<li><strong>Singleton</strong>: The service will only have one instance that lives as long as the OpenMod IoC container does (until OpenMod gets reloaded or the server shuts down).  </li>
+</ul>
 <h2 id="built-in-openmod-services">Built-in OpenMod services<a class="headerlink" href="#built-in-openmod-services" title="Permanent link">¶</a></h2>
 <table>
 <thead>
@@ -923,6 +971,10 @@ Services are created before plugins load and are destroyed when openmod reloads 
 </tr>
 </tbody>
 </table>
+<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Avoid</strong> making your services singleton unneccessary. This may cause problems if your service has transient or scoped dependencies.</li>
+</ul>
                 
               
               

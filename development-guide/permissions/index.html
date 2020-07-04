@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#permissions" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -343,8 +348,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/plugins/plugin-management/" title="Installing and Managing Plugins" class="md-nav__link">
-      Installing and Managing Plugins
+    <a href="../../user-guide/plugins/plugin-management/" title="Installing and managing plugins" class="md-nav__link">
+      Installing and managing plugins
     </a>
   </li>
 
@@ -529,10 +534,52 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Permissions
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
     
     <a href="./" title="Permissions" class="md-nav__link md-nav__link--active">
       Permissions
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#adding-your-own-permissions" class="md-nav__link">
+    Adding your own permissions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checking-if-an-actor-has-a-certain-permission" class="md-nav__link">
+    Checking if an actor has a certain permission
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -580,8 +627,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/events/" title="OpenMod Events" class="md-nav__link">
-      OpenMod Events
+    <a href="../events/events/" title="Events and event listeners" class="md-nav__link">
+      Events and event listeners
     </a>
   </li>
 
@@ -592,8 +639,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/builtin-events/" title="Built-in Events" class="md-nav__link">
-      Built-in Events
+    <a href="../events/builtin-events/" title="Built-in events" class="md-nav__link">
+      Built-in events
     </a>
   </li>
 
@@ -604,8 +651,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/game-events/" title="Game Events" class="md-nav__link">
-      Game Events
+    <a href="../events/game-events/" title="Game events" class="md-nav__link">
+      Game events
     </a>
   </li>
 
@@ -639,6 +686,45 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#adding-your-own-permissions" class="md-nav__link">
+    Adding your own permissions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checking-if-an-actor-has-a-certain-permission" class="md-nav__link">
+    Checking if an actor has a certain permission
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -652,9 +738,92 @@
                   
                 
                 
-                  <h1>Permissions</h1>
-                
-                <p>TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO </p>
+                <h1 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link">¶</a></h1>
+<p>Permissions allow to define which action a user is allowed to execute and which he is not.</p>
+<p>You can use the <code>IPermissionChecker</code> service to check if a user has specific permissions:</p>
+<div class="highlight"><pre><span></span><code><span class="c1">// read event documentation  for more information about event listeners</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectBroadcaster</span> <span class="p">:</span> <span class="n">IEventListener</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span> 
+<span class="p">{</span>
+    <span class="k">private</span> <span class="k">readonly</span> <span class="n">IPermissionChecker</span> <span class="n">m_PermissionChecker</span><span class="p">;</span>
+    <span class="k">private</span> <span class="k">readonly</span> <span class="n">IUserManager</span> <span class="n">m_UserManager</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="nf">UserConnectEventListener</span><span class="p">(</span>
+        <span class="n">IPermissionChecker</span> <span class="n">permissionChecker</span><span class="p">,</span>
+        <span class="n">IUserManager</span> <span class="n">userManager</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">m_PermissionChecker</span> <span class="p">=</span> <span class="n">permissionChecker</span><span class="p">;</span>
+        <span class="n">m_UserManager</span> <span class="p">=</span> <span class="n">userManager</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectedEvent</span> <span class="n">@event</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="kt">var</span> <span class="n">user</span> <span class="p">=</span> <span class="n">@event</span><span class="p">.</span><span class="n">User</span><span class="p">;</span>
+
+        <span class="k">if</span><span class="p">(</span><span class="n">m_PermissionChecker</span><span class="p">.</span><span class="n">CheckPermissionAsync</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="s">"announce.join"</span><span class="p">)</span> <span class="p">!=</span> <span class="n">PermissionGrantResult</span><span class="p">.</span><span class="n">Deny</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="k">await</span> <span class="n">m_UserManager</span><span class="p">.</span><span class="n">BroadcastAsync</span><span class="p">(</span><span class="n">user</span><span class="p">.</span><span class="n">Type</span><span class="p">,</span> <span class="err">$</span><span class="s">"{user.DisplayName} has joined."</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Let's have a closer look at <code>CheckPermissionAsync</code>.
+<code>CheckPermissionAsync</code> returns <code>PermissionGrantResult</code>, which is a enum with members:</p>
+<ul>
+<li>Default - The permission is neither explicitly granted nor explicitly denied</li>
+<li>Grant - The permission was explicitly granted</li>
+<li>Deny - The permission was explicitly denied</li>
+</ul>
+<p>In the most cases you would check if the result equals <code>PermissionGrantResult.Grant</code>. This means that if no explicit permission is set, the action will be denied by default. In the example above the opposite has been done: unless the permission was explicitly denied the join message will be announced. </p>
+<h2 id="adding-your-own-permissions">Adding your own permissions<a class="headerlink" href="#adding-your-own-permissions" title="Permanent link">¶</a></h2>
+<p>You can add your own permissions (e.g. to support permissions stored in MySQL):</p>
+<ol>
+<li>Implement IPermissionStore</li>
+<li>Add your IPermissionStore via a <a href="../services.md#registering-your-own-services">ServiceConfigurator</a>:
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">ServiceConfigurator</span> <span class="p">:</span> <span class="n">IServiceConfigurator</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">ConfigureServices</span><span class="p">(</span><span class="n">IOpenModStartupContext</span> <span class="n">openModStartupContext</span><span class="p">,</span> <span class="n">IServiceCollection</span> <span class="n">serviceCollection</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">serviceCollection</span><span class="p">.</span><span class="n">Configure</span><span class="p">&lt;</span><span class="n">PermissionCheckerOptions</span><span class="p">&gt;(</span><span class="n">options</span> <span class="p">=&gt;</span>
+        <span class="p">{</span>
+            <span class="n">options</span><span class="p">.</span><span class="n">AddPermissionSource</span><span class="p">&lt;</span><span class="n">YourPermissionStore</span><span class="p">&gt;();</span>
+        <span class="p">});</span>        
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></li>
+</ol>
+<h2 id="checking-if-an-actor-has-a-certain-permission">Checking if an actor has a certain permission<a class="headerlink" href="#checking-if-an-actor-has-a-certain-permission" title="Permanent link">¶</a></h2>
+<p>Sometimes you may want to check yourself if an actor has a permission. In that case do the following:</p>
+<ol>
+<li>Implement IPermissionCheckSource</li>
+<li>Add your IPermissionCheckSource via a <a href="../services.md#registering-your-own-services">ServiceConfigurator</a>:
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">ServiceConfigurator</span> <span class="p">:</span> <span class="n">IServiceConfigurator</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">ConfigureServices</span><span class="p">(</span><span class="n">IOpenModStartupContext</span> <span class="n">openModStartupContext</span><span class="p">,</span> <span class="n">IServiceCollection</span> <span class="n">serviceCollection</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">serviceCollection</span><span class="p">.</span><span class="n">Configure</span><span class="p">&lt;</span><span class="n">PermissionCheckerOptions</span><span class="p">&gt;(</span><span class="n">options</span> <span class="p">=&gt;</span>
+        <span class="p">{</span>
+            <span class="n">options</span><span class="p">.</span><span class="n">AddPermissionCheckSource</span><span class="p">&lt;</span><span class="n">YourPermissionCheckSource</span><span class="p">&gt;();</span>
+        <span class="p">});</span>        
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></li>
+</ol>
+<p>The following example grants all permissions to all Unturned admins:
+<div class="highlight"><pre><span></span><code>public class UnturnedAdminPermissionCheckProvider : IPermissionCheckProvider
+{
+    public bool SupportsActor(IPermissionActor actor)
+    {
+        /* only apply to unturned admins */
+        return actor is UnturnedUser user &amp;&amp; user.SteamPlayer.isAdmin;
+    }
+
+    public Task&lt;PermissionGrantResult&gt; CheckPermissionAsync(IPermissionActor actor, string permission)
+    {
+        /* grant on any permission */
+        return Task.FromResult(PermissionGrantResult.Grant);
+    }
+}
+</code></pre></div></p>
                 
               
               

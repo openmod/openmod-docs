@@ -348,8 +348,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/plugins/plugin-management/" title="Installing and Managing Plugins" class="md-nav__link">
-      Installing and Managing Plugins
+    <a href="../../user-guide/plugins/plugin-management/" title="Installing and managing plugins" class="md-nav__link">
+      Installing and managing plugins
     </a>
   </li>
 
@@ -525,9 +525,49 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Logging
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
     <a href="./" title="Logging" class="md-nav__link md-nav__link--active">
       Logging
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#implementing-your-own-logger" class="md-nav__link">
+    Implementing your own logger
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -587,8 +627,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/events/" title="OpenMod Events" class="md-nav__link">
-      OpenMod Events
+    <a href="../events/events/" title="Events and event listeners" class="md-nav__link">
+      Events and event listeners
     </a>
   </li>
 
@@ -599,8 +639,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/builtin-events/" title="Built-in Events" class="md-nav__link">
-      Built-in Events
+    <a href="../events/builtin-events/" title="Built-in events" class="md-nav__link">
+      Built-in events
     </a>
   </li>
 
@@ -611,8 +651,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/game-events/" title="Game Events" class="md-nav__link">
-      Game Events
+    <a href="../events/game-events/" title="Game events" class="md-nav__link">
+      Game events
     </a>
   </li>
 
@@ -656,6 +696,30 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#implementing-your-own-logger" class="md-nav__link">
+    Implementing your own logger
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -689,7 +753,28 @@
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></p>
-<p>The generic part (<code>XX</code> in <code>ILogger&lt;XX&gt;</code>) must equal to the class that is using the logger.</p>
+<p>The generic part (<code>XX</code> in <code>ILogger&lt;XX&gt;</code>) must be the class that is using the logger.</p>
+<h2 id="implementing-your-own-logger">Implementing your own logger<a class="headerlink" href="#implementing-your-own-logger" title="Permanent link">¶</a></h2>
+<p>To implement your own logger, you must implement the <code>ILoggerFactory</code>, <code>ILogger</code> and <code>ILogger&lt;&gt;</code> services.<br/>
+After that you must register them via a <a href="../services.md#registering-your-own-services">ServiceConfigurator</a>:
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">ServiceConfigurator</span> <span class="p">:</span> <span class="n">IServiceConfigurator</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">ConfigureServices</span><span class="p">(</span><span class="n">IOpenModStartupContext</span> <span class="n">openModStartupContext</span><span class="p">,</span> <span class="n">IServiceCollection</span> <span class="n">serviceCollection</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">serviceCollection</span><span class="p">.</span><span class="n">AddSingleton</span><span class="p">&lt;</span><span class="n">ILoggerFactory</span><span class="p">,</span> <span class="n">MyLoggerFactory</span><span class="p">&gt;();</span>
+        <span class="n">serviceCollection</span><span class="p">.</span><span class="n">AddTransient</span><span class="p">&lt;</span><span class="n">ILogger</span><span class="p">,</span> <span class="n">MyLogger</span><span class="p">&gt;();</span> <span class="c1">// must be transient</span>
+        <span class="n">serviceCollection</span><span class="p">.</span><span class="n">AddTransient</span><span class="p">(</span><span class="k">typeof</span><span class="p">(</span><span class="n">ILogger</span><span class="p">&lt;&gt;),</span> <span class="k">typeof</span><span class="p">(</span><span class="n">MyLogger</span><span class="p">&lt;&gt;)();</span> <span class="c1">// must be transient</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Your custom logger will not be used while OpenMod is booting and creating the IoC container. It will used once OpenMod has fully started.</p>
+</div>
+<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Do not</strong> inject the <code>ILogger</code> interface directly. This will prevent the logger from associating your log messages with your class  your plugin. A user can also not configure minimum log levels or other options for your log messages in that case.</li>
+</ul>
                 
               
               

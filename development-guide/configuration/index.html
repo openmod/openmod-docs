@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#configurations" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -343,8 +348,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/plugins/plugin-management/" title="Installing and Managing Plugins" class="md-nav__link">
-      Installing and Managing Plugins
+    <a href="../../user-guide/plugins/plugin-management/" title="Installing and managing plugins" class="md-nav__link">
+      Installing and managing plugins
     </a>
   </li>
 
@@ -469,10 +474,73 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Configuration
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
     
     <a href="./" title="Configuration" class="md-nav__link md-nav__link--active">
       Configuration
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#adding-the-configyaml" class="md-nav__link">
+    Adding the config.yaml
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-from-the-configuration-file" class="md-nav__link">
+    Reading from the configuration file
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#converting-configuration-to-c-class" class="md-nav__link">
+    Converting configuration to C# class
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-your-own-configuration-sources" class="md-nav__link">
+    Adding your own configuration sources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -580,8 +648,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/events/" title="OpenMod Events" class="md-nav__link">
-      OpenMod Events
+    <a href="../events/events/" title="Events and event listeners" class="md-nav__link">
+      Events and event listeners
     </a>
   </li>
 
@@ -592,8 +660,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/builtin-events/" title="Built-in Events" class="md-nav__link">
-      Built-in Events
+    <a href="../events/builtin-events/" title="Built-in events" class="md-nav__link">
+      Built-in events
     </a>
   </li>
 
@@ -604,8 +672,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/game-events/" title="Game Events" class="md-nav__link">
-      Game Events
+    <a href="../events/game-events/" title="Game events" class="md-nav__link">
+      Game events
     </a>
   </li>
 
@@ -639,6 +707,66 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#adding-the-configyaml" class="md-nav__link">
+    Adding the config.yaml
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-from-the-configuration-file" class="md-nav__link">
+    Reading from the configuration file
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#converting-configuration-to-c-class" class="md-nav__link">
+    Converting configuration to C# class
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-your-own-configuration-sources" class="md-nav__link">
+    Adding your own configuration sources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -652,9 +780,91 @@
                   
                 
                 
-                  <h1>Configuration</h1>
-                
-                <p>TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO </p>
+                <h1 id="configurations">Configurations<a class="headerlink" href="#configurations" title="Permanent link">¶</a></h1>
+<p>Configurations allow users to configure and customize your plugins behavior.<br/>
+Assume your plugin gives XP when killing a player. By using configs a user can dynamically set how much XP will be given. </p>
+<p>OpenMod configurations are based on <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration?view=dotnet-plat-ext-3.1">Microsoft.Extensions.Configuration</a>, which are also used in ASP.NET Core.</p>
+<h2 id="adding-the-configyaml">Adding the config.yaml<a class="headerlink" href="#adding-the-configyaml" title="Permanent link">¶</a></h2>
+<p>Create a new file called "config.yaml" inside your projects root directory.<br/>
+After that, add the following to your .csproj file: 
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;ItemGroup&gt;</span>
+  <span class="nt">&lt;EmbeddedResource</span> <span class="na">Include=</span><span class="s">"config.yaml"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/ItemGroup&gt;</span>
+</code></pre></div></p>
+<h2 id="reading-from-the-configuration-file">Reading from the configuration file<a class="headerlink" href="#reading-from-the-configuration-file" title="Permanent link">¶</a></h2>
+<p>You can use the <code>IConfiguration</code> service to read the config.yaml file. You can inject it like this:<br/>
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">MyPlugin</span> <span class="p">:</span> <span class="n">OpenModUniversalPlugin</span>
+<span class="p">{</span>
+    <span class="k">private</span> <span class="k">readonly</span> <span class="n">IConfiguration</span> <span class="n">m_Configuration</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="nf">MyPlugin</span><span class="p">(</span><span class="n">IConfiguration</span> <span class="n">configuration</span><span class="p">,</span> <span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">m_Configuration</span> <span class="p">=</span> <span class="n">configuration</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnLoadAsync</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="c1">// ...</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></p>
+<p>Assume your configuration looks like this:
+<div class="highlight"><pre><span></span><code><span class="nt">plugin_load_delay</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">500</span>
+</code></pre></div></p>
+<p>Then this is how you would read the value:
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnLoadAsync</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="kt">var</span> <span class="n">delay</span> <span class="p">=</span> <span class="n">m_Configuration</span><span class="p">.</span><span class="n">GetSection</span><span class="p">(</span><span class="s">"plugin_load_delay"</span><span class="p">).</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();</span>
+  <span class="k">await</span> <span class="n">Task</span><span class="p">.</span><span class="n">Delay</span><span class="p">(</span><span class="n">delay</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></p>
+<p>You can also have nested values:
+<div class="highlight"><pre><span></span><code><span class="nt">plugin_load</span><span class="p">:</span>
+  <span class="nt">actions</span><span class="p">:</span>
+    <span class="nt">wait_delay</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">500</span>
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnLoadAsync</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="c1">// notice how ":" is used to access nested values</span>
+  <span class="kt">var</span> <span class="n">delay</span> <span class="p">=</span> <span class="n">m_Configuration</span><span class="p">.</span><span class="n">GetSection</span><span class="p">(</span><span class="s">"plugin_load:actions:wait_delay"</span><span class="p">).</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();</span>
+  <span class="k">await</span> <span class="n">Task</span><span class="p">.</span><span class="n">Delay</span><span class="p">(</span><span class="n">delay</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>If you want to access strings, you can also use the indexer:
+<div class="highlight"><pre><span></span><code><span class="nt">players</span><span class="p">:</span>
+  <span class="nt">owner</span><span class="p">:</span> <span class="s">"Trojaner"</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnLoadAsync</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="c1">// reading strings is even easier</span>
+  <span class="kt">string</span> <span class="n">owner</span> <span class="p">=</span> <span class="n">m_Configuration</span><span class="p">[</span><span class="s">"players:owner"</span><span class="p">];</span>
+<span class="p">}</span>
+</code></pre></div></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Configurations are not meant to act as a storage for data, that's why there is no save method. Use <a href="../datastore.md">Data Stores</a> if you have read from and write data to a file.</p>
+</div>
+<h2 id="converting-configuration-to-c-class">Converting configuration to C# class<a class="headerlink" href="#converting-configuration-to-c-class" title="Permanent link">¶</a></h2>
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnLoadAsync</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="n">MyConfigClass</span> <span class="n">config</span> <span class="p">=</span> <span class="n">m_Configuration</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="n">MyConfigClass</span><span class="p">&gt;();</span>
+  <span class="c1">// or if you only want a subset:</span>
+  <span class="c1">// MyClass config = m_Configuration.GetSection("something").Get&lt;MyClass&gt;();</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="adding-your-own-configuration-sources">Adding your own configuration sources<a class="headerlink" href="#adding-your-own-configuration-sources" title="Permanent link">¶</a></h2>
+<p>You can add additional configuration sources by implementing the <code>IConfigurationConfigurator</code> interface.<br/>
+This interface allows you to add additional sources to the <code>IConfigurationBuilder</code> used when building the OpenMod config.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Custom configuration sources for plugins <a href="https://github.com/openmod/openmod/issues/90">are not supported yet</a>.</p>
+</div>
+<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Do not</strong> hardcode important values. For example, if you are making a plugin that gives playesr XP when killing other players, make sure the XP amount is configurable, as it is likely something a user would want to adjust.</li>
+<li><strong>Do not</strong> overcomplicate your configurations. Only add values that users are likely going to change. Have a simple configuration is preferred to a complex one.</li>
+<li><strong>Do not</strong> use configurations to store messages. Use <a href="../localization.md">translations</a> instead. Unlike translations, configurations do not support any kind of formatting or passing arguments.</li>
+</ul>
                 
               
               
