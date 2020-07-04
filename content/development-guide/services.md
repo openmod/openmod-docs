@@ -1,11 +1,46 @@
 # Services and Dependency Injection
 
-OpenMod, like other modern .NET projects, uses the dependency injection pattern. This guide aims to simplify it and explain what it means for plugin developers using OpenMod.
+OpenMod, like other modern .NET projects, uses the [dependency injection pattern](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection). This guide aims to simplify it and explain what it means for plugin developers using OpenMod.
 
-Plugins, commands, event listeners, and services can automatically get references to any other services provided by OpenMod or plugins just by adding their interfaces to the constructor.  
+Plugins, commands, event listeners, and services can automatically get references to plugins or any other services provided by OpenMod just by adding their interfaces to the constructor. 
 
-## Registering your services
+
+## Dependency injection example
+Let's see this in action:
+
+This is how your plugin looks like normally:
+```cs
+public class MyPlugin(IServiceProvider serviceProvider) : base(serviceProvider)
+{
+
+}
+```
+
+If you wanted to access the `IStringLocalizer` service, you could it like this:
+```cs
+public class MyPlugin(IStringLocalizer stringLocalizer, IServiceProvider serviceProvider) : base(serviceProvider)
+{
+   // do something with stringLocalizer
+}
+```
+
+Assume you want to access your plugin's instance and configuration from a command. Here is how you could do it:
+```c#
+private readonly IConfiguration m_Configuration;
+private readonly MyPlugin m_MyPlugin;
+
+public EchoCommand(
+    IServiceProvider serviceProvider, 
+    MyPlugin myPlugin,
+    IConfiguration configuration) : base(serviceProvider)
+    m_MyPlugin = myPlugin;
+    m_Configuration = configuration;
+}
+```
+
+## Registering your own services
 There are two ways to register a service:
+
 1. Registering by using the`[Service]` attribute for the interface and `[ServiceImplementation]` for the concrete class.
 2. Registering manually by implementing the `IServiceConfigurator` or `IContainerConfigurator` interfaces. Classes which implement these interfaces are automatically instantiated when the IoC container is configured and can be used to configure the container directly. 
 
@@ -62,40 +97,23 @@ You can now access this service by injecting `IVehicleClearingService` in e.g. c
 
 | **Service**                                     | **Description**                                   |
 |-------------------------------------------------|---------------------------------------------------|
-| IConfiguration                                  | Access plugin configuration                       |
+| IConfiguration                                  | Read configuration files                          |
 | ICommandExecutor                                | Execute command                                   |
 | ICommandStore                                   | Access command registrations                      |
 | ICommandPermissionBuilder                       | Get a commands permission                         |
 | ICurrentCommandContextAccessor                  | Access the current command context                |
-| IStringLocalizer                                | Localize messages for plugins                     |
-| IOpenModStringLocalizer                         | Localize messages from OpenMod's translation file |
+| IDataStore                                      | Serialize and deserialize persistent data         |
 | IDataStoreFactory                               | Create a data store instance                      |
-| IOpenModDataStoreAccessor                       | Access OpenMods own data store                    |
 | IEventBus                                       | Subscribe to events and emit them                 |
-| IOpenModHost                                    | OpenMod Host platform abstractions                | 
+| IOpenModStringLocalizer                         | Localize messages from OpenMod's translation file |
+| IOpenModDataStoreAccessor                       | Access OpenMods own data store                    |
+| IOpenModHost                                    | OpenMod host platform abstractions                | 
 | IPermissionChecker                              | Check permissions                                 |
-| IPermissionRolesDataStore                       | Data store for permission roles                   |
+| IPermissionRoleStore                            | Get and manage permission roles                   |
+| IPluginAccessor<>                               | Access a plugins instace                          |
+| IPluginActivator                                | Load and activate plugins                         |
+| IRuntime                                        | Manage OpenMod runtime                            |
+| IStringLocalizer                                | Localize messages from plugin translation files   |
 | IUserDataSeeder                                 | Seeds user data on first connect                  |
 | IUserDataStore                                  | Reads and saves user data                         |
 | IUserManager                                    | Finds and gets users                              |
-| IRuntime                                        | OpenMod runtime                                   |
-
-
-## Dependency injection example
-Assume you want to access your plugin's instance and configuration from a command. Here is how you could do it:
-
-```c#
-private readonly IConfiguration m_Configuration;
-private readonly MyPlugin m_MyPlugin;
-
-public EchoCommand(
-    IServiceProvider serviceProvider, 
-    MyPlugin myPlugin,
-    IConfiguration configuration) : base(serviceProvider)
-    m_MyPlugin = myPlugin;
-    m_Configuration = configuration;
-}
-```
-
-## Further reading
-For more, read the [Dependency injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection) page on docs.microsoft.com.
