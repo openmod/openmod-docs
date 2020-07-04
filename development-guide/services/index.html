@@ -773,6 +773,51 @@
 <p>There are two ways to register a service:
 1. Registering by using the<code>[Service]</code> attribute for the interface and <code>[ServiceImplementation]</code> for the concrete class.
 2. Registering manually by implementing the <code>IServiceConfigurator</code> or <code>IContainerConfigurator</code> interfaces. Classes which implement these interfaces are automatically instantiated when the IoC container is configured and can be used to configure the container directly. </p>
+<p>You can implement the IDisposable or the IAsyncDisposable interface for cleaning up resources when openmod reloads or shuts down. </p>
+<p>You can use the <code>IPluginAccessor&lt;&gt;</code> service, to access your plugins instance and its services. </p>
+<p>Here is an example service to clear vehicles:
+<div class="highlight"><pre><span></span><code><span class="na">[Service]</span>
+<span class="k">public</span> <span class="k">interface</span> <span class="n">IVehicleClearingService</span>
+<span class="p">{</span>
+    <span class="n">Task</span> <span class="nf">ClearVehiclesAsync</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="na">[ServiceImplementation]</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">VehicleClearingService</span> <span class="p">:</span> <span class="n">IVehicleClearingService</span><span class="p">,</span> <span class="n">IAsyncDisposable</span>
+<span class="p">{</span>
+    <span class="k">private</span> <span class="k">readonly</span> <span class="n">IStringLocalizer</span> <span class="n">m_StringLocalizer</span><span class="p">;</span>
+    <span class="k">private</span> <span class="k">readonly</span> <span class="n">ILogger</span><span class="p">&lt;</span><span class="n">VehicleClearingService</span><span class="p">&gt;</span> <span class="n">m_Logger</span><span class="p">;</span>
+    <span class="k">public</span> <span class="nf">VehicleClearingService</span><span class="p">(</span>
+        <span class="n">ILogger</span><span class="p">&lt;</span><span class="n">VehicleClearingService</span><span class="p">&gt;</span> <span class="n">logger</span><span class="p">,</span> 
+        <span class="n">IPluginAccessor</span><span class="p">&lt;</span><span class="n">VehicleClearerPlugin</span><span class="p">&gt;</span> <span class="n">pluginAccessor</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">VehicleClearerPlugin</span> <span class="n">plugin</span> <span class="p">=</span> <span class="n">pluginAccessor</span><span class="p">.</span><span class="n">Instance</span><span class="p">;</span>
+
+        <span class="c1">// Services live in the global OpenMod scope, which does not provide a IStringLocalizer.</span>
+        <span class="c1">// Since IStringLocalizer does not exist in this scope, we have to use the plugins scope.</span>
+        <span class="n">m_StringLocalizer</span> <span class="p">=</span> <span class="n">plugin</span><span class="p">.</span><span class="n">Lifetime</span><span class="p">.</span><span class="n">Resolve</span><span class="p">&lt;</span><span class="n">IStringLocalizer</span><span class="p">&gt;();</span>
+        <span class="n">m_Logger</span> <span class="p">=</span> <span class="n">logger</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">ClearVehiclesAsync</span><span class="p">()</span> 
+    <span class="p">{</span>
+        <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="n">m_StringLocalizer</span><span class="p">[</span><span class="s">"messages.clearing_vehicles"</span><span class="p">]);</span> <span class="c1">// translation is read from the plugins translation</span>
+        <span class="c1">// call game apis to clear vehicles...</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Service dispose methods are called on openmod reload or server shutdown </span>
+    <span class="k">public</span> <span class="k">async</span> <span class="n">ValueTask</span> <span class="nf">DisposeAsync</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">await</span> <span class="nf">ClearVehiclesAsync</span><span class="p">();</span> <span class="c1">// ensure vehicles get cleared on reload or shutdown</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></p>
+<p>You can now access this service by injecting <code>IVehicleClearingService</code> in e.g. commands, event listeners, your plugin class or other services. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Custom services have a different lifetime then plugins. Even if your plugin unloads your service will be still alive and used.  <br/>
+Services are created before plugins load and are destroyed when openmod reloads or the server shuts down.</p>
+</div>
 <h2 id="built-in-openmod-services">Built-in OpenMod services<a class="headerlink" href="#built-in-openmod-services" title="Permanent link">¶</a></h2>
 <table>
 <thead>
