@@ -377,8 +377,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/translations/" title="Translations" class="md-nav__link">
-      Translations
+    <a href="../../user-guide/localization/" title="Localization" class="md-nav__link">
+      Localization
     </a>
   </li>
 
@@ -582,8 +582,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../configurations/" title="Configurations" class="md-nav__link">
-      Configurations
+    <a href="../configuration/" title="Configuration" class="md-nav__link">
+      Configuration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../localization/" title="Localization" class="md-nav__link">
+      Localization
     </a>
   </li>
 
@@ -607,16 +619,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-8" type="checkbox" id="nav-3-8">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-9" type="checkbox" id="nav-3-9">
     
-    <label class="md-nav__link" for="nav-3-8">
+    <label class="md-nav__link" for="nav-3-9">
       Events
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Events" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-8">
+      <label class="md-nav__title" for="nav-3-9">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -829,7 +841,7 @@ how to integrate translation files.</p>
     <span class="c1">// assume we want the command to be called like this: /awesome &lt;player&gt; &lt;amount&gt;</span>
     <span class="c1">// Parameters start from 0, so &lt;player&gt; index is 0, &lt;amount&gt; index is 1.</span>
     <span class="kt">var</span> <span class="n">player</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;(</span><span class="m">0</span><span class="p">);</span>
-    <span class="kt">var</span> <span class="n">count</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;(</span><span class="m">1</span><span class="p">);</span>
+    <span class="kt">var</span> <span class="n">amount</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;(</span><span class="m">1</span><span class="p">);</span>
     <span class="k">await</span> <span class="nf">PrintAsync</span><span class="p">(</span><span class="err">$</span><span class="s">"{player} is {amount}x awesome!"</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div></p>
@@ -856,11 +868,11 @@ The <code>[CommandActor(Type)]</code> attribute allows you to specify such restr
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnExecuteAsync</span><span class="p">()</span>
 <span class="p">{</span>
     <span class="kt">var</span> <span class="n">player</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;(</span><span class="m">0</span><span class="p">);</span>
-    <span class="kt">var</span> <span class="n">count</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;(</span><span class="m">1</span><span class="p">);</span>
+    <span class="kt">var</span> <span class="n">amount</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;(</span><span class="m">1</span><span class="p">);</span>
 
-    <span class="k">if</span><span class="p">(</span><span class="n">count</span> <span class="p">&lt;</span> <span class="m">1</span><span class="p">)</span> 
+    <span class="k">if</span><span class="p">(</span><span class="n">amount</span> <span class="p">&lt;</span> <span class="m">1</span><span class="p">)</span> 
     <span class="p">{</span>
-        <span class="k">throw</span> <span class="k">new</span> <span class="nf">UserFriendlyException</span><span class="p">(</span><span class="s">"Count cannot be negative!"</span><span class="p">);</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="nf">UserFriendlyException</span><span class="p">(</span><span class="s">"Amount cannot be negative!"</span><span class="p">);</span>
     <span class="p">}</span>
 
     <span class="k">await</span> <span class="nf">PrintAsync</span><span class="p">(</span><span class="err">$</span><span class="s">"{player} is {amount}x awesome!"</span><span class="p">);</span>
@@ -868,13 +880,13 @@ The <code>[CommandActor(Type)]</code> attribute allows you to specify such restr
 </code></pre></div>
 <h2 id="command-permissions">Command Permissions<a class="headerlink" href="#command-permissions" title="Permanent link">¶</a></h2>
 <p>By design and for consistency reasons, you cannot define a command permission manually. OpenMod will automatically assign a permission to the command instead. You can use the <code>help &lt;yourcommand&gt;</code> command to figure out what the base permission for your command is.</p>
-<p>Assume you want to restrict the <code>awesome</code> command if the count is more than 10. This is how you would do it:
+<p>Assume you want to restrict the <code>awesome</code> command if the amount is more than 10. This is how you would do it:
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnExecuteAsync</span><span class="p">()</span>
 <span class="p">{</span>
     <span class="kt">var</span> <span class="n">player</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;(</span><span class="m">0</span><span class="p">);</span>
-    <span class="kt">var</span> <span class="n">count</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;(</span><span class="m">1</span><span class="p">);</span>
+    <span class="kt">var</span> <span class="n">amount</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;(</span><span class="m">1</span><span class="p">);</span>
 
-    <span class="k">if</span><span class="p">(</span><span class="n">count</span> <span class="p">&gt;</span> <span class="m">10</span> <span class="p">&amp;&amp;</span> <span class="k">await</span> <span class="n">CheckPermissionAsync</span><span class="p">(</span><span class="s">"MoreThan10"</span><span class="p">)</span> <span class="p">!=</span> <span class="n">PermissionGrantResult</span><span class="p">.</span><span class="n">Grant</span><span class="p">)</span> 
+    <span class="k">if</span><span class="p">(</span><span class="n">amount</span> <span class="p">&gt;</span> <span class="m">10</span> <span class="p">&amp;&amp;</span> <span class="k">await</span> <span class="n">CheckPermissionAsync</span><span class="p">(</span><span class="s">"MoreThan10"</span><span class="p">)</span> <span class="p">!=</span> <span class="n">PermissionGrantResult</span><span class="p">.</span><span class="n">Grant</span><span class="p">)</span> 
     <span class="p">{</span>
         <span class="k">throw</span> <span class="k">new</span> <span class="nf">NotEnoughPermissionException</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="s">"MoreThan10"</span><span class="p">);</span> <span class="c1">// displays an error message to the user </span>
     <span class="p">}</span>
