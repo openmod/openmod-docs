@@ -21,7 +21,7 @@ public class CommandAwesome : Command
     In the following examples no translations are used. See [translations](../translations.md) on information on 
     how to integrate translation files.
 
-After that, add some metadata to describe our command and it's usage:
+After that, add some metadata to describe our command and its usage:
 ```c#
 [Command("awesome")] // The primary name for the command. Usually it is defined lowercase. 
 [CommandAlias("awsm")] // Add "awsm" as alias.

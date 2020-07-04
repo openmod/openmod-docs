@@ -14,7 +14,7 @@ For example, to install RocketMod plugins just add the dll files to your `Rocket
 
 ## Caveats
 - RocketMod plugins are *not* converted to OpenMod plugins, so you can not manage them from OpenMod.
-- RocketMod is completely separated from OpenMod and has it's own configuration system, permissions system, command system etc. 
+- RocketMod is completely separated from OpenMod and has its own configuration system, permissions system, command system etc. 
 - OpenMod commands will always override RocketMod commands when a conflict occurs.
 
 ## Linking RocketMod to OpenMod Permissions
