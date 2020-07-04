@@ -85,7 +85,7 @@ For example, if you would like to restrict a command's usage to UnturnedUser and
 ```
 
 ## Exceptions
-Exceptions derived from `UserFriendlyException` are automatically caught by OpenMod and displayed to the user in a user friendly way.  
+Exceptions derived from `UserFriendlyException` are automatically caught by OpenMod and displayed to the user in a user-friendly way.  
 
 These built-in exceptions available: 
 

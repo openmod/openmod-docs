@@ -1,6 +1,6 @@
 # Permissions
 
-OpenMod has a simple role based permission system. Permissions define which actions a user can execute and which they can not.
+OpenMod has a simple role-based permission system. Permissions define which actions a user can execute and which they can not.
 
 You can manage permissions by editing the `openmod.roles.yaml` file inside the `OpenMod` directory or by using the `permission` and `permissionrole` commands. You can use the `help permission` and `help permissionrole` commands for more information.
 
@@ -11,7 +11,7 @@ A role has the following attributes:
 
 - **Parents**: The parents roles, whose permissions are inherited.
 - **Permissions**: List of permissions the role has.
-- **Display Name**: Human readable name of the role.
+- **Display Name**: Human-readable name of the role.
 - **Is Auto Assigned**: Automatically assigns the role to new users. **Does not assign to existing users**.
 - **Data**: Data that can be attached to the role by plugins. 
 - **Priority**: In case of conflicting permissions, this attribute will define which role gets preferred.
