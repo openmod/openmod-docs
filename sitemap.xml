@@ -44,6 +44,14 @@
      <lastmod>2020-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
+     <loc>https://openmod.github.io/openmod-docs/development-guide/configuration/</loc>
+     <lastmod>2020-07-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://openmod.github.io/openmod-docs/development-guide/localization/</loc>
+     <lastmod>2020-07-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
      <loc>https://openmod.github.io/openmod-docs/development-guide/scheduling/</loc>
      <lastmod>2020-07-04</lastmod>
      <changefreq>daily</changefreq>
@@ -56,15 +64,11 @@
      <lastmod>2020-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://openmod.github.io/openmod-docs/development-guide/configuration/</loc>
-     <lastmod>2020-07-04</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://openmod.github.io/openmod-docs/development-guide/localization/</loc>
-     <lastmod>2020-07-04</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://openmod.github.io/openmod-docs/development-guide/permissions/</loc>
+     <lastmod>2020-07-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://openmod.github.io/openmod-docs/development-guide/datastore/</loc>
      <lastmod>2020-07-04</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
