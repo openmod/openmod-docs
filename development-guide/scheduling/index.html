@@ -809,7 +809,7 @@ It will enqueue the given task on a thread pool. This can be used to run tasks d
 <span class="p">}</span>
 </code></pre></div>
 Then call AsyncHelper.Schedule like this:
-<div class="highlight"><pre><span></span><code><span class="n">AsyncHelper</span><span class="p">.</span><span class="n">Schedule</span><span class="p">(</span><span class="s">"My Task"</span><span class="p">,</span> <span class="n">MyTask</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="n">AsyncHelper</span><span class="p">.</span><span class="n">Schedule</span><span class="p">(</span><span class="s">"My Task"</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="n">MyTask</span><span class="p">());</span>
 </code></pre></div></p>
 <h3 id="running-a-task-periodically">Running a Task periodically<a class="headerlink" href="#running-a-task-periodically" title="Permanent link">¶</a></h3>
 <p>If you want to run a Task periodically, all you have to do is to surround your task with a while loop:</p>
