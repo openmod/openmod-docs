@@ -18,7 +18,7 @@ public async Task MyTask()
 ```
 Then call AsyncHelper.Schedule like this:
 ```c#
-AsyncHelper.Schedule("My Task", () => MyTask());
+AsyncHelper.Schedule("My Task", MyTask);
 ```
 
 ### Running a Task periodically
