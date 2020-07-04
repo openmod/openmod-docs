@@ -55,7 +55,7 @@ public class AwesomeCommand : Command
 }
 ```
 
-`commands.awesome` defines the key for the translation. By default, it equals to the path inside the yaml file. You can use any valid path. See [configuration](../configuration.md) for more about paths.  
+`commands.awesome` defines the key for the translation. By default, it equals to the path inside the yaml file. You can use any valid path, such as `messages.awesome`, just `awesome`, etc. See [configuration](../configuration.md) for more about paths.  
 
 `new { Actor = Actor, Amount = amount }` sets the arguments for the translations.
 

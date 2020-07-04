@@ -4,7 +4,6 @@ Welcome to the OpenMod Documentation.
 OpenMod is a .NET plugin framework.
 
 
-
 If you would like to install OpenMod, installation guides for the following platforms are available:
 
 - [Unturned](user-guide/installation/unturned.md)

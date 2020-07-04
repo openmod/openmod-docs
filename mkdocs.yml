@@ -23,16 +23,17 @@ pages:
     - Development Guide:
         - Making your first plugin: development-guide/making-your-first-plugin.md
         - Commands: development-guide/commands.md
-        - Scheduling: development-guide/scheduling.md
-        - Services: development-guide/services.md
-        - Logging: development-guide/logging.md
-        - Configuration: development-guide/configuration.md
+        - Configuration: development-guide/configuration.md # todo
         - Localization: development-guide/localization.md
-        - Permissions: development-guide/permissions.md
+        - Scheduling: development-guide/scheduling.md
+        - Services: development-guide/services.md # not complete
+        - Logging: development-guide/logging.md
+        - Permissions: development-guide/permissions.md # todo
+        - Data Store: development-guide/datastore.md # todo
         - Events:
-            - OpenMod Events: development-guide/events/events.md
-            - Built-in Events: development-guide/events/builtin-events.md
-            - Game Events: development-guide/events/game-events.md
+            - OpenMod Events: development-guide/events/events.md # todo
+            - Built-in Events: development-guide/events/builtin-events.md # todo
+            - Game Events: development-guide/events/game-events.md # todo
         - Publishing to nuget.org: development-guide/publishing-to-nuget.md
 plugins:
   - search
