@@ -81,8 +81,8 @@ public class EchoCommand : Command
 
 Let's go ahead and fix the error by implementing the method `ExecuteAsync()` and a constructor. For now, do not worry about what async is. This is going to be the method that executes what you want your command to perform.
 
-So now, you will be wanting to know how you can actually access the in-game data and methods. You can access the command context without the parameters, by simply using Context (this comes from using the Command abstract class).
-This will allow you to access the Player, from now it is actually quite easy, let's see a finished product of this command.
+So now, you will be wanting to know how you can access the in-game data and methods. You can access the command context without the parameters, by simply using Context (this comes from using the Command abstract class).
+This will allow you to access the Player, from now it is quite easy, let's see a finished product of this command.
 
 ```c#
 [Command("echo")]
