@@ -55,9 +55,9 @@ public class AwesomeCommand : Command
 }
 ```
 
-`commands.awesome` defines the key for the translation. By default, it equals to the path of the yaml file. You can use any path, it does not have to start with `commands`. See [configuration](../confiugration.md) for more about such paths.  
+`commands.awesome` defines the key for the translation. By default, it equals to the path inside the yaml file. You can use any valid path. See [configuration](../configuration.md) for more about paths.  
 
-`new { Actor = Actor, Amount = amount }` passes the parameters for the translations.
+`new { Actor = Actor, Amount = amount }` sets the arguments for the translations.
 
 We now need to add a new translation to the `translations.yaml`:
 ```yaml
@@ -65,4 +65,4 @@ commands:
   awesome: "{Actor.DisplayName} is {Amount}x awesome!"
 ```
 
-Notice how we can access properties of the Actor parameter by calling `Actor.DisplayName`. By default, OpenMod uses SmartFormat.NET for parsing parameters. See the [SmartFormat.NET wiki](https://github.com/axuno/SmartFormat/wiki) for more information. 
+Notice how we can access properties of the Actor parameter by calling `Actor.DisplayName`. By default, OpenMod uses SmartFormat.NET for parsing arguments. See the [SmartFormat.NET wiki](https://github.com/axuno/SmartFormat/wiki) for more information. 
