@@ -75,7 +75,7 @@ public class VehicleClearingService : IVehicleClearingService, IAsyncDisposable
 
     public async Task ClearVehiclesAsync() 
     {
-        m_Logger.LogInformation(m_StringLocalizer["messages.clearing_vehicles"]); // translation is read from the plugins translation
+        m_Logger.LogInformation(m_StringLocalizer["messages:clearing_vehicles"]); // translation is read from the plugins translation
         // call game apis to clear vehicles...
     }
 

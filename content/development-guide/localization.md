@@ -50,12 +50,12 @@ public class AwesomeCommand : Command
     {
         var count = Context.Parameters.Get<int>(0);
 
-        await PrintAsync(m_StringLocalizer["commands.awesome", new { Actor = Actor, Amount = amount }]);
+        await PrintAsync(m_StringLocalizer["commands:awesome", new { Actor = Actor, Amount = amount }]);
     }
 }
 ```
 
-`commands.awesome` defines the key for the translation. By default, it equals to the path inside the yaml file. You can use any valid path, such as `messages.awesome`, just `awesome`, etc. See [configuration](../configuration.md) for more about paths.  
+`commands:awesome` defines the key for the translation. By default, it equals to the path inside the yaml file. You can use any valid path, such as `messages:awesome`, just `awesome`, etc.
 
 `new { Actor = Actor, Amount = amount }` sets the arguments for the translations.
 
