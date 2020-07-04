@@ -1,7 +1,7 @@
 # Translations
 
 Translations files allow you to translate or customize OpenMod or plugin messages.  
-OpenMod's translation `openmod.translations.yaml` can be found inside the `OpenMod` directory:
+OpenMod's translation file `openmod.translations.yaml` can be found inside the `OpenMod` directory:
 ```yaml
 commands:
   openmod:

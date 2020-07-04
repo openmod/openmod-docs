@@ -3,7 +3,7 @@ OpenMod provides a strong command framework.
 
 To create a command, simply create a class that inherits from one of these:
 
-* Command (for univeral plugins)
+* Command (for universal plugins)
 * UnityEngineCommand (for UnityEngine plugins)
 * UnturnedCommand (for Unturned plugins)
 
@@ -21,9 +21,9 @@ public class CommandAwesome : Command
     In the following examples no translations are used. See [translations](../translations.md) on information on 
     how to integrate translation files.
 
-After that, add some metadata to describe our command and it's usage:
+After that, add some metadata to describe our command and its usage:
 ```c#
-[Command("awesome")] // The primary name for the command. Usually it is defined lowercase. 
+[Command("awesome")] // The primary name for the command. Usually, it is defined as lowercase. 
 [CommandAlias("awsm")] // Add "awsm" as alias.
 [CommandAlias("aw")] // Add "aw" as alias.
 [CommandDescription("My awesome command")] // Description. Try to keep it short and simple.
@@ -57,7 +57,7 @@ public class CommandAwesome : Command
 ```
 
 ## Parameters
-When we handle commands, we usually also need to handle parameters. The command context provides a Parameter proprety. Let's use it:  
+When we handle commands, we usually also need to handle parameters. The command context provides a Parameter property. Let's use it:  
 ```c#
 public async Task OnExecuteAsync()
 {
@@ -85,7 +85,7 @@ For example, if you would like to restrict a command's usage to UnturnedUser and
 ```
 
 ## Exceptions
-Exceptions derivered from `UserFriendlyException` are automatically catched by OpenMod and displayed to the user in a user friendly way.  
+Exceptions derived from `UserFriendlyException` are automatically caught by OpenMod and displayed to the user in a user-friendly way.  
 
 These built-in exceptions available: 
 
@@ -103,7 +103,7 @@ public async Task OnExecuteAsync()
 
     if(count < 1) 
     {
-        throw new UserFriendlyException("Count can not be negative!");
+        throw new UserFriendlyException("Count cannot be negative!");
     }
 
     await PrintAsync($"{player} is {amount}x awesome!");
@@ -111,9 +111,9 @@ public async Task OnExecuteAsync()
 ```
 
 ## Command Permissions
-By design and for consistency reasons, you can not define a command permission manually. OpenMod will automatically assign a permission to the command instead. You can use the `help <yourcommand>` command to figure out what the base permission for your command is.
+By design and for consistency reasons, you cannot define a command permission manually. OpenMod will automatically assign a permission to the command instead. You can use the `help <yourcommand>` command to figure out what the base permission for your command is.
 
-Assume you want to restrict the `awesome` command if count is more than 10. This is how you would do it:
+Assume you want to restrict the `awesome` command if the count is more than 10. This is how you would do it:
 ```c#
 public async Task OnExecuteAsync()
 {
@@ -153,7 +153,7 @@ public class CommandAwesomeMore : Command
 ```
 
 ## Best Practices
-* **Do not** handle sub commands yourself (e.g. `if(Context.Parameters[0] == "add")`). OpenMod can not discover your subcommands and provide additional help or tab completion in that case.  
+* **Do not** handle sub commands yourself (e.g. `if(Context.Parameters[0] == "add")`). OpenMod cannot discover your subcommands and provide additional help or tab completion in that case.  
 * **Do not** hardcode messages. Instead, use [translations](../translations.md) so users can customize and translate your messages.
-* When writing commands, keep in mind that any type of user could execute your command by default. Maybe a plugin adds a DiscordUser and someone from Discord executes your command. Try to write your commands in a way that works with all kind of users or restrict the allowed actors as mentioned earlier.
-* **Do not** manually check if an actor is allowed to execute a command (e.g. `if(!(actor is UnturnedUser))`). Always use `[CommandActor]` for such restrictions. It will automatically hide the command from actors who can not execute them and give a consistent error message. 
+* When writing commands, keep in mind that any type of user could execute your command by default. Maybe a plugin adds a DiscordUser and someone from Discord executes your command. Try to write your commands in a way that works with all kinds of users or restrict the allowed actors as mentioned earlier.
+* **Do not** manually check if an actor is allowed to execute a command (e.g. `if(!(actor is UnturnedUser))`). Always use `[CommandActor]` for such restrictions. It will automatically hide the command from actors who cannot execute them and give a consistent error message. 

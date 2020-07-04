@@ -12,13 +12,13 @@ You can delay a Task like this:
 public async Task MyTask()
 {
     m_Logger.LogInformation("Waiting 5 seconds...");
-    await Task.Wait(TimeSpan.FromSeconds(5));
+    await Task.Delay(TimeSpan.FromSeconds(5));
     m_Logger.LogInformation("Done!");
 }
 ```
 Then call AsyncHelper.Schedule like this:
 ```c#
-AsyncHelper.Schedule("My Task", () => MyTask());
+AsyncHelper.Schedule("My Task", MyTask);
 ```
 
 ### Running a Task periodically
@@ -30,7 +30,7 @@ public async Task MyPeriodicTask(IOpenModPlugin myPlugin)
     while(myPlugin.IsAlive) // ensure this task runs only as long as the plugin is loaded 
     {
         m_Logger.LogInformation("Waiting 5 seconds...");
-        await Task.Wait(TimeSpan.FromSeconds(5));
+        await Task.Delay(TimeSpan.FromSeconds(5));
         m_Logger.LogInformation("Done!");
     }
 }
@@ -64,8 +64,8 @@ Let's break this down.
 Inspect the following line:
 `await UniTask.DelayFrame(1, PlayerLoopTiming.Update)`  
 
-The first parameter, the 1, defines how many frames to wait. So this example will always wait one frame, and hence runs on every frame update.  
-The second parameter, PlayerLoopTiming.Update, sets which type of update it should wait for. In this example it is a normal frame update. You can use other update types such as FixedUpdate too.
+The first parameter, the 1, defines how many frames to wait. So this example will always wait for one frame and hence runs on every frame update.  
+The second parameter, PlayerLoopTiming.Update, sets which type of update it should wait for. In this example, it is a normal frame update. You can use other update types such as FixedUpdate too.
 
 The following update types are available:
 
@@ -89,4 +89,4 @@ AsyncHelper.Schedule("My Task", () => MyUpdateTask(myPlugin).AsTask() /* for Uni
 
 ## Best Practices
 If your task runs periodically, always ensure it stops running when your plugin gets unloaded.   
-**Do not** use Thread.Sleep or similar blocking methods like non-async I/O methods in Tasks. These methods will block the thread and prevent other tasks from running. Always use the async Task methods instead, like `Task.Wait`.
+**Do not** use Thread.Sleep or similar blocking methods like non-async I/O methods in Tasks. These methods will block the thread and prevent other tasks from running. Always use the async Task methods instead, like `Task.Delay`.

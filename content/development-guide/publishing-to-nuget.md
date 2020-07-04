@@ -20,7 +20,7 @@ You will need a Microsoft account for [nuget.org](https://www.nuget.org/).
 2. Sign in to [nuget.org](https://nuget.org).
 3. Click on your username, select API Keys.
 4. Select create. Add a name, select the `Push` scope and add `*` as Glob pattern, then select create.
-5. Copy your newly created key. Save your key securely as you can not retrieve it again.
+5. Copy your newly created key. Save your key securely as you cannot retrieve it again.
 
 ## Uploading the plugin
 1. Navigate to your plugin's folder. Execute the following command: `dotnet build --configuration Release`.
