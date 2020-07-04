@@ -495,8 +495,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visual-studio-code" class="md-nav__link">
-    Visual Studio Code
+  <a href="#visual-studio-code-preferred" class="md-nav__link">
+    Visual Studio Code (preferred)
   </a>
   
 </li>
@@ -781,8 +781,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visual-studio-code" class="md-nav__link">
-    Visual Studio Code
+  <a href="#visual-studio-code-preferred" class="md-nav__link">
+    Visual Studio Code (preferred)
   </a>
   
 </li>
@@ -871,14 +871,14 @@
 <p>Install the latest .NET Core SDK from <a href="https://dotnet.microsoft.com/download/dotnet-core/3.1">here</a> (you should download a dotnet-sdk-xxxxx.zip).</p>
 <h2 id="installing-the-ide-for-coding">Installing the IDE for coding<a class="headerlink" href="#installing-the-ide-for-coding" title="Permanent link">¶</a></h2>
 <p>After setting up the .NET Core SDK, we will need to install an IDE. The IDE provides us an environment where we can code our plugins.</p>
-<h3 id="visual-studio-code">Visual Studio Code<a class="headerlink" href="#visual-studio-code" title="Permanent link">¶</a></h3>
-<p>You can use <a href="https://code.visualstudio.com/">install Visual Studio Code</a> for developing plugins and is supported on Linux, macOS, and Windows. Visual Studio Code is the preferred solution for small to mid-sized projects. It is supported by all OpenMod platforms.</p>
+<h3 id="visual-studio-code-preferred">Visual Studio Code (preferred)<a class="headerlink" href="#visual-studio-code-preferred" title="Permanent link">¶</a></h3>
+<p>You can use <a href="https://code.visualstudio.com/">install Visual Studio Code</a> for developing OpenMod plugins. It supports Linux, macOS, and Windows. Visual Studio Code is the preferred solution for small to mid-sized projects. </p>
 <h3 id="visual-studio">Visual Studio<a class="headerlink" href="#visual-studio" title="Permanent link">¶</a></h3>
-<p>If you want a full IDE experience, download and install <a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio Community Edition</a>. Visual Studio is only supported on Windows platforms. When the installer starts, select "Visual Studio 2019 Community Edition" (or newer, if available). After that select the .NET Core cross-platform development and the .NET Desktop Development options as shown below. </p>
+<p>If you want a full IDE experience, download and install <a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio Community Edition</a>. Visual Studio is only supported on the Windows platform. When the installer starts, select "Visual Studio 2019 Community Edition" (or newer, if available). After that select the .NET Core cross-platform development and the .NET Desktop Development options as shown below. </p>
 <p><img alt="Selecting .NET desktop development option" src="https://docs.microsoft.com/en-us/visualstudio/install/media/vs2017-modify-workloads.png?view=vs-2017g"/></p>
 <p><img alt="Selecting .NET Core cross-platform development option" src="https://static.packt-cdn.com/products/9781787281905/graphics/image_05_002.png"/></p>
 <h3 id="rider">Rider<a class="headerlink" href="#rider" title="Permanent link">¶</a></h3>
-<p>If you are using Linux, you can install <a href="https://www.jetbrains.com/rider/">Rider</a>. Although it is paid, it can be obtained for free by applying for a Jetbrains Student License (applicable to a wide variety of situations). It works very similarly to Visual Studio.</p>
+<p>If you are using Linux and do not want to use Visual Studio Code, you can install <a href="https://www.jetbrains.com/rider/">Rider</a>. Although it is a commercial product, it can be obtained for free by applying for a Jetbrains Student License (applicable to a wide variety of situations). Like Visual Studio, it provides a full IDE experience and has similar capabilities to it.</p>
 <h2 id="generating-the-plugin-project">Generating the Plugin Project<a class="headerlink" href="#generating-the-plugin-project" title="Permanent link">¶</a></h2>
 <p>Start cmd or Powershell and navigate to the folder where you want to create the plugin project.</p>
 <p>E.g.
@@ -907,9 +907,10 @@ cd C:\Users\&lt;Username&gt;\source\repos\MyPlugin\
 <div class="highlight"><pre><span></span><code>dotnet new openmod-unturned-plugin --FullPluginName "My Unturned Plugin" --PluginId "MyName.MyUnturnedPlugin"
 </code></pre></div></p>
 <h2 id="adding-a-basic-command">Adding a Basic Command<a class="headerlink" href="#adding-a-basic-command" title="Permanent link">¶</a></h2>
-<p>Now that you've set up your plugin, you can now start creating commands. Firstly, create a new class. In this example we are creating an echo command, so let's just call it EchoCommand. We want to make it override Command. This will most likely show an error, but first, let's check it's correct before we go into that.</p>
-<p>This is what your class should now look like:</p>
-<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">EchoCommand</span> <span class="p">:</span> <span class="n">Command</span>
+<p>Now that you've set up your plugin, open the .csproj file with the IDE you have installed earlier.</p>
+<p>In this example we are creating an echo command. Create a new class (how you do this depends on your IDE). By convention command classes are prefixed with "Command" so call it CommandEcho. Since this will be an universal command that works on all platforms, we will make it inherit from <code>Command</code>. If this command would be only for Unturned, we would inherit from <code>UnturnedCommand</code> instead.</p>
+<p>This is what your class should look like:</p>
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">CommandEcho</span> <span class="p">:</span> <span class="n">Command</span>
 <span class="p">{</span>
 <span class="p">}</span>
 </code></pre></div>
@@ -919,9 +920,9 @@ This will allow you to access the Player, from now it is quite easy, let's see a
 <div class="highlight"><pre><span></span><code><span class="na">[Command("echo")]</span>
 <span class="na">[CommandDescription("Echo a message")]</span>
 <span class="na">[CommandSyntax("&lt;message&gt;")]</span>
-<span class="k">public</span> <span class="k">class</span> <span class="nc">EchoCommand</span> <span class="p">:</span> <span class="n">Command</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">CommandEcho</span> <span class="p">:</span> <span class="n">Command</span>
 <span class="p">{</span>
-    <span class="k">public</span> <span class="nf">EchoCommand</span><span class="p">(</span><span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
+    <span class="k">public</span> <span class="nf">CommandEcho</span><span class="p">(</span><span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
     <span class="p">{</span>
 
     <span class="p">}</span>
