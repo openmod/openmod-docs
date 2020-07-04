@@ -18,7 +18,7 @@ For example, to install RocketMod plugins just add the dll files to your `Rocket
 - OpenMod commands will always override RocketMod commands when a conflict occurs.
 
 ## Linking RocketMod to OpenMod Permissions
-By default, the OpenMod RocketMod Bridge will use RocketMod's own Permissions.xml when handling permissions for RocketMod plugins. This might be a problem as you would have to maintain two different permission systems. The RocketMod Permission Link plugin solves this issue by forcing RocketMod to use OpenMod's permission system. Keep in mind that it may not be compatible with other permissions plugins for RocketMod.
+By default, the OpenMod RocketMod Bridge will use RocketMod's Permissions.xml when handling permissions for RocketMod plugins. This might be a problem as you would have to maintain two different permission systems. The RocketMod Permission Link plugin solves this issue by forcing RocketMod to use OpenMod's permission system. Keep in mind that it may not be compatible with other permissions plugins for RocketMod.
 
 To install the RocketMod Permission Link plugin, run `openmod install OpenMod.Rocket.PermissionLink` and then reload or restart.
 

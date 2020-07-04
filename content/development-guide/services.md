@@ -4,7 +4,7 @@ OpenMod, like other modern .NET projects, uses the dependency injection pattern.
 
 Plugins, commands, event listeners, and services can automatically get references to any other services provided by OpenMod or plugins just by adding their interfaces to the constructor.  
 
-## Registering your own services
+## Registering your services
 There are two ways to register a service:
 1. Registering by using the`[Service]` attribute for the interface and `[ServiceImplementation]` for the concrete class.
 2. Registering manually by implementing the `IServiceConfigurator` or `IContainerConfigurator` interfaces. Classes which implement these interfaces are automatically instantiated when the IoC container is configured and can be used to configure the container directly. 
