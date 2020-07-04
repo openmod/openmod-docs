@@ -9,7 +9,7 @@ There are two ways to register a service:
 1. Registering by using the`[Service]` attribute for the interface and `[ServiceImplementation]` for the concrete class.
 2. Registering manually by implementing the `IServiceConfigurator` or `IContainerConfigurator` interfaces. Classes which implement these interfaces are automatically instantiated when the IoC container is configured and can be used to configure the container directly. 
 
-You can implement the IDisposable or the IAsyncDisposable interface for cleaning up resources when openmod reloads or shuts down. 
+You can implement the `IDisposable` or the `IAsyncDisposable` interface for cleaning up resources when OpenMod reloads or shuts down. 
 
 You can use the `IPluginAccessor<>` service, to access your plugins instance and its services. 
 
@@ -44,7 +44,7 @@ public class VehicleClearingService : IVehicleClearingService, IAsyncDisposable
         // call game apis to clear vehicles...
     }
 
-    // Service dispose methods are called on openmod reload or server shutdown 
+    // Service dispose methods are called on OpenMod reload or server shutdown 
     public async ValueTask DisposeAsync()
     {
         await ClearVehiclesAsync(); // ensure vehicles get cleared on reload or shutdown
