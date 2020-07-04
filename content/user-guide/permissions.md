@@ -1,6 +1,6 @@
 # Permissions
 
-OpenMod has a simple role-based permission system. Permissions define which actions a user can execute and which they can not.
+OpenMod has a simple role-based permission system. Permissions define which actions a user can execute and which they cannot.
 
 You can manage permissions by editing the `openmod.roles.yaml` file inside the `OpenMod` directory or by using the `permission` and `permissionrole` commands. You can use the `help permission` and `help permissionrole` commands for more information.
 
