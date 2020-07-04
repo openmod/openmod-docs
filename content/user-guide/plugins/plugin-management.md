@@ -1,5 +1,5 @@
 # Installing and Managing Plugins
-OpenMod provides commands to download, install, update and remove plugins at runtime.
+OpenMod provides commands to download, install, update, and remove plugins at runtime.
 
 !!! Note
     You must restart the server or reload OpenMod with `openmod reload` after doing any changes to installed plugins.

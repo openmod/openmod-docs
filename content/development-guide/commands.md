@@ -23,7 +23,7 @@ public class CommandAwesome : Command
 
 After that, add some metadata to describe our command and its usage:
 ```c#
-[Command("awesome")] // The primary name for the command. Usually it is defined lowercase. 
+[Command("awesome")] // The primary name for the command. Usually, it is defined as lowercase. 
 [CommandAlias("awsm")] // Add "awsm" as alias.
 [CommandAlias("aw")] // Add "aw" as alias.
 [CommandDescription("My awesome command")] // Description. Try to keep it short and simple.

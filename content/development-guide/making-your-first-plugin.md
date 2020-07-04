@@ -16,7 +16,7 @@ After setting up .NET Core SDK, we will need to install an IDE. The IDE provides
 If you are using Linux, you can install [Rider](https://www.jetbrains.com/rider/). Although it is paid, it can be obtained for free by applying for a Jetbrains Student License (applicable to a wide variety of situations). It works very similarly to Visual Studio.
 
 ### Visual Studio Code
-You can use [install Visual Studio Code](https://code.visualstudio.com/) for developing plugins and is supported on Linux, macOS and Windows. Visual Studio Code is the preferred solution for small to mid-sized projects. It is supported by all OpenMod platforms.
+You can use [install Visual Studio Code](https://code.visualstudio.com/) for developing plugins and is supported on Linux, macOS, and Windows. Visual Studio Code is the preferred solution for small to mid-sized projects. It is supported by all OpenMod platforms.
 
 ### Visual Studio
 If you want a full IDE experience, download and install [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/). Visual Studio is only supported on Windows platforms. When the installer starts, select "Visual Studio 2019 Community Edition" (or newer, if available). After that select the .NET Core cross-platform development and the .NET Desktop Development options as shown below. 
@@ -69,7 +69,7 @@ dotnet new openmod-unturned-plugin --FullPluginName "My Unturned Plugin" --Plugi
 ```
 
 ## Adding a Basic Command
-Now that you've set up your plugin, you can now start creating commands. Firstly create a new class. In this example we are creating an echo command, so let's just call it EchoCommand. We want to make it override Command. This will most likely show an error, but first let's check it's correct before we go into that.
+Now that you've set up your plugin, you can now start creating commands. Firstly, create a new class. In this example we are creating an echo command, so let's just call it EchoCommand. We want to make it override Command. This will most likely show an error, but first, let's check it's correct before we go into that.
 
 This is what your class should now look like:
 

@@ -83,7 +83,7 @@ From the earlier example, the `megavip` role has the following permissions:
 - kit.megavip
 
 What if we want it to have `vip` as parent, but do not want it to inherit the `kit.vip` permission?  
-In that case we can negate the permission by adding it prefixed with a "!":
+In that case, we can negate the permission by adding it prefixed with a "!":
 
 ```
 - id: megavip
