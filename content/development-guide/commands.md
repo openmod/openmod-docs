@@ -113,7 +113,7 @@ public async Task OnExecuteAsync()
 ## Command Permissions
 By design and for consistency reasons, you can not define a command permission manually. OpenMod will automatically assign a permission to the command instead. You can use the `help <yourcommand>` command to figure out what the base permission for your command is.
 
-Assume you want to restrict the `awesome` command if count is more than 10. This is how you would do it:
+Assume you want to restrict the `awesome` command if the count is more than 10. This is how you would do it:
 ```c#
 public async Task OnExecuteAsync()
 {

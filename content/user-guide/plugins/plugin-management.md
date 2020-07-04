@@ -22,9 +22,9 @@ There are two ways to install plugins by default:
 If you installed the plugin via `openmod install`, you can simply update it using `openmod update <package id>`.  
 Like with `openmod install`, you can specify the version and use `-Pre` for pre release versions.
 
-If you installed the plugin directly as dll file, you can delete replace the old .dll file with the updated one.
+If you installed the plugin directly as a dll file, you can replace the old .dll file with the updated one.
 
 ## Removing Plugins
 If you installed the plugin via `openmod install`, you can simply remove it by using `openmod remove <package id>`.  
 
-If you installed the plugin directly as dll file, you can just delete the .dll file.
+If you installed the plugin directly as a dll file, you can just delete the .dll file.

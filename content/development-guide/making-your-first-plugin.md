@@ -2,15 +2,15 @@
 
 In this guide we will cover:
 
-1. Setting up development environment.
+1. Setting up a development environment.
 2. Creating a plugin project.
 3. Writing a basic plugin.
 
-## Installing .NET Core SDK
-Install the latest .NET Core SDK from [here](https://dotnet.microsoft.com/download/dotnet-core/3.1) (you should dowlnoad a dotnet-sdk-xxxxx.zip).
+## Installing the .NET Core SDK
+Install the latest .NET Core SDK from [here](https://dotnet.microsoft.com/download/dotnet-core/3.1) (you should download a dotnet-sdk-xxxxx.zip).
 
 ## Installing the IDE for coding
-After setting up .NET Core SDK, we will need to install an IDE. The IDE provides us an environment where we can code our plugins.
+After setting up the .NET Core SDK, we will need to install an IDE. The IDE provides us an environment where we can code our plugins.
 
 ### Rider
 If you are using Linux, you can install [Rider](https://www.jetbrains.com/rider/). Although it is paid, it can be obtained for free by applying for a Jetbrains Student License (applicable to a wide variety of situations). It works very similarly to Visual Studio.
@@ -34,7 +34,7 @@ mkdir C:\Users\<Username>\source\repos\MyPlugin\
 cd C:\Users\<Username>\source\repos\MyPlugin\
 ``` 
 
-After that, install the OpenMod Plugin Templates for .NET Core SDK:
+After that, install the OpenMod Plugin Templates for the .NET Core SDK:
 ```
 dotnet new -i "OpenMod.Templates::*"
 ```
