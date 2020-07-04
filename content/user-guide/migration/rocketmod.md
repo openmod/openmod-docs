@@ -1,6 +1,6 @@
 # Migrating from RocketMod to OpenMod
 
-OpenMod has built-in support for RocketMod plugins, most RocketMod plugins should work without need for workarounds or rewrites. 
+OpenMod has built-in support for RocketMod plugins. Most RocketMod plugins should work without need for workarounds or rewrites. 
 
 To use use RocketMod plugins, follow these steps:
 
