@@ -71,9 +71,9 @@ dotnet new openmod-unturned-plugin --FullPluginName "My Unturned Plugin" --Plugi
 ## Adding a Basic Command
 Now that you've set up your plugin, open the .csproj file with the IDE you have installed earlier.
 
-In this example we are creating an echo command. Create a new class and call it CommandEcho. We want to make it override Command. This will most likely show an error, but first, let's check it's correct before we go into that.
+In this example we are creating an echo command. Create a new class (how you do this depends on your IDE). By convention command classes are prefixed with "Command" so call it CommandEcho. Since this will be an universal command that works on all platforms, we will make it inherit from `Command`. If this command would be only for Unturned, we would inherit from `UnturnedCommand` instead.
 
-This is what your class should now look like:
+This is what your class should look like:
 
 ```c#
 public class CommandEcho : Command
