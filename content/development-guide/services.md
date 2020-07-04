@@ -60,25 +60,25 @@ You can now access this service by injecting `IVehicleClearingService` in e.g. c
 
 ## Built-in OpenMod services
 
-| **Service**                                     |
-|-------------------------------------------------|
-| IConfiguration                                  |
-| ICommandExecutor                                |
-| ICommandStore                                   |
-| ICommandPermissionBuilder                       |
-| ICurrentCommandContextAccessor                  |
-| IStringLocalizer                                |
-| IOpenModStringLocalizer                         | 
-| IDataStoreFactory                               | 
-| IOpenModDataStoreAccessor                       | 
-| IEventBus                                       | 
-| IOpenModHost                                    | 
-| IPermissionChecker                              | 
-| IPermissionRolesDataStore                       |    
-| IUserDataSeeder                                 | 
-| IUserDataStore                                  | 
-| IUserManager                                    | 
-| IRuntime                                        | 
+| **Service**                                     | **Description**                                   |
+|-------------------------------------------------|---------------------------------------------------|
+| IConfiguration                                  | Access plugin configuration                       |
+| ICommandExecutor                                | Execute command                                   |
+| ICommandStore                                   | Access command registrations                      |
+| ICommandPermissionBuilder                       | Get a commands permission                         |
+| ICurrentCommandContextAccessor                  | Access the current command context                |
+| IStringLocalizer                                | Localize messages for plugins                     |
+| IOpenModStringLocalizer                         | Localize messages from OpenMod's translation file |
+| IDataStoreFactory                               | Create a data store instance                      |
+| IOpenModDataStoreAccessor                       | Access OpenMods own data store                    |
+| IEventBus                                       | Subscribe to events and emit them                 |
+| IOpenModHost                                    | OpenMod Host platform abstractions                | 
+| IPermissionChecker                              | Check permissions                                 |
+| IPermissionRolesDataStore                       | Data store for permission roles                   |
+| IUserDataSeeder                                 | Seeds user data on first connect                  |
+| IUserDataStore                                  | Reads and saves user data                         |
+| IUserManager                                    | Finds and gets users                              |
+| IRuntime                                        | OpenMod runtime                                   |
 
 
 ## Dependency injection example
