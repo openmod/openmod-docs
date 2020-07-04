@@ -823,59 +823,77 @@ Services are created before plugins load and are destroyed when openmod reloads 
 <thead>
 <tr>
 <th><strong>Service</strong></th>
+<th><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>IConfiguration</td>
+<td>Access plugin configuration</td>
 </tr>
 <tr>
 <td>ICommandExecutor</td>
+<td>Execute command</td>
 </tr>
 <tr>
 <td>ICommandStore</td>
+<td>Access command registrations</td>
 </tr>
 <tr>
 <td>ICommandPermissionBuilder</td>
+<td>Get a commands permission</td>
 </tr>
 <tr>
 <td>ICurrentCommandContextAccessor</td>
+<td>Access the current command context</td>
 </tr>
 <tr>
 <td>IStringLocalizer</td>
+<td>Localize messages for plugins</td>
 </tr>
 <tr>
 <td>IOpenModStringLocalizer</td>
+<td>Localize messages from OpenMod's translation file</td>
 </tr>
 <tr>
 <td>IDataStoreFactory</td>
+<td>Create a data store instance</td>
 </tr>
 <tr>
 <td>IOpenModDataStoreAccessor</td>
+<td>Access OpenMods own data store</td>
 </tr>
 <tr>
 <td>IEventBus</td>
+<td>Subscribe to events and emit them</td>
 </tr>
 <tr>
 <td>IOpenModHost</td>
+<td>OpenMod Host platform abstractions</td>
 </tr>
 <tr>
 <td>IPermissionChecker</td>
+<td>Check permissions</td>
 </tr>
 <tr>
 <td>IPermissionRolesDataStore</td>
+<td>Data store for permission roles</td>
 </tr>
 <tr>
 <td>IUserDataSeeder</td>
+<td>Seeds user data on first connect</td>
 </tr>
 <tr>
 <td>IUserDataStore</td>
+<td>Reads and saves user data</td>
 </tr>
 <tr>
 <td>IUserManager</td>
+<td>Finds and gets users</td>
 </tr>
 <tr>
 <td>IRuntime</td>
+<td>OpenMod runtime</td>
 </tr>
 </tbody>
 </table>
