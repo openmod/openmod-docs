@@ -773,7 +773,7 @@
 <p>There are two ways to register a service:
 1. Registering by using the<code>[Service]</code> attribute for the interface and <code>[ServiceImplementation]</code> for the concrete class.
 2. Registering manually by implementing the <code>IServiceConfigurator</code> or <code>IContainerConfigurator</code> interfaces. Classes which implement these interfaces are automatically instantiated when the IoC container is configured and can be used to configure the container directly. </p>
-<p>You can implement the IDisposable or the IAsyncDisposable interface for cleaning up resources when openmod reloads or shuts down. </p>
+<p>You can implement the <code>IDisposable</code> or the <code>IAsyncDisposable</code> interface for cleaning up resources when OpenMod reloads or shuts down. </p>
 <p>You can use the <code>IPluginAccessor&lt;&gt;</code> service, to access your plugins instance and its services. </p>
 <p>Here is an example service to clear vehicles:
 <div class="highlight"><pre><span></span><code><span class="na">[Service]</span>
@@ -805,7 +805,7 @@
         <span class="c1">// call game apis to clear vehicles...</span>
     <span class="p">}</span>
 
-    <span class="c1">// Service dispose methods are called on openmod reload or server shutdown </span>
+    <span class="c1">// Service dispose methods are called on OpenMod reload or server shutdown </span>
     <span class="k">public</span> <span class="k">async</span> <span class="n">ValueTask</span> <span class="nf">DisposeAsync</span><span class="p">()</span>
     <span class="p">{</span>
         <span class="k">await</span> <span class="nf">ClearVehiclesAsync</span><span class="p">();</span> <span class="c1">// ensure vehicles get cleared on reload or shutdown</span>
