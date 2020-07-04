@@ -1,6 +1,6 @@
 # Localization
 Localization allows users to customize and translate your plugins messages.  
-This is achieved through the translations.yaml and the IStringLocalizer service.  
+This is achieved through the translations.yaml file and the IStringLocalizer service.  
 
 ## Adding the translations.yaml
 Create a new file called "translations.yaml" inside your projects root directory.  
