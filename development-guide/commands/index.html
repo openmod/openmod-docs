@@ -774,7 +774,7 @@
 <p>OpenMod provides a strong command framework.</p>
 <p>To create a command, simply create a class that inherits from one of these:</p>
 <ul>
-<li>Command (for univeral plugins)</li>
+<li>Command (for universal plugins)</li>
 <li>UnityEngineCommand (for UnityEngine plugins)</li>
 <li>UnturnedCommand (for Unturned plugins)</li>
 </ul>
@@ -791,8 +791,8 @@
 <p>In the following examples no translations are used. See <a href="../translations.md">translations</a> on information on 
 how to integrate translation files.</p>
 </div>
-<p>After that, add some metadata to describe our command and it's usage:
-<div class="highlight"><pre><span></span><code><span class="na">[Command("awesome")]</span> <span class="c1">// The primary name for the command. Usually it is defined lowercase. </span>
+<p>After that, add some metadata to describe our command and its usage:
+<div class="highlight"><pre><span></span><code><span class="na">[Command("awesome")]</span> <span class="c1">// The primary name for the command. Usually, it is defined as lowercase. </span>
 <span class="na">[CommandAlias("awsm")]</span> <span class="c1">// Add "awsm" as alias.</span>
 <span class="na">[CommandAlias("aw")]</span> <span class="c1">// Add "aw" as alias.</span>
 <span class="na">[CommandDescription("My awesome command")]</span> <span class="c1">// Description. Try to keep it short and simple.</span>
@@ -823,7 +823,7 @@ how to integrate translation files.</p>
 <span class="p">}</span>
 </code></pre></div></p>
 <h2 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">¶</a></h2>
-<p>When we handle commands, we usually also need to handle parameters. The command context provides a Parameter proprety. Let's use it:<br/>
+<p>When we handle commands, we usually also need to handle parameters. The command context provides a Parameter property. Let's use it:<br/>
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnExecuteAsync</span><span class="p">()</span>
 <span class="p">{</span>
     <span class="c1">// assume we want the command to be called like this: /awesome &lt;player&gt; &lt;amount&gt;</span>
@@ -844,7 +844,7 @@ The <code>[CommandActor(Type)]</code> attribute allows you to specify such restr
 <span class="na">[CommandActor(typeof(ConsoleUser))]</span>
 </code></pre></div></p>
 <h2 id="exceptions">Exceptions<a class="headerlink" href="#exceptions" title="Permanent link">¶</a></h2>
-<p>Exceptions derivered from <code>UserFriendlyException</code> are automatically catched by OpenMod and displayed to the user in a user friendly way.  </p>
+<p>Exceptions derived from <code>UserFriendlyException</code> are automatically caught by OpenMod and displayed to the user in a user-friendly way.  </p>
 <p>These built-in exceptions available: </p>
 <ul>
 <li>NotEnoughPermissionException, can be thrown if the user does not have enough permission to execute an action.</li>
@@ -860,15 +860,15 @@ The <code>[CommandActor(Type)]</code> attribute allows you to specify such restr
 
     <span class="k">if</span><span class="p">(</span><span class="n">count</span> <span class="p">&lt;</span> <span class="m">1</span><span class="p">)</span> 
     <span class="p">{</span>
-        <span class="k">throw</span> <span class="k">new</span> <span class="nf">UserFriendlyException</span><span class="p">(</span><span class="s">"Count can not be negative!"</span><span class="p">);</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="nf">UserFriendlyException</span><span class="p">(</span><span class="s">"Count cannot be negative!"</span><span class="p">);</span>
     <span class="p">}</span>
 
     <span class="k">await</span> <span class="nf">PrintAsync</span><span class="p">(</span><span class="err">$</span><span class="s">"{player} is {amount}x awesome!"</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="command-permissions">Command Permissions<a class="headerlink" href="#command-permissions" title="Permanent link">¶</a></h2>
-<p>By design and for consistency reasons, you can not define a command permission manually. OpenMod will automatically assign a permission to the command instead. You can use the <code>help &lt;yourcommand&gt;</code> command to figure out what the base permission for your command is.</p>
-<p>Assume you want to restrict the <code>awesome</code> command if count is more than 10. This is how you would do it:
+<p>By design and for consistency reasons, you cannot define a command permission manually. OpenMod will automatically assign a permission to the command instead. You can use the <code>help &lt;yourcommand&gt;</code> command to figure out what the base permission for your command is.</p>
+<p>Assume you want to restrict the <code>awesome</code> command if the count is more than 10. This is how you would do it:
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnExecuteAsync</span><span class="p">()</span>
 <span class="p">{</span>
     <span class="kt">var</span> <span class="n">player</span> <span class="p">=</span> <span class="n">Context</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;(</span><span class="m">0</span><span class="p">);</span>
@@ -904,10 +904,10 @@ The <code>[CommandActor(Type)]</code> attribute allows you to specify such restr
 </code></pre></div></p>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
 <ul>
-<li><strong>Do not</strong> handle sub commands yourself (e.g. <code>if(Context.Parameters[0] == "add")</code>). OpenMod can not discover your subcommands and provide additional help or tab completion in that case.  </li>
+<li><strong>Do not</strong> handle sub commands yourself (e.g. <code>if(Context.Parameters[0] == "add")</code>). OpenMod cannot discover your subcommands and provide additional help or tab completion in that case.  </li>
 <li><strong>Do not</strong> hardcode messages. Instead, use <a href="../translations.md">translations</a> so users can customize and translate your messages.</li>
-<li>When writing commands, keep in mind that any type of user could execute your command by default. Maybe a plugin adds a DiscordUser and someone from Discord executes your command. Try to write your commands in a way that works with all kind of users or restrict the allowed actors as mentioned earlier.</li>
-<li><strong>Do not</strong> manually check if an actor is allowed to execute a command (e.g. <code>if(!(actor is UnturnedUser))</code>). Always use <code>[CommandActor]</code> for such restrictions. It will automatically hide the command from actors who can not execute them and give a consistent error message. </li>
+<li>When writing commands, keep in mind that any type of user could execute your command by default. Maybe a plugin adds a DiscordUser and someone from Discord executes your command. Try to write your commands in a way that works with all kinds of users or restrict the allowed actors as mentioned earlier.</li>
+<li><strong>Do not</strong> manually check if an actor is allowed to execute a command (e.g. <code>if(!(actor is UnturnedUser))</code>). Always use <code>[CommandActor]</code> for such restrictions. It will automatically hide the command from actors who cannot execute them and give a consistent error message. </li>
 </ul>
                 
               

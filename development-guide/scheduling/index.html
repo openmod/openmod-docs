@@ -804,12 +804,12 @@ It will enqueue the given task on a thread pool. This can be used to run tasks d
 <p><div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">MyTask</span><span class="p">()</span>
 <span class="p">{</span>
     <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="s">"Waiting 5 seconds..."</span><span class="p">);</span>
-    <span class="k">await</span> <span class="n">Task</span><span class="p">.</span><span class="n">Wait</span><span class="p">(</span><span class="n">TimeSpan</span><span class="p">.</span><span class="n">FromSeconds</span><span class="p">(</span><span class="m">5</span><span class="p">));</span>
+    <span class="k">await</span> <span class="n">Task</span><span class="p">.</span><span class="n">Delay</span><span class="p">(</span><span class="n">TimeSpan</span><span class="p">.</span><span class="n">FromSeconds</span><span class="p">(</span><span class="m">5</span><span class="p">));</span>
     <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="s">"Done!"</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div>
 Then call AsyncHelper.Schedule like this:
-<div class="highlight"><pre><span></span><code><span class="n">AsyncHelper</span><span class="p">.</span><span class="n">Schedule</span><span class="p">(</span><span class="s">"My Task"</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="n">MyTask</span><span class="p">());</span>
+<div class="highlight"><pre><span></span><code><span class="n">AsyncHelper</span><span class="p">.</span><span class="n">Schedule</span><span class="p">(</span><span class="s">"My Task"</span><span class="p">,</span> <span class="n">MyTask</span><span class="p">);</span>
 </code></pre></div></p>
 <h3 id="running-a-task-periodically">Running a Task periodically<a class="headerlink" href="#running-a-task-periodically" title="Permanent link">¶</a></h3>
 <p>If you want to run a Task periodically, all you have to do is to surround your task with a while loop:</p>
@@ -818,7 +818,7 @@ Then call AsyncHelper.Schedule like this:
     <span class="k">while</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">.</span><span class="n">IsAlive</span><span class="p">)</span> <span class="c1">// ensure this task runs only as long as the plugin is loaded </span>
     <span class="p">{</span>
         <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="s">"Waiting 5 seconds..."</span><span class="p">);</span>
-        <span class="k">await</span> <span class="n">Task</span><span class="p">.</span><span class="n">Wait</span><span class="p">(</span><span class="n">TimeSpan</span><span class="p">.</span><span class="n">FromSeconds</span><span class="p">(</span><span class="m">5</span><span class="p">));</span>
+        <span class="k">await</span> <span class="n">Task</span><span class="p">.</span><span class="n">Delay</span><span class="p">(</span><span class="n">TimeSpan</span><span class="p">.</span><span class="n">FromSeconds</span><span class="p">(</span><span class="m">5</span><span class="p">));</span>
         <span class="n">m_Logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="s">"Done!"</span><span class="p">);</span>
     <span class="p">}</span>
 <span class="p">}</span>
@@ -845,8 +845,8 @@ Notice how the return type has changed to <code>UniTask</code> and how the call 
 <p>Let's break this down.<br/>
 Inspect the following line:
 <code>await UniTask.DelayFrame(1, PlayerLoopTiming.Update)</code> </p>
-<p>The first parameter, the 1, defines how many frames to wait. So this example will always wait one frame, and hence runs on every frame update.<br/>
-The second parameter, PlayerLoopTiming.Update, sets which type of update it should wait for. In this example it is a normal frame update. You can use other update types such as FixedUpdate too.</p>
+<p>The first parameter, the 1, defines how many frames to wait. So this example will always wait for one frame and hence runs on every frame update.<br/>
+The second parameter, PlayerLoopTiming.Update, sets which type of update it should wait for. In this example, it is a normal frame update. You can use other update types such as FixedUpdate too.</p>
 <p>The following update types are available:</p>
 <ul>
 <li>EarlyUpdate,</li>
@@ -867,7 +867,7 @@ The second parameter, PlayerLoopTiming.Update, sets which type of update it shou
 </code></pre></div></p>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
 <p>If your task runs periodically, always ensure it stops running when your plugin gets unloaded. <br/>
-<strong>Do not</strong> use Thread.Sleep or similar blocking methods like non-async I/O methods in Tasks. These methods will block the thread and prevent other tasks from running. Always use the async Task methods instead, like <code>Task.Wait</code>.</p>
+<strong>Do not</strong> use Thread.Sleep or similar blocking methods like non-async I/O methods in Tasks. These methods will block the thread and prevent other tasks from running. Always use the async Task methods instead, like <code>Task.Delay</code>.</p>
                 
               
               

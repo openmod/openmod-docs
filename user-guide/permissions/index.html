@@ -651,15 +651,15 @@
                 
                 
                 <h1 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link">¶</a></h1>
-<p>OpenMod has a simple role based permission system. Permissions define which actions a user can execute and which they can not.</p>
+<p>OpenMod has a simple role-based permission system. Permissions define which actions a user can execute and which they cannot.</p>
 <p>You can manage permissions by editing the <code>openmod.roles.yaml</code> file inside the <code>OpenMod</code> directory or by using the <code>permission</code> and <code>permissionrole</code> commands. You can use the <code>help permission</code> and <code>help permissionrole</code> commands for more information.</p>
 <h1 id="permission-roles">Permission Roles<a class="headerlink" href="#permission-roles" title="Permanent link">¶</a></h1>
 <p>Roles are basically a group of permissions and other attributes. If you assign a role to a user, they will automatically inherit all permissions of the role. You can also add parent roles to a role so they can inherit permissions.</p>
 <p>A role has the following attributes:</p>
 <ul>
-<li><strong>Parents</strong>: The parents roles, whose permissions are inherited.</li>
+<li><strong>Parents</strong>: The parent roles, whose permissions are inherited.</li>
 <li><strong>Permissions</strong>: List of permissions the role has.</li>
-<li><strong>Display Name</strong>: Human readable name of the role.</li>
+<li><strong>Display Name</strong>: Human-readable name of the role.</li>
 <li><strong>Is Auto Assigned</strong>: Automatically assigns the role to new users. <strong>Does not assign to existing users</strong>.</li>
 <li><strong>Data</strong>: Data that can be attached to the role by plugins. </li>
 <li><strong>Priority</strong>: In case of conflicting permissions, this attribute will define which role gets preferred.</li>
@@ -725,7 +725,7 @@
 - kit.vip (inherited from vip)
 - kit.megavip</p>
 <p>What if we want it to have <code>vip</code> as parent, but do not want it to inherit the <code>kit.vip</code> permission?<br/>
-In that case we can negate the permission by adding it prefixed with a "!":</p>
+In that case, we can negate the permission by adding it prefixed with a "!":</p>
 <div class="highlight"><pre><span></span><code>- id: megavip
   displayName: Mega VIP
   priority: 1

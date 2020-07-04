@@ -516,8 +516,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#registering-your-own-services" class="md-nav__link">
-    Registering your own services
+  <a href="#registering-your-services" class="md-nav__link">
+    Registering your services
   </a>
   
 </li>
@@ -695,8 +695,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#registering-your-own-services" class="md-nav__link">
-    Registering your own services
+  <a href="#registering-your-services" class="md-nav__link">
+    Registering your services
   </a>
   
 </li>
@@ -744,8 +744,8 @@
                 
                 <h1 id="services-and-dependency-injection">Services and Dependency Injection<a class="headerlink" href="#services-and-dependency-injection" title="Permanent link">¶</a></h1>
 <p>OpenMod, like other modern .NET projects, uses the dependency injection pattern. This guide aims to simplify it and explain what it means for plugin developers using OpenMod.</p>
-<p>Plugins, commands, event listeners and services can automatically get references to any other services provided by OpenMod or plugins just by adding their interfaces to the constructor.  </p>
-<h2 id="registering-your-own-services">Registering your own services<a class="headerlink" href="#registering-your-own-services" title="Permanent link">¶</a></h2>
+<p>Plugins, commands, event listeners, and services can automatically get references to any other services provided by OpenMod or plugins just by adding their interfaces to the constructor.  </p>
+<h2 id="registering-your-services">Registering your services<a class="headerlink" href="#registering-your-services" title="Permanent link">¶</a></h2>
 <p>There are two ways to register a service:
 1. Registering by using the<code>[Service]</code> attribute for the interface and <code>[ServiceImplementation]</code> for the concrete class.
 2. Registering manually by implementing the <code>IServiceConfigurator</code> or <code>IContainerConfigurator</code> interfaces. Classes which implement these interfaces are automatically instantiated when the IoC container is configured and can be used to configure the container directly. </p>
