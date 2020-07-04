@@ -64,7 +64,7 @@ public async Task OnExecuteAsync()
     // assume we want the command to be called like this: /awesome <player> <amount>
     // Parameters start from 0, so <player> index is 0, <amount> index is 1.
     var player = Context.Parameters.Get<string>(0);
-    var count = Context.Parameters.Get<int>(1);
+    var amount = Context.Parameters.Get<int>(1);
     await PrintAsync($"{player} is {amount}x awesome!");
 }
 ```
@@ -99,11 +99,11 @@ These built-in exceptions available:
 public async Task OnExecuteAsync()
 {
     var player = Context.Parameters.Get<string>(0);
-    var count = Context.Parameters.Get<int>(1);
+    var amount = Context.Parameters.Get<int>(1);
 
-    if(count < 1) 
+    if(amount < 1) 
     {
-        throw new UserFriendlyException("Count cannot be negative!");
+        throw new UserFriendlyException("Amount cannot be negative!");
     }
 
     await PrintAsync($"{player} is {amount}x awesome!");
@@ -113,14 +113,14 @@ public async Task OnExecuteAsync()
 ## Command Permissions
 By design and for consistency reasons, you cannot define a command permission manually. OpenMod will automatically assign a permission to the command instead. You can use the `help <yourcommand>` command to figure out what the base permission for your command is.
 
-Assume you want to restrict the `awesome` command if the count is more than 10. This is how you would do it:
+Assume you want to restrict the `awesome` command if the amount is more than 10. This is how you would do it:
 ```c#
 public async Task OnExecuteAsync()
 {
     var player = Context.Parameters.Get<string>(0);
-    var count = Context.Parameters.Get<int>(1);
+    var amount = Context.Parameters.Get<int>(1);
 
-    if(count > 10 && await CheckPermissionAsync("MoreThan10") != PermissionGrantResult.Grant) 
+    if(amount > 10 && await CheckPermissionAsync("MoreThan10") != PermissionGrantResult.Grant) 
     {
         throw new NotEnoughPermissionException(this, "MoreThan10"); // displays an error message to the user 
     }

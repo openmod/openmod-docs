@@ -17,7 +17,7 @@ pages:
         - Plugins: 
             - Installing and Managing Plugins: user-guide/plugins/plugin-management.md
         - Configurations: user-guide/configurations.md
-        - Translations: user-guide/translations.md
+        - Localization: user-guide/localization.md
         - Permissions: user-guide/permissions.md
         - Logging: user-guide/logging.md
     - Development Guide:
@@ -26,7 +26,8 @@ pages:
         - Scheduling: development-guide/scheduling.md
         - Services: development-guide/services.md
         - Logging: development-guide/logging.md
-        - Configurations: development-guide/configurations.md
+        - Configuration: development-guide/configuration.md
+        - Localization: development-guide/localization.md
         - Permissions: development-guide/permissions.md
         - Events:
             - OpenMod Events: development-guide/events/events.md
