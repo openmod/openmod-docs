@@ -9,7 +9,7 @@ Roles are basically a group of permissions and other attributes. If you assign a
 
 A role has the following attributes:
 
-- **Parents**: The parents roles, whose permissions are inherited.
+- **Parents**: The parent roles, whose permissions are inherited.
 - **Permissions**: List of permissions the role has.
 - **Display Name**: Human-readable name of the role.
 - **Is Auto Assigned**: Automatically assigns the role to new users. **Does not assign to existing users**.
