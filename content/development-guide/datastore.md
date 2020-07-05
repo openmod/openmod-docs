@@ -8,7 +8,7 @@ Assume you want to save and load the following class:
 [Serializable]
 public class PlayersData
 {
-   public List<string> OwnerNames {get; set;}
+   public List<string> OwnerNames { get; set; }
 }
 ```
 

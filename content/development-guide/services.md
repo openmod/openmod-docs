@@ -66,7 +66,7 @@ public class VehicleClearingService : IVehicleClearingService, IAsyncDisposable
     {
         VehicleClearerPlugin plugin = pluginAccessor.Instance;
 
-        // Services live in the global OpenMod scope, which does not provide a IStringLocalizer.
+        // Services live in the global OpenMod scope, which does not provide an IStringLocalizer.
         // Since IStringLocalizer does not exist in this scope, we have to use the plugins scope.
         m_StringLocalizer = plugin.Lifetime.Resolve<IStringLocalizer>();
         m_Logger = logger;
@@ -86,10 +86,10 @@ public class VehicleClearingService : IVehicleClearingService, IAsyncDisposable
 }
 ```
 
-You can now access this service by injecting `IVehicleClearingService` in e.g. commands, event listeners, your plugin class or other services. 
+You can now access this service by injecting `IVehicleClearingService` in e.g. commands, event listeners, your plugin class, or other services. 
 
 !!! Note
-    Custom services have a different lifetime then plugins. Even if your plugin unloads your service will be still alive and used.    
+    Custom services have a different lifetime than plugins. Even if your plugin unloads, your service will still be alive and used.    
     Services are created before plugins load and are destroyed when openmod reloads or the server shuts down.
 
 ### Service lifetime
@@ -108,17 +108,17 @@ The following lifetimes are available:
 | IConfiguration                                  | Read configuration files                          |
 | ICommandExecutor                                | Execute command                                   |
 | ICommandStore                                   | Access command registrations                      |
-| ICommandPermissionBuilder                       | Get a commands permission                         |
+| ICommandPermissionBuilder                       | Get a command's permission                        |
 | ICurrentCommandContextAccessor                  | Access the current command context                |
 | IDataStore                                      | Serialize and deserialize persistent data         |
 | IDataStoreFactory                               | Create a data store instance                      |
 | IEventBus                                       | Subscribe to events and emit them                 |
 | IOpenModStringLocalizer                         | Localize messages from OpenMod's translation file |
-| IOpenModDataStoreAccessor                       | Access OpenMods own data store                    |
+| IOpenModDataStoreAccessor                       | Access OpenMod's data store                       |
 | IOpenModHost                                    | OpenMod host platform abstractions                | 
 | IPermissionChecker                              | Check permissions                                 |
 | IPermissionRoleStore                            | Get and manage permission roles                   |
-| IPluginAccessor<>                               | Access a plugins instace                          |
+| IPluginAccessor<>                               | Access a plugin's instance                        |
 | IPluginActivator                                | Load and activate plugins                         |
 | IRuntime                                        | Manage OpenMod runtime                            |
 | IStringLocalizer                                | Localize messages from plugin translation files   |

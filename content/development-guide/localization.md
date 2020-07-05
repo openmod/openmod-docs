@@ -1,9 +1,9 @@
 # Localization
-Localization allows users to customize and translate your plugins messages.  
+Localization allows users to customize and translate your plugin's messages.  
 This is achieved through the translations.yaml file and the IStringLocalizer service.  
 
 ## Adding the translations.yaml
-Create a new file called "translations.yaml" inside your projects root directory.  
+Create a new file called "translations.yaml" inside your project's root directory.  
 After that, add the following to your .csproj file: 
 ```xml
 <ItemGroup>
@@ -34,7 +34,7 @@ public class AwesomeCommand : Command
 }
 ```
 
-First adjust the command to use the IStringLocalizer service:
+First, adjust the command to use the IStringLocalizer service:
 ```c#
 [Command("awesome")]
 public class AwesomeCommand : Command
@@ -65,4 +65,4 @@ commands:
   awesome: "{Actor.DisplayName} is {Amount}x awesome!"
 ```
 
-Notice how we can access properties of the Actor parameter by calling `Actor.DisplayName`. The default IStringLocalizer uses SmartFormat.NET for parsing arguments. See the [SmartFormat.NET wiki](https://github.com/axuno/SmartFormat/wiki) for more information. 
+Notice how we can access the properties of the Actor parameter by calling `Actor.DisplayName`. The default IStringLocalizer uses SmartFormat.NET for parsing arguments. See the [SmartFormat.NET wiki](https://github.com/axuno/SmartFormat/wiki) for more information. 

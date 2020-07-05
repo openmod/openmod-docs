@@ -1,11 +1,11 @@
 # Configurations
-Configurations allow users to configure and customize your plugins behavior.  
-Assume your plugin gives XP when killing a player. By using configs a user can dynamically set how much XP will be given. 
+Configurations allow users to configure and customize your plugin's behavior.  
+Assume your plugin gives XP when killing a player. By using configs, a user can dynamically set how much XP will be given. 
 
 OpenMod configurations are based on [Microsoft.Extensions.Configuration](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration?view=dotnet-plat-ext-3.1), which are also used in ASP.NET Core.
 
 ## Adding the config.yaml
-Create a new file called "config.yaml" inside your projects root directory.  
+Create a new file called "config.yaml" inside your project's root directory.  
 After that, add the following to your .csproj file: 
 ```xml
 <ItemGroup>
@@ -96,6 +96,6 @@ This interface allows you to add additional sources to the `IConfigurationBuilde
     Custom configuration sources for plugins [are not supported yet](https://github.com/openmod/openmod/issues/90).
 
 ## Best Practices
-* **Do not** hardcode important values. For example, if you are making a plugin that gives playesr XP when killing other players, make sure the XP amount is configurable, as it is likely something a user would want to adjust.
+* **Do not** hardcode important values. For example, if you are making a plugin that gives players XP when killing other players, make sure the XP amount is configurable, as it is likely something a user would want to adjust.
 * **Do not** overcomplicate your configurations. Only add values that users are likely going to change. Have a simple configuration is preferred to a complex one.
 * **Do not** use configurations to store messages. Use [translations](../localization.md) instead. Unlike translations, configurations do not support any kind of formatting or passing arguments.
