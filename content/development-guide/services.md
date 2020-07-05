@@ -66,7 +66,7 @@ public class VehicleClearingService : IVehicleClearingService, IAsyncDisposable
     {
         VehicleClearerPlugin plugin = pluginAccessor.Instance;
 
-        // Services live in the global OpenMod scope, which does not provide a IStringLocalizer.
+        // Services live in the global OpenMod scope, which does not provide an IStringLocalizer.
         // Since IStringLocalizer does not exist in this scope, we have to use the plugins scope.
         m_StringLocalizer = plugin.Lifetime.Resolve<IStringLocalizer>();
         m_Logger = logger;

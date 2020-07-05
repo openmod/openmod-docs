@@ -65,4 +65,4 @@ commands:
   awesome: "{Actor.DisplayName} is {Amount}x awesome!"
 ```
 
-Notice how we can access properties of the Actor parameter by calling `Actor.DisplayName`. The default IStringLocalizer uses SmartFormat.NET for parsing arguments. See the [SmartFormat.NET wiki](https://github.com/axuno/SmartFormat/wiki) for more information. 
+Notice how we can access the properties of the Actor parameter by calling `Actor.DisplayName`. The default IStringLocalizer uses SmartFormat.NET for parsing arguments. See the [SmartFormat.NET wiki](https://github.com/axuno/SmartFormat/wiki) for more information. 
