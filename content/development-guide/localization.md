@@ -55,7 +55,7 @@ public class AwesomeCommand : Command
 }
 ```
 
-`commands:awesome` defines the key for the translation. By default, it equals to the path inside the yaml file. You can use any valid path, such as `messages:awesome`, just `awesome`, etc.
+`commands:awesome` defines the key for the translation. The default IStringLocalizer uses the key for the path inside the yaml file. You can use any valid path, such as `messages:awesome`, just `awesome`, etc.
 
 `new { Actor = Actor, Amount = amount }` sets the arguments for the translations.
 
@@ -65,4 +65,4 @@ commands:
   awesome: "{Actor.DisplayName} is {Amount}x awesome!"
 ```
 
-Notice how we can access properties of the Actor parameter by calling `Actor.DisplayName`. By default, OpenMod uses SmartFormat.NET for parsing arguments. See the [SmartFormat.NET wiki](https://github.com/axuno/SmartFormat/wiki) for more information. 
+Notice how we can access properties of the Actor parameter by calling `Actor.DisplayName`. The default IStringLocalizer uses SmartFormat.NET for parsing arguments. See the [SmartFormat.NET wiki](https://github.com/axuno/SmartFormat/wiki) for more information. 

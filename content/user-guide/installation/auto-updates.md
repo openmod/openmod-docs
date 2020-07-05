@@ -1,5 +1,4 @@
 # Managing Auto-Updates
-
 By default, OpenMod automatically updates itself on each server start. You can change this behavior by applying any of these:
 
 - Start server with `-NoOpenModAutoUpdate` argument.

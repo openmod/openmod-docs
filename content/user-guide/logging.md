@@ -1,5 +1,5 @@
 # Logging
-OpenMod uses [Serilog](https://serilog.net/) by default for logging.
+OpenMod uses [Serilog](https://serilog.net/) as the default logger implementation.
 
 Serilog is configured through the `logging.yaml` in the `OpenMod` directory.
 You can find the documentation for the Serilog configuration [here](https://github.com/serilog/serilog-settings-configuration) (you will have to convert from json to yaml).
