@@ -9,7 +9,7 @@ Plugins, commands, event listeners, and services can automatically get reference
 Let's see this in action:
 
 This is how your plugin looks like normally:
-```cs
+```c#
 public class MyPlugin(IServiceProvider serviceProvider) : base(serviceProvider)
 {
 
@@ -17,7 +17,7 @@ public class MyPlugin(IServiceProvider serviceProvider) : base(serviceProvider)
 ```
 
 If you wanted to access the `IStringLocalizer` service, you could it like this:
-```cs
+```c#
 public class MyPlugin(IStringLocalizer stringLocalizer, IServiceProvider serviceProvider) : base(serviceProvider)
 {
    // do something with stringLocalizer

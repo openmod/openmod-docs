@@ -76,7 +76,7 @@ public class ServiceConfigurator : IServiceConfigurator
 ```
 
 The following example grants all permissions to all Unturned admins:
-```cs
+```c#
 public class UnturnedAdminPermissionCheckProvider : IPermissionCheckProvider
 {
     public bool SupportsActor(IPermissionActor actor)
