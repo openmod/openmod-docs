@@ -194,7 +194,7 @@ logger.LogInformation($"Event value: {@event.MyValue}");
 ```
 
 ## Best Practices
-* **Always** unsubscribe from C# events and delegates when your plugin unloads or a service gets disposed. For example, if you want to subscribe to the OnEnemyConnected event from Unturned when your plugin loads, you must do it like this:
+* **Always** unsubscribe from C# events and delegates when your plugin unloads or a service gets disposed. For example, if you want to subscribe to the `onEnemyConnected` event from Unturned when your plugin loads, you must do it like this:
 ```c#
 public async UniTask OnLoadAsync()
 {

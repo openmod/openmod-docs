@@ -4,7 +4,7 @@ Permissions allow defining which actions a user is permitted to execute and whic
 You can use the `IPermissionChecker` service to check if a user has specific permissions:
 
 ```c#
-// read event documentation  for more information about event listeners
+// read event documentation for more information about event listeners
 public class UserConnectBroadcaster : IEventListener<UserConnectedEvent> 
 {
     private readonly IPermissionChecker m_PermissionChecker;
