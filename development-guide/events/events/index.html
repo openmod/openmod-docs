@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#events" class="md-skip">
+        <a href="#events-and-event-listeners" class="md-skip">
           Skip to content
         </a>
       
@@ -686,7 +686,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../datastore.m" title="Data Store" class="md-nav__link">
+    <a href="../../datastore/" title="Data Store" class="md-nav__link">
       Data Store
     </a>
   </li>
@@ -796,7 +796,7 @@
                   
                 
                 
-                <h1 id="events">Events<a class="headerlink" href="#events" title="Permanent link">¶</a></h1>
+                <h1 id="events-and-event-listeners">Events and event listeners<a class="headerlink" href="#events-and-event-listeners" title="Permanent link">¶</a></h1>
 <p>Events are used to notify components about that something is happening, like when a user disconnects.  </p>
 <p>There are three types of events:</p>
 <ul>
@@ -808,7 +808,7 @@
 <h2 id="subscribing-to-events">Subscribing to events<a class="headerlink" href="#subscribing-to-events" title="Permanent link">¶</a></h2>
 <p>There are two ways to subscribe to events:</p>
 <ol>
-<li>Implement an IEventListener:
+<li>Implement the <code>IEventListener</code> interface:
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
 <span class="p">{</span>
 <span class="na">    [EventListener(Priority = Priority.Lowest)]</span>
@@ -910,9 +910,9 @@ Execution order is from lowest priority to highest. In other words, lowest prior
 <h2 id="event-listener-lifetime">Event listener lifetime<a class="headerlink" href="#event-listener-lifetime" title="Permanent link">¶</a></h2>
 <p>Event listeners can have three types of lifetime:</p>
 <ul>
-<li>Transient: The event listener is always be recreated on every event. If you have multiple IEventListeners, all of them will have their own instances. This is the default lifetime.</li>
-<li>Scoped: If you implement multiple IEventListeners in one class, all of them will share the same instance. Otherwise, same as transient.</li>
-<li>Singleton: The event listener will have only one lifetime that lives until the plugin gets unloaded.</li>
+<li><strong>Transient</strong> - The event listener is always be recreated on every event. If you have multiple IEventListeners, all of them will have their own instances. This is the default lifetime.</li>
+<li><strong>Scoped</strong> - If you implement multiple IEventListeners in one class, all of them will share the same instance. Otherwise same as transient.</li>
+<li><strong>Singleton</strong> - The event listener will have only one shared lifetime that lives until the plugin gets unloaded.</li>
 </ul>
 <p>You can set the event listener lifetime by adding the <code>[EventListenerLifetime(ServiceLifetime)]</code> attribute:
 <div class="highlight"><pre><span></span><code><span class="na">[EventListenerLifetime(ServiceLifetime.Transient)]</span>
@@ -929,17 +929,17 @@ Execution order is from lowest priority to highest. In other words, lowest prior
 <span class="p">}</span>
 </code></pre></div></p>
 <p>You can then emit it by using the event bus:
-<div class="highlight"><pre><span></span><code>    <span class="n">MyPlugin</span> <span class="n">myPlugin</span> <span class="p">=</span> <span class="p">...;</span>
-    <span class="n">IEventBus</span> <span class="n">eventBus</span> <span class="p">=</span> <span class="p">...;</span>
-    <span class="n">ILogger</span><span class="p">&lt;</span><span class="n">xxx</span><span class="p">&gt;</span> <span class="n">logger</span> <span class="p">=</span> <span class="p">...;</span>
+<div class="highlight"><pre><span></span><code><span class="n">MyPlugin</span> <span class="n">myPlugin</span> <span class="p">=</span> <span class="p">...;</span>
+<span class="n">IEventBus</span> <span class="n">eventBus</span> <span class="p">=</span> <span class="p">...;</span>
+<span class="n">ILogger</span><span class="p">&lt;</span><span class="n">xxx</span><span class="p">&gt;</span> <span class="n">logger</span> <span class="p">=</span> <span class="p">...;</span>
 
-    <span class="kt">var</span> <span class="n">@event</span> <span class="p">=</span> <span class="k">new</span> <span class="n">SampleEvent</span>
-    <span class="p">{</span>
-       <span class="n">MyValue</span> <span class="p">=</span> <span class="m">20</span>
-    <span class="p">};</span>
+<span class="kt">var</span> <span class="n">@event</span> <span class="p">=</span> <span class="k">new</span> <span class="n">SampleEvent</span>
+<span class="p">{</span>
+    <span class="n">MyValue</span> <span class="p">=</span> <span class="m">20</span>
+<span class="p">};</span>
 
-    <span class="k">await</span> <span class="n">m_EventBus</span><span class="p">.</span><span class="n">EmitAsync</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">,</span> <span class="k">this</span> <span class="cm">/* sender */</span><span class="p">,</span> <span class="n">@event</span><span class="p">);</span>
-    <span class="n">logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="err">$</span><span class="s">"Event value: {@event.MyValue}"</span><span class="p">);</span>
+<span class="k">await</span> <span class="n">m_EventBus</span><span class="p">.</span><span class="n">EmitAsync</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">,</span> <span class="k">this</span> <span class="cm">/* sender */</span><span class="p">,</span> <span class="n">@event</span><span class="p">);</span>
+<span class="n">logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="err">$</span><span class="s">"Event value: {@event.MyValue}"</span><span class="p">);</span>
 </code></pre></div></p>
 <p>If you want your event to be cancellable, you must have implement the <code>ICancellableEvent</code> interface:
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">SampleEvent</span> <span class="p">:</span> <span class="n">Event</span><span class="p">,</span> <span class="n">ICancellableEvent</span>
@@ -948,24 +948,24 @@ Execution order is from lowest priority to highest. In other words, lowest prior
     <span class="k">public</span> <span class="kt">bool</span> <span class="n">IsCancelled</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></p>
-<div class="highlight"><pre><span></span><code>    <span class="n">MyPlugin</span> <span class="n">myPlugin</span> <span class="p">=</span> <span class="p">...;</span>
-    <span class="n">IEventBus</span> <span class="n">eventBus</span> <span class="p">=</span> <span class="p">...;</span>
-    <span class="n">ILogger</span><span class="p">&lt;</span><span class="n">xxx</span><span class="p">&gt;</span> <span class="n">logger</span> <span class="p">=</span> <span class="p">...;</span>
+<div class="highlight"><pre><span></span><code><span class="n">MyPlugin</span> <span class="n">myPlugin</span> <span class="p">=</span> <span class="p">...;</span>
+<span class="n">IEventBus</span> <span class="n">eventBus</span> <span class="p">=</span> <span class="p">...;</span>
+<span class="n">ILogger</span><span class="p">&lt;</span><span class="n">xxx</span><span class="p">&gt;</span> <span class="n">logger</span> <span class="p">=</span> <span class="p">...;</span>
 
-    <span class="kt">var</span> <span class="n">@event</span> <span class="p">=</span> <span class="k">new</span> <span class="n">SampleEvent</span>
-    <span class="p">{</span>
-       <span class="n">MyValue</span> <span class="p">=</span> <span class="m">20</span>
-    <span class="p">};</span>
+<span class="kt">var</span> <span class="n">@event</span> <span class="p">=</span> <span class="k">new</span> <span class="n">SampleEvent</span>
+<span class="p">{</span>
+    <span class="n">MyValue</span> <span class="p">=</span> <span class="m">20</span>
+<span class="p">};</span>
 
-    <span class="k">await</span> <span class="n">m_EventBus</span><span class="p">.</span><span class="n">EmitAsync</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">,</span> <span class="k">this</span> <span class="cm">/* sender */</span><span class="p">,</span> <span class="n">@event</span><span class="p">);</span>
+<span class="k">await</span> <span class="n">m_EventBus</span><span class="p">.</span><span class="n">EmitAsync</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">,</span> <span class="k">this</span> <span class="cm">/* sender */</span><span class="p">,</span> <span class="n">@event</span><span class="p">);</span>
 
-    <span class="k">if</span><span class="p">(</span><span class="n">@event</span><span class="p">.</span><span class="n">IsCancelled</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="n">logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="err">$</span><span class="s">"Event has been cancelled!"</span><span class="p">);</span>
-        <span class="k">return</span><span class="p">;</span>
-    <span class="p">}</span>
+<span class="k">if</span><span class="p">(</span><span class="n">@event</span><span class="p">.</span><span class="n">IsCancelled</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="err">$</span><span class="s">"Event has been cancelled!"</span><span class="p">);</span>
+    <span class="k">return</span><span class="p">;</span>
+<span class="p">}</span>
 
-    <span class="n">logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="err">$</span><span class="s">"Event value: {@event.MyValue}"</span><span class="p">);</span>
+<span class="n">logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="err">$</span><span class="s">"Event value: {@event.MyValue}"</span><span class="p">);</span>
 </code></pre></div>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
 <ul>

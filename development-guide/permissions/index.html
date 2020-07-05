@@ -637,8 +637,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#checking-if-an-actor-has-a-certain-permission" class="md-nav__link">
-    Checking if an actor has a certain permission
+  <a href="#override-permission-checks" class="md-nav__link">
+    Override permission checks
   </a>
   
 </li>
@@ -656,7 +656,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../datastore.m" title="Data Store" class="md-nav__link">
+    <a href="../datastore/" title="Data Store" class="md-nav__link">
       Data Store
     </a>
   </li>
@@ -712,8 +712,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#checking-if-an-actor-has-a-certain-permission" class="md-nav__link">
-    Checking if an actor has a certain permission
+  <a href="#override-permission-checks" class="md-nav__link">
+    Override permission checks
   </a>
   
 </li>
@@ -739,7 +739,7 @@
                 
                 
                 <h1 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link">¶</a></h1>
-<p>Permissions allow to define which action a user is allowed to execute and which he is not.</p>
+<p>Permissions allow to define which action a user is permitted to execute and which he is not.</p>
 <p>You can use the <code>IPermissionChecker</code> service to check if a user has specific permissions:</p>
 <div class="highlight"><pre><span></span><code><span class="c1">// read event documentation  for more information about event listeners</span>
 <span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectBroadcaster</span> <span class="p">:</span> <span class="n">IEventListener</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span> 
@@ -759,7 +759,7 @@
     <span class="p">{</span>
         <span class="kt">var</span> <span class="n">user</span> <span class="p">=</span> <span class="n">@event</span><span class="p">.</span><span class="n">User</span><span class="p">;</span>
 
-        <span class="k">if</span><span class="p">(</span><span class="n">m_PermissionChecker</span><span class="p">.</span><span class="n">CheckPermissionAsync</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="s">"announce.join"</span><span class="p">)</span> <span class="p">!=</span> <span class="n">PermissionGrantResult</span><span class="p">.</span><span class="n">Deny</span><span class="p">)</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">m_PermissionChecker</span><span class="p">.</span><span class="n">CheckPermissionAsync</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="s">"announce.join"</span><span class="p">)</span> <span class="p">==</span> <span class="n">PermissionGrantResult</span><span class="p">.</span><span class="n">Grant</span><span class="p">)</span>
         <span class="p">{</span>
             <span class="k">await</span> <span class="n">m_UserManager</span><span class="p">.</span><span class="n">BroadcastAsync</span><span class="p">(</span><span class="n">user</span><span class="p">.</span><span class="n">Type</span><span class="p">,</span> <span class="err">$</span><span class="s">"{user.DisplayName} has joined."</span><span class="p">);</span>
         <span class="p">}</span>
@@ -773,9 +773,9 @@
 <li>Grant - The permission was explicitly granted</li>
 <li>Deny - The permission was explicitly denied</li>
 </ul>
-<p>In the most cases you would check if the result equals <code>PermissionGrantResult.Grant</code>. This means that if no explicit permission is set, the action will be denied by default. In the example above the opposite has been done: unless the permission was explicitly denied the join message will be announced. </p>
+<p>Usually you want to check if the result equals to <code>PermissionGrantResult.Grant</code> to permit an action. This means that if no explicit permission is set, the action will be denied by default. If you want to execute an action unless it is explicitly denied, use <code>CheckPermissionAsync(..) != PermissionGrantResult.Deny</code>.</p>
 <h2 id="adding-your-own-permissions">Adding your own permissions<a class="headerlink" href="#adding-your-own-permissions" title="Permanent link">¶</a></h2>
-<p>You can add your own permissions (e.g. to support permissions stored in MySQL):</p>
+<p>You can add your own permissions (e.g. to store permissions in MySQL):</p>
 <ol>
 <li>Implement IPermissionStore</li>
 <li>Add your IPermissionStore via a <a href="../services.md#registering-your-own-services">ServiceConfigurator</a>:
@@ -791,8 +791,8 @@
 <span class="p">}</span>
 </code></pre></div></li>
 </ol>
-<h2 id="checking-if-an-actor-has-a-certain-permission">Checking if an actor has a certain permission<a class="headerlink" href="#checking-if-an-actor-has-a-certain-permission" title="Permanent link">¶</a></h2>
-<p>Sometimes you may want to check yourself if an actor has a permission. In that case do the following:</p>
+<h2 id="override-permission-checks">Override permission checks<a class="headerlink" href="#override-permission-checks" title="Permanent link">¶</a></h2>
+<p>Sometimes you may want to check yourself if an actor has a permission.</p>
 <ol>
 <li>Implement IPermissionCheckSource</li>
 <li>Add your IPermissionCheckSource via a <a href="../services.md#registering-your-own-services">ServiceConfigurator</a>:
@@ -808,7 +808,7 @@
 <span class="p">}</span>
 </code></pre></div></li>
 </ol>
-<p>The following example grants all permissions to all Unturned admins:
+<p>The following example will grant all permissions to Unturned admins:
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">UnturnedAdminPermissionCheckProvider</span> <span class="p">:</span> <span class="n">IPermissionCheckProvider</span>
 <span class="p">{</span>
     <span class="k">public</span> <span class="kt">bool</span> <span class="nf">SupportsActor</span><span class="p">(</span><span class="n">IPermissionActor</span> <span class="n">actor</span><span class="p">)</span>
@@ -857,13 +857,13 @@
           </a>
         
         
-          <a href="../publishing-to-nuget/" title="Publishing to nuget.org" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../datastore/" title="Data Store" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Publishing to nuget.org
+                Data Store
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

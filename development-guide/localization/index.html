@@ -656,7 +656,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../datastore.m" title="Data Store" class="md-nav__link">
+    <a href="../datastore/" title="Data Store" class="md-nav__link">
       Data Store
     </a>
   </li>
@@ -791,7 +791,7 @@ After that, add the following to your .csproj file:
 </code></pre></div></p>
 <p><code>commands:awesome</code> defines the key for the translation. The default IStringLocalizer uses the key for the path inside the yaml file. You can use any valid path, such as <code>messages:awesome</code>, just <code>awesome</code>, etc.</p>
 <p><code>new { Actor = Actor, Amount = amount }</code> sets the arguments for the translations.</p>
-<p>We now need to add a new translation to the <code>translations.yaml</code>:
+<p>Finally add the translation to the <code>translations.yaml</code>:
 <div class="highlight"><pre><span></span><code><span class="nt">commands</span><span class="p">:</span> 
   <span class="nt">awesome</span><span class="p">:</span> <span class="s">"{Actor.DisplayName}</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">{Amount}x</span><span class="nv"> </span><span class="s">awesome!"</span>
 </code></pre></div></p>

@@ -696,7 +696,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../datastore.m" title="Data Store" class="md-nav__link">
+    <a href="../datastore/" title="Data Store" class="md-nav__link">
       Data Store
     </a>
   </li>
@@ -890,8 +890,10 @@ The second parameter, PlayerLoopTiming.Update, sets which type of update it shou
 <div class="highlight"><pre><span></span><code><span class="n">AsyncHelper</span><span class="p">.</span><span class="n">Schedule</span><span class="p">(</span><span class="s">"My Task"</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="n">MyUpdateTask</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">).</span><span class="n">AsTask</span><span class="p">()</span> <span class="cm">/* for UniTask, you will have to use .AsTask() */</span><span class="p">);</span>
 </code></pre></div></p>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
-<p>If your task runs periodically, always ensure it stops running when your plugin gets unloaded. <br/>
-<strong>Do not</strong> use Thread.Sleep or similar blocking methods like non-async I/O methods in Tasks. These methods will block the thread and prevent other tasks from running. Always use the async Task methods instead, like <code>Task.Delay</code>.</p>
+<ul>
+<li><strong>Do not</strong> use Thread.Sleep or similar blocking methods like non-async I/O methods in Tasks. These methods will block the thread and prevent other tasks from running. Always use the async Task methods instead, like <code>Task.Delay</code>.</li>
+<li><strong>Do not</strong> keep your tasks running after your plugin gets unloaded.   </li>
+</ul>
                 
               
               

@@ -400,6 +400,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#updating-plugins" class="md-nav__link">
+    Updating Plugins
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#removing-plugins" class="md-nav__link">
+    Removing Plugins
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -658,7 +672,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../development-guide/datastore.m" title="Data Store" class="md-nav__link">
+    <a href="../../../development-guide/datastore/" title="Data Store" class="md-nav__link">
       Data Store
     </a>
   </li>
@@ -720,6 +734,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#updating-plugins" class="md-nav__link">
+    Updating Plugins
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#removing-plugins" class="md-nav__link">
+    Removing Plugins
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -746,21 +774,17 @@
 <p class="admonition-title">Note</p>
 <p>You must restart the server or reload OpenMod with <code>openmod reload</code> after doing any changes to installed plugins.</p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>For more help, you can use the <code>help openmod</code> command.</p>
-</div>
 <h2 id="finding-plugins">Finding Plugins<a class="headerlink" href="#finding-plugins" title="Permanent link">¶</a></h2>
 <p>You can find a list of plugins at <a href="https://github.com/openmod/openmod-plugins">the openmod-plugins repository</a>. You can also search for openmod-plugin on <a href="https://nuget.org">nuget.org</a>.</p>
 <h2 id="installing-plugins">Installing Plugins<a class="headerlink" href="#installing-plugins" title="Permanent link">¶</a></h2>
 <p>There are two ways to install plugins by default:</p>
 <ol>
-<li>To install plugins from NuGet, install them via the <code>openmod install &lt;package id&gt;</code> command, e.g. <code>openmod install OpenMod.Rocket.Unturned</code>.
-   You can also install specific versions via the <code>openmod install &lt;package id&gt; &lt;version&gt;</code> command.
+<li>To install plugins from NuGet, install them via the <code>openmod install &lt;package id&gt;</code> command, e.g. <code>openmod install OpenMod.Rocket.Unturned</code>.<br/>
+   You can also install specific versions via the <code>openmod install &lt;package id&gt; &lt;version&gt;</code> command.<br/>
    For pre release versions, add the <code>-Pre</code> option: <code>openmod install &lt;package id&gt; -Pre</code> or <code>openmod install &lt;package id&gt; &lt;version&gt; -Pre</code>.</li>
 <li>To install plugins manually, move the plugin dll file and all libraries of the plugin to the <code>openmod/plugins</code> directory. You can also install the libraries with <code>openmod install &lt;package-id&gt;</code> instead.</li>
 </ol>
-<h1 id="updating-plugins">Updating Plugins<a class="headerlink" href="#updating-plugins" title="Permanent link">¶</a></h1>
+<h2 id="updating-plugins">Updating Plugins<a class="headerlink" href="#updating-plugins" title="Permanent link">¶</a></h2>
 <p>If you installed the plugin via <code>openmod install</code>, you can simply update it using <code>openmod update &lt;package id&gt;</code>.<br/>
 Like with <code>openmod install</code>, you can specify the version and use <code>-Pre</code> for pre release versions.</p>
 <p>If you installed the plugin directly as a dll file, you can replace the old .dll file with the updated one.</p>

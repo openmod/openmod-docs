@@ -607,7 +607,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../datastore.m" title="Data Store" class="md-nav__link">
+    <a href="../datastore/" title="Data Store" class="md-nav__link">
       Data Store
     </a>
   </li>
@@ -764,7 +764,8 @@ You will need a Microsoft account for <a href="https://www.nuget.org/">nuget.org
 <h2 id="uploading-the-plugin">Uploading the plugin<a class="headerlink" href="#uploading-the-plugin" title="Permanent link">¶</a></h2>
 <ol>
 <li>Navigate to your plugin's folder. Execute the following command: <code>dotnet build --configuration Release</code>.</li>
-<li>Go to <code>bin/Release/</code> and push to NuGet: <code>dotnet push &lt;yourpackageid.x.x.x.nupkg&gt; -n -k &lt;your nuget.org key&gt; -s https://api.nuget.org/v3/index.json</code></li>
+<li>Go to <code>bin/Release/</code> and push to NuGet:<br/>
+<code>dotnet push &lt;yourpackageid.x.x.x.nupkg&gt; -n -k &lt;your nuget.org key&gt; -s https://api.nuget.org/v3/index.json</code></li>
 </ol>
 <p>You can install your plugin with <code>openmod install &lt;YourPackageId&gt;</code>.</p>
 <div class="admonition note">
@@ -791,7 +792,7 @@ been verified or indexed yet. It usually takes about an hour until nuget.org upl
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../permissions/" title="Permissions" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../datastore/" title="Data Store" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -800,7 +801,7 @@ been verified or indexed yet. It usually takes about an hour until nuget.org upl
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Permissions
+                Data Store
               </div>
             </div>
           </a>

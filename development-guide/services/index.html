@@ -555,8 +555,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#service-lifetimes" class="md-nav__link">
-    Service Lifetimes
+  <a href="#service-lifetime" class="md-nav__link">
+    Service lifetime
   </a>
   
 </li>
@@ -683,7 +683,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../datastore.m" title="Data Store" class="md-nav__link">
+    <a href="../datastore/" title="Data Store" class="md-nav__link">
       Data Store
     </a>
   </li>
@@ -747,8 +747,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#service-lifetimes" class="md-nav__link">
-    Service Lifetimes
+  <a href="#service-lifetime" class="md-nav__link">
+    Service lifetime
   </a>
   
 </li>
@@ -872,13 +872,13 @@
 <p>Custom services have a different lifetime then plugins. Even if your plugin unloads your service will be still alive and used.  <br/>
 Services are created before plugins load and are destroyed when openmod reloads or the server shuts down.</p>
 </div>
-<h3 id="service-lifetimes">Service Lifetimes<a class="headerlink" href="#service-lifetimes" title="Permanent link">¶</a></h3>
+<h3 id="service-lifetime">Service lifetime<a class="headerlink" href="#service-lifetime" title="Permanent link">¶</a></h3>
 <p>You might have noticed that the VehicleClearingService's Lifetime was set to <code>Lifetime = ServiceLifetime.Transient</code>.  </p>
 <p>The following lifetimes are available:</p>
 <ul>
-<li><strong>Transient</strong>: The service gets recreated every time it gets resolved. Every resolution and injection of this service will have a unique instance. This is the default lifetime.</li>
-<li><strong>Scoped</strong>: The service will share the same instance across the same command or event.</li>
-<li><strong>Singleton</strong>: The service will only have one instance that lives as long as the OpenMod IoC container does (until OpenMod gets reloaded or the server shuts down).  </li>
+<li><strong>Transient</strong> - The service gets recreated every time it gets resolved. Every resolution and injection of this service will have a unique instance. This is the default lifetime.</li>
+<li><strong>Scoped</strong> - The service will share the same instance across the same command or event.</li>
+<li><strong>Singleton</strong> - The service will only have one instance that lives as long as the OpenMod IoC container does (until OpenMod gets reloaded or the server shuts down).  </li>
 </ul>
 <h2 id="built-in-openmod-services">Built-in OpenMod services<a class="headerlink" href="#built-in-openmod-services" title="Permanent link">¶</a></h2>
 <table>

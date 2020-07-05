@@ -399,9 +399,90 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Permissions
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
     <a href="./" title="Permissions" class="md-nav__link md-nav__link--active">
       Permissions
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#permission-roles" class="md-nav__link">
+    Permission roles
+  </a>
+  
+    <nav class="md-nav" aria-label="Permission roles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-permission-roles" class="md-nav__link">
+    Creating permission roles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-roles" class="md-nav__link">
+    Removing roles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#managing-role-permissions" class="md-nav__link">
+    Managing role permissions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-permissions-and-user-roles" class="md-nav__link">
+    User permissions and user roles
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permission-wildcards" class="md-nav__link">
+    Permission wildcards
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finding-command-permissions" class="md-nav__link">
+    Finding command permissions
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -616,7 +697,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../development-guide/datastore.m" title="Data Store" class="md-nav__link">
+    <a href="../../development-guide/datastore/" title="Data Store" class="md-nav__link">
       Data Store
     </a>
   </li>
@@ -656,6 +737,71 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#permission-roles" class="md-nav__link">
+    Permission roles
+  </a>
+  
+    <nav class="md-nav" aria-label="Permission roles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-permission-roles" class="md-nav__link">
+    Creating permission roles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-roles" class="md-nav__link">
+    Removing roles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#managing-role-permissions" class="md-nav__link">
+    Managing role permissions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-permissions-and-user-roles" class="md-nav__link">
+    User permissions and user roles
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permission-wildcards" class="md-nav__link">
+    Permission wildcards
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finding-command-permissions" class="md-nav__link">
+    Finding command permissions
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -677,7 +823,7 @@
                 <h1 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link">¶</a></h1>
 <p>OpenMod has a simple role-based permission system. Permissions define which actions a user can execute and which they cannot.</p>
 <p>You can manage permissions by editing the <code>openmod.roles.yaml</code> file inside the <code>OpenMod</code> directory or by using the <code>permission</code> and <code>permissionrole</code> commands. You can use the <code>help permission</code> and <code>help permissionrole</code> commands for more information.</p>
-<h1 id="permission-roles">Permission Roles<a class="headerlink" href="#permission-roles" title="Permanent link">¶</a></h1>
+<h2 id="permission-roles">Permission roles<a class="headerlink" href="#permission-roles" title="Permanent link">¶</a></h2>
 <p>Roles are basically a group of permissions and other attributes. If you assign a role to a user, they will automatically inherit all permissions of the role. You can also add parent roles to a role so they can inherit permissions.</p>
 <p>A role has the following attributes:</p>
 <ul>
@@ -688,7 +834,7 @@
 <li><strong>Data</strong>: Data that can be attached to the role by plugins. </li>
 <li><strong>Priority</strong>: In case of conflicting permissions, this attribute will define which role gets preferred.</li>
 </ul>
-<h2 id="creating-permission-roles">Creating Permission Roles<a class="headerlink" href="#creating-permission-roles" title="Permanent link">¶</a></h2>
+<h3 id="creating-permission-roles">Creating permission roles<a class="headerlink" href="#creating-permission-roles" title="Permanent link">¶</a></h3>
 <p>Open the <code>openmod.roles.yaml</code> file. You will see something similar to this:
 <div class="highlight"><pre><span></span><code><span class="nt">roles</span><span class="p">:</span>
 <span class="p p-Indicator">-</span> <span class="nt">id</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">default</span>
@@ -741,9 +887,9 @@
 <p class="admonition-title">Note</p>
 <p>You can also add and remove parent roles with the <code>permissionrole</code> command: <code>permissionrole add role megavip vip</code></p>
 </div>
-<h2 id="removing-roles">Removing Roles<a class="headerlink" href="#removing-roles" title="Permanent link">¶</a></h2>
+<h3 id="removing-roles">Removing roles<a class="headerlink" href="#removing-roles" title="Permanent link">¶</a></h3>
 <p>Just remove the role from the <code>openmod.roles.yaml</code> file.</p>
-<h2 id="managing-role-permissions">Managing Role Permissions<a class="headerlink" href="#managing-role-permissions" title="Permanent link">¶</a></h2>
+<h3 id="managing-role-permissions">Managing role permissions<a class="headerlink" href="#managing-role-permissions" title="Permanent link">¶</a></h3>
 <p>From the earlier example, the <code>megavip</code> role has the following permissions:
 - help (inherited from default, which is a parent of vip)
 - kit.vip (inherited from vip)
@@ -765,23 +911,27 @@ In that case, we can negate the permission by adding it prefixed with a "!":</p>
 <p class="admonition-title">Note</p>
 <p>You can also add and remove permissions with the <code>permission</code> command: <code>permission add role megavip !kit.vip</code></p>
 </div>
-<h1 id="user-permissions-and-roles">User Permissions and Roles<a class="headerlink" href="#user-permissions-and-roles" title="Permanent link">¶</a></h1>
+<h2 id="user-permissions-and-user-roles">User permissions and user roles<a class="headerlink" href="#user-permissions-and-user-roles" title="Permanent link">¶</a></h2>
 <p>You can assign users to roles via the <code>permissionrole add player &lt;player&gt; &lt;role&gt;</code> command, e.g. <code>permissionrole add player Trojaner megavip</code>. The same way, you can remove users from a role with <code>`permissionrole remove player &lt;player&gt; &lt;role&gt;</code></p>
 <p>Users can also have permissions directly attached to them: <code>permission add player Trojaner kit.vip</code>. User permissions always override any conflicting role permissions. Use <code>permission remove</code> to remove the permission again.</p>
-<h1 id="wildcards">Wildcards<a class="headerlink" href="#wildcards" title="Permanent link">¶</a></h1>
-<p>Assume a teleport plugin has the following permissions:
-- teleport
-- teleport.other
-- teleport.other.bring
-- teleport.request</p>
-<p>Instead of adding all of these, you can use the * wildcard like this:
-- teleport.*</p>
+<h2 id="permission-wildcards">Permission wildcards<a class="headerlink" href="#permission-wildcards" title="Permanent link">¶</a></h2>
+<p>Assume a teleport plugin has the following permissions:</p>
+<ul>
+<li>teleport</li>
+<li>teleport.bring</li>
+<li>teleport.bring.request</li>
+<li>teleport.request</li>
+</ul>
+<p>Instead of adding all of these one by one, you can use the * wildcard to add all of them:</p>
+<ul>
+<li>teleport.*</li>
+</ul>
 <p>This will grant all permissions from above.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Just adding the <code>teleport</code> permission will <strong>not</strong> grant the child permissions, like teleport.other.</p>
+<p>Just adding the <code>teleport</code> permission will <strong>not</strong> grant the child permissions, e.g. teleport.bring.</p>
 </div>
-<h1 id="finding-permissions">Finding Permissions<a class="headerlink" href="#finding-permissions" title="Permanent link">¶</a></h1>
+<h2 id="finding-command-permissions">Finding command permissions<a class="headerlink" href="#finding-command-permissions" title="Permanent link">¶</a></h2>
 <p>If you do not know what permission a command requires, you can use <code>help &lt;command&gt;</code> to find it. Permissions for subcommands are not granted automatically and must be given either by using wildcards on the parent command permission or by specifying them directly.</p>
                 
               
