@@ -1,9 +1,8 @@
-# Services and Dependency Injection
+# Services and dependency injection
 
 OpenMod, like other modern .NET projects, uses the [dependency injection pattern](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection). This guide aims to simplify it and explain what it means for plugin developers using OpenMod.
 
-Plugins, commands, event listeners, and services can automatically get references to plugins or any other services provided by OpenMod just by adding their interfaces to the constructor. 
-
+Plugins, commands, event listeners, and services can automatically get references to plugins or any other services provided by OpenMod just by adding their interfaces to the constructor. See the example below.
 
 ## Dependency injection example
 Let's see this in action:
@@ -128,4 +127,4 @@ The following lifetimes are available:
 | IUserManager                                    | Finds and gets users                              |
 
 ## Best Practices
-* **Avoid** making your services singleton unneccessary. This may cause problems if your service has transient or scoped dependencies.
+* **Do not** make your services singleton unnecessarily. This may cause problems if your service has transient or scoped dependencies.
