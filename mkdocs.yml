@@ -27,13 +27,13 @@ pages:
         - Localization: development-guide/localization.md
         - Scheduling: development-guide/scheduling.md
         - Services: development-guide/services.md
+        - Events:
+            - Events and event listeners: development-guide/events/events.md # todo
+            - Built-in events: development-guide/events/builtin-events.md
+            - Game events: development-guide/events/game-events.md
         - Logging: development-guide/logging.md
         - Permissions: development-guide/permissions.md
         - Data Store: development-guide/datastore.md # todo
-        - Events:
-            - Events and event listeners: development-guide/events/events.md # todo
-            - Built-in events: development-guide/events/builtin-events.md # todo
-            - Game events: development-guide/events/game-events.md # todo
         - Publishing to nuget.org: development-guide/publishing-to-nuget.md
 plugins:
   - search
