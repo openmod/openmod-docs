@@ -792,9 +792,9 @@
                   
                 
                 
-                <h1 id="services-and-dependency-injection">Services and Dependency Injection<a class="headerlink" href="#services-and-dependency-injection" title="Permanent link">¶</a></h1>
+                <h1 id="services-and-dependency-injection">Services and dependency injection<a class="headerlink" href="#services-and-dependency-injection" title="Permanent link">¶</a></h1>
 <p>OpenMod, like other modern .NET projects, uses the <a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection">dependency injection pattern</a>. This guide aims to simplify it and explain what it means for plugin developers using OpenMod.</p>
-<p>Plugins, commands, event listeners, and services can automatically get references to plugins or any other services provided by OpenMod just by adding their interfaces to the constructor. </p>
+<p>Plugins, commands, event listeners, and services can automatically get references to plugins or any other services provided by OpenMod just by adding their interfaces to the constructor. See the example below.</p>
 <h2 id="dependency-injection-example">Dependency injection example<a class="headerlink" href="#dependency-injection-example" title="Permanent link">¶</a></h2>
 <p>Let's see this in action:</p>
 <p>This is how your plugin looks like normally:
@@ -973,7 +973,7 @@ Services are created before plugins load and are destroyed when openmod reloads 
 </table>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
 <ul>
-<li><strong>Avoid</strong> making your services singleton unneccessary. This may cause problems if your service has transient or scoped dependencies.</li>
+<li><strong>Do not</strong> make your services singleton unnecessarily. This may cause problems if your service has transient or scoped dependencies.</li>
 </ul>
                 
               

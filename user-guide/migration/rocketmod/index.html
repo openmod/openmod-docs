@@ -793,8 +793,8 @@ For example, to install RocketMod plugins just add the dll files to your <code>R
 <li>The OpenMod RocketMod Bridge is based on a patched version of the <a href="https://github.com/SmartlyDressedGames/Legally-Distinct-Missile">LDM RocketMod fork</a>, it is not a reimplementation of the RocketMod API. This will ensure compatibility with most RocketMod plugins, including those which access private RocketMod fields via reflection.</li>
 <li>The OpenMod RocketMod Bridge is an OpenMod plugin instead of a standalone Unturned module.</li>
 <li>RocketMod does not support unloading at runtime, as it never unbinds from events. With OpenMod, you can completely unload RocketMod or OpenMod at runtime.</li>
-<li>RocketMod's command handling has been changed to utilize OpenMod's command system to avoid conflicting commands.</li>
-<li>RocketMod's logging system has been changed to proxy to OpenMod's logging system (Serilog).</li>
+<li>RocketMod's command handling has been patched to utilize OpenMod's command system to avoid conflicting commands.</li>
+<li>RocketMod's logging system has been patched to proxy to OpenMod's logging system (Serilog).</li>
 </ul>
                 
               
