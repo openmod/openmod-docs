@@ -61,6 +61,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#events" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -510,57 +515,21 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../../logging/" title="Logging" class="md-nav__link">
-      Logging
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../permissions/" title="Permissions" class="md-nav__link">
-      Permissions
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../datastore/" title="Data Store" class="md-nav__link">
-      Data Store
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
   <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-10" type="checkbox" id="nav-3-10" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-7" type="checkbox" id="nav-3-7" checked>
     
-    <label class="md-nav__link" for="nav-3-10">
+    <label class="md-nav__link" for="nav-3-7">
       Events
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Events" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-10">
+      <label class="md-nav__title" for="nav-3-7">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -580,10 +549,80 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Events and event listeners
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
     
     <a href="./" title="Events and event listeners" class="md-nav__link md-nav__link--active">
       Events and event listeners
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#subscribing-to-events" class="md-nav__link">
+    Subscribing to events
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#event-listener-priority-and-execution-order" class="md-nav__link">
+    Event listener priority and execution order
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cancelling-events-and-ignoring-cancelled-events" class="md-nav__link">
+    Cancelling events and ignoring cancelled events
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#event-listener-lifetime" class="md-nav__link">
+    Event listener lifetime
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-events" class="md-nav__link">
+    Custom events
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -623,6 +662,42 @@
 
 
   <li class="md-nav__item">
+    <a href="../../logging/" title="Logging" class="md-nav__link">
+      Logging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../permissions/" title="Permissions" class="md-nav__link">
+      Permissions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../datastore/" title="Data Store" class="md-nav__link">
+      Data Store
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../publishing-to-nuget/" title="Publishing to nuget.org" class="md-nav__link">
       Publishing to nuget.org
     </a>
@@ -641,6 +716,73 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#subscribing-to-events" class="md-nav__link">
+    Subscribing to events
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#event-listener-priority-and-execution-order" class="md-nav__link">
+    Event listener priority and execution order
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cancelling-events-and-ignoring-cancelled-events" class="md-nav__link">
+    Cancelling events and ignoring cancelled events
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#event-listener-lifetime" class="md-nav__link">
+    Event listener lifetime
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-events" class="md-nav__link">
+    Custom events
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -654,9 +796,193 @@
                   
                 
                 
-                  <h1>Events and event listeners</h1>
-                
-                <p>TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO </p>
+                <h1 id="events">Events<a class="headerlink" href="#events" title="Permanent link">¶</a></h1>
+<p>Events are used to notify components about that something is happening, like when a user disconnects.  </p>
+<p>There are three types of events:</p>
+<ul>
+<li>OpenMod Events</li>
+<li>C# Events</li>
+<li>C# Delegates</li>
+</ul>
+<p>This guide will be about OpenMod events.</p>
+<h2 id="subscribing-to-events">Subscribing to events<a class="headerlink" href="#subscribing-to-events" title="Permanent link">¶</a></h2>
+<p>There are two ways to subscribe to events:</p>
+<ol>
+<li>Implement an IEventListener:
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
+<span class="p">{</span>
+<span class="na">    [EventListener(Priority = Priority.Lowest)]</span>
+    <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectEvent</span> <span class="n">@event</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="c1">// do something</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></li>
+<li>Use the subscribe methods from the <code>IEventBus</code> service:
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">MyPlugin</span> <span class="p">:</span> <span class="n">OpenModUniversalPlugin</span>
+<span class="p">{</span>
+    <span class="k">private</span> <span class="k">readonly</span> <span class="n">IEventBus</span> <span class="n">m_EventBus</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="nf">MyPlugin</span><span class="p">(</span><span class="n">IEventBus</span> <span class="n">eventBus</span><span class="p">,</span> <span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">m_EventBus</span> <span class="p">=</span> <span class="n">eventBus</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnLoadAsync</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">m_EventBus</span><span class="p">.</span><span class="n">Subscribe</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="p">(</span><span class="n">sender</span><span class="p">,</span> <span class="n">@event</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+            <span class="c1">// do something</span>
+        <span class="p">});</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>All OpenMod event listeners are automatically unsubscribed when your plugin unloads. You do not have to unsubscribe them manually.</p>
+</div>
+<h2 id="event-listener-priority-and-execution-order">Event listener priority and execution order<a class="headerlink" href="#event-listener-priority-and-execution-order" title="Permanent link">¶</a></h2>
+<p>OpenMod allows you to control in which order your event listeners are executed. Execution order is based on priority. </p>
+<p>You can set an event listeners priority by using the <code>[EventListener]</code> attribute.  <br/>
+Execution order is from lowest priority to highest. In other words, lowest priority is called first.</p>
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener1</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
+<span class="p">{</span>
+<span class="na">    [EventListener(Priority = Priority.Lowest)]</span>
+    <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectEvent</span> <span class="n">@event</span><span class="p">)</span>
+    <span class="p">{</span>
+
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener2</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
+<span class="p">{</span>
+<span class="na">    [EventListener(Priority = Priority.Low)]</span>
+    <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectEvent</span> <span class="n">@event</span><span class="p">)</span>
+    <span class="p">{</span>
+
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener3</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
+<span class="p">{</span>
+<span class="na">    [EventListener(Priority = Priority.High)]</span>
+    <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectEvent</span> <span class="n">@event</span><span class="p">)</span>
+    <span class="p">{</span>
+
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In the example above, <code>UserConnectListener1</code> is called first, then <code>UserConnectListener2</code> and finally <code>UserConnectListener3</code>.</p>
+<h2 id="cancelling-events-and-ignoring-cancelled-events">Cancelling events and ignoring cancelled events<a class="headerlink" href="#cancelling-events-and-ignoring-cancelled-events" title="Permanent link">¶</a></h2>
+<p>An event has to implement the <code>ICancellableEvent</code> interface to be cancellable. If an event gets cancelled, event listeners which do not have the <code>IgnoreCancelled</code> property in the <code>[EventListener]</code> attribute set to true will not be notified. </p>
+<p><code>UserConnectingEvent</code> is such a cancellable event. It will disconnect the connecting user if the event gets cancelled.</p>
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectingListener1</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectingEvent</span><span class="p">&gt;</span>
+<span class="p">{</span>
+<span class="na">    [EventListener(Priority = Priority.Lowest)]</span>
+    <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectingEvent</span> <span class="n">@event</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">user</span><span class="p">.</span><span class="n">DisplayName</span><span class="p">.</span><span class="n">Equals</span><span class="p">(</span><span class="s">"Trojaner"</span><span class="p">))</span>
+        <span class="p">{</span>
+            <span class="n">@event</span><span class="p">.</span><span class="n">IsCancelled</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectingListener2</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectingEvent</span><span class="p">&gt;</span>
+<span class="p">{</span>
+<span class="na">    [EventListener(Priority = Priority.Low)]</span>
+    <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectingEvent</span> <span class="n">@event</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="c1">// this event listener will not be called because it does not ignore cancellation</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectingListener3</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectingEvent</span><span class="p">&gt;</span>
+<span class="p">{</span>
+<span class="na">    [EventListener(Priority = Priority.High, IgnoreCancelled = true)]</span>
+    <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectingEvent</span> <span class="n">@event</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="c1">// this event listener will be called even if the event gets cancelled</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>In the example above, if a user named "Trojaner" connects, <code>UserConnectingListener1</code> will cancel the event. <code>UserConnectingListener2</code> will not be called in this case because it does not ignore cancelled events like <code>UserConnectingListener3</code> does. </p>
+<h2 id="event-listener-lifetime">Event listener lifetime<a class="headerlink" href="#event-listener-lifetime" title="Permanent link">¶</a></h2>
+<p>Event listeners can have three types of lifetime:</p>
+<ul>
+<li>Transient: The event listener is always be recreated on every event. If you have multiple IEventListeners, all of them will have their own instances. This is the default lifetime.</li>
+<li>Scoped: If you implement multiple IEventListeners in one class, all of them will share the same instance. Otherwise, same as transient.</li>
+<li>Singleton: The event listener will have only one lifetime that lives until the plugin gets unloaded.</li>
+</ul>
+<p>You can set the event listener lifetime by adding the <code>[EventListenerLifetime(ServiceLifetime)]</code> attribute:
+<div class="highlight"><pre><span></span><code><span class="na">[EventListenerLifetime(ServiceLifetime.Transient)]</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectBroadcaster</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
+<span class="c1">// ...</span>
+</code></pre></div></p>
+<h2 id="custom-events">Custom events<a class="headerlink" href="#custom-events" title="Permanent link">¶</a></h2>
+<p>Creating a custom event is simple: just create a new class that inherits from <code>Event</code>.</p>
+<p>Here is an example:
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">SampleEvent</span> <span class="p">:</span> <span class="n">Event</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="kt">int</span> <span class="n">MyValue</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span> 
+    <span class="c1">// you can also add other properties </span>
+<span class="p">}</span>
+</code></pre></div></p>
+<p>You can then emit it by using the event bus:
+<div class="highlight"><pre><span></span><code>    <span class="n">MyPlugin</span> <span class="n">myPlugin</span> <span class="p">=</span> <span class="p">...;</span>
+    <span class="n">IEventBus</span> <span class="n">eventBus</span> <span class="p">=</span> <span class="p">...;</span>
+    <span class="n">ILogger</span><span class="p">&lt;</span><span class="n">xxx</span><span class="p">&gt;</span> <span class="n">logger</span> <span class="p">=</span> <span class="p">...;</span>
+
+    <span class="kt">var</span> <span class="n">@event</span> <span class="p">=</span> <span class="k">new</span> <span class="n">SampleEvent</span>
+    <span class="p">{</span>
+       <span class="n">MyValue</span> <span class="p">=</span> <span class="m">20</span>
+    <span class="p">};</span>
+
+    <span class="k">await</span> <span class="n">m_EventBus</span><span class="p">.</span><span class="n">EmitAsync</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">,</span> <span class="k">this</span> <span class="cm">/* sender */</span><span class="p">,</span> <span class="n">@event</span><span class="p">);</span>
+    <span class="n">logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="err">$</span><span class="s">"Event value: {@event.MyValue}"</span><span class="p">);</span>
+</code></pre></div></p>
+<p>If you want your event to be cancellable, you must have implement the <code>ICancellableEvent</code> interface:
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">SampleEvent</span> <span class="p">:</span> <span class="n">Event</span><span class="p">,</span> <span class="n">ICancellableEvent</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="kt">int</span> <span class="n">MyValue</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+    <span class="k">public</span> <span class="kt">bool</span> <span class="n">IsCancelled</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code>    <span class="n">MyPlugin</span> <span class="n">myPlugin</span> <span class="p">=</span> <span class="p">...;</span>
+    <span class="n">IEventBus</span> <span class="n">eventBus</span> <span class="p">=</span> <span class="p">...;</span>
+    <span class="n">ILogger</span><span class="p">&lt;</span><span class="n">xxx</span><span class="p">&gt;</span> <span class="n">logger</span> <span class="p">=</span> <span class="p">...;</span>
+
+    <span class="kt">var</span> <span class="n">@event</span> <span class="p">=</span> <span class="k">new</span> <span class="n">SampleEvent</span>
+    <span class="p">{</span>
+       <span class="n">MyValue</span> <span class="p">=</span> <span class="m">20</span>
+    <span class="p">};</span>
+
+    <span class="k">await</span> <span class="n">m_EventBus</span><span class="p">.</span><span class="n">EmitAsync</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">,</span> <span class="k">this</span> <span class="cm">/* sender */</span><span class="p">,</span> <span class="n">@event</span><span class="p">);</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="n">@event</span><span class="p">.</span><span class="n">IsCancelled</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="err">$</span><span class="s">"Event has been cancelled!"</span><span class="p">);</span>
+        <span class="k">return</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="n">logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="err">$</span><span class="s">"Event value: {@event.MyValue}"</span><span class="p">);</span>
+</code></pre></div>
+<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Always</strong> unsubscribe from C# events and delegates when your plugin unloads or a service gets disposed. For example, if you want to subscribe to the OnEnemyConnected event from Unturned when your plugin loads, you must do it like this:
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">UniTask</span> <span class="nf">OnLoadAsync</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">Provider</span><span class="p">.</span><span class="n">onEnemyConnected</span> <span class="p">+=</span> <span class="n">OnPlayerConnected</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">public</span> <span class="k">async</span> <span class="n">UniTask</span> <span class="nf">OnUnloadAsync</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="c1">// this is very important, otherwise your plugin will not support reloads and unloads.</span>
+    <span class="n">Provider</span><span class="p">.</span><span class="n">onEnemyConnected</span> <span class="p">-=</span> <span class="n">OnPlayerConnected</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></li>
+<li><strong>Do not</strong> use the singleton lifetime for event listeners unnecessarily. This may cause problems if the event listener has transient or scoped dependencies. </li>
+</ul>
                 
               
               
@@ -675,7 +1001,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../../datastore/" title="Data Store" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../services/" title="Services" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -684,7 +1010,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Data Store
+                Services
               </div>
             </div>
           </a>

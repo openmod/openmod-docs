@@ -592,54 +592,18 @@
           
 
 
-  <li class="md-nav__item">
-    <a href="../logging/" title="Logging" class="md-nav__link">
-      Logging
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../permissions/" title="Permissions" class="md-nav__link">
-      Permissions
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../datastore/" title="Data Store" class="md-nav__link">
-      Data Store
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-10" type="checkbox" id="nav-3-10">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-7" type="checkbox" id="nav-3-7">
     
-    <label class="md-nav__link" for="nav-3-10">
+    <label class="md-nav__link" for="nav-3-7">
       Events
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Events" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-10">
+      <label class="md-nav__title" for="nav-3-7">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -686,6 +650,42 @@
         
       </ul>
     </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../logging/" title="Logging" class="md-nav__link">
+      Logging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../permissions/" title="Permissions" class="md-nav__link">
+      Permissions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../datastore/" title="Data Store" class="md-nav__link">
+      Data Store
+    </a>
   </li>
 
         
@@ -798,16 +798,16 @@
 <h2 id="dependency-injection-example">Dependency injection example<a class="headerlink" href="#dependency-injection-example" title="Permanent link">¶</a></h2>
 <p>Let's see this in action:</p>
 <p>This is how your plugin looks like normally:
-<div class="highlight"><pre><span></span><code>public class MyPlugin(IServiceProvider serviceProvider) : base(serviceProvider)
-{
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nf">MyPlugin</span><span class="p">(</span><span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
+<span class="p">{</span>
 
-}
+<span class="p">}</span>
 </code></pre></div></p>
 <p>If you wanted to access the <code>IStringLocalizer</code> service, you could it like this:
-<div class="highlight"><pre><span></span><code>public class MyPlugin(IStringLocalizer stringLocalizer, IServiceProvider serviceProvider) : base(serviceProvider)
-{
-   // do something with stringLocalizer
-}
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nf">MyPlugin</span><span class="p">(</span><span class="n">IStringLocalizer</span> <span class="n">stringLocalizer</span><span class="p">,</span> <span class="n">IServiceProvider</span> <span class="n">serviceProvider</span><span class="p">)</span> <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">serviceProvider</span><span class="p">)</span>
+<span class="p">{</span>
+   <span class="c1">// do something with stringLocalizer</span>
+<span class="p">}</span>
 </code></pre></div></p>
 <p>Assume you want to access your plugin's instance and configuration from a command. Here is how you could do it:
 <div class="highlight"><pre><span></span><code><span class="k">private</span> <span class="k">readonly</span> <span class="n">IConfiguration</span> <span class="n">m_Configuration</span><span class="p">;</span>
@@ -1008,13 +1008,13 @@ Services are created before plugins load and are destroyed when openmod reloads 
           </a>
         
         
-          <a href="../logging/" title="Logging" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../events/events/" title="Events and event listeners" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Logging
+                Events and event listeners
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
