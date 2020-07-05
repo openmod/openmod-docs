@@ -1,5 +1,5 @@
 # Permissions
-Permissions allow to define which action a user is permitted to execute and which he is not.
+Permissions allow defining which actions a user is permitted to execute and which he is not.
 
 You can use the `IPermissionChecker` service to check if a user has specific permissions:
 
@@ -31,7 +31,7 @@ public class UserConnectBroadcaster : IEventListener<UserConnectedEvent>
 ```
 
 Let's have a closer look at `CheckPermissionAsync`.
-`CheckPermissionAsync` returns `PermissionGrantResult`, which is a enum with members:
+`CheckPermissionAsync` returns `PermissionGrantResult`, which is an enum with members:
 
 * Default - The permission is neither explicitly granted nor explicitly denied
 * Grant - The permission was explicitly granted

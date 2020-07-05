@@ -89,7 +89,7 @@ public class VehicleClearingService : IVehicleClearingService, IAsyncDisposable
 You can now access this service by injecting `IVehicleClearingService` in e.g. commands, event listeners, your plugin class or other services. 
 
 !!! Note
-    Custom services have a different lifetime then plugins. Even if your plugin unloads your service will be still alive and used.    
+    Custom services have a different lifetime than plugins. Even if your plugin unloads, your service will still be alive and used.    
     Services are created before plugins load and are destroyed when openmod reloads or the server shuts down.
 
 ### Service lifetime
@@ -118,7 +118,7 @@ The following lifetimes are available:
 | IOpenModHost                                    | OpenMod host platform abstractions                | 
 | IPermissionChecker                              | Check permissions                                 |
 | IPermissionRoleStore                            | Get and manage permission roles                   |
-| IPluginAccessor<>                               | Access a plugins instace                          |
+| IPluginAccessor<>                               | Access a plugin's instance                        |
 | IPluginActivator                                | Load and activate plugins                         |
 | IRuntime                                        | Manage OpenMod runtime                            |
 | IStringLocalizer                                | Localize messages from plugin translation files   |

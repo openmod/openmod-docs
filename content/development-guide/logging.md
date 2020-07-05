@@ -36,7 +36,7 @@ public class ServiceConfigurator : IServiceConfigurator
 ```
 
 !!! Note
-    Your custom logger will not be used while OpenMod is booting and creating the IoC container. It will used once OpenMod has fully started.
+    Your custom logger will not be used while OpenMod is booting and creating the IoC container. It will be used once OpenMod has fully started.
 
 ## Best Practices
-* **Do not** inject the `ILogger` interface directly. This will prevent the logger from associating your log messages with your class  your plugin. A user can also not configure minimum log levels or other options for your log messages in that case.
+* **Do not** inject the `ILogger` interface directly. This will prevent the logger from associating your log messages with your class. A user can also not configure minimum log levels or other options for your log messages in that case.

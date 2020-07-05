@@ -1,5 +1,5 @@
 # Events and event listeners
-Events are used to notify components about that something is happening, like when a user disconnects.  
+Events are used to notify components that something is happening, like when a user disconnects.  
 
 There are three types of events:
 
@@ -163,7 +163,7 @@ await m_EventBus.EmitAsync(myPlugin, this /* sender */, @event);
 logger.LogInformation($"Event value: {@event.MyValue}");
 ```
 
-If you want your event to be cancellable, you must have implement the `ICancellableEvent` interface:
+If you want your event to be cancellable, you must implement the `ICancellableEvent` interface:
 ```c#
 public class SampleEvent : Event, ICancellableEvent
 {
