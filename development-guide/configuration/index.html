@@ -8,7 +8,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="OpenMod .NET Plugin Framwework Documentation">
+        <meta name="description" content="OpenMod .NET Plugin Framework Documentation">
       
       
         <link rel="canonical" href="https://openmod.github.io/openmod-docs/development-guide/configuration/">
@@ -781,11 +781,11 @@
                 
                 
                 <h1 id="configurations">Configurations<a class="headerlink" href="#configurations" title="Permanent link">¶</a></h1>
-<p>Configurations allow users to configure and customize your plugins behavior.<br/>
-Assume your plugin gives XP when killing a player. By using configs a user can dynamically set how much XP will be given. </p>
+<p>Configurations allow users to configure and customize your plugin's behavior.<br/>
+Assume your plugin gives XP when killing a player. By using configs, a user can dynamically set how much XP will be given. </p>
 <p>OpenMod configurations are based on <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration?view=dotnet-plat-ext-3.1">Microsoft.Extensions.Configuration</a>, which are also used in ASP.NET Core.</p>
 <h2 id="adding-the-configyaml">Adding the config.yaml<a class="headerlink" href="#adding-the-configyaml" title="Permanent link">¶</a></h2>
-<p>Create a new file called "config.yaml" inside your projects root directory.<br/>
+<p>Create a new file called "config.yaml" inside your project's root directory.<br/>
 After that, add the following to your .csproj file: 
 <div class="highlight"><pre><span></span><code><span class="nt">&lt;ItemGroup&gt;</span>
   <span class="nt">&lt;EmbeddedResource</span> <span class="na">Include=</span><span class="s">"config.yaml"</span> <span class="nt">/&gt;</span>
@@ -861,7 +861,7 @@ This interface allows you to add additional sources to the <code>IConfigurationB
 </div>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
 <ul>
-<li><strong>Do not</strong> hardcode important values. For example, if you are making a plugin that gives playesr XP when killing other players, make sure the XP amount is configurable, as it is likely something a user would want to adjust.</li>
+<li><strong>Do not</strong> hardcode important values. For example, if you are making a plugin that gives players XP when killing other players, make sure the XP amount is configurable, as it is likely something a user would want to adjust.</li>
 <li><strong>Do not</strong> overcomplicate your configurations. Only add values that users are likely going to change. Have a simple configuration is preferred to a complex one.</li>
 <li><strong>Do not</strong> use configurations to store messages. Use <a href="../localization.md">translations</a> instead. Unlike translations, configurations do not support any kind of formatting or passing arguments.</li>
 </ul>

@@ -8,7 +8,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="OpenMod .NET Plugin Framwework Documentation">
+        <meta name="description" content="OpenMod .NET Plugin Framework Documentation">
       
       
         <link rel="canonical" href="https://openmod.github.io/openmod-docs/development-guide/permissions/">
@@ -739,9 +739,9 @@
                 
                 
                 <h1 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link">¶</a></h1>
-<p>Permissions allow to define which action a user is permitted to execute and which he is not.</p>
+<p>Permissions allow defining which actions a user is permitted to execute and which he is not.</p>
 <p>You can use the <code>IPermissionChecker</code> service to check if a user has specific permissions:</p>
-<div class="highlight"><pre><span></span><code><span class="c1">// read event documentation  for more information about event listeners</span>
+<div class="highlight"><pre><span></span><code><span class="c1">// read event documentation for more information about event listeners</span>
 <span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectBroadcaster</span> <span class="p">:</span> <span class="n">IEventListener</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span> 
 <span class="p">{</span>
     <span class="k">private</span> <span class="k">readonly</span> <span class="n">IPermissionChecker</span> <span class="n">m_PermissionChecker</span><span class="p">;</span>
@@ -767,13 +767,13 @@
 <span class="p">}</span>
 </code></pre></div>
 <p>Let's have a closer look at <code>CheckPermissionAsync</code>.
-<code>CheckPermissionAsync</code> returns <code>PermissionGrantResult</code>, which is a enum with members:</p>
+<code>CheckPermissionAsync</code> returns <code>PermissionGrantResult</code>, which is an enum with members:</p>
 <ul>
 <li>Default - The permission is neither explicitly granted nor explicitly denied</li>
 <li>Grant - The permission was explicitly granted</li>
 <li>Deny - The permission was explicitly denied</li>
 </ul>
-<p>Usually you want to check if the result equals to <code>PermissionGrantResult.Grant</code> to permit an action. This means that if no explicit permission is set, the action will be denied by default. If you want to execute an action unless it is explicitly denied, use <code>CheckPermissionAsync(..) != PermissionGrantResult.Deny</code>.</p>
+<p>Usually, you want to check if the result equals to <code>PermissionGrantResult.Grant</code> to permit an action. This means that if no explicit permission is set, the action will be denied by default. If you want to execute an action unless it is explicitly denied, use <code>CheckPermissionAsync(..) != PermissionGrantResult.Deny</code>.</p>
 <h2 id="adding-your-own-permissions">Adding your own permissions<a class="headerlink" href="#adding-your-own-permissions" title="Permanent link">¶</a></h2>
 <p>You can add your own permissions (e.g. to store permissions in MySQL):</p>
 <ol>

@@ -8,7 +8,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="OpenMod .NET Plugin Framwework Documentation">
+        <meta name="description" content="OpenMod .NET Plugin Framework Documentation">
       
       
         <link rel="canonical" href="https://openmod.github.io/openmod-docs/development-guide/services/">
@@ -847,7 +847,7 @@
     <span class="p">{</span>
         <span class="n">VehicleClearerPlugin</span> <span class="n">plugin</span> <span class="p">=</span> <span class="n">pluginAccessor</span><span class="p">.</span><span class="n">Instance</span><span class="p">;</span>
 
-        <span class="c1">// Services live in the global OpenMod scope, which does not provide a IStringLocalizer.</span>
+        <span class="c1">// Services live in the global OpenMod scope, which does not provide an IStringLocalizer.</span>
         <span class="c1">// Since IStringLocalizer does not exist in this scope, we have to use the plugins scope.</span>
         <span class="n">m_StringLocalizer</span> <span class="p">=</span> <span class="n">plugin</span><span class="p">.</span><span class="n">Lifetime</span><span class="p">.</span><span class="n">Resolve</span><span class="p">&lt;</span><span class="n">IStringLocalizer</span><span class="p">&gt;();</span>
         <span class="n">m_Logger</span> <span class="p">=</span> <span class="n">logger</span><span class="p">;</span>
@@ -866,10 +866,10 @@
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></p>
-<p>You can now access this service by injecting <code>IVehicleClearingService</code> in e.g. commands, event listeners, your plugin class or other services. </p>
+<p>You can now access this service by injecting <code>IVehicleClearingService</code> in e.g. commands, event listeners, your plugin class, or other services. </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Custom services have a different lifetime then plugins. Even if your plugin unloads your service will be still alive and used.  <br/>
+<p>Custom services have a different lifetime than plugins. Even if your plugin unloads, your service will still be alive and used.  <br/>
 Services are created before plugins load and are destroyed when openmod reloads or the server shuts down.</p>
 </div>
 <h3 id="service-lifetime">Service lifetime<a class="headerlink" href="#service-lifetime" title="Permanent link">¶</a></h3>
@@ -903,7 +903,7 @@ Services are created before plugins load and are destroyed when openmod reloads 
 </tr>
 <tr>
 <td>ICommandPermissionBuilder</td>
-<td>Get a commands permission</td>
+<td>Get a command's permission</td>
 </tr>
 <tr>
 <td>ICurrentCommandContextAccessor</td>
@@ -927,7 +927,7 @@ Services are created before plugins load and are destroyed when openmod reloads 
 </tr>
 <tr>
 <td>IOpenModDataStoreAccessor</td>
-<td>Access OpenMods own data store</td>
+<td>Access OpenMod's data store</td>
 </tr>
 <tr>
 <td>IOpenModHost</td>
@@ -943,7 +943,7 @@ Services are created before plugins load and are destroyed when openmod reloads 
 </tr>
 <tr>
 <td>IPluginAccessor&lt;&gt;</td>
-<td>Access a plugins instace</td>
+<td>Access a plugin's instance</td>
 </tr>
 <tr>
 <td>IPluginActivator</td>

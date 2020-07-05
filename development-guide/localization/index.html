@@ -8,7 +8,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="OpenMod .NET Plugin Framwework Documentation">
+        <meta name="description" content="OpenMod .NET Plugin Framework Documentation">
       
       
         <link rel="canonical" href="https://openmod.github.io/openmod-docs/development-guide/localization/">
@@ -739,10 +739,10 @@
                 
                 
                 <h1 id="localization">Localization<a class="headerlink" href="#localization" title="Permanent link">¶</a></h1>
-<p>Localization allows users to customize and translate your plugins messages.<br/>
+<p>Localization allows users to customize and translate your plugin's messages.<br/>
 This is achieved through the translations.yaml file and the IStringLocalizer service.  </p>
 <h2 id="adding-the-translationsyaml">Adding the translations.yaml<a class="headerlink" href="#adding-the-translationsyaml" title="Permanent link">¶</a></h2>
-<p>Create a new file called "translations.yaml" inside your projects root directory.<br/>
+<p>Create a new file called "translations.yaml" inside your project's root directory.<br/>
 After that, add the following to your .csproj file: 
 <div class="highlight"><pre><span></span><code><span class="nt">&lt;ItemGroup&gt;</span>
   <span class="nt">&lt;EmbeddedResource</span> <span class="na">Include=</span><span class="s">"translations.yaml"</span> <span class="nt">/&gt;</span>
@@ -770,7 +770,7 @@ After that, add the following to your .csproj file:
     <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div></p>
-<p>First adjust the command to use the IStringLocalizer service:
+<p>First, adjust the command to use the IStringLocalizer service:
 <div class="highlight"><pre><span></span><code><span class="na">[Command("awesome")]</span>
 <span class="k">public</span> <span class="k">class</span> <span class="nc">AwesomeCommand</span> <span class="p">:</span> <span class="n">Command</span>
 <span class="p">{</span>
@@ -795,7 +795,7 @@ After that, add the following to your .csproj file:
 <div class="highlight"><pre><span></span><code><span class="nt">commands</span><span class="p">:</span> 
   <span class="nt">awesome</span><span class="p">:</span> <span class="s">"{Actor.DisplayName}</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">{Amount}x</span><span class="nv"> </span><span class="s">awesome!"</span>
 </code></pre></div></p>
-<p>Notice how we can access properties of the Actor parameter by calling <code>Actor.DisplayName</code>. The default IStringLocalizer uses SmartFormat.NET for parsing arguments. See the <a href="https://github.com/axuno/SmartFormat/wiki">SmartFormat.NET wiki</a> for more information. </p>
+<p>Notice how we can access the properties of the Actor parameter by calling <code>Actor.DisplayName</code>. The default IStringLocalizer uses SmartFormat.NET for parsing arguments. See the <a href="https://github.com/axuno/SmartFormat/wiki">SmartFormat.NET wiki</a> for more information. </p>
                 
               
               

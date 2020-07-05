@@ -8,7 +8,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="OpenMod .NET Plugin Framwework Documentation">
+        <meta name="description" content="OpenMod .NET Plugin Framework Documentation">
       
       
         <link rel="canonical" href="https://openmod.github.io/openmod-docs/development-guide/events/events/">
@@ -797,7 +797,7 @@
                 
                 
                 <h1 id="events-and-event-listeners">Events and event listeners<a class="headerlink" href="#events-and-event-listeners" title="Permanent link">¶</a></h1>
-<p>Events are used to notify components about that something is happening, like when a user disconnects.  </p>
+<p>Events are used to notify components that something is happening, like when a user disconnects.  </p>
 <p>There are three types of events:</p>
 <ul>
 <li>OpenMod Events</li>
@@ -941,7 +941,7 @@ Execution order is from lowest priority to highest. In other words, lowest prior
 <span class="k">await</span> <span class="n">m_EventBus</span><span class="p">.</span><span class="n">EmitAsync</span><span class="p">(</span><span class="n">myPlugin</span><span class="p">,</span> <span class="k">this</span> <span class="cm">/* sender */</span><span class="p">,</span> <span class="n">@event</span><span class="p">);</span>
 <span class="n">logger</span><span class="p">.</span><span class="n">LogInformation</span><span class="p">(</span><span class="err">$</span><span class="s">"Event value: {@event.MyValue}"</span><span class="p">);</span>
 </code></pre></div></p>
-<p>If you want your event to be cancellable, you must have implement the <code>ICancellableEvent</code> interface:
+<p>If you want your event to be cancellable, you must implement the <code>ICancellableEvent</code> interface:
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">SampleEvent</span> <span class="p">:</span> <span class="n">Event</span><span class="p">,</span> <span class="n">ICancellableEvent</span>
 <span class="p">{</span>
     <span class="k">public</span> <span class="kt">int</span> <span class="n">MyValue</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
@@ -969,7 +969,7 @@ Execution order is from lowest priority to highest. In other words, lowest prior
 </code></pre></div>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
 <ul>
-<li><strong>Always</strong> unsubscribe from C# events and delegates when your plugin unloads or a service gets disposed. For example, if you want to subscribe to the OnEnemyConnected event from Unturned when your plugin loads, you must do it like this:
+<li><strong>Always</strong> unsubscribe from C# events and delegates when your plugin unloads or a service gets disposed. For example, if you want to subscribe to the <code>onEnemyConnected</code> event from Unturned when your plugin loads, you must do it like this:
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">UniTask</span> <span class="nf">OnLoadAsync</span><span class="p">()</span>
 <span class="p">{</span>
     <span class="n">Provider</span><span class="p">.</span><span class="n">onEnemyConnected</span> <span class="p">+=</span> <span class="n">OnPlayerConnected</span><span class="p">;</span>

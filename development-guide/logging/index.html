@@ -8,7 +8,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="OpenMod .NET Plugin Framwework Documentation">
+        <meta name="description" content="OpenMod .NET Plugin Framework Documentation">
       
       
         <link rel="canonical" href="https://openmod.github.io/openmod-docs/development-guide/logging/">
@@ -755,7 +755,7 @@
 </code></pre></div></p>
 <p>The generic part (<code>XX</code> in <code>ILogger&lt;XX&gt;</code>) must be the class that is using the logger.</p>
 <h2 id="implementing-your-own-logger">Implementing your own logger<a class="headerlink" href="#implementing-your-own-logger" title="Permanent link">¶</a></h2>
-<p>To implement your own logger, you must implement the <code>ILoggerFactory</code>, <code>ILogger</code> and <code>ILogger&lt;&gt;</code> services.<br/>
+<p>To implement your own logger, you must implement the <code>ILoggerFactory</code>, <code>ILogger</code>, and <code>ILogger&lt;&gt;</code> services.<br/>
 After that you must register them via a <a href="../services.md#registering-your-own-services">ServiceConfigurator</a>:
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">ServiceConfigurator</span> <span class="p">:</span> <span class="n">IServiceConfigurator</span>
 <span class="p">{</span>
@@ -769,11 +769,11 @@ After that you must register them via a <a href="../services.md#registering-your
 </code></pre></div></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Your custom logger will not be used while OpenMod is booting and creating the IoC container. It will used once OpenMod has fully started.</p>
+<p>Your custom logger will not be used while OpenMod is booting and creating the IoC container. It will be used once OpenMod has fully started.</p>
 </div>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
 <ul>
-<li><strong>Do not</strong> inject the <code>ILogger</code> interface directly. This will prevent the logger from associating your log messages with your class  your plugin. A user can also not configure minimum log levels or other options for your log messages in that case.</li>
+<li><strong>Do not</strong> inject the <code>ILogger</code> interface directly. This will prevent the logger from associating your log messages with your class. A user can also not configure minimum log levels or other options for your log messages in that case.</li>
 </ul>
                 
               
