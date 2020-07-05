@@ -3,4 +3,4 @@ These events are provided by the `OpenMod.Games.Abstractions` package and are no
 They may not be available on all supported OpenMod platforms.
 
 !!! Note
-    The OpenMod.Games.Abstractions is not available y yet.
+    The OpenMod.Games.Abstractions is not available yet.
