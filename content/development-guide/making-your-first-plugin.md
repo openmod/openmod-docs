@@ -7,23 +7,23 @@ In this guide we will cover:
 3. Writing a basic plugin.
 
 ## Installing the .NET Core SDK
-Install the latest .NET Core SDK from [here](https://dotnet.microsoft.com/download/dotnet-core/3.1) (you should download a dotnet-sdk-xxxxx.zip).
+Install the latest .NET Core SDK from [here](https://dotnet.microsoft.com/download/dotnet-core/3.1) (you should get a `dotnet-sdk-xxxxx.zip`).
 
-## Installing the IDE for coding
-After setting up the .NET Core SDK, we will need to install an IDE. The IDE provides us an environment where we can code our plugins.
+## Installing the IDE
+After setting up the .NET Core SDK, you will have to install an IDE. The IDE provides you an environment where you can code your plugins.
 
 ### Visual Studio Code (preferred)
-You can use [install Visual Studio Code](https://code.visualstudio.com/) for developing OpenMod plugins. It supports Linux, macOS, and Windows. Visual Studio Code is the preferred solution for small to mid-sized projects. 
+You can use [Visual Studio Code](https://code.visualstudio.com/) for developing OpenMod plugins. It supports Linux, macOS, and Windows. Visual Studio Code is the preferred solution for small to mid-sized projects. 
 
 ### Visual Studio
-If you want a full IDE experience, download and install [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/). Visual Studio is only supported on the Windows platform. When the installer starts, select "Visual Studio 2019 Community Edition" (or newer, if available). After that select the .NET Core cross-platform development and the .NET Desktop Development options as shown below. 
+If you want a full IDE experience, download and install [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/). Visual Studio is only supported on the Windows platform. When the installer starts, select "Visual Studio 2019 Community Edition" (or newer, if available). After that select the ".NET Core cross-platform development" and the ".NET Desktop Development" options as shown below. 
 
 ![Selecting .NET desktop development option](https://docs.microsoft.com/en-us/visualstudio/install/media/vs2017-modify-workloads.png?view=vs-2017g)
 
 ![Selecting .NET Core cross-platform development option](https://static.packt-cdn.com/products/9781787281905/graphics/image_05_002.png)
 
 ### Rider
-If you are using Linux and do not want to use Visual Studio Code, you can install [Rider](https://www.jetbrains.com/rider/). Although it is a commercial product, it can be obtained for free by applying for a Jetbrains Student License (applicable to a wide variety of situations). Like Visual Studio, it provides a full IDE experience and has similar capabilities to it.
+If you are using Linux and do not want to use Visual Studio Code, you can install [Rider](https://www.jetbrains.com/rider/). Although it is a commercial product, it can be obtained for free when applying for a Jetbrains Student License. Like Visual Studio, it provides a full IDE experience and has similar capabilities.
 
 ## Generating the Plugin Project
 Start cmd or Powershell and navigate to the folder where you want to create the plugin project.

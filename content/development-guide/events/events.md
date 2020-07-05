@@ -1,4 +1,4 @@
-# Events
+# Events and event listeners
 Events are used to notify components about that something is happening, like when a user disconnects.  
 
 There are three types of events:
@@ -12,7 +12,7 @@ This guide will be about OpenMod events.
 ## Subscribing to events
 There are two ways to subscribe to events:
 
-1. Implement an IEventListener:
+1. Implement the `IEventListener` interface:
 ```c#
 public class UserConnectListener : IEventLister<UserConnectedEvent>
 {
@@ -125,9 +125,9 @@ In the example above, if a user named "Trojaner" connects, `UserConnectingListen
 ## Event listener lifetime
 Event listeners can have three types of lifetime:
 
-* Transient: The event listener is always be recreated on every event. If you have multiple IEventListeners, all of them will have their own instances. This is the default lifetime.
-* Scoped: If you implement multiple IEventListeners in one class, all of them will share the same instance. Otherwise, same as transient.
-* Singleton: The event listener will have only one lifetime that lives until the plugin gets unloaded.
+* **Transient** - The event listener is always be recreated on every event. If you have multiple IEventListeners, all of them will have their own instances. This is the default lifetime.
+* **Scoped** - If you implement multiple IEventListeners in one class, all of them will share the same instance. Otherwise same as transient.
+* **Singleton** - The event listener will have only one shared lifetime that lives until the plugin gets unloaded.
 
 You can set the event listener lifetime by adding the `[EventListenerLifetime(ServiceLifetime)]` attribute:
 ```c#
@@ -150,17 +150,17 @@ public class SampleEvent : Event
 
 You can then emit it by using the event bus:
 ```c#
-    MyPlugin myPlugin = ...;
-    IEventBus eventBus = ...;
-    ILogger<xxx> logger = ...;
+MyPlugin myPlugin = ...;
+IEventBus eventBus = ...;
+ILogger<xxx> logger = ...;
 
-    var @event = new SampleEvent
-    {
-       MyValue = 20
-    };
+var @event = new SampleEvent
+{
+    MyValue = 20
+};
    
-    await m_EventBus.EmitAsync(myPlugin, this /* sender */, @event);
-    logger.LogInformation($"Event value: {@event.MyValue}");
+await m_EventBus.EmitAsync(myPlugin, this /* sender */, @event);
+logger.LogInformation($"Event value: {@event.MyValue}");
 ```
 
 If you want your event to be cancellable, you must have implement the `ICancellableEvent` interface:
@@ -173,24 +173,24 @@ public class SampleEvent : Event, ICancellableEvent
 ``` 
 
 ```c#
-    MyPlugin myPlugin = ...;
-    IEventBus eventBus = ...;
-    ILogger<xxx> logger = ...;
+MyPlugin myPlugin = ...;
+IEventBus eventBus = ...;
+ILogger<xxx> logger = ...;
    
-    var @event = new SampleEvent
-    {
-       MyValue = 20
-    };
+var @event = new SampleEvent
+{
+    MyValue = 20
+};
    
-    await m_EventBus.EmitAsync(myPlugin, this /* sender */, @event);
+await m_EventBus.EmitAsync(myPlugin, this /* sender */, @event);
 
-    if(@event.IsCancelled)
-    {
-        logger.LogInformation($"Event has been cancelled!");
-        return;
-    }
+if(@event.IsCancelled)
+{
+    logger.LogInformation($"Event has been cancelled!");
+    return;
+}
 
-    logger.LogInformation($"Event value: {@event.MyValue}");
+logger.LogInformation($"Event value: {@event.MyValue}");
 ```
 
 ## Best Practices

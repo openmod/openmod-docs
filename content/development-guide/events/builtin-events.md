@@ -6,4 +6,4 @@
 | UserConnectedEvent                              | A user has connected to the server                |
 | UserDisconnectedEvent                           | A user has disconnected from the server           |
 | CommandExecutingEvent                           | A command is going to be executed                 |
-| CommandExecutingEvent                           | A command has been executed                       |
+| CommandExecutedEvent                            | A command has been executed                       |

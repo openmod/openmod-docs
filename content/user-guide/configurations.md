@@ -1,7 +1,7 @@
 # Configurations
 
 OpenMod uses [YAML](https://yaml.org/) for configurations.  
-You can find a quick YAML guide [here](https://blog.codemagic.io/what-you-can-do-with-yaml/)
+You can find a quick YAML guide [here](https://blog.codemagic.io/what-you-can-do-with-yaml/).
 
 Plugin specific configurations are stored in the `plugins/<plugin id>` directory.
 

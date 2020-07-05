@@ -88,5 +88,5 @@ AsyncHelper.Schedule("My Task", () => MyUpdateTask(myPlugin).AsTask() /* for Uni
 ```
 
 ## Best Practices
-If your task runs periodically, always ensure it stops running when your plugin gets unloaded.   
-**Do not** use Thread.Sleep or similar blocking methods like non-async I/O methods in Tasks. These methods will block the thread and prevent other tasks from running. Always use the async Task methods instead, like `Task.Delay`.
+* **Do not** use Thread.Sleep or similar blocking methods like non-async I/O methods in Tasks. These methods will block the thread and prevent other tasks from running. Always use the async Task methods instead, like `Task.Delay`.
+* **Do not** keep your tasks running after your plugin gets unloaded.   

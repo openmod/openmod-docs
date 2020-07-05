@@ -71,7 +71,10 @@ public async Task OnExecuteAsync()
 
 After that, we need to describe how users can use the command. Add the syntax metadata to the command class:
 ```c#
+//...
 [CommandSyntax("<player> [amount]")] // Describe the syntax/usage. Use <> for required arguments and [] for optional arguments.
+public class CommandAwesome : Command
+//...
 ```
 
 ## Restricting Command Actors
@@ -80,8 +83,11 @@ The `[CommandActor(Type)]` attribute allows you to specify such restrictions.
 
 For example, if you would like to restrict a command's usage to UnturnedUser and ConsoleUser, you could add the following:
 ```c#
+//...
 [CommandActor(typeof(UnturnedUser))]
 [CommandActor(typeof(ConsoleUser))]
+public class CommandAwesome : Command
+//...
 ```
 
 ## Exceptions
@@ -156,4 +162,4 @@ public class CommandAwesomeMore : Command
 * **Do not** handle sub commands yourself (e.g. `if(Context.Parameters[0] == "add")`). OpenMod cannot discover your subcommands and provide additional help or tab completion in that case.  
 * **Do not** hardcode messages. Instead, use [translations](../translations.md) so users can customize and translate your messages.
 * When writing commands, keep in mind that any type of user could execute your command by default. Maybe a plugin adds a DiscordUser and someone from Discord executes your command. Try to write your commands in a way that works with all kinds of users or restrict the allowed actors as mentioned earlier.
-* **Do not** manually check if an actor is allowed to execute a command (e.g. `if(!(actor is UnturnedUser))`). Always use `[CommandActor]` for such restrictions. It will automatically hide the command from actors who cannot execute them and give a consistent error message. 
+* **Do not** manually check if an actor is allowed to execute a command (e.g. `if(!(actor is UnturnedUser))`). Always use `[CommandActor(Type)]` for such restrictions. It will automatically hide the command from actors who cannot execute them and give a consistent error message. 

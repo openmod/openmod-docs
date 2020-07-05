@@ -59,7 +59,7 @@ public class AwesomeCommand : Command
 
 `new { Actor = Actor, Amount = amount }` sets the arguments for the translations.
 
-We now need to add a new translation to the `translations.yaml`:
+Finally add the translation to the `translations.yaml`:
 ```yaml
 commands: 
   awesome: "{Actor.DisplayName} is {Amount}x awesome!"

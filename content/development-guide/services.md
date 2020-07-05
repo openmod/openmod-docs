@@ -93,14 +93,14 @@ You can now access this service by injecting `IVehicleClearingService` in e.g. c
     Custom services have a different lifetime then plugins. Even if your plugin unloads your service will be still alive and used.    
     Services are created before plugins load and are destroyed when openmod reloads or the server shuts down.
 
-### Service Lifetimes
+### Service lifetime
 You might have noticed that the VehicleClearingService's Lifetime was set to `Lifetime = ServiceLifetime.Transient`.  
 
 The following lifetimes are available:
 
-* **Transient**: The service gets recreated every time it gets resolved. Every resolution and injection of this service will have a unique instance. This is the default lifetime.
-* **Scoped**: The service will share the same instance across the same command or event.
-* **Singleton**: The service will only have one instance that lives as long as the OpenMod IoC container does (until OpenMod gets reloaded or the server shuts down).  
+* **Transient** - The service gets recreated every time it gets resolved. Every resolution and injection of this service will have a unique instance. This is the default lifetime.
+* **Scoped** - The service will share the same instance across the same command or event.
+* **Singleton** - The service will only have one instance that lives as long as the OpenMod IoC container does (until OpenMod gets reloaded or the server shuts down).  
 
 ## Built-in OpenMod services
 

@@ -33,7 +33,7 @@ pages:
             - Game events: development-guide/events/game-events.md
         - Logging: development-guide/logging.md
         - Permissions: development-guide/permissions.md
-        - Data Store: development-guide/datastore.m
+        - Data Store: development-guide/datastore.md
         - Publishing to nuget.org: development-guide/publishing-to-nuget.md
 plugins:
   - search
