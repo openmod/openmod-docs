@@ -108,13 +108,13 @@ The following lifetimes are available:
 | IConfiguration                                  | Read configuration files                          |
 | ICommandExecutor                                | Execute command                                   |
 | ICommandStore                                   | Access command registrations                      |
-| ICommandPermissionBuilder                       | Get a commands permission                         |
+| ICommandPermissionBuilder                       | Get a command's permission                        |
 | ICurrentCommandContextAccessor                  | Access the current command context                |
 | IDataStore                                      | Serialize and deserialize persistent data         |
 | IDataStoreFactory                               | Create a data store instance                      |
 | IEventBus                                       | Subscribe to events and emit them                 |
 | IOpenModStringLocalizer                         | Localize messages from OpenMod's translation file |
-| IOpenModDataStoreAccessor                       | Access OpenMods own data store                    |
+| IOpenModDataStoreAccessor                       | Access OpenMod's data store                       |
 | IOpenModHost                                    | OpenMod host platform abstractions                | 
 | IPermissionChecker                              | Check permissions                                 |
 | IPermissionRoleStore                            | Get and manage permission roles                   |
