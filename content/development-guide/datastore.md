@@ -2,7 +2,7 @@
 The IDataStore service provides a way of saving and loading persistent data.  
 The default data store uses yaml files for serialization.
 
-## Using data store
+## Example
 Assume you want to save and load the following class:
 ```c#
 [Serializable]
