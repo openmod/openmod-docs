@@ -37,7 +37,7 @@ Let's have a closer look at `CheckPermissionAsync`.
 * Grant - The permission was explicitly granted
 * Deny - The permission was explicitly denied
 
-Usually you want to check if the result equals to `PermissionGrantResult.Grant` to permit an action. This means that if no explicit permission is set, the action will be denied by default. If you want to execute an action unless it is explicitly denied, use `CheckPermissionAsync(..) != PermissionGrantResult.Deny`.
+Usually, you want to check if the result equals to `PermissionGrantResult.Grant` to permit an action. This means that if no explicit permission is set, the action will be denied by default. If you want to execute an action unless it is explicitly denied, use `CheckPermissionAsync(..) != PermissionGrantResult.Deny`.
 
 ## Adding your own permissions
 You can add your own permissions (e.g. to store permissions in MySQL):

@@ -86,7 +86,7 @@ public class VehicleClearingService : IVehicleClearingService, IAsyncDisposable
 }
 ```
 
-You can now access this service by injecting `IVehicleClearingService` in e.g. commands, event listeners, your plugin class or other services. 
+You can now access this service by injecting `IVehicleClearingService` in e.g. commands, event listeners, your plugin class, or other services. 
 
 !!! Note
     Custom services have a different lifetime than plugins. Even if your plugin unloads, your service will still be alive and used.    

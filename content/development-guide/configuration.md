@@ -1,6 +1,6 @@
 # Configurations
-Assume your plugin gives XP when killing a player. By using configs a user can dynamically set how much XP will be given. 
 Configurations allow users to configure and customize your plugin's behavior.  
+Assume your plugin gives XP when killing a player. By using configs, a user can dynamically set how much XP will be given. 
 
 OpenMod configurations are based on [Microsoft.Extensions.Configuration](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration?view=dotnet-plat-ext-3.1), which are also used in ASP.NET Core.
 

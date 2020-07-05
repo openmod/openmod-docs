@@ -34,7 +34,7 @@ public class AwesomeCommand : Command
 }
 ```
 
-First adjust the command to use the IStringLocalizer service:
+First, adjust the command to use the IStringLocalizer service:
 ```c#
 [Command("awesome")]
 public class AwesomeCommand : Command
