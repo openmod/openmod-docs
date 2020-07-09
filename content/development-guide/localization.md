@@ -1,7 +1,10 @@
 # Localization
 Localization allows users to customize and translate your plugin's messages.  
-This is achieved through the translations.yaml file and the IStringLocalizer service.  
+This is achieved through the translations.yaml file and the IStringLocalizer service.
 
+!!! Note
+    The **RootNamespace** and **AssemblyName** need to be the same, if **RootNamespace** is not the same that **AssemblyName**, the `IStringLocalizer` will not work.
+    
 ## Adding the translations.yaml
 Create a new file called "translations.yaml" inside your project's root directory.  
 After that, add the following to your .csproj file: 
