@@ -264,9 +264,42 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Installing OpenMod for Unturned
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
     <a href="./" title="Installing OpenMod for Unturned" class="md-nav__link md-nav__link--active">
       Installing OpenMod for Unturned
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#using-openmod-on-multiple-servers-sharing-the-same-unturned-instance" class="md-nav__link">
+    Using OpenMod on multiple servers sharing the same Unturned instance
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -658,6 +691,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#using-openmod-on-multiple-servers-sharing-the-same-unturned-instance" class="md-nav__link">
+    Using OpenMod on multiple servers sharing the same Unturned instance
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -685,6 +735,19 @@
 <li>OpenMod supports RocketMod plugins. Read the <a href="../../migration/rocketmod/">RocketMod Migration Guide</a> if you are migrating from RocketMod.</li>
 <li>Done! Now you can <a href="../../plugins/plugin-management/">start installing plugins</a>.</li>
 </ol>
+<h2 id="using-openmod-on-multiple-servers-sharing-the-same-unturned-instance">Using OpenMod on multiple servers sharing the same Unturned instance<a class="headerlink" href="#using-openmod-on-multiple-servers-sharing-the-same-unturned-instance" title="Permanent link">¶</a></h2>
+<p>If you want to use OpenMod for multiple Unturned servers sharing the same Unturned instance, you must adjust the <code>logging.yaml</code> file.</p>
+<p>By default, Serilog logs to the <code>logs/openmod.log</code> file:
+<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span> <span class="nt">Name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">File</span>
+  <span class="nt">Args</span><span class="p">:</span>
+    <span class="nt">path</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">logs/openmod.log</span>
+</code></pre></div></p>
+<p>This works great if you use only one server per Unturned instance. If you have multiple servers sharing the same instance, this would result in all servers sharing the same log file. To fix this issue, adjust the value to include the servers name. E.g.:
+<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span> <span class="nt">Name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">File</span>
+  <span class="nt">Args</span><span class="p">:</span>
+    <span class="nt">path</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">logs/openmod-myserver.log</span>
+</code></pre></div></p>
+<p>You must repeat this for each server.</p>
                 
               
               
