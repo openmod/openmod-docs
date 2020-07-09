@@ -756,7 +756,7 @@
 <p>The generic part (<code>XX</code> in <code>ILogger&lt;XX&gt;</code>) must be the class that is using the logger.</p>
 <h2 id="implementing-your-own-logger">Implementing your own logger<a class="headerlink" href="#implementing-your-own-logger" title="Permanent link">¶</a></h2>
 <p>To implement your own logger, you must implement the <code>ILoggerFactory</code>, <code>ILogger</code>, and <code>ILogger&lt;&gt;</code> services.<br/>
-After that you must register them via a <a href="../services.md#registering-your-own-services">ServiceConfigurator</a>:
+After that you must register them via a <a href="../services/#registering-your-own-services">ServiceConfigurator</a>:
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">ServiceConfigurator</span> <span class="p">:</span> <span class="n">IServiceConfigurator</span>
 <span class="p">{</span>
     <span class="k">public</span> <span class="k">void</span> <span class="nf">ConfigureServices</span><span class="p">(</span><span class="n">IOpenModStartupContext</span> <span class="n">openModStartupContext</span><span class="p">,</span> <span class="n">IServiceCollection</span> <span class="n">serviceCollection</span><span class="p">)</span>

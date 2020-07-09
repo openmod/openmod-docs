@@ -842,7 +842,7 @@ After that, add the following to your .csproj file:
 </code></pre></div></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Configurations are not meant to act as a storage for data, that's why there is no save method. Use <a href="../datastore.md">Data Stores</a> if you have read from and write data to a file.</p>
+<p>Configurations are not meant to act as a storage for data, that's why there is no save method. Use <a href="../datastore/">Data Stores</a> if you have read from and write data to a file.</p>
 </div>
 <h2 id="converting-configuration-to-c-class">Converting configuration to C# class<a class="headerlink" href="#converting-configuration-to-c-class" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnLoadAsync</span><span class="p">()</span>
@@ -863,7 +863,7 @@ This interface allows you to add additional sources to the <code>IConfigurationB
 <ul>
 <li><strong>Do not</strong> hardcode important values. For example, if you are making a plugin that gives players XP when killing other players, make sure the XP amount is configurable, as it is likely something a user would want to adjust.</li>
 <li><strong>Do not</strong> overcomplicate your configurations. Only add values that users are likely going to change. Have a simple configuration is preferred to a complex one.</li>
-<li><strong>Do not</strong> use configurations to store messages. Use <a href="../localization.md">translations</a> instead. Unlike translations, configurations do not support any kind of formatting or passing arguments.</li>
+<li><strong>Do not</strong> use configurations to store messages. Use <a href="../localization/">translations</a> instead. Unlike translations, configurations do not support any kind of formatting or passing arguments.</li>
 </ul>
                 
               

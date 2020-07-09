@@ -778,7 +778,7 @@
 <p>You can add your own permissions (e.g. to store permissions in MySQL):</p>
 <ol>
 <li>Implement IPermissionStore</li>
-<li>Add your IPermissionStore via a <a href="../services.md#registering-your-own-services">ServiceConfigurator</a>:
+<li>Add your IPermissionStore via a <a href="../services/#registering-your-own-services">ServiceConfigurator</a>:
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">ServiceConfigurator</span> <span class="p">:</span> <span class="n">IServiceConfigurator</span>
 <span class="p">{</span>
     <span class="k">public</span> <span class="k">void</span> <span class="nf">ConfigureServices</span><span class="p">(</span><span class="n">IOpenModStartupContext</span> <span class="n">openModStartupContext</span><span class="p">,</span> <span class="n">IServiceCollection</span> <span class="n">serviceCollection</span><span class="p">)</span>
@@ -795,7 +795,7 @@
 <p>Sometimes you may want to check yourself if an actor has a permission.</p>
 <ol>
 <li>Implement IPermissionCheckSource</li>
-<li>Add your IPermissionCheckSource via a <a href="../services.md#registering-your-own-services">ServiceConfigurator</a>:
+<li>Add your IPermissionCheckSource via a <a href="../services/#registering-your-own-services">ServiceConfigurator</a>:
 <div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">ServiceConfigurator</span> <span class="p">:</span> <span class="n">IServiceConfigurator</span>
 <span class="p">{</span>
     <span class="k">public</span> <span class="k">void</span> <span class="nf">ConfigureServices</span><span class="p">(</span><span class="n">IOpenModStartupContext</span> <span class="n">openModStartupContext</span><span class="p">,</span> <span class="n">IServiceCollection</span> <span class="n">serviceCollection</span><span class="p">)</span>
