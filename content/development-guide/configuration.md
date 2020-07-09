@@ -5,7 +5,7 @@ Assume your plugin gives XP when killing a player. By using configs, a user can 
 OpenMod configurations are based on [Microsoft.Extensions.Configuration](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration?view=dotnet-plat-ext-3.1), which are also used in ASP.NET Core.
 
 !!! Note
-    The **<RootNamespace>** and **<AssemblyName>** properties in the plugin's .csproj file must be equal, otherwise the `IConfiguration` service will not work.
+    The **\<RootNamespace\>** and **\<AssemblyName\>** properties in the plugin's .csproj file must be equal, otherwise the `IConfiguration` service will not work.
 
 ## Adding the config.yaml
 Create a new file called "config.yaml" inside your project's root directory.  
