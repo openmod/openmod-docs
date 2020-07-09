@@ -743,7 +743,7 @@
 This is achieved through the translations.yaml file and the IStringLocalizer service.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The <strong>RootNamespace</strong> and <strong>AssemblyName</strong> need to be the same, if <strong>RootNamespace</strong> is not the same that <strong>AssemblyName</strong>, the <code>IStringLocalizer</code> will not work.</p>
+<p>The <strong><rootnamespace></rootnamespace></strong> and <strong><assemblyname></assemblyname></strong> properties in the plugin's .csproj file must be equal, otherwise the <code>IStringLocalizer</code> service will not work.</p>
 </div>
 <h2 id="adding-the-translationsyaml">Adding the translations.yaml<a class="headerlink" href="#adding-the-translationsyaml" title="Permanent link">¶</a></h2>
 <p>Create a new file called "translations.yaml" inside your project's root directory.<br/>
