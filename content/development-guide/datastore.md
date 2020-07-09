@@ -28,20 +28,20 @@ public class MyPlugin : OpenModUniversalPlugin
     public async Task OnLoadAsync()
     {
         // first check if the data exists and create it if it does not exist
-        if(!await dataStore.ExistsAsync(OwnersKey))
+        if(!await m_DataStore.ExistsAsync(OwnersKey))
         {
             await SeedData();
         }
 
-        var data = await dataStore.LoadAsync<PlayersData>(OwnersKey);        
+        var data = await m_DataStore.LoadAsync<PlayersData>(OwnersKey);        
         // do something with data
-        await dataStore.SaveAsync<PlayersData>(OwnersKey, data);
+        await m_DataStore.SaveAsync<PlayersData>(OwnersKey, data);
     }
 
     private async Task SeedData()
     {
         // create default data
-        await dataStore.SaveAsync(OwnersKey, new PlayersData
+        await m_DataStore.SaveAsync(OwnersKey, new PlayersData
         {
             OwnerNames = new List<string> { "Trojaner" }
         });
