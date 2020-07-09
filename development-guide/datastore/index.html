@@ -764,20 +764,20 @@ The default data store uses yaml files for serialization.</p>
     <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnLoadAsync</span><span class="p">()</span>
     <span class="p">{</span>
         <span class="c1">// first check if the data exists and create it if it does not exist</span>
-        <span class="k">if</span><span class="p">(!</span><span class="k">await</span> <span class="n">dataStore</span><span class="p">.</span><span class="n">ExistsAsync</span><span class="p">(</span><span class="n">OwnersKey</span><span class="p">))</span>
+        <span class="k">if</span><span class="p">(!</span><span class="k">await</span> <span class="n">m_DataStore</span><span class="p">.</span><span class="n">ExistsAsync</span><span class="p">(</span><span class="n">OwnersKey</span><span class="p">))</span>
         <span class="p">{</span>
             <span class="k">await</span> <span class="nf">SeedData</span><span class="p">();</span>
         <span class="p">}</span>
 
-        <span class="kt">var</span> <span class="n">data</span> <span class="p">=</span> <span class="k">await</span> <span class="n">dataStore</span><span class="p">.</span><span class="n">LoadAsync</span><span class="p">&lt;</span><span class="n">PlayersData</span><span class="p">&gt;(</span><span class="n">OwnersKey</span><span class="p">);</span>        
+        <span class="kt">var</span> <span class="n">data</span> <span class="p">=</span> <span class="k">await</span> <span class="n">m_DataStore</span><span class="p">.</span><span class="n">LoadAsync</span><span class="p">&lt;</span><span class="n">PlayersData</span><span class="p">&gt;(</span><span class="n">OwnersKey</span><span class="p">);</span>        
         <span class="c1">// do something with data</span>
-        <span class="k">await</span> <span class="n">dataStore</span><span class="p">.</span><span class="n">SaveAsync</span><span class="p">&lt;</span><span class="n">PlayersData</span><span class="p">&gt;(</span><span class="n">OwnersKey</span><span class="p">,</span> <span class="n">data</span><span class="p">);</span>
+        <span class="k">await</span> <span class="n">m_DataStore</span><span class="p">.</span><span class="n">SaveAsync</span><span class="p">&lt;</span><span class="n">PlayersData</span><span class="p">&gt;(</span><span class="n">OwnersKey</span><span class="p">,</span> <span class="n">data</span><span class="p">);</span>
     <span class="p">}</span>
 
     <span class="k">private</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">SeedData</span><span class="p">()</span>
     <span class="p">{</span>
         <span class="c1">// create default data</span>
-        <span class="k">await</span> <span class="n">dataStore</span><span class="p">.</span><span class="n">SaveAsync</span><span class="p">(</span><span class="n">OwnersKey</span><span class="p">,</span> <span class="k">new</span> <span class="n">PlayersData</span>
+        <span class="k">await</span> <span class="n">m_DataStore</span><span class="p">.</span><span class="n">SaveAsync</span><span class="p">(</span><span class="n">OwnersKey</span><span class="p">,</span> <span class="k">new</span> <span class="n">PlayersData</span>
         <span class="p">{</span>
             <span class="n">OwnerNames</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;</span> <span class="p">{</span> <span class="s">"Trojaner"</span> <span class="p">}</span>
         <span class="p">});</span>
