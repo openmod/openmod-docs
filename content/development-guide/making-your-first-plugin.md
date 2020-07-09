@@ -109,7 +109,7 @@ public class CommandEcho : Command
 
 OnExecuteAsync is getting called by the command executor and provides you with the commands "context". At the top of the class, you will see we are setting our command metadata using attributes.
 
-For more, visit the [commands documentation](../commands.md).
+For more, visit the [commands documentation](../commands/).
 
 ## Best Practices
 * **Do not** use static plugin instances, instead always pass instances by reference.  

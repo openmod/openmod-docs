@@ -76,7 +76,7 @@ public async Task OnLoadAsync()
 ```
 
 !!! Note
-    Configurations are not meant to act as a storage for data, that's why there is no save method. Use [Data Stores](../datastore.md) if you have read from and write data to a file.
+    Configurations are not meant to act as a storage for data, that's why there is no save method. Use [Data Stores](../datastore/) if you have read from and write data to a file.
 
 ## Converting configuration to C# class
 ```c#
@@ -98,4 +98,4 @@ This interface allows you to add additional sources to the `IConfigurationBuilde
 ## Best Practices
 * **Do not** hardcode important values. For example, if you are making a plugin that gives players XP when killing other players, make sure the XP amount is configurable, as it is likely something a user would want to adjust.
 * **Do not** overcomplicate your configurations. Only add values that users are likely going to change. Have a simple configuration is preferred to a complex one.
-* **Do not** use configurations to store messages. Use [translations](../localization.md) instead. Unlike translations, configurations do not support any kind of formatting or passing arguments.
+* **Do not** use configurations to store messages. Use [translations](../localization/) instead. Unlike translations, configurations do not support any kind of formatting or passing arguments.
