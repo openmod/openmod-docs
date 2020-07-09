@@ -43,7 +43,7 @@ Usually, you want to check if the result equals to `PermissionGrantResult.Grant`
 You can add your own permissions (e.g. to store permissions in MySQL):
 
 1. Implement IPermissionStore
-2. Add your IPermissionStore via a [ServiceConfigurator](../services.md#registering-your-own-services):
+2. Add your IPermissionStore via a [ServiceConfigurator](../services/#registering-your-own-services):
 ```c#
 public class ServiceConfigurator : IServiceConfigurator
 {
@@ -61,7 +61,7 @@ public class ServiceConfigurator : IServiceConfigurator
 Sometimes you may want to check yourself if an actor has a permission.
 
 1. Implement IPermissionCheckSource
-2. Add your IPermissionCheckSource via a [ServiceConfigurator](../services.md#registering-your-own-services):
+2. Add your IPermissionCheckSource via a [ServiceConfigurator](../services/#registering-your-own-services):
 ```c#
 public class ServiceConfigurator : IServiceConfigurator
 {

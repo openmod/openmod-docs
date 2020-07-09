@@ -18,7 +18,7 @@ public class CommandAwesome : Command
 ```
 
 !!! Note
-    In the following examples no translations are used. See [translations](../translations.md) on information on 
+    In the following examples no translations are used. See [translations](../localization/) on information on 
     how to integrate translation files.
 
 After that, add some metadata to describe our command and its usage:
@@ -160,6 +160,6 @@ public class CommandAwesomeMore : Command
 
 ## Best Practices
 * **Do not** handle sub commands yourself (e.g. `if(Context.Parameters[0] == "add")`). OpenMod cannot discover your subcommands and provide additional help or tab completion in that case.  
-* **Do not** hardcode messages. Instead, use [translations](../translations.md) so users can customize and translate your messages.
+* **Do not** hardcode messages. Instead, use [translations](../localization/) so users can customize and translate your messages.
 * When writing commands, keep in mind that any type of user could execute your command by default. Maybe a plugin adds a DiscordUser and someone from Discord executes your command. Try to write your commands in a way that works with all kinds of users or restrict the allowed actors as mentioned earlier.
 * **Do not** manually check if an actor is allowed to execute a command (e.g. `if(!(actor is UnturnedUser))`). Always use `[CommandActor(Type)]` for such restrictions. It will automatically hide the command from actors who cannot execute them and give a consistent error message. 
