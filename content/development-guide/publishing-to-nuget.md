@@ -39,6 +39,7 @@ For more, read the [Publishing packages](https://docs.microsoft.com/en-us/nuget/
 Like OpenMod, NuGet also uses Semantic Versioning 2.0.0.
 
 Here is a short summary on how versioning works:
+
 - Semantic Versioning follow the following template: `Major.Minor.Patch`.
 - First Major is compared, then Minor and finally Patch. So `3.0.1` > `2.1.5` > `1.45.8` > `0.999.0`.
 - Your plugin starts with version `0.1.0` and increments tee "Minor" version as it progresses towards release (e.g. `0.2.0`).
@@ -51,6 +52,7 @@ In this case version comparison is done alphabetically, e.g. `1.0.0-rc2` is "new
 - You can attach any arbitary information, such as the commit hash, by using the + suffix (e.g. `1.0.0+525ffaa` or `1.0.0-rc1+525ffaa`). Everything after the + is ignored and not used for version comparison.
 
 The following are valid semantic version examples:
+
 * `0.0.1`
 * `1.0.9`
 * `1.45.6`
@@ -60,6 +62,7 @@ The following are valid semantic version examples:
 * `1.3.5-rc2+somearbitaryinformation`
 
 The following are **invalid** semantic versions:
+
 * `1.0.0.0`
 * `v1.0.0`
 
@@ -109,11 +112,13 @@ jobs:
 After that you must edit the `<Version>x.x.x</Version>` in your .csproj and set it to `<Version>0.0.0</Version>`.
 
 Finally, to finish setting up the workflow, you must add your NuGet secret:
+
 - Go to https://github.com/YOURNAME/YOURPLUGIN/settings/secrets
 - Create new secret
 - Name it "NUGET_DEPLOY_KEY" and add your NuGet API Key to it
 
 To publish a new version of your plugin, all you have to do is to:
+
 - Go to your repository on GitHub
 - Click on "Actions"
 - Select "NuGet Deployment" on the left
