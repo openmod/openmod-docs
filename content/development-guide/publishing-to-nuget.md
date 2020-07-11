@@ -123,7 +123,9 @@ To publish a new version of your plugin, all you have to do is to:
 - Click on "Actions"
 - Select "NuGet Deployment" on the left
 - Click on "Run workflow" on the right
-- Enter plugin version and click Run workflow
+- Enter plugin version and be sure to follow the versioning rules from above, then click "Run workflow".
+- Check the workflow log if any error occured.
+- Done, your plugin has been built and uploaded to nuget.org.
 
 Here is an example from the [NewEssentials](https://github.com/Kr4ken-9/NewEssentials) plugin made by Kr4ken:
 ![GitHub workflow NuGet deployment example](https://i.imgur.com/MumDQS5.png)
