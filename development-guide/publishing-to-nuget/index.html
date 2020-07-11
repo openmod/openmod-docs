@@ -799,7 +799,7 @@ You will need a Microsoft account for <a href="https://www.nuget.org/">nuget.org
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>You may get the "PackageOrVersionNotFound" error after trying to install your plugin. This means your upload has not 
-been verified or indexed yet. It usually takes about an hour until nuget.org uploads are verified and indexed.</p>
+been verified or indexed yet. It may take up to an hour until uploads to nuget.org are verified and indexed.</p>
 </div>
 <p>For more, read the <a href="https://docs.microsoft.com/en-us/nuget/nuget-org/publish-a-package">Publishing packages</a> and <a href="https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli">Create and publish a NuGet package (dotnet CLI)</a> pages on docs.microsoft.com.</p>
 <h2 id="plugin-versioning-with-semantic-versioning">Plugin Versioning with Semantic Versioning<a class="headerlink" href="#plugin-versioning-with-semantic-versioning" title="Permanent link">¶</a></h2>
@@ -887,6 +887,12 @@ Create the following file in your repository's <code>.github/workflow</code> fol
 </ul>
 <p>Here is an example from the <a href="https://github.com/Kr4ken-9/NewEssentials">NewEssentials</a> plugin made by Kr4ken:
 <img alt="GitHub workflow NuGet deployment example" src="https://i.imgur.com/MumDQS5.png"/></p>
+<p>It takes about 10-30 minutes for your plugin to be published to nuget.org. After waiting you can use <code>openmod install &lt;YourPluginsPackageId&gt;</code> to install your plugin.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You may get the "PackageOrVersionNotFound" error after trying to install your plugin. This means your upload has not 
+been verified or indexed yet. It may take up to an hour until uploads to nuget.org are verified and indexed.</p>
+</div>
                 
               
               
