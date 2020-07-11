@@ -31,7 +31,7 @@ You can install your plugin with `openmod install <YourPackageId>`.
 
 !!! Note
     You may get the "PackageOrVersionNotFound" error after trying to install your plugin. This means your upload has not 
-    been verified or indexed yet. It usually takes about an hour until nuget.org uploads are verified and indexed.
+    been verified or indexed yet. It may take up to an hour until uploads to nuget.org are verified and indexed.
 
 For more, read the [Publishing packages](https://docs.microsoft.com/en-us/nuget/nuget-org/publish-a-package) and [Create and publish a NuGet package (dotnet CLI)](https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli) pages on docs.microsoft.com.
 
@@ -127,3 +127,9 @@ To publish a new version of your plugin, all you have to do is to:
 
 Here is an example from the [NewEssentials](https://github.com/Kr4ken-9/NewEssentials) plugin made by Kr4ken:
 ![GitHub workflow NuGet deployment example](https://i.imgur.com/MumDQS5.png)
+
+It takes about 10-30 minutes for your plugin to be published to nuget.org. After waiting you can use `openmod install <YourPluginsPackageId>` to install your plugin.
+
+!!! Note
+    You may get the "PackageOrVersionNotFound" error after trying to install your plugin. This means your upload has not 
+    been verified or indexed yet. It may take up to an hour until uploads to nuget.org are verified and indexed.
