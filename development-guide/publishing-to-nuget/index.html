@@ -667,6 +667,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#plugin-versioning-with-semantic-versioning" class="md-nav__link">
+    Plugin Versioning with Semantic Versioning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publish-with-a-github-workflow" class="md-nav__link">
+    Publish with a GitHub workflow
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -714,6 +728,20 @@
         <li class="md-nav__item">
   <a href="#uploading-the-plugin" class="md-nav__link">
     Uploading the plugin
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plugin-versioning-with-semantic-versioning" class="md-nav__link">
+    Plugin Versioning with Semantic Versioning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publish-with-a-github-workflow" class="md-nav__link">
+    Publish with a GitHub workflow
   </a>
   
 </li>
@@ -774,6 +802,81 @@ You will need a Microsoft account for <a href="https://www.nuget.org/">nuget.org
 been verified or indexed yet. It usually takes about an hour until nuget.org uploads are verified and indexed.</p>
 </div>
 <p>For more, read the <a href="https://docs.microsoft.com/en-us/nuget/nuget-org/publish-a-package">Publishing packages</a> and <a href="https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli">Create and publish a NuGet package (dotnet CLI)</a> pages on docs.microsoft.com.</p>
+<h2 id="plugin-versioning-with-semantic-versioning">Plugin Versioning with Semantic Versioning<a class="headerlink" href="#plugin-versioning-with-semantic-versioning" title="Permanent link">¶</a></h2>
+<p>Like OpenMod, NuGet also uses Semantic Versioning 2.0.0.</p>
+<p>Here is a short summary on how versioning works:
+- Semantic Versioning follow the following template: <code>Major.Minor.Patch</code>.
+- First Major is compared, then Minor and finally Patch. So <code>3.0.1</code> &gt; <code>2.1.5</code> &gt; <code>1.45.8</code> &gt; <code>0.999.0</code>.
+- Your plugin starts with version <code>0.1.0</code> and increments tee "Minor" version as it progresses towards release (e.g. <code>0.2.0</code>).
+- When your plugin is ready for release, version <code>1.0.0</code> is used.
+- For bug fixes, increase the "Patch" version (e.g. <code>1.0.1</code>).
+- For new feature additions, increase the "Minor" version (e.g. <code>1.1.0</code>).
+- For breaking changes (e.g. public API changes or breaking configs, etc.), increment the Major version (e.g. <code>2.0.0</code>).
+- You can also use -rc1, -beta, -alpha, -beta2 etc. suffixes to indicate a pre release version (e.g. <code>2.0.0-rc1</code>)<br/>
+In this case version comparison is done alphabetically, e.g. <code>1.0.0-rc2</code> is "newer" than <code>1.0.0-rc1</code> and <code>1.0.0-beta</code>, but <code>1.0.0</code> is the newest because it is not a pre release version.
+- You can attach any arbitary information, such as the commit hash, by using the + suffix (e.g. <code>1.0.0+525ffaa</code> or <code>1.0.0-rc1+525ffaa</code>). Everything after the + is ignored and not used for version comparison.</p>
+<p>The following are valid semantic version examples:
+* <code>0.0.1</code>
+* <code>1.0.9</code>
+* <code>1.45.6</code>
+* <code>1.0.0-alpha</code>
+* <code>1.0.0-beta1</code>
+* <code>1.3.5-rc1</code>
+* <code>1.3.5-rc2+somearbitaryinformation</code></p>
+<p>The following are <strong>invalid</strong> semantic versions:
+* <code>1.0.0.0</code>
+* <code>v1.0.0</code></p>
+<p>For a full reference, please read the <a href="https://semver.org">semantic versioning website</a>.</p>
+<h2 id="publish-with-a-github-workflow">Publish with a GitHub workflow<a class="headerlink" href="#publish-with-a-github-workflow" title="Permanent link">¶</a></h2>
+<p>You can use GitHub workflows to publish to NuGet with one click.<br/>
+Create the following file in your repository's <code>.github/workflow</code> folder.</p>
+<p>The following assumes that your plugins source code is in the <code>YOURPLUGIN</code> folder under your repositories root directory.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Deployment</span>
+
+<span class="nt">on</span><span class="p">:</span>
+  <span class="nt">workflow_dispatch</span><span class="p">:</span>
+    <span class="nt">inputs</span><span class="p">:</span>
+      <span class="nt">version</span><span class="p">:</span>
+        <span class="nt">description</span><span class="p">:</span> <span class="s">'Plugin</span><span class="nv"> </span><span class="s">Version</span><span class="nv"> </span><span class="s">(SemVer:</span><span class="nv"> </span><span class="s">https://semver.org)'</span>
+        <span class="nt">required</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="nt">jobs</span><span class="p">:</span>
+  <span class="nt">deploy</span><span class="p">:</span>
+    <span class="nt">name</span><span class="p">:</span> <span class="s">"NuGet</span><span class="nv"> </span><span class="s">Deployment"</span>
+    <span class="nt">runs-on</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ubuntu-latest</span>
+    <span class="nt">steps</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="nt">uses</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">actions/checkout@v2</span>
+      <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Checkout Repository</span>
+      <span class="nt">with</span><span class="p">:</span>
+        <span class="nt">fetch-depth</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
+    <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Setup .NET Core</span>
+      <span class="nt">uses</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">actions/setup-dotnet@v1</span>
+      <span class="nt">with</span><span class="p">:</span>
+        <span class="nt">dotnet-version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">3.1.101</span>
+    <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Install dependencies</span>
+      <span class="nt">run</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">dotnet restore</span>
+    <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Update version</span>
+      <span class="nt">run</span><span class="p">:</span> <span class="s">"sed</span><span class="nv"> </span><span class="s">-i</span><span class="nv"> </span><span class="s">\"s#&lt;Version&gt;0.0.0&lt;/Version&gt;#&lt;Version&gt;${{</span><span class="nv"> </span><span class="s">github.event.inputs.version</span><span class="nv"> </span><span class="s">}}&lt;/Version&gt;#\"</span><span class="nv"> </span><span class="s">YOURPLUGIN/YOURPLUGIN.csproj"</span>  
+    <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Build</span>
+      <span class="nt">run</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">dotnet build YOURPLUGIN/YOURPLUGIN.csproj --configuration Release --no-restore</span>
+    <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Push to NuGet</span>
+      <span class="nt">if</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">github.event_name == 'create' &amp;&amp; github.event.ref_type == 'tag'</span>
+      <span class="nt">run</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">dotnet nuget push YOURPLUGIN/bin/Release/*.nupkg</span>
+             <span class="l l-Scalar l-Scalar-Plain">--api-key ${{ secrets.NUGET_DEPLOY_KEY }}</span>
+             <span class="l l-Scalar l-Scalar-Plain">--source https://api.nuget.org/v3/index.json</span>
+</code></pre></div>
+<p>After that you must edit the <code>&lt;Version&gt;x.x.x&lt;/Version&gt;</code> in your .csproj and set it to <code>&lt;Version&gt;0.0.0&lt;/Version&gt;</code>.</p>
+<p>Finally, to finish setting up the workflow, you must add your NuGet secret:
+- Go to <a href="https://github.com/YOURNAME/YOURPLUGIN/settings/secrets">https://github.com/YOURNAME/YOURPLUGIN/settings/secrets</a>
+- Create new secret
+- Name it "NUGET_DEPLOY_KEY" and add your NuGet API Key to it</p>
+<p>To publish a new version of your plugin, all you have to do is to:
+- Go to your repository on GitHub
+- Click on "Actions"
+- Select "NuGet Deployment" on the left
+- Click on "Run workflow" on the right
+- Enter plugin version and click Run workflow</p>
+<p>Here is an example from the <a href="https://github.com/Kr4ken-9/NewEssentials">NewEssentials</a> plugin made by Kr4ken:
+<img alt="GitHub workflow NuGet deployment example" src="https://i.imgur.com/MumDQS5.png"/></p>
                 
               
               
