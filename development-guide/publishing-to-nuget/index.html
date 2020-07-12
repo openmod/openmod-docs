@@ -865,7 +865,6 @@ Create the following file in your repository's <code>.github/workflow</code> fol
     <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Build</span>
       <span class="nt">run</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">dotnet build YOURPLUGIN/YOURPLUGIN.csproj --configuration Release --no-restore</span>
     <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Push to NuGet</span>
-      <span class="nt">if</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">github.event_name == 'create' &amp;&amp; github.event.ref_type == 'tag'</span>
       <span class="nt">run</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">dotnet nuget push YOURPLUGIN/bin/Release/*.nupkg</span>
              <span class="l l-Scalar l-Scalar-Plain">--api-key ${{ secrets.NUGET_DEPLOY_KEY }}</span>
              <span class="l l-Scalar l-Scalar-Plain">--source https://api.nuget.org/v3/index.json</span>
