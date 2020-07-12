@@ -103,7 +103,6 @@ jobs:
     - name: Build
       run: dotnet build YOURPLUGIN/YOURPLUGIN.csproj --configuration Release --no-restore
     - name: Push to NuGet
-      if: github.event_name == 'create' && github.event.ref_type == 'tag'
       run: dotnet nuget push YOURPLUGIN/bin/Release/*.nupkg
              --api-key ${{ secrets.NUGET_DEPLOY_KEY }}
              --source https://api.nuget.org/v3/index.json
