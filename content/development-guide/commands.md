@@ -63,8 +63,8 @@ public async Task OnExecuteAsync()
 {
     // assume we want the command to be called like this: /awesome <player> <amount>
     // Parameters start from 0, so <player> index is 0, <amount> index is 1.
-    var player = Context.Parameters.Get<string>(0);
-    var amount = Context.Parameters.Get<int>(1);
+    var player = Context.Parameters.GetAsync<string>(0);
+    var amount = Context.Parameters.GetAsync<int>(1);
     await PrintAsync($"{player} is {amount}x awesome!");
 }
 ```
@@ -104,8 +104,8 @@ These built-in exceptions available:
 ```c#
 public async Task OnExecuteAsync()
 {
-    var player = Context.Parameters.Get<string>(0);
-    var amount = Context.Parameters.Get<int>(1);
+    var player = Context.Parameters.GetAsync<string>(0);
+    var amount = Context.Parameters.GetAsync<int>(1);
 
     if(amount < 1) 
     {
@@ -123,8 +123,8 @@ Assume you want to restrict the `awesome` command if the amount is more than 10.
 ```c#
 public async Task OnExecuteAsync()
 {
-    var player = Context.Parameters.Get<string>(0);
-    var amount = Context.Parameters.Get<int>(1);
+    var player = Context.Parameters.GetAsync<string>(0);
+    var amount = Context.Parameters.GetAsync<int>(1);
 
     if(amount > 10 && await CheckPermissionAsync("MoreThan10") != PermissionGrantResult.Grant) 
     {
