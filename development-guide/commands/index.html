@@ -866,10 +866,10 @@ how to integrate translation files.</p>
 <h2 id="restricting-command-actors">Restricting Command Actors<a class="headerlink" href="#restricting-command-actors" title="Permanent link">¶</a></h2>
 <p>If you are not developing universal plugins, you may want to limit who can execute commands.<br/>
 The <code>[CommandActor(Type)]</code> attribute allows you to specify such restrictions.</p>
-<p>For example, if you would like to restrict a command's usage to UnturnedUser and ConsoleUser, you could add the following:
+<p>For example, if you would like to restrict a command's usage to UnturnedUser and ConsoleActor, you could add the following:
 <div class="highlight"><pre><span></span><code><span class="c1">//...</span>
 <span class="na">[CommandActor(typeof(UnturnedUser))]</span>
-<span class="na">[CommandActor(typeof(ConsoleUser))]</span>
+<span class="na">[CommandActor(typeof(ConsoleActor))]</span>
 <span class="k">public</span> <span class="k">class</span> <span class="nc">CommandAwesome</span> <span class="p">:</span> <span class="n">Command</span>
 <span class="c1">//...</span>
 </code></pre></div></p>
