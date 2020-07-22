@@ -14,7 +14,7 @@ There are two ways to subscribe to events:
 
 1. Implement the `IEventListener` interface:
 ```c#
-public class UserConnectListener : IEventLister<UserConnectedEvent>
+public class UserConnectListener : IEventListener<UserConnectedEvent>
 {
     [EventListener(Priority = Priority.Lowest)]
     public async Task HandleEventAsync(object sender, UserConnectEvent @event)
@@ -53,7 +53,7 @@ You can set an event listeners priority by using the `[EventListener]` attribute
 Execution order is from lowest priority to highest. In other words, lowest priority is called first.
 
 ```c#
-public class UserConnectListener1 : IEventLister<UserConnectedEvent>
+public class UserConnectListener1 : IEventListener<UserConnectedEvent>
 {
     [EventListener(Priority = Priority.Lowest)]
     public async Task HandleEventAsync(object sender, UserConnectEvent @event)
@@ -62,7 +62,7 @@ public class UserConnectListener1 : IEventLister<UserConnectedEvent>
     }
 }
 
-public class UserConnectListener2 : IEventLister<UserConnectedEvent>
+public class UserConnectListener2 : IEventListener<UserConnectedEvent>
 {
     [EventListener(Priority = Priority.Low)]
     public async Task HandleEventAsync(object sender, UserConnectEvent @event)
@@ -71,7 +71,7 @@ public class UserConnectListener2 : IEventLister<UserConnectedEvent>
     }
 }
 
-public class UserConnectListener3 : IEventLister<UserConnectedEvent>
+public class UserConnectListener3 : IEventListener<UserConnectedEvent>
 {
     [EventListener(Priority = Priority.High)]
     public async Task HandleEventAsync(object sender, UserConnectEvent @event)
@@ -89,7 +89,7 @@ An event has to implement the `ICancellableEvent` interface to be cancellable. I
 `UserConnectingEvent` is such a cancellable event. It will disconnect the connecting user if the event gets cancelled.
 
 ```c#
-public class UserConnectingListener1 : IEventLister<UserConnectingEvent>
+public class UserConnectingListener1 : IEventListener<UserConnectingEvent>
 {
     [EventListener(Priority = Priority.Lowest)]
     public async Task HandleEventAsync(object sender, UserConnectingEvent @event)
@@ -101,7 +101,7 @@ public class UserConnectingListener1 : IEventLister<UserConnectingEvent>
     }
 }
 
-public class UserConnectingListener2 : IEventLister<UserConnectingEvent>
+public class UserConnectingListener2 : IEventListener<UserConnectingEvent>
 {
     [EventListener(Priority = Priority.Low)]
     public async Task HandleEventAsync(object sender, UserConnectingEvent @event)
@@ -110,7 +110,7 @@ public class UserConnectingListener2 : IEventLister<UserConnectingEvent>
     }
 }
 
-public class UserConnectingListener3 : IEventLister<UserConnectingEvent>
+public class UserConnectingListener3 : IEventListener<UserConnectingEvent>
 {
     [EventListener(Priority = Priority.High, IgnoreCancelled = true)]
     public async Task HandleEventAsync(object sender, UserConnectingEvent @event)
@@ -132,7 +132,7 @@ Event listeners can have three types of lifetime:
 You can set the event listener lifetime by adding the `[EventListenerLifetime(ServiceLifetime)]` attribute:
 ```c#
 [EventListenerLifetime(ServiceLifetime.Transient)]
-public class UserConnectBroadcaster : IEventLister<UserConnectedEvent>
+public class UserConnectBroadcaster : IEventListener<UserConnectedEvent>
 // ...
 ```
 
