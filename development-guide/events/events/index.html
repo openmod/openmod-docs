@@ -809,7 +809,7 @@
 <p>There are two ways to subscribe to events:</p>
 <ol>
 <li>Implement the <code>IEventListener</code> interface:
-<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener</span> <span class="p">:</span> <span class="n">IEventListener</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
 <span class="p">{</span>
 <span class="na">    [EventListener(Priority = Priority.Lowest)]</span>
     <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectEvent</span> <span class="n">@event</span><span class="p">)</span>
@@ -845,7 +845,7 @@
 <p>OpenMod allows you to control in which order your event listeners are executed. Execution order is based on priority. </p>
 <p>You can set an event listeners priority by using the <code>[EventListener]</code> attribute.  <br/>
 Execution order is from lowest priority to highest. In other words, lowest priority is called first.</p>
-<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener1</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener1</span> <span class="p">:</span> <span class="n">IEventListener</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
 <span class="p">{</span>
 <span class="na">    [EventListener(Priority = Priority.Lowest)]</span>
     <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectEvent</span> <span class="n">@event</span><span class="p">)</span>
@@ -854,7 +854,7 @@ Execution order is from lowest priority to highest. In other words, lowest prior
     <span class="p">}</span>
 <span class="p">}</span>
 
-<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener2</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener2</span> <span class="p">:</span> <span class="n">IEventListener</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
 <span class="p">{</span>
 <span class="na">    [EventListener(Priority = Priority.Low)]</span>
     <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectEvent</span> <span class="n">@event</span><span class="p">)</span>
@@ -863,7 +863,7 @@ Execution order is from lowest priority to highest. In other words, lowest prior
     <span class="p">}</span>
 <span class="p">}</span>
 
-<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener3</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectListener3</span> <span class="p">:</span> <span class="n">IEventListener</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
 <span class="p">{</span>
 <span class="na">    [EventListener(Priority = Priority.High)]</span>
     <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectEvent</span> <span class="n">@event</span><span class="p">)</span>
@@ -876,7 +876,7 @@ Execution order is from lowest priority to highest. In other words, lowest prior
 <h2 id="cancelling-events-and-ignoring-cancelled-events">Cancelling events and ignoring cancelled events<a class="headerlink" href="#cancelling-events-and-ignoring-cancelled-events" title="Permanent link">¶</a></h2>
 <p>An event has to implement the <code>ICancellableEvent</code> interface to be cancellable. If an event gets cancelled, event listeners which do not have the <code>IgnoreCancelled</code> property in the <code>[EventListener]</code> attribute set to true will not be notified. </p>
 <p><code>UserConnectingEvent</code> is such a cancellable event. It will disconnect the connecting user if the event gets cancelled.</p>
-<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectingListener1</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectingEvent</span><span class="p">&gt;</span>
+<div class="highlight"><pre><span></span><code><span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectingListener1</span> <span class="p">:</span> <span class="n">IEventListener</span><span class="p">&lt;</span><span class="n">UserConnectingEvent</span><span class="p">&gt;</span>
 <span class="p">{</span>
 <span class="na">    [EventListener(Priority = Priority.Lowest)]</span>
     <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectingEvent</span> <span class="n">@event</span><span class="p">)</span>
@@ -888,7 +888,7 @@ Execution order is from lowest priority to highest. In other words, lowest prior
     <span class="p">}</span>
 <span class="p">}</span>
 
-<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectingListener2</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectingEvent</span><span class="p">&gt;</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectingListener2</span> <span class="p">:</span> <span class="n">IEventListener</span><span class="p">&lt;</span><span class="n">UserConnectingEvent</span><span class="p">&gt;</span>
 <span class="p">{</span>
 <span class="na">    [EventListener(Priority = Priority.Low)]</span>
     <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectingEvent</span> <span class="n">@event</span><span class="p">)</span>
@@ -897,7 +897,7 @@ Execution order is from lowest priority to highest. In other words, lowest prior
     <span class="p">}</span>
 <span class="p">}</span>
 
-<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectingListener3</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectingEvent</span><span class="p">&gt;</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectingListener3</span> <span class="p">:</span> <span class="n">IEventListener</span><span class="p">&lt;</span><span class="n">UserConnectingEvent</span><span class="p">&gt;</span>
 <span class="p">{</span>
 <span class="na">    [EventListener(Priority = Priority.High, IgnoreCancelled = true)]</span>
     <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">HandleEventAsync</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">UserConnectingEvent</span> <span class="n">@event</span><span class="p">)</span>
@@ -916,7 +916,7 @@ Execution order is from lowest priority to highest. In other words, lowest prior
 </ul>
 <p>You can set the event listener lifetime by adding the <code>[EventListenerLifetime(ServiceLifetime)]</code> attribute:
 <div class="highlight"><pre><span></span><code><span class="na">[EventListenerLifetime(ServiceLifetime.Transient)]</span>
-<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectBroadcaster</span> <span class="p">:</span> <span class="n">IEventLister</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UserConnectBroadcaster</span> <span class="p">:</span> <span class="n">IEventListener</span><span class="p">&lt;</span><span class="n">UserConnectedEvent</span><span class="p">&gt;</span>
 <span class="c1">// ...</span>
 </code></pre></div></p>
 <h2 id="custom-events">Custom events<a class="headerlink" href="#custom-events" title="Permanent link">¶</a></h2>
