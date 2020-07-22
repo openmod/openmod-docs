@@ -77,6 +77,15 @@ public class CommandAwesome : Command
 //...
 ```
 
+If you need to check if all parameters are given by the player and send a message for Correct Usage there is a UserFriendlyException for this:
+```c#
+    // assume we want the command to be called like this: /awesome <player> <amount>
+    if (Context.Parameters.Length != 2) {
+        throw new CommandWrongUsageException(Context); 
+        // If the parameters are not correctly inputted it would output to the user "Correct Usage: v <id/name>", this can be changed in the openmod.translations.yaml file.
+    }
+```
+
 ## Restricting Command Actors
 If you are not developing universal plugins, you may want to limit who can execute commands.  
 The `[CommandActor(Type)]` attribute allows you to specify such restrictions.
