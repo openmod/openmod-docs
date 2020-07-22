@@ -31,9 +31,9 @@ roles:
   priority: 1
   parents:
   - default
+  permissions:
   - home
   - tp  
-  permissions:
   - kit.vip
   data: {}
 ```
