@@ -27,7 +27,7 @@ If you want to run a Task periodically, all you have to do is to surround your t
 ```c#
 public async Task MyPeriodicTask(IOpenModPlugin myPlugin)
 {
-    while(myPlugin.IsAlive) // ensure this task runs only as long as the plugin is loaded 
+    while(myPlugin.IsComponentAlive) // ensure this task runs only as long as the plugin is loaded 
     {
         m_Logger.LogInformation("Waiting 5 seconds...");
         await Task.Delay(TimeSpan.FromSeconds(5));
@@ -52,7 +52,7 @@ public async UniTask MyUpdateTask(IOpenModPlugin myPlugin)
 {
     await UniTask.SwitchToMainThread(); // ensure this runs on main thread first.
     int i = 0;
-    while(myPlugin.IsAlive) // ensure this task runs only as long as the plugin is loaded 
+    while(myPlugin.IsComponentAlive) // ensure this task runs only as long as the plugin is loaded 
     {
         await UniTask.DelayFrame(1, PlayerLoopTiming.Update);
         m_Logger.LogInformation($"Frame update: {++i}");
