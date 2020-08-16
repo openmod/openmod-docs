@@ -1,5 +1,5 @@
 # Permissions
-Permissions allow defining which actions a user is permitted to execute and which he is not.
+Permissions allow defining which actions a user is permitted to execute and which they are not.
 
 You can use the `IPermissionChecker` service to check if a user has specific permissions:
 
