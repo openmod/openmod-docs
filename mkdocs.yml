@@ -11,7 +11,7 @@ pages:
     - User Guide:
         - Installation:
             - Installing OpenMod for Unturned: user-guide/installation/unturned.md
-            - Managing Auto Updates: user-guide/installation/auto-updates.md
+            - Enabling Auto Updates: user-guide/installation/auto-updates.md
         - Migration:
             - Migrating from RocketMod: user-guide/migration/rocketmod.md         
         - Plugins: 
