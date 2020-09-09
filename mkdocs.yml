@@ -31,6 +31,7 @@ pages:
             - Events and event listeners: development-guide/events/events.md
             - Built-in events: development-guide/events/builtin-events.md
             - Game events: development-guide/events/game-events.md
+            - Unturned events: development-guide/events/unturned-events.md
         - Logging: development-guide/logging.md
         - Permissions: development-guide/permissions.md
         - Data Store: development-guide/datastore.md
