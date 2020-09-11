@@ -629,6 +629,76 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#clothing" class="md-nav__link">
+    Clothing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connections" class="md-nav__link">
+    Connections
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crafting" class="md-nav__link">
+    Crafting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equipment" class="md-nav__link">
+    Equipment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inventory" class="md-nav__link">
+    Inventory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#life" class="md-nav__link">
+    Life
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#movement" class="md-nav__link">
+    Movement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skills" class="md-nav__link">
+    Skills
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stats" class="md-nav__link">
+    Stats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#useables" class="md-nav__link">
+    Useables
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -761,6 +831,76 @@
           <li class="md-nav__item">
   <a href="#chat" class="md-nav__link">
     Chat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clothing" class="md-nav__link">
+    Clothing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connections" class="md-nav__link">
+    Connections
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crafting" class="md-nav__link">
+    Crafting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equipment" class="md-nav__link">
+    Equipment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inventory" class="md-nav__link">
+    Inventory
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#life" class="md-nav__link">
+    Life
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#movement" class="md-nav__link">
+    Movement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skills" class="md-nav__link">
+    Skills
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stats" class="md-nav__link">
+    Stats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#useables" class="md-nav__link">
+    Useables
   </a>
   
 </li>
@@ -978,7 +1118,7 @@
 </table>
 <h2 id="player-events">Player Events<a class="headerlink" href="#player-events" title="Permanent link">¶</a></h2>
 <h3 id="bans">Bans<a class="headerlink" href="#bans" title="Permanent link">¶</a></h3>
-<p>These events are stored within the <code>OpenMod.Unturned.Players.Events.Bans</code> namespace.</p>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Bans.Events</code> namespace.</p>
 <table>
 <thead>
 <tr>
@@ -1016,7 +1156,7 @@
 </tbody>
 </table>
 <h3 id="chat">Chat<a class="headerlink" href="#chat" title="Permanent link">¶</a></h3>
-<p>These events are stored within the <code>OpenMod.Unturned.Players.Events.Chat</code> namespace.</p>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Chat.Events</code> namespace.</p>
 <table>
 <thead>
 <tr>
@@ -1035,6 +1175,351 @@
 <td>UnturnedServerSendingMessageEvent</td>
 <td>Before the server displays a chat message to a player</td>
 <td>No, but there modifiable fields</td>
+</tr>
+</tbody>
+</table>
+<h3 id="clothing">Clothing<a class="headerlink" href="#clothing" title="Permanent link">¶</a></h3>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Clothing.Events</code> namespace.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Fired when</strong></th>
+<th><strong>Cancellable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnturnedPlayerClothingEquippingEvent</td>
+<td>Before any piece of clothing is equipped</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>UnturnedPlayerClothingEquippedEvent</td>
+<td>After any piece of clothing is equipped</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerClothingUnequippingEvent</td>
+<td>Before any piece of clothing is unequipped</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>UnturnedPlayerClothingUnequippedEvent</td>
+<td>After any piece of clothing is unequipped</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="connections">Connections<a class="headerlink" href="#connections" title="Permanent link">¶</a></h3>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Connections.Events</code> namespace.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Fired when</strong></th>
+<th><strong>Cancellable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnturnedPlayerConnectedEvent</td>
+<td>After a player connects</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerDisconnectedEvent</td>
+<td>After a player disconnects</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="crafting">Crafting<a class="headerlink" href="#crafting" title="Permanent link">¶</a></h3>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Crafting.Events</code> namespace.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Fired when</strong></th>
+<th><strong>Cancellable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnturnedPlayerCraftingEvent</td>
+<td>Before a player crafts</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="equipment">Equipment<a class="headerlink" href="#equipment" title="Permanent link">¶</a></h3>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Equipment.Events</code> namespace.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Fired when</strong></th>
+<th><strong>Cancellable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnturnedPlayerItemEquippingEvent</td>
+<td>Before a player equips anything</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>UnturnedPlayerItemEquippedEvent</td>
+<td>After a player equips anything</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerItemUnequippingEvent</td>
+<td>Before a player unequips anything</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>UnturnedPlayerItemUnequippedEvent</td>
+<td>After a player unequips anything</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="inventory">Inventory<a class="headerlink" href="#inventory" title="Permanent link">¶</a></h3>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Inventory.Events</code> namespace.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Fired when</strong></th>
+<th><strong>Cancellable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnturnedPlayerOpenedStorageEvent</td>
+<td>After a player opens a storage</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerClosedStorageEvent</td>
+<td>After a player closes a storage</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerTakingItemEvent</td>
+<td>Before a player takes an item from the ground</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>UnturnedPlayerDroppedItemEvent</td>
+<td>After a player drops an item</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerInventoryResizedEvent</td>
+<td>After a player's inventory is resized</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerInventoryUpdatedEvent</td>
+<td>After a player's inventory updates</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerItemAddedEvent</td>
+<td>After an item is added to a player's inventory</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerItemRemovedEvent</td>
+<td>After an item is removed from a player's inventory</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerItemUpdatedEvent</td>
+<td>After an item is updated in a player's inventory</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="life">Life<a class="headerlink" href="#life" title="Permanent link">¶</a></h3>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Life.Events</code> namespace.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Fired when</strong></th>
+<th><strong>Cancellable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnturnedPlayerDamagingEvent</td>
+<td>Before a player is damaged</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>UnturnedPlayerDamagedEvent</td>
+<td>After a player is damaged</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerDyingEvent</td>
+<td>Before a player takes a fatal amount of damage</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>UnturnedPlayerDeadEvent</td>
+<td>After a player dies</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerSpawnedEvent</td>
+<td>After a player spawns (connects or is revived)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerRevivedEvent</td>
+<td>After a player is revived</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="movement">Movement<a class="headerlink" href="#movement" title="Permanent link">¶</a></h3>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Movement.Events</code> namespace.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Fired when</strong></th>
+<th><strong>Cancellable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnturnedPlayerGestureUpdatedEvent</td>
+<td>After a player's gesture updates</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerStanceUpdatedEvent</td>
+<td>After a player's stance updates</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerTeleportingEvent</td>
+<td>Before a player teleports</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="skills">Skills<a class="headerlink" href="#skills" title="Permanent link">¶</a></h3>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Skills.Events</code> namespace.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Fired when</strong></th>
+<th><strong>Cancellable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnturnedPlayerExperienceUpdatedEvent</td>
+<td>After a player's experience updates</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="stats">Stats<a class="headerlink" href="#stats" title="Permanent link">¶</a></h3>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Stats.Events</code> namespace.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Fired when</strong></th>
+<th><strong>Cancellable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnturnedPlayerStatUpdatedEvent</td>
+<td>After any of a player's stat is updated</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerBleedingUpdatedEvent</td>
+<td>After a player's bleeding stat is updated</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerBrokenUpdatedEvent</td>
+<td>After a player's broken stat is updated</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerFoodUpdatedEvent</td>
+<td>After a player's food stat is updated</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerHealthUpdatedEvent</td>
+<td>After a player's health stat is updated</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerLifeUpdatedEvent</td>
+<td>After a player's living state is updated</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerOxygenUpdatedEvent</td>
+<td>After a player's oxygen stat is updated</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerStaminaUpdatedEvent</td>
+<td>After a player's stamina is updated</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerTemperatureUpdatedEvent</td>
+<td>After a player's temperature stat is updated</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerVirusUpdatedEvent</td>
+<td>After a player's virus stat is updated</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerVisionUpdatedEvent</td>
+<td>After a player's vision is updated</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerWaterUpdatedEvent</td>
+<td>After a player's water stat is updated</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="useables">Useables<a class="headerlink" href="#useables" title="Permanent link">¶</a></h3>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Useables.Events</code> namespace.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Fired when</strong></th>
+<th><strong>Cancellable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnturnedPlayerPerformingAidEvent</td>
+<td>Before a player performs aid on another player</td>
+<td>Yes</td>
 </tr>
 </tbody>
 </table>
