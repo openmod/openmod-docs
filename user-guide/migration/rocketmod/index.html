@@ -1,6 +1,7 @@
 
 
 
+
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
@@ -15,7 +16,7 @@
       
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.13">
     
     
       
@@ -23,9 +24,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.4dd2dd8d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.077507d7.min.css">
       
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.6a5ad368.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ff0a5ce4.min.css">
       
       
         
@@ -768,8 +769,13 @@ For example, to install RocketMod plugins just add the dll files to your <code>R
 <li>OpenMod commands will always override RocketMod commands when a conflict occurs.</li>
 </ul>
 <h2 id="linking-rocketmod-to-openmod-permissions">Linking RocketMod to OpenMod Permissions<a class="headerlink" href="#linking-rocketmod-to-openmod-permissions" title="Permanent link">¶</a></h2>
-<p>By default, the OpenMod RocketMod Bridge will use RocketMod's Permissions.xml when handling permissions for RocketMod plugins. This might be a problem as you would have to maintain two different permission systems. The RocketMod Permission Link plugin solves this issue by forcing RocketMod to use OpenMod's permission system. Keep in mind that it may not be compatible with other permissions plugins for RocketMod.</p>
-<p>To install the RocketMod Permission Link plugin, run <code>openmod install OpenMod.Rocket.PermissionLink</code> and then reload or restart.</p>
+<p>By default, the OpenMod RocketMod Bridge will use RocketMod's own Permissions.config.xml when handling permissions for RocketMod plugins. This might be a problem as you would have to maintain two different permission systems. The Rocket.PermissionLink plugin solves this issue by forcing RocketMod to use OpenMod's permission system. This will not work if you use alternative RocketMod permissions plugins (e.g. such as Advanced Permissions).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When adding RocketMod permissions to OpenMod roles or players, you need to prefix them with <code>Rocket.PermissionLink:</code>.
+E.g. if the permission you want to add is <code>balance</code> you need to add it as "Rocket.PermissionLink:balance".</p>
+</div>
+<p>To install the RocketMod.PermissionLink plugin, run <code>openmod install OpenMod.Rocket.PermissionLink</code> and then reload or restart.</p>
 <h2 id="differences-between-the-openmod-rocketmod-bridge-and-rocketmod">Differences between the OpenMod RocketMod Bridge and RocketMod<a class="headerlink" href="#differences-between-the-openmod-rocketmod-bridge-and-rocketmod" title="Permanent link">¶</a></h2>
 <ul>
 <li>The OpenMod RocketMod Bridge is based on a patched version of the <a href="https://github.com/SmartlyDressedGames/Legally-Distinct-Missile">LDM RocketMod fork</a>, it is not a reimplementation of the RocketMod API. This will ensure compatibility with most RocketMod plugins, including those which access private RocketMod fields via reflection.</li>
@@ -844,8 +850,8 @@ For example, to install RocketMod plugins just add the dll files to your <code>R
       
     </div>
     
-      <script src="../../../assets/javascripts/vendor.3636a4ec.min.js"></script>
-      <script src="../../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../../assets/javascripts/vendor.2d1db4bd.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.6627ddf3.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
