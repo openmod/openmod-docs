@@ -7,12 +7,11 @@ You will need a Microsoft account for [nuget.org](https://www.nuget.org/).
 ```xml
 <PropertyGroup>
   <PackageId>Your PackageId</PackageId> <!-- must be unique, should be same as your plugin ID -->
-  <PackageDescription>Your plugin description</PackageDescription>
+  <Description>Your plugin description</Description>
   <PackageLicenseExpression>Your License</PackageLicenseExpression> <!-- see https://spdx.org/licenses/ -->
-  <PackageAuthor>Your name</PackageAuthor>
+  <Authors>Your name</Authors>
   <PackageTags>openmod openmod-plugin XXX</PackageTags> <!-- XXX can be unturned, unityengine or universal depending on your plugin -->
   <Version>x.x.x</Version> <!-- Your plugins version. Must be semversion, see https://semver.org/ -->
-  <AssemblyVersion>x.x.x</AssemblyVersion> <!-- set same as package version, required for dynamicalliy updating your plugin -->
   <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   <GenerateNugetPackage>true</GenerateNugetPackage>  
 </PropertyGroup>
@@ -70,7 +69,7 @@ For a full reference, please read the [semantic versioning website](https://semv
 
 ## Publish with a GitHub workflow
 You can use GitHub workflows to publish to NuGet with one click.  
-Create the following file in your repository's `.github/workflow` folder.
+Create the following file in your repository's `.github/workflows` folder.
 
 The following assumes that your plugins source code is in the `YOURPLUGIN` folder under your repositories root directory.
 
