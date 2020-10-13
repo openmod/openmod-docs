@@ -16,7 +16,7 @@ public class PlayersData
 public class MyPlugin : OpenModUniversalPlugin
 {
     // Defines the key for the data. The default data store uses the key as the file name for the yaml file.
-    // In this case, the file will be named owners.data.yaml
+    // In this case, the file will be named owners.yaml
     public const string OwnersKey = "owners";
     private readonly IDataStore m_DataStore;
     
