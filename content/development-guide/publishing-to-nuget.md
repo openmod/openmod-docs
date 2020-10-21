@@ -70,7 +70,7 @@ For a full reference, please read the [semantic versioning website](https://semv
 
 ## Publish with a GitHub workflow
 You can use GitHub workflows to publish to NuGet with one click.  
-Create the following file in your repository's `.github/workflow` folder.
+Create the following file in your repository's `.github/workflows` folder.
 
 The following assumes that your plugins source code is in the `YOURPLUGIN` folder under your repositories root directory.
 

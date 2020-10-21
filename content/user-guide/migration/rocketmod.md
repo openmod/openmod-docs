@@ -10,7 +10,7 @@ To use RocketMod plugins, follow these steps:
 
 ## Using the OpenMod RocketMod Bridge
 You can use the OpenMod RocketMod Bridge exactly like the RocketMod module.  
-For example, to install RocketMod plugins just add the dll files to your `Rocket/Plugins` folder inside your server's folder and restart or reload RocketMod: `rocketmod reload`.
+For example, to install RocketMod plugins just add the dll files to your `Rocket/Plugins` folder inside your server's folder and restart your server.
 
 ## Caveats
 - RocketMod plugins are *not* converted to OpenMod plugins, so you can not manage them from OpenMod.
