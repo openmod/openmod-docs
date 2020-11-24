@@ -21,8 +21,8 @@ public class UserConnectBroadcaster : IEventListener<UserConnectedEvent>
     public async Task HandleEventAsync(object sender, UserConnectedEvent @event)
     {
         var user = @event.User;
-
-        if(m_PermissionChecker.CheckPermissionAsync(user, "announce.join") == PermissionGrantResult.Grant)
+        
+        if(await m_PermissionChecker.CheckPermissionAsync(user, "announce.join") == PermissionGrantResult.Grant)
         {
             await m_UserManager.BroadcastAsync(user.Type, $"{user.DisplayName} has joined.");
         }
