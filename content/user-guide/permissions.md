@@ -102,7 +102,7 @@ In that case, we can negate the permission by adding it prefixed with a "!":
     You can also add and remove permissions with the `permission` command: `permission add role megavip !kit.vip`
 
 ## User permissions and user roles
-You can assign users to roles via the `permissionrole add player <player> <role>` command, e.g. `permissionrole add player Trojaner megavip`. The same way, you can remove users from a role with ``permissionrole remove player <player> <role>`
+You can assign users to roles via the `permissionrole add player <player> <role>` command, e.g. `permissionrole add player Trojaner megavip`. The same way, you can remove users from a role with `permissionrole remove player <player> <role>`
 
 Users can also have permissions directly attached to them: `permission add player Trojaner kit.vip`. User permissions always override any conflicting role permissions. Use `permission remove` to remove the permission again.
 
