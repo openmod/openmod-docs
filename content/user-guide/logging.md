@@ -24,8 +24,8 @@ Serilog:
       configure:
       - Name: MariaDB
         Args:
-          connectionString: "server=...", # See https://www.connectionstrings.com/mysql/
-          tableName: "logs",
+          connectionString: "server=..." # See https://www.connectionstrings.com/mysql/
+          tableName: "logs"
           autoCreateTable: true
       - Name: Console
         Args:
