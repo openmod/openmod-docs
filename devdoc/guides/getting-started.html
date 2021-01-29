@@ -173,8 +173,8 @@ public class CommandEcho : Command
 <h2 id="best-practices">Best Practices</h2>
 <div class="CAUTION">
 <h5>Caution</h5>
-<p><strong>Do not</strong> use static plugin instances, instead always pass instances by reference. OpenMod dynamically creates and destroys your plugin instances, which would result in wrong instances being used after reloads.
-Here is a bad example:</p>
+<p><strong>Do not</strong> use static plugin instances, instead always pass instances by reference. OpenMod dynamically creates and destroys your plugin instances, which would result in wrong instances being used after reloads.</p>
+<p>Here is a bad example:</p>
 <pre><code class="lang-c#">public static MyPlugin Instance { get; set; }
 public class MyCommand : Command
 {

@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>OpenMod Permission System | OpenMod Docs </title>
+    <title>OpenMod permissions | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="OpenMod Permission System | OpenMod Docs ">
+    <meta name="title" content="OpenMod permissions | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -91,7 +91,7 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="openmod-permission-system">OpenMod Permission System</h1>
+<h1 id="openmod-permissions">OpenMod permissions</h1>
 
 <p>OpenMod has a simple role-based permission system. Permissions define which actions a user can execute and which they cannot.</p>
 <p>You can manage permissions by editing the openmod.roles.yaml file inside the OpenMod directory or by using the <code>permission</code> and <code>permissionrole</code> commands. You can use the <code>help permission</code> and <code>help permissionrole</code> commands for more information.</p>
@@ -99,7 +99,7 @@
 <h5>Note</h5>
 <p>Changes to the openmod.roles.yaml file are applied instantly. Reloading is not necessary.</p>
 </div>
-<h2 id="permission-roles">Permission Roles</h2>
+<h2 id="permission-roles">Permission roles</h2>
 <p>Roles are basically a group of permissions and other attributes. If you assign a role to a user, they will automatically inherit all permissions of the role. You can also add parent roles to a role for inheriting permissions.</p>
 <p>A role has the following attributes:</p>
 <ul>
@@ -110,9 +110,9 @@
 <li><strong>Data</strong>: Data that can be attached to the role by plugins.</li>
 <li><strong>Priority</strong>: In case of conflicting permissions, this attribute will define which role gets preferred.</li>
 </ul>
-<h2 id="permission-syntax">Permission Syntax</h2>
+<h2 id="permission-syntax">Permission syntax</h2>
 <p>Permissions are always made up of two components: PluginId and Permission. If the plugin ID is Kr4ken.NewEssentials and the permission is commands.home, the full form of the permission we would assign would be Kr4ken.NewEssentials:commands.home.</p>
-<h3 id="creating-roles">Creating Roles</h3>
+<h3 id="creating-roles">Creating roles</h3>
 <p>To create a new role, open the <code>openmod.roles.yaml</code> file. You will see something similar to this:</p>
 <pre><code class="lang-yaml">roles:
 - id: default
@@ -161,9 +161,9 @@
   - Kr4ken.NewEssentials:kits.megavip
   data: {}  
 </code></pre>
-<h3 id="removing-roles">Removing Roles</h3>
+<h3 id="removing-roles">Removing roles</h3>
 <p>To remove a role, remove from the <code>openmod.roles.yaml</code> file or comment it out.</p>
-<h3 id="managing-role-permissions">Managing Role Permissions</h3>
+<h3 id="managing-role-permissions">Managing role permissions</h3>
 <p>From the earlier example, the megavip role has the following permissions:</p>
 <ul>
 <li>OpenMod.Core:commands.help (inherited from default, which is a parent of vip)</li>
@@ -188,7 +188,7 @@ In that case, we can negate the permission by adding it prefixed with a &quot;!&
 <h5>Note</h5>
 <p>You can also add and remove permissions with the <code>permission</code> command: <code>permission add role megavip !Kr4ken.NewEssentials:kit.vip</code></p>
 </div>
-<h2 id="user-permissions-and-assigning-roles">User Permissions and Assigning Roles</h2>
+<h2 id="user-permissions-and-assigning-roles">User permissions and assigning roles</h2>
 <p>You can assign roles to users by using the <code>permissionrole add player &lt;player&gt; &lt;role&gt;</code> command, e.g. <code>permissionrole add player Trojaner megavip</code>. Similarly, you can remove users from a role by typing <code>permissionrole remove player &lt;player&gt; &lt;role&gt;</code></p>
 <p>Permissions can be directly attached to users: <code>permission add player Trojaner Kr4ken.NewEssentials:kits.vip</code>. User permissions always override any conflicting role permissions. You can use <code>permission remove Trojaner Kr4ken.NewEssentials:kits.vip</code> to remove the permission again.</p>
 <h2 id="wildcards">Wildcards</h2>
@@ -208,7 +208,7 @@ In that case, we can negate the permission by adding it prefixed with a &quot;!&
 <h5>Note</h5>
 <p>Just adding the TeleportPlugin:teleport permission will <strong>not</strong> grant the child permissions like TeleportPlugin:teleport.bring.</p>
 </div>
-<h2 id="finding-command-permissions">Finding Command Permissions</h2>
+<h2 id="finding-command-permissions">Finding command permissions</h2>
 <p>If you do not know what permission a command requires, you can use <code>help &lt;command&gt;</code> to find it. Permissions for child commands are not granted automatically and must be given either by using wildcards on the parent command permission or by specifying them directly.</p>
 <p>You can also look up permissions by checking out the help.md file generated in each plugins folder.</p>
 </article>

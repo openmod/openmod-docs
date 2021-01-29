@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>OpenMod Plugins | OpenMod Docs </title>
+    <title>OpenMod plugins | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="OpenMod Plugins | OpenMod Docs ">
+    <meta name="title" content="OpenMod plugins | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -91,12 +91,12 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="openmod-plugins">OpenMod Plugins</h1>
+<h1 id="openmod-plugins">OpenMod plugins</h1>
 
 <p>Plugins add new functionality to your server. OpenMod provides commands to download, install, update, and remove plugins at runtime.</p>
-<h2 id="finding-plugins">Finding Plugins</h2>
+<h2 id="finding-plugins">Finding plugins</h2>
 <p>You can find a list of plugins at <a href="https://github.com/openmod/openmod-plugins">the openmod-plugins repository</a> or on <a href="https://www.nuget.org/packages?q=openmod-plugin">nuget.org</a>.</p>
-<h2 id="installing-and-updating-plugins">Installing and Updating Plugins</h2>
+<h2 id="installing-and-updating-plugins">Installing and updating plugins</h2>
 <p>There are two ways to install plugins:</p>
 <p>Option 1: <strong>Installing plugins from NuGet</strong>. You can install plugins from NuGet using the <code>openmod install &lt;package id&gt;</code> command, e.g. <code>openmod install Kr4ken.NewEssentials</code>. To install specific versions, use <code>openmod install &lt;package id&gt;@&lt;version&gt;</code>. If you want to enable installation of pre-release versions, add the <code>-Pre</code> option: <code>openmod install &lt;package id&gt; -Pre</code>. To update plugins, run <code>openmod install &lt;package id&gt;</code> again.</p>
 <p>Option 2: <strong>Installing plugins manually</strong>. You can install plugins manually by moving the plugin dll file and all libraries of the plugin to the <code>openmod/plugins</code> folder. You can also install libraries with <code>openmod install &lt;package id&gt;</code> instead. To update plugins replace the .dll file with the newer one.</p>
@@ -104,7 +104,7 @@
 <h5>Note</h5>
 <p>Youu must reload OpenMod with <code>openmod reload</code> to apply changes after installing or updating plugins.</p>
 </div>
-<h2 id="removing-plugins">Removing Plugins</h2>
+<h2 id="removing-plugins">Removing plugins</h2>
 <p>To remove  plugins which have been installed using <code>openmod install</code>, use <code>openmod remove &lt;package id&gt;</code>. If you installed the plugin manually instead, delete the .dll file.</p>
 <div class="NOTE">
 <h5>Note</h5>

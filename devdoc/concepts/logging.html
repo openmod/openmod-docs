@@ -110,7 +110,7 @@
 <p>The generic part (<code>T</code> in <code>ILogger&lt;T&gt;</code>) must be the class that is using the logger.</p>
 <h2 id="implementing-your-own-logger">Implementing your own logger</h2>
 <p>To implement your own logger, you must implement the <code>ILoggerFactory</code> and <code>ILogger&lt;&gt;</code> services.<br>
-After that you must register them via a <a href="../services/#registering-your-own-services">ServiceConfigurator</a>:</p>
+After that you must register them via a <a href="services.html">ServiceConfigurator</a>:</p>
 <pre><code class="lang-c#">public class ServiceConfigurator : IServiceConfigurator
 {
     public void ConfigureServices(IOpenModStartupContext openModStartupContext, IServiceCollection serviceCollection)
