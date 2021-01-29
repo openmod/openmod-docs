@@ -1,0 +1,561 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ICommandRegistration
+   | OpenMod Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ICommandRegistration
+   | OpenMod Docs ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+    <link rel="stylesheet" href="../styles/colors.css">
+    <link rel="stylesheet" href="../styles/discord.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+
+  <body>
+        <div class="top-navbar">
+
+            <a href="javascript:void(0);" class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="24" height="24" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+            
+            <a class="brand" href="../index.html">
+              <img src="../logo.png" alt="OpenMod Docs" class="logomark">
+              <span class="brand-title">OpenMod Docs</span>
+            </a>
+        </div>
+
+        <div class="body-content">
+
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+
+                <div class="sidebar">
+                    
+                    
+                    
+                    
+                    <div>
+                      
+                      <a class="brand" href="../index.html">
+                        <img src="../logo.png" alt="OpenMod Docs" class="logomark">
+                        <span class="brand-title">OpenMod Docs</span>
+                      </a>
+                      <div id="navbar">
+                    
+                      </div>
+                    
+                    </div>
+
+
+                    <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+
+                </div>
+
+                <div class="footer">
+                  OpenMod .NET Plugin Framework.
+                  
+                </div>
+            </nav>
+
+            <main class="main-panel">
+
+                <div role="main" class="hide-when-search">
+
+                        
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="OpenMod.API.Commands.ICommandRegistration">
+  
+  
+  <h1 id="OpenMod_API_Commands_ICommandRegistration" data-uid="OpenMod.API.Commands.ICommandRegistration" class="text-break">Interface ICommandRegistration
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a registered command.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.API.Commands.html">OpenMod.API.Commands</a></h6>
+  <h6><strong>Assembly</strong>: OpenMod.API.dll</h6>
+  <h5 id="OpenMod_API_Commands_ICommandRegistration_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ICommandRegistration</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_Aliases.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.Aliases%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L38">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_Aliases_" data-uid="OpenMod.API.Commands.ICommandRegistration.Aliases*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_Aliases" data-uid="OpenMod.API.Commands.ICommandRegistration.Aliases">Aliases</h4>
+  <div class="markdown level1 summary"><p>Gets the aliases of the command, which are often shorter versions of the primary name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyCollection&lt;string&gt;? Aliases { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IReadOnlyCollection</span>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="OpenMod_API_Commands_ICommandRegistration_Aliases_examples">Examples</h5>
+  <p>If the aliases are &quot;h&quot; and &quot;he&quot;, the command can be executed using &quot;/h&quot; or &quot;/he&quot;.</p>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_Component.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.Component%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L16">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_Component_" data-uid="OpenMod.API.Commands.ICommandRegistration.Component*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_Component" data-uid="OpenMod.API.Commands.ICommandRegistration.Component">Component</h4>
+  <div class="markdown level1 summary"><p>Gets the owner component of the command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IOpenModComponent Component { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.IOpenModComponent.html">IOpenModComponent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_Description.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.Description%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L48">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_Description_" data-uid="OpenMod.API.Commands.ICommandRegistration.Description*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_Description" data-uid="OpenMod.API.Commands.ICommandRegistration.Description">Description</h4>
+  <div class="markdown level1 summary"><p>Gets the description of the command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string? Description { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_Id.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L21">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_Id_" data-uid="OpenMod.API.Commands.ICommandRegistration.Id*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_Id" data-uid="OpenMod.API.Commands.ICommandRegistration.Id">Id</h4>
+  <div class="markdown level1 summary"><p>Gets the unique ID of the command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_IsEnabled.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.IsEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L79">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_IsEnabled_" data-uid="OpenMod.API.Commands.ICommandRegistration.IsEnabled*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_IsEnabled" data-uid="OpenMod.API.Commands.ICommandRegistration.IsEnabled">IsEnabled</h4>
+  <div class="markdown level1 summary"><p><strong>True</strong> if the command is enabled; otherwise, <strong>false</strong>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_Name.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L30">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_Name_" data-uid="OpenMod.API.Commands.ICommandRegistration.Name*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_Name" data-uid="OpenMod.API.Commands.ICommandRegistration.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Gets the primary name of the command, which will be used to execute it.</p>
+<p>The primary name overrides any <a class="xref" href="OpenMod.API.Commands.ICommandRegistration.html#OpenMod_API_Commands_ICommandRegistration_Aliases">Aliases</a> of other commands by default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="OpenMod_API_Commands_ICommandRegistration_Name_examples">Examples</h5>
+  <p>If the name is &quot;heal&quot;, the command will be usually be called using &quot;/heal&quot; (or just &quot;heal&quot; in console)</p>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_ParentId.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.ParentId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L74">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_ParentId_" data-uid="OpenMod.API.Commands.ICommandRegistration.ParentId*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_ParentId" data-uid="OpenMod.API.Commands.ICommandRegistration.ParentId">ParentId</h4>
+  <div class="markdown level1 summary"><p>Gets the ID of the parent command. Returns if the command does not have a parent command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string? ParentId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_PermissionRegistrations.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.PermissionRegistrations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L43">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_PermissionRegistrations_" data-uid="OpenMod.API.Commands.ICommandRegistration.PermissionRegistrations*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_PermissionRegistrations" data-uid="OpenMod.API.Commands.ICommandRegistration.PermissionRegistrations">PermissionRegistrations</h4>
+  <div class="markdown level1 summary"><p>The permission registrations for this command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyCollection&lt;IPermissionRegistration&gt;? PermissionRegistrations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">IReadOnlyCollection</span>&lt;<a class="xref" href="OpenMod.API.Permissions.IPermissionRegistration.html">IPermissionRegistration</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_Priority.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.Priority%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L69">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_Priority_" data-uid="OpenMod.API.Commands.ICommandRegistration.Priority*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_Priority" data-uid="OpenMod.API.Commands.ICommandRegistration.Priority">Priority</h4>
+  <div class="markdown level1 summary"><p>Gets the priority for this command. Used in case of conflicting commands for determining which command to execute.
+The command with higher priority will be preferred.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Priority Priority { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Prioritization.Priority.html">Priority</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_Syntax.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.Syntax%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L63">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_Syntax_" data-uid="OpenMod.API.Commands.ICommandRegistration.Syntax*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_Syntax" data-uid="OpenMod.API.Commands.ICommandRegistration.Syntax">Syntax</h4>
+  <div class="markdown level1 summary"><p>Gets the command syntax will be shown to the actor when the command was not used correctly.</p>
+<p>An output for the above example could be &quot;/heal [player] &lt;amount>&quot;.</p>
+<p>The syntax should not contain Child Command usage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string? Syntax { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="OpenMod_API_Commands_ICommandRegistration_Syntax_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>[...] means optional argument and &lt;...&gt; means required argument, so in this case &quot;player&quot; is an optional
+argument while &quot;amount&quot; is a required one.</p>
+</div>
+  <h5 id="OpenMod_API_Commands_ICommandRegistration_Syntax_examples">Examples</h5>
+  <p><code>&quot;[player] &lt;amount&gt;&quot;</code></p>
+
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_Instantiate_IServiceProvider_.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.Instantiate(IServiceProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L92">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_Instantiate_" data-uid="OpenMod.API.Commands.ICommandRegistration.Instantiate*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_Instantiate_IServiceProvider_" data-uid="OpenMod.API.Commands.ICommandRegistration.Instantiate(IServiceProvider)">Instantiate(IServiceProvider)</h4>
+  <div class="markdown level1 summary"><p>Instantiates a new command instance for execution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommand Instantiate(IServiceProvider serviceProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceProvider</span></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td><p>The service provider of the command scope.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Commands.ICommand.html">ICommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Commands_ICommandRegistration_SupportsActor_OpenMod_API_Commands_ICommandActor_.md&amp;value=---%0Auid%3A%20OpenMod.API.Commands.ICommandRegistration.SupportsActor(OpenMod.API.Commands.ICommandActor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Commands/ICommandRegistration.cs/#L85">View Source</a>
+  </span>
+  <a id="OpenMod_API_Commands_ICommandRegistration_SupportsActor_" data-uid="OpenMod.API.Commands.ICommandRegistration.SupportsActor*"></a>
+  <h4 id="OpenMod_API_Commands_ICommandRegistration_SupportsActor_OpenMod_API_Commands_ICommandActor_" data-uid="OpenMod.API.Commands.ICommandRegistration.SupportsActor(OpenMod.API.Commands.ICommandActor)">SupportsActor(ICommandActor)</h4>
+  <div class="markdown level1 summary"><p>Checks if the given actor can use this command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool SupportsActor(ICommandActor actor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Commands.ICommandActor.html">ICommandActor</a></td>
+        <td><span class="parametername">actor</span></td>
+        <td><p>The actor to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="OpenMod.Core.Helpers.DisposeHelper.html#OpenMod_Core_Helpers_DisposeHelper_DisposeSyncOrAsync_System_Object_">DisposeHelper.DisposeSyncOrAsync(Object)</a>
+  </div>
+</article>
+              
+                </div>
+            </main>
+        </div>
+
+        
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
+<script type="text/javascript" src="../styles/url.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>-->
+<script type="text/javascript" src="../styles/docfx.js"></script>
+<script type="text/javascript" src="../styles/main.js"></script>
+
+    </body>
+
+</html>

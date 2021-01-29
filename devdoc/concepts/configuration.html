@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Configurations | OpenMod Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Configurations | OpenMod Docs ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/discord.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+
+  <body>
+        <div class="top-navbar">
+
+            <a href="javascript:void(0);" class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="24" height="24" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+            
+            <a class="brand" href="../../index.html">
+              <img src="../../logo.png" alt="OpenMod Docs" class="logomark">
+              <span class="brand-title">OpenMod Docs</span>
+            </a>
+        </div>
+
+        <div class="body-content">
+
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+
+                <div class="sidebar">
+                    
+                    
+                    
+                    
+                    <div>
+                      
+                      <a class="brand" href="../../index.html">
+                        <img src="../../logo.png" alt="OpenMod Docs" class="logomark">
+                        <span class="brand-title">OpenMod Docs</span>
+                      </a>
+                      <div id="navbar">
+                    
+                      </div>
+                    
+                    </div>
+
+
+                    <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+
+                </div>
+
+                <div class="footer">
+                  OpenMod .NET Plugin Framework.
+                  
+                </div>
+            </nav>
+
+            <main class="main-panel">
+
+                <div role="main" class="hide-when-search">
+
+                        
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="configurations">Configurations</h1>
+
+<p>Configurations allow users to configure and customize your plugins behavior.<br>
+Assume your plugin gives XP when killing a player. By using configs, a user can dynamically set how much XP will be given.</p>
+<p>OpenMod configurations are based on <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration?view=dotnet-plat-ext-3.1">Microsoft.Extensions.Configuration</a> which is also used in ASP.NET Core.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>The <strong>&lt;RootNamespace&gt;</strong> and <strong>&lt;AssemblyName&gt;</strong> properties in the plugins .csproj file must be equal, otherwise the <code>IConfiguration</code> service will not work.</p>
+</div>
+<h2 id="adding-the-configyaml">Adding the config.yaml</h2>
+<p>Create a new file called &quot;config.yaml&quot; inside your project's root directory.<br>
+After that, add the following to your .csproj file:</p>
+<pre><code class="lang-xml">&lt;ItemGroup&gt;
+  &lt;EmbeddedResource Include=&quot;config.yaml&quot; /&gt;
+&lt;/ItemGroup&gt;
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If you created your plugin project using one of the templates, the comfig.yaml file will be already set up.</p>
+</div>
+<h2 id="reading-from-the-configuration-file">Reading from the configuration file</h2>
+<p>You can use the <code>IConfiguration</code> service to read the config.yaml file. You can inject it like this:</p>
+<pre><code class="lang-c#">public class MyPlugin : OpenModUniversalPlugin
+{
+    private readonly IConfiguration m_Configuration;
+
+    public MyPlugin(IConfiguration configuration, IServiceProvider serviceProvider) : base(serviceProvider)
+    {
+        m_Configuration = configuration;
+    }
+
+    public async Task OnLoadAsync()
+    {
+        // ...
+    }
+}
+</code></pre>
+<p>Assume your configuration looks like this:</p>
+<pre><code class="lang-yaml">plugin_load_delay: 500
+</code></pre>
+<p>Then this is how you would read the value:</p>
+<pre><code class="lang-c#">public async Task OnLoadAsync()
+{
+  var delay = m_Configuration.GetSection(&quot;plugin_load_delay&quot;).Get&lt;int&gt;();
+  await Task.Delay(delay);
+}
+</code></pre>
+<p>You can also have nested values:</p>
+<pre><code class="lang-yaml">plugin_load:
+  actions:
+    wait_delay: 500
+</code></pre>
+<pre><code class="lang-c#">public async Task OnLoadAsync()
+{
+  // notice how &quot;:&quot; is used to access nested values
+  var delay = m_Configuration.GetSection(&quot;plugin_load:actions:wait_delay&quot;).Get&lt;int&gt;();
+  await Task.Delay(delay);
+}
+</code></pre>
+<p>If you want to access strings, you can also use the indexer:</p>
+<pre><code class="lang-yaml">players:
+  owner: &quot;Trojaner&quot;
+</code></pre>
+<pre><code class="lang-c#">public async Task OnLoadAsync()
+{
+  // reading strings is even easier
+  string owner = m_Configuration[&quot;players:owner&quot;];
+}
+</code></pre>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>Configuration files are not meant store data, that's why there are no setter or save methods. See <a href="persistence.html">persistence</a> if you need to store and load data.</p>
+</div>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p><strong>Do not</strong> cache data read from configurations. This will break dynamic reloading of configuration files.</p>
+</div>
+<h2 id="converting-configurations-to-c-classes">Converting configurations to C# classes</h2>
+<pre><code class="lang-c#">public async Task OnLoadAsync()
+{
+  var config = new MyConfigClass();  
+  m_Configuration.Bind(config);
+  // or if you only want to bind a subset:
+  // m_Configuration.GetSection(&quot;something&quot;).Bind(config);
+}
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You can cache the config variable here, bind will automatically update the values if the config reloads.</p>
+</div>
+<h1 id="listening-to-configuration-changes">Listening to configuration changes</h1>
+<p>To listen to changes, you can use <a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/change-tokens">change tokens</a>.</p>
+<p>Get the reload token of the configuration:</p>
+<pre><code class="lang-c#">var changeToken = m_Configuration.GetReloadToken();
+</code></pre>
+<p>Add a new event listener:</p>
+<pre><code class="lang-c#">var listener = ChangeToken.OnChange(() =&gt; reloadToken, () =&gt;
+{
+    m_Logger.LogInformation(&quot;Configuration file has been reloaded!&quot;);
+})
+</code></pre>
+<p>You can use listener.Dispose() to stop listening.</p>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p><strong>Do not</strong> use config change listeners to fetch latest configuration values. OpenMod does this automatically. IConfiguration.Get will always return the current configuration values.</p>
+</div>
+<h2 id="adding-your-own-configuration-sources">Adding your own configuration sources</h2>
+<p>You can add additional configuration sources by implementing the <code>IConfigurationConfigurator</code> interface.<br>
+This interface allows you to add additional sources to the <code>IConfigurationBuilder</code> used when building the OpenMod config.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>Custom configuration sources for plugins <a href="https://github.com/openmod/openmod/issues/90">are not supported yet</a>.</p>
+</div>
+<h2 id="best-practices">Best Practices</h2>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p><strong>Do not</strong> hardcode important values. If you are making a plugin that gives players XP when killing other players, make sure the XP amount is configurable, as it is something many users may want to adjust.</p>
+</div>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p><strong>Do not</strong> overcomplicate your configurations. Only add values that users are likely going to change. Having a simple configuration is preferred to a complex one.</p>
+</div>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p><strong>Do not</strong> use configurations for customizable messages. Use <a href="localization.html">localization</a> instead. Unlike configurations, localization supports formatting and passing arguments.</p>
+</div>
+</article>
+              
+                </div>
+            </main>
+        </div>
+
+        
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<script type="text/javascript" src="../../styles/jquery.twbsPagination.js"></script>
+<script type="text/javascript" src="../../styles/url.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>-->
+<script type="text/javascript" src="../../styles/docfx.js"></script>
+<script type="text/javascript" src="../../styles/main.js"></script>
+
+    </body>
+
+</html>

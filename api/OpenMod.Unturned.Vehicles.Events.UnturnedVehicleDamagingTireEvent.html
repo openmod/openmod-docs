@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class UnturnedVehicleDamagingTireEvent
+   | OpenMod Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class UnturnedVehicleDamagingTireEvent
+   | OpenMod Docs ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+    <link rel="stylesheet" href="../styles/colors.css">
+    <link rel="stylesheet" href="../styles/discord.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+
+  <body>
+        <div class="top-navbar">
+
+            <a href="javascript:void(0);" class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="24" height="24" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+            
+            <a class="brand" href="../index.html">
+              <img src="../logo.png" alt="OpenMod Docs" class="logomark">
+              <span class="brand-title">OpenMod Docs</span>
+            </a>
+        </div>
+
+        <div class="body-content">
+
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+
+                <div class="sidebar">
+                    
+                    
+                    
+                    
+                    <div>
+                      
+                      <a class="brand" href="../index.html">
+                        <img src="../logo.png" alt="OpenMod Docs" class="logomark">
+                        <span class="brand-title">OpenMod Docs</span>
+                      </a>
+                      <div id="navbar">
+                    
+                      </div>
+                    
+                    </div>
+
+
+                    <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+
+                </div>
+
+                <div class="footer">
+                  OpenMod .NET Plugin Framework.
+                  
+                </div>
+            </nav>
+
+            <main class="main-panel">
+
+                <div role="main" class="hide-when-search">
+
+                        
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent">
+  
+  
+  <h1 id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent" class="text-break">Class UnturnedVehicleDamagingTireEvent
+  </h1>
+  <div class="markdown level0 summary"><p>The event that is triggered when damage is dealt to a tire of a vehicle.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleEvent.html">UnturnedVehicleEvent</a></div>
+    <div class="level2"><span class="xref">UnturnedVehicleDamagingTireEvent</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleEvent.html">IVehicleEvent</a></div>
+    <div><a class="xref" href="OpenMod.API.Eventing.IEvent.html">IEvent</a></div>
+    <div><span class="xref">ICancellableEvent</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleEvent.html#OpenMod_Unturned_Vehicles_Events_UnturnedVehicleEvent_Vehicle">UnturnedVehicleEvent.Vehicle</a>
+    </div>
+    <div>
+      <a class="xref" href="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleEvent.html#OpenMod_Unturned_Vehicles_Events_UnturnedVehicleEvent_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleEvent_Vehicle">UnturnedVehicleEvent.IVehicleEvent.Vehicle</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Unturned.Vehicles.Events.html">OpenMod.Unturned.Vehicles.Events</a></h6>
+  <h6><strong>Assembly</strong>: OpenMod.Unturned.dll</h6>
+  <h5 id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UnturnedVehicleDamagingTireEvent : UnturnedVehicleEvent, IVehicleEvent, IEvent, ICancellableEvent</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent__ctor_OpenMod_Unturned_Vehicles_UnturnedVehicle_CSteamID_System_Int32_EDamageOrigin_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.%23ctor(OpenMod.Unturned.Vehicles.UnturnedVehicle%2CCSteamID%2CSystem.Int32%2CEDamageOrigin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Vehicles/Events/UnturnedVehicleDamagingTireEvent.cs/#L29">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent__ctor_" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.#ctor*"></a>
+  <h4 id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent__ctor_OpenMod_Unturned_Vehicles_UnturnedVehicle_CSteamID_System_Int32_EDamageOrigin_" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.#ctor(OpenMod.Unturned.Vehicles.UnturnedVehicle,CSteamID,System.Int32,EDamageOrigin)">UnturnedVehicleDamagingTireEvent(UnturnedVehicle, CSteamID, Int32, EDamageOrigin)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnturnedVehicleDamagingTireEvent(UnturnedVehicle vehicle, CSteamID instigator, int tireIndex, EDamageOrigin damageOrigin)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.Unturned.Vehicles.UnturnedVehicle.html">UnturnedVehicle</a></td>
+        <td><span class="parametername">vehicle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CSteamID</span></td>
+        <td><span class="parametername">instigator</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tireIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">EDamageOrigin</span></td>
+        <td><span class="parametername">damageOrigin</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_DamageOrigin.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.DamageOrigin%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Vehicles/Events/UnturnedVehicleDamagingTireEvent.cs/#L25">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_DamageOrigin_" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.DamageOrigin*"></a>
+  <h4 id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_DamageOrigin" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.DamageOrigin">DamageOrigin</h4>
+  <div class="markdown level1 summary"><p>Gets the damage origin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EDamageOrigin DamageOrigin { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EDamageOrigin</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_Instigator.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.Instigator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Vehicles/Events/UnturnedVehicleDamagingTireEvent.cs/#L15">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_Instigator_" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.Instigator*"></a>
+  <h4 id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_Instigator" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.Instigator">Instigator</h4>
+  <div class="markdown level1 summary"><p>Gets the Steam ID of the entity causing the damage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSteamID? Instigator { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">CSteamID</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_IsCancelled.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.IsCancelled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Vehicles/Events/UnturnedVehicleDamagingTireEvent.cs/#L27">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_IsCancelled_" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.IsCancelled*"></a>
+  <h4 id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_IsCancelled" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.IsCancelled">IsCancelled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCancelled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_TireIndex.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.TireIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Vehicles/Events/UnturnedVehicleDamagingTireEvent.cs/#L20">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_TireIndex_" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.TireIndex*"></a>
+  <h4 id="OpenMod_Unturned_Vehicles_Events_UnturnedVehicleDamagingTireEvent_TireIndex" data-uid="OpenMod.Unturned.Vehicles.Events.UnturnedVehicleDamagingTireEvent.TireIndex">TireIndex</h4>
+  <div class="markdown level1 summary"><p>Gets the index of the tire that is getting damaged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TireIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleEvent.html">IVehicleEvent</a>
+  </div>
+  <div>
+      <a class="xref" href="OpenMod.API.Eventing.IEvent.html">IEvent</a>
+  </div>
+  <div>
+      <span class="xref">ICancellableEvent</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="OpenMod.Core.Helpers.DisposeHelper.html#OpenMod_Core_Helpers_DisposeHelper_DisposeSyncOrAsync_System_Object_">DisposeHelper.DisposeSyncOrAsync(Object)</a>
+  </div>
+</article>
+              
+                </div>
+            </main>
+        </div>
+
+        
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
+<script type="text/javascript" src="../styles/url.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>-->
+<script type="text/javascript" src="../styles/docfx.js"></script>
+<script type="text/javascript" src="../styles/main.js"></script>
+
+    </body>
+
+</html>

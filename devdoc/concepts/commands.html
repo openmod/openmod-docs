@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Commands | OpenMod Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Commands | OpenMod Docs ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/discord.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+
+  <body>
+        <div class="top-navbar">
+
+            <a href="javascript:void(0);" class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="24" height="24" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+            
+            <a class="brand" href="../../index.html">
+              <img src="../../logo.png" alt="OpenMod Docs" class="logomark">
+              <span class="brand-title">OpenMod Docs</span>
+            </a>
+        </div>
+
+        <div class="body-content">
+
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+
+                <div class="sidebar">
+                    
+                    
+                    
+                    
+                    <div>
+                      
+                      <a class="brand" href="../../index.html">
+                        <img src="../../logo.png" alt="OpenMod Docs" class="logomark">
+                        <span class="brand-title">OpenMod Docs</span>
+                      </a>
+                      <div id="navbar">
+                    
+                      </div>
+                    
+                    </div>
+
+
+                    <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+
+                </div>
+
+                <div class="footer">
+                  OpenMod .NET Plugin Framework.
+                  
+                </div>
+            </nav>
+
+            <main class="main-panel">
+
+                <div role="main" class="hide-when-search">
+
+                        
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="commands">Commands</h1>
+
+<p>To create a command, create a class that inherits from one of these:</p>
+<ul>
+<li>Command (for universal plugins)</li>
+<li>UnityEngineCommand (for UnityEngine plugins)</li>
+<li>UnturnedCommand (for Unturned plugins)</li>
+</ul>
+<p>In this example, we will make a universal command that works on any game or platform:</p>
+<pre><code class="lang-c#">public class CommandAwesome : Command
+{
+    public CommandAwesome(IServiceProvider serviceProvider) : base(serviceProvider)
+    {
+    }
+}
+</code></pre>
+<p>Add metadata to describe the command:</p>
+<pre><code class="lang-c#">[Command(&quot;awesome&quot;)] // The primary name for the command. Usually, it is defined as lowercase. 
+[CommandAlias(&quot;awsm&quot;)] // Add &quot;awsm&quot; as alias.
+[CommandAlias(&quot;aw&quot;)] // Add &quot;aw&quot; as alias.
+[CommandDescription(&quot;My awesome command&quot;)] // Description. Try to keep it short and simple.
+public class CommandAwesome : Command
+{
+    public CommandAwesome(IServiceProvider serviceProvider) : base(serviceProvider)
+    {
+    }
+}
+</code></pre>
+<p>Implement OnExecuteAsync:</p>
+<pre><code class="lang-c#">[Command(&quot;awesome&quot;)] 
+[CommandAlias(&quot;awsm&quot;)]
+[CommandAlias(&quot;aw&quot;)]
+[CommandDescription(&quot;My awesome command&quot;)]
+public class CommandAwesome : Command
+{
+    public CommandAwesome(IServiceProvider serviceProvider) : base(serviceProvider)
+    {
+    }
+
+    // use UniTask instead of Task if derivered from UnityEngineCommand or UnturnedCommand
+    public async Task OnExecuteAsync() 
+    {
+        await PrintAsync(&quot;OpenMod is awesome!&quot;);
+    }
+}
+</code></pre>
+<div class="WARNING">
+<h5>Warning</h5>
+<p><strong>Avoid</strong> hardcoding messages like in the example above. Instead, use <a href="localization.html">localization</a> so users can customize and translate the messages.</p>
+</div>
+<h2 id="parameters">Parameters</h2>
+<p>Most commands usually require parameters. The command context provides a Parameter property for this:</p>
+<pre><code class="lang-c#">public async Task OnExecuteAsync()
+{
+    // assume we want the command to be called like this: /awesome &lt;player&gt; &lt;amount&gt;
+    // Parameters start from 0, so &lt;player&gt; index is 0, &lt;amount&gt; index is 1.
+    var player = await Context.Parameters.GetAsync&lt;string&gt;(0);
+    var amount = await Context.Parameters.GetAsync&lt;int&gt;(1);
+    await PrintAsync($&quot;{player} is {amount}x awesome!&quot;);
+}
+</code></pre>
+<p>After that, you need to describe how users can use the command. Add the syntax metadata to the command class:</p>
+<pre><code class="lang-c#">//...
+[CommandSyntax(&quot;&lt;player&gt; [amount]&quot;)] // Describe the syntax/usage. Use &lt;&gt; for required arguments and [] for optional arguments.
+public class CommandAwesome : Command
+//...
+</code></pre>
+<h2 id="restricting-command-actors">Restricting Command Actors</h2>
+<p>If you are not developing universal plugins, you may want to limit who can execute commands.<br>
+The <code>[CommandActor(Type)]</code> attribute allows you to specify such restrictions.</p>
+<p>For example, if you would like to restrict a command's usage to UnturnedUser and ConsoleActor, you could add the following:</p>
+<pre><code class="lang-c#">//...
+[CommandActor(typeof(UnturnedUser))]
+[CommandActor(typeof(ConsoleActor))]
+public class CommandAwesome : Command
+//...
+</code></pre>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>By default, any user type can execute your command. Plugins can dynamically add new users such as DiscordUser, PluginUser, RconUser etc. Write your commands in a way that works with all users. If that is not possible (e.g. a /god command that requires UnturnedUser), restrict the allowed actors like mentioned above.</p>
+</div>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p><strong>Do not</strong> manually check if an actor is allowed to execute a command (e.g. <code>if(!(actor is UnturnedUser))</code>). Always use <code>[CommandActor(Type)]</code> for such restrictions. It will automatically hide the command from actors who cannot execute them and give a consistent error message.</p>
+</div>
+<h2 id="exceptions">Exceptions</h2>
+<p>Exceptions derived from <code>UserFriendlyException</code> are automatically caught by OpenMod and the message is displayed to the user in a user-friendly way.</p>
+<p>These built-in user-friendly exceptions available:</p>
+<ul>
+<li><strong>NotEnoughPermissionException</strong>, can be thrown if the user does not have enough permission to execute an action.</li>
+<li><strong>CommandWrongUsageException</strong>, can be thrown on wrong command usage. Displays correct usage based on command syntax.</li>
+<li><strong>CommandIndexOutOfRangeException</strong>, thrown automatically by Parameters.Get if the given index is bigger than the arguments length.</li>
+<li><strong>CommandParameterParseException</strong>, thrown automatically by Parameters.Get if the parameter could not be parsed to the expected type.</li>
+<li><strong>CommandNotFoundException</strong>, thrown automatically if a command was not found.</li>
+</ul>
+<pre><code class="lang-c#">public async Task OnExecuteAsync()
+{
+    var player = await Context.Parameters.GetAsync&lt;string&gt;(0);
+    var amount = await Context.Parameters.GetAsync&lt;int&gt;(1);
+
+    if(amount &lt; 1) 
+    {
+        throw new UserFriendlyException(&quot;Amount cannot be negative!&quot;);
+    }
+
+    await PrintAsync($&quot;{player} is {amount}x awesome!&quot;);
+}
+</code></pre>
+<h2 id="command-permissions">Command Permissions</h2>
+<p>By design and for consistency reasons, you cannot define a command permission manually. OpenMod will automatically assign a permission to the command instead. You can use the <code>help &lt;yourcommand&gt;</code> command to figure out what the base permission for your command is.</p>
+<p>Assume you want to restrict the <code>awesome</code> command if the amount is more than 10. This is how you would do it:</p>
+<pre><code class="lang-c#">public async Task OnExecuteAsync()
+{
+    var player = await Context.Parameters.GetAsync&lt;string&gt;(0);
+    var amount = await Context.Parameters.GetAsync&lt;int&gt;(1);
+
+    if(amount &gt; 10 &amp;&amp; await CheckPermissionAsync(&quot;MoreThan10&quot;) != PermissionGrantResult.Grant) 
+    {
+        throw new NotEnoughPermissionException(this, &quot;MoreThan10&quot;); // displays an error message to the user 
+    }
+
+    await PrintAsync($&quot;{player} is {amount}x awesome!&quot;);
+}
+</code></pre>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p><strong>Do not</strong> manually check for general command usage permissions. OpenMod automatically defines permissions for commands.
+A bad example would be:</p>
+<pre><code class="lang-c#">public async Task OnExecuteAsync()
+{
+    if (!await CheckPermissionAsync(&quot;MyCommand&quot;)) 
+    {
+       //throw ... or even worse await PrintAsync(...) 
+    }
+}
+</code></pre>
+</div>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p><strong>Do not</strong> manually send missing permission messages. <em>Always</em> throw NotEnoughPermissionException instead.</p>
+</div>
+<h2 id="adding-child-commands">Adding child commands</h2>
+<p>You can add child commands to a command by using the <code>[CommandParent]</code> attribute. This allows OpenMod to discover your child bcommands and provide additional help and tab autocompletion.</p>
+<p>The following command will execute when a user types &quot;/awesome more&quot;. The <code>CommandAwesome.OnExecuteAsync</code> method will not execute in this case.</p>
+<pre><code class="lang-c#">[Command(&quot;more&quot;)] 
+[CommandDescription(&quot;My more awesome command&quot;)]
+[CommandParent(typeof(CommandAwesome))] // set &quot;awesome&quot; as parent.
+public class CommandAwesomeMore : Command
+{
+    public CommandAwesomeMore(IServiceProvider serviceProvider) : base(serviceProvider)
+    {
+    }
+
+    public async Task OnExecuteAsync()
+    {
+        // Note: Parameters do not include &quot;more&quot;.
+        // If you type &quot;/awesome more a&quot;, Context.Parameters[0] will be equal to &quot;a&quot;. 
+        await PrintAsync(&quot;You are even more awesome!&quot;);
+    }
+}
+</code></pre>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p><strong>Do not</strong> handle child commands yourself (e.g. <code>if(Context.Parameters[0] == &quot;add&quot;)</code>). When manually handling child commands, OpenMod can't discover your child commands and provide additional help, permissions or tab autocompletion.</p>
+</div>
+</article>
+              
+                </div>
+            </main>
+        </div>
+
+        
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<script type="text/javascript" src="../../styles/jquery.twbsPagination.js"></script>
+<script type="text/javascript" src="../../styles/url.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>-->
+<script type="text/javascript" src="../../styles/docfx.js"></script>
+<script type="text/javascript" src="../../styles/main.js"></script>
+
+    </body>
+
+</html>
