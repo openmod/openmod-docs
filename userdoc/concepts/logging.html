@@ -6,21 +6,21 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Translation files | OpenMod Docs </title>
+    <title>Logging | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Translation files | OpenMod Docs ">
+    <meta name="title" content="Logging | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.6.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../../favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
-    <link rel="stylesheet" href="../styles/colors.css">
-    <link rel="stylesheet" href="../styles/discord.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/discord.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     
   </head>
 
@@ -32,8 +32,8 @@
             </a>
 
             
-            <a class="brand" href="../index.html">
-              <img src="../logo.png" alt="OpenMod Docs" class="logomark">
+            <a class="brand" href="../../index.html">
+              <img src="../../logo.png" alt="OpenMod Docs" class="logomark">
               <span class="brand-title">OpenMod Docs</span>
             </a>
         </div>
@@ -51,8 +51,8 @@
                     
                     <div>
                       
-                      <a class="brand" href="../index.html">
-                        <img src="../logo.png" alt="OpenMod Docs" class="logomark">
+                      <a class="brand" href="../../index.html">
+                        <img src="../../logo.png" alt="OpenMod Docs" class="logomark">
                         <span class="brand-title">OpenMod Docs</span>
                       </a>
                       <div id="navbar">
@@ -91,24 +91,49 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="translation-files">Translation files</h1>
+<h1 id="logging">Logging</h1>
 
-<p>Translations files allow you to translate or customize OpenMod or plugin messages.<br>
-OpenMod's translation file <code>openmod.translations.yaml</code> can be found inside the <code>OpenMod</code> directory:</p>
-<pre><code class="lang-yaml">commands:
-  openmod:
-    restricted: &quot;This command is restricted.&quot;
-  errors:
-    out_of_range_error: &quot;Too few arguments: missing parameter at index {Index} of type {Type.Name}&quot;
-    parse_error: &quot;Parse error: could not parse {Value} to {Type.Name}&quot;
-    not_found: &quot;Command was not found: {CommandName}&quot;
-    wrong_usage: &quot;Wrong command usage. Correct usage: {Command} {Syntax}&quot;
+<p>OpenMod uses <a href="https://serilog.net/">Serilog</a> as the default logger implementation.</p>
+<p>Serilog is configured through the <code>logging.yaml</code> in the OpenMod folder.
+You can find the documentation for the Serilog configuration <a href="https://github.com/serilog/serilog-settings-configuration">here</a> (you will have to <a href="https://www.json2yaml.com/">convert it</a> from JSON to YAML).</p>
+<p>Serilog supports many <a href="https://github.com/serilog/serilog/wiki/Provided-Sinks">sinks</a> as logging target. You can install new sinks via the <code>openmod install &lt;package id&gt;</code> command and configure them in the logging.yaml.</p>
+<p>For example, this is how you would configure logging to MySQL/MariaDB instead to file:</p>
+<ol>
+<li>Install the MariaDB Sink: <code>openmod install Serilog.Sinks.MariaDB</code></li>
+<li>Add the MariaDB Sink to the logging.yaml:</li>
+</ol>
+<pre><code class="lang-yaml">Serilog:
+  Using:
+  - Serilog
+  - Serilog.Sinks.Console
+  - Serilog.Sinks.File
+  - Serilog.Sinks.Async
+  - Serilog.Sinks.MariaDB # Do not forget to add your sink here
+  WriteTo:
+  - Name: Async # By default OpenMod logs async for performance reasons
+    Args:
+      configure:
+      - Name: MariaDB
+        Args:
+          connectionString: &quot;server=...&quot; # See https://www.connectionstrings.com/mysql/
+          tableName: &quot;logs&quot;
+          autoCreateTable: true
+      - Name: Console
+        Args:
+          theme: &quot;Serilog.Sinks.SystemConsole.Themes.AnsiConsoleTheme::Code, Serilog.Sinks.Console&quot;
+          outputTemplate: &quot;[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}&quot;
+  Enrich:
+  - FromLogContext
+  MinimumLevel:
+    Default: Information # Only log Information or higher by default
+    Override:
+      # You can configure when specific events should be logged
+      # In this example, the Microsoft.EntityFrameworkCore events below are only logged if Warning or higher
+      Microsoft.EntityFrameworkCore.Database.Command: Warning
+      Microsoft.EntityFrameworkCore.Infrastructure: Warning
+      Microsoft.EntityFrameworkCore.Database.Connection: Warning
+      Microsoft.EntityFrameworkCore.Query: Warning
 </code></pre>
-<p>OpenMod uses SmartFormat.NET for parsing translation arguments. See the <a href="https://github.com/axuno/SmartFormat/wiki">SmartFormat.NET wiki</a> for more information.</p>
-<div class="WARNING">
-<h5>Warning</h5>
-<p>Translation files are currently not updated automatically. If OpenMod or a plugin adds a new translation, you will have to add it manually to the yaml file or delete the file so it gets recreated.</p>
-</div>
 </article>
               
                 </div>
@@ -120,11 +145,11 @@ OpenMod's translation file <code>openmod.translations.yaml</code> can be found i
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
-<script type="text/javascript" src="../styles/jquery.twbsPagination.js"></script>
-<script type="text/javascript" src="../styles/url.min.js"></script>
+<script type="text/javascript" src="../../styles/jquery.twbsPagination.js"></script>
+<script type="text/javascript" src="../../styles/url.min.js"></script>
 <!--<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>-->
-<script type="text/javascript" src="../styles/docfx.js"></script>
-<script type="text/javascript" src="../styles/main.js"></script>
+<script type="text/javascript" src="../../styles/docfx.js"></script>
+<script type="text/javascript" src="../../styles/main.js"></script>
 
     </body>
 

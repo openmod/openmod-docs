@@ -534,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.API.Jobs.JobTask.html",
-          "hash": "WQ1394ZzV6bMCOof8GHbTA=="
+          "hash": "W0urjBVxF6LjKsVMjC2fiw=="
         }
       },
       "is_incremental": false,
@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.API.Jobs.html",
-          "hash": "aBFo3lM3jY2jzfxCtJ0RCA=="
+          "hash": "FHf5Gxyhf+6pciqZ90tZkg=="
         }
       },
       "is_incremental": false,
@@ -9822,7 +9822,7 @@
       "output": {
         ".html": {
           "relative_path": "devdoc/concepts/commands.html",
-          "hash": "Hcf7kTNoSO8og6ADv3IBjQ=="
+          "hash": "O1jxoiZcpmeOfjQFpiadLA=="
         }
       },
       "is_incremental": false,
@@ -9981,7 +9981,7 @@
       "output": {
         ".html": {
           "relative_path": "devdoc/guides/getting-started.html",
-          "hash": "27tB9nT/8xaJBLGT0feQxQ=="
+          "hash": "MlCikQJ7pyR09/sJdQ373A=="
         }
       },
       "is_incremental": false,
@@ -10029,7 +10029,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "c//Jp2qVufBmy8VKOh2eeA=="
+          "hash": "OzIncoKOqG6utbB9L/JIAg=="
         }
       },
       "is_incremental": false,
@@ -10060,11 +10060,71 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "userdoc/configurations.md",
+      "source_relative_path": "userdoc/concepts/configurations.md",
       "output": {
         ".html": {
-          "relative_path": "userdoc/configurations.html",
-          "hash": "lHP7CcnqjcwYHDaSV43P0g=="
+          "relative_path": "userdoc/concepts/configurations.html",
+          "hash": "QLgCY3c1fwU027kzxpkMgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "userdoc/concepts/jobs.md",
+      "output": {
+        ".html": {
+          "relative_path": "userdoc/concepts/jobs.html",
+          "hash": "+8Of7ftZ4Zr3YIdoHFTIEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "userdoc/concepts/logging.md",
+      "output": {
+        ".html": {
+          "relative_path": "userdoc/concepts/logging.html",
+          "hash": "8HoFgN3d7xQ8VKFtfcUTpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "userdoc/concepts/permissions.md",
+      "output": {
+        ".html": {
+          "relative_path": "userdoc/concepts/permissions.html",
+          "hash": "j4iXyOT99AnzC+YJLGTXvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "userdoc/concepts/plugins.md",
+      "output": {
+        ".html": {
+          "relative_path": "userdoc/concepts/plugins.html",
+          "hash": "rLSCBbxilqpNXulK8OWeUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "userdoc/concepts/translations.md",
+      "output": {
+        ".html": {
+          "relative_path": "userdoc/concepts/translations.html",
+          "hash": "myQ+PxMM7zdKx0vceTkEwA=="
         }
       },
       "is_incremental": false,
@@ -10088,7 +10148,7 @@
       "output": {
         ".html": {
           "relative_path": "userdoc/installation/unturned.html",
-          "hash": "sfBTbxGdjxF+QzObnnCyqA=="
+          "hash": "jProSF36sLqxBJpm1of1UA=="
         }
       },
       "is_incremental": false,
@@ -10100,7 +10160,7 @@
       "output": {
         ".html": {
           "relative_path": "userdoc/integrations/unturned-rocketmod.html",
-          "hash": "SgOq+yd/YXb8bw6hq79uNA=="
+          "hash": "6/RVbJ5kvZIuLHvd5vLLNA=="
         }
       },
       "is_incremental": false,
@@ -10119,63 +10179,12 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "userdoc/logging.md",
-      "output": {
-        ".html": {
-          "relative_path": "userdoc/logging.html",
-          "hash": "rjYjo56+09rNl2Og6DSlfg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "userdoc/permissions.md",
-      "output": {
-        ".html": {
-          "relative_path": "userdoc/permissions.html",
-          "hash": "eNP5pCHJ+OBYBbcM6mrcVQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "userdoc/plugins.md",
-      "output": {
-        ".html": {
-          "relative_path": "userdoc/plugins.html",
-          "hash": "izoC5unLIgyo8zcXpZmtxw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "userdoc/toc.yml",
       "output": {
         ".html": {
           "relative_path": "userdoc/toc.html",
-          "hash": "XWlLf/RaLEgvZLTBeqahpQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "userdoc/translations.md",
-      "output": {
-        ".html": {
-          "relative_path": "userdoc/translations.html",
-          "hash": "JkTtqfDdc7n+BBe5Pj8cgw=="
+          "hash": "5aPvDD/2CjgpQ9KRYxaviQ=="
         }
       },
       "is_incremental": false,
@@ -10196,7 +10205,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 27,
+          "total_file_count": 28,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
