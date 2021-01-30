@@ -11794,15 +11794,15 @@ references:
   commentId: T:OpenMod.Core.Plugins.PluginAssemblyStore
   fullName: OpenMod.Core.Plugins.PluginAssemblyStore
   nameWithType: PluginAssemblyStore
-- uid: OpenMod.Core.Plugins.PluginAssemblyStore.#ctor(IConfiguration,ILogger{OpenMod.Core.Plugins.PluginAssemblyStore},OpenMod.NuGet.NuGetPackageManager)
-  name: PluginAssemblyStore(IConfiguration, ILogger<PluginAssemblyStore>, NuGetPackageManager)
-  href: api/OpenMod.Core.Plugins.PluginAssemblyStore.html#OpenMod_Core_Plugins_PluginAssemblyStore__ctor_IConfiguration_ILogger_OpenMod_Core_Plugins_PluginAssemblyStore__OpenMod_NuGet_NuGetPackageManager_
-  commentId: M:OpenMod.Core.Plugins.PluginAssemblyStore.#ctor(IConfiguration,ILogger{OpenMod.Core.Plugins.PluginAssemblyStore},OpenMod.NuGet.NuGetPackageManager)
-  name.vb: PluginAssemblyStore(IConfiguration, ILogger(Of PluginAssemblyStore), NuGetPackageManager)
-  fullName: OpenMod.Core.Plugins.PluginAssemblyStore.PluginAssemblyStore(IConfiguration, ILogger<OpenMod.Core.Plugins.PluginAssemblyStore>, OpenMod.NuGet.NuGetPackageManager)
-  fullName.vb: OpenMod.Core.Plugins.PluginAssemblyStore.PluginAssemblyStore(IConfiguration, ILogger(Of OpenMod.Core.Plugins.PluginAssemblyStore), OpenMod.NuGet.NuGetPackageManager)
-  nameWithType: PluginAssemblyStore.PluginAssemblyStore(IConfiguration, ILogger<PluginAssemblyStore>, NuGetPackageManager)
-  nameWithType.vb: PluginAssemblyStore.PluginAssemblyStore(IConfiguration, ILogger(Of PluginAssemblyStore), NuGetPackageManager)
+- uid: OpenMod.Core.Plugins.PluginAssemblyStore.#ctor(System.Nullable{IConfiguration},ILogger{OpenMod.Core.Plugins.PluginAssemblyStore},OpenMod.NuGet.NuGetPackageManager)
+  name: PluginAssemblyStore(Nullable<IConfiguration>, ILogger<PluginAssemblyStore>, NuGetPackageManager)
+  href: api/OpenMod.Core.Plugins.PluginAssemblyStore.html#OpenMod_Core_Plugins_PluginAssemblyStore__ctor_System_Nullable_IConfiguration__ILogger_OpenMod_Core_Plugins_PluginAssemblyStore__OpenMod_NuGet_NuGetPackageManager_
+  commentId: M:OpenMod.Core.Plugins.PluginAssemblyStore.#ctor(System.Nullable{IConfiguration},ILogger{OpenMod.Core.Plugins.PluginAssemblyStore},OpenMod.NuGet.NuGetPackageManager)
+  name.vb: PluginAssemblyStore(Nullable(Of IConfiguration), ILogger(Of PluginAssemblyStore), NuGetPackageManager)
+  fullName: OpenMod.Core.Plugins.PluginAssemblyStore.PluginAssemblyStore(System.Nullable<IConfiguration>, ILogger<OpenMod.Core.Plugins.PluginAssemblyStore>, OpenMod.NuGet.NuGetPackageManager)
+  fullName.vb: OpenMod.Core.Plugins.PluginAssemblyStore.PluginAssemblyStore(System.Nullable(Of IConfiguration), ILogger(Of OpenMod.Core.Plugins.PluginAssemblyStore), OpenMod.NuGet.NuGetPackageManager)
+  nameWithType: PluginAssemblyStore.PluginAssemblyStore(Nullable<IConfiguration>, ILogger<PluginAssemblyStore>, NuGetPackageManager)
+  nameWithType.vb: PluginAssemblyStore.PluginAssemblyStore(Nullable(Of IConfiguration), ILogger(Of PluginAssemblyStore), NuGetPackageManager)
 - uid: OpenMod.Core.Plugins.PluginAssemblyStore.#ctor*
   name: PluginAssemblyStore
   href: api/OpenMod.Core.Plugins.PluginAssemblyStore.html#OpenMod_Core_Plugins_PluginAssemblyStore__ctor_

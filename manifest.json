@@ -1698,7 +1698,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Commands.OpenModCommands.CommandRestart.html",
-          "hash": "To3Lblro+InFq+9ixbGmQw=="
+          "hash": "+/x6vnEl3hldscdg3f3lWA=="
         }
       },
       "is_incremental": false,
@@ -3018,7 +3018,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Plugins.PluginAssemblyStore.html",
-          "hash": "eZwUKVJ0A/ESXsW56O2ubQ=="
+          "hash": "G5NDdz2TtoLuViSFi3TG1w=="
         }
       },
       "is_incremental": false,
@@ -3150,7 +3150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Tests.Commands.TypeDescriptorCommandParameterResolveProviderTests.html",
-          "hash": "MJ1XJ1HuwM/4fw+MocPZOg=="
+          "hash": "ntT2S2PL/id4PQRDGOZf+g=="
         }
       },
       "is_incremental": false,
@@ -7554,7 +7554,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Module.Shared.OpenModSharedUnturnedModule.html",
-          "hash": "vUToMV72Cduak5HvsWA9rA=="
+          "hash": "ONze8X7i0bT5u/Yk+P3c5A=="
         }
       },
       "is_incremental": false,
@@ -10021,6 +10021,17 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
@@ -10109,7 +10120,7 @@
       "output": {
         ".html": {
           "relative_path": "userdoc/concepts/plugins.html",
-          "hash": "w9w+HyAsW3anbezoXUvyPA=="
+          "hash": "E2GBylMLbiUV+VmEoSZGMQ=="
         }
       },
       "is_incremental": false,
