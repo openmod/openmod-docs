@@ -1496,6 +1496,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.API.IRuntime.Host
   nameWithType: IRuntime.Host
+- uid: OpenMod.API.IRuntime.HostAssemblies
+  name: HostAssemblies
+  href: api/OpenMod.API.IRuntime.html#OpenMod_API_IRuntime_HostAssemblies
+  commentId: P:OpenMod.API.IRuntime.HostAssemblies
+  fullName: OpenMod.API.IRuntime.HostAssemblies
+  nameWithType: IRuntime.HostAssemblies
+- uid: OpenMod.API.IRuntime.HostAssemblies*
+  name: HostAssemblies
+  href: api/OpenMod.API.IRuntime.html#OpenMod_API_IRuntime_HostAssemblies_
+  commentId: Overload:OpenMod.API.IRuntime.HostAssemblies
+  isSpec: "True"
+  fullName: OpenMod.API.IRuntime.HostAssemblies
+  nameWithType: IRuntime.HostAssemblies
 - uid: OpenMod.API.IRuntime.HostInformation
   name: HostInformation
   href: api/OpenMod.API.IRuntime.html#OpenMod_API_IRuntime_HostInformation
@@ -1830,28 +1843,6 @@ references:
   commentId: T:OpenMod.API.Jobs.ScheduledJob
   fullName: OpenMod.API.Jobs.ScheduledJob
   nameWithType: ScheduledJob
-- uid: OpenMod.API.Jobs.ScheduledJob.#ctor
-  name: ScheduledJob()
-  href: api/OpenMod.API.Jobs.ScheduledJob.html#OpenMod_API_Jobs_ScheduledJob__ctor
-  commentId: M:OpenMod.API.Jobs.ScheduledJob.#ctor
-  fullName: OpenMod.API.Jobs.ScheduledJob.ScheduledJob()
-  nameWithType: ScheduledJob.ScheduledJob()
-- uid: OpenMod.API.Jobs.ScheduledJob.#ctor(System.String,System.String,Dictionary{System.String,System.Nullable{System.Object}},System.String)
-  name: ScheduledJob(String, String, Dictionary<String, Nullable<Object>>, String)
-  href: api/OpenMod.API.Jobs.ScheduledJob.html#OpenMod_API_Jobs_ScheduledJob__ctor_System_String_System_String_Dictionary_System_String_System_Nullable_System_Object___System_String_
-  commentId: M:OpenMod.API.Jobs.ScheduledJob.#ctor(System.String,System.String,Dictionary{System.String,System.Nullable{System.Object}},System.String)
-  name.vb: ScheduledJob(String, String, Dictionary(Of String, Nullable(Of Object)), String)
-  fullName: OpenMod.API.Jobs.ScheduledJob.ScheduledJob(System.String, System.String, Dictionary<System.String, System.Nullable<System.Object>>, System.String)
-  fullName.vb: OpenMod.API.Jobs.ScheduledJob.ScheduledJob(System.String, System.String, Dictionary(Of System.String, System.Nullable(Of System.Object)), System.String)
-  nameWithType: ScheduledJob.ScheduledJob(String, String, Dictionary<String, Nullable<Object>>, String)
-  nameWithType.vb: ScheduledJob.ScheduledJob(String, String, Dictionary(Of String, Nullable(Of Object)), String)
-- uid: OpenMod.API.Jobs.ScheduledJob.#ctor*
-  name: ScheduledJob
-  href: api/OpenMod.API.Jobs.ScheduledJob.html#OpenMod_API_Jobs_ScheduledJob__ctor_
-  commentId: Overload:OpenMod.API.Jobs.ScheduledJob.#ctor
-  isSpec: "True"
-  fullName: OpenMod.API.Jobs.ScheduledJob.ScheduledJob
-  nameWithType: ScheduledJob.ScheduledJob
 - uid: OpenMod.API.Jobs.ScheduledJob.Args
   name: Args
   href: api/OpenMod.API.Jobs.ScheduledJob.html#OpenMod_API_Jobs_ScheduledJob_Args
@@ -16882,15 +16873,15 @@ references:
   commentId: T:OpenMod.Runtime.OpenModHostedService
   fullName: OpenMod.Runtime.OpenModHostedService
   nameWithType: OpenModHostedService
-- uid: OpenMod.Runtime.OpenModHostedService.#ctor(ILogger{OpenMod.Runtime.OpenModHostedService},OpenMod.API.Permissions.IPermissionChecker,OpenMod.API.IHostInformation,OpenMod.API.IOpenModHost,OpenMod.API.Plugins.IPluginAssemblyStore,OpenMod.API.Plugins.IPluginActivator,OpenMod.API.Eventing.IEventBus,OpenMod.API.Jobs.IJobScheduler)
-  name: OpenModHostedService(ILogger<OpenModHostedService>, IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler)
-  href: api/OpenMod.Runtime.OpenModHostedService.html#OpenMod_Runtime_OpenModHostedService__ctor_ILogger_OpenMod_Runtime_OpenModHostedService__OpenMod_API_Permissions_IPermissionChecker_OpenMod_API_IHostInformation_OpenMod_API_IOpenModHost_OpenMod_API_Plugins_IPluginAssemblyStore_OpenMod_API_Plugins_IPluginActivator_OpenMod_API_Eventing_IEventBus_OpenMod_API_Jobs_IJobScheduler_
-  commentId: M:OpenMod.Runtime.OpenModHostedService.#ctor(ILogger{OpenMod.Runtime.OpenModHostedService},OpenMod.API.Permissions.IPermissionChecker,OpenMod.API.IHostInformation,OpenMod.API.IOpenModHost,OpenMod.API.Plugins.IPluginAssemblyStore,OpenMod.API.Plugins.IPluginActivator,OpenMod.API.Eventing.IEventBus,OpenMod.API.Jobs.IJobScheduler)
-  name.vb: OpenModHostedService(ILogger(Of OpenModHostedService), IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler)
-  fullName: OpenMod.Runtime.OpenModHostedService.OpenModHostedService(ILogger<OpenMod.Runtime.OpenModHostedService>, OpenMod.API.Permissions.IPermissionChecker, OpenMod.API.IHostInformation, OpenMod.API.IOpenModHost, OpenMod.API.Plugins.IPluginAssemblyStore, OpenMod.API.Plugins.IPluginActivator, OpenMod.API.Eventing.IEventBus, OpenMod.API.Jobs.IJobScheduler)
-  fullName.vb: OpenMod.Runtime.OpenModHostedService.OpenModHostedService(ILogger(Of OpenMod.Runtime.OpenModHostedService), OpenMod.API.Permissions.IPermissionChecker, OpenMod.API.IHostInformation, OpenMod.API.IOpenModHost, OpenMod.API.Plugins.IPluginAssemblyStore, OpenMod.API.Plugins.IPluginActivator, OpenMod.API.Eventing.IEventBus, OpenMod.API.Jobs.IJobScheduler)
-  nameWithType: OpenModHostedService.OpenModHostedService(ILogger<OpenModHostedService>, IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler)
-  nameWithType.vb: OpenModHostedService.OpenModHostedService(ILogger(Of OpenModHostedService), IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler)
+- uid: OpenMod.Runtime.OpenModHostedService.#ctor(ILogger{OpenMod.Runtime.OpenModHostedService},OpenMod.API.Permissions.IPermissionChecker,OpenMod.API.IHostInformation,OpenMod.API.IOpenModHost,OpenMod.API.Plugins.IPluginAssemblyStore,OpenMod.API.Plugins.IPluginActivator,OpenMod.API.Eventing.IEventBus,OpenMod.API.Jobs.IJobScheduler,OpenMod.API.IRuntime)
+  name: OpenModHostedService(ILogger<OpenModHostedService>, IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime)
+  href: api/OpenMod.Runtime.OpenModHostedService.html#OpenMod_Runtime_OpenModHostedService__ctor_ILogger_OpenMod_Runtime_OpenModHostedService__OpenMod_API_Permissions_IPermissionChecker_OpenMod_API_IHostInformation_OpenMod_API_IOpenModHost_OpenMod_API_Plugins_IPluginAssemblyStore_OpenMod_API_Plugins_IPluginActivator_OpenMod_API_Eventing_IEventBus_OpenMod_API_Jobs_IJobScheduler_OpenMod_API_IRuntime_
+  commentId: M:OpenMod.Runtime.OpenModHostedService.#ctor(ILogger{OpenMod.Runtime.OpenModHostedService},OpenMod.API.Permissions.IPermissionChecker,OpenMod.API.IHostInformation,OpenMod.API.IOpenModHost,OpenMod.API.Plugins.IPluginAssemblyStore,OpenMod.API.Plugins.IPluginActivator,OpenMod.API.Eventing.IEventBus,OpenMod.API.Jobs.IJobScheduler,OpenMod.API.IRuntime)
+  name.vb: OpenModHostedService(ILogger(Of OpenModHostedService), IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime)
+  fullName: OpenMod.Runtime.OpenModHostedService.OpenModHostedService(ILogger<OpenMod.Runtime.OpenModHostedService>, OpenMod.API.Permissions.IPermissionChecker, OpenMod.API.IHostInformation, OpenMod.API.IOpenModHost, OpenMod.API.Plugins.IPluginAssemblyStore, OpenMod.API.Plugins.IPluginActivator, OpenMod.API.Eventing.IEventBus, OpenMod.API.Jobs.IJobScheduler, OpenMod.API.IRuntime)
+  fullName.vb: OpenMod.Runtime.OpenModHostedService.OpenModHostedService(ILogger(Of OpenMod.Runtime.OpenModHostedService), OpenMod.API.Permissions.IPermissionChecker, OpenMod.API.IHostInformation, OpenMod.API.IOpenModHost, OpenMod.API.Plugins.IPluginAssemblyStore, OpenMod.API.Plugins.IPluginActivator, OpenMod.API.Eventing.IEventBus, OpenMod.API.Jobs.IJobScheduler, OpenMod.API.IRuntime)
+  nameWithType: OpenModHostedService.OpenModHostedService(ILogger<OpenModHostedService>, IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime)
+  nameWithType.vb: OpenModHostedService.OpenModHostedService(ILogger(Of OpenModHostedService), IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime)
 - uid: OpenMod.Runtime.OpenModHostedService.#ctor*
   name: OpenModHostedService
   href: api/OpenMod.Runtime.OpenModHostedService.html#OpenMod_Runtime_OpenModHostedService__ctor_
@@ -17137,6 +17128,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Runtime.Runtime.Host
   nameWithType: Runtime.Host
+- uid: OpenMod.Runtime.Runtime.HostAssemblies
+  name: HostAssemblies
+  href: api/OpenMod.Runtime.Runtime.html#OpenMod_Runtime_Runtime_HostAssemblies
+  commentId: P:OpenMod.Runtime.Runtime.HostAssemblies
+  fullName: OpenMod.Runtime.Runtime.HostAssemblies
+  nameWithType: Runtime.HostAssemblies
+- uid: OpenMod.Runtime.Runtime.HostAssemblies*
+  name: HostAssemblies
+  href: api/OpenMod.Runtime.Runtime.html#OpenMod_Runtime_Runtime_HostAssemblies_
+  commentId: Overload:OpenMod.Runtime.Runtime.HostAssemblies
+  isSpec: "True"
+  fullName: OpenMod.Runtime.Runtime.HostAssemblies
+  nameWithType: Runtime.HostAssemblies
 - uid: OpenMod.Runtime.Runtime.HostInformation
   name: HostInformation
   href: api/OpenMod.Runtime.Runtime.html#OpenMod_Runtime_Runtime_HostInformation

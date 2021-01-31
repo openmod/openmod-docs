@@ -13,6 +13,18 @@
       "is_incremental": false
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "SNoxbC2apHRbRAxq5goNow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/Microsoft.Extensions.Configuration.YamlConfigurationExtensions.yml",
       "output": {
@@ -378,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.API.IRuntime.html",
-          "hash": "03VYqFCfu3RhXrYszJjchg=="
+          "hash": "N126WC0cXc4by5m4oeW3+Q=="
         }
       },
       "is_incremental": false,
@@ -546,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.API.Jobs.ScheduledJob.html",
-          "hash": "8aFkb45pYe0BhE84GKu+IQ=="
+          "hash": "PxvoX5xB2ZzL5DhZGlH22A=="
         }
       },
       "is_incremental": false,
@@ -2034,7 +2046,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Eventing.EventBus.html",
-          "hash": "0q0DsjhzL78Ku0qHv3E3TA=="
+          "hash": "of0G8Ej8wq4jPAluJ86/Kg=="
         }
       },
       "is_incremental": false,
@@ -2358,7 +2370,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Jobs.JobScheduler.html",
-          "hash": "EL83evMGNQ14zt/RDBsU3Q=="
+          "hash": "DHc/gOYDWWGsJcq8+JkG5g=="
         }
       },
       "is_incremental": false,
@@ -4698,7 +4710,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Runtime.OpenModHostedService.html",
-          "hash": "kDflxl/2ZIaxziMG8QWZIQ=="
+          "hash": "t1a2VktjaomXmVqJ1jM/5A=="
         }
       },
       "is_incremental": false,
@@ -4734,7 +4746,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Runtime.Runtime.html",
-          "hash": "XJENWbDqBbkGPNfAZoh1dw=="
+          "hash": "QTGlG9qmr88mkwNI64oZMA=="
         }
       },
       "is_incremental": false,
@@ -8610,7 +8622,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.RocketMod.Events.RocketModPluginsLoadedEvent.html",
-          "hash": "WksVRWy5uh7KEq5yHdnQVg=="
+          "hash": "QzHttbiLXjvewDdvGDPb0Q=="
         }
       },
       "is_incremental": false,
@@ -8634,7 +8646,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.RocketMod.Events.html",
-          "hash": "ZtXC/gdij4CuzRrnn25E+Q=="
+          "hash": "2Jndq/Y1FQCo1dhy1OZsug=="
         }
       },
       "is_incremental": false,
@@ -10213,7 +10225,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 28,
+          "total_file_count": 29,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
