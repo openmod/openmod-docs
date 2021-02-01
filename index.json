@@ -4166,8 +4166,8 @@
   },
   "README.html": {
     "href": "README.html",
-    "title": "The OpenMod documentation | OpenMod Docs",
-    "keywords": "The OpenMod documentation This directory contains the documentation files for OpenMod. OpenMod uses docfx for the documentation. The documentation is hosted at https://openmod.github.io/openmod-docs/ . License The OpenMod documentation is licensed under the terms of the Creative Commons Attribution 4.0 International (CC BY 4.0) license. See here for more information."
+    "title": "OpenMod Documentation | OpenMod Docs",
+    "keywords": "OpenMod Documentation This directory contains the documentation source files for OpenMod. OpenMod uses docfx for documentation. The compiled documentation is hosted at https://openmod.github.io/openmod-docs/ . License The OpenMod documentation is licensed under the terms of the Creative Commons Attribution 4.0 International (CC BY 4.0) license. See here for more information."
   },
   "userdoc/concepts/configurations.html": {
     "href": "userdoc/concepts/configurations.html",
