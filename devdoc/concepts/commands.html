@@ -233,7 +233,7 @@ A bad example would be:</p>
 <p><strong>Do not</strong> manually send missing permission messages. <em>Always</em> throw NotEnoughPermissionException instead.</p>
 </div>
 <h2 id="adding-child-commands">Adding child commands</h2>
-<p>You can add child commands to a command by using the <code>[CommandParent]</code> attribute. This allows OpenMod to discover your child bcommands and provide additional help and tab autocompletion.</p>
+<p>You can add child commands to a command by using the <code>[CommandParent]</code> attribute. This allows OpenMod to discover your child commands and provide additional help and tab autocompletion.</p>
 <p>The following command will execute when a user types &quot;/awesome more&quot;. The <code>CommandAwesome.OnExecuteAsync</code> method will not execute in this case.</p>
 <pre><code class="lang-c#">[Command(&quot;more&quot;)] 
 [CommandDescription(&quot;My more awesome command&quot;)]
@@ -256,6 +256,34 @@ public class CommandAwesomeMore : Command
 <h5>Caution</h5>
 <p><strong>Do not</strong> handle child commands yourself (e.g. <code>if(Context.Parameters[0] == &quot;add&quot;)</code>). When manually handling child commands, OpenMod can't discover your child commands and provide additional help, permissions or tab autocompletion.</p>
 </div>
+<h2 id="adding-child-permissions">Adding child permissions</h2>
+<p>You can add child permissions for your commands, they need to be registered using <code>[RegisterCommandPermission(&quot;child.permission&quot;)]</code>,
+to check if the user has the permission you will just need to call <code>await CheckPermissionAsync(&quot;child.permission&quot;)</code>and check the result.</p>
+<p>Example:</p>
+<pre><code class="lang-c#">[Command(&quot;more&quot;)] 
+[RegisterCommandPermission(&quot;child.permission&quot;, Description = &quot;My awesome permission description&quot;, DefaultGrant = PermissionGrantResult.Default)]
+//Description and DefaultGrant are optional
+
+public class CommandAwesomeMore : Command
+{
+    public CommandAwesomeMore(IServiceProvider serviceProvider) : base(serviceProvider)
+    {
+    }
+
+    public async Task OnExecuteAsync()
+    {
+        //MyPlugin:AwesomeMore.child.permission
+        if (await CheckPermissionAsync(&quot;child.permission&quot;) == PermissionGrantResult.Grant)
+        {
+            //User have the child permission
+        }
+        else
+        {
+            //User do not have the child permission
+        }
+    }
+}
+</code></pre>
 </article>
               
                 </div>

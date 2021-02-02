@@ -131,6 +131,31 @@ public class UserConnectBroadcaster : IEventListener&lt;UserConnectedEvent&gt;
 </li>
 </ul>
 <p>Usually you want to check if the result equals to <code>PermissionGrantResult.Grant</code> to permit an action. This means that if no explicit permission is set, the action will be denied by default. If you want to execute an action unless it is explicitly denied, use <code>CheckPermissionAsync(..) != PermissionGrantResult.Deny</code> instead.</p>
+<h2 id="register-your-own-permissions">Register your own permissions</h2>
+<p>Plugins that use custom permissions need to be registered before being checked, if they are not registered when you check them you will get an exception.</p>
+<p>To register your permission you need to use <code>IPermissionRegistry</code> service and follow the example:</p>
+<pre><code class="lang-c#">public class MyPlugin : OpenModUniversalPlugin
+{
+    private readonly IPermissionRegistry m_PermissionRegistry;
+
+    public UserConnectEventListener(IPermissionChecker permissionRegistry)
+    {
+        m_PermissionRegistry = permissionRegistry;
+    }
+
+    public async Task OnLoadAsync()
+    {
+        m_PermissionRegistry.RegisterPermission(this, &quot;example.permission&quot;, &quot;This is a example description for my example permission&quot;);
+        return Task.CompletedTask;
+    }
+}
+</code></pre>
+<p>In the example we registered the permission as <code>example.permission</code> but it will be <code>MyPlugin:example.permission</code> to check.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You should always register your permissions at plugin load.
+In case of command related permission there is a better way to register them, please check <a href="commands.html">commands</a>.</p>
+</div>
 <h2 id="adding-your-own-permission-store">Adding your own permission store</h2>
 <p>You can add your own permissions store (e.g. to store permissions in MySQL):</p>
 <p>Implement the IPermissionStore interface and register it via a <a href="services.html">ServiceConfigurator</a>:</p>
