@@ -2778,7 +2778,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Persistence.YamlDataStore.html",
-          "hash": "QPlxEyH8NyAQF4hridqJyA=="
+          "hash": "ZJH7OD3XdsooEedcklCfOg=="
         }
       },
       "is_incremental": false,
@@ -3398,11 +3398,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Core.Users.UsersData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Core.Users.UsersData.html",
+          "hash": "7BFDFIrmXKt7t3P0kQyfGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Core.Users.yml",
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Users.html",
-          "hash": "/qNpWPsibI4cb/woRCXNKA=="
+          "hash": "7D/aMu1mHn00YC0St19PKw=="
         }
       },
       "is_incremental": false,
@@ -9822,7 +9834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "qmj2wf9m4FN9RQ57sMeouQ=="
+          "hash": "4xus/pAqPR1s4V9ylvzcBw=="
         }
       },
       "is_incremental": false,
@@ -10231,7 +10243,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 815,
+          "total_file_count": 816,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

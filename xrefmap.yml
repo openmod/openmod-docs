@@ -10600,15 +10600,15 @@ references:
   commentId: T:OpenMod.Core.Persistence.YamlDataStore
   fullName: OpenMod.Core.Persistence.YamlDataStore
   nameWithType: YamlDataStore
-- uid: OpenMod.Core.Persistence.YamlDataStore.#ctor(OpenMod.API.Persistence.DataStoreCreationParameters,ILogger{OpenMod.Core.Persistence.YamlDataStore},OpenMod.API.IRuntime)
-  name: YamlDataStore(DataStoreCreationParameters, ILogger<YamlDataStore>, IRuntime)
-  href: api/OpenMod.Core.Persistence.YamlDataStore.html#OpenMod_Core_Persistence_YamlDataStore__ctor_OpenMod_API_Persistence_DataStoreCreationParameters_ILogger_OpenMod_Core_Persistence_YamlDataStore__OpenMod_API_IRuntime_
-  commentId: M:OpenMod.Core.Persistence.YamlDataStore.#ctor(OpenMod.API.Persistence.DataStoreCreationParameters,ILogger{OpenMod.Core.Persistence.YamlDataStore},OpenMod.API.IRuntime)
-  name.vb: YamlDataStore(DataStoreCreationParameters, ILogger(Of YamlDataStore), IRuntime)
-  fullName: OpenMod.Core.Persistence.YamlDataStore.YamlDataStore(OpenMod.API.Persistence.DataStoreCreationParameters, ILogger<OpenMod.Core.Persistence.YamlDataStore>, OpenMod.API.IRuntime)
-  fullName.vb: OpenMod.Core.Persistence.YamlDataStore.YamlDataStore(OpenMod.API.Persistence.DataStoreCreationParameters, ILogger(Of OpenMod.Core.Persistence.YamlDataStore), OpenMod.API.IRuntime)
-  nameWithType: YamlDataStore.YamlDataStore(DataStoreCreationParameters, ILogger<YamlDataStore>, IRuntime)
-  nameWithType.vb: YamlDataStore.YamlDataStore(DataStoreCreationParameters, ILogger(Of YamlDataStore), IRuntime)
+- uid: OpenMod.Core.Persistence.YamlDataStore.#ctor(OpenMod.API.Persistence.DataStoreCreationParameters,System.Nullable{ILogger{OpenMod.Core.Persistence.YamlDataStore}},OpenMod.API.IRuntime)
+  name: YamlDataStore(DataStoreCreationParameters, Nullable<ILogger<YamlDataStore>>, IRuntime)
+  href: api/OpenMod.Core.Persistence.YamlDataStore.html#OpenMod_Core_Persistence_YamlDataStore__ctor_OpenMod_API_Persistence_DataStoreCreationParameters_System_Nullable_ILogger_OpenMod_Core_Persistence_YamlDataStore___OpenMod_API_IRuntime_
+  commentId: M:OpenMod.Core.Persistence.YamlDataStore.#ctor(OpenMod.API.Persistence.DataStoreCreationParameters,System.Nullable{ILogger{OpenMod.Core.Persistence.YamlDataStore}},OpenMod.API.IRuntime)
+  name.vb: YamlDataStore(DataStoreCreationParameters, Nullable(Of ILogger(Of YamlDataStore)), IRuntime)
+  fullName: OpenMod.Core.Persistence.YamlDataStore.YamlDataStore(OpenMod.API.Persistence.DataStoreCreationParameters, System.Nullable<ILogger<OpenMod.Core.Persistence.YamlDataStore>>, OpenMod.API.IRuntime)
+  fullName.vb: OpenMod.Core.Persistence.YamlDataStore.YamlDataStore(OpenMod.API.Persistence.DataStoreCreationParameters, System.Nullable(Of ILogger(Of OpenMod.Core.Persistence.YamlDataStore)), OpenMod.API.IRuntime)
+  nameWithType: YamlDataStore.YamlDataStore(DataStoreCreationParameters, Nullable<ILogger<YamlDataStore>>, IRuntime)
+  nameWithType.vb: YamlDataStore.YamlDataStore(DataStoreCreationParameters, Nullable(Of ILogger(Of YamlDataStore)), IRuntime)
 - uid: OpenMod.Core.Persistence.YamlDataStore.#ctor*
   name: YamlDataStore
   href: api/OpenMod.Core.Persistence.YamlDataStore.html#OpenMod_Core_Persistence_YamlDataStore__ctor_
@@ -13007,6 +13007,25 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Users.UserManagerOptions.UserProviderTypes
   nameWithType: UserManagerOptions.UserProviderTypes
+- uid: OpenMod.Core.Users.UsersData
+  name: UsersData
+  href: api/OpenMod.Core.Users.UsersData.html
+  commentId: T:OpenMod.Core.Users.UsersData
+  fullName: OpenMod.Core.Users.UsersData
+  nameWithType: UsersData
+- uid: OpenMod.Core.Users.UsersData.Users
+  name: Users
+  href: api/OpenMod.Core.Users.UsersData.html#OpenMod_Core_Users_UsersData_Users
+  commentId: P:OpenMod.Core.Users.UsersData.Users
+  fullName: OpenMod.Core.Users.UsersData.Users
+  nameWithType: UsersData.Users
+- uid: OpenMod.Core.Users.UsersData.Users*
+  name: Users
+  href: api/OpenMod.Core.Users.UsersData.html#OpenMod_Core_Users_UsersData_Users_
+  commentId: Overload:OpenMod.Core.Users.UsersData.Users
+  isSpec: "True"
+  fullName: OpenMod.Core.Users.UsersData.Users
+  nameWithType: UsersData.Users
 - uid: OpenMod.Core.Users.UserSessionBase
   name: UserSessionBase
   href: api/OpenMod.Core.Users.UserSessionBase.html
