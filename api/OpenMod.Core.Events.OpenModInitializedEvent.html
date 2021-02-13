@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class OpenModShutdownEvent
+    <title>Class OpenModInitializedEvent
    | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class OpenModShutdownEvent
+    <meta name="title" content="Class OpenModInitializedEvent
    | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -92,12 +92,13 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="OpenMod.Runtime.Events.OpenModShutdownEvent">
+                    <article class="content wrap" id="_content" data-uid="OpenMod.Core.Events.OpenModInitializedEvent">
   
   
-  <h1 id="OpenMod_Runtime_Events_OpenModShutdownEvent" data-uid="OpenMod.Runtime.Events.OpenModShutdownEvent" class="text-break">Class OpenModShutdownEvent
+  <h1 id="OpenMod_Core_Events_OpenModInitializedEvent" data-uid="OpenMod.Core.Events.OpenModInitializedEvent" class="text-break">Class OpenModInitializedEvent
   </h1>
-  <div class="markdown level0 summary"><p>The event that is triggered before OpenMod is shutting down.</p>
+  <div class="markdown level0 summary"><p>The event that is triggered when OpenMod has been initialized.
+It is called after the container has been built and all plugins have been loaded.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -105,7 +106,7 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="OpenMod.Core.Eventing.EventBase.html">EventBase</a></div>
     <div class="level2"><a class="xref" href="OpenMod.Core.Eventing.Event.html">Event</a></div>
-    <div class="level3"><span class="xref">OpenModShutdownEvent</span></div>
+    <div class="level3"><span class="xref">OpenModInitializedEvent</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -123,12 +124,79 @@
       <a class="xref" href="OpenMod.Core.Eventing.EventBase.html#OpenMod_Core_Eventing_EventBase_Data">EventBase.Data</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Runtime.Events.html">OpenMod.Runtime.Events</a></h6>
-  <h6><strong>Assembly</strong>: OpenMod.Runtime.dll</h6>
-  <h5 id="OpenMod_Runtime_Events_OpenModShutdownEvent_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Events.html">OpenMod.Core.Events</a></h6>
+  <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
+  <h5 id="OpenMod_Core_Events_OpenModInitializedEvent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OpenModShutdownEvent : Event, IEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class OpenModInitializedEvent : Event, IEvent</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Events_OpenModInitializedEvent__ctor_OpenMod_API_IOpenModHost_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Events.OpenModInitializedEvent.%23ctor(OpenMod.API.IOpenModHost)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Events/OpenModInitializedEvent.cs/#L17">View Source</a>
+  </span>
+  <a id="OpenMod_Core_Events_OpenModInitializedEvent__ctor_" data-uid="OpenMod.Core.Events.OpenModInitializedEvent.#ctor*"></a>
+  <h4 id="OpenMod_Core_Events_OpenModInitializedEvent__ctor_OpenMod_API_IOpenModHost_" data-uid="OpenMod.Core.Events.OpenModInitializedEvent.#ctor(OpenMod.API.IOpenModHost)">OpenModInitializedEvent(IOpenModHost)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OpenModInitializedEvent(IOpenModHost host)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.IOpenModHost.html">IOpenModHost</a></td>
+        <td><span class="parametername">host</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Events_OpenModInitializedEvent_Host.md&amp;value=---%0Auid%3A%20OpenMod.Core.Events.OpenModInitializedEvent.Host%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Events/OpenModInitializedEvent.cs/#L15">View Source</a>
+  </span>
+  <a id="OpenMod_Core_Events_OpenModInitializedEvent_Host_" data-uid="OpenMod.Core.Events.OpenModInitializedEvent.Host*"></a>
+  <h4 id="OpenMod_Core_Events_OpenModInitializedEvent_Host" data-uid="OpenMod.Core.Events.OpenModInitializedEvent.Host">Host</h4>
+  <div class="markdown level1 summary"><p>The OpenMod host.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IOpenModHost Host { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.IOpenModHost.html">IOpenModHost</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="OpenMod.API.Eventing.IEvent.html">IEvent</a>

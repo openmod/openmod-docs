@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class OpenModInitializedEvent
+    <title>Class CooldownSpan
    | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class OpenModInitializedEvent
+    <meta name="title" content="Class CooldownSpan
    | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -92,95 +92,40 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="OpenMod.Runtime.Events.OpenModInitializedEvent">
+                    <article class="content wrap" id="_content" data-uid="OpenMod.Core.Cooldowns.CooldownSpan">
   
   
-  <h1 id="OpenMod_Runtime_Events_OpenModInitializedEvent" data-uid="OpenMod.Runtime.Events.OpenModInitializedEvent" class="text-break">Class OpenModInitializedEvent
+  <h1 id="OpenMod_Core_Cooldowns_CooldownSpan" data-uid="OpenMod.Core.Cooldowns.CooldownSpan" class="text-break">Class CooldownSpan
   </h1>
-  <div class="markdown level0 summary"><p>The event that is triggered when OpenMod has been initialized.
-It is called after the container has been built and all plugins have been loaded.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="OpenMod.Core.Eventing.EventBase.html">EventBase</a></div>
-    <div class="level2"><a class="xref" href="OpenMod.Core.Eventing.Event.html">Event</a></div>
-    <div class="level3"><span class="xref">OpenModInitializedEvent</span></div>
+    <div class="level1"><span class="xref">CooldownSpan</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="OpenMod.API.Eventing.IEvent.html">IEvent</a></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="OpenMod.Core.Eventing.Event.html#OpenMod_Core_Eventing_Event_Arguments">Event.Arguments</a>
-    </div>
-    <div>
-      <a class="xref" href="OpenMod.Core.Eventing.EventBase.html#OpenMod_Core_Eventing_EventBase_Name">EventBase.Name</a>
-    </div>
-    <div>
-      <a class="xref" href="OpenMod.Core.Eventing.EventBase.html#OpenMod_Core_Eventing_EventBase_Data">EventBase.Data</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Runtime.Events.html">OpenMod.Runtime.Events</a></h6>
-  <h6><strong>Assembly</strong>: OpenMod.Runtime.dll</h6>
-  <h5 id="OpenMod_Runtime_Events_OpenModInitializedEvent_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Cooldowns.html">OpenMod.Core.Cooldowns</a></h6>
+  <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
+  <h5 id="OpenMod_Core_Cooldowns_CooldownSpan_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class OpenModInitializedEvent : Event, IEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class CooldownSpan : object</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Runtime_Events_OpenModInitializedEvent__ctor_OpenMod_API_IOpenModHost_.md&amp;value=---%0Auid%3A%20OpenMod.Runtime.Events.OpenModInitializedEvent.%23ctor(OpenMod.API.IOpenModHost)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Runtime/Events/OpenModInitializedEvent.cs/#L17">View Source</a>
-  </span>
-  <a id="OpenMod_Runtime_Events_OpenModInitializedEvent__ctor_" data-uid="OpenMod.Runtime.Events.OpenModInitializedEvent.#ctor*"></a>
-  <h4 id="OpenMod_Runtime_Events_OpenModInitializedEvent__ctor_OpenMod_API_IOpenModHost_" data-uid="OpenMod.Runtime.Events.OpenModInitializedEvent.#ctor(OpenMod.API.IOpenModHost)">OpenModInitializedEvent(IOpenModHost)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OpenModInitializedEvent(IOpenModHost host)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="OpenMod.API.IOpenModHost.html">IOpenModHost</a></td>
-        <td><span class="parametername">host</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Runtime_Events_OpenModInitializedEvent_Host.md&amp;value=---%0Auid%3A%20OpenMod.Runtime.Events.OpenModInitializedEvent.Host%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Cooldowns_CooldownSpan_Command.md&amp;value=---%0Auid%3A%20OpenMod.Core.Cooldowns.CooldownSpan.Command%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Runtime/Events/OpenModInitializedEvent.cs/#L15">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Cooldowns/CooldownSpan.cs/#L9">View Source</a>
   </span>
-  <a id="OpenMod_Runtime_Events_OpenModInitializedEvent_Host_" data-uid="OpenMod.Runtime.Events.OpenModInitializedEvent.Host*"></a>
-  <h4 id="OpenMod_Runtime_Events_OpenModInitializedEvent_Host" data-uid="OpenMod.Runtime.Events.OpenModInitializedEvent.Host">Host</h4>
-  <div class="markdown level1 summary"><p>The OpenMod host.</p>
-</div>
+  <a id="OpenMod_Core_Cooldowns_CooldownSpan_Command_" data-uid="OpenMod.Core.Cooldowns.CooldownSpan.Command*"></a>
+  <h4 id="OpenMod_Core_Cooldowns_CooldownSpan_Command" data-uid="OpenMod.Core.Cooldowns.CooldownSpan.Command">Command</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IOpenModHost Host { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? Command { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,15 +137,73 @@ It is called after the container has been built and all plugins have been loaded
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="OpenMod.API.IOpenModHost.html">IOpenModHost</a></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="OpenMod.API.Eventing.IEvent.html">IEvent</a>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Cooldowns_CooldownSpan_Cooldown.md&amp;value=---%0Auid%3A%20OpenMod.Core.Cooldowns.CooldownSpan.Cooldown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Cooldowns/CooldownSpan.cs/#L11">View Source</a>
+  </span>
+  <a id="OpenMod_Core_Cooldowns_CooldownSpan_Cooldown_" data-uid="OpenMod.Core.Cooldowns.CooldownSpan.Cooldown*"></a>
+  <h4 id="OpenMod_Core_Cooldowns_CooldownSpan_Cooldown" data-uid="OpenMod.Core.Cooldowns.CooldownSpan.Cooldown">Cooldown</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Cooldown { get; set; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Cooldowns_CooldownSpan_ToTimeSpan.md&amp;value=---%0Auid%3A%20OpenMod.Core.Cooldowns.CooldownSpan.ToTimeSpan%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Cooldowns/CooldownSpan.cs/#L13">View Source</a>
+  </span>
+  <a id="OpenMod_Core_Cooldowns_CooldownSpan_ToTimeSpan_" data-uid="OpenMod.Core.Cooldowns.CooldownSpan.ToTimeSpan*"></a>
+  <h4 id="OpenMod_Core_Cooldowns_CooldownSpan_ToTimeSpan" data-uid="OpenMod.Core.Cooldowns.CooldownSpan.ToTimeSpan">ToTimeSpan()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan ToTimeSpan()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="OpenMod.Core.Helpers.DisposeHelper.html#OpenMod_Core_Helpers_DisposeHelper_DisposeSyncOrAsync_System_Object_">DisposeHelper.DisposeSyncOrAsync(Object)</a>

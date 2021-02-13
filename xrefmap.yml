@@ -164,6 +164,19 @@ references:
   commentId: T:OpenMod.API.Commands.ICommandActor
   fullName: OpenMod.API.Commands.ICommandActor
   nameWithType: ICommandActor
+- uid: OpenMod.API.Commands.ICommandActor.FullActorName
+  name: FullActorName
+  href: api/OpenMod.API.Commands.ICommandActor.html#OpenMod_API_Commands_ICommandActor_FullActorName
+  commentId: P:OpenMod.API.Commands.ICommandActor.FullActorName
+  fullName: OpenMod.API.Commands.ICommandActor.FullActorName
+  nameWithType: ICommandActor.FullActorName
+- uid: OpenMod.API.Commands.ICommandActor.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.API.Commands.ICommandActor.html#OpenMod_API_Commands_ICommandActor_FullActorName_
+  commentId: Overload:OpenMod.API.Commands.ICommandActor.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.API.Commands.ICommandActor.FullActorName
+  nameWithType: ICommandActor.FullActorName
 - uid: OpenMod.API.Commands.ICommandActor.PrintMessageAsync(System.String)
   name: PrintMessageAsync(String)
   href: api/OpenMod.API.Commands.ICommandActor.html#OpenMod_API_Commands_ICommandActor_PrintMessageAsync_System_String_
@@ -5832,12 +5845,12 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Commands.OpenModCommands.CommandHelp.CommandHelp
   nameWithType: CommandHelp.CommandHelp
-- uid: OpenMod.Core.Commands.OpenModCommands.CommandHelp.GetCommandUsage(OpenMod.API.Commands.ICommandRegistration,System.String)
-  name: GetCommandUsage(ICommandRegistration, String)
-  href: api/OpenMod.Core.Commands.OpenModCommands.CommandHelp.html#OpenMod_Core_Commands_OpenModCommands_CommandHelp_GetCommandUsage_OpenMod_API_Commands_ICommandRegistration_System_String_
-  commentId: M:OpenMod.Core.Commands.OpenModCommands.CommandHelp.GetCommandUsage(OpenMod.API.Commands.ICommandRegistration,System.String)
-  fullName: OpenMod.Core.Commands.OpenModCommands.CommandHelp.GetCommandUsage(OpenMod.API.Commands.ICommandRegistration, System.String)
-  nameWithType: CommandHelp.GetCommandUsage(ICommandRegistration, String)
+- uid: OpenMod.Core.Commands.OpenModCommands.CommandHelp.GetCommandUsage(OpenMod.API.Commands.ICommandRegistration)
+  name: GetCommandUsage(ICommandRegistration)
+  href: api/OpenMod.Core.Commands.OpenModCommands.CommandHelp.html#OpenMod_Core_Commands_OpenModCommands_CommandHelp_GetCommandUsage_OpenMod_API_Commands_ICommandRegistration_
+  commentId: M:OpenMod.Core.Commands.OpenModCommands.CommandHelp.GetCommandUsage(OpenMod.API.Commands.ICommandRegistration)
+  fullName: OpenMod.Core.Commands.OpenModCommands.CommandHelp.GetCommandUsage(OpenMod.API.Commands.ICommandRegistration)
+  nameWithType: CommandHelp.GetCommandUsage(ICommandRegistration)
 - uid: OpenMod.Core.Commands.OpenModCommands.CommandHelp.GetCommandUsage*
   name: GetCommandUsage
   href: api/OpenMod.Core.Commands.OpenModCommands.CommandHelp.html#OpenMod_Core_Commands_OpenModCommands_CommandHelp_GetCommandUsage_
@@ -7203,6 +7216,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Console.ConsoleActor.DisplayName
   nameWithType: ConsoleActor.DisplayName
+- uid: OpenMod.Core.Console.ConsoleActor.FullActorName
+  name: FullActorName
+  href: api/OpenMod.Core.Console.ConsoleActor.html#OpenMod_Core_Console_ConsoleActor_FullActorName
+  commentId: P:OpenMod.Core.Console.ConsoleActor.FullActorName
+  fullName: OpenMod.Core.Console.ConsoleActor.FullActorName
+  nameWithType: ConsoleActor.FullActorName
+- uid: OpenMod.Core.Console.ConsoleActor.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.Core.Console.ConsoleActor.html#OpenMod_Core_Console_ConsoleActor_FullActorName_
+  commentId: Overload:OpenMod.Core.Console.ConsoleActor.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.Core.Console.ConsoleActor.FullActorName
+  nameWithType: ConsoleActor.FullActorName
 - uid: OpenMod.Core.Console.ConsoleActor.Id
   name: Id
   href: api/OpenMod.Core.Console.ConsoleActor.html#OpenMod_Core_Console_ConsoleActor_Id
@@ -7286,6 +7312,252 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Console.IConsoleActorAccessor.Actor
   nameWithType: IConsoleActorAccessor.Actor
+- uid: OpenMod.Core.Cooldowns
+  name: OpenMod.Core.Cooldowns
+  href: api/OpenMod.Core.Cooldowns.html
+  commentId: N:OpenMod.Core.Cooldowns
+  fullName: OpenMod.Core.Cooldowns
+  nameWithType: OpenMod.Core.Cooldowns
+- uid: OpenMod.Core.Cooldowns.CommandEventListener
+  name: CommandEventListener
+  href: api/OpenMod.Core.Cooldowns.CommandEventListener.html
+  commentId: T:OpenMod.Core.Cooldowns.CommandEventListener
+  fullName: OpenMod.Core.Cooldowns.CommandEventListener
+  nameWithType: CommandEventListener
+- uid: OpenMod.Core.Cooldowns.CommandEventListener.#ctor(OpenMod.Core.Cooldowns.ICommandCooldownStore,OpenMod.API.Localization.IOpenModStringLocalizer)
+  name: CommandEventListener(ICommandCooldownStore, IOpenModStringLocalizer)
+  href: api/OpenMod.Core.Cooldowns.CommandEventListener.html#OpenMod_Core_Cooldowns_CommandEventListener__ctor_OpenMod_Core_Cooldowns_ICommandCooldownStore_OpenMod_API_Localization_IOpenModStringLocalizer_
+  commentId: M:OpenMod.Core.Cooldowns.CommandEventListener.#ctor(OpenMod.Core.Cooldowns.ICommandCooldownStore,OpenMod.API.Localization.IOpenModStringLocalizer)
+  fullName: OpenMod.Core.Cooldowns.CommandEventListener.CommandEventListener(OpenMod.Core.Cooldowns.ICommandCooldownStore, OpenMod.API.Localization.IOpenModStringLocalizer)
+  nameWithType: CommandEventListener.CommandEventListener(ICommandCooldownStore, IOpenModStringLocalizer)
+- uid: OpenMod.Core.Cooldowns.CommandEventListener.#ctor*
+  name: CommandEventListener
+  href: api/OpenMod.Core.Cooldowns.CommandEventListener.html#OpenMod_Core_Cooldowns_CommandEventListener__ctor_
+  commentId: Overload:OpenMod.Core.Cooldowns.CommandEventListener.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CommandEventListener.CommandEventListener
+  nameWithType: CommandEventListener.CommandEventListener
+- uid: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object,OpenMod.Core.Commands.Events.CommandExecutedEvent)
+  name: HandleEventAsync(Object, CommandExecutedEvent)
+  href: api/OpenMod.Core.Cooldowns.CommandEventListener.html#OpenMod_Core_Cooldowns_CommandEventListener_HandleEventAsync_System_Object_OpenMod_Core_Commands_Events_CommandExecutedEvent_
+  commentId: M:OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object,OpenMod.Core.Commands.Events.CommandExecutedEvent)
+  fullName: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object, OpenMod.Core.Commands.Events.CommandExecutedEvent)
+  nameWithType: CommandEventListener.HandleEventAsync(Object, CommandExecutedEvent)
+- uid: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object,OpenMod.Core.Commands.Events.CommandExecutingEvent)
+  name: HandleEventAsync(Object, CommandExecutingEvent)
+  href: api/OpenMod.Core.Cooldowns.CommandEventListener.html#OpenMod_Core_Cooldowns_CommandEventListener_HandleEventAsync_System_Object_OpenMod_Core_Commands_Events_CommandExecutingEvent_
+  commentId: M:OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object,OpenMod.Core.Commands.Events.CommandExecutingEvent)
+  fullName: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object, OpenMod.Core.Commands.Events.CommandExecutingEvent)
+  nameWithType: CommandEventListener.HandleEventAsync(Object, CommandExecutingEvent)
+- uid: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync*
+  name: HandleEventAsync
+  href: api/OpenMod.Core.Cooldowns.CommandEventListener.html#OpenMod_Core_Cooldowns_CommandEventListener_HandleEventAsync_
+  commentId: Overload:OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync
+  nameWithType: CommandEventListener.HandleEventAsync
+- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore
+  name: CommmandCooldownStore
+  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html
+  commentId: T:OpenMod.Core.Cooldowns.CommmandCooldownStore
+  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore
+  nameWithType: CommmandCooldownStore
+- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.#ctor(ILogger{OpenMod.Core.Cooldowns.CommmandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)
+  name: CommmandCooldownStore(ILogger<CommmandCooldownStore>, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore__ctor_ILogger_OpenMod_Core_Cooldowns_CommmandCooldownStore__OpenMod_API_Permissions_IPermissionRoleStore_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Permissions_IPermissionChecker_
+  commentId: M:OpenMod.Core.Cooldowns.CommmandCooldownStore.#ctor(ILogger{OpenMod.Core.Cooldowns.CommmandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)
+  name.vb: CommmandCooldownStore(ILogger(Of CommmandCooldownStore), IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.CommmandCooldownStore(ILogger<OpenMod.Core.Cooldowns.CommmandCooldownStore>, OpenMod.API.Permissions.IPermissionRoleStore, OpenMod.Core.Permissions.IPermissionRolesDataStore, OpenMod.API.Permissions.IPermissionChecker)
+  fullName.vb: OpenMod.Core.Cooldowns.CommmandCooldownStore.CommmandCooldownStore(ILogger(Of OpenMod.Core.Cooldowns.CommmandCooldownStore), OpenMod.API.Permissions.IPermissionRoleStore, OpenMod.Core.Permissions.IPermissionRolesDataStore, OpenMod.API.Permissions.IPermissionChecker)
+  nameWithType: CommmandCooldownStore.CommmandCooldownStore(ILogger<CommmandCooldownStore>, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+  nameWithType.vb: CommmandCooldownStore.CommmandCooldownStore(ILogger(Of CommmandCooldownStore), IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.#ctor*
+  name: CommmandCooldownStore
+  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore__ctor_
+  commentId: Overload:OpenMod.Core.Cooldowns.CommmandCooldownStore.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.CommmandCooldownStore
+  nameWithType: CommmandCooldownStore.CommmandCooldownStore
+- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  name: GetCooldownSpanAsync(ICommandActor, String)
+  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_GetCooldownSpanAsync_OpenMod_API_Commands_ICommandActor_System_String_
+  commentId: M:OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor, System.String)
+  nameWithType: CommmandCooldownStore.GetCooldownSpanAsync(ICommandActor, String)
+- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync*
+  name: GetCooldownSpanAsync
+  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_GetCooldownSpanAsync_
+  commentId: Overload:OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync
+  nameWithType: CommmandCooldownStore.GetCooldownSpanAsync
+- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  name: GetLastExecutedAsync(ICommandActor, String)
+  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_GetLastExecutedAsync_OpenMod_API_Commands_ICommandActor_System_String_
+  commentId: M:OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor, System.String)
+  nameWithType: CommmandCooldownStore.GetLastExecutedAsync(ICommandActor, String)
+- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync*
+  name: GetLastExecutedAsync
+  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_GetLastExecutedAsync_
+  commentId: Overload:OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync
+  nameWithType: CommmandCooldownStore.GetLastExecutedAsync
+- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor,System.String,DateTime)
+  name: RecordExecutionAsync(ICommandActor, String, DateTime)
+  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_RecordExecutionAsync_OpenMod_API_Commands_ICommandActor_System_String_DateTime_
+  commentId: M:OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor,System.String,DateTime)
+  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor, System.String, DateTime)
+  nameWithType: CommmandCooldownStore.RecordExecutionAsync(ICommandActor, String, DateTime)
+- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync*
+  name: RecordExecutionAsync
+  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_RecordExecutionAsync_
+  commentId: Overload:OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync
+  nameWithType: CommmandCooldownStore.RecordExecutionAsync
+- uid: OpenMod.Core.Cooldowns.CooldownRecord
+  name: CooldownRecord
+  href: api/OpenMod.Core.Cooldowns.CooldownRecord.html
+  commentId: T:OpenMod.Core.Cooldowns.CooldownRecord
+  fullName: OpenMod.Core.Cooldowns.CooldownRecord
+  nameWithType: CooldownRecord
+- uid: OpenMod.Core.Cooldowns.CooldownRecord.#ctor
+  name: CooldownRecord()
+  href: api/OpenMod.Core.Cooldowns.CooldownRecord.html#OpenMod_Core_Cooldowns_CooldownRecord__ctor
+  commentId: M:OpenMod.Core.Cooldowns.CooldownRecord.#ctor
+  fullName: OpenMod.Core.Cooldowns.CooldownRecord.CooldownRecord()
+  nameWithType: CooldownRecord.CooldownRecord()
+- uid: OpenMod.Core.Cooldowns.CooldownRecord.#ctor(System.String,DateTime)
+  name: CooldownRecord(String, DateTime)
+  href: api/OpenMod.Core.Cooldowns.CooldownRecord.html#OpenMod_Core_Cooldowns_CooldownRecord__ctor_System_String_DateTime_
+  commentId: M:OpenMod.Core.Cooldowns.CooldownRecord.#ctor(System.String,DateTime)
+  fullName: OpenMod.Core.Cooldowns.CooldownRecord.CooldownRecord(System.String, DateTime)
+  nameWithType: CooldownRecord.CooldownRecord(String, DateTime)
+- uid: OpenMod.Core.Cooldowns.CooldownRecord.#ctor*
+  name: CooldownRecord
+  href: api/OpenMod.Core.Cooldowns.CooldownRecord.html#OpenMod_Core_Cooldowns_CooldownRecord__ctor_
+  commentId: Overload:OpenMod.Core.Cooldowns.CooldownRecord.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CooldownRecord.CooldownRecord
+  nameWithType: CooldownRecord.CooldownRecord
+- uid: OpenMod.Core.Cooldowns.CooldownRecord.Command
+  name: Command
+  href: api/OpenMod.Core.Cooldowns.CooldownRecord.html#OpenMod_Core_Cooldowns_CooldownRecord_Command
+  commentId: P:OpenMod.Core.Cooldowns.CooldownRecord.Command
+  fullName: OpenMod.Core.Cooldowns.CooldownRecord.Command
+  nameWithType: CooldownRecord.Command
+- uid: OpenMod.Core.Cooldowns.CooldownRecord.Command*
+  name: Command
+  href: api/OpenMod.Core.Cooldowns.CooldownRecord.html#OpenMod_Core_Cooldowns_CooldownRecord_Command_
+  commentId: Overload:OpenMod.Core.Cooldowns.CooldownRecord.Command
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CooldownRecord.Command
+  nameWithType: CooldownRecord.Command
+- uid: OpenMod.Core.Cooldowns.CooldownRecord.Executed
+  name: Executed
+  href: api/OpenMod.Core.Cooldowns.CooldownRecord.html#OpenMod_Core_Cooldowns_CooldownRecord_Executed
+  commentId: P:OpenMod.Core.Cooldowns.CooldownRecord.Executed
+  fullName: OpenMod.Core.Cooldowns.CooldownRecord.Executed
+  nameWithType: CooldownRecord.Executed
+- uid: OpenMod.Core.Cooldowns.CooldownRecord.Executed*
+  name: Executed
+  href: api/OpenMod.Core.Cooldowns.CooldownRecord.html#OpenMod_Core_Cooldowns_CooldownRecord_Executed_
+  commentId: Overload:OpenMod.Core.Cooldowns.CooldownRecord.Executed
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CooldownRecord.Executed
+  nameWithType: CooldownRecord.Executed
+- uid: OpenMod.Core.Cooldowns.CooldownSpan
+  name: CooldownSpan
+  href: api/OpenMod.Core.Cooldowns.CooldownSpan.html
+  commentId: T:OpenMod.Core.Cooldowns.CooldownSpan
+  fullName: OpenMod.Core.Cooldowns.CooldownSpan
+  nameWithType: CooldownSpan
+- uid: OpenMod.Core.Cooldowns.CooldownSpan.Command
+  name: Command
+  href: api/OpenMod.Core.Cooldowns.CooldownSpan.html#OpenMod_Core_Cooldowns_CooldownSpan_Command
+  commentId: P:OpenMod.Core.Cooldowns.CooldownSpan.Command
+  fullName: OpenMod.Core.Cooldowns.CooldownSpan.Command
+  nameWithType: CooldownSpan.Command
+- uid: OpenMod.Core.Cooldowns.CooldownSpan.Command*
+  name: Command
+  href: api/OpenMod.Core.Cooldowns.CooldownSpan.html#OpenMod_Core_Cooldowns_CooldownSpan_Command_
+  commentId: Overload:OpenMod.Core.Cooldowns.CooldownSpan.Command
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CooldownSpan.Command
+  nameWithType: CooldownSpan.Command
+- uid: OpenMod.Core.Cooldowns.CooldownSpan.Cooldown
+  name: Cooldown
+  href: api/OpenMod.Core.Cooldowns.CooldownSpan.html#OpenMod_Core_Cooldowns_CooldownSpan_Cooldown
+  commentId: P:OpenMod.Core.Cooldowns.CooldownSpan.Cooldown
+  fullName: OpenMod.Core.Cooldowns.CooldownSpan.Cooldown
+  nameWithType: CooldownSpan.Cooldown
+- uid: OpenMod.Core.Cooldowns.CooldownSpan.Cooldown*
+  name: Cooldown
+  href: api/OpenMod.Core.Cooldowns.CooldownSpan.html#OpenMod_Core_Cooldowns_CooldownSpan_Cooldown_
+  commentId: Overload:OpenMod.Core.Cooldowns.CooldownSpan.Cooldown
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CooldownSpan.Cooldown
+  nameWithType: CooldownSpan.Cooldown
+- uid: OpenMod.Core.Cooldowns.CooldownSpan.ToTimeSpan
+  name: ToTimeSpan()
+  href: api/OpenMod.Core.Cooldowns.CooldownSpan.html#OpenMod_Core_Cooldowns_CooldownSpan_ToTimeSpan
+  commentId: M:OpenMod.Core.Cooldowns.CooldownSpan.ToTimeSpan
+  fullName: OpenMod.Core.Cooldowns.CooldownSpan.ToTimeSpan()
+  nameWithType: CooldownSpan.ToTimeSpan()
+- uid: OpenMod.Core.Cooldowns.CooldownSpan.ToTimeSpan*
+  name: ToTimeSpan
+  href: api/OpenMod.Core.Cooldowns.CooldownSpan.html#OpenMod_Core_Cooldowns_CooldownSpan_ToTimeSpan_
+  commentId: Overload:OpenMod.Core.Cooldowns.CooldownSpan.ToTimeSpan
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CooldownSpan.ToTimeSpan
+  nameWithType: CooldownSpan.ToTimeSpan
+- uid: OpenMod.Core.Cooldowns.ICommandCooldownStore
+  name: ICommandCooldownStore
+  href: api/OpenMod.Core.Cooldowns.ICommandCooldownStore.html
+  commentId: T:OpenMod.Core.Cooldowns.ICommandCooldownStore
+  fullName: OpenMod.Core.Cooldowns.ICommandCooldownStore
+  nameWithType: ICommandCooldownStore
+- uid: OpenMod.Core.Cooldowns.ICommandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  name: GetCooldownSpanAsync(ICommandActor, String)
+  href: api/OpenMod.Core.Cooldowns.ICommandCooldownStore.html#OpenMod_Core_Cooldowns_ICommandCooldownStore_GetCooldownSpanAsync_OpenMod_API_Commands_ICommandActor_System_String_
+  commentId: M:OpenMod.Core.Cooldowns.ICommandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  fullName: OpenMod.Core.Cooldowns.ICommandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor, System.String)
+  nameWithType: ICommandCooldownStore.GetCooldownSpanAsync(ICommandActor, String)
+- uid: OpenMod.Core.Cooldowns.ICommandCooldownStore.GetCooldownSpanAsync*
+  name: GetCooldownSpanAsync
+  href: api/OpenMod.Core.Cooldowns.ICommandCooldownStore.html#OpenMod_Core_Cooldowns_ICommandCooldownStore_GetCooldownSpanAsync_
+  commentId: Overload:OpenMod.Core.Cooldowns.ICommandCooldownStore.GetCooldownSpanAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.ICommandCooldownStore.GetCooldownSpanAsync
+  nameWithType: ICommandCooldownStore.GetCooldownSpanAsync
+- uid: OpenMod.Core.Cooldowns.ICommandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  name: GetLastExecutedAsync(ICommandActor, String)
+  href: api/OpenMod.Core.Cooldowns.ICommandCooldownStore.html#OpenMod_Core_Cooldowns_ICommandCooldownStore_GetLastExecutedAsync_OpenMod_API_Commands_ICommandActor_System_String_
+  commentId: M:OpenMod.Core.Cooldowns.ICommandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  fullName: OpenMod.Core.Cooldowns.ICommandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor, System.String)
+  nameWithType: ICommandCooldownStore.GetLastExecutedAsync(ICommandActor, String)
+- uid: OpenMod.Core.Cooldowns.ICommandCooldownStore.GetLastExecutedAsync*
+  name: GetLastExecutedAsync
+  href: api/OpenMod.Core.Cooldowns.ICommandCooldownStore.html#OpenMod_Core_Cooldowns_ICommandCooldownStore_GetLastExecutedAsync_
+  commentId: Overload:OpenMod.Core.Cooldowns.ICommandCooldownStore.GetLastExecutedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.ICommandCooldownStore.GetLastExecutedAsync
+  nameWithType: ICommandCooldownStore.GetLastExecutedAsync
+- uid: OpenMod.Core.Cooldowns.ICommandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor,System.String,DateTime)
+  name: RecordExecutionAsync(ICommandActor, String, DateTime)
+  href: api/OpenMod.Core.Cooldowns.ICommandCooldownStore.html#OpenMod_Core_Cooldowns_ICommandCooldownStore_RecordExecutionAsync_OpenMod_API_Commands_ICommandActor_System_String_DateTime_
+  commentId: M:OpenMod.Core.Cooldowns.ICommandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor,System.String,DateTime)
+  fullName: OpenMod.Core.Cooldowns.ICommandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor, System.String, DateTime)
+  nameWithType: ICommandCooldownStore.RecordExecutionAsync(ICommandActor, String, DateTime)
+- uid: OpenMod.Core.Cooldowns.ICommandCooldownStore.RecordExecutionAsync*
+  name: RecordExecutionAsync
+  href: api/OpenMod.Core.Cooldowns.ICommandCooldownStore.html#OpenMod_Core_Cooldowns_ICommandCooldownStore_RecordExecutionAsync_
+  commentId: Overload:OpenMod.Core.Cooldowns.ICommandCooldownStore.RecordExecutionAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.ICommandCooldownStore.RecordExecutionAsync
+  nameWithType: ICommandCooldownStore.RecordExecutionAsync
 - uid: OpenMod.Core.Eventing
   name: OpenMod.Core.Eventing
   href: api/OpenMod.Core.Eventing.html
@@ -7629,6 +7901,50 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Eventing.EventListenerLifetimeAttribute.Lifetime
   nameWithType: EventListenerLifetimeAttribute.Lifetime
+- uid: OpenMod.Core.Events
+  name: OpenMod.Core.Events
+  href: api/OpenMod.Core.Events.html
+  commentId: N:OpenMod.Core.Events
+  fullName: OpenMod.Core.Events
+  nameWithType: OpenMod.Core.Events
+- uid: OpenMod.Core.Events.OpenModInitializedEvent
+  name: OpenModInitializedEvent
+  href: api/OpenMod.Core.Events.OpenModInitializedEvent.html
+  commentId: T:OpenMod.Core.Events.OpenModInitializedEvent
+  fullName: OpenMod.Core.Events.OpenModInitializedEvent
+  nameWithType: OpenModInitializedEvent
+- uid: OpenMod.Core.Events.OpenModInitializedEvent.#ctor(OpenMod.API.IOpenModHost)
+  name: OpenModInitializedEvent(IOpenModHost)
+  href: api/OpenMod.Core.Events.OpenModInitializedEvent.html#OpenMod_Core_Events_OpenModInitializedEvent__ctor_OpenMod_API_IOpenModHost_
+  commentId: M:OpenMod.Core.Events.OpenModInitializedEvent.#ctor(OpenMod.API.IOpenModHost)
+  fullName: OpenMod.Core.Events.OpenModInitializedEvent.OpenModInitializedEvent(OpenMod.API.IOpenModHost)
+  nameWithType: OpenModInitializedEvent.OpenModInitializedEvent(IOpenModHost)
+- uid: OpenMod.Core.Events.OpenModInitializedEvent.#ctor*
+  name: OpenModInitializedEvent
+  href: api/OpenMod.Core.Events.OpenModInitializedEvent.html#OpenMod_Core_Events_OpenModInitializedEvent__ctor_
+  commentId: Overload:OpenMod.Core.Events.OpenModInitializedEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Events.OpenModInitializedEvent.OpenModInitializedEvent
+  nameWithType: OpenModInitializedEvent.OpenModInitializedEvent
+- uid: OpenMod.Core.Events.OpenModInitializedEvent.Host
+  name: Host
+  href: api/OpenMod.Core.Events.OpenModInitializedEvent.html#OpenMod_Core_Events_OpenModInitializedEvent_Host
+  commentId: P:OpenMod.Core.Events.OpenModInitializedEvent.Host
+  fullName: OpenMod.Core.Events.OpenModInitializedEvent.Host
+  nameWithType: OpenModInitializedEvent.Host
+- uid: OpenMod.Core.Events.OpenModInitializedEvent.Host*
+  name: Host
+  href: api/OpenMod.Core.Events.OpenModInitializedEvent.html#OpenMod_Core_Events_OpenModInitializedEvent_Host_
+  commentId: Overload:OpenMod.Core.Events.OpenModInitializedEvent.Host
+  isSpec: "True"
+  fullName: OpenMod.Core.Events.OpenModInitializedEvent.Host
+  nameWithType: OpenModInitializedEvent.Host
+- uid: OpenMod.Core.Events.OpenModShutdownEvent
+  name: OpenModShutdownEvent
+  href: api/OpenMod.Core.Events.OpenModShutdownEvent.html
+  commentId: T:OpenMod.Core.Events.OpenModShutdownEvent
+  fullName: OpenMod.Core.Events.OpenModShutdownEvent
+  nameWithType: OpenModShutdownEvent
 - uid: OpenMod.Core.Helpers
   name: OpenMod.Core.Helpers
   href: api/OpenMod.Core.Helpers.html
@@ -7931,6 +8247,57 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Helpers.DisposeHelper.DisposeSyncOrAsync
   nameWithType: DisposeHelper.DisposeSyncOrAsync
+- uid: OpenMod.Core.Helpers.NullDisposable
+  name: NullDisposable
+  href: api/OpenMod.Core.Helpers.NullDisposable.html
+  commentId: T:OpenMod.Core.Helpers.NullDisposable
+  fullName: OpenMod.Core.Helpers.NullDisposable
+  nameWithType: NullDisposable
+- uid: OpenMod.Core.Helpers.NullDisposable.Dispose
+  name: Dispose()
+  href: api/OpenMod.Core.Helpers.NullDisposable.html#OpenMod_Core_Helpers_NullDisposable_Dispose
+  commentId: M:OpenMod.Core.Helpers.NullDisposable.Dispose
+  fullName: OpenMod.Core.Helpers.NullDisposable.Dispose()
+  nameWithType: NullDisposable.Dispose()
+- uid: OpenMod.Core.Helpers.NullDisposable.Dispose*
+  name: Dispose
+  href: api/OpenMod.Core.Helpers.NullDisposable.html#OpenMod_Core_Helpers_NullDisposable_Dispose_
+  commentId: Overload:OpenMod.Core.Helpers.NullDisposable.Dispose
+  isSpec: "True"
+  fullName: OpenMod.Core.Helpers.NullDisposable.Dispose
+  nameWithType: NullDisposable.Dispose
+- uid: OpenMod.Core.Helpers.NullDisposable.Instance
+  name: Instance
+  href: api/OpenMod.Core.Helpers.NullDisposable.html#OpenMod_Core_Helpers_NullDisposable_Instance
+  commentId: P:OpenMod.Core.Helpers.NullDisposable.Instance
+  fullName: OpenMod.Core.Helpers.NullDisposable.Instance
+  nameWithType: NullDisposable.Instance
+- uid: OpenMod.Core.Helpers.NullDisposable.Instance*
+  name: Instance
+  href: api/OpenMod.Core.Helpers.NullDisposable.html#OpenMod_Core_Helpers_NullDisposable_Instance_
+  commentId: Overload:OpenMod.Core.Helpers.NullDisposable.Instance
+  isSpec: "True"
+  fullName: OpenMod.Core.Helpers.NullDisposable.Instance
+  nameWithType: NullDisposable.Instance
+- uid: OpenMod.Core.Helpers.PathHelper
+  name: PathHelper
+  href: api/OpenMod.Core.Helpers.PathHelper.html
+  commentId: T:OpenMod.Core.Helpers.PathHelper
+  fullName: OpenMod.Core.Helpers.PathHelper
+  nameWithType: PathHelper
+- uid: OpenMod.Core.Helpers.PathHelper.MakeRelativePath(System.String,System.String)
+  name: MakeRelativePath(String, String)
+  href: api/OpenMod.Core.Helpers.PathHelper.html#OpenMod_Core_Helpers_PathHelper_MakeRelativePath_System_String_System_String_
+  commentId: M:OpenMod.Core.Helpers.PathHelper.MakeRelativePath(System.String,System.String)
+  fullName: OpenMod.Core.Helpers.PathHelper.MakeRelativePath(System.String, System.String)
+  nameWithType: PathHelper.MakeRelativePath(String, String)
+- uid: OpenMod.Core.Helpers.PathHelper.MakeRelativePath*
+  name: MakeRelativePath
+  href: api/OpenMod.Core.Helpers.PathHelper.html#OpenMod_Core_Helpers_PathHelper_MakeRelativePath_
+  commentId: Overload:OpenMod.Core.Helpers.PathHelper.MakeRelativePath
+  isSpec: "True"
+  fullName: OpenMod.Core.Helpers.PathHelper.MakeRelativePath
+  nameWithType: PathHelper.MakeRelativePath
 - uid: OpenMod.Core.Helpers.ProcessHelper
   name: ProcessHelper
   href: api/OpenMod.Core.Helpers.ProcessHelper.html
@@ -8547,6 +8914,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Jobs.OpenModCommandTaskActor.DisplayName
   nameWithType: OpenModCommandTaskActor.DisplayName
+- uid: OpenMod.Core.Jobs.OpenModCommandTaskActor.FullActorName
+  name: FullActorName
+  href: api/OpenMod.Core.Jobs.OpenModCommandTaskActor.html#OpenMod_Core_Jobs_OpenModCommandTaskActor_FullActorName
+  commentId: P:OpenMod.Core.Jobs.OpenModCommandTaskActor.FullActorName
+  fullName: OpenMod.Core.Jobs.OpenModCommandTaskActor.FullActorName
+  nameWithType: OpenModCommandTaskActor.FullActorName
+- uid: OpenMod.Core.Jobs.OpenModCommandTaskActor.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.Core.Jobs.OpenModCommandTaskActor.html#OpenMod_Core_Jobs_OpenModCommandTaskActor_FullActorName_
+  commentId: Overload:OpenMod.Core.Jobs.OpenModCommandTaskActor.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.Core.Jobs.OpenModCommandTaskActor.FullActorName
+  nameWithType: OpenModCommandTaskActor.FullActorName
 - uid: OpenMod.Core.Jobs.OpenModCommandTaskActor.Id
   name: Id
   href: api/OpenMod.Core.Jobs.OpenModCommandTaskActor.html#OpenMod_Core_Jobs_OpenModCommandTaskActor_Id
@@ -11043,51 +11423,51 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Plugins.Events.PluginLoadedEvent.Plugin
   nameWithType: PluginLoadedEvent.Plugin
-- uid: OpenMod.Core.Plugins.Events.PluginLoadEvent
-  name: PluginLoadEvent
-  href: api/OpenMod.Core.Plugins.Events.PluginLoadEvent.html
-  commentId: T:OpenMod.Core.Plugins.Events.PluginLoadEvent
-  fullName: OpenMod.Core.Plugins.Events.PluginLoadEvent
-  nameWithType: PluginLoadEvent
-- uid: OpenMod.Core.Plugins.Events.PluginLoadEvent.#ctor(OpenMod.API.Plugins.IOpenModPlugin)
-  name: PluginLoadEvent(IOpenModPlugin)
-  href: api/OpenMod.Core.Plugins.Events.PluginLoadEvent.html#OpenMod_Core_Plugins_Events_PluginLoadEvent__ctor_OpenMod_API_Plugins_IOpenModPlugin_
-  commentId: M:OpenMod.Core.Plugins.Events.PluginLoadEvent.#ctor(OpenMod.API.Plugins.IOpenModPlugin)
-  fullName: OpenMod.Core.Plugins.Events.PluginLoadEvent.PluginLoadEvent(OpenMod.API.Plugins.IOpenModPlugin)
-  nameWithType: PluginLoadEvent.PluginLoadEvent(IOpenModPlugin)
-- uid: OpenMod.Core.Plugins.Events.PluginLoadEvent.#ctor*
-  name: PluginLoadEvent
-  href: api/OpenMod.Core.Plugins.Events.PluginLoadEvent.html#OpenMod_Core_Plugins_Events_PluginLoadEvent__ctor_
-  commentId: Overload:OpenMod.Core.Plugins.Events.PluginLoadEvent.#ctor
+- uid: OpenMod.Core.Plugins.Events.PluginLoadingEvent
+  name: PluginLoadingEvent
+  href: api/OpenMod.Core.Plugins.Events.PluginLoadingEvent.html
+  commentId: T:OpenMod.Core.Plugins.Events.PluginLoadingEvent
+  fullName: OpenMod.Core.Plugins.Events.PluginLoadingEvent
+  nameWithType: PluginLoadingEvent
+- uid: OpenMod.Core.Plugins.Events.PluginLoadingEvent.#ctor(OpenMod.API.Plugins.IOpenModPlugin)
+  name: PluginLoadingEvent(IOpenModPlugin)
+  href: api/OpenMod.Core.Plugins.Events.PluginLoadingEvent.html#OpenMod_Core_Plugins_Events_PluginLoadingEvent__ctor_OpenMod_API_Plugins_IOpenModPlugin_
+  commentId: M:OpenMod.Core.Plugins.Events.PluginLoadingEvent.#ctor(OpenMod.API.Plugins.IOpenModPlugin)
+  fullName: OpenMod.Core.Plugins.Events.PluginLoadingEvent.PluginLoadingEvent(OpenMod.API.Plugins.IOpenModPlugin)
+  nameWithType: PluginLoadingEvent.PluginLoadingEvent(IOpenModPlugin)
+- uid: OpenMod.Core.Plugins.Events.PluginLoadingEvent.#ctor*
+  name: PluginLoadingEvent
+  href: api/OpenMod.Core.Plugins.Events.PluginLoadingEvent.html#OpenMod_Core_Plugins_Events_PluginLoadingEvent__ctor_
+  commentId: Overload:OpenMod.Core.Plugins.Events.PluginLoadingEvent.#ctor
   isSpec: "True"
-  fullName: OpenMod.Core.Plugins.Events.PluginLoadEvent.PluginLoadEvent
-  nameWithType: PluginLoadEvent.PluginLoadEvent
-- uid: OpenMod.Core.Plugins.Events.PluginLoadEvent.IsCancelled
+  fullName: OpenMod.Core.Plugins.Events.PluginLoadingEvent.PluginLoadingEvent
+  nameWithType: PluginLoadingEvent.PluginLoadingEvent
+- uid: OpenMod.Core.Plugins.Events.PluginLoadingEvent.IsCancelled
   name: IsCancelled
-  href: api/OpenMod.Core.Plugins.Events.PluginLoadEvent.html#OpenMod_Core_Plugins_Events_PluginLoadEvent_IsCancelled
-  commentId: P:OpenMod.Core.Plugins.Events.PluginLoadEvent.IsCancelled
-  fullName: OpenMod.Core.Plugins.Events.PluginLoadEvent.IsCancelled
-  nameWithType: PluginLoadEvent.IsCancelled
-- uid: OpenMod.Core.Plugins.Events.PluginLoadEvent.IsCancelled*
+  href: api/OpenMod.Core.Plugins.Events.PluginLoadingEvent.html#OpenMod_Core_Plugins_Events_PluginLoadingEvent_IsCancelled
+  commentId: P:OpenMod.Core.Plugins.Events.PluginLoadingEvent.IsCancelled
+  fullName: OpenMod.Core.Plugins.Events.PluginLoadingEvent.IsCancelled
+  nameWithType: PluginLoadingEvent.IsCancelled
+- uid: OpenMod.Core.Plugins.Events.PluginLoadingEvent.IsCancelled*
   name: IsCancelled
-  href: api/OpenMod.Core.Plugins.Events.PluginLoadEvent.html#OpenMod_Core_Plugins_Events_PluginLoadEvent_IsCancelled_
-  commentId: Overload:OpenMod.Core.Plugins.Events.PluginLoadEvent.IsCancelled
+  href: api/OpenMod.Core.Plugins.Events.PluginLoadingEvent.html#OpenMod_Core_Plugins_Events_PluginLoadingEvent_IsCancelled_
+  commentId: Overload:OpenMod.Core.Plugins.Events.PluginLoadingEvent.IsCancelled
   isSpec: "True"
-  fullName: OpenMod.Core.Plugins.Events.PluginLoadEvent.IsCancelled
-  nameWithType: PluginLoadEvent.IsCancelled
-- uid: OpenMod.Core.Plugins.Events.PluginLoadEvent.Plugin
+  fullName: OpenMod.Core.Plugins.Events.PluginLoadingEvent.IsCancelled
+  nameWithType: PluginLoadingEvent.IsCancelled
+- uid: OpenMod.Core.Plugins.Events.PluginLoadingEvent.Plugin
   name: Plugin
-  href: api/OpenMod.Core.Plugins.Events.PluginLoadEvent.html#OpenMod_Core_Plugins_Events_PluginLoadEvent_Plugin
-  commentId: P:OpenMod.Core.Plugins.Events.PluginLoadEvent.Plugin
-  fullName: OpenMod.Core.Plugins.Events.PluginLoadEvent.Plugin
-  nameWithType: PluginLoadEvent.Plugin
-- uid: OpenMod.Core.Plugins.Events.PluginLoadEvent.Plugin*
+  href: api/OpenMod.Core.Plugins.Events.PluginLoadingEvent.html#OpenMod_Core_Plugins_Events_PluginLoadingEvent_Plugin
+  commentId: P:OpenMod.Core.Plugins.Events.PluginLoadingEvent.Plugin
+  fullName: OpenMod.Core.Plugins.Events.PluginLoadingEvent.Plugin
+  nameWithType: PluginLoadingEvent.Plugin
+- uid: OpenMod.Core.Plugins.Events.PluginLoadingEvent.Plugin*
   name: Plugin
-  href: api/OpenMod.Core.Plugins.Events.PluginLoadEvent.html#OpenMod_Core_Plugins_Events_PluginLoadEvent_Plugin_
-  commentId: Overload:OpenMod.Core.Plugins.Events.PluginLoadEvent.Plugin
+  href: api/OpenMod.Core.Plugins.Events.PluginLoadingEvent.html#OpenMod_Core_Plugins_Events_PluginLoadingEvent_Plugin_
+  commentId: Overload:OpenMod.Core.Plugins.Events.PluginLoadingEvent.Plugin
   isSpec: "True"
-  fullName: OpenMod.Core.Plugins.Events.PluginLoadEvent.Plugin
-  nameWithType: PluginLoadEvent.Plugin
+  fullName: OpenMod.Core.Plugins.Events.PluginLoadingEvent.Plugin
+  nameWithType: PluginLoadingEvent.Plugin
 - uid: OpenMod.Core.Plugins.Events.PluginUnloadedEvent
   name: PluginUnloadedEvent
   href: api/OpenMod.Core.Plugins.Events.PluginUnloadedEvent.html
@@ -11120,38 +11500,38 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Plugins.Events.PluginUnloadedEvent.Plugin
   nameWithType: PluginUnloadedEvent.Plugin
-- uid: OpenMod.Core.Plugins.Events.PluginUnloadEvent
-  name: PluginUnloadEvent
-  href: api/OpenMod.Core.Plugins.Events.PluginUnloadEvent.html
-  commentId: T:OpenMod.Core.Plugins.Events.PluginUnloadEvent
-  fullName: OpenMod.Core.Plugins.Events.PluginUnloadEvent
-  nameWithType: PluginUnloadEvent
-- uid: OpenMod.Core.Plugins.Events.PluginUnloadEvent.#ctor(OpenMod.API.Plugins.IOpenModPlugin)
-  name: PluginUnloadEvent(IOpenModPlugin)
-  href: api/OpenMod.Core.Plugins.Events.PluginUnloadEvent.html#OpenMod_Core_Plugins_Events_PluginUnloadEvent__ctor_OpenMod_API_Plugins_IOpenModPlugin_
-  commentId: M:OpenMod.Core.Plugins.Events.PluginUnloadEvent.#ctor(OpenMod.API.Plugins.IOpenModPlugin)
-  fullName: OpenMod.Core.Plugins.Events.PluginUnloadEvent.PluginUnloadEvent(OpenMod.API.Plugins.IOpenModPlugin)
-  nameWithType: PluginUnloadEvent.PluginUnloadEvent(IOpenModPlugin)
-- uid: OpenMod.Core.Plugins.Events.PluginUnloadEvent.#ctor*
-  name: PluginUnloadEvent
-  href: api/OpenMod.Core.Plugins.Events.PluginUnloadEvent.html#OpenMod_Core_Plugins_Events_PluginUnloadEvent__ctor_
-  commentId: Overload:OpenMod.Core.Plugins.Events.PluginUnloadEvent.#ctor
+- uid: OpenMod.Core.Plugins.Events.PluginUnloadingEvent
+  name: PluginUnloadingEvent
+  href: api/OpenMod.Core.Plugins.Events.PluginUnloadingEvent.html
+  commentId: T:OpenMod.Core.Plugins.Events.PluginUnloadingEvent
+  fullName: OpenMod.Core.Plugins.Events.PluginUnloadingEvent
+  nameWithType: PluginUnloadingEvent
+- uid: OpenMod.Core.Plugins.Events.PluginUnloadingEvent.#ctor(OpenMod.API.Plugins.IOpenModPlugin)
+  name: PluginUnloadingEvent(IOpenModPlugin)
+  href: api/OpenMod.Core.Plugins.Events.PluginUnloadingEvent.html#OpenMod_Core_Plugins_Events_PluginUnloadingEvent__ctor_OpenMod_API_Plugins_IOpenModPlugin_
+  commentId: M:OpenMod.Core.Plugins.Events.PluginUnloadingEvent.#ctor(OpenMod.API.Plugins.IOpenModPlugin)
+  fullName: OpenMod.Core.Plugins.Events.PluginUnloadingEvent.PluginUnloadingEvent(OpenMod.API.Plugins.IOpenModPlugin)
+  nameWithType: PluginUnloadingEvent.PluginUnloadingEvent(IOpenModPlugin)
+- uid: OpenMod.Core.Plugins.Events.PluginUnloadingEvent.#ctor*
+  name: PluginUnloadingEvent
+  href: api/OpenMod.Core.Plugins.Events.PluginUnloadingEvent.html#OpenMod_Core_Plugins_Events_PluginUnloadingEvent__ctor_
+  commentId: Overload:OpenMod.Core.Plugins.Events.PluginUnloadingEvent.#ctor
   isSpec: "True"
-  fullName: OpenMod.Core.Plugins.Events.PluginUnloadEvent.PluginUnloadEvent
-  nameWithType: PluginUnloadEvent.PluginUnloadEvent
-- uid: OpenMod.Core.Plugins.Events.PluginUnloadEvent.Plugin
+  fullName: OpenMod.Core.Plugins.Events.PluginUnloadingEvent.PluginUnloadingEvent
+  nameWithType: PluginUnloadingEvent.PluginUnloadingEvent
+- uid: OpenMod.Core.Plugins.Events.PluginUnloadingEvent.Plugin
   name: Plugin
-  href: api/OpenMod.Core.Plugins.Events.PluginUnloadEvent.html#OpenMod_Core_Plugins_Events_PluginUnloadEvent_Plugin
-  commentId: P:OpenMod.Core.Plugins.Events.PluginUnloadEvent.Plugin
-  fullName: OpenMod.Core.Plugins.Events.PluginUnloadEvent.Plugin
-  nameWithType: PluginUnloadEvent.Plugin
-- uid: OpenMod.Core.Plugins.Events.PluginUnloadEvent.Plugin*
+  href: api/OpenMod.Core.Plugins.Events.PluginUnloadingEvent.html#OpenMod_Core_Plugins_Events_PluginUnloadingEvent_Plugin
+  commentId: P:OpenMod.Core.Plugins.Events.PluginUnloadingEvent.Plugin
+  fullName: OpenMod.Core.Plugins.Events.PluginUnloadingEvent.Plugin
+  nameWithType: PluginUnloadingEvent.Plugin
+- uid: OpenMod.Core.Plugins.Events.PluginUnloadingEvent.Plugin*
   name: Plugin
-  href: api/OpenMod.Core.Plugins.Events.PluginUnloadEvent.html#OpenMod_Core_Plugins_Events_PluginUnloadEvent_Plugin_
-  commentId: Overload:OpenMod.Core.Plugins.Events.PluginUnloadEvent.Plugin
+  href: api/OpenMod.Core.Plugins.Events.PluginUnloadingEvent.html#OpenMod_Core_Plugins_Events_PluginUnloadingEvent_Plugin_
+  commentId: Overload:OpenMod.Core.Plugins.Events.PluginUnloadingEvent.Plugin
   isSpec: "True"
-  fullName: OpenMod.Core.Plugins.Events.PluginUnloadEvent.Plugin
-  nameWithType: PluginUnloadEvent.Plugin
+  fullName: OpenMod.Core.Plugins.Events.PluginUnloadingEvent.Plugin
+  nameWithType: PluginUnloadingEvent.Plugin
 - uid: OpenMod.Core.Plugins.FileSystemPluginAssembliesSource
   name: FileSystemPluginAssembliesSource
   href: api/OpenMod.Core.Plugins.FileSystemPluginAssembliesSource.html
@@ -11897,6 +12277,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.DisplayName
   nameWithType: PluginHelpWriter.PseudoActor.DisplayName
+- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName
+  name: FullActorName
+  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_FullActorName
+  commentId: P:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName
+  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName
+  nameWithType: PluginHelpWriter.PseudoActor.FullActorName
+- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_FullActorName_
+  commentId: Overload:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName
+  nameWithType: PluginHelpWriter.PseudoActor.FullActorName
 - uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Id
   name: Id
   href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_Id
@@ -12088,6 +12481,1348 @@ references:
   commentId: F:OpenMod.Core.Prioritization.PriortyComparisonMode.LowestFirst
   fullName: OpenMod.Core.Prioritization.PriortyComparisonMode.LowestFirst
   nameWithType: PriortyComparisonMode.LowestFirst
+- uid: OpenMod.Core.Rcon
+  name: OpenMod.Core.Rcon
+  href: api/OpenMod.Core.Rcon.html
+  commentId: N:OpenMod.Core.Rcon
+  fullName: OpenMod.Core.Rcon
+  nameWithType: OpenMod.Core.Rcon
+- uid: OpenMod.Core.Rcon.ConnectionCloseReason
+  name: ConnectionCloseReason
+  href: api/OpenMod.Core.Rcon.ConnectionCloseReason.html
+  commentId: T:OpenMod.Core.Rcon.ConnectionCloseReason
+  fullName: OpenMod.Core.Rcon.ConnectionCloseReason
+  nameWithType: ConnectionCloseReason
+- uid: OpenMod.Core.Rcon.ConnectionCloseReason.Aborted
+  name: Aborted
+  href: api/OpenMod.Core.Rcon.ConnectionCloseReason.html#OpenMod_Core_Rcon_ConnectionCloseReason_Aborted
+  commentId: F:OpenMod.Core.Rcon.ConnectionCloseReason.Aborted
+  fullName: OpenMod.Core.Rcon.ConnectionCloseReason.Aborted
+  nameWithType: ConnectionCloseReason.Aborted
+- uid: OpenMod.Core.Rcon.ConnectionCloseReason.Closed
+  name: Closed
+  href: api/OpenMod.Core.Rcon.ConnectionCloseReason.html#OpenMod_Core_Rcon_ConnectionCloseReason_Closed
+  commentId: F:OpenMod.Core.Rcon.ConnectionCloseReason.Closed
+  fullName: OpenMod.Core.Rcon.ConnectionCloseReason.Closed
+  nameWithType: ConnectionCloseReason.Closed
+- uid: OpenMod.Core.Rcon.ConnectionCloseReason.Reset
+  name: Reset
+  href: api/OpenMod.Core.Rcon.ConnectionCloseReason.html#OpenMod_Core_Rcon_ConnectionCloseReason_Reset
+  commentId: F:OpenMod.Core.Rcon.ConnectionCloseReason.Reset
+  fullName: OpenMod.Core.Rcon.ConnectionCloseReason.Reset
+  nameWithType: ConnectionCloseReason.Reset
+- uid: OpenMod.Core.Rcon.ConnectionCloseReason.Unknown
+  name: Unknown
+  href: api/OpenMod.Core.Rcon.ConnectionCloseReason.html#OpenMod_Core_Rcon_ConnectionCloseReason_Unknown
+  commentId: F:OpenMod.Core.Rcon.ConnectionCloseReason.Unknown
+  fullName: OpenMod.Core.Rcon.ConnectionCloseReason.Unknown
+  nameWithType: ConnectionCloseReason.Unknown
+- uid: OpenMod.Core.Rcon.Events
+  name: OpenMod.Core.Rcon.Events
+  href: api/OpenMod.Core.Rcon.Events.html
+  commentId: N:OpenMod.Core.Rcon.Events
+  fullName: OpenMod.Core.Rcon.Events
+  nameWithType: OpenMod.Core.Rcon.Events
+- uid: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent
+  name: RconClientAuthenticatingEvent
+  href: api/OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.html
+  commentId: T:OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent
+  fullName: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent
+  nameWithType: RconClientAuthenticatingEvent
+- uid: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.#ctor(OpenMod.Core.Rcon.IRconClient,System.Nullable{System.String},System.Nullable{System.String})
+  name: RconClientAuthenticatingEvent(IRconClient, Nullable<String>, Nullable<String>)
+  href: api/OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.html#OpenMod_Core_Rcon_Events_RconClientAuthenticatingEvent__ctor_OpenMod_Core_Rcon_IRconClient_System_Nullable_System_String__System_Nullable_System_String__
+  commentId: M:OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.#ctor(OpenMod.Core.Rcon.IRconClient,System.Nullable{System.String},System.Nullable{System.String})
+  name.vb: RconClientAuthenticatingEvent(IRconClient, Nullable(Of String), Nullable(Of String))
+  fullName: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.RconClientAuthenticatingEvent(OpenMod.Core.Rcon.IRconClient, System.Nullable<System.String>, System.Nullable<System.String>)
+  fullName.vb: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.RconClientAuthenticatingEvent(OpenMod.Core.Rcon.IRconClient, System.Nullable(Of System.String), System.Nullable(Of System.String))
+  nameWithType: RconClientAuthenticatingEvent.RconClientAuthenticatingEvent(IRconClient, Nullable<String>, Nullable<String>)
+  nameWithType.vb: RconClientAuthenticatingEvent.RconClientAuthenticatingEvent(IRconClient, Nullable(Of String), Nullable(Of String))
+- uid: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.#ctor*
+  name: RconClientAuthenticatingEvent
+  href: api/OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.html#OpenMod_Core_Rcon_Events_RconClientAuthenticatingEvent__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.RconClientAuthenticatingEvent
+  nameWithType: RconClientAuthenticatingEvent.RconClientAuthenticatingEvent
+- uid: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.IsAuthenticated
+  name: IsAuthenticated
+  href: api/OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.html#OpenMod_Core_Rcon_Events_RconClientAuthenticatingEvent_IsAuthenticated
+  commentId: P:OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.IsAuthenticated
+  fullName: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.IsAuthenticated
+  nameWithType: RconClientAuthenticatingEvent.IsAuthenticated
+- uid: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.IsAuthenticated*
+  name: IsAuthenticated
+  href: api/OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.html#OpenMod_Core_Rcon_Events_RconClientAuthenticatingEvent_IsAuthenticated_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.IsAuthenticated
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.IsAuthenticated
+  nameWithType: RconClientAuthenticatingEvent.IsAuthenticated
+- uid: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Password
+  name: Password
+  href: api/OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.html#OpenMod_Core_Rcon_Events_RconClientAuthenticatingEvent_Password
+  commentId: P:OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Password
+  fullName: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Password
+  nameWithType: RconClientAuthenticatingEvent.Password
+- uid: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Password*
+  name: Password
+  href: api/OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.html#OpenMod_Core_Rcon_Events_RconClientAuthenticatingEvent_Password_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Password
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Password
+  nameWithType: RconClientAuthenticatingEvent.Password
+- uid: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Username
+  name: Username
+  href: api/OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.html#OpenMod_Core_Rcon_Events_RconClientAuthenticatingEvent_Username
+  commentId: P:OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Username
+  fullName: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Username
+  nameWithType: RconClientAuthenticatingEvent.Username
+- uid: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Username*
+  name: Username
+  href: api/OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.html#OpenMod_Core_Rcon_Events_RconClientAuthenticatingEvent_Username_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Username
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientAuthenticatingEvent.Username
+  nameWithType: RconClientAuthenticatingEvent.Username
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectedEvent
+  name: RconClientConnectedEvent
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectedEvent.html
+  commentId: T:OpenMod.Core.Rcon.Events.RconClientConnectedEvent
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectedEvent
+  nameWithType: RconClientConnectedEvent
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectedEvent.#ctor(OpenMod.Core.Rcon.IRconClient)
+  name: RconClientConnectedEvent(IRconClient)
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectedEvent.html#OpenMod_Core_Rcon_Events_RconClientConnectedEvent__ctor_OpenMod_Core_Rcon_IRconClient_
+  commentId: M:OpenMod.Core.Rcon.Events.RconClientConnectedEvent.#ctor(OpenMod.Core.Rcon.IRconClient)
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectedEvent.RconClientConnectedEvent(OpenMod.Core.Rcon.IRconClient)
+  nameWithType: RconClientConnectedEvent.RconClientConnectedEvent(IRconClient)
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectedEvent.#ctor*
+  name: RconClientConnectedEvent
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectedEvent.html#OpenMod_Core_Rcon_Events_RconClientConnectedEvent__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientConnectedEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectedEvent.RconClientConnectedEvent
+  nameWithType: RconClientConnectedEvent.RconClientConnectedEvent
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectingEvent
+  name: RconClientConnectingEvent
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectingEvent.html
+  commentId: T:OpenMod.Core.Rcon.Events.RconClientConnectingEvent
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectingEvent
+  nameWithType: RconClientConnectingEvent
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.#ctor(OpenMod.Core.Rcon.IRconClient)
+  name: RconClientConnectingEvent(IRconClient)
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectingEvent.html#OpenMod_Core_Rcon_Events_RconClientConnectingEvent__ctor_OpenMod_Core_Rcon_IRconClient_
+  commentId: M:OpenMod.Core.Rcon.Events.RconClientConnectingEvent.#ctor(OpenMod.Core.Rcon.IRconClient)
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RconClientConnectingEvent(OpenMod.Core.Rcon.IRconClient)
+  nameWithType: RconClientConnectingEvent.RconClientConnectingEvent(IRconClient)
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.#ctor*
+  name: RconClientConnectingEvent
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectingEvent.html#OpenMod_Core_Rcon_Events_RconClientConnectingEvent__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientConnectingEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RconClientConnectingEvent
+  nameWithType: RconClientConnectingEvent.RconClientConnectingEvent
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.IsCancelled
+  name: IsCancelled
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectingEvent.html#OpenMod_Core_Rcon_Events_RconClientConnectingEvent_IsCancelled
+  commentId: P:OpenMod.Core.Rcon.Events.RconClientConnectingEvent.IsCancelled
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.IsCancelled
+  nameWithType: RconClientConnectingEvent.IsCancelled
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.IsCancelled*
+  name: IsCancelled
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectingEvent.html#OpenMod_Core_Rcon_Events_RconClientConnectingEvent_IsCancelled_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientConnectingEvent.IsCancelled
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.IsCancelled
+  nameWithType: RconClientConnectingEvent.IsCancelled
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectAsync(System.Nullable{System.String})
+  name: RejectAsync(Nullable<String>)
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectingEvent.html#OpenMod_Core_Rcon_Events_RconClientConnectingEvent_RejectAsync_System_Nullable_System_String__
+  commentId: M:OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectAsync(System.Nullable{System.String})
+  name.vb: RejectAsync(Nullable(Of String))
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectAsync(System.Nullable<System.String>)
+  fullName.vb: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectAsync(System.Nullable(Of System.String))
+  nameWithType: RconClientConnectingEvent.RejectAsync(Nullable<String>)
+  nameWithType.vb: RconClientConnectingEvent.RejectAsync(Nullable(Of String))
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectAsync*
+  name: RejectAsync
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectingEvent.html#OpenMod_Core_Rcon_Events_RconClientConnectingEvent_RejectAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectAsync
+  nameWithType: RconClientConnectingEvent.RejectAsync
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectionReason
+  name: RejectionReason
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectingEvent.html#OpenMod_Core_Rcon_Events_RconClientConnectingEvent_RejectionReason
+  commentId: P:OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectionReason
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectionReason
+  nameWithType: RconClientConnectingEvent.RejectionReason
+- uid: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectionReason*
+  name: RejectionReason
+  href: api/OpenMod.Core.Rcon.Events.RconClientConnectingEvent.html#OpenMod_Core_Rcon_Events_RconClientConnectingEvent_RejectionReason_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectionReason
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectionReason
+  nameWithType: RconClientConnectingEvent.RejectionReason
+- uid: OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent
+  name: RconClientDisconnectedEvent
+  href: api/OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.html
+  commentId: T:OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent
+  fullName: OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent
+  nameWithType: RconClientDisconnectedEvent
+- uid: OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.#ctor(OpenMod.Core.Rcon.IRconClient,OpenMod.Core.Rcon.ConnectionCloseReason)
+  name: RconClientDisconnectedEvent(IRconClient, ConnectionCloseReason)
+  href: api/OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.html#OpenMod_Core_Rcon_Events_RconClientDisconnectedEvent__ctor_OpenMod_Core_Rcon_IRconClient_OpenMod_Core_Rcon_ConnectionCloseReason_
+  commentId: M:OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.#ctor(OpenMod.Core.Rcon.IRconClient,OpenMod.Core.Rcon.ConnectionCloseReason)
+  fullName: OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.RconClientDisconnectedEvent(OpenMod.Core.Rcon.IRconClient, OpenMod.Core.Rcon.ConnectionCloseReason)
+  nameWithType: RconClientDisconnectedEvent.RconClientDisconnectedEvent(IRconClient, ConnectionCloseReason)
+- uid: OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.#ctor*
+  name: RconClientDisconnectedEvent
+  href: api/OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.html#OpenMod_Core_Rcon_Events_RconClientDisconnectedEvent__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.RconClientDisconnectedEvent
+  nameWithType: RconClientDisconnectedEvent.RconClientDisconnectedEvent
+- uid: OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.ConnectionCloseReason
+  name: ConnectionCloseReason
+  href: api/OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.html#OpenMod_Core_Rcon_Events_RconClientDisconnectedEvent_ConnectionCloseReason
+  commentId: P:OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.ConnectionCloseReason
+  fullName: OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.ConnectionCloseReason
+  nameWithType: RconClientDisconnectedEvent.ConnectionCloseReason
+- uid: OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.ConnectionCloseReason*
+  name: ConnectionCloseReason
+  href: api/OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.html#OpenMod_Core_Rcon_Events_RconClientDisconnectedEvent_ConnectionCloseReason_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.ConnectionCloseReason
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientDisconnectedEvent.ConnectionCloseReason
+  nameWithType: RconClientDisconnectedEvent.ConnectionCloseReason
+- uid: OpenMod.Core.Rcon.Events.RconClientEvent
+  name: RconClientEvent
+  href: api/OpenMod.Core.Rcon.Events.RconClientEvent.html
+  commentId: T:OpenMod.Core.Rcon.Events.RconClientEvent
+  fullName: OpenMod.Core.Rcon.Events.RconClientEvent
+  nameWithType: RconClientEvent
+- uid: OpenMod.Core.Rcon.Events.RconClientEvent.#ctor(OpenMod.Core.Rcon.IRconClient)
+  name: RconClientEvent(IRconClient)
+  href: api/OpenMod.Core.Rcon.Events.RconClientEvent.html#OpenMod_Core_Rcon_Events_RconClientEvent__ctor_OpenMod_Core_Rcon_IRconClient_
+  commentId: M:OpenMod.Core.Rcon.Events.RconClientEvent.#ctor(OpenMod.Core.Rcon.IRconClient)
+  fullName: OpenMod.Core.Rcon.Events.RconClientEvent.RconClientEvent(OpenMod.Core.Rcon.IRconClient)
+  nameWithType: RconClientEvent.RconClientEvent(IRconClient)
+- uid: OpenMod.Core.Rcon.Events.RconClientEvent.#ctor*
+  name: RconClientEvent
+  href: api/OpenMod.Core.Rcon.Events.RconClientEvent.html#OpenMod_Core_Rcon_Events_RconClientEvent__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientEvent.RconClientEvent
+  nameWithType: RconClientEvent.RconClientEvent
+- uid: OpenMod.Core.Rcon.Events.RconClientEvent.Client
+  name: Client
+  href: api/OpenMod.Core.Rcon.Events.RconClientEvent.html#OpenMod_Core_Rcon_Events_RconClientEvent_Client
+  commentId: P:OpenMod.Core.Rcon.Events.RconClientEvent.Client
+  fullName: OpenMod.Core.Rcon.Events.RconClientEvent.Client
+  nameWithType: RconClientEvent.Client
+- uid: OpenMod.Core.Rcon.Events.RconClientEvent.Client*
+  name: Client
+  href: api/OpenMod.Core.Rcon.Events.RconClientEvent.html#OpenMod_Core_Rcon_Events_RconClientEvent_Client_
+  commentId: Overload:OpenMod.Core.Rcon.Events.RconClientEvent.Client
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Events.RconClientEvent.Client
+  nameWithType: RconClientEvent.Client
+- uid: OpenMod.Core.Rcon.IRconClient
+  name: IRconClient
+  href: api/OpenMod.Core.Rcon.IRconClient.html
+  commentId: T:OpenMod.Core.Rcon.IRconClient
+  fullName: OpenMod.Core.Rcon.IRconClient
+  nameWithType: IRconClient
+- uid: OpenMod.Core.Rcon.IRconClient.DisconnectAsync(System.Nullable{System.String},CancellationToken)
+  name: DisconnectAsync(Nullable<String>, CancellationToken)
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_DisconnectAsync_System_Nullable_System_String__CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.IRconClient.DisconnectAsync(System.Nullable{System.String},CancellationToken)
+  name.vb: DisconnectAsync(Nullable(Of String), CancellationToken)
+  fullName: OpenMod.Core.Rcon.IRconClient.DisconnectAsync(System.Nullable<System.String>, CancellationToken)
+  fullName.vb: OpenMod.Core.Rcon.IRconClient.DisconnectAsync(System.Nullable(Of System.String), CancellationToken)
+  nameWithType: IRconClient.DisconnectAsync(Nullable<String>, CancellationToken)
+  nameWithType.vb: IRconClient.DisconnectAsync(Nullable(Of String), CancellationToken)
+- uid: OpenMod.Core.Rcon.IRconClient.DisconnectAsync*
+  name: DisconnectAsync
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_DisconnectAsync_
+  commentId: Overload:OpenMod.Core.Rcon.IRconClient.DisconnectAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.IRconClient.DisconnectAsync
+  nameWithType: IRconClient.DisconnectAsync
+- uid: OpenMod.Core.Rcon.IRconClient.EndPoint
+  name: EndPoint
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_EndPoint
+  commentId: P:OpenMod.Core.Rcon.IRconClient.EndPoint
+  fullName: OpenMod.Core.Rcon.IRconClient.EndPoint
+  nameWithType: IRconClient.EndPoint
+- uid: OpenMod.Core.Rcon.IRconClient.EndPoint*
+  name: EndPoint
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_EndPoint_
+  commentId: Overload:OpenMod.Core.Rcon.IRconClient.EndPoint
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.IRconClient.EndPoint
+  nameWithType: IRconClient.EndPoint
+- uid: OpenMod.Core.Rcon.IRconClient.Host
+  name: Host
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_Host
+  commentId: P:OpenMod.Core.Rcon.IRconClient.Host
+  fullName: OpenMod.Core.Rcon.IRconClient.Host
+  nameWithType: IRconClient.Host
+- uid: OpenMod.Core.Rcon.IRconClient.Host*
+  name: Host
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_Host_
+  commentId: Overload:OpenMod.Core.Rcon.IRconClient.Host
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.IRconClient.Host
+  nameWithType: IRconClient.Host
+- uid: OpenMod.Core.Rcon.IRconClient.IsAuthenticated
+  name: IsAuthenticated
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_IsAuthenticated
+  commentId: P:OpenMod.Core.Rcon.IRconClient.IsAuthenticated
+  fullName: OpenMod.Core.Rcon.IRconClient.IsAuthenticated
+  nameWithType: IRconClient.IsAuthenticated
+- uid: OpenMod.Core.Rcon.IRconClient.IsAuthenticated*
+  name: IsAuthenticated
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_IsAuthenticated_
+  commentId: Overload:OpenMod.Core.Rcon.IRconClient.IsAuthenticated
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.IRconClient.IsAuthenticated
+  nameWithType: IRconClient.IsAuthenticated
+- uid: OpenMod.Core.Rcon.IRconClient.IsConnected
+  name: IsConnected
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_IsConnected
+  commentId: P:OpenMod.Core.Rcon.IRconClient.IsConnected
+  fullName: OpenMod.Core.Rcon.IRconClient.IsConnected
+  nameWithType: IRconClient.IsConnected
+- uid: OpenMod.Core.Rcon.IRconClient.IsConnected*
+  name: IsConnected
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_IsConnected_
+  commentId: Overload:OpenMod.Core.Rcon.IRconClient.IsConnected
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.IRconClient.IsConnected
+  nameWithType: IRconClient.IsConnected
+- uid: OpenMod.Core.Rcon.IRconClient.SendMessageAsync(System.String,CancellationToken)
+  name: SendMessageAsync(String, CancellationToken)
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_SendMessageAsync_System_String_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.IRconClient.SendMessageAsync(System.String,CancellationToken)
+  fullName: OpenMod.Core.Rcon.IRconClient.SendMessageAsync(System.String, CancellationToken)
+  nameWithType: IRconClient.SendMessageAsync(String, CancellationToken)
+- uid: OpenMod.Core.Rcon.IRconClient.SendMessageAsync*
+  name: SendMessageAsync
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_SendMessageAsync_
+  commentId: Overload:OpenMod.Core.Rcon.IRconClient.SendMessageAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.IRconClient.SendMessageAsync
+  nameWithType: IRconClient.SendMessageAsync
+- uid: OpenMod.Core.Rcon.IRconClient.StartAsync(CancellationToken)
+  name: StartAsync(CancellationToken)
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_StartAsync_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.IRconClient.StartAsync(CancellationToken)
+  fullName: OpenMod.Core.Rcon.IRconClient.StartAsync(CancellationToken)
+  nameWithType: IRconClient.StartAsync(CancellationToken)
+- uid: OpenMod.Core.Rcon.IRconClient.StartAsync*
+  name: StartAsync
+  href: api/OpenMod.Core.Rcon.IRconClient.html#OpenMod_Core_Rcon_IRconClient_StartAsync_
+  commentId: Overload:OpenMod.Core.Rcon.IRconClient.StartAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.IRconClient.StartAsync
+  nameWithType: IRconClient.StartAsync
+- uid: OpenMod.Core.Rcon.IRconHost
+  name: IRconHost
+  href: api/OpenMod.Core.Rcon.IRconHost.html
+  commentId: T:OpenMod.Core.Rcon.IRconHost
+  fullName: OpenMod.Core.Rcon.IRconHost
+  nameWithType: IRconHost
+- uid: OpenMod.Core.Rcon.IRconHost.IsListening
+  name: IsListening
+  href: api/OpenMod.Core.Rcon.IRconHost.html#OpenMod_Core_Rcon_IRconHost_IsListening
+  commentId: P:OpenMod.Core.Rcon.IRconHost.IsListening
+  fullName: OpenMod.Core.Rcon.IRconHost.IsListening
+  nameWithType: IRconHost.IsListening
+- uid: OpenMod.Core.Rcon.IRconHost.IsListening*
+  name: IsListening
+  href: api/OpenMod.Core.Rcon.IRconHost.html#OpenMod_Core_Rcon_IRconHost_IsListening_
+  commentId: Overload:OpenMod.Core.Rcon.IRconHost.IsListening
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.IRconHost.IsListening
+  nameWithType: IRconHost.IsListening
+- uid: OpenMod.Core.Rcon.IRconHost.StartListeningAsync(IPEndPoint,CancellationToken)
+  name: StartListeningAsync(IPEndPoint, CancellationToken)
+  href: api/OpenMod.Core.Rcon.IRconHost.html#OpenMod_Core_Rcon_IRconHost_StartListeningAsync_IPEndPoint_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.IRconHost.StartListeningAsync(IPEndPoint,CancellationToken)
+  fullName: OpenMod.Core.Rcon.IRconHost.StartListeningAsync(IPEndPoint, CancellationToken)
+  nameWithType: IRconHost.StartListeningAsync(IPEndPoint, CancellationToken)
+- uid: OpenMod.Core.Rcon.IRconHost.StartListeningAsync*
+  name: StartListeningAsync
+  href: api/OpenMod.Core.Rcon.IRconHost.html#OpenMod_Core_Rcon_IRconHost_StartListeningAsync_
+  commentId: Overload:OpenMod.Core.Rcon.IRconHost.StartListeningAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.IRconHost.StartListeningAsync
+  nameWithType: IRconHost.StartListeningAsync
+- uid: OpenMod.Core.Rcon.IRconHost.StopListeningAsync(CancellationToken)
+  name: StopListeningAsync(CancellationToken)
+  href: api/OpenMod.Core.Rcon.IRconHost.html#OpenMod_Core_Rcon_IRconHost_StopListeningAsync_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.IRconHost.StopListeningAsync(CancellationToken)
+  fullName: OpenMod.Core.Rcon.IRconHost.StopListeningAsync(CancellationToken)
+  nameWithType: IRconHost.StopListeningAsync(CancellationToken)
+- uid: OpenMod.Core.Rcon.IRconHost.StopListeningAsync*
+  name: StopListeningAsync
+  href: api/OpenMod.Core.Rcon.IRconHost.html#OpenMod_Core_Rcon_IRconHost_StopListeningAsync_
+  commentId: Overload:OpenMod.Core.Rcon.IRconHost.StopListeningAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.IRconHost.StopListeningAsync
+  nameWithType: IRconHost.StopListeningAsync
+- uid: OpenMod.Core.Rcon.Minecraft
+  name: OpenMod.Core.Rcon.Minecraft
+  href: api/OpenMod.Core.Rcon.Minecraft.html
+  commentId: N:OpenMod.Core.Rcon.Minecraft
+  fullName: OpenMod.Core.Rcon.Minecraft
+  nameWithType: OpenMod.Core.Rcon.Minecraft
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftPacketType
+  name: MinecraftPacketType
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.html
+  commentId: T:OpenMod.Core.Rcon.Minecraft.MinecraftPacketType
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftPacketType
+  nameWithType: MinecraftPacketType
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.Command
+  name: Command
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.html#OpenMod_Core_Rcon_Minecraft_MinecraftPacketType_Command
+  commentId: F:OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.Command
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.Command
+  nameWithType: MinecraftPacketType.Command
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.Login
+  name: Login
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.html#OpenMod_Core_Rcon_Minecraft_MinecraftPacketType_Login
+  commentId: F:OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.Login
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.Login
+  nameWithType: MinecraftPacketType.Login
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.Response
+  name: Response
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.html#OpenMod_Core_Rcon_Minecraft_MinecraftPacketType_Response
+  commentId: F:OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.Response
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftPacketType.Response
+  nameWithType: MinecraftPacketType.Response
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient
+  name: MinecraftRconClient
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html
+  commentId: T:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient
+  nameWithType: MinecraftRconClient
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.#ctor(TcpClient,OpenMod.Core.Rcon.IRconHost,ILogger{OpenMod.Core.Rcon.Minecraft.MinecraftRconClient},IConfiguration,IServiceProvider)
+  name: MinecraftRconClient(TcpClient, IRconHost, ILogger<MinecraftRconClient>, IConfiguration, IServiceProvider)
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient__ctor_TcpClient_OpenMod_Core_Rcon_IRconHost_ILogger_OpenMod_Core_Rcon_Minecraft_MinecraftRconClient__IConfiguration_IServiceProvider_
+  commentId: M:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.#ctor(TcpClient,OpenMod.Core.Rcon.IRconHost,ILogger{OpenMod.Core.Rcon.Minecraft.MinecraftRconClient},IConfiguration,IServiceProvider)
+  name.vb: MinecraftRconClient(TcpClient, IRconHost, ILogger(Of MinecraftRconClient), IConfiguration, IServiceProvider)
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.MinecraftRconClient(TcpClient, OpenMod.Core.Rcon.IRconHost, ILogger<OpenMod.Core.Rcon.Minecraft.MinecraftRconClient>, IConfiguration, IServiceProvider)
+  fullName.vb: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.MinecraftRconClient(TcpClient, OpenMod.Core.Rcon.IRconHost, ILogger(Of OpenMod.Core.Rcon.Minecraft.MinecraftRconClient), IConfiguration, IServiceProvider)
+  nameWithType: MinecraftRconClient.MinecraftRconClient(TcpClient, IRconHost, ILogger<MinecraftRconClient>, IConfiguration, IServiceProvider)
+  nameWithType.vb: MinecraftRconClient.MinecraftRconClient(TcpClient, IRconHost, ILogger(Of MinecraftRconClient), IConfiguration, IServiceProvider)
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.#ctor*
+  name: MinecraftRconClient
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.MinecraftRconClient
+  nameWithType: MinecraftRconClient.MinecraftRconClient
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticatedAsync
+  name: OnClientAuthenticatedAsync()
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient_OnClientAuthenticatedAsync
+  commentId: M:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticatedAsync
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticatedAsync()
+  nameWithType: MinecraftRconClient.OnClientAuthenticatedAsync()
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticatedAsync*
+  name: OnClientAuthenticatedAsync
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient_OnClientAuthenticatedAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticatedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticatedAsync
+  nameWithType: MinecraftRconClient.OnClientAuthenticatedAsync
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticationFailedAsync
+  name: OnClientAuthenticationFailedAsync()
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient_OnClientAuthenticationFailedAsync
+  commentId: M:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticationFailedAsync
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticationFailedAsync()
+  nameWithType: MinecraftRconClient.OnClientAuthenticationFailedAsync()
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticationFailedAsync*
+  name: OnClientAuthenticationFailedAsync
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient_OnClientAuthenticationFailedAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticationFailedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnClientAuthenticationFailedAsync
+  nameWithType: MinecraftRconClient.OnClientAuthenticationFailedAsync
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnDataReceivedAsync(ArraySegment{System.Byte})
+  name: OnDataReceivedAsync(ArraySegment<Byte>)
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient_OnDataReceivedAsync_ArraySegment_System_Byte__
+  commentId: M:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnDataReceivedAsync(ArraySegment{System.Byte})
+  name.vb: OnDataReceivedAsync(ArraySegment(Of Byte))
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnDataReceivedAsync(ArraySegment<System.Byte>)
+  fullName.vb: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnDataReceivedAsync(ArraySegment(Of System.Byte))
+  nameWithType: MinecraftRconClient.OnDataReceivedAsync(ArraySegment<Byte>)
+  nameWithType.vb: MinecraftRconClient.OnDataReceivedAsync(ArraySegment(Of Byte))
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnDataReceivedAsync*
+  name: OnDataReceivedAsync
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient_OnDataReceivedAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnDataReceivedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.OnDataReceivedAsync
+  nameWithType: MinecraftRconClient.OnDataReceivedAsync
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendMessageAsync(System.Int32,System.String,CancellationToken)
+  name: SendMessageAsync(Int32, String, CancellationToken)
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient_SendMessageAsync_System_Int32_System_String_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendMessageAsync(System.Int32,System.String,CancellationToken)
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendMessageAsync(System.Int32, System.String, CancellationToken)
+  nameWithType: MinecraftRconClient.SendMessageAsync(Int32, String, CancellationToken)
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendMessageAsync(System.String,CancellationToken)
+  name: SendMessageAsync(String, CancellationToken)
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient_SendMessageAsync_System_String_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendMessageAsync(System.String,CancellationToken)
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendMessageAsync(System.String, CancellationToken)
+  nameWithType: MinecraftRconClient.SendMessageAsync(String, CancellationToken)
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendMessageAsync*
+  name: SendMessageAsync
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient_SendMessageAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendMessageAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendMessageAsync
+  nameWithType: MinecraftRconClient.SendMessageAsync
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendPacketAsync(OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket,CancellationToken)
+  name: SendPacketAsync(MinecraftRconPacket, CancellationToken)
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient_SendPacketAsync_OpenMod_Core_Rcon_Minecraft_MinecraftRconPacket_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendPacketAsync(OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket,CancellationToken)
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendPacketAsync(OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket, CancellationToken)
+  nameWithType: MinecraftRconClient.SendPacketAsync(MinecraftRconPacket, CancellationToken)
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendPacketAsync*
+  name: SendPacketAsync
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconClient_SendPacketAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendPacketAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconClient.SendPacketAsync
+  nameWithType: MinecraftRconClient.SendPacketAsync
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconHost
+  name: MinecraftRconHost
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconHost.html
+  commentId: T:OpenMod.Core.Rcon.Minecraft.MinecraftRconHost
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconHost
+  nameWithType: MinecraftRconHost
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconHost.#ctor(IServiceProvider)
+  name: MinecraftRconHost(IServiceProvider)
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconHost.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconHost__ctor_IServiceProvider_
+  commentId: M:OpenMod.Core.Rcon.Minecraft.MinecraftRconHost.#ctor(IServiceProvider)
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconHost.MinecraftRconHost(IServiceProvider)
+  nameWithType: MinecraftRconHost.MinecraftRconHost(IServiceProvider)
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconHost.#ctor*
+  name: MinecraftRconHost
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconHost.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconHost__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconHost.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconHost.MinecraftRconHost
+  nameWithType: MinecraftRconHost.MinecraftRconHost
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket
+  name: MinecraftRconPacket
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.html
+  commentId: T:OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket
+  nameWithType: MinecraftRconPacket
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Payload
+  name: Payload
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconPacket_Payload
+  commentId: P:OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Payload
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Payload
+  nameWithType: MinecraftRconPacket.Payload
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Payload*
+  name: Payload
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconPacket_Payload_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Payload
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Payload
+  nameWithType: MinecraftRconPacket.Payload
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.ReadFromStreamAsync(Stream)
+  name: ReadFromStreamAsync(Stream)
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconPacket_ReadFromStreamAsync_Stream_
+  commentId: M:OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.ReadFromStreamAsync(Stream)
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.ReadFromStreamAsync(Stream)
+  nameWithType: MinecraftRconPacket.ReadFromStreamAsync(Stream)
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.ReadFromStreamAsync*
+  name: ReadFromStreamAsync
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconPacket_ReadFromStreamAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.ReadFromStreamAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.ReadFromStreamAsync
+  nameWithType: MinecraftRconPacket.ReadFromStreamAsync
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.RequestId
+  name: RequestId
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconPacket_RequestId
+  commentId: P:OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.RequestId
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.RequestId
+  nameWithType: MinecraftRconPacket.RequestId
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.RequestId*
+  name: RequestId
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconPacket_RequestId_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.RequestId
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.RequestId
+  nameWithType: MinecraftRconPacket.RequestId
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Serialize
+  name: Serialize()
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconPacket_Serialize
+  commentId: M:OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Serialize
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Serialize()
+  nameWithType: MinecraftRconPacket.Serialize()
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Serialize*
+  name: Serialize
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconPacket_Serialize_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Serialize
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Serialize
+  nameWithType: MinecraftRconPacket.Serialize
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Type
+  name: Type
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconPacket_Type
+  commentId: P:OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Type
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Type
+  nameWithType: MinecraftRconPacket.Type
+- uid: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Type*
+  name: Type
+  href: api/OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.html#OpenMod_Core_Rcon_Minecraft_MinecraftRconPacket_Type_
+  commentId: Overload:OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Type
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Minecraft.MinecraftRconPacket.Type
+  nameWithType: MinecraftRconPacket.Type
+- uid: OpenMod.Core.Rcon.RconStartListener
+  name: RconStartListener
+  href: api/OpenMod.Core.Rcon.RconStartListener.html
+  commentId: T:OpenMod.Core.Rcon.RconStartListener
+  fullName: OpenMod.Core.Rcon.RconStartListener
+  nameWithType: RconStartListener
+- uid: OpenMod.Core.Rcon.RconStartListener.#ctor(OpenMod.API.Eventing.IEventBus,OpenMod.API.IRuntime,IConfiguration)
+  name: RconStartListener(IEventBus, IRuntime, IConfiguration)
+  href: api/OpenMod.Core.Rcon.RconStartListener.html#OpenMod_Core_Rcon_RconStartListener__ctor_OpenMod_API_Eventing_IEventBus_OpenMod_API_IRuntime_IConfiguration_
+  commentId: M:OpenMod.Core.Rcon.RconStartListener.#ctor(OpenMod.API.Eventing.IEventBus,OpenMod.API.IRuntime,IConfiguration)
+  fullName: OpenMod.Core.Rcon.RconStartListener.RconStartListener(OpenMod.API.Eventing.IEventBus, OpenMod.API.IRuntime, IConfiguration)
+  nameWithType: RconStartListener.RconStartListener(IEventBus, IRuntime, IConfiguration)
+- uid: OpenMod.Core.Rcon.RconStartListener.#ctor*
+  name: RconStartListener
+  href: api/OpenMod.Core.Rcon.RconStartListener.html#OpenMod_Core_Rcon_RconStartListener__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.RconStartListener.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.RconStartListener.RconStartListener
+  nameWithType: RconStartListener.RconStartListener
+- uid: OpenMod.Core.Rcon.RconStartListener.HandleEventAsync(System.Object,OpenMod.Core.Events.OpenModInitializedEvent)
+  name: HandleEventAsync(Object, OpenModInitializedEvent)
+  href: api/OpenMod.Core.Rcon.RconStartListener.html#OpenMod_Core_Rcon_RconStartListener_HandleEventAsync_System_Object_OpenMod_Core_Events_OpenModInitializedEvent_
+  commentId: M:OpenMod.Core.Rcon.RconStartListener.HandleEventAsync(System.Object,OpenMod.Core.Events.OpenModInitializedEvent)
+  fullName: OpenMod.Core.Rcon.RconStartListener.HandleEventAsync(System.Object, OpenMod.Core.Events.OpenModInitializedEvent)
+  nameWithType: RconStartListener.HandleEventAsync(Object, OpenModInitializedEvent)
+- uid: OpenMod.Core.Rcon.RconStartListener.HandleEventAsync*
+  name: HandleEventAsync
+  href: api/OpenMod.Core.Rcon.RconStartListener.html#OpenMod_Core_Rcon_RconStartListener_HandleEventAsync_
+  commentId: Overload:OpenMod.Core.Rcon.RconStartListener.HandleEventAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.RconStartListener.HandleEventAsync
+  nameWithType: RconStartListener.HandleEventAsync
+- uid: OpenMod.Core.Rcon.Source
+  name: OpenMod.Core.Rcon.Source
+  href: api/OpenMod.Core.Rcon.Source.html
+  commentId: N:OpenMod.Core.Rcon.Source
+  fullName: OpenMod.Core.Rcon.Source
+  nameWithType: OpenMod.Core.Rcon.Source
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient
+  name: SourceRconClient
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html
+  commentId: T:OpenMod.Core.Rcon.Source.SourceRconClient
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient
+  nameWithType: SourceRconClient
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.#ctor(TcpClient,OpenMod.Core.Rcon.IRconHost,IServiceProvider,ILogger{OpenMod.Core.Rcon.Source.SourceRconClient})
+  name: SourceRconClient(TcpClient, IRconHost, IServiceProvider, ILogger<SourceRconClient>)
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient__ctor_TcpClient_OpenMod_Core_Rcon_IRconHost_IServiceProvider_ILogger_OpenMod_Core_Rcon_Source_SourceRconClient__
+  commentId: M:OpenMod.Core.Rcon.Source.SourceRconClient.#ctor(TcpClient,OpenMod.Core.Rcon.IRconHost,IServiceProvider,ILogger{OpenMod.Core.Rcon.Source.SourceRconClient})
+  name.vb: SourceRconClient(TcpClient, IRconHost, IServiceProvider, ILogger(Of SourceRconClient))
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.SourceRconClient(TcpClient, OpenMod.Core.Rcon.IRconHost, IServiceProvider, ILogger<OpenMod.Core.Rcon.Source.SourceRconClient>)
+  fullName.vb: OpenMod.Core.Rcon.Source.SourceRconClient.SourceRconClient(TcpClient, OpenMod.Core.Rcon.IRconHost, IServiceProvider, ILogger(Of OpenMod.Core.Rcon.Source.SourceRconClient))
+  nameWithType: SourceRconClient.SourceRconClient(TcpClient, IRconHost, IServiceProvider, ILogger<SourceRconClient>)
+  nameWithType.vb: SourceRconClient.SourceRconClient(TcpClient, IRconHost, IServiceProvider, ILogger(Of SourceRconClient))
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.#ctor*
+  name: SourceRconClient
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconClient.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.SourceRconClient
+  nameWithType: SourceRconClient.SourceRconClient
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticatedAsync
+  name: OnClientAuthenticatedAsync()
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_OnClientAuthenticatedAsync
+  commentId: M:OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticatedAsync
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticatedAsync()
+  nameWithType: SourceRconClient.OnClientAuthenticatedAsync()
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticatedAsync*
+  name: OnClientAuthenticatedAsync
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_OnClientAuthenticatedAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticatedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticatedAsync
+  nameWithType: SourceRconClient.OnClientAuthenticatedAsync
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticationFailedAsync
+  name: OnClientAuthenticationFailedAsync()
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_OnClientAuthenticationFailedAsync
+  commentId: M:OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticationFailedAsync
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticationFailedAsync()
+  nameWithType: SourceRconClient.OnClientAuthenticationFailedAsync()
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticationFailedAsync*
+  name: OnClientAuthenticationFailedAsync
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_OnClientAuthenticationFailedAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticationFailedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.OnClientAuthenticationFailedAsync
+  nameWithType: SourceRconClient.OnClientAuthenticationFailedAsync
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.OnDataReceivedAsync(ArraySegment{System.Byte})
+  name: OnDataReceivedAsync(ArraySegment<Byte>)
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_OnDataReceivedAsync_ArraySegment_System_Byte__
+  commentId: M:OpenMod.Core.Rcon.Source.SourceRconClient.OnDataReceivedAsync(ArraySegment{System.Byte})
+  name.vb: OnDataReceivedAsync(ArraySegment(Of Byte))
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.OnDataReceivedAsync(ArraySegment<System.Byte>)
+  fullName.vb: OpenMod.Core.Rcon.Source.SourceRconClient.OnDataReceivedAsync(ArraySegment(Of System.Byte))
+  nameWithType: SourceRconClient.OnDataReceivedAsync(ArraySegment<Byte>)
+  nameWithType.vb: SourceRconClient.OnDataReceivedAsync(ArraySegment(Of Byte))
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.OnDataReceivedAsync*
+  name: OnDataReceivedAsync
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_OnDataReceivedAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconClient.OnDataReceivedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.OnDataReceivedAsync
+  nameWithType: SourceRconClient.OnDataReceivedAsync
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.ProcessPacketAsync(OpenMod.Core.Rcon.Source.SourceRconPacket)
+  name: ProcessPacketAsync(SourceRconPacket)
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_ProcessPacketAsync_OpenMod_Core_Rcon_Source_SourceRconPacket_
+  commentId: M:OpenMod.Core.Rcon.Source.SourceRconClient.ProcessPacketAsync(OpenMod.Core.Rcon.Source.SourceRconPacket)
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.ProcessPacketAsync(OpenMod.Core.Rcon.Source.SourceRconPacket)
+  nameWithType: SourceRconClient.ProcessPacketAsync(SourceRconPacket)
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.ProcessPacketAsync*
+  name: ProcessPacketAsync
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_ProcessPacketAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconClient.ProcessPacketAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.ProcessPacketAsync
+  nameWithType: SourceRconClient.ProcessPacketAsync
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.SendMessageAsync(System.Int32,System.String,CancellationToken)
+  name: SendMessageAsync(Int32, String, CancellationToken)
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_SendMessageAsync_System_Int32_System_String_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Source.SourceRconClient.SendMessageAsync(System.Int32,System.String,CancellationToken)
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.SendMessageAsync(System.Int32, System.String, CancellationToken)
+  nameWithType: SourceRconClient.SendMessageAsync(Int32, String, CancellationToken)
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.SendMessageAsync(System.String,CancellationToken)
+  name: SendMessageAsync(String, CancellationToken)
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_SendMessageAsync_System_String_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Source.SourceRconClient.SendMessageAsync(System.String,CancellationToken)
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.SendMessageAsync(System.String, CancellationToken)
+  nameWithType: SourceRconClient.SendMessageAsync(String, CancellationToken)
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.SendMessageAsync*
+  name: SendMessageAsync
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_SendMessageAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconClient.SendMessageAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.SendMessageAsync
+  nameWithType: SourceRconClient.SendMessageAsync
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.SendPacketAsync(OpenMod.Core.Rcon.Source.SourceRconPacket,CancellationToken)
+  name: SendPacketAsync(SourceRconPacket, CancellationToken)
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_SendPacketAsync_OpenMod_Core_Rcon_Source_SourceRconPacket_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Source.SourceRconClient.SendPacketAsync(OpenMod.Core.Rcon.Source.SourceRconPacket,CancellationToken)
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.SendPacketAsync(OpenMod.Core.Rcon.Source.SourceRconPacket, CancellationToken)
+  nameWithType: SourceRconClient.SendPacketAsync(SourceRconPacket, CancellationToken)
+- uid: OpenMod.Core.Rcon.Source.SourceRconClient.SendPacketAsync*
+  name: SendPacketAsync
+  href: api/OpenMod.Core.Rcon.Source.SourceRconClient.html#OpenMod_Core_Rcon_Source_SourceRconClient_SendPacketAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconClient.SendPacketAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconClient.SendPacketAsync
+  nameWithType: SourceRconClient.SendPacketAsync
+- uid: OpenMod.Core.Rcon.Source.SourceRconHost
+  name: SourceRconHost
+  href: api/OpenMod.Core.Rcon.Source.SourceRconHost.html
+  commentId: T:OpenMod.Core.Rcon.Source.SourceRconHost
+  fullName: OpenMod.Core.Rcon.Source.SourceRconHost
+  nameWithType: SourceRconHost
+- uid: OpenMod.Core.Rcon.Source.SourceRconHost.#ctor(IServiceProvider)
+  name: SourceRconHost(IServiceProvider)
+  href: api/OpenMod.Core.Rcon.Source.SourceRconHost.html#OpenMod_Core_Rcon_Source_SourceRconHost__ctor_IServiceProvider_
+  commentId: M:OpenMod.Core.Rcon.Source.SourceRconHost.#ctor(IServiceProvider)
+  fullName: OpenMod.Core.Rcon.Source.SourceRconHost.SourceRconHost(IServiceProvider)
+  nameWithType: SourceRconHost.SourceRconHost(IServiceProvider)
+- uid: OpenMod.Core.Rcon.Source.SourceRconHost.#ctor*
+  name: SourceRconHost
+  href: api/OpenMod.Core.Rcon.Source.SourceRconHost.html#OpenMod_Core_Rcon_Source_SourceRconHost__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconHost.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconHost.SourceRconHost
+  nameWithType: SourceRconHost.SourceRconHost
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket
+  name: SourceRconPacket
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html
+  commentId: T:OpenMod.Core.Rcon.Source.SourceRconPacket
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket
+  nameWithType: SourceRconPacket
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.Body
+  name: Body
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_Body
+  commentId: P:OpenMod.Core.Rcon.Source.SourceRconPacket.Body
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.Body
+  nameWithType: SourceRconPacket.Body
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.Body*
+  name: Body
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_Body_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconPacket.Body
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.Body
+  nameWithType: SourceRconPacket.Body
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.ReadFromStreamAsync(Stream)
+  name: ReadFromStreamAsync(Stream)
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_ReadFromStreamAsync_Stream_
+  commentId: M:OpenMod.Core.Rcon.Source.SourceRconPacket.ReadFromStreamAsync(Stream)
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.ReadFromStreamAsync(Stream)
+  nameWithType: SourceRconPacket.ReadFromStreamAsync(Stream)
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.ReadFromStreamAsync*
+  name: ReadFromStreamAsync
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_ReadFromStreamAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconPacket.ReadFromStreamAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.ReadFromStreamAsync
+  nameWithType: SourceRconPacket.ReadFromStreamAsync
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.RequestId
+  name: RequestId
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_RequestId
+  commentId: P:OpenMod.Core.Rcon.Source.SourceRconPacket.RequestId
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.RequestId
+  nameWithType: SourceRconPacket.RequestId
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.RequestId*
+  name: RequestId
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_RequestId_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconPacket.RequestId
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.RequestId
+  nameWithType: SourceRconPacket.RequestId
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.Serialize
+  name: Serialize()
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_Serialize
+  commentId: M:OpenMod.Core.Rcon.Source.SourceRconPacket.Serialize
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.Serialize()
+  nameWithType: SourceRconPacket.Serialize()
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.Serialize*
+  name: Serialize
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_Serialize_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconPacket.Serialize
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.Serialize
+  nameWithType: SourceRconPacket.Serialize
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataAuthPacket
+  name: ServerDataAuthPacket
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_ServerDataAuthPacket
+  commentId: F:OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataAuthPacket
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataAuthPacket
+  nameWithType: SourceRconPacket.ServerDataAuthPacket
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataAuthResponsePacket
+  name: ServerDataAuthResponsePacket
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_ServerDataAuthResponsePacket
+  commentId: F:OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataAuthResponsePacket
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataAuthResponsePacket
+  nameWithType: SourceRconPacket.ServerDataAuthResponsePacket
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataExecuteCommandPacket
+  name: ServerDataExecuteCommandPacket
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_ServerDataExecuteCommandPacket
+  commentId: F:OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataExecuteCommandPacket
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataExecuteCommandPacket
+  nameWithType: SourceRconPacket.ServerDataExecuteCommandPacket
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataResponsePacket
+  name: ServerDataResponsePacket
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_ServerDataResponsePacket
+  commentId: F:OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataResponsePacket
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.ServerDataResponsePacket
+  nameWithType: SourceRconPacket.ServerDataResponsePacket
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.Type
+  name: Type
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_Type
+  commentId: P:OpenMod.Core.Rcon.Source.SourceRconPacket.Type
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.Type
+  nameWithType: SourceRconPacket.Type
+- uid: OpenMod.Core.Rcon.Source.SourceRconPacket.Type*
+  name: Type
+  href: api/OpenMod.Core.Rcon.Source.SourceRconPacket.html#OpenMod_Core_Rcon_Source_SourceRconPacket_Type_
+  commentId: Overload:OpenMod.Core.Rcon.Source.SourceRconPacket.Type
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Source.SourceRconPacket.Type
+  nameWithType: SourceRconPacket.Type
+- uid: OpenMod.Core.Rcon.Tcp
+  name: OpenMod.Core.Rcon.Tcp
+  href: api/OpenMod.Core.Rcon.Tcp.html
+  commentId: N:OpenMod.Core.Rcon.Tcp
+  fullName: OpenMod.Core.Rcon.Tcp
+  nameWithType: OpenMod.Core.Rcon.Tcp
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient
+  name: BaseTcpRconClient
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html
+  commentId: T:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient
+  nameWithType: BaseTcpRconClient
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.#ctor(TcpClient,OpenMod.Core.Rcon.IRconHost,IServiceProvider)
+  name: BaseTcpRconClient(TcpClient, IRconHost, IServiceProvider)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient__ctor_TcpClient_OpenMod_Core_Rcon_IRconHost_IServiceProvider_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.#ctor(TcpClient,OpenMod.Core.Rcon.IRconHost,IServiceProvider)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.BaseTcpRconClient(TcpClient, OpenMod.Core.Rcon.IRconHost, IServiceProvider)
+  nameWithType: BaseTcpRconClient.BaseTcpRconClient(TcpClient, IRconHost, IServiceProvider)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.#ctor*
+  name: BaseTcpRconClient
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.BaseTcpRconClient
+  nameWithType: BaseTcpRconClient.BaseTcpRconClient
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectAsync(System.Nullable{System.String},CancellationToken)
+  name: DisconnectAsync(Nullable<String>, CancellationToken)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_DisconnectAsync_System_Nullable_System_String__CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectAsync(System.Nullable{System.String},CancellationToken)
+  name.vb: DisconnectAsync(Nullable(Of String), CancellationToken)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectAsync(System.Nullable<System.String>, CancellationToken)
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectAsync(System.Nullable(Of System.String), CancellationToken)
+  nameWithType: BaseTcpRconClient.DisconnectAsync(Nullable<String>, CancellationToken)
+  nameWithType.vb: BaseTcpRconClient.DisconnectAsync(Nullable(Of String), CancellationToken)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectAsync*
+  name: DisconnectAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_DisconnectAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectAsync
+  nameWithType: BaseTcpRconClient.DisconnectAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectOnFailedLoginAttemptsAsync
+  name: DisconnectOnFailedLoginAttemptsAsync()
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_DisconnectOnFailedLoginAttemptsAsync
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectOnFailedLoginAttemptsAsync
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectOnFailedLoginAttemptsAsync()
+  nameWithType: BaseTcpRconClient.DisconnectOnFailedLoginAttemptsAsync()
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectOnFailedLoginAttemptsAsync*
+  name: DisconnectOnFailedLoginAttemptsAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_DisconnectOnFailedLoginAttemptsAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectOnFailedLoginAttemptsAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisconnectOnFailedLoginAttemptsAsync
+  nameWithType: BaseTcpRconClient.DisconnectOnFailedLoginAttemptsAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisplayName
+  name: DisplayName
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_DisplayName
+  commentId: P:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisplayName
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisplayName
+  nameWithType: BaseTcpRconClient.DisplayName
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisplayName*
+  name: DisplayName
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_DisplayName_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisplayName
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisplayName
+  nameWithType: BaseTcpRconClient.DisplayName
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisposeAsync
+  name: DisposeAsync()
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_DisposeAsync
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisposeAsync
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisposeAsync()
+  nameWithType: BaseTcpRconClient.DisposeAsync()
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisposeAsync(CancellationToken)
+  name: DisposeAsync(CancellationToken)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_DisposeAsync_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisposeAsync(CancellationToken)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisposeAsync(CancellationToken)
+  nameWithType: BaseTcpRconClient.DisposeAsync(CancellationToken)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisposeAsync*
+  name: DisposeAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_DisposeAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisposeAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.DisposeAsync
+  nameWithType: BaseTcpRconClient.DisposeAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.EndPoint
+  name: EndPoint
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_EndPoint
+  commentId: P:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.EndPoint
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.EndPoint
+  nameWithType: BaseTcpRconClient.EndPoint
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.EndPoint*
+  name: EndPoint
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_EndPoint_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.EndPoint
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.EndPoint
+  nameWithType: BaseTcpRconClient.EndPoint
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.FullActorName
+  name: FullActorName
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_FullActorName
+  commentId: P:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.FullActorName
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.FullActorName
+  nameWithType: BaseTcpRconClient.FullActorName
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_FullActorName_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.FullActorName
+  nameWithType: BaseTcpRconClient.FullActorName
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Host
+  name: Host
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_Host
+  commentId: P:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Host
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Host
+  nameWithType: BaseTcpRconClient.Host
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Host*
+  name: Host
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_Host_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Host
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Host
+  nameWithType: BaseTcpRconClient.Host
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Id
+  name: Id
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_Id
+  commentId: P:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Id
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Id
+  nameWithType: BaseTcpRconClient.Id
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Id*
+  name: Id
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_Id_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Id
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Id
+  nameWithType: BaseTcpRconClient.Id
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IncreaseFailedAuthAttempts
+  name: IncreaseFailedAuthAttempts()
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_IncreaseFailedAuthAttempts
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IncreaseFailedAuthAttempts
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IncreaseFailedAuthAttempts()
+  nameWithType: BaseTcpRconClient.IncreaseFailedAuthAttempts()
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IncreaseFailedAuthAttempts*
+  name: IncreaseFailedAuthAttempts
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_IncreaseFailedAuthAttempts_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IncreaseFailedAuthAttempts
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IncreaseFailedAuthAttempts
+  nameWithType: BaseTcpRconClient.IncreaseFailedAuthAttempts
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsAuthenticated
+  name: IsAuthenticated
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_IsAuthenticated
+  commentId: P:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsAuthenticated
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsAuthenticated
+  nameWithType: BaseTcpRconClient.IsAuthenticated
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsAuthenticated*
+  name: IsAuthenticated
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_IsAuthenticated_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsAuthenticated
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsAuthenticated
+  nameWithType: BaseTcpRconClient.IsAuthenticated
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsConnected
+  name: IsConnected
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_IsConnected
+  commentId: P:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsConnected
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsConnected
+  nameWithType: BaseTcpRconClient.IsConnected
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsConnected*
+  name: IsConnected
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_IsConnected_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsConnected
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.IsConnected
+  nameWithType: BaseTcpRconClient.IsConnected
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnAuthenticatingAsync(System.String,System.String)
+  name: OnAuthenticatingAsync(String, String)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnAuthenticatingAsync_System_String_System_String_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnAuthenticatingAsync(System.String,System.String)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnAuthenticatingAsync(System.String, System.String)
+  nameWithType: BaseTcpRconClient.OnAuthenticatingAsync(String, String)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnAuthenticatingAsync*
+  name: OnAuthenticatingAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnAuthenticatingAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnAuthenticatingAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnAuthenticatingAsync
+  nameWithType: BaseTcpRconClient.OnAuthenticatingAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticatedAsync
+  name: OnClientAuthenticatedAsync()
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnClientAuthenticatedAsync
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticatedAsync
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticatedAsync()
+  nameWithType: BaseTcpRconClient.OnClientAuthenticatedAsync()
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticatedAsync*
+  name: OnClientAuthenticatedAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnClientAuthenticatedAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticatedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticatedAsync
+  nameWithType: BaseTcpRconClient.OnClientAuthenticatedAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticationFailedAsync
+  name: OnClientAuthenticationFailedAsync()
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnClientAuthenticationFailedAsync
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticationFailedAsync
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticationFailedAsync()
+  nameWithType: BaseTcpRconClient.OnClientAuthenticationFailedAsync()
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticationFailedAsync*
+  name: OnClientAuthenticationFailedAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnClientAuthenticationFailedAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticationFailedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnClientAuthenticationFailedAsync
+  nameWithType: BaseTcpRconClient.OnClientAuthenticationFailedAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnConnectionClosedAsync(OpenMod.Core.Rcon.ConnectionCloseReason)
+  name: OnConnectionClosedAsync(ConnectionCloseReason)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnConnectionClosedAsync_OpenMod_Core_Rcon_ConnectionCloseReason_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnConnectionClosedAsync(OpenMod.Core.Rcon.ConnectionCloseReason)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnConnectionClosedAsync(OpenMod.Core.Rcon.ConnectionCloseReason)
+  nameWithType: BaseTcpRconClient.OnConnectionClosedAsync(ConnectionCloseReason)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnConnectionClosedAsync*
+  name: OnConnectionClosedAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnConnectionClosedAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnConnectionClosedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnConnectionClosedAsync
+  nameWithType: BaseTcpRconClient.OnConnectionClosedAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnDataReceivedAsync(ArraySegment{System.Byte})
+  name: OnDataReceivedAsync(ArraySegment<Byte>)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnDataReceivedAsync_ArraySegment_System_Byte__
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnDataReceivedAsync(ArraySegment{System.Byte})
+  name.vb: OnDataReceivedAsync(ArraySegment(Of Byte))
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnDataReceivedAsync(ArraySegment<System.Byte>)
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnDataReceivedAsync(ArraySegment(Of System.Byte))
+  nameWithType: BaseTcpRconClient.OnDataReceivedAsync(ArraySegment<Byte>)
+  nameWithType.vb: BaseTcpRconClient.OnDataReceivedAsync(ArraySegment(Of Byte))
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnDataReceivedAsync*
+  name: OnDataReceivedAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnDataReceivedAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnDataReceivedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnDataReceivedAsync
+  nameWithType: BaseTcpRconClient.OnDataReceivedAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnExecuteCommandAsync(System.String)
+  name: OnExecuteCommandAsync(String)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnExecuteCommandAsync_System_String_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnExecuteCommandAsync(System.String)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnExecuteCommandAsync(System.String)
+  nameWithType: BaseTcpRconClient.OnExecuteCommandAsync(String)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnExecuteCommandAsync*
+  name: OnExecuteCommandAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_OnExecuteCommandAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnExecuteCommandAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.OnExecuteCommandAsync
+  nameWithType: BaseTcpRconClient.OnExecuteCommandAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.PrintMessageAsync(System.String)
+  name: PrintMessageAsync(String)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_PrintMessageAsync_System_String_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.PrintMessageAsync(System.String)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.PrintMessageAsync(System.String)
+  nameWithType: BaseTcpRconClient.PrintMessageAsync(String)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.PrintMessageAsync(System.String,Color)
+  name: PrintMessageAsync(String, Color)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_PrintMessageAsync_System_String_Color_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.PrintMessageAsync(System.String,Color)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.PrintMessageAsync(System.String, Color)
+  nameWithType: BaseTcpRconClient.PrintMessageAsync(String, Color)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.PrintMessageAsync*
+  name: PrintMessageAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_PrintMessageAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.PrintMessageAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.PrintMessageAsync
+  nameWithType: BaseTcpRconClient.PrintMessageAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendDataAsync(System.Byte[],CancellationToken)
+  name: SendDataAsync(Byte[], CancellationToken)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_SendDataAsync_System_Byte___CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendDataAsync(System.Byte[],CancellationToken)
+  name.vb: SendDataAsync(Byte(), CancellationToken)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendDataAsync(System.Byte[], CancellationToken)
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendDataAsync(System.Byte(), CancellationToken)
+  nameWithType: BaseTcpRconClient.SendDataAsync(Byte[], CancellationToken)
+  nameWithType.vb: BaseTcpRconClient.SendDataAsync(Byte(), CancellationToken)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendDataAsync*
+  name: SendDataAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_SendDataAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendDataAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendDataAsync
+  nameWithType: BaseTcpRconClient.SendDataAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendMessageAsync(System.String,CancellationToken)
+  name: SendMessageAsync(String, CancellationToken)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_SendMessageAsync_System_String_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendMessageAsync(System.String,CancellationToken)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendMessageAsync(System.String, CancellationToken)
+  nameWithType: BaseTcpRconClient.SendMessageAsync(String, CancellationToken)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendMessageAsync*
+  name: SendMessageAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_SendMessageAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendMessageAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.SendMessageAsync
+  nameWithType: BaseTcpRconClient.SendMessageAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.StartAsync(CancellationToken)
+  name: StartAsync(CancellationToken)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_StartAsync_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.StartAsync(CancellationToken)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.StartAsync(CancellationToken)
+  nameWithType: BaseTcpRconClient.StartAsync(CancellationToken)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.StartAsync*
+  name: StartAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_StartAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.StartAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.StartAsync
+  nameWithType: BaseTcpRconClient.StartAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.TcpClient
+  name: TcpClient
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_TcpClient
+  commentId: P:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.TcpClient
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.TcpClient
+  nameWithType: BaseTcpRconClient.TcpClient
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.TcpClient*
+  name: TcpClient
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_TcpClient_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.TcpClient
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.TcpClient
+  nameWithType: BaseTcpRconClient.TcpClient
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Type
+  name: Type
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_Type
+  commentId: P:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Type
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Type
+  nameWithType: BaseTcpRconClient.Type
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Type*
+  name: Type
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconClient_Type_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Type
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconClient.Type
+  nameWithType: BaseTcpRconClient.Type
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1
+  name: BaseTcpRconHost<TClient>
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html
+  commentId: T:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1
+  name.vb: BaseTcpRconHost(Of TClient)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient)
+  nameWithType: BaseTcpRconHost<TClient>
+  nameWithType.vb: BaseTcpRconHost(Of TClient)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.#ctor(IServiceProvider)
+  name: BaseTcpRconHost(IServiceProvider)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1__ctor_IServiceProvider_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.#ctor(IServiceProvider)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.BaseTcpRconHost(IServiceProvider)
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).BaseTcpRconHost(IServiceProvider)
+  nameWithType: BaseTcpRconHost<TClient>.BaseTcpRconHost(IServiceProvider)
+  nameWithType.vb: BaseTcpRconHost(Of TClient).BaseTcpRconHost(IServiceProvider)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.#ctor*
+  name: BaseTcpRconHost
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1__ctor_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.BaseTcpRconHost
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).BaseTcpRconHost
+  nameWithType: BaseTcpRconHost<TClient>.BaseTcpRconHost
+  nameWithType.vb: BaseTcpRconHost(Of TClient).BaseTcpRconHost
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.Bind
+  name: Bind
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_Bind
+  commentId: P:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.Bind
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.Bind
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).Bind
+  nameWithType: BaseTcpRconHost<TClient>.Bind
+  nameWithType.vb: BaseTcpRconHost(Of TClient).Bind
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.Bind*
+  name: Bind
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_Bind_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.Bind
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.Bind
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).Bind
+  nameWithType: BaseTcpRconHost<TClient>.Bind
+  nameWithType.vb: BaseTcpRconHost(Of TClient).Bind
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.CreateRconClientAsync(TcpClient)
+  name: CreateRconClientAsync(TcpClient)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_CreateRconClientAsync_TcpClient_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.CreateRconClientAsync(TcpClient)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.CreateRconClientAsync(TcpClient)
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).CreateRconClientAsync(TcpClient)
+  nameWithType: BaseTcpRconHost<TClient>.CreateRconClientAsync(TcpClient)
+  nameWithType.vb: BaseTcpRconHost(Of TClient).CreateRconClientAsync(TcpClient)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.CreateRconClientAsync*
+  name: CreateRconClientAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_CreateRconClientAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.CreateRconClientAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.CreateRconClientAsync
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).CreateRconClientAsync
+  nameWithType: BaseTcpRconHost<TClient>.CreateRconClientAsync
+  nameWithType.vb: BaseTcpRconHost(Of TClient).CreateRconClientAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.IsListening
+  name: IsListening
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_IsListening
+  commentId: P:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.IsListening
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.IsListening
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).IsListening
+  nameWithType: BaseTcpRconHost<TClient>.IsListening
+  nameWithType.vb: BaseTcpRconHost(Of TClient).IsListening
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.IsListening*
+  name: IsListening
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_IsListening_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.IsListening
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.IsListening
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).IsListening
+  nameWithType: BaseTcpRconHost<TClient>.IsListening
+  nameWithType.vb: BaseTcpRconHost(Of TClient).IsListening
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.OnClientConnected(TcpClient)
+  name: OnClientConnected(TcpClient)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_OnClientConnected_TcpClient_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.OnClientConnected(TcpClient)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.OnClientConnected(TcpClient)
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).OnClientConnected(TcpClient)
+  nameWithType: BaseTcpRconHost<TClient>.OnClientConnected(TcpClient)
+  nameWithType.vb: BaseTcpRconHost(Of TClient).OnClientConnected(TcpClient)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.OnClientConnected*
+  name: OnClientConnected
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_OnClientConnected_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.OnClientConnected
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.OnClientConnected
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).OnClientConnected
+  nameWithType: BaseTcpRconHost<TClient>.OnClientConnected
+  nameWithType.vb: BaseTcpRconHost(Of TClient).OnClientConnected
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StartListeningAsync(IPEndPoint,CancellationToken)
+  name: StartListeningAsync(IPEndPoint, CancellationToken)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_StartListeningAsync_IPEndPoint_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StartListeningAsync(IPEndPoint,CancellationToken)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.StartListeningAsync(IPEndPoint, CancellationToken)
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).StartListeningAsync(IPEndPoint, CancellationToken)
+  nameWithType: BaseTcpRconHost<TClient>.StartListeningAsync(IPEndPoint, CancellationToken)
+  nameWithType.vb: BaseTcpRconHost(Of TClient).StartListeningAsync(IPEndPoint, CancellationToken)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StartListeningAsync*
+  name: StartListeningAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_StartListeningAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StartListeningAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.StartListeningAsync
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).StartListeningAsync
+  nameWithType: BaseTcpRconHost<TClient>.StartListeningAsync
+  nameWithType.vb: BaseTcpRconHost(Of TClient).StartListeningAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StopListeningAsync(CancellationToken)
+  name: StopListeningAsync(CancellationToken)
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_StopListeningAsync_CancellationToken_
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StopListeningAsync(CancellationToken)
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.StopListeningAsync(CancellationToken)
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).StopListeningAsync(CancellationToken)
+  nameWithType: BaseTcpRconHost<TClient>.StopListeningAsync(CancellationToken)
+  nameWithType.vb: BaseTcpRconHost(Of TClient).StopListeningAsync(CancellationToken)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StopListeningAsync*
+  name: StopListeningAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_StopListeningAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StopListeningAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.StopListeningAsync
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).StopListeningAsync
+  nameWithType: BaseTcpRconHost<TClient>.StopListeningAsync
+  nameWithType.vb: BaseTcpRconHost(Of TClient).StopListeningAsync
 - uid: OpenMod.Core.ServiceConfigurator
   name: ServiceConfigurator
   href: api/OpenMod.Core.ServiceConfigurator.html
@@ -12373,6 +14108,12 @@ references:
   commentId: F:OpenMod.Core.Users.KnownActorTypes.Player
   fullName: OpenMod.Core.Users.KnownActorTypes.Player
   nameWithType: KnownActorTypes.Player
+- uid: OpenMod.Core.Users.KnownActorTypes.Rcon
+  name: Rcon
+  href: api/OpenMod.Core.Users.KnownActorTypes.html#OpenMod_Core_Users_KnownActorTypes_Rcon
+  commentId: F:OpenMod.Core.Users.KnownActorTypes.Rcon
+  fullName: OpenMod.Core.Users.KnownActorTypes.Rcon
+  nameWithType: KnownActorTypes.Rcon
 - uid: OpenMod.Core.Users.OfflineUser
   name: OfflineUser
   href: api/OpenMod.Core.Users.OfflineUser.html
@@ -12526,6 +14267,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Users.UserBase.DisplayName
   nameWithType: UserBase.DisplayName
+- uid: OpenMod.Core.Users.UserBase.FullActorName
+  name: FullActorName
+  href: api/OpenMod.Core.Users.UserBase.html#OpenMod_Core_Users_UserBase_FullActorName
+  commentId: P:OpenMod.Core.Users.UserBase.FullActorName
+  fullName: OpenMod.Core.Users.UserBase.FullActorName
+  nameWithType: UserBase.FullActorName
+- uid: OpenMod.Core.Users.UserBase.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.Core.Users.UserBase.html#OpenMod_Core_Users_UserBase_FullActorName_
+  commentId: Overload:OpenMod.Core.Users.UserBase.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.Core.Users.UserBase.FullActorName
+  nameWithType: UserBase.FullActorName
 - uid: OpenMod.Core.Users.UserBase.GetPersistentDataAsync*
   name: GetPersistentDataAsync
   href: api/OpenMod.Core.Users.UserBase.html#OpenMod_Core_Users_UserBase_GetPersistentDataAsync_
@@ -16842,50 +18596,6 @@ references:
   commentId: N:OpenMod.Runtime
   fullName: OpenMod.Runtime
   nameWithType: OpenMod.Runtime
-- uid: OpenMod.Runtime.Events
-  name: OpenMod.Runtime.Events
-  href: api/OpenMod.Runtime.Events.html
-  commentId: N:OpenMod.Runtime.Events
-  fullName: OpenMod.Runtime.Events
-  nameWithType: OpenMod.Runtime.Events
-- uid: OpenMod.Runtime.Events.OpenModInitializedEvent
-  name: OpenModInitializedEvent
-  href: api/OpenMod.Runtime.Events.OpenModInitializedEvent.html
-  commentId: T:OpenMod.Runtime.Events.OpenModInitializedEvent
-  fullName: OpenMod.Runtime.Events.OpenModInitializedEvent
-  nameWithType: OpenModInitializedEvent
-- uid: OpenMod.Runtime.Events.OpenModInitializedEvent.#ctor(OpenMod.API.IOpenModHost)
-  name: OpenModInitializedEvent(IOpenModHost)
-  href: api/OpenMod.Runtime.Events.OpenModInitializedEvent.html#OpenMod_Runtime_Events_OpenModInitializedEvent__ctor_OpenMod_API_IOpenModHost_
-  commentId: M:OpenMod.Runtime.Events.OpenModInitializedEvent.#ctor(OpenMod.API.IOpenModHost)
-  fullName: OpenMod.Runtime.Events.OpenModInitializedEvent.OpenModInitializedEvent(OpenMod.API.IOpenModHost)
-  nameWithType: OpenModInitializedEvent.OpenModInitializedEvent(IOpenModHost)
-- uid: OpenMod.Runtime.Events.OpenModInitializedEvent.#ctor*
-  name: OpenModInitializedEvent
-  href: api/OpenMod.Runtime.Events.OpenModInitializedEvent.html#OpenMod_Runtime_Events_OpenModInitializedEvent__ctor_
-  commentId: Overload:OpenMod.Runtime.Events.OpenModInitializedEvent.#ctor
-  isSpec: "True"
-  fullName: OpenMod.Runtime.Events.OpenModInitializedEvent.OpenModInitializedEvent
-  nameWithType: OpenModInitializedEvent.OpenModInitializedEvent
-- uid: OpenMod.Runtime.Events.OpenModInitializedEvent.Host
-  name: Host
-  href: api/OpenMod.Runtime.Events.OpenModInitializedEvent.html#OpenMod_Runtime_Events_OpenModInitializedEvent_Host
-  commentId: P:OpenMod.Runtime.Events.OpenModInitializedEvent.Host
-  fullName: OpenMod.Runtime.Events.OpenModInitializedEvent.Host
-  nameWithType: OpenModInitializedEvent.Host
-- uid: OpenMod.Runtime.Events.OpenModInitializedEvent.Host*
-  name: Host
-  href: api/OpenMod.Runtime.Events.OpenModInitializedEvent.html#OpenMod_Runtime_Events_OpenModInitializedEvent_Host_
-  commentId: Overload:OpenMod.Runtime.Events.OpenModInitializedEvent.Host
-  isSpec: "True"
-  fullName: OpenMod.Runtime.Events.OpenModInitializedEvent.Host
-  nameWithType: OpenModInitializedEvent.Host
-- uid: OpenMod.Runtime.Events.OpenModShutdownEvent
-  name: OpenModShutdownEvent
-  href: api/OpenMod.Runtime.Events.OpenModShutdownEvent.html
-  commentId: T:OpenMod.Runtime.Events.OpenModShutdownEvent
-  fullName: OpenMod.Runtime.Events.OpenModShutdownEvent
-  nameWithType: OpenModShutdownEvent
 - uid: OpenMod.Runtime.OpenModHostedService
   name: OpenModHostedService
   href: api/OpenMod.Runtime.OpenModHostedService.html
@@ -30764,6 +32474,19 @@ references:
   commentId: T:OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener
   fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener
   nameWithType: RocketModCommandEventListener
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.#ctor(OpenMod.Unturned.Configuration.IOpenModUnturnedConfiguration,ICommandCooldownStore,IOpenModStringLocalizer)
+  name: RocketModCommandEventListener(IOpenModUnturnedConfiguration, ICommandCooldownStore, IOpenModStringLocalizer)
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener__ctor_OpenMod_Unturned_Configuration_IOpenModUnturnedConfiguration_ICommandCooldownStore_IOpenModStringLocalizer_
+  commentId: M:OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.#ctor(OpenMod.Unturned.Configuration.IOpenModUnturnedConfiguration,ICommandCooldownStore,IOpenModStringLocalizer)
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.RocketModCommandEventListener(OpenMod.Unturned.Configuration.IOpenModUnturnedConfiguration, ICommandCooldownStore, IOpenModStringLocalizer)
+  nameWithType: RocketModCommandEventListener.RocketModCommandEventListener(IOpenModUnturnedConfiguration, ICommandCooldownStore, IOpenModStringLocalizer)
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.#ctor*
+  name: RocketModCommandEventListener
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener__ctor_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.RocketModCommandEventListener
+  nameWithType: RocketModCommandEventListener.RocketModCommandEventListener
 - uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.HandleEventAsync(System.Object,CommandExecutedEvent)
   name: HandleEventAsync(Object, CommandExecutedEvent)
   href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener_HandleEventAsync_System_Object_CommandExecutedEvent_
@@ -30944,18 +32667,18 @@ references:
   commentId: N:OpenMod.Unturned.RocketMod.Events
   fullName: OpenMod.Unturned.RocketMod.Events
   nameWithType: OpenMod.Unturned.RocketMod.Events
+- uid: OpenMod.Unturned.RocketMod.Events.RocketModInitializedEvent
+  name: RocketModInitializedEvent
+  href: api/OpenMod.Unturned.RocketMod.Events.RocketModInitializedEvent.html
+  commentId: T:OpenMod.Unturned.RocketMod.Events.RocketModInitializedEvent
+  fullName: OpenMod.Unturned.RocketMod.Events.RocketModInitializedEvent
+  nameWithType: RocketModInitializedEvent
 - uid: OpenMod.Unturned.RocketMod.Events.RocketModPluginsLoadedEvent
   name: RocketModPluginsLoadedEvent
   href: api/OpenMod.Unturned.RocketMod.Events.RocketModPluginsLoadedEvent.html
   commentId: T:OpenMod.Unturned.RocketMod.Events.RocketModPluginsLoadedEvent
   fullName: OpenMod.Unturned.RocketMod.Events.RocketModPluginsLoadedEvent
   nameWithType: RocketModPluginsLoadedEvent
-- uid: OpenMod.Unturned.RocketMod.Events.RocketModReadyEvent
-  name: RocketModReadyEvent
-  href: api/OpenMod.Unturned.RocketMod.Events.RocketModReadyEvent.html
-  commentId: T:OpenMod.Unturned.RocketMod.Events.RocketModReadyEvent
-  fullName: OpenMod.Unturned.RocketMod.Events.RocketModReadyEvent
-  nameWithType: RocketModReadyEvent
 - uid: OpenMod.Unturned.RocketMod.IRocketModComponent
   name: IRocketModComponent
   href: api/OpenMod.Unturned.RocketMod.IRocketModComponent.html
@@ -31658,6 +33381,191 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionStore.RemoveGrantedPermissionAsync
   nameWithType: RocketPermissionStore.RemoveGrantedPermissionAsync
+- uid: OpenMod.Unturned.RocketMod.Rcon
+  name: OpenMod.Unturned.RocketMod.Rcon
+  href: api/OpenMod.Unturned.RocketMod.Rcon.html
+  commentId: N:OpenMod.Unturned.RocketMod.Rcon
+  fullName: OpenMod.Unturned.RocketMod.Rcon
+  nameWithType: OpenMod.Unturned.RocketMod.Rcon
+- uid: OpenMod.Unturned.RocketMod.Rcon.RconStartListener
+  name: RconStartListener
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RconStartListener.html
+  commentId: T:OpenMod.Unturned.RocketMod.Rcon.RconStartListener
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RconStartListener
+  nameWithType: RconStartListener
+- uid: OpenMod.Unturned.RocketMod.Rcon.RconStartListener.#ctor(IEventBus,IRuntime,IConfiguration,OpenMod.Unturned.Configuration.IOpenModUnturnedConfiguration)
+  name: RconStartListener(IEventBus, IRuntime, IConfiguration, IOpenModUnturnedConfiguration)
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RconStartListener.html#OpenMod_Unturned_RocketMod_Rcon_RconStartListener__ctor_IEventBus_IRuntime_IConfiguration_OpenMod_Unturned_Configuration_IOpenModUnturnedConfiguration_
+  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RconStartListener.#ctor(IEventBus,IRuntime,IConfiguration,OpenMod.Unturned.Configuration.IOpenModUnturnedConfiguration)
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RconStartListener.RconStartListener(IEventBus, IRuntime, IConfiguration, OpenMod.Unturned.Configuration.IOpenModUnturnedConfiguration)
+  nameWithType: RconStartListener.RconStartListener(IEventBus, IRuntime, IConfiguration, IOpenModUnturnedConfiguration)
+- uid: OpenMod.Unturned.RocketMod.Rcon.RconStartListener.#ctor*
+  name: RconStartListener
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RconStartListener.html#OpenMod_Unturned_RocketMod_Rcon_RconStartListener__ctor_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RconStartListener.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RconStartListener.RconStartListener
+  nameWithType: RconStartListener.RconStartListener
+- uid: OpenMod.Unturned.RocketMod.Rcon.RconStartListener.HandleEventAsync(System.Object,OpenMod.Unturned.RocketMod.Events.RocketModInitializedEvent)
+  name: HandleEventAsync(Object, RocketModInitializedEvent)
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RconStartListener.html#OpenMod_Unturned_RocketMod_Rcon_RconStartListener_HandleEventAsync_System_Object_OpenMod_Unturned_RocketMod_Events_RocketModInitializedEvent_
+  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RconStartListener.HandleEventAsync(System.Object,OpenMod.Unturned.RocketMod.Events.RocketModInitializedEvent)
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RconStartListener.HandleEventAsync(System.Object, OpenMod.Unturned.RocketMod.Events.RocketModInitializedEvent)
+  nameWithType: RconStartListener.HandleEventAsync(Object, RocketModInitializedEvent)
+- uid: OpenMod.Unturned.RocketMod.Rcon.RconStartListener.HandleEventAsync(System.Object,OpenModInitializedEvent)
+  name: HandleEventAsync(Object, OpenModInitializedEvent)
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RconStartListener.html#OpenMod_Unturned_RocketMod_Rcon_RconStartListener_HandleEventAsync_System_Object_OpenModInitializedEvent_
+  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RconStartListener.HandleEventAsync(System.Object,OpenModInitializedEvent)
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RconStartListener.HandleEventAsync(System.Object, OpenModInitializedEvent)
+  nameWithType: RconStartListener.HandleEventAsync(Object, OpenModInitializedEvent)
+- uid: OpenMod.Unturned.RocketMod.Rcon.RconStartListener.HandleEventAsync*
+  name: HandleEventAsync
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RconStartListener.html#OpenMod_Unturned_RocketMod_Rcon_RconStartListener_HandleEventAsync_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RconStartListener.HandleEventAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RconStartListener.HandleEventAsync
+  nameWithType: RconStartListener.HandleEventAsync
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient
+  name: RocketModRconClient
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html
+  commentId: T:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient
+  nameWithType: RocketModRconClient
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.#ctor(ILogger{OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient},System.Net.Sockets.TcpClient,IRconHost,System.IServiceProvider)
+  name: RocketModRconClient(ILogger<RocketModRconClient>, TcpClient, IRconHost, IServiceProvider)
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient__ctor_ILogger_OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient__System_Net_Sockets_TcpClient_IRconHost_System_IServiceProvider_
+  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.#ctor(ILogger{OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient},System.Net.Sockets.TcpClient,IRconHost,System.IServiceProvider)
+  name.vb: RocketModRconClient(ILogger(Of RocketModRconClient), TcpClient, IRconHost, IServiceProvider)
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.RocketModRconClient(ILogger<OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient>, System.Net.Sockets.TcpClient, IRconHost, System.IServiceProvider)
+  fullName.vb: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.RocketModRconClient(ILogger(Of OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient), System.Net.Sockets.TcpClient, IRconHost, System.IServiceProvider)
+  nameWithType: RocketModRconClient.RocketModRconClient(ILogger<RocketModRconClient>, TcpClient, IRconHost, IServiceProvider)
+  nameWithType.vb: RocketModRconClient.RocketModRconClient(ILogger(Of RocketModRconClient), TcpClient, IRconHost, IServiceProvider)
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.#ctor*
+  name: RocketModRconClient
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient__ctor_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.RocketModRconClient
+  nameWithType: RocketModRconClient.RocketModRconClient
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.OnDataReceivedAsync(System.ArraySegment{System.Byte})
+  name: OnDataReceivedAsync(ArraySegment<Byte>)
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient_OnDataReceivedAsync_System_ArraySegment_System_Byte__
+  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.OnDataReceivedAsync(System.ArraySegment{System.Byte})
+  name.vb: OnDataReceivedAsync(ArraySegment(Of Byte))
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.OnDataReceivedAsync(System.ArraySegment<System.Byte>)
+  fullName.vb: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.OnDataReceivedAsync(System.ArraySegment(Of System.Byte))
+  nameWithType: RocketModRconClient.OnDataReceivedAsync(ArraySegment<Byte>)
+  nameWithType.vb: RocketModRconClient.OnDataReceivedAsync(ArraySegment(Of Byte))
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.OnDataReceivedAsync*
+  name: OnDataReceivedAsync
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient_OnDataReceivedAsync_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.OnDataReceivedAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.OnDataReceivedAsync
+  nameWithType: RocketModRconClient.OnDataReceivedAsync
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync(OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket)
+  name: ProcessPacketAsync(RocketModRconPacket)
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient_ProcessPacketAsync_OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_
+  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync(OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket)
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync(OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket)
+  nameWithType: RocketModRconClient.ProcessPacketAsync(RocketModRconPacket)
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync*
+  name: ProcessPacketAsync
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient_ProcessPacketAsync_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync
+  nameWithType: RocketModRconClient.ProcessPacketAsync
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendMessageAsync(System.String,System.Threading.CancellationToken)
+  name: SendMessageAsync(String, CancellationToken)
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient_SendMessageAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendMessageAsync(System.String,System.Threading.CancellationToken)
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendMessageAsync(System.String, System.Threading.CancellationToken)
+  nameWithType: RocketModRconClient.SendMessageAsync(String, CancellationToken)
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendMessageAsync*
+  name: SendMessageAsync
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient_SendMessageAsync_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendMessageAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendMessageAsync
+  nameWithType: RocketModRconClient.SendMessageAsync
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendPacketAsync(OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket,System.Threading.CancellationToken)
+  name: SendPacketAsync(RocketModRconPacket, CancellationToken)
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient_SendPacketAsync_OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_System_Threading_CancellationToken_
+  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendPacketAsync(OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket,System.Threading.CancellationToken)
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendPacketAsync(OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket, System.Threading.CancellationToken)
+  nameWithType: RocketModRconClient.SendPacketAsync(RocketModRconPacket, CancellationToken)
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendPacketAsync*
+  name: SendPacketAsync
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient_SendPacketAsync_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendPacketAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendPacketAsync
+  nameWithType: RocketModRconClient.SendPacketAsync
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost
+  name: RocketModRconHost
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost.html
+  commentId: T:OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost
+  nameWithType: RocketModRconHost
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost.#ctor(System.IServiceProvider)
+  name: RocketModRconHost(IServiceProvider)
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconHost__ctor_System_IServiceProvider_
+  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost.#ctor(System.IServiceProvider)
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost.RocketModRconHost(System.IServiceProvider)
+  nameWithType: RocketModRconHost.RocketModRconHost(IServiceProvider)
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost.#ctor*
+  name: RocketModRconHost
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconHost__ctor_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconHost.RocketModRconHost
+  nameWithType: RocketModRconHost.RocketModRconHost
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket
+  name: RocketModRconPacket
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html
+  commentId: T:OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket
+  nameWithType: RocketModRconPacket
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Body
+  name: Body
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_Body
+  commentId: P:OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Body
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Body
+  nameWithType: RocketModRconPacket.Body
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Body*
+  name: Body
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_Body_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Body
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Body
+  nameWithType: RocketModRconPacket.Body
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync(System.IO.Stream)
+  name: ReadFromStreamAsync(Stream)
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_ReadFromStreamAsync_System_IO_Stream_
+  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync(System.IO.Stream)
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync(System.IO.Stream)
+  nameWithType: RocketModRconPacket.ReadFromStreamAsync(Stream)
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync*
+  name: ReadFromStreamAsync
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_ReadFromStreamAsync_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync
+  nameWithType: RocketModRconPacket.ReadFromStreamAsync
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Serialize
+  name: Serialize()
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_Serialize
+  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Serialize
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Serialize()
+  nameWithType: RocketModRconPacket.Serialize()
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Serialize*
+  name: Serialize
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_Serialize_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Serialize
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Serialize
+  nameWithType: RocketModRconPacket.Serialize
 - uid: OpenMod.Unturned.RocketMod.RocketModComponent
   name: RocketModComponent
   href: api/OpenMod.Unturned.RocketMod.RocketModComponent.html

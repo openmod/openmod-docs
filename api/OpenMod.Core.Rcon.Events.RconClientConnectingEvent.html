@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PluginLoadEvent
+    <title>Class RconClientConnectingEvent
    | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PluginLoadEvent
+    <meta name="title" content="Class RconClientConnectingEvent
    | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -92,10 +92,10 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="OpenMod.Core.Plugins.Events.PluginLoadEvent">
+                    <article class="content wrap" id="_content" data-uid="OpenMod.Core.Rcon.Events.RconClientConnectingEvent">
   
   
-  <h1 id="OpenMod_Core_Plugins_Events_PluginLoadEvent" data-uid="OpenMod.Core.Plugins.Events.PluginLoadEvent" class="text-break">Class PluginLoadEvent
+  <h1 id="OpenMod_Core_Rcon_Events_RconClientConnectingEvent" data-uid="OpenMod.Core.Rcon.Events.RconClientConnectingEvent" class="text-break">Class RconClientConnectingEvent
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -104,7 +104,8 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="OpenMod.Core.Eventing.EventBase.html">EventBase</a></div>
     <div class="level2"><a class="xref" href="OpenMod.Core.Eventing.Event.html">Event</a></div>
-    <div class="level3"><span class="xref">PluginLoadEvent</span></div>
+    <div class="level3"><a class="xref" href="OpenMod.Core.Rcon.Events.RconClientEvent.html">RconClientEvent</a></div>
+    <div class="level4"><span class="xref">RconClientConnectingEvent</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -113,6 +114,9 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="OpenMod.Core.Rcon.Events.RconClientEvent.html#OpenMod_Core_Rcon_Events_RconClientEvent_Client">RconClientEvent.Client</a>
+    </div>
     <div>
       <a class="xref" href="OpenMod.Core.Eventing.Event.html#OpenMod_Core_Eventing_Event_Arguments">Event.Arguments</a>
     </div>
@@ -123,28 +127,28 @@
       <a class="xref" href="OpenMod.Core.Eventing.EventBase.html#OpenMod_Core_Eventing_EventBase_Data">EventBase.Data</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Plugins.Events.html">OpenMod.Core.Plugins.Events</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Rcon.Events.html">OpenMod.Core.Rcon.Events</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
-  <h5 id="OpenMod_Core_Plugins_Events_PluginLoadEvent_syntax">Syntax</h5>
+  <h5 id="OpenMod_Core_Rcon_Events_RconClientConnectingEvent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PluginLoadEvent : Event, ICancellableEvent, IEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public class RconClientConnectingEvent : RconClientEvent, ICancellableEvent, IEvent</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Plugins_Events_PluginLoadEvent__ctor_OpenMod_API_Plugins_IOpenModPlugin_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Plugins.Events.PluginLoadEvent.%23ctor(OpenMod.API.Plugins.IOpenModPlugin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Rcon_Events_RconClientConnectingEvent__ctor_OpenMod_Core_Rcon_IRconClient_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Rcon.Events.RconClientConnectingEvent.%23ctor(OpenMod.Core.Rcon.IRconClient)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Plugins/Events/PluginLoadEvent.cs/#L11">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Rcon/Events/RconClientConnectingEvent.cs/#L9">View Source</a>
   </span>
-  <a id="OpenMod_Core_Plugins_Events_PluginLoadEvent__ctor_" data-uid="OpenMod.Core.Plugins.Events.PluginLoadEvent.#ctor*"></a>
-  <h4 id="OpenMod_Core_Plugins_Events_PluginLoadEvent__ctor_OpenMod_API_Plugins_IOpenModPlugin_" data-uid="OpenMod.Core.Plugins.Events.PluginLoadEvent.#ctor(OpenMod.API.Plugins.IOpenModPlugin)">PluginLoadEvent(IOpenModPlugin)</h4>
+  <a id="OpenMod_Core_Rcon_Events_RconClientConnectingEvent__ctor_" data-uid="OpenMod.Core.Rcon.Events.RconClientConnectingEvent.#ctor*"></a>
+  <h4 id="OpenMod_Core_Rcon_Events_RconClientConnectingEvent__ctor_OpenMod_Core_Rcon_IRconClient_" data-uid="OpenMod.Core.Rcon.Events.RconClientConnectingEvent.#ctor(OpenMod.Core.Rcon.IRconClient)">RconClientConnectingEvent(IRconClient)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PluginLoadEvent(IOpenModPlugin plugin)</code></pre>
+    <pre><code class="lang-csharp hljs">public RconClientConnectingEvent(IRconClient client)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,8 +161,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="OpenMod.API.Plugins.IOpenModPlugin.html">IOpenModPlugin</a></td>
-        <td><span class="parametername">plugin</span></td>
+        <td><a class="xref" href="OpenMod.Core.Rcon.IRconClient.html">IRconClient</a></td>
+        <td><span class="parametername">client</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -167,13 +171,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Plugins_Events_PluginLoadEvent_IsCancelled.md&amp;value=---%0Auid%3A%20OpenMod.Core.Plugins.Events.PluginLoadEvent.IsCancelled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Rcon_Events_RconClientConnectingEvent_IsCancelled.md&amp;value=---%0Auid%3A%20OpenMod.Core.Rcon.Events.RconClientConnectingEvent.IsCancelled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Plugins/Events/PluginLoadEvent.cs/#L16">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Rcon/Events/RconClientConnectingEvent.cs/#L14">View Source</a>
   </span>
-  <a id="OpenMod_Core_Plugins_Events_PluginLoadEvent_IsCancelled_" data-uid="OpenMod.Core.Plugins.Events.PluginLoadEvent.IsCancelled*"></a>
-  <h4 id="OpenMod_Core_Plugins_Events_PluginLoadEvent_IsCancelled" data-uid="OpenMod.Core.Plugins.Events.PluginLoadEvent.IsCancelled">IsCancelled</h4>
+  <a id="OpenMod_Core_Rcon_Events_RconClientConnectingEvent_IsCancelled_" data-uid="OpenMod.Core.Rcon.Events.RconClientConnectingEvent.IsCancelled*"></a>
+  <h4 id="OpenMod_Core_Rcon_Events_RconClientConnectingEvent_IsCancelled" data-uid="OpenMod.Core.Rcon.Events.RconClientConnectingEvent.IsCancelled">IsCancelled</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -197,18 +201,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Plugins_Events_PluginLoadEvent_Plugin.md&amp;value=---%0Auid%3A%20OpenMod.Core.Plugins.Events.PluginLoadEvent.Plugin%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Rcon_Events_RconClientConnectingEvent_RejectionReason.md&amp;value=---%0Auid%3A%20OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectionReason%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Plugins/Events/PluginLoadEvent.cs/#L9">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Rcon/Events/RconClientConnectingEvent.cs/#L16">View Source</a>
   </span>
-  <a id="OpenMod_Core_Plugins_Events_PluginLoadEvent_Plugin_" data-uid="OpenMod.Core.Plugins.Events.PluginLoadEvent.Plugin*"></a>
-  <h4 id="OpenMod_Core_Plugins_Events_PluginLoadEvent_Plugin" data-uid="OpenMod.Core.Plugins.Events.PluginLoadEvent.Plugin">Plugin</h4>
+  <a id="OpenMod_Core_Rcon_Events_RconClientConnectingEvent_RejectionReason_" data-uid="OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectionReason*"></a>
+  <h4 id="OpenMod_Core_Rcon_Events_RconClientConnectingEvent_RejectionReason" data-uid="OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectionReason">RejectionReason</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IOpenModPlugin Plugin { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? RejectionReason { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -220,7 +224,56 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="OpenMod.API.Plugins.IOpenModPlugin.html">IOpenModPlugin</a></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Rcon_Events_RconClientConnectingEvent_RejectAsync_System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectAsync(System.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Rcon/Events/RconClientConnectingEvent.cs/#L18">View Source</a>
+  </span>
+  <a id="OpenMod_Core_Rcon_Events_RconClientConnectingEvent_RejectAsync_" data-uid="OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectAsync*"></a>
+  <h4 id="OpenMod_Core_Rcon_Events_RconClientConnectingEvent_RejectAsync_System_Nullable_System_String__" data-uid="OpenMod.Core.Rcon.Events.RconClientConnectingEvent.RejectAsync(System.Nullable{System.String})">RejectAsync(Nullable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RejectAsync(string? reason)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
