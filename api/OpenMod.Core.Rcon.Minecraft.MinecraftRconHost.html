@@ -108,6 +108,7 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="OpenMod.Core.Rcon.IRconHost.html">IRconHost</a></div>
+    <div><span class="xref">IAsyncDisposable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -124,17 +125,20 @@
       <a class="xref" href="OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_OnClientConnected_TcpClient_">BaseTcpRconHost&lt;MinecraftRconClient&gt;.OnClientConnected(TcpClient)</a>
     </div>
     <div>
-      <a class="xref" href="OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_StopListeningAsync_CancellationToken_">BaseTcpRconHost&lt;MinecraftRconClient&gt;.StopListeningAsync(CancellationToken)</a>
+      <a class="xref" href="OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_StopListeningAsync">BaseTcpRconHost&lt;MinecraftRconClient&gt;.StopListeningAsync()</a>
     </div>
     <div>
       <a class="xref" href="OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_CreateRconClientAsync_TcpClient_">BaseTcpRconHost&lt;MinecraftRconClient&gt;.CreateRconClientAsync(TcpClient)</a>
+    </div>
+    <div>
+      <a class="xref" href="OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_DisposeAsync">BaseTcpRconHost&lt;MinecraftRconClient&gt;.DisposeAsync()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Rcon.Minecraft.html">OpenMod.Core.Rcon.Minecraft</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
   <h5 id="OpenMod_Core_Rcon_Minecraft_MinecraftRconHost_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MinecraftRconHost : BaseTcpRconHost&lt;MinecraftRconClient&gt;, IRconHost</code></pre>
+    <pre><code class="lang-csharp hljs">public class MinecraftRconHost : BaseTcpRconHost&lt;MinecraftRconClient&gt;, IRconHost, IAsyncDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -173,6 +177,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="OpenMod.Core.Rcon.IRconHost.html">IRconHost</a>
+  </div>
+  <div>
+      <span class="xref">IAsyncDisposable</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

@@ -1089,14 +1089,15 @@ references:
   fullName.vb: OpenMod.API.Eventing.IEventListener(Of TEvent)
   nameWithType: IEventListener<TEvent>
   nameWithType.vb: IEventListener(Of TEvent)
-- uid: OpenMod.API.Eventing.IEventListener`1.HandleEventAsync(System.Object,`0)
-  name: HandleEventAsync(Object, TEvent)
-  href: api/OpenMod.API.Eventing.IEventListener-1.html#OpenMod_API_Eventing_IEventListener_1_HandleEventAsync_System_Object__0_
-  commentId: M:OpenMod.API.Eventing.IEventListener`1.HandleEventAsync(System.Object,`0)
-  fullName: OpenMod.API.Eventing.IEventListener<TEvent>.HandleEventAsync(System.Object, TEvent)
-  fullName.vb: OpenMod.API.Eventing.IEventListener(Of TEvent).HandleEventAsync(System.Object, TEvent)
-  nameWithType: IEventListener<TEvent>.HandleEventAsync(Object, TEvent)
-  nameWithType.vb: IEventListener(Of TEvent).HandleEventAsync(Object, TEvent)
+- uid: OpenMod.API.Eventing.IEventListener`1.HandleEventAsync(System.Nullable{System.Object},`0)
+  name: HandleEventAsync(Nullable<Object>, TEvent)
+  href: api/OpenMod.API.Eventing.IEventListener-1.html#OpenMod_API_Eventing_IEventListener_1_HandleEventAsync_System_Nullable_System_Object___0_
+  commentId: M:OpenMod.API.Eventing.IEventListener`1.HandleEventAsync(System.Nullable{System.Object},`0)
+  name.vb: HandleEventAsync(Nullable(Of Object), TEvent)
+  fullName: OpenMod.API.Eventing.IEventListener<TEvent>.HandleEventAsync(System.Nullable<System.Object>, TEvent)
+  fullName.vb: OpenMod.API.Eventing.IEventListener(Of TEvent).HandleEventAsync(System.Nullable(Of System.Object), TEvent)
+  nameWithType: IEventListener<TEvent>.HandleEventAsync(Nullable<Object>, TEvent)
+  nameWithType.vb: IEventListener(Of TEvent).HandleEventAsync(Nullable(Of Object), TEvent)
 - uid: OpenMod.API.Eventing.IEventListener`1.HandleEventAsync*
   name: HandleEventAsync
   href: api/OpenMod.API.Eventing.IEventListener-1.html#OpenMod_API_Eventing_IEventListener_1_HandleEventAsync_
@@ -7337,18 +7338,24 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Cooldowns.CommandEventListener.CommandEventListener
   nameWithType: CommandEventListener.CommandEventListener
-- uid: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object,OpenMod.Core.Commands.Events.CommandExecutedEvent)
-  name: HandleEventAsync(Object, CommandExecutedEvent)
-  href: api/OpenMod.Core.Cooldowns.CommandEventListener.html#OpenMod_Core_Cooldowns_CommandEventListener_HandleEventAsync_System_Object_OpenMod_Core_Commands_Events_CommandExecutedEvent_
-  commentId: M:OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object,OpenMod.Core.Commands.Events.CommandExecutedEvent)
-  fullName: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object, OpenMod.Core.Commands.Events.CommandExecutedEvent)
-  nameWithType: CommandEventListener.HandleEventAsync(Object, CommandExecutedEvent)
-- uid: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object,OpenMod.Core.Commands.Events.CommandExecutingEvent)
-  name: HandleEventAsync(Object, CommandExecutingEvent)
-  href: api/OpenMod.Core.Cooldowns.CommandEventListener.html#OpenMod_Core_Cooldowns_CommandEventListener_HandleEventAsync_System_Object_OpenMod_Core_Commands_Events_CommandExecutingEvent_
-  commentId: M:OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object,OpenMod.Core.Commands.Events.CommandExecutingEvent)
-  fullName: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Object, OpenMod.Core.Commands.Events.CommandExecutingEvent)
-  nameWithType: CommandEventListener.HandleEventAsync(Object, CommandExecutingEvent)
+- uid: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Nullable{System.Object},OpenMod.Core.Commands.Events.CommandExecutedEvent)
+  name: HandleEventAsync(Nullable<Object>, CommandExecutedEvent)
+  href: api/OpenMod.Core.Cooldowns.CommandEventListener.html#OpenMod_Core_Cooldowns_CommandEventListener_HandleEventAsync_System_Nullable_System_Object__OpenMod_Core_Commands_Events_CommandExecutedEvent_
+  commentId: M:OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Nullable{System.Object},OpenMod.Core.Commands.Events.CommandExecutedEvent)
+  name.vb: HandleEventAsync(Nullable(Of Object), CommandExecutedEvent)
+  fullName: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Nullable<System.Object>, OpenMod.Core.Commands.Events.CommandExecutedEvent)
+  fullName.vb: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Nullable(Of System.Object), OpenMod.Core.Commands.Events.CommandExecutedEvent)
+  nameWithType: CommandEventListener.HandleEventAsync(Nullable<Object>, CommandExecutedEvent)
+  nameWithType.vb: CommandEventListener.HandleEventAsync(Nullable(Of Object), CommandExecutedEvent)
+- uid: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Nullable{System.Object},OpenMod.Core.Commands.Events.CommandExecutingEvent)
+  name: HandleEventAsync(Nullable<Object>, CommandExecutingEvent)
+  href: api/OpenMod.Core.Cooldowns.CommandEventListener.html#OpenMod_Core_Cooldowns_CommandEventListener_HandleEventAsync_System_Nullable_System_Object__OpenMod_Core_Commands_Events_CommandExecutingEvent_
+  commentId: M:OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Nullable{System.Object},OpenMod.Core.Commands.Events.CommandExecutingEvent)
+  name.vb: HandleEventAsync(Nullable(Of Object), CommandExecutingEvent)
+  fullName: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Nullable<System.Object>, OpenMod.Core.Commands.Events.CommandExecutingEvent)
+  fullName.vb: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync(System.Nullable(Of System.Object), OpenMod.Core.Commands.Events.CommandExecutingEvent)
+  nameWithType: CommandEventListener.HandleEventAsync(Nullable<Object>, CommandExecutingEvent)
+  nameWithType.vb: CommandEventListener.HandleEventAsync(Nullable(Of Object), CommandExecutingEvent)
 - uid: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync*
   name: HandleEventAsync
   href: api/OpenMod.Core.Cooldowns.CommandEventListener.html#OpenMod_Core_Cooldowns_CommandEventListener_HandleEventAsync_
@@ -12860,12 +12867,12 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Rcon.IRconHost.StartListeningAsync
   nameWithType: IRconHost.StartListeningAsync
-- uid: OpenMod.Core.Rcon.IRconHost.StopListeningAsync(CancellationToken)
-  name: StopListeningAsync(CancellationToken)
-  href: api/OpenMod.Core.Rcon.IRconHost.html#OpenMod_Core_Rcon_IRconHost_StopListeningAsync_CancellationToken_
-  commentId: M:OpenMod.Core.Rcon.IRconHost.StopListeningAsync(CancellationToken)
-  fullName: OpenMod.Core.Rcon.IRconHost.StopListeningAsync(CancellationToken)
-  nameWithType: IRconHost.StopListeningAsync(CancellationToken)
+- uid: OpenMod.Core.Rcon.IRconHost.StopListeningAsync
+  name: StopListeningAsync()
+  href: api/OpenMod.Core.Rcon.IRconHost.html#OpenMod_Core_Rcon_IRconHost_StopListeningAsync
+  commentId: M:OpenMod.Core.Rcon.IRconHost.StopListeningAsync
+  fullName: OpenMod.Core.Rcon.IRconHost.StopListeningAsync()
+  nameWithType: IRconHost.StopListeningAsync()
 - uid: OpenMod.Core.Rcon.IRconHost.StopListeningAsync*
   name: StopListeningAsync
   href: api/OpenMod.Core.Rcon.IRconHost.html#OpenMod_Core_Rcon_IRconHost_StopListeningAsync_
@@ -13108,12 +13115,15 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Rcon.RconStartListener.RconStartListener
   nameWithType: RconStartListener.RconStartListener
-- uid: OpenMod.Core.Rcon.RconStartListener.HandleEventAsync(System.Object,OpenMod.Core.Events.OpenModInitializedEvent)
-  name: HandleEventAsync(Object, OpenModInitializedEvent)
-  href: api/OpenMod.Core.Rcon.RconStartListener.html#OpenMod_Core_Rcon_RconStartListener_HandleEventAsync_System_Object_OpenMod_Core_Events_OpenModInitializedEvent_
-  commentId: M:OpenMod.Core.Rcon.RconStartListener.HandleEventAsync(System.Object,OpenMod.Core.Events.OpenModInitializedEvent)
-  fullName: OpenMod.Core.Rcon.RconStartListener.HandleEventAsync(System.Object, OpenMod.Core.Events.OpenModInitializedEvent)
-  nameWithType: RconStartListener.HandleEventAsync(Object, OpenModInitializedEvent)
+- uid: OpenMod.Core.Rcon.RconStartListener.HandleEventAsync(System.Nullable{System.Object},OpenMod.Core.Events.OpenModInitializedEvent)
+  name: HandleEventAsync(Nullable<Object>, OpenModInitializedEvent)
+  href: api/OpenMod.Core.Rcon.RconStartListener.html#OpenMod_Core_Rcon_RconStartListener_HandleEventAsync_System_Nullable_System_Object__OpenMod_Core_Events_OpenModInitializedEvent_
+  commentId: M:OpenMod.Core.Rcon.RconStartListener.HandleEventAsync(System.Nullable{System.Object},OpenMod.Core.Events.OpenModInitializedEvent)
+  name.vb: HandleEventAsync(Nullable(Of Object), OpenModInitializedEvent)
+  fullName: OpenMod.Core.Rcon.RconStartListener.HandleEventAsync(System.Nullable<System.Object>, OpenMod.Core.Events.OpenModInitializedEvent)
+  fullName.vb: OpenMod.Core.Rcon.RconStartListener.HandleEventAsync(System.Nullable(Of System.Object), OpenMod.Core.Events.OpenModInitializedEvent)
+  nameWithType: RconStartListener.HandleEventAsync(Nullable<Object>, OpenModInitializedEvent)
+  nameWithType.vb: RconStartListener.HandleEventAsync(Nullable(Of Object), OpenModInitializedEvent)
 - uid: OpenMod.Core.Rcon.RconStartListener.HandleEventAsync*
   name: HandleEventAsync
   href: api/OpenMod.Core.Rcon.RconStartListener.html#OpenMod_Core_Rcon_RconStartListener_HandleEventAsync_
@@ -13755,6 +13765,23 @@ references:
   fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).CreateRconClientAsync
   nameWithType: BaseTcpRconHost<TClient>.CreateRconClientAsync
   nameWithType.vb: BaseTcpRconHost(Of TClient).CreateRconClientAsync
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.DisposeAsync
+  name: DisposeAsync()
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_DisposeAsync
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.DisposeAsync
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.DisposeAsync()
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).DisposeAsync()
+  nameWithType: BaseTcpRconHost<TClient>.DisposeAsync()
+  nameWithType.vb: BaseTcpRconHost(Of TClient).DisposeAsync()
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.DisposeAsync*
+  name: DisposeAsync
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_DisposeAsync_
+  commentId: Overload:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.DisposeAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.DisposeAsync
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).DisposeAsync
+  nameWithType: BaseTcpRconHost<TClient>.DisposeAsync
+  nameWithType.vb: BaseTcpRconHost(Of TClient).DisposeAsync
 - uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.IsListening
   name: IsListening
   href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_IsListening
@@ -13806,14 +13833,14 @@ references:
   fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).StartListeningAsync
   nameWithType: BaseTcpRconHost<TClient>.StartListeningAsync
   nameWithType.vb: BaseTcpRconHost(Of TClient).StartListeningAsync
-- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StopListeningAsync(CancellationToken)
-  name: StopListeningAsync(CancellationToken)
-  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_StopListeningAsync_CancellationToken_
-  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StopListeningAsync(CancellationToken)
-  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.StopListeningAsync(CancellationToken)
-  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).StopListeningAsync(CancellationToken)
-  nameWithType: BaseTcpRconHost<TClient>.StopListeningAsync(CancellationToken)
-  nameWithType.vb: BaseTcpRconHost(Of TClient).StopListeningAsync(CancellationToken)
+- uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StopListeningAsync
+  name: StopListeningAsync()
+  href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_StopListeningAsync
+  commentId: M:OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StopListeningAsync
+  fullName: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost<TClient>.StopListeningAsync()
+  fullName.vb: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost(Of TClient).StopListeningAsync()
+  nameWithType: BaseTcpRconHost<TClient>.StopListeningAsync()
+  nameWithType.vb: BaseTcpRconHost(Of TClient).StopListeningAsync()
 - uid: OpenMod.Core.Rcon.Tcp.BaseTcpRconHost`1.StopListeningAsync*
   name: StopListeningAsync
   href: api/OpenMod.Core.Rcon.Tcp.BaseTcpRconHost-1.html#OpenMod_Core_Rcon_Tcp_BaseTcpRconHost_1_StopListeningAsync_
