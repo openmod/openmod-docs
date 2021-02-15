@@ -1130,6 +1130,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Common.Helpers.AssemblyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Common.Helpers.AssemblyExtensions.html",
+          "hash": "qI3cdB75u9JchfjLojS+yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Common.Helpers.ReflectionExtensions.yml",
       "output": {
         ".html": {
@@ -1146,7 +1158,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Common.Helpers.html",
-          "hash": "6E28N7VuyyxnFwdA/tGdlg=="
+          "hash": "SkFKsdLKN35kQP1IcUihJQ=="
         }
       },
       "is_incremental": false,
@@ -1806,7 +1818,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Commands.OpenModComponentCommandSource.html",
-          "hash": "J8TCUoZQ9d7zMy0SV+05Gg=="
+          "hash": "K/zC71/NJ7VK2NGnqc+ZfQ=="
         }
       },
       "is_incremental": false,
@@ -5022,7 +5034,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.NuGet.NuGetPackageManager.html",
-          "hash": "rci50Oqbc1WnO3hic4p2gA=="
+          "hash": "P/85fUW6kJPcuXn6gzkRjg=="
         }
       },
       "is_incremental": false,
@@ -5130,7 +5142,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Runtime.Runtime.html",
-          "hash": "rWqHsjXFGI3l9QZ1zufQVw=="
+          "hash": "PbIr/lUxE0z9h7pXsuIG7Q=="
         }
       },
       "is_incremental": false,
@@ -7470,7 +7482,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Commands.CommandOpenModUpgrade.html",
-          "hash": "/eAkJPqM3wioncOGbZ7toQ=="
+          "hash": "GYcyu77ybmkYmrvD/yA70w=="
         }
       },
       "is_incremental": false,
@@ -8946,7 +8958,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.html",
-          "hash": "xMeiNzWMSXNzkNBwFt++Lw=="
+          "hash": "s6HkIj4idMnEP7VibnnfCg=="
         }
       },
       "is_incremental": false,
@@ -9090,7 +9102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html",
-          "hash": "j6e2PdSt/pvRMcc1QzGb2g=="
+          "hash": "dGnb2a+QU6mIBlMdz1kWUQ=="
         }
       },
       "is_incremental": false,
@@ -9210,7 +9222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.RocketMod.RocketModIntegration.html",
-          "hash": "T6oZyXKlmwL0bdwn6Rx/zw=="
+          "hash": "Rs6N06h2sLAqZjN8qQIOaQ=="
         }
       },
       "is_incremental": false,
@@ -10266,7 +10278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "IG9QLFz11dmbRBr1iKk0UQ=="
+          "hash": "iJrZpImHp7VbZxfvjAEAXg=="
         }
       },
       "is_incremental": false,
@@ -10446,7 +10458,7 @@
       "output": {
         ".html": {
           "relative_path": "devdoc/guides/publishing.html",
-          "hash": "dBWEA8/nhVso/0Rm0TQAcA=="
+          "hash": "x1h9O0Q/zOS86a6wvh8NSQ=="
         }
       },
       "is_incremental": false,
@@ -10675,7 +10687,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 852,
+          "total_file_count": 853,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

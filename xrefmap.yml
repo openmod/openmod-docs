@@ -3760,6 +3760,25 @@ references:
   commentId: N:OpenMod.Common.Helpers
   fullName: OpenMod.Common.Helpers
   nameWithType: OpenMod.Common.Helpers
+- uid: OpenMod.Common.Helpers.AssemblyExtensions
+  name: AssemblyExtensions
+  href: api/OpenMod.Common.Helpers.AssemblyExtensions.html
+  commentId: T:OpenMod.Common.Helpers.AssemblyExtensions
+  fullName: OpenMod.Common.Helpers.AssemblyExtensions
+  nameWithType: AssemblyExtensions
+- uid: OpenMod.Common.Helpers.AssemblyExtensions.GetLoadableTypes(Assembly)
+  name: GetLoadableTypes(Assembly)
+  href: api/OpenMod.Common.Helpers.AssemblyExtensions.html#OpenMod_Common_Helpers_AssemblyExtensions_GetLoadableTypes_Assembly_
+  commentId: M:OpenMod.Common.Helpers.AssemblyExtensions.GetLoadableTypes(Assembly)
+  fullName: OpenMod.Common.Helpers.AssemblyExtensions.GetLoadableTypes(Assembly)
+  nameWithType: AssemblyExtensions.GetLoadableTypes(Assembly)
+- uid: OpenMod.Common.Helpers.AssemblyExtensions.GetLoadableTypes*
+  name: GetLoadableTypes
+  href: api/OpenMod.Common.Helpers.AssemblyExtensions.html#OpenMod_Common_Helpers_AssemblyExtensions_GetLoadableTypes_
+  commentId: Overload:OpenMod.Common.Helpers.AssemblyExtensions.GetLoadableTypes
+  isSpec: "True"
+  fullName: OpenMod.Common.Helpers.AssemblyExtensions.GetLoadableTypes
+  nameWithType: AssemblyExtensions.GetLoadableTypes
 - uid: OpenMod.Common.Helpers.ReflectionExtensions
   name: ReflectionExtensions
   href: api/OpenMod.Common.Helpers.ReflectionExtensions.html
@@ -27411,12 +27430,15 @@ references:
   commentId: T:OpenMod.Unturned.Commands.CommandOpenModUpgrade
   fullName: OpenMod.Unturned.Commands.CommandOpenModUpgrade
   nameWithType: CommandOpenModUpgrade
-- uid: OpenMod.Unturned.Commands.CommandOpenModUpgrade.#ctor(System.IServiceProvider,IRuntime,IHostInformation)
-  name: CommandOpenModUpgrade(IServiceProvider, IRuntime, IHostInformation)
-  href: api/OpenMod.Unturned.Commands.CommandOpenModUpgrade.html#OpenMod_Unturned_Commands_CommandOpenModUpgrade__ctor_System_IServiceProvider_IRuntime_IHostInformation_
-  commentId: M:OpenMod.Unturned.Commands.CommandOpenModUpgrade.#ctor(System.IServiceProvider,IRuntime,IHostInformation)
-  fullName: OpenMod.Unturned.Commands.CommandOpenModUpgrade.CommandOpenModUpgrade(System.IServiceProvider, IRuntime, IHostInformation)
-  nameWithType: CommandOpenModUpgrade.CommandOpenModUpgrade(IServiceProvider, IRuntime, IHostInformation)
+- uid: OpenMod.Unturned.Commands.CommandOpenModUpgrade.#ctor(System.IServiceProvider,IRuntime,NuGetPackageManager,IHostInformation,ILogger{OpenMod.Unturned.Commands.CommandOpenModUpgrade})
+  name: CommandOpenModUpgrade(IServiceProvider, IRuntime, NuGetPackageManager, IHostInformation, ILogger<CommandOpenModUpgrade>)
+  href: api/OpenMod.Unturned.Commands.CommandOpenModUpgrade.html#OpenMod_Unturned_Commands_CommandOpenModUpgrade__ctor_System_IServiceProvider_IRuntime_NuGetPackageManager_IHostInformation_ILogger_OpenMod_Unturned_Commands_CommandOpenModUpgrade__
+  commentId: M:OpenMod.Unturned.Commands.CommandOpenModUpgrade.#ctor(System.IServiceProvider,IRuntime,NuGetPackageManager,IHostInformation,ILogger{OpenMod.Unturned.Commands.CommandOpenModUpgrade})
+  name.vb: CommandOpenModUpgrade(IServiceProvider, IRuntime, NuGetPackageManager, IHostInformation, ILogger(Of CommandOpenModUpgrade))
+  fullName: OpenMod.Unturned.Commands.CommandOpenModUpgrade.CommandOpenModUpgrade(System.IServiceProvider, IRuntime, NuGetPackageManager, IHostInformation, ILogger<OpenMod.Unturned.Commands.CommandOpenModUpgrade>)
+  fullName.vb: OpenMod.Unturned.Commands.CommandOpenModUpgrade.CommandOpenModUpgrade(System.IServiceProvider, IRuntime, NuGetPackageManager, IHostInformation, ILogger(Of OpenMod.Unturned.Commands.CommandOpenModUpgrade))
+  nameWithType: CommandOpenModUpgrade.CommandOpenModUpgrade(IServiceProvider, IRuntime, NuGetPackageManager, IHostInformation, ILogger<CommandOpenModUpgrade>)
+  nameWithType.vb: CommandOpenModUpgrade.CommandOpenModUpgrade(IServiceProvider, IRuntime, NuGetPackageManager, IHostInformation, ILogger(Of CommandOpenModUpgrade))
 - uid: OpenMod.Unturned.Commands.CommandOpenModUpgrade.#ctor*
   name: CommandOpenModUpgrade
   href: api/OpenMod.Unturned.Commands.CommandOpenModUpgrade.html#OpenMod_Unturned_Commands_CommandOpenModUpgrade__ctor_
