@@ -12191,15 +12191,15 @@ references:
   commentId: T:OpenMod.Core.Plugins.PluginAssemblyStore
   fullName: OpenMod.Core.Plugins.PluginAssemblyStore
   nameWithType: PluginAssemblyStore
-- uid: OpenMod.Core.Plugins.PluginAssemblyStore.#ctor(System.Nullable{IConfiguration},ILogger{OpenMod.Core.Plugins.PluginAssemblyStore},OpenMod.NuGet.NuGetPackageManager)
-  name: PluginAssemblyStore(Nullable<IConfiguration>, ILogger<PluginAssemblyStore>, NuGetPackageManager)
-  href: api/OpenMod.Core.Plugins.PluginAssemblyStore.html#OpenMod_Core_Plugins_PluginAssemblyStore__ctor_System_Nullable_IConfiguration__ILogger_OpenMod_Core_Plugins_PluginAssemblyStore__OpenMod_NuGet_NuGetPackageManager_
-  commentId: M:OpenMod.Core.Plugins.PluginAssemblyStore.#ctor(System.Nullable{IConfiguration},ILogger{OpenMod.Core.Plugins.PluginAssemblyStore},OpenMod.NuGet.NuGetPackageManager)
-  name.vb: PluginAssemblyStore(Nullable(Of IConfiguration), ILogger(Of PluginAssemblyStore), NuGetPackageManager)
-  fullName: OpenMod.Core.Plugins.PluginAssemblyStore.PluginAssemblyStore(System.Nullable<IConfiguration>, ILogger<OpenMod.Core.Plugins.PluginAssemblyStore>, OpenMod.NuGet.NuGetPackageManager)
-  fullName.vb: OpenMod.Core.Plugins.PluginAssemblyStore.PluginAssemblyStore(System.Nullable(Of IConfiguration), ILogger(Of OpenMod.Core.Plugins.PluginAssemblyStore), OpenMod.NuGet.NuGetPackageManager)
-  nameWithType: PluginAssemblyStore.PluginAssemblyStore(Nullable<IConfiguration>, ILogger<PluginAssemblyStore>, NuGetPackageManager)
-  nameWithType.vb: PluginAssemblyStore.PluginAssemblyStore(Nullable(Of IConfiguration), ILogger(Of PluginAssemblyStore), NuGetPackageManager)
+- uid: OpenMod.Core.Plugins.PluginAssemblyStore.#ctor(ILogger{OpenMod.Core.Plugins.PluginAssemblyStore},OpenMod.NuGet.NuGetPackageManager)
+  name: PluginAssemblyStore(ILogger<PluginAssemblyStore>, NuGetPackageManager)
+  href: api/OpenMod.Core.Plugins.PluginAssemblyStore.html#OpenMod_Core_Plugins_PluginAssemblyStore__ctor_ILogger_OpenMod_Core_Plugins_PluginAssemblyStore__OpenMod_NuGet_NuGetPackageManager_
+  commentId: M:OpenMod.Core.Plugins.PluginAssemblyStore.#ctor(ILogger{OpenMod.Core.Plugins.PluginAssemblyStore},OpenMod.NuGet.NuGetPackageManager)
+  name.vb: PluginAssemblyStore(ILogger(Of PluginAssemblyStore), NuGetPackageManager)
+  fullName: OpenMod.Core.Plugins.PluginAssemblyStore.PluginAssemblyStore(ILogger<OpenMod.Core.Plugins.PluginAssemblyStore>, OpenMod.NuGet.NuGetPackageManager)
+  fullName.vb: OpenMod.Core.Plugins.PluginAssemblyStore.PluginAssemblyStore(ILogger(Of OpenMod.Core.Plugins.PluginAssemblyStore), OpenMod.NuGet.NuGetPackageManager)
+  nameWithType: PluginAssemblyStore.PluginAssemblyStore(ILogger<PluginAssemblyStore>, NuGetPackageManager)
+  nameWithType.vb: PluginAssemblyStore.PluginAssemblyStore(ILogger(Of PluginAssemblyStore), NuGetPackageManager)
 - uid: OpenMod.Core.Plugins.PluginAssemblyStore.#ctor*
   name: PluginAssemblyStore
   href: api/OpenMod.Core.Plugins.PluginAssemblyStore.html#OpenMod_Core_Plugins_PluginAssemblyStore__ctor_
@@ -12246,6 +12246,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Plugins.PluginAssemblyStore.LoadPluginAssembliesAsync
   nameWithType: PluginAssemblyStore.LoadPluginAssembliesAsync
+- uid: OpenMod.Core.Plugins.PluginAssemblyStore.TryInstallMissingDependencies
+  name: TryInstallMissingDependencies
+  href: api/OpenMod.Core.Plugins.PluginAssemblyStore.html#OpenMod_Core_Plugins_PluginAssemblyStore_TryInstallMissingDependencies
+  commentId: P:OpenMod.Core.Plugins.PluginAssemblyStore.TryInstallMissingDependencies
+  fullName: OpenMod.Core.Plugins.PluginAssemblyStore.TryInstallMissingDependencies
+  nameWithType: PluginAssemblyStore.TryInstallMissingDependencies
+- uid: OpenMod.Core.Plugins.PluginAssemblyStore.TryInstallMissingDependencies*
+  name: TryInstallMissingDependencies
+  href: api/OpenMod.Core.Plugins.PluginAssemblyStore.html#OpenMod_Core_Plugins_PluginAssemblyStore_TryInstallMissingDependencies_
+  commentId: Overload:OpenMod.Core.Plugins.PluginAssemblyStore.TryInstallMissingDependencies
+  isSpec: "True"
+  fullName: OpenMod.Core.Plugins.PluginAssemblyStore.TryInstallMissingDependencies
+  nameWithType: PluginAssemblyStore.TryInstallMissingDependencies
 - uid: OpenMod.Core.Plugins.PluginHelper
   name: PluginHelper
   href: api/OpenMod.Core.Plugins.PluginHelper.html

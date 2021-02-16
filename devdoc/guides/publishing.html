@@ -193,7 +193,7 @@ jobs:
              --api-key ${{ secrets.NUGET_DEPLOY_KEY }}
              --source https://api.nuget.org/v3/index.json
 </code></pre>
-<p>After that you must edit the <code>&lt;Version&gt;x.x.x&lt;/Version&gt;</code> in your .csproj and set it to <code>&lt;Version&gt;0.0.0&lt;/Version&gt;</code>.</p>
+<p>After that you must edit the <code>&lt;Version&gt;x.x.x&lt;/Version&gt;</code> in your .csproj and set it to <code>&lt;Version&gt;0.0.0&lt;/Version&gt;</code>. Also add <code>&lt;PackageVersion&gt;0.0.0&lt;/PackageVersion&gt;</code> and <code>&lt;InformationalVersion&gt;0.0.0&lt;/InformationalVersion&gt;</code>.</p>
 <p>Finally, to finish setting up the workflow, you must add your NuGet secret:</p>
 <ul>
 <li>Go to <a href="https://github.com/YOURNAME/YOURPLUGIN/settings/secrets">https://github.com/YOURNAME/YOURPLUGIN/settings/secrets</a></li>
