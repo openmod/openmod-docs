@@ -7338,6 +7338,67 @@ references:
   commentId: N:OpenMod.Core.Cooldowns
   fullName: OpenMod.Core.Cooldowns
   nameWithType: OpenMod.Core.Cooldowns
+- uid: OpenMod.Core.Cooldowns.CommandCooldownStore
+  name: CommandCooldownStore
+  href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html
+  commentId: T:OpenMod.Core.Cooldowns.CommandCooldownStore
+  fullName: OpenMod.Core.Cooldowns.CommandCooldownStore
+  nameWithType: CommandCooldownStore
+- uid: OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor(ILogger{OpenMod.Core.Cooldowns.CommandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)
+  name: CommandCooldownStore(ILogger<CommandCooldownStore>, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+  href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html#OpenMod_Core_Cooldowns_CommandCooldownStore__ctor_ILogger_OpenMod_Core_Cooldowns_CommandCooldownStore__OpenMod_API_Permissions_IPermissionRoleStore_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Permissions_IPermissionChecker_
+  commentId: M:OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor(ILogger{OpenMod.Core.Cooldowns.CommandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)
+  name.vb: CommandCooldownStore(ILogger(Of CommandCooldownStore), IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+  fullName: OpenMod.Core.Cooldowns.CommandCooldownStore.CommandCooldownStore(ILogger<OpenMod.Core.Cooldowns.CommandCooldownStore>, OpenMod.API.Permissions.IPermissionRoleStore, OpenMod.Core.Permissions.IPermissionRolesDataStore, OpenMod.API.Permissions.IPermissionChecker)
+  fullName.vb: OpenMod.Core.Cooldowns.CommandCooldownStore.CommandCooldownStore(ILogger(Of OpenMod.Core.Cooldowns.CommandCooldownStore), OpenMod.API.Permissions.IPermissionRoleStore, OpenMod.Core.Permissions.IPermissionRolesDataStore, OpenMod.API.Permissions.IPermissionChecker)
+  nameWithType: CommandCooldownStore.CommandCooldownStore(ILogger<CommandCooldownStore>, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+  nameWithType.vb: CommandCooldownStore.CommandCooldownStore(ILogger(Of CommandCooldownStore), IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+- uid: OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor*
+  name: CommandCooldownStore
+  href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html#OpenMod_Core_Cooldowns_CommandCooldownStore__ctor_
+  commentId: Overload:OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CommandCooldownStore.CommandCooldownStore
+  nameWithType: CommandCooldownStore.CommandCooldownStore
+- uid: OpenMod.Core.Cooldowns.CommandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  name: GetCooldownSpanAsync(ICommandActor, String)
+  href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html#OpenMod_Core_Cooldowns_CommandCooldownStore_GetCooldownSpanAsync_OpenMod_API_Commands_ICommandActor_System_String_
+  commentId: M:OpenMod.Core.Cooldowns.CommandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  fullName: OpenMod.Core.Cooldowns.CommandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor, System.String)
+  nameWithType: CommandCooldownStore.GetCooldownSpanAsync(ICommandActor, String)
+- uid: OpenMod.Core.Cooldowns.CommandCooldownStore.GetCooldownSpanAsync*
+  name: GetCooldownSpanAsync
+  href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html#OpenMod_Core_Cooldowns_CommandCooldownStore_GetCooldownSpanAsync_
+  commentId: Overload:OpenMod.Core.Cooldowns.CommandCooldownStore.GetCooldownSpanAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CommandCooldownStore.GetCooldownSpanAsync
+  nameWithType: CommandCooldownStore.GetCooldownSpanAsync
+- uid: OpenMod.Core.Cooldowns.CommandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  name: GetLastExecutedAsync(ICommandActor, String)
+  href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html#OpenMod_Core_Cooldowns_CommandCooldownStore_GetLastExecutedAsync_OpenMod_API_Commands_ICommandActor_System_String_
+  commentId: M:OpenMod.Core.Cooldowns.CommandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor,System.String)
+  fullName: OpenMod.Core.Cooldowns.CommandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor, System.String)
+  nameWithType: CommandCooldownStore.GetLastExecutedAsync(ICommandActor, String)
+- uid: OpenMod.Core.Cooldowns.CommandCooldownStore.GetLastExecutedAsync*
+  name: GetLastExecutedAsync
+  href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html#OpenMod_Core_Cooldowns_CommandCooldownStore_GetLastExecutedAsync_
+  commentId: Overload:OpenMod.Core.Cooldowns.CommandCooldownStore.GetLastExecutedAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CommandCooldownStore.GetLastExecutedAsync
+  nameWithType: CommandCooldownStore.GetLastExecutedAsync
+- uid: OpenMod.Core.Cooldowns.CommandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor,System.String,DateTime)
+  name: RecordExecutionAsync(ICommandActor, String, DateTime)
+  href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html#OpenMod_Core_Cooldowns_CommandCooldownStore_RecordExecutionAsync_OpenMod_API_Commands_ICommandActor_System_String_DateTime_
+  commentId: M:OpenMod.Core.Cooldowns.CommandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor,System.String,DateTime)
+  fullName: OpenMod.Core.Cooldowns.CommandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor, System.String, DateTime)
+  nameWithType: CommandCooldownStore.RecordExecutionAsync(ICommandActor, String, DateTime)
+- uid: OpenMod.Core.Cooldowns.CommandCooldownStore.RecordExecutionAsync*
+  name: RecordExecutionAsync
+  href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html#OpenMod_Core_Cooldowns_CommandCooldownStore_RecordExecutionAsync_
+  commentId: Overload:OpenMod.Core.Cooldowns.CommandCooldownStore.RecordExecutionAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CommandCooldownStore.RecordExecutionAsync
+  nameWithType: CommandCooldownStore.RecordExecutionAsync
 - uid: OpenMod.Core.Cooldowns.CommandEventListener
   name: CommandEventListener
   href: api/OpenMod.Core.Cooldowns.CommandEventListener.html
@@ -7382,67 +7443,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Cooldowns.CommandEventListener.HandleEventAsync
   nameWithType: CommandEventListener.HandleEventAsync
-- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore
-  name: CommmandCooldownStore
-  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html
-  commentId: T:OpenMod.Core.Cooldowns.CommmandCooldownStore
-  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore
-  nameWithType: CommmandCooldownStore
-- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.#ctor(ILogger{OpenMod.Core.Cooldowns.CommmandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)
-  name: CommmandCooldownStore(ILogger<CommmandCooldownStore>, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
-  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore__ctor_ILogger_OpenMod_Core_Cooldowns_CommmandCooldownStore__OpenMod_API_Permissions_IPermissionRoleStore_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Permissions_IPermissionChecker_
-  commentId: M:OpenMod.Core.Cooldowns.CommmandCooldownStore.#ctor(ILogger{OpenMod.Core.Cooldowns.CommmandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)
-  name.vb: CommmandCooldownStore(ILogger(Of CommmandCooldownStore), IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
-  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.CommmandCooldownStore(ILogger<OpenMod.Core.Cooldowns.CommmandCooldownStore>, OpenMod.API.Permissions.IPermissionRoleStore, OpenMod.Core.Permissions.IPermissionRolesDataStore, OpenMod.API.Permissions.IPermissionChecker)
-  fullName.vb: OpenMod.Core.Cooldowns.CommmandCooldownStore.CommmandCooldownStore(ILogger(Of OpenMod.Core.Cooldowns.CommmandCooldownStore), OpenMod.API.Permissions.IPermissionRoleStore, OpenMod.Core.Permissions.IPermissionRolesDataStore, OpenMod.API.Permissions.IPermissionChecker)
-  nameWithType: CommmandCooldownStore.CommmandCooldownStore(ILogger<CommmandCooldownStore>, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
-  nameWithType.vb: CommmandCooldownStore.CommmandCooldownStore(ILogger(Of CommmandCooldownStore), IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
-- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.#ctor*
-  name: CommmandCooldownStore
-  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore__ctor_
-  commentId: Overload:OpenMod.Core.Cooldowns.CommmandCooldownStore.#ctor
-  isSpec: "True"
-  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.CommmandCooldownStore
-  nameWithType: CommmandCooldownStore.CommmandCooldownStore
-- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor,System.String)
-  name: GetCooldownSpanAsync(ICommandActor, String)
-  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_GetCooldownSpanAsync_OpenMod_API_Commands_ICommandActor_System_String_
-  commentId: M:OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor,System.String)
-  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor, System.String)
-  nameWithType: CommmandCooldownStore.GetCooldownSpanAsync(ICommandActor, String)
-- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync*
-  name: GetCooldownSpanAsync
-  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_GetCooldownSpanAsync_
-  commentId: Overload:OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync
-  isSpec: "True"
-  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetCooldownSpanAsync
-  nameWithType: CommmandCooldownStore.GetCooldownSpanAsync
-- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor,System.String)
-  name: GetLastExecutedAsync(ICommandActor, String)
-  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_GetLastExecutedAsync_OpenMod_API_Commands_ICommandActor_System_String_
-  commentId: M:OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor,System.String)
-  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor, System.String)
-  nameWithType: CommmandCooldownStore.GetLastExecutedAsync(ICommandActor, String)
-- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync*
-  name: GetLastExecutedAsync
-  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_GetLastExecutedAsync_
-  commentId: Overload:OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync
-  isSpec: "True"
-  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.GetLastExecutedAsync
-  nameWithType: CommmandCooldownStore.GetLastExecutedAsync
-- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor,System.String,DateTime)
-  name: RecordExecutionAsync(ICommandActor, String, DateTime)
-  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_RecordExecutionAsync_OpenMod_API_Commands_ICommandActor_System_String_DateTime_
-  commentId: M:OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor,System.String,DateTime)
-  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor, System.String, DateTime)
-  nameWithType: CommmandCooldownStore.RecordExecutionAsync(ICommandActor, String, DateTime)
-- uid: OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync*
-  name: RecordExecutionAsync
-  href: api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html#OpenMod_Core_Cooldowns_CommmandCooldownStore_RecordExecutionAsync_
-  commentId: Overload:OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync
-  isSpec: "True"
-  fullName: OpenMod.Core.Cooldowns.CommmandCooldownStore.RecordExecutionAsync
-  nameWithType: CommmandCooldownStore.RecordExecutionAsync
 - uid: OpenMod.Core.Cooldowns.CooldownRecord
   name: CooldownRecord
   href: api/OpenMod.Core.Cooldowns.CooldownRecord.html
@@ -8305,25 +8305,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Helpers.NullDisposable.Instance
   nameWithType: NullDisposable.Instance
-- uid: OpenMod.Core.Helpers.PathHelper
-  name: PathHelper
-  href: api/OpenMod.Core.Helpers.PathHelper.html
-  commentId: T:OpenMod.Core.Helpers.PathHelper
-  fullName: OpenMod.Core.Helpers.PathHelper
-  nameWithType: PathHelper
-- uid: OpenMod.Core.Helpers.PathHelper.MakeRelativePath(System.String,System.String)
-  name: MakeRelativePath(String, String)
-  href: api/OpenMod.Core.Helpers.PathHelper.html#OpenMod_Core_Helpers_PathHelper_MakeRelativePath_System_String_System_String_
-  commentId: M:OpenMod.Core.Helpers.PathHelper.MakeRelativePath(System.String,System.String)
-  fullName: OpenMod.Core.Helpers.PathHelper.MakeRelativePath(System.String, System.String)
-  nameWithType: PathHelper.MakeRelativePath(String, String)
-- uid: OpenMod.Core.Helpers.PathHelper.MakeRelativePath*
-  name: MakeRelativePath
-  href: api/OpenMod.Core.Helpers.PathHelper.html#OpenMod_Core_Helpers_PathHelper_MakeRelativePath_
-  commentId: Overload:OpenMod.Core.Helpers.PathHelper.MakeRelativePath
-  isSpec: "True"
-  fullName: OpenMod.Core.Helpers.PathHelper.MakeRelativePath
-  nameWithType: PathHelper.MakeRelativePath
 - uid: OpenMod.Core.Helpers.ProcessHelper
   name: ProcessHelper
   href: api/OpenMod.Core.Helpers.ProcessHelper.html

@@ -1170,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Common.Hotloading.Hotloader.html",
-          "hash": "K7Y8tjrSm9tm0USMiYAkQg=="
+          "hash": "Q7jbFJUK0CV8okJNVGpj9w=="
         }
       },
       "is_incremental": false,
@@ -2006,11 +2006,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/OpenMod.Core.Cooldowns.CommandEventListener.yml",
+      "source_relative_path": "api/OpenMod.Core.Cooldowns.CommandCooldownStore.yml",
       "output": {
         ".html": {
-          "relative_path": "api/OpenMod.Core.Cooldowns.CommandEventListener.html",
-          "hash": "1c+YtJtXscsaj4beJrYk4w=="
+          "relative_path": "api/OpenMod.Core.Cooldowns.CommandCooldownStore.html",
+          "hash": "THvbxnBExdibAY0m+TsKhw=="
         }
       },
       "is_incremental": false,
@@ -2018,11 +2018,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/OpenMod.Core.Cooldowns.CommmandCooldownStore.yml",
+      "source_relative_path": "api/OpenMod.Core.Cooldowns.CommandEventListener.yml",
       "output": {
         ".html": {
-          "relative_path": "api/OpenMod.Core.Cooldowns.CommmandCooldownStore.html",
-          "hash": "mF/T+dKe8a14LFq40cfd/w=="
+          "relative_path": "api/OpenMod.Core.Cooldowns.CommandEventListener.html",
+          "hash": "1c+YtJtXscsaj4beJrYk4w=="
         }
       },
       "is_incremental": false,
@@ -2070,7 +2070,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Cooldowns.html",
-          "hash": "KnPVgydcQzD95BPVxjPo5w=="
+          "hash": "tqk40tfNVZZw/zwx0lB+iQ=="
         }
       },
       "is_incremental": false,
@@ -2318,18 +2318,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/OpenMod.Core.Helpers.PathHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/OpenMod.Core.Helpers.PathHelper.html",
-          "hash": "GiD6eb/AEzQKrHRCQSK/oA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Core.Helpers.ProcessHelper.yml",
       "output": {
         ".html": {
@@ -2394,7 +2382,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Helpers.html",
-          "hash": "4dXvKrhLCsxDWqqLIKMgWA=="
+          "hash": "EQeK903fbOV7Ch6jO5LZ3A=="
         }
       },
       "is_incremental": false,
@@ -2922,7 +2910,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Persistence.YamlDataStore.html",
-          "hash": "ZJH7OD3XdsooEedcklCfOg=="
+          "hash": "L5j8s88RPdgWfqwNBWZ/Lw=="
         }
       },
       "is_incremental": false,
@@ -5142,7 +5130,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Runtime.Runtime.html",
-          "hash": "sOzVhNxHv3dKTOU7E4M0Sw=="
+          "hash": "kxxENOv+bjejnfheW4Wi9w=="
         }
       },
       "is_incremental": false,
@@ -9234,7 +9222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.RocketMod.RocketModPluginsLoadedEventListener.html",
-          "hash": "cFoKlUAcRIcg9SVlakp9hw=="
+          "hash": "aSoO6k2qXjHoBRyjyvCGwA=="
         }
       },
       "is_incremental": false,
@@ -10278,7 +10266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "iJrZpImHp7VbZxfvjAEAXg=="
+          "hash": "WhFJXHHGIrZeLd85kXNwIQ=="
         }
       },
       "is_incremental": false,
@@ -10588,7 +10576,7 @@
       "output": {
         ".html": {
           "relative_path": "userdoc/concepts/plugins.html",
-          "hash": "E2GBylMLbiUV+VmEoSZGMQ=="
+          "hash": "oVeU4xtgI4+9fumLIiIuoQ=="
         }
       },
       "is_incremental": false,
@@ -10687,7 +10675,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 853,
+          "total_file_count": 852,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
