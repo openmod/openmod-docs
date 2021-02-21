@@ -107,7 +107,7 @@
 </ol>
 <pre><code class="lang-c#">public class UserConnectListener : IEventListener&lt;UserConnectedEvent&gt;
 {
-    [EventListener(Priority = Priority.Lowest)]
+    [EventListener(Priority = EventPriority.Lowest)]
     public async Task HandleEventAsync(object sender, UserConnectEvent @event)
     {
         // do something
@@ -144,7 +144,7 @@
 Execution order is from lowest priority to highest. In other words, lowest priority is called first.</p>
 <pre><code class="lang-c#">public class UserConnectListener1 : IEventListener&lt;UserConnectedEvent&gt;
 {
-    [EventListener(Priority = Priority.Lowest)]
+    [EventListener(Priority = EventPriority.Lowest)]
     public async Task HandleEventAsync(object sender, UserConnectEvent @event)
     {
 
@@ -153,7 +153,7 @@ Execution order is from lowest priority to highest. In other words, lowest prior
 
 public class UserConnectListener2 : IEventListener&lt;UserConnectedEvent&gt;
 {
-    [EventListener(Priority = Priority.Low)]
+    [EventListener(Priority = EventPriority.Low)]
     public async Task HandleEventAsync(object sender, UserConnectEvent @event)
     {
 
@@ -162,7 +162,7 @@ public class UserConnectListener2 : IEventListener&lt;UserConnectedEvent&gt;
 
 public class UserConnectListener3 : IEventListener&lt;UserConnectedEvent&gt;
 {
-    [EventListener(Priority = Priority.High)]
+    [EventListener(Priority = EventPriority.High)]
     public async Task HandleEventAsync(object sender, UserConnectEvent @event)
     {
 
@@ -175,7 +175,7 @@ public class UserConnectListener3 : IEventListener&lt;UserConnectedEvent&gt;
 <p><code>UserConnectingEvent</code> is such a cancellable event. It will disconnect the connecting user if the event gets cancelled.</p>
 <pre><code class="lang-c#">public class UserConnectingListener1 : IEventListener&lt;UserConnectingEvent&gt;
 {
-    [EventListener(Priority = Priority.Lowest)]
+    [EventListener(Priority = EventPriority.Lowest)]
     public async Task HandleEventAsync(object sender, UserConnectingEvent @event)
     {
         if(user.DisplayName.Equals(&quot;Trojaner&quot;))
@@ -187,7 +187,7 @@ public class UserConnectListener3 : IEventListener&lt;UserConnectedEvent&gt;
 
 public class UserConnectingListener2 : IEventListener&lt;UserConnectingEvent&gt;
 {
-    [EventListener(Priority = Priority.Low)]
+    [EventListener(Priority = EventPriority.Low)]
     public async Task HandleEventAsync(object sender, UserConnectingEvent @event)
     {
         // this event listener will not be called because it does not ignore cancellation
@@ -196,7 +196,7 @@ public class UserConnectingListener2 : IEventListener&lt;UserConnectingEvent&gt;
 
 public class UserConnectingListener3 : IEventListener&lt;UserConnectingEvent&gt;
 {
-    [EventListener(Priority = Priority.High, IgnoreCancelled = true)]
+    [EventListener(Priority = EventPriority.High, IgnoreCancelled = true)]
     public async Task HandleEventAsync(object sender, UserConnectingEvent @event)
     {
         // this event listener will be called even if the event gets cancelled

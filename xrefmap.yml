@@ -164,19 +164,6 @@ references:
   commentId: T:OpenMod.API.Commands.ICommandActor
   fullName: OpenMod.API.Commands.ICommandActor
   nameWithType: ICommandActor
-- uid: OpenMod.API.Commands.ICommandActor.FullActorName
-  name: FullActorName
-  href: api/OpenMod.API.Commands.ICommandActor.html#OpenMod_API_Commands_ICommandActor_FullActorName
-  commentId: P:OpenMod.API.Commands.ICommandActor.FullActorName
-  fullName: OpenMod.API.Commands.ICommandActor.FullActorName
-  nameWithType: ICommandActor.FullActorName
-- uid: OpenMod.API.Commands.ICommandActor.FullActorName*
-  name: FullActorName
-  href: api/OpenMod.API.Commands.ICommandActor.html#OpenMod_API_Commands_ICommandActor_FullActorName_
-  commentId: Overload:OpenMod.API.Commands.ICommandActor.FullActorName
-  isSpec: "True"
-  fullName: OpenMod.API.Commands.ICommandActor.FullActorName
-  nameWithType: ICommandActor.FullActorName
 - uid: OpenMod.API.Commands.ICommandActor.PrintMessageAsync(System.String)
   name: PrintMessageAsync(String)
   href: api/OpenMod.API.Commands.ICommandActor.html#OpenMod_API_Commands_ICommandActor_PrintMessageAsync_System_String_
@@ -1997,6 +1984,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.API.Permissions.IPermissionActor.DisplayName
   nameWithType: IPermissionActor.DisplayName
+- uid: OpenMod.API.Permissions.IPermissionActor.FullActorName
+  name: FullActorName
+  href: api/OpenMod.API.Permissions.IPermissionActor.html#OpenMod_API_Permissions_IPermissionActor_FullActorName
+  commentId: P:OpenMod.API.Permissions.IPermissionActor.FullActorName
+  fullName: OpenMod.API.Permissions.IPermissionActor.FullActorName
+  nameWithType: IPermissionActor.FullActorName
+- uid: OpenMod.API.Permissions.IPermissionActor.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.API.Permissions.IPermissionActor.html#OpenMod_API_Permissions_IPermissionActor_FullActorName_
+  commentId: Overload:OpenMod.API.Permissions.IPermissionActor.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.API.Permissions.IPermissionActor.FullActorName
+  nameWithType: IPermissionActor.FullActorName
 - uid: OpenMod.API.Permissions.IPermissionActor.Id
   name: Id
   href: api/OpenMod.API.Permissions.IPermissionActor.html#OpenMod_API_Permissions_IPermissionActor_Id
@@ -10470,6 +10470,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Permissions.PermissionRole.DisplayName
   nameWithType: PermissionRole.DisplayName
+- uid: OpenMod.Core.Permissions.PermissionRole.FullActorName
+  name: FullActorName
+  href: api/OpenMod.Core.Permissions.PermissionRole.html#OpenMod_Core_Permissions_PermissionRole_FullActorName
+  commentId: P:OpenMod.Core.Permissions.PermissionRole.FullActorName
+  fullName: OpenMod.Core.Permissions.PermissionRole.FullActorName
+  nameWithType: PermissionRole.FullActorName
+- uid: OpenMod.Core.Permissions.PermissionRole.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.Core.Permissions.PermissionRole.html#OpenMod_Core_Permissions_PermissionRole_FullActorName_
+  commentId: Overload:OpenMod.Core.Permissions.PermissionRole.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.Core.Permissions.PermissionRole.FullActorName
+  nameWithType: PermissionRole.FullActorName
 - uid: OpenMod.Core.Permissions.PermissionRole.Id
   name: Id
   href: api/OpenMod.Core.Permissions.PermissionRole.html#OpenMod_Core_Permissions_PermissionRole_Id
@@ -10898,6 +10911,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Permissions.UserDataPermissionActor.DisplayName
   nameWithType: UserDataPermissionActor.DisplayName
+- uid: OpenMod.Core.Permissions.UserDataPermissionActor.FullActorName
+  name: FullActorName
+  href: api/OpenMod.Core.Permissions.UserDataPermissionActor.html#OpenMod_Core_Permissions_UserDataPermissionActor_FullActorName
+  commentId: P:OpenMod.Core.Permissions.UserDataPermissionActor.FullActorName
+  fullName: OpenMod.Core.Permissions.UserDataPermissionActor.FullActorName
+  nameWithType: UserDataPermissionActor.FullActorName
+- uid: OpenMod.Core.Permissions.UserDataPermissionActor.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.Core.Permissions.UserDataPermissionActor.html#OpenMod_Core_Permissions_UserDataPermissionActor_FullActorName_
+  commentId: Overload:OpenMod.Core.Permissions.UserDataPermissionActor.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.Core.Permissions.UserDataPermissionActor.FullActorName
+  nameWithType: UserDataPermissionActor.FullActorName
 - uid: OpenMod.Core.Permissions.UserDataPermissionActor.Id
   name: Id
   href: api/OpenMod.Core.Permissions.UserDataPermissionActor.html#OpenMod_Core_Permissions_UserDataPermissionActor_Id
@@ -32766,6 +32792,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.RocketMod.Permissions.OpenModPermissionRoleWrapper.DisplayName
   nameWithType: OpenModPermissionRoleWrapper.DisplayName
+- uid: OpenMod.Unturned.RocketMod.Permissions.OpenModPermissionRoleWrapper.FullActorName
+  name: FullActorName
+  href: api/OpenMod.Unturned.RocketMod.Permissions.OpenModPermissionRoleWrapper.html#OpenMod_Unturned_RocketMod_Permissions_OpenModPermissionRoleWrapper_FullActorName
+  commentId: P:OpenMod.Unturned.RocketMod.Permissions.OpenModPermissionRoleWrapper.FullActorName
+  fullName: OpenMod.Unturned.RocketMod.Permissions.OpenModPermissionRoleWrapper.FullActorName
+  nameWithType: OpenModPermissionRoleWrapper.FullActorName
+- uid: OpenMod.Unturned.RocketMod.Permissions.OpenModPermissionRoleWrapper.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.Unturned.RocketMod.Permissions.OpenModPermissionRoleWrapper.html#OpenMod_Unturned_RocketMod_Permissions_OpenModPermissionRoleWrapper_FullActorName_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.OpenModPermissionRoleWrapper.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Permissions.OpenModPermissionRoleWrapper.FullActorName
+  nameWithType: OpenModPermissionRoleWrapper.FullActorName
 - uid: OpenMod.Unturned.RocketMod.Permissions.OpenModPermissionRoleWrapper.Id
   name: Id
   href: api/OpenMod.Unturned.RocketMod.Permissions.OpenModPermissionRoleWrapper.html#OpenMod_Unturned_RocketMod_Permissions_OpenModPermissionRoleWrapper_Id
@@ -32863,6 +32902,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.DisplayName
   nameWithType: OpenModPlayerPermissionActorWrapper.DisplayName
+- uid: OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.FullActorName
+  name: FullActorName
+  href: api/OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.html#OpenMod_Unturned_RocketMod_Permissions_OpenModPlayerPermissionActorWrapper_FullActorName
+  commentId: P:OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.FullActorName
+  fullName: OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.FullActorName
+  nameWithType: OpenModPlayerPermissionActorWrapper.FullActorName
+- uid: OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.html#OpenMod_Unturned_RocketMod_Permissions_OpenModPlayerPermissionActorWrapper_FullActorName_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.FullActorName
+  nameWithType: OpenModPlayerPermissionActorWrapper.FullActorName
 - uid: OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.Id
   name: Id
   href: api/OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.html#OpenMod_Unturned_RocketMod_Permissions_OpenModPlayerPermissionActorWrapper_Id
@@ -32927,6 +32979,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.DisplayName
   nameWithType: RocketGroupWrapper.DisplayName
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.FullActorName
+  name: FullActorName
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.html#OpenMod_Unturned_RocketMod_Permissions_RocketGroupWrapper_FullActorName
+  commentId: P:OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.FullActorName
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.FullActorName
+  nameWithType: RocketGroupWrapper.FullActorName
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.FullActorName*
+  name: FullActorName
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.html#OpenMod_Unturned_RocketMod_Permissions_RocketGroupWrapper_FullActorName_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.FullActorName
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.FullActorName
+  nameWithType: RocketGroupWrapper.FullActorName
 - uid: OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.Id
   name: Id
   href: api/OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.html#OpenMod_Unturned_RocketMod_Permissions_RocketGroupWrapper_Id
