@@ -7344,15 +7344,15 @@ references:
   commentId: T:OpenMod.Core.Cooldowns.CommandCooldownStore
   fullName: OpenMod.Core.Cooldowns.CommandCooldownStore
   nameWithType: CommandCooldownStore
-- uid: OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor(ILogger{OpenMod.Core.Cooldowns.CommandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)
-  name: CommandCooldownStore(ILogger<CommandCooldownStore>, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
-  href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html#OpenMod_Core_Cooldowns_CommandCooldownStore__ctor_ILogger_OpenMod_Core_Cooldowns_CommandCooldownStore__OpenMod_API_Permissions_IPermissionRoleStore_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Permissions_IPermissionChecker_
-  commentId: M:OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor(ILogger{OpenMod.Core.Cooldowns.CommandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)
-  name.vb: CommandCooldownStore(ILogger(Of CommandCooldownStore), IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
-  fullName: OpenMod.Core.Cooldowns.CommandCooldownStore.CommandCooldownStore(ILogger<OpenMod.Core.Cooldowns.CommandCooldownStore>, OpenMod.API.Permissions.IPermissionRoleStore, OpenMod.Core.Permissions.IPermissionRolesDataStore, OpenMod.API.Permissions.IPermissionChecker)
-  fullName.vb: OpenMod.Core.Cooldowns.CommandCooldownStore.CommandCooldownStore(ILogger(Of OpenMod.Core.Cooldowns.CommandCooldownStore), OpenMod.API.Permissions.IPermissionRoleStore, OpenMod.Core.Permissions.IPermissionRolesDataStore, OpenMod.API.Permissions.IPermissionChecker)
-  nameWithType: CommandCooldownStore.CommandCooldownStore(ILogger<CommandCooldownStore>, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
-  nameWithType.vb: CommandCooldownStore.CommandCooldownStore(ILogger(Of CommandCooldownStore), IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+- uid: OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor(IConfiguration,OpenMod.API.IRuntime,OpenMod.API.Persistence.IDataStoreFactory,ILogger{OpenMod.Core.Cooldowns.CommandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)
+  name: CommandCooldownStore(IConfiguration, IRuntime, IDataStoreFactory, ILogger<CommandCooldownStore>, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+  href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html#OpenMod_Core_Cooldowns_CommandCooldownStore__ctor_IConfiguration_OpenMod_API_IRuntime_OpenMod_API_Persistence_IDataStoreFactory_ILogger_OpenMod_Core_Cooldowns_CommandCooldownStore__OpenMod_API_Permissions_IPermissionRoleStore_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Permissions_IPermissionChecker_
+  commentId: M:OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor(IConfiguration,OpenMod.API.IRuntime,OpenMod.API.Persistence.IDataStoreFactory,ILogger{OpenMod.Core.Cooldowns.CommandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)
+  name.vb: CommandCooldownStore(IConfiguration, IRuntime, IDataStoreFactory, ILogger(Of CommandCooldownStore), IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+  fullName: OpenMod.Core.Cooldowns.CommandCooldownStore.CommandCooldownStore(IConfiguration, OpenMod.API.IRuntime, OpenMod.API.Persistence.IDataStoreFactory, ILogger<OpenMod.Core.Cooldowns.CommandCooldownStore>, OpenMod.API.Permissions.IPermissionRoleStore, OpenMod.Core.Permissions.IPermissionRolesDataStore, OpenMod.API.Permissions.IPermissionChecker)
+  fullName.vb: OpenMod.Core.Cooldowns.CommandCooldownStore.CommandCooldownStore(IConfiguration, OpenMod.API.IRuntime, OpenMod.API.Persistence.IDataStoreFactory, ILogger(Of OpenMod.Core.Cooldowns.CommandCooldownStore), OpenMod.API.Permissions.IPermissionRoleStore, OpenMod.Core.Permissions.IPermissionRolesDataStore, OpenMod.API.Permissions.IPermissionChecker)
+  nameWithType: CommandCooldownStore.CommandCooldownStore(IConfiguration, IRuntime, IDataStoreFactory, ILogger<CommandCooldownStore>, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
+  nameWithType.vb: CommandCooldownStore.CommandCooldownStore(IConfiguration, IRuntime, IDataStoreFactory, ILogger(Of CommandCooldownStore), IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)
 - uid: OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor*
   name: CommandCooldownStore
   href: api/OpenMod.Core.Cooldowns.CommandCooldownStore.html#OpenMod_Core_Cooldowns_CommandCooldownStore__ctor_
@@ -7494,6 +7494,47 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Cooldowns.CooldownRecord.Executed
   nameWithType: CooldownRecord.Executed
+- uid: OpenMod.Core.Cooldowns.CooldownRecords
+  name: CooldownRecords
+  href: api/OpenMod.Core.Cooldowns.CooldownRecords.html
+  commentId: T:OpenMod.Core.Cooldowns.CooldownRecords
+  fullName: OpenMod.Core.Cooldowns.CooldownRecords
+  nameWithType: CooldownRecords
+- uid: OpenMod.Core.Cooldowns.CooldownRecords.#ctor
+  name: CooldownRecords()
+  href: api/OpenMod.Core.Cooldowns.CooldownRecords.html#OpenMod_Core_Cooldowns_CooldownRecords__ctor
+  commentId: M:OpenMod.Core.Cooldowns.CooldownRecords.#ctor
+  fullName: OpenMod.Core.Cooldowns.CooldownRecords.CooldownRecords()
+  nameWithType: CooldownRecords.CooldownRecords()
+- uid: OpenMod.Core.Cooldowns.CooldownRecords.#ctor(Dictionary{System.String,List{OpenMod.Core.Cooldowns.CooldownRecord}})
+  name: CooldownRecords(Dictionary<String, List<CooldownRecord>>)
+  href: api/OpenMod.Core.Cooldowns.CooldownRecords.html#OpenMod_Core_Cooldowns_CooldownRecords__ctor_Dictionary_System_String_List_OpenMod_Core_Cooldowns_CooldownRecord___
+  commentId: M:OpenMod.Core.Cooldowns.CooldownRecords.#ctor(Dictionary{System.String,List{OpenMod.Core.Cooldowns.CooldownRecord}})
+  name.vb: CooldownRecords(Dictionary(Of String, List(Of CooldownRecord)))
+  fullName: OpenMod.Core.Cooldowns.CooldownRecords.CooldownRecords(Dictionary<System.String, List<OpenMod.Core.Cooldowns.CooldownRecord>>)
+  fullName.vb: OpenMod.Core.Cooldowns.CooldownRecords.CooldownRecords(Dictionary(Of System.String, List(Of OpenMod.Core.Cooldowns.CooldownRecord)))
+  nameWithType: CooldownRecords.CooldownRecords(Dictionary<String, List<CooldownRecord>>)
+  nameWithType.vb: CooldownRecords.CooldownRecords(Dictionary(Of String, List(Of CooldownRecord)))
+- uid: OpenMod.Core.Cooldowns.CooldownRecords.#ctor*
+  name: CooldownRecords
+  href: api/OpenMod.Core.Cooldowns.CooldownRecords.html#OpenMod_Core_Cooldowns_CooldownRecords__ctor_
+  commentId: Overload:OpenMod.Core.Cooldowns.CooldownRecords.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CooldownRecords.CooldownRecords
+  nameWithType: CooldownRecords.CooldownRecords
+- uid: OpenMod.Core.Cooldowns.CooldownRecords.Records
+  name: Records
+  href: api/OpenMod.Core.Cooldowns.CooldownRecords.html#OpenMod_Core_Cooldowns_CooldownRecords_Records
+  commentId: P:OpenMod.Core.Cooldowns.CooldownRecords.Records
+  fullName: OpenMod.Core.Cooldowns.CooldownRecords.Records
+  nameWithType: CooldownRecords.Records
+- uid: OpenMod.Core.Cooldowns.CooldownRecords.Records*
+  name: Records
+  href: api/OpenMod.Core.Cooldowns.CooldownRecords.html#OpenMod_Core_Cooldowns_CooldownRecords_Records_
+  commentId: Overload:OpenMod.Core.Cooldowns.CooldownRecords.Records
+  isSpec: "True"
+  fullName: OpenMod.Core.Cooldowns.CooldownRecords.Records
+  nameWithType: CooldownRecords.Records
 - uid: OpenMod.Core.Cooldowns.CooldownSpan
   name: CooldownSpan
   href: api/OpenMod.Core.Cooldowns.CooldownSpan.html
@@ -10792,6 +10833,64 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Permissions.RegisterCommandPermissionAttribute.Permission
   nameWithType: RegisterCommandPermissionAttribute.Permission
+- uid: OpenMod.Core.Permissions.RegisterPermissionAttribute
+  name: RegisterPermissionAttribute
+  href: api/OpenMod.Core.Permissions.RegisterPermissionAttribute.html
+  commentId: T:OpenMod.Core.Permissions.RegisterPermissionAttribute
+  fullName: OpenMod.Core.Permissions.RegisterPermissionAttribute
+  nameWithType: RegisterPermissionAttribute
+- uid: OpenMod.Core.Permissions.RegisterPermissionAttribute.#ctor(System.String)
+  name: RegisterPermissionAttribute(String)
+  href: api/OpenMod.Core.Permissions.RegisterPermissionAttribute.html#OpenMod_Core_Permissions_RegisterPermissionAttribute__ctor_System_String_
+  commentId: M:OpenMod.Core.Permissions.RegisterPermissionAttribute.#ctor(System.String)
+  fullName: OpenMod.Core.Permissions.RegisterPermissionAttribute.RegisterPermissionAttribute(System.String)
+  nameWithType: RegisterPermissionAttribute.RegisterPermissionAttribute(String)
+- uid: OpenMod.Core.Permissions.RegisterPermissionAttribute.#ctor*
+  name: RegisterPermissionAttribute
+  href: api/OpenMod.Core.Permissions.RegisterPermissionAttribute.html#OpenMod_Core_Permissions_RegisterPermissionAttribute__ctor_
+  commentId: Overload:OpenMod.Core.Permissions.RegisterPermissionAttribute.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Permissions.RegisterPermissionAttribute.RegisterPermissionAttribute
+  nameWithType: RegisterPermissionAttribute.RegisterPermissionAttribute
+- uid: OpenMod.Core.Permissions.RegisterPermissionAttribute.DefaultGrant
+  name: DefaultGrant
+  href: api/OpenMod.Core.Permissions.RegisterPermissionAttribute.html#OpenMod_Core_Permissions_RegisterPermissionAttribute_DefaultGrant
+  commentId: P:OpenMod.Core.Permissions.RegisterPermissionAttribute.DefaultGrant
+  fullName: OpenMod.Core.Permissions.RegisterPermissionAttribute.DefaultGrant
+  nameWithType: RegisterPermissionAttribute.DefaultGrant
+- uid: OpenMod.Core.Permissions.RegisterPermissionAttribute.DefaultGrant*
+  name: DefaultGrant
+  href: api/OpenMod.Core.Permissions.RegisterPermissionAttribute.html#OpenMod_Core_Permissions_RegisterPermissionAttribute_DefaultGrant_
+  commentId: Overload:OpenMod.Core.Permissions.RegisterPermissionAttribute.DefaultGrant
+  isSpec: "True"
+  fullName: OpenMod.Core.Permissions.RegisterPermissionAttribute.DefaultGrant
+  nameWithType: RegisterPermissionAttribute.DefaultGrant
+- uid: OpenMod.Core.Permissions.RegisterPermissionAttribute.Description
+  name: Description
+  href: api/OpenMod.Core.Permissions.RegisterPermissionAttribute.html#OpenMod_Core_Permissions_RegisterPermissionAttribute_Description
+  commentId: P:OpenMod.Core.Permissions.RegisterPermissionAttribute.Description
+  fullName: OpenMod.Core.Permissions.RegisterPermissionAttribute.Description
+  nameWithType: RegisterPermissionAttribute.Description
+- uid: OpenMod.Core.Permissions.RegisterPermissionAttribute.Description*
+  name: Description
+  href: api/OpenMod.Core.Permissions.RegisterPermissionAttribute.html#OpenMod_Core_Permissions_RegisterPermissionAttribute_Description_
+  commentId: Overload:OpenMod.Core.Permissions.RegisterPermissionAttribute.Description
+  isSpec: "True"
+  fullName: OpenMod.Core.Permissions.RegisterPermissionAttribute.Description
+  nameWithType: RegisterPermissionAttribute.Description
+- uid: OpenMod.Core.Permissions.RegisterPermissionAttribute.Permission
+  name: Permission
+  href: api/OpenMod.Core.Permissions.RegisterPermissionAttribute.html#OpenMod_Core_Permissions_RegisterPermissionAttribute_Permission
+  commentId: P:OpenMod.Core.Permissions.RegisterPermissionAttribute.Permission
+  fullName: OpenMod.Core.Permissions.RegisterPermissionAttribute.Permission
+  nameWithType: RegisterPermissionAttribute.Permission
+- uid: OpenMod.Core.Permissions.RegisterPermissionAttribute.Permission*
+  name: Permission
+  href: api/OpenMod.Core.Permissions.RegisterPermissionAttribute.html#OpenMod_Core_Permissions_RegisterPermissionAttribute_Permission_
+  commentId: Overload:OpenMod.Core.Permissions.RegisterPermissionAttribute.Permission
+  isSpec: "True"
+  fullName: OpenMod.Core.Permissions.RegisterPermissionAttribute.Permission
+  nameWithType: RegisterPermissionAttribute.Permission
 - uid: OpenMod.Core.Permissions.ScopedPermissionChecker
   name: ScopedPermissionChecker
   href: api/OpenMod.Core.Permissions.ScopedPermissionChecker.html
@@ -18267,6 +18366,22 @@ references:
   isSpec: "True"
   fullName: OpenMod.NuGet.NuGetPackageManager.InstallMissingPackagesAsync
   nameWithType: NuGetPackageManager.InstallMissingPackagesAsync
+- uid: OpenMod.NuGet.NuGetPackageManager.InstallPackagesAsync(ICollection{PackageIdentity},System.Boolean)
+  name: InstallPackagesAsync(ICollection<PackageIdentity>, Boolean)
+  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_InstallPackagesAsync_ICollection_PackageIdentity__System_Boolean_
+  commentId: M:OpenMod.NuGet.NuGetPackageManager.InstallPackagesAsync(ICollection{PackageIdentity},System.Boolean)
+  name.vb: InstallPackagesAsync(ICollection(Of PackageIdentity), Boolean)
+  fullName: OpenMod.NuGet.NuGetPackageManager.InstallPackagesAsync(ICollection<PackageIdentity>, System.Boolean)
+  fullName.vb: OpenMod.NuGet.NuGetPackageManager.InstallPackagesAsync(ICollection(Of PackageIdentity), System.Boolean)
+  nameWithType: NuGetPackageManager.InstallPackagesAsync(ICollection<PackageIdentity>, Boolean)
+  nameWithType.vb: NuGetPackageManager.InstallPackagesAsync(ICollection(Of PackageIdentity), Boolean)
+- uid: OpenMod.NuGet.NuGetPackageManager.InstallPackagesAsync*
+  name: InstallPackagesAsync
+  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_InstallPackagesAsync_
+  commentId: Overload:OpenMod.NuGet.NuGetPackageManager.InstallPackagesAsync
+  isSpec: "True"
+  fullName: OpenMod.NuGet.NuGetPackageManager.InstallPackagesAsync
+  nameWithType: NuGetPackageManager.InstallPackagesAsync
 - uid: OpenMod.NuGet.NuGetPackageManager.IsPackageInstalledAsync(System.String)
   name: IsPackageInstalledAsync(String)
   href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_IsPackageInstalledAsync_System_String_

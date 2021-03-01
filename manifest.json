@@ -2010,7 +2010,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Cooldowns.CommandCooldownStore.html",
-          "hash": "THvbxnBExdibAY0m+TsKhw=="
+          "hash": "pAx34HXA02loS9F2ptRuMQ=="
         }
       },
       "is_incremental": false,
@@ -2035,6 +2035,18 @@
         ".html": {
           "relative_path": "api/OpenMod.Core.Cooldowns.CooldownRecord.html",
           "hash": "6LlODLRwJj10A9zgV7THzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Core.Cooldowns.CooldownRecords.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Core.Cooldowns.CooldownRecords.html",
+          "hash": "yA0LoGzyiWQvmtAzjt5Czg=="
         }
       },
       "is_incremental": false,
@@ -2070,7 +2082,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Cooldowns.html",
-          "hash": "tqk40tfNVZZw/zwx0lB+iQ=="
+          "hash": "gTjZgmB5+Ihl9n6FCdARsA=="
         }
       },
       "is_incremental": false,
@@ -2238,7 +2250,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Helpers.AssemblyHelper.html",
-          "hash": "wn9zvbD2kPf4YL+ODnBk6g=="
+          "hash": "9tOWdYmTALLYMrHPoC0eDA=="
         }
       },
       "is_incremental": false,
@@ -2858,6 +2870,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Core.Permissions.RegisterPermissionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Core.Permissions.RegisterPermissionAttribute.html",
+          "hash": "d9jzQJCjnSY4LIRo025d7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Core.Permissions.ScopedPermissionChecker.yml",
       "output": {
         ".html": {
@@ -2886,7 +2910,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Permissions.html",
-          "hash": "kCrNNmVjvBTOQAw+D2IDRQ=="
+          "hash": "E0iqWlcax4dxxAo9PADscg=="
         }
       },
       "is_incremental": false,
@@ -5022,7 +5046,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.NuGet.NuGetPackageManager.html",
-          "hash": "P/85fUW6kJPcuXn6gzkRjg=="
+          "hash": "7IpxiUW+bxCGilf/zrrU9g=="
         }
       },
       "is_incremental": false,
@@ -5106,7 +5130,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Runtime.OpenModStartup.html",
-          "hash": "oMaeAS8JS0HJjTG5/0xLpQ=="
+          "hash": "EpbgJJ9Wy33Gq1N1Ax+GfA=="
         }
       },
       "is_incremental": false,
@@ -7938,7 +7962,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Module.OpenModUnturnedModule.html",
-          "hash": "JIQUc7BtowsA7bxBs3JfpA=="
+          "hash": "qkPo8CeqiaqYVCND/L1kOg=="
         }
       },
       "is_incremental": false,
@@ -7950,7 +7974,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Module.Shared.OpenModSharedUnturnedModule.html",
-          "hash": "0T9YGePkaQCNpDHuw3XqhQ=="
+          "hash": "66Vs3VebWDCP5frH2njkyA=="
         }
       },
       "is_incremental": false,
@@ -8046,7 +8070,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.OpenModUnturnedHost.html",
-          "hash": "bcmi8nlTONZ8M88A5ufnKw=="
+          "hash": "F5TpDYylA+0MBX+MZJOrZA=="
         }
       },
       "is_incremental": false,
@@ -10266,7 +10290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "WhFJXHHGIrZeLd85kXNwIQ=="
+          "hash": "HkcLU01G09nHzxFnOVgYfQ=="
         }
       },
       "is_incremental": false,
@@ -10536,6 +10560,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "userdoc/concepts/cooldowns.md",
+      "output": {
+        ".html": {
+          "relative_path": "userdoc/concepts/cooldowns.html",
+          "hash": "m8Vs/myaAjsimFCXvZ/ilQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "userdoc/concepts/jobs.md",
       "output": {
         ".html": {
@@ -10669,13 +10705,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 29,
+          "total_file_count": 30,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 852,
+          "total_file_count": 854,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

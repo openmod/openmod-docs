@@ -118,18 +118,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Cooldowns_CommandCooldownStore__ctor_ILogger_OpenMod_Core_Cooldowns_CommandCooldownStore__OpenMod_API_Permissions_IPermissionRoleStore_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Permissions_IPermissionChecker_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Cooldowns.CommandCooldownStore.%23ctor(ILogger%7BOpenMod.Core.Cooldowns.CommandCooldownStore%7D%2COpenMod.API.Permissions.IPermissionRoleStore%2COpenMod.Core.Permissions.IPermissionRolesDataStore%2COpenMod.API.Permissions.IPermissionChecker)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Cooldowns_CommandCooldownStore__ctor_IConfiguration_OpenMod_API_IRuntime_OpenMod_API_Persistence_IDataStoreFactory_ILogger_OpenMod_Core_Cooldowns_CommandCooldownStore__OpenMod_API_Permissions_IPermissionRoleStore_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Permissions_IPermissionChecker_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Cooldowns.CommandCooldownStore.%23ctor(IConfiguration%2COpenMod.API.IRuntime%2COpenMod.API.Persistence.IDataStoreFactory%2CILogger%7BOpenMod.Core.Cooldowns.CommandCooldownStore%7D%2COpenMod.API.Permissions.IPermissionRoleStore%2COpenMod.Core.Permissions.IPermissionRolesDataStore%2COpenMod.API.Permissions.IPermissionChecker)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Cooldowns/CommandCooldownStore.cs/#L26">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Cooldowns/CommandCooldownStore.cs/#L36">View Source</a>
   </span>
   <a id="OpenMod_Core_Cooldowns_CommandCooldownStore__ctor_" data-uid="OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor*"></a>
-  <h4 id="OpenMod_Core_Cooldowns_CommandCooldownStore__ctor_ILogger_OpenMod_Core_Cooldowns_CommandCooldownStore__OpenMod_API_Permissions_IPermissionRoleStore_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Permissions_IPermissionChecker_" data-uid="OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor(ILogger{OpenMod.Core.Cooldowns.CommandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)">CommandCooldownStore(ILogger&lt;CommandCooldownStore&gt;, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)</h4>
+  <h4 id="OpenMod_Core_Cooldowns_CommandCooldownStore__ctor_IConfiguration_OpenMod_API_IRuntime_OpenMod_API_Persistence_IDataStoreFactory_ILogger_OpenMod_Core_Cooldowns_CommandCooldownStore__OpenMod_API_Permissions_IPermissionRoleStore_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Permissions_IPermissionChecker_" data-uid="OpenMod.Core.Cooldowns.CommandCooldownStore.#ctor(IConfiguration,OpenMod.API.IRuntime,OpenMod.API.Persistence.IDataStoreFactory,ILogger{OpenMod.Core.Cooldowns.CommandCooldownStore},OpenMod.API.Permissions.IPermissionRoleStore,OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Permissions.IPermissionChecker)">CommandCooldownStore(IConfiguration, IRuntime, IDataStoreFactory, ILogger&lt;CommandCooldownStore&gt;, IPermissionRoleStore, IPermissionRolesDataStore, IPermissionChecker)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CommandCooldownStore(ILogger&lt;CommandCooldownStore&gt; logger, IPermissionRoleStore permissionRoleStore, IPermissionRolesDataStore permissionRolesDataStore, IPermissionChecker permissionChecker)</code></pre>
+    <pre><code class="lang-csharp hljs">public CommandCooldownStore(IConfiguration configuration, IRuntime runtime, IDataStoreFactory dataStoreFactory, ILogger&lt;CommandCooldownStore&gt; logger, IPermissionRoleStore permissionRoleStore, IPermissionRolesDataStore permissionRolesDataStore, IPermissionChecker permissionChecker)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,6 +141,21 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">IConfiguration</span></td>
+        <td><span class="parametername">configuration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.IRuntime.html">IRuntime</a></td>
+        <td><span class="parametername">runtime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Persistence.IDataStoreFactory.html">IDataStoreFactory</a></td>
+        <td><span class="parametername">dataStoreFactory</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><span class="xref">ILogger</span>&lt;<a class="xref" href="OpenMod.Core.Cooldowns.CommandCooldownStore.html">CommandCooldownStore</a>&gt;</td>
         <td><span class="parametername">logger</span></td>
@@ -170,7 +185,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Cooldowns_CommandCooldownStore_GetCooldownSpanAsync_OpenMod_API_Commands_ICommandActor_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Cooldowns.CommandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Cooldowns/CommandCooldownStore.cs/#L39">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Cooldowns/CommandCooldownStore.cs/#L56">View Source</a>
   </span>
   <a id="OpenMod_Core_Cooldowns_CommandCooldownStore_GetCooldownSpanAsync_" data-uid="OpenMod.Core.Cooldowns.CommandCooldownStore.GetCooldownSpanAsync*"></a>
   <h4 id="OpenMod_Core_Cooldowns_CommandCooldownStore_GetCooldownSpanAsync_OpenMod_API_Commands_ICommandActor_System_String_" data-uid="OpenMod.Core.Cooldowns.CommandCooldownStore.GetCooldownSpanAsync(OpenMod.API.Commands.ICommandActor,System.String)">GetCooldownSpanAsync(ICommandActor, String)</h4>
@@ -222,7 +237,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Cooldowns_CommandCooldownStore_GetLastExecutedAsync_OpenMod_API_Commands_ICommandActor_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Cooldowns.CommandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Cooldowns/CommandCooldownStore.cs/#L107">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Cooldowns/CommandCooldownStore.cs/#L156">View Source</a>
   </span>
   <a id="OpenMod_Core_Cooldowns_CommandCooldownStore_GetLastExecutedAsync_" data-uid="OpenMod.Core.Cooldowns.CommandCooldownStore.GetLastExecutedAsync*"></a>
   <h4 id="OpenMod_Core_Cooldowns_CommandCooldownStore_GetLastExecutedAsync_OpenMod_API_Commands_ICommandActor_System_String_" data-uid="OpenMod.Core.Cooldowns.CommandCooldownStore.GetLastExecutedAsync(OpenMod.API.Commands.ICommandActor,System.String)">GetLastExecutedAsync(ICommandActor, String)</h4>
@@ -274,7 +289,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Cooldowns_CommandCooldownStore_RecordExecutionAsync_OpenMod_API_Commands_ICommandActor_System_String_DateTime_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Cooldowns.CommandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor%2CSystem.String%2CDateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Cooldowns/CommandCooldownStore.cs/#L133">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Cooldowns/CommandCooldownStore.cs/#L184">View Source</a>
   </span>
   <a id="OpenMod_Core_Cooldowns_CommandCooldownStore_RecordExecutionAsync_" data-uid="OpenMod.Core.Cooldowns.CommandCooldownStore.RecordExecutionAsync*"></a>
   <h4 id="OpenMod_Core_Cooldowns_CommandCooldownStore_RecordExecutionAsync_OpenMod_API_Commands_ICommandActor_System_String_DateTime_" data-uid="OpenMod.Core.Cooldowns.CommandCooldownStore.RecordExecutionAsync(OpenMod.API.Commands.ICommandActor,System.String,DateTime)">RecordExecutionAsync(ICommandActor, String, DateTime)</h4>
