@@ -143,18 +143,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedInventoryItem__ctor_ItemJar_OpenMod_Unturned_Items_UnturnedItem_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedInventoryItem.%23ctor(ItemJar%2COpenMod.Unturned.Items.UnturnedItem)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedInventoryItem__ctor_OpenMod_Unturned_Items_UnturnedPlayerInventory_ItemJar_OpenMod_Unturned_Items_UnturnedItem_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedInventoryItem.%23ctor(OpenMod.Unturned.Items.UnturnedPlayerInventory%2CItemJar%2COpenMod.Unturned.Items.UnturnedItem)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedInventoryItem.cs/#L10">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedInventoryItem.cs/#L9">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Items_UnturnedInventoryItem__ctor_" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor*"></a>
-  <h4 id="OpenMod_Unturned_Items_UnturnedInventoryItem__ctor_ItemJar_OpenMod_Unturned_Items_UnturnedItem_" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor(ItemJar,OpenMod.Unturned.Items.UnturnedItem)">UnturnedInventoryItem(ItemJar, UnturnedItem)</h4>
+  <h4 id="OpenMod_Unturned_Items_UnturnedInventoryItem__ctor_OpenMod_Unturned_Items_UnturnedPlayerInventory_ItemJar_OpenMod_Unturned_Items_UnturnedItem_" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor(OpenMod.Unturned.Items.UnturnedPlayerInventory,ItemJar,OpenMod.Unturned.Items.UnturnedItem)">UnturnedInventoryItem(UnturnedPlayerInventory, ItemJar, UnturnedItem)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnturnedInventoryItem(ItemJar itemJar, UnturnedItem item)</code></pre>
+    <pre><code class="lang-csharp hljs">public UnturnedInventoryItem(UnturnedPlayerInventory inventory, ItemJar itemJar, UnturnedItem item)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,6 +166,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.Unturned.Items.UnturnedPlayerInventory.html">UnturnedPlayerInventory</a></td>
+        <td><span class="parametername">inventory</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><span class="xref">ItemJar</span></td>
         <td><span class="parametername">itemJar</span></td>
@@ -182,10 +187,40 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedInventoryItem_Inventory.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedInventoryItem.Inventory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedInventoryItem.cs/#L16">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Items_UnturnedInventoryItem_Inventory_" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.Inventory*"></a>
+  <h4 id="OpenMod_Unturned_Items_UnturnedInventoryItem_Inventory" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.Inventory">Inventory</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnturnedPlayerInventory Inventory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.Unturned.Items.UnturnedPlayerInventory.html">UnturnedPlayerInventory</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedInventoryItem_Item.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedInventoryItem.Item%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedInventoryItem.cs/#L18">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedInventoryItem.cs/#L20">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Items_UnturnedInventoryItem_Item_" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.Item*"></a>
   <h4 id="OpenMod_Unturned_Items_UnturnedInventoryItem_Item" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.Item">Item</h4>
@@ -215,7 +250,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedInventoryItem_ItemJar.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedInventoryItem.ItemJar%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedInventoryItem.cs/#L16">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedInventoryItem.cs/#L18">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Items_UnturnedInventoryItem_ItemJar_" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.ItemJar*"></a>
   <h4 id="OpenMod_Unturned_Items_UnturnedInventoryItem_ItemJar" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.ItemJar">ItemJar</h4>
@@ -247,7 +282,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedInventoryItem_DestroyAsync.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedInventoryItem.DestroyAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedInventoryItem.cs/#L25">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedInventoryItem.cs/#L31">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Items_UnturnedInventoryItem_DestroyAsync_" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.DestroyAsync*"></a>
   <h4 id="OpenMod_Unturned_Items_UnturnedInventoryItem_DestroyAsync" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.DestroyAsync">DestroyAsync()</h4>
@@ -277,7 +312,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedInventoryItem_DropAsync.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedInventoryItem.DropAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedInventoryItem.cs/#L20">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedInventoryItem.cs/#L22">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Items_UnturnedInventoryItem_DropAsync_" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.DropAsync*"></a>
   <h4 id="OpenMod_Unturned_Items_UnturnedInventoryItem_DropAsync" data-uid="OpenMod.Unturned.Items.UnturnedInventoryItem.DropAsync">DropAsync()</h4>

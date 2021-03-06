@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class StringHelper
+    <title>Class VehicleDirectoryExtensions
    | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class StringHelper
+    <meta name="title" content="Class VehicleDirectoryExtensions
    | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -92,40 +92,41 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="OpenMod.Core.Helpers.StringHelper">
+                    <article class="content wrap" id="_content" data-uid="OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions">
   
   
-  <h1 id="OpenMod_Core_Helpers_StringHelper" data-uid="OpenMod.Core.Helpers.StringHelper" class="text-break">Class StringHelper
+  <h1 id="OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleDirectoryExtensions" data-uid="OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions" class="text-break">Class VehicleDirectoryExtensions
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">StringHelper</span></div>
+    <div class="level1"><span class="xref">VehicleDirectoryExtensions</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Helpers.html">OpenMod.Core.Helpers</a></h6>
-  <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
-  <h5 id="OpenMod_Core_Helpers_StringHelper_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.html">OpenMod.Extensions.Games.Abstractions.Vehicles</a></h6>
+  <h6><strong>Assembly</strong>: OpenMod.Extensions.Games.Abstractions.dll</h6>
+  <h5 id="OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleDirectoryExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class StringHelper : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class VehicleDirectoryExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Helpers_StringHelper_AllIndexesOf_System_String_System_String_StringComparison_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Helpers.StringHelper.AllIndexesOf(System.String%2CSystem.String%2CStringComparison)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleDirectoryExtensions_FindByIdAsync_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleDirectory_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByIdAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Helpers/StringHelper.cs/#L8">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/extensions/OpenMod.Extensions.Games.Abstractions/Vehicles/VehicleDirectoryExtensions.cs/#L15">View Source</a>
   </span>
-  <a id="OpenMod_Core_Helpers_StringHelper_AllIndexesOf_" data-uid="OpenMod.Core.Helpers.StringHelper.AllIndexesOf*"></a>
-  <h4 id="OpenMod_Core_Helpers_StringHelper_AllIndexesOf_System_String_System_String_StringComparison_" data-uid="OpenMod.Core.Helpers.StringHelper.AllIndexesOf(System.String,System.String,StringComparison)">AllIndexesOf(String, String, StringComparison)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleDirectoryExtensions_FindByIdAsync_" data-uid="OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByIdAsync*"></a>
+  <h4 id="OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleDirectoryExtensions_FindByIdAsync_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleDirectory_System_String_" data-uid="OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByIdAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory,System.String)">FindByIdAsync(IVehicleDirectory, String)</h4>
+  <div class="markdown level1 summary"><p>Searches for vehicles by the vehicle asset id.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;int&gt; AllIndexesOf(this string str, string value, StringComparison stringComparison = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;IVehicleAsset&gt; FindByIdAsync(this IVehicleDirectory directory, string vehicleAssetId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,19 +139,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">str</span></td>
-        <td></td>
+        <td><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory.html">IVehicleDirectory</a></td>
+        <td><span class="parametername">directory</span></td>
+        <td><p>The vehicle directory service.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">StringComparison</span></td>
-        <td><span class="parametername">stringComparison</span></td>
-        <td></td>
+        <td><span class="parametername">vehicleAssetId</span></td>
+        <td><p>The vehicle asset id to search for.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -164,60 +162,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Helpers_StringHelper_LevenshteinDistance_System_String_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Helpers.StringHelper.LevenshteinDistance(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Helpers/StringHelper.cs/#L28">View Source</a>
-  </span>
-  <a id="OpenMod_Core_Helpers_StringHelper_LevenshteinDistance_" data-uid="OpenMod.Core.Helpers.StringHelper.LevenshteinDistance*"></a>
-  <h4 id="OpenMod_Core_Helpers_StringHelper_LevenshteinDistance_System_String_System_String_" data-uid="OpenMod.Core.Helpers.StringHelper.LevenshteinDistance(System.String,System.String)">LevenshteinDistance(String, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int LevenshteinDistance(string a, string b)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">a</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.html">IVehicleAsset</a>&gt;</td>
+        <td><p><strong>The <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.html">IVehicleAsset</a></strong> if found; otherwise, <strong>null</strong>.</p>
+</td>
       </tr>
     </tbody>
   </table>

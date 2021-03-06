@@ -8494,6 +8494,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Helpers.StringHelper.AllIndexesOf
   nameWithType: StringHelper.AllIndexesOf
+- uid: OpenMod.Core.Helpers.StringHelper.LevenshteinDistance(System.String,System.String)
+  name: LevenshteinDistance(String, String)
+  href: api/OpenMod.Core.Helpers.StringHelper.html#OpenMod_Core_Helpers_StringHelper_LevenshteinDistance_System_String_System_String_
+  commentId: M:OpenMod.Core.Helpers.StringHelper.LevenshteinDistance(System.String,System.String)
+  fullName: OpenMod.Core.Helpers.StringHelper.LevenshteinDistance(System.String, System.String)
+  nameWithType: StringHelper.LevenshteinDistance(String, String)
+- uid: OpenMod.Core.Helpers.StringHelper.LevenshteinDistance*
+  name: LevenshteinDistance
+  href: api/OpenMod.Core.Helpers.StringHelper.html#OpenMod_Core_Helpers_StringHelper_LevenshteinDistance_
+  commentId: Overload:OpenMod.Core.Helpers.StringHelper.LevenshteinDistance
+  isSpec: "True"
+  fullName: OpenMod.Core.Helpers.StringHelper.LevenshteinDistance
+  nameWithType: StringHelper.LevenshteinDistance
 - uid: OpenMod.Core.Helpers.TimeSpanHelper
   name: TimeSpanHelper
   href: api/OpenMod.Core.Helpers.TimeSpanHelper.html
@@ -17830,6 +17843,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.VehicleAssetId
   nameWithType: IVehicleAsset.VehicleAssetId
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.VehicleName
+  name: VehicleName
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.html#OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleAsset_VehicleName
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.VehicleName
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.VehicleName
+  nameWithType: IVehicleAsset.VehicleName
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.VehicleName*
+  name: VehicleName
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.html#OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleAsset_VehicleName_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.VehicleName
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.VehicleName
+  nameWithType: IVehicleAsset.VehicleName
 - uid: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.VehicleType
   name: VehicleType
   href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.html#OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleAsset_VehicleType
@@ -17993,25 +18019,44 @@ references:
   isSpec: "True"
   fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.NullVehicleState.StateData
   nameWithType: NullVehicleState.StateData
-- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions
-  name: VehicleExtensions
-  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions.html
-  commentId: T:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions
-  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions
-  nameWithType: VehicleExtensions
-- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner,OpenMod.Extensions.Games.Abstractions.Players.IPlayer,System.String)
-  name: SpawnVehicleAsync(IVehicleSpawner, IPlayer, String)
-  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleExtensions_SpawnVehicleAsync_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_OpenMod_Extensions_Games_Abstractions_Players_IPlayer_System_String_
-  commentId: M:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner,OpenMod.Extensions.Games.Abstractions.Players.IPlayer,System.String)
-  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner, OpenMod.Extensions.Games.Abstractions.Players.IPlayer, System.String)
-  nameWithType: VehicleExtensions.SpawnVehicleAsync(IVehicleSpawner, IPlayer, String)
-- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions.SpawnVehicleAsync*
-  name: SpawnVehicleAsync
-  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleExtensions_SpawnVehicleAsync_
-  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions.SpawnVehicleAsync
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions
+  name: VehicleDirectoryExtensions
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.html
+  commentId: T:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions
+  nameWithType: VehicleDirectoryExtensions
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByIdAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory,System.String)
+  name: FindByIdAsync(IVehicleDirectory, String)
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleDirectoryExtensions_FindByIdAsync_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleDirectory_System_String_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByIdAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory,System.String)
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByIdAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory, System.String)
+  nameWithType: VehicleDirectoryExtensions.FindByIdAsync(IVehicleDirectory, String)
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByIdAsync*
+  name: FindByIdAsync
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleDirectoryExtensions_FindByIdAsync_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByIdAsync
   isSpec: "True"
-  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions.SpawnVehicleAsync
-  nameWithType: VehicleExtensions.SpawnVehicleAsync
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByIdAsync
+  nameWithType: VehicleDirectoryExtensions.FindByIdAsync
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions
+  name: VehicleSpawnerExtensions
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.html
+  commentId: T:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions
+  nameWithType: VehicleSpawnerExtensions
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner,OpenMod.Extensions.Games.Abstractions.Players.IPlayer,System.String)
+  name: SpawnVehicleAsync(IVehicleSpawner, IPlayer, String)
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleSpawnerExtensions_SpawnVehicleAsync_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_OpenMod_Extensions_Games_Abstractions_Players_IPlayer_System_String_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner,OpenMod.Extensions.Games.Abstractions.Players.IPlayer,System.String)
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner, OpenMod.Extensions.Games.Abstractions.Players.IPlayer, System.String)
+  nameWithType: VehicleSpawnerExtensions.SpawnVehicleAsync(IVehicleSpawner, IPlayer, String)
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync*
+  name: SpawnVehicleAsync
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleSpawnerExtensions_SpawnVehicleAsync_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync
+  nameWithType: VehicleSpawnerExtensions.SpawnVehicleAsync
 - uid: OpenMod.NuGet
   name: OpenMod.NuGet
   href: api/OpenMod.NuGet.html
@@ -28228,12 +28273,12 @@ references:
   commentId: T:OpenMod.Unturned.Items.UnturnedInventoryItem
   fullName: OpenMod.Unturned.Items.UnturnedInventoryItem
   nameWithType: UnturnedInventoryItem
-- uid: OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor(ItemJar,OpenMod.Unturned.Items.UnturnedItem)
-  name: UnturnedInventoryItem(ItemJar, UnturnedItem)
-  href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html#OpenMod_Unturned_Items_UnturnedInventoryItem__ctor_ItemJar_OpenMod_Unturned_Items_UnturnedItem_
-  commentId: M:OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor(ItemJar,OpenMod.Unturned.Items.UnturnedItem)
-  fullName: OpenMod.Unturned.Items.UnturnedInventoryItem.UnturnedInventoryItem(ItemJar, OpenMod.Unturned.Items.UnturnedItem)
-  nameWithType: UnturnedInventoryItem.UnturnedInventoryItem(ItemJar, UnturnedItem)
+- uid: OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor(OpenMod.Unturned.Items.UnturnedPlayerInventory,ItemJar,OpenMod.Unturned.Items.UnturnedItem)
+  name: UnturnedInventoryItem(UnturnedPlayerInventory, ItemJar, UnturnedItem)
+  href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html#OpenMod_Unturned_Items_UnturnedInventoryItem__ctor_OpenMod_Unturned_Items_UnturnedPlayerInventory_ItemJar_OpenMod_Unturned_Items_UnturnedItem_
+  commentId: M:OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor(OpenMod.Unturned.Items.UnturnedPlayerInventory,ItemJar,OpenMod.Unturned.Items.UnturnedItem)
+  fullName: OpenMod.Unturned.Items.UnturnedInventoryItem.UnturnedInventoryItem(OpenMod.Unturned.Items.UnturnedPlayerInventory, ItemJar, OpenMod.Unturned.Items.UnturnedItem)
+  nameWithType: UnturnedInventoryItem.UnturnedInventoryItem(UnturnedPlayerInventory, ItemJar, UnturnedItem)
 - uid: OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor*
   name: UnturnedInventoryItem
   href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html#OpenMod_Unturned_Items_UnturnedInventoryItem__ctor_
@@ -28267,6 +28312,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Items.UnturnedInventoryItem.DropAsync
   nameWithType: UnturnedInventoryItem.DropAsync
+- uid: OpenMod.Unturned.Items.UnturnedInventoryItem.Inventory
+  name: Inventory
+  href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html#OpenMod_Unturned_Items_UnturnedInventoryItem_Inventory
+  commentId: P:OpenMod.Unturned.Items.UnturnedInventoryItem.Inventory
+  fullName: OpenMod.Unturned.Items.UnturnedInventoryItem.Inventory
+  nameWithType: UnturnedInventoryItem.Inventory
+- uid: OpenMod.Unturned.Items.UnturnedInventoryItem.Inventory*
+  name: Inventory
+  href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html#OpenMod_Unturned_Items_UnturnedInventoryItem_Inventory_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedInventoryItem.Inventory
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedInventoryItem.Inventory
+  nameWithType: UnturnedInventoryItem.Inventory
 - uid: OpenMod.Unturned.Items.UnturnedInventoryItem.Item
   name: Item
   href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html#OpenMod_Unturned_Items_UnturnedInventoryItem_Item
@@ -28819,12 +28877,12 @@ references:
   commentId: T:OpenMod.Unturned.Items.UnturnedPlayerInventoryPage
   fullName: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage
   nameWithType: UnturnedPlayerInventoryPage
-- uid: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.#ctor(OpenMod.Extensions.Games.Abstractions.Items.IInventory,System.Byte,SDG.Unturned.Items)
-  name: UnturnedPlayerInventoryPage(IInventory, Byte, SDG.Unturned.Items)
-  href: api/OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.html#OpenMod_Unturned_Items_UnturnedPlayerInventoryPage__ctor_OpenMod_Extensions_Games_Abstractions_Items_IInventory_System_Byte_SDG_Unturned_Items_
-  commentId: M:OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.#ctor(OpenMod.Extensions.Games.Abstractions.Items.IInventory,System.Byte,SDG.Unturned.Items)
-  fullName: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.UnturnedPlayerInventoryPage(OpenMod.Extensions.Games.Abstractions.Items.IInventory, System.Byte, SDG.Unturned.Items)
-  nameWithType: UnturnedPlayerInventoryPage.UnturnedPlayerInventoryPage(IInventory, Byte, SDG.Unturned.Items)
+- uid: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.#ctor(OpenMod.Unturned.Items.UnturnedPlayerInventory,System.Byte,SDG.Unturned.Items)
+  name: UnturnedPlayerInventoryPage(UnturnedPlayerInventory, Byte, SDG.Unturned.Items)
+  href: api/OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.html#OpenMod_Unturned_Items_UnturnedPlayerInventoryPage__ctor_OpenMod_Unturned_Items_UnturnedPlayerInventory_System_Byte_SDG_Unturned_Items_
+  commentId: M:OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.#ctor(OpenMod.Unturned.Items.UnturnedPlayerInventory,System.Byte,SDG.Unturned.Items)
+  fullName: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.UnturnedPlayerInventoryPage(OpenMod.Unturned.Items.UnturnedPlayerInventory, System.Byte, SDG.Unturned.Items)
+  nameWithType: UnturnedPlayerInventoryPage.UnturnedPlayerInventoryPage(UnturnedPlayerInventory, Byte, SDG.Unturned.Items)
 - uid: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.#ctor*
   name: UnturnedPlayerInventoryPage
   href: api/OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.html#OpenMod_Unturned_Items_UnturnedPlayerInventoryPage__ctor_
@@ -28936,6 +28994,23 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.Name
   nameWithType: UnturnedPlayerInventoryPage.Name
+- uid: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.OpenMod#Extensions#Games#Abstractions#Items#IInventoryPage#Inventory
+  name: IInventoryPage.Inventory
+  href: api/OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.html#OpenMod_Unturned_Items_UnturnedPlayerInventoryPage_OpenMod_Extensions_Games_Abstractions_Items_IInventoryPage_Inventory
+  commentId: P:OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.OpenMod#Extensions#Games#Abstractions#Items#IInventoryPage#Inventory
+  name.vb: OpenMod.Extensions.Games.Abstractions.Items.IInventoryPage.Inventory
+  fullName: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.OpenMod.Extensions.Games.Abstractions.Items.IInventoryPage.Inventory
+  nameWithType: UnturnedPlayerInventoryPage.IInventoryPage.Inventory
+  nameWithType.vb: UnturnedPlayerInventoryPage.OpenMod.Extensions.Games.Abstractions.Items.IInventoryPage.Inventory
+- uid: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.OpenMod#Extensions#Games#Abstractions#Items#IInventoryPage#Inventory*
+  name: IInventoryPage.Inventory
+  href: api/OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.html#OpenMod_Unturned_Items_UnturnedPlayerInventoryPage_OpenMod_Extensions_Games_Abstractions_Items_IInventoryPage_Inventory_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.OpenMod#Extensions#Games#Abstractions#Items#IInventoryPage#Inventory
+  isSpec: "True"
+  name.vb: OpenMod.Extensions.Games.Abstractions.Items.IInventoryPage.Inventory
+  fullName: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.OpenMod.Extensions.Games.Abstractions.Items.IInventoryPage.Inventory
+  nameWithType: UnturnedPlayerInventoryPage.IInventoryPage.Inventory
+  nameWithType.vb: UnturnedPlayerInventoryPage.OpenMod.Extensions.Games.Abstractions.Items.IInventoryPage.Inventory
 - uid: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.Page
   name: Page
   href: api/OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.html#OpenMod_Unturned_Items_UnturnedPlayerInventoryPage_Page
@@ -32151,6 +32226,108 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Stats.Events.UnturnedPlayerWaterUpdatedEvent.Water
   nameWithType: UnturnedPlayerWaterUpdatedEvent.Water
+- uid: OpenMod.Unturned.Players.UI.Events
+  name: OpenMod.Unturned.Players.UI.Events
+  href: api/OpenMod.Unturned.Players.UI.Events.html
+  commentId: N:OpenMod.Unturned.Players.UI.Events
+  fullName: OpenMod.Unturned.Players.UI.Events
+  nameWithType: OpenMod.Unturned.Players.UI.Events
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent
+  name: UnturnedPlayerButtonClickedEvent
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.html
+  commentId: T:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent
+  nameWithType: UnturnedPlayerButtonClickedEvent
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.String)
+  name: UnturnedPlayerButtonClickedEvent(UnturnedPlayer, String)
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerButtonClickedEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_String_
+  commentId: M:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.String)
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.UnturnedPlayerButtonClickedEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.String)
+  nameWithType: UnturnedPlayerButtonClickedEvent.UnturnedPlayerButtonClickedEvent(UnturnedPlayer, String)
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.#ctor*
+  name: UnturnedPlayerButtonClickedEvent
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerButtonClickedEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.UnturnedPlayerButtonClickedEvent
+  nameWithType: UnturnedPlayerButtonClickedEvent.UnturnedPlayerButtonClickedEvent
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.ButtonName
+  name: ButtonName
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerButtonClickedEvent_ButtonName
+  commentId: P:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.ButtonName
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.ButtonName
+  nameWithType: UnturnedPlayerButtonClickedEvent.ButtonName
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.ButtonName*
+  name: ButtonName
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerButtonClickedEvent_ButtonName_
+  commentId: Overload:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.ButtonName
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.ButtonName
+  nameWithType: UnturnedPlayerButtonClickedEvent.ButtonName
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent
+  name: UnturnedPlayerTextInputtedEvent
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.html
+  commentId: T:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent
+  nameWithType: UnturnedPlayerTextInputtedEvent
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.String,System.String)
+  name: UnturnedPlayerTextInputtedEvent(UnturnedPlayer, String, String)
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerTextInputtedEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_String_System_String_
+  commentId: M:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.String,System.String)
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.UnturnedPlayerTextInputtedEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.String, System.String)
+  nameWithType: UnturnedPlayerTextInputtedEvent.UnturnedPlayerTextInputtedEvent(UnturnedPlayer, String, String)
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.#ctor*
+  name: UnturnedPlayerTextInputtedEvent
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerTextInputtedEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.UnturnedPlayerTextInputtedEvent
+  nameWithType: UnturnedPlayerTextInputtedEvent.UnturnedPlayerTextInputtedEvent
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.Text
+  name: Text
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerTextInputtedEvent_Text
+  commentId: P:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.Text
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.Text
+  nameWithType: UnturnedPlayerTextInputtedEvent.Text
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.Text*
+  name: Text
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerTextInputtedEvent_Text_
+  commentId: Overload:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.Text
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.Text
+  nameWithType: UnturnedPlayerTextInputtedEvent.Text
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.TextInputName
+  name: TextInputName
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerTextInputtedEvent_TextInputName
+  commentId: P:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.TextInputName
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.TextInputName
+  nameWithType: UnturnedPlayerTextInputtedEvent.TextInputName
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.TextInputName*
+  name: TextInputName
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerTextInputtedEvent_TextInputName_
+  commentId: Overload:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.TextInputName
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.TextInputName
+  nameWithType: UnturnedPlayerTextInputtedEvent.TextInputName
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent
+  name: UnturnedPlayerUIEvent
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent.html
+  commentId: T:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent
+  nameWithType: UnturnedPlayerUIEvent
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedPlayerUIEvent(UnturnedPlayer)
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerUIEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent.UnturnedPlayerUIEvent(OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedPlayerUIEvent.UnturnedPlayerUIEvent(UnturnedPlayer)
+- uid: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent.#ctor*
+  name: UnturnedPlayerUIEvent
+  href: api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent.html#OpenMod_Unturned_Players_UI_Events_UnturnedPlayerUIEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent.UnturnedPlayerUIEvent
+  nameWithType: UnturnedPlayerUIEvent.UnturnedPlayerUIEvent
 - uid: OpenMod.Unturned.Players.UnturnedPlayer
   name: UnturnedPlayer
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html
@@ -36677,6 +36854,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.VehicleAssetId
   nameWithType: UnturnedVehicleAsset.VehicleAssetId
+- uid: OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.VehicleName
+  name: VehicleName
+  href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.html#OpenMod_Unturned_Vehicles_UnturnedVehicleAsset_VehicleName
+  commentId: P:OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.VehicleName
+  fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.VehicleName
+  nameWithType: UnturnedVehicleAsset.VehicleName
+- uid: OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.VehicleName*
+  name: VehicleName
+  href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.html#OpenMod_Unturned_Vehicles_UnturnedVehicleAsset_VehicleName_
+  commentId: Overload:OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.VehicleName
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.VehicleName
+  nameWithType: UnturnedVehicleAsset.VehicleName
 - uid: OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.VehicleType
   name: VehicleType
   href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.html#OpenMod_Unturned_Vehicles_UnturnedVehicleAsset_VehicleType

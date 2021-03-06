@@ -2358,7 +2358,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Helpers.StringHelper.html",
-          "hash": "kREsNXy3WBvGnizJw1VDMA=="
+          "hash": "jSBxjocciNdOGo2ALFiQhQ=="
         }
       },
       "is_incremental": false,
@@ -2934,7 +2934,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Persistence.YamlDataStore.html",
-          "hash": "L5j8s88RPdgWfqwNBWZ/Lw=="
+          "hash": "b9Qi6COTDb/1tVc1yJHD5w=="
         }
       },
       "is_incremental": false,
@@ -4482,7 +4482,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Items.ItemDirectoryExtensions.html",
-          "hash": "aywzxfvz8Hqr3aTF807iMg=="
+          "hash": "kgCm8qcprkSenxSeIKYROw=="
         }
       },
       "is_incremental": false,
@@ -4878,7 +4878,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleAsset.html",
-          "hash": "MgxmdhJeOR9sARFpegLNbQ=="
+          "hash": "lCyUtxpiGJPZ25DCuyKosw=="
         }
       },
       "is_incremental": false,
@@ -4890,7 +4890,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory.html",
-          "hash": "h1wXbDPwZgxfQ5thrR10kQ=="
+          "hash": "6qkivXhFFCEgqia4W47Lqg=="
         }
       },
       "is_incremental": false,
@@ -4914,7 +4914,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.html",
-          "hash": "zRY8OTsdt2/iz+vt8fsMHw=="
+          "hash": "Pbz9ysVsegBP69Foc1bplg=="
         }
       },
       "is_incremental": false,
@@ -4958,11 +4958,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions.yml",
+      "source_relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleExtensions.html",
-          "hash": "/OOMNbQXVo29XkFcS6prcA=="
+          "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.html",
+          "hash": "b2XyMexWC1NcRqQk1KnFeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.html",
+          "hash": "bxQn6kv5jpfSos1SDZQsfg=="
         }
       },
       "is_incremental": false,
@@ -4974,7 +4986,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.html",
-          "hash": "KaDViWzzyStTE+ouwmT+iw=="
+          "hash": "Vo9P1aBxxrQeNgMBWkYblQ=="
         }
       },
       "is_incremental": false,
@@ -7734,7 +7746,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Events.UnturnedPlayerEvent.html",
-          "hash": "b5Azh0XIypBB4cL6udzRxQ=="
+          "hash": "1K1YoQrfoa4K/rpZIOGSFQ=="
         }
       },
       "is_incremental": false,
@@ -7758,7 +7770,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Items.UnturnedInventoryItem.html",
-          "hash": "4QtL3+nkjbaWudv5dcWjog=="
+          "hash": "dGRmjSXFiYzYYmxWVIqspg=="
         }
       },
       "is_incremental": false,
@@ -7854,7 +7866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.html",
-          "hash": "eyXD2YJxJPtTDXJxvJ4jww=="
+          "hash": "l8FC0hqZJDn67xMBZsYy5Q=="
         }
       },
       "is_incremental": false,
@@ -8858,6 +8870,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerButtonClickedEvent.html",
+          "hash": "LA+NlIXJpmr8EJ/IyjXThA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerTextInputtedEvent.html",
+          "hash": "qmCgD23lsfGe9U48jvTASQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.UI.Events.UnturnedPlayerUIEvent.html",
+          "hash": "1pKhehBD0Ver49HlELX93g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.UI.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.UI.Events.html",
+          "hash": "bJlH9cqtRvFAfl0DhLqOKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Unturned.Players.UnturnedPlayer.yml",
       "output": {
         ".html": {
@@ -9774,7 +9834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.html",
-          "hash": "rGkjerLHjInRvqkR0ZsxdQ=="
+          "hash": "L+F681wYx0KN0qBJMXQwbQ=="
         }
       },
       "is_incremental": false,
@@ -10290,7 +10350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "HkcLU01G09nHzxFnOVgYfQ=="
+          "hash": "0iAbtjsNSKOk2TwWu78+sw=="
         }
       },
       "is_incremental": false,
@@ -10684,7 +10744,7 @@
       "output": {
         ".html": {
           "relative_path": "userdoc/toc.html",
-          "hash": "5aPvDD/2CjgpQ9KRYxaviQ=="
+          "hash": "C1weneE/+n/oJ6ABPN2zaQ=="
         }
       },
       "is_incremental": false,
@@ -10711,7 +10771,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 854,
+          "total_file_count": 859,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
