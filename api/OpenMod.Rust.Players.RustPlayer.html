@@ -113,6 +113,7 @@
     <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IGameObject.html">IGameObject</a></div>
     <div><span class="xref">System.IComparable</span>&lt;<a class="xref" href="OpenMod.Rust.Players.RustPlayer.html">RustPlayer</a>&gt;</div>
     <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Items.IHasInventory.html">IHasInventory</a></div>
+    <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.html">IHasHealth</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -121,9 +122,6 @@
     </div>
     <div>
       <a class="xref" href="OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_Transform">RustEntity.Transform</a>
-    </div>
-    <div>
-      <a class="xref" href="OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_Asset">RustEntity.Asset</a>
     </div>
     <div>
       <a class="xref" href="OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_State">RustEntity.State</a>
@@ -166,7 +164,7 @@
   <h6><strong>Assembly</strong>: OpenMod.Rust.dll</h6>
   <h5 id="OpenMod_Rust_Players_RustPlayer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RustPlayer : RustEntity, IDamageSource, IPlayer, IEntity, IGameObject, IComparable&lt;RustPlayer&gt;, IHasInventory</code></pre>
+    <pre><code class="lang-csharp hljs">public class RustPlayer : RustEntity, IDamageSource, IPlayer, IEntity, IGameObject, IComparable&lt;RustPlayer&gt;, IHasInventory, IHasHealth</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -175,7 +173,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer__ctor_BasePlayer_.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.%23ctor(BasePlayer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L16">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L20">View Source</a>
   </span>
   <a id="OpenMod_Rust_Players_RustPlayer__ctor_" data-uid="OpenMod.Rust.Players.RustPlayer.#ctor*"></a>
   <h4 id="OpenMod_Rust_Players_RustPlayer__ctor_BasePlayer_" data-uid="OpenMod.Rust.Players.RustPlayer.#ctor(BasePlayer)">RustPlayer(BasePlayer)</h4>
@@ -206,10 +204,102 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_Inventory.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.Inventory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_Address.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.Address%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L68">View Source</a>
+  </span>
+  <a id="OpenMod_Rust_Players_RustPlayer_Address_" data-uid="OpenMod.Rust.Players.RustPlayer.Address*"></a>
+  <h4 id="OpenMod_Rust_Players_RustPlayer_Address" data-uid="OpenMod.Rust.Players.RustPlayer.Address">Address</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPAddress Address { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.IPAddress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_Asset.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.Asset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L29">View Source</a>
+  </span>
+  <a id="OpenMod_Rust_Players_RustPlayer_Asset_" data-uid="OpenMod.Rust.Players.RustPlayer.Asset*"></a>
+  <h4 id="OpenMod_Rust_Players_RustPlayer_Asset" data-uid="OpenMod.Rust.Players.RustPlayer.Asset">Asset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEntityAsset Asset { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IEntityAsset.html">IEntityAsset</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_Asset">RustEntity.Asset</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_Health.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.Health%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L94">View Source</a>
+  </span>
+  <a id="OpenMod_Rust_Players_RustPlayer_Health_" data-uid="OpenMod.Rust.Players.RustPlayer.Health*"></a>
+  <h4 id="OpenMod_Rust_Players_RustPlayer_Health" data-uid="OpenMod.Rust.Players.RustPlayer.Health">Health</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Health { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_Inventory.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.Inventory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L66">View Source</a>
   </span>
   <a id="OpenMod_Rust_Players_RustPlayer_Inventory_" data-uid="OpenMod.Rust.Players.RustPlayer.Inventory*"></a>
   <h4 id="OpenMod_Rust_Players_RustPlayer_Inventory" data-uid="OpenMod.Rust.Players.RustPlayer.Inventory">Inventory</h4>
@@ -236,10 +326,70 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_IsAlive.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.IsAlive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L78">View Source</a>
+  </span>
+  <a id="OpenMod_Rust_Players_RustPlayer_IsAlive_" data-uid="OpenMod.Rust.Players.RustPlayer.IsAlive*"></a>
+  <h4 id="OpenMod_Rust_Players_RustPlayer_IsAlive" data-uid="OpenMod.Rust.Players.RustPlayer.IsAlive">IsAlive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAlive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_MaxHealth.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.MaxHealth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L86">View Source</a>
+  </span>
+  <a id="OpenMod_Rust_Players_RustPlayer_MaxHealth_" data-uid="OpenMod.Rust.Players.RustPlayer.MaxHealth*"></a>
+  <h4 id="OpenMod_Rust_Players_RustPlayer_MaxHealth" data-uid="OpenMod.Rust.Players.RustPlayer.MaxHealth">MaxHealth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double MaxHealth { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_Player.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.Player%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L14">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L18">View Source</a>
   </span>
   <a id="OpenMod_Rust_Players_RustPlayer_Player_" data-uid="OpenMod.Rust.Players.RustPlayer.Player*"></a>
   <h4 id="OpenMod_Rust_Players_RustPlayer_Player" data-uid="OpenMod.Rust.Players.RustPlayer.Player">Player</h4>
@@ -269,7 +419,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_Stance.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.Stance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L25">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L31">View Source</a>
   </span>
   <a id="OpenMod_Rust_Players_RustPlayer_Stance_" data-uid="OpenMod.Rust.Players.RustPlayer.Stance*"></a>
   <h4 id="OpenMod_Rust_Players_RustPlayer_Stance" data-uid="OpenMod.Rust.Players.RustPlayer.Stance">Stance</h4>
@@ -301,7 +451,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_CompareTo_OpenMod_Rust_Players_RustPlayer_.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.CompareTo(OpenMod.Rust.Players.RustPlayer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L33">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L41">View Source</a>
   </span>
   <a id="OpenMod_Rust_Players_RustPlayer_CompareTo_" data-uid="OpenMod.Rust.Players.RustPlayer.CompareTo*"></a>
   <h4 id="OpenMod_Rust_Players_RustPlayer_CompareTo_OpenMod_Rust_Players_RustPlayer_" data-uid="OpenMod.Rust.Players.RustPlayer.CompareTo(OpenMod.Rust.Players.RustPlayer)">CompareTo(RustPlayer)</h4>
@@ -345,10 +495,57 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_DamageAsync_System_Double_.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.DamageAsync(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L113">View Source</a>
+  </span>
+  <a id="OpenMod_Rust_Players_RustPlayer_DamageAsync_" data-uid="OpenMod.Rust.Players.RustPlayer.DamageAsync*"></a>
+  <h4 id="OpenMod_Rust_Players_RustPlayer_DamageAsync_System_Double_" data-uid="OpenMod.Rust.Players.RustPlayer.DamageAsync(System.Double)">DamageAsync(Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DamageAsync(double amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_DoTeleport_System_Numerics_Vector3_System_Numerics_Vector3_.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3%2CSystem.Numerics.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L48">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L46">View Source</a>
   </span>
   <a id="OpenMod_Rust_Players_RustPlayer_DoTeleport_" data-uid="OpenMod.Rust.Players.RustPlayer.DoTeleport*"></a>
   <h4 id="OpenMod_Rust_Players_RustPlayer_DoTeleport_System_Numerics_Vector3_System_Numerics_Vector3_" data-uid="OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3,System.Numerics.Vector3)">DoTeleport(Vector3, Vector3)</h4>
@@ -397,6 +594,83 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_DoTeleport_System_Numerics_Vector3_System_Numerics_Vector3_">RustEntity.DoTeleport(Vector3, Vector3)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_KillAsync.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.KillAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L124">View Source</a>
+  </span>
+  <a id="OpenMod_Rust_Players_RustPlayer_KillAsync_" data-uid="OpenMod.Rust.Players.RustPlayer.KillAsync*"></a>
+  <h4 id="OpenMod_Rust_Players_RustPlayer_KillAsync" data-uid="OpenMod.Rust.Players.RustPlayer.KillAsync">KillAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task KillAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Players_RustPlayer_SetHealthAsync_System_Double_.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Players.RustPlayer.SetHealthAsync(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Players/RustPlayer.cs/#L102">View Source</a>
+  </span>
+  <a id="OpenMod_Rust_Players_RustPlayer_SetHealthAsync_" data-uid="OpenMod.Rust.Players.RustPlayer.SetHealthAsync*"></a>
+  <h4 id="OpenMod_Rust_Players_RustPlayer_SetHealthAsync_System_Double_" data-uid="OpenMod.Rust.Players.RustPlayer.SetHealthAsync(System.Double)">SetHealthAsync(Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetHealthAsync(double health)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">health</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IDamageSource.html">IDamageSource</a>
@@ -415,6 +689,9 @@
   </div>
   <div>
       <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Items.IHasInventory.html">IHasInventory</a>
+  </div>
+  <div>
+      <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.html">IHasHealth</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

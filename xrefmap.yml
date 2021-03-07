@@ -5913,12 +5913,12 @@ references:
   commentId: T:OpenMod.Core.Commands.OpenModCommands.CommandOpenMod
   fullName: OpenMod.Core.Commands.OpenModCommands.CommandOpenMod
   nameWithType: CommandOpenMod
-- uid: OpenMod.Core.Commands.OpenModCommands.CommandOpenMod.#ctor(OpenMod.API.IRuntime,OpenMod.API.IOpenModHost,OpenMod.API.IHostInformation,IServiceProvider)
-  name: CommandOpenMod(IRuntime, IOpenModHost, IHostInformation, IServiceProvider)
-  href: api/OpenMod.Core.Commands.OpenModCommands.CommandOpenMod.html#OpenMod_Core_Commands_OpenModCommands_CommandOpenMod__ctor_OpenMod_API_IRuntime_OpenMod_API_IOpenModHost_OpenMod_API_IHostInformation_IServiceProvider_
-  commentId: M:OpenMod.Core.Commands.OpenModCommands.CommandOpenMod.#ctor(OpenMod.API.IRuntime,OpenMod.API.IOpenModHost,OpenMod.API.IHostInformation,IServiceProvider)
-  fullName: OpenMod.Core.Commands.OpenModCommands.CommandOpenMod.CommandOpenMod(OpenMod.API.IRuntime, OpenMod.API.IOpenModHost, OpenMod.API.IHostInformation, IServiceProvider)
-  nameWithType: CommandOpenMod.CommandOpenMod(IRuntime, IOpenModHost, IHostInformation, IServiceProvider)
+- uid: OpenMod.Core.Commands.OpenModCommands.CommandOpenMod.#ctor(OpenMod.API.IRuntime,OpenMod.API.IHostInformation,IServiceProvider)
+  name: CommandOpenMod(IRuntime, IHostInformation, IServiceProvider)
+  href: api/OpenMod.Core.Commands.OpenModCommands.CommandOpenMod.html#OpenMod_Core_Commands_OpenModCommands_CommandOpenMod__ctor_OpenMod_API_IRuntime_OpenMod_API_IHostInformation_IServiceProvider_
+  commentId: M:OpenMod.Core.Commands.OpenModCommands.CommandOpenMod.#ctor(OpenMod.API.IRuntime,OpenMod.API.IHostInformation,IServiceProvider)
+  fullName: OpenMod.Core.Commands.OpenModCommands.CommandOpenMod.CommandOpenMod(OpenMod.API.IRuntime, OpenMod.API.IHostInformation, IServiceProvider)
+  nameWithType: CommandOpenMod.CommandOpenMod(IRuntime, IHostInformation, IServiceProvider)
 - uid: OpenMod.Core.Commands.OpenModCommands.CommandOpenMod.#ctor*
   name: CommandOpenMod
   href: api/OpenMod.Core.Commands.OpenModCommands.CommandOpenMod.html#OpenMod_Core_Commands_OpenModCommands_CommandOpenMod__ctor_
@@ -16397,6 +16397,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Extensions.Games.Abstractions.IGameHostInformation.IsServer
   nameWithType: IGameHostInformation.IsServer
+- uid: OpenMod.Extensions.Games.Abstractions.IGameHostInformation.ServerAddress
+  name: ServerAddress
+  href: api/OpenMod.Extensions.Games.Abstractions.IGameHostInformation.html#OpenMod_Extensions_Games_Abstractions_IGameHostInformation_ServerAddress
+  commentId: P:OpenMod.Extensions.Games.Abstractions.IGameHostInformation.ServerAddress
+  fullName: OpenMod.Extensions.Games.Abstractions.IGameHostInformation.ServerAddress
+  nameWithType: IGameHostInformation.ServerAddress
+- uid: OpenMod.Extensions.Games.Abstractions.IGameHostInformation.ServerAddress*
+  name: ServerAddress
+  href: api/OpenMod.Extensions.Games.Abstractions.IGameHostInformation.html#OpenMod_Extensions_Games_Abstractions_IGameHostInformation_ServerAddress_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.IGameHostInformation.ServerAddress
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.IGameHostInformation.ServerAddress
+  nameWithType: IGameHostInformation.ServerAddress
 - uid: OpenMod.Extensions.Games.Abstractions.IGameHostInformation.ServerInstance
   name: ServerInstance
   href: api/OpenMod.Extensions.Games.Abstractions.IGameHostInformation.html#OpenMod_Extensions_Games_Abstractions_IGameHostInformation_ServerInstance
@@ -17211,6 +17224,19 @@ references:
   commentId: T:OpenMod.Extensions.Games.Abstractions.Players.IPlayer
   fullName: OpenMod.Extensions.Games.Abstractions.Players.IPlayer
   nameWithType: IPlayer
+- uid: OpenMod.Extensions.Games.Abstractions.Players.IPlayer.Address
+  name: Address
+  href: api/OpenMod.Extensions.Games.Abstractions.Players.IPlayer.html#OpenMod_Extensions_Games_Abstractions_Players_IPlayer_Address
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Players.IPlayer.Address
+  fullName: OpenMod.Extensions.Games.Abstractions.Players.IPlayer.Address
+  nameWithType: IPlayer.Address
+- uid: OpenMod.Extensions.Games.Abstractions.Players.IPlayer.Address*
+  name: Address
+  href: api/OpenMod.Extensions.Games.Abstractions.Players.IPlayer.html#OpenMod_Extensions_Games_Abstractions_Players_IPlayer_Address_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Players.IPlayer.Address
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Players.IPlayer.Address
+  nameWithType: IPlayer.Address
 - uid: OpenMod.Extensions.Games.Abstractions.Players.IPlayer.Stance
   name: Stance
   href: api/OpenMod.Extensions.Games.Abstractions.Players.IPlayer.html#OpenMod_Extensions_Games_Abstractions_Players_IPlayer_Stance
@@ -23802,6 +23828,32 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.RustPlayer
   nameWithType: RustPlayer.RustPlayer
+- uid: OpenMod.Rust.Players.RustPlayer.Address
+  name: Address
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Address
+  commentId: P:OpenMod.Rust.Players.RustPlayer.Address
+  fullName: OpenMod.Rust.Players.RustPlayer.Address
+  nameWithType: RustPlayer.Address
+- uid: OpenMod.Rust.Players.RustPlayer.Address*
+  name: Address
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Address_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.Address
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.Address
+  nameWithType: RustPlayer.Address
+- uid: OpenMod.Rust.Players.RustPlayer.Asset
+  name: Asset
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Asset
+  commentId: P:OpenMod.Rust.Players.RustPlayer.Asset
+  fullName: OpenMod.Rust.Players.RustPlayer.Asset
+  nameWithType: RustPlayer.Asset
+- uid: OpenMod.Rust.Players.RustPlayer.Asset*
+  name: Asset
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Asset_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.Asset
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.Asset
+  nameWithType: RustPlayer.Asset
 - uid: OpenMod.Rust.Players.RustPlayer.CompareTo(OpenMod.Rust.Players.RustPlayer)
   name: CompareTo(RustPlayer)
   href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_CompareTo_OpenMod_Rust_Players_RustPlayer_
@@ -23815,6 +23867,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.CompareTo
   nameWithType: RustPlayer.CompareTo
+- uid: OpenMod.Rust.Players.RustPlayer.DamageAsync(System.Double)
+  name: DamageAsync(Double)
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_DamageAsync_System_Double_
+  commentId: M:OpenMod.Rust.Players.RustPlayer.DamageAsync(System.Double)
+  fullName: OpenMod.Rust.Players.RustPlayer.DamageAsync(System.Double)
+  nameWithType: RustPlayer.DamageAsync(Double)
+- uid: OpenMod.Rust.Players.RustPlayer.DamageAsync*
+  name: DamageAsync
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_DamageAsync_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.DamageAsync
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.DamageAsync
+  nameWithType: RustPlayer.DamageAsync
 - uid: OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3,System.Numerics.Vector3)
   name: DoTeleport(Vector3, Vector3)
   href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_DoTeleport_System_Numerics_Vector3_System_Numerics_Vector3_
@@ -23828,6 +23893,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.DoTeleport
   nameWithType: RustPlayer.DoTeleport
+- uid: OpenMod.Rust.Players.RustPlayer.Health
+  name: Health
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Health
+  commentId: P:OpenMod.Rust.Players.RustPlayer.Health
+  fullName: OpenMod.Rust.Players.RustPlayer.Health
+  nameWithType: RustPlayer.Health
+- uid: OpenMod.Rust.Players.RustPlayer.Health*
+  name: Health
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Health_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.Health
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.Health
+  nameWithType: RustPlayer.Health
 - uid: OpenMod.Rust.Players.RustPlayer.Inventory
   name: Inventory
   href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Inventory
@@ -23841,6 +23919,45 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.Inventory
   nameWithType: RustPlayer.Inventory
+- uid: OpenMod.Rust.Players.RustPlayer.IsAlive
+  name: IsAlive
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_IsAlive
+  commentId: P:OpenMod.Rust.Players.RustPlayer.IsAlive
+  fullName: OpenMod.Rust.Players.RustPlayer.IsAlive
+  nameWithType: RustPlayer.IsAlive
+- uid: OpenMod.Rust.Players.RustPlayer.IsAlive*
+  name: IsAlive
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_IsAlive_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.IsAlive
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.IsAlive
+  nameWithType: RustPlayer.IsAlive
+- uid: OpenMod.Rust.Players.RustPlayer.KillAsync
+  name: KillAsync()
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_KillAsync
+  commentId: M:OpenMod.Rust.Players.RustPlayer.KillAsync
+  fullName: OpenMod.Rust.Players.RustPlayer.KillAsync()
+  nameWithType: RustPlayer.KillAsync()
+- uid: OpenMod.Rust.Players.RustPlayer.KillAsync*
+  name: KillAsync
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_KillAsync_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.KillAsync
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.KillAsync
+  nameWithType: RustPlayer.KillAsync
+- uid: OpenMod.Rust.Players.RustPlayer.MaxHealth
+  name: MaxHealth
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_MaxHealth
+  commentId: P:OpenMod.Rust.Players.RustPlayer.MaxHealth
+  fullName: OpenMod.Rust.Players.RustPlayer.MaxHealth
+  nameWithType: RustPlayer.MaxHealth
+- uid: OpenMod.Rust.Players.RustPlayer.MaxHealth*
+  name: MaxHealth
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_MaxHealth_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.MaxHealth
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.MaxHealth
+  nameWithType: RustPlayer.MaxHealth
 - uid: OpenMod.Rust.Players.RustPlayer.Player
   name: Player
   href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Player
@@ -23854,6 +23971,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.Player
   nameWithType: RustPlayer.Player
+- uid: OpenMod.Rust.Players.RustPlayer.SetHealthAsync(System.Double)
+  name: SetHealthAsync(Double)
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_SetHealthAsync_System_Double_
+  commentId: M:OpenMod.Rust.Players.RustPlayer.SetHealthAsync(System.Double)
+  fullName: OpenMod.Rust.Players.RustPlayer.SetHealthAsync(System.Double)
+  nameWithType: RustPlayer.SetHealthAsync(Double)
+- uid: OpenMod.Rust.Players.RustPlayer.SetHealthAsync*
+  name: SetHealthAsync
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_SetHealthAsync_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.SetHealthAsync
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.SetHealthAsync
+  nameWithType: RustPlayer.SetHealthAsync
 - uid: OpenMod.Rust.Players.RustPlayer.Stance
   name: Stance
   href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Stance
@@ -23867,6 +23997,77 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.Stance
   nameWithType: RustPlayer.Stance
+- uid: OpenMod.Rust.Players.RustPlayerAsset
+  name: RustPlayerAsset
+  href: api/OpenMod.Rust.Players.RustPlayerAsset.html
+  commentId: T:OpenMod.Rust.Players.RustPlayerAsset
+  fullName: OpenMod.Rust.Players.RustPlayerAsset
+  nameWithType: RustPlayerAsset
+- uid: OpenMod.Rust.Players.RustPlayerAsset.#ctor(BasePlayer)
+  name: RustPlayerAsset(BasePlayer)
+  href: api/OpenMod.Rust.Players.RustPlayerAsset.html#OpenMod_Rust_Players_RustPlayerAsset__ctor_BasePlayer_
+  commentId: M:OpenMod.Rust.Players.RustPlayerAsset.#ctor(BasePlayer)
+  fullName: OpenMod.Rust.Players.RustPlayerAsset.RustPlayerAsset(BasePlayer)
+  nameWithType: RustPlayerAsset.RustPlayerAsset(BasePlayer)
+- uid: OpenMod.Rust.Players.RustPlayerAsset.#ctor*
+  name: RustPlayerAsset
+  href: api/OpenMod.Rust.Players.RustPlayerAsset.html#OpenMod_Rust_Players_RustPlayerAsset__ctor_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayerAsset.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayerAsset.RustPlayerAsset
+  nameWithType: RustPlayerAsset.RustPlayerAsset
+- uid: OpenMod.Rust.Players.RustPlayerAsset.Entity
+  name: Entity
+  href: api/OpenMod.Rust.Players.RustPlayerAsset.html#OpenMod_Rust_Players_RustPlayerAsset_Entity
+  commentId: P:OpenMod.Rust.Players.RustPlayerAsset.Entity
+  fullName: OpenMod.Rust.Players.RustPlayerAsset.Entity
+  nameWithType: RustPlayerAsset.Entity
+- uid: OpenMod.Rust.Players.RustPlayerAsset.Entity*
+  name: Entity
+  href: api/OpenMod.Rust.Players.RustPlayerAsset.html#OpenMod_Rust_Players_RustPlayerAsset_Entity_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayerAsset.Entity
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayerAsset.Entity
+  nameWithType: RustPlayerAsset.Entity
+- uid: OpenMod.Rust.Players.RustPlayerAsset.EntityAssetId
+  name: EntityAssetId
+  href: api/OpenMod.Rust.Players.RustPlayerAsset.html#OpenMod_Rust_Players_RustPlayerAsset_EntityAssetId
+  commentId: P:OpenMod.Rust.Players.RustPlayerAsset.EntityAssetId
+  fullName: OpenMod.Rust.Players.RustPlayerAsset.EntityAssetId
+  nameWithType: RustPlayerAsset.EntityAssetId
+- uid: OpenMod.Rust.Players.RustPlayerAsset.EntityAssetId*
+  name: EntityAssetId
+  href: api/OpenMod.Rust.Players.RustPlayerAsset.html#OpenMod_Rust_Players_RustPlayerAsset_EntityAssetId_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayerAsset.EntityAssetId
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayerAsset.EntityAssetId
+  nameWithType: RustPlayerAsset.EntityAssetId
+- uid: OpenMod.Rust.Players.RustPlayerAsset.EntityType
+  name: EntityType
+  href: api/OpenMod.Rust.Players.RustPlayerAsset.html#OpenMod_Rust_Players_RustPlayerAsset_EntityType
+  commentId: P:OpenMod.Rust.Players.RustPlayerAsset.EntityType
+  fullName: OpenMod.Rust.Players.RustPlayerAsset.EntityType
+  nameWithType: RustPlayerAsset.EntityType
+- uid: OpenMod.Rust.Players.RustPlayerAsset.EntityType*
+  name: EntityType
+  href: api/OpenMod.Rust.Players.RustPlayerAsset.html#OpenMod_Rust_Players_RustPlayerAsset_EntityType_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayerAsset.EntityType
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayerAsset.EntityType
+  nameWithType: RustPlayerAsset.EntityType
+- uid: OpenMod.Rust.Players.RustPlayerAsset.Name
+  name: Name
+  href: api/OpenMod.Rust.Players.RustPlayerAsset.html#OpenMod_Rust_Players_RustPlayerAsset_Name
+  commentId: P:OpenMod.Rust.Players.RustPlayerAsset.Name
+  fullName: OpenMod.Rust.Players.RustPlayerAsset.Name
+  nameWithType: RustPlayerAsset.Name
+- uid: OpenMod.Rust.Players.RustPlayerAsset.Name*
+  name: Name
+  href: api/OpenMod.Rust.Players.RustPlayerAsset.html#OpenMod_Rust_Players_RustPlayerAsset_Name_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayerAsset.Name
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayerAsset.Name
+  nameWithType: RustPlayerAsset.Name
 - uid: OpenMod.Rust.Players.Spectating.Events
   name: OpenMod.Rust.Players.Spectating.Events
   href: api/OpenMod.Rust.Players.Spectating.Events.html
@@ -24387,6 +24588,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.RustHostInformation.IsServer
   nameWithType: RustHostInformation.IsServer
+- uid: OpenMod.Rust.RustHostInformation.ServerAddress
+  name: ServerAddress
+  href: api/OpenMod.Rust.RustHostInformation.html#OpenMod_Rust_RustHostInformation_ServerAddress
+  commentId: P:OpenMod.Rust.RustHostInformation.ServerAddress
+  fullName: OpenMod.Rust.RustHostInformation.ServerAddress
+  nameWithType: RustHostInformation.ServerAddress
+- uid: OpenMod.Rust.RustHostInformation.ServerAddress*
+  name: ServerAddress
+  href: api/OpenMod.Rust.RustHostInformation.html#OpenMod_Rust_RustHostInformation_ServerAddress_
+  commentId: Overload:OpenMod.Rust.RustHostInformation.ServerAddress
+  isSpec: "True"
+  fullName: OpenMod.Rust.RustHostInformation.ServerAddress
+  nameWithType: RustHostInformation.ServerAddress
 - uid: OpenMod.Rust.RustHostInformation.ServerInstance
   name: ServerInstance
   href: api/OpenMod.Rust.RustHostInformation.html#OpenMod_Rust_RustHostInformation_ServerInstance
@@ -32347,6 +32561,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.UnturnedPlayer
   nameWithType: UnturnedPlayer.UnturnedPlayer
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.Address
+  name: Address
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Address
+  commentId: P:OpenMod.Unturned.Players.UnturnedPlayer.Address
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.Address
+  nameWithType: UnturnedPlayer.Address
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.Address*
+  name: Address
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Address_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.Address
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.Address
+  nameWithType: UnturnedPlayer.Address
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.Asset
   name: Asset
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Asset
@@ -33239,6 +33466,51 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.RocketMod.Permissions.OpenModPlayerPermissionActorWrapper.Type
   nameWithType: OpenModPlayerPermissionActorWrapper.Type
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider
+  name: RocketCooldownPermissionCheckProvider
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.html
+  commentId: T:OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider
+  nameWithType: RocketCooldownPermissionCheckProvider
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.#ctor
+  name: RocketCooldownPermissionCheckProvider()
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketCooldownPermissionCheckProvider__ctor
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.#ctor
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.RocketCooldownPermissionCheckProvider()
+  nameWithType: RocketCooldownPermissionCheckProvider.RocketCooldownPermissionCheckProvider()
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.#ctor*
+  name: RocketCooldownPermissionCheckProvider
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketCooldownPermissionCheckProvider__ctor_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.RocketCooldownPermissionCheckProvider
+  nameWithType: RocketCooldownPermissionCheckProvider.RocketCooldownPermissionCheckProvider
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.CheckPermissionAsync(IPermissionActor,System.String)
+  name: CheckPermissionAsync(IPermissionActor, String)
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketCooldownPermissionCheckProvider_CheckPermissionAsync_IPermissionActor_System_String_
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.CheckPermissionAsync(IPermissionActor,System.String)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.CheckPermissionAsync(IPermissionActor, System.String)
+  nameWithType: RocketCooldownPermissionCheckProvider.CheckPermissionAsync(IPermissionActor, String)
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.CheckPermissionAsync*
+  name: CheckPermissionAsync
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketCooldownPermissionCheckProvider_CheckPermissionAsync_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.CheckPermissionAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.CheckPermissionAsync
+  nameWithType: RocketCooldownPermissionCheckProvider.CheckPermissionAsync
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.SupportsActor(IPermissionActor)
+  name: SupportsActor(IPermissionActor)
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketCooldownPermissionCheckProvider_SupportsActor_IPermissionActor_
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.SupportsActor(IPermissionActor)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.SupportsActor(IPermissionActor)
+  nameWithType: RocketCooldownPermissionCheckProvider.SupportsActor(IPermissionActor)
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.SupportsActor*
+  name: SupportsActor
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketCooldownPermissionCheckProvider_SupportsActor_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.SupportsActor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.SupportsActor
+  nameWithType: RocketCooldownPermissionCheckProvider.SupportsActor
 - uid: OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper
   name: RocketGroupWrapper
   href: api/OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.html
@@ -33349,193 +33621,193 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.RocketMod.Permissions.RocketGroupWrapper.Type
   nameWithType: RocketGroupWrapper.Type
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider
-  name: RocketModPermissionProxyProvider
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html
-  commentId: T:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider
-  nameWithType: RocketModPermissionProxyProvider
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.#ctor(OpenMod.Unturned.RocketMod.IRocketModComponent,IPermissionChecker,IPermissionRoleStore,IPermissionRegistry)
-  name: RocketModPermissionProxyProvider(IRocketModComponent, IPermissionChecker, IPermissionRoleStore, IPermissionRegistry)
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider__ctor_OpenMod_Unturned_RocketMod_IRocketModComponent_IPermissionChecker_IPermissionRoleStore_IPermissionRegistry_
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.#ctor(OpenMod.Unturned.RocketMod.IRocketModComponent,IPermissionChecker,IPermissionRoleStore,IPermissionRegistry)
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.RocketModPermissionProxyProvider(OpenMod.Unturned.RocketMod.IRocketModComponent, IPermissionChecker, IPermissionRoleStore, IPermissionRegistry)
-  nameWithType: RocketModPermissionProxyProvider.RocketModPermissionProxyProvider(IRocketModComponent, IPermissionChecker, IPermissionRoleStore, IPermissionRegistry)
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.#ctor*
-  name: RocketModPermissionProxyProvider
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider__ctor_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.#ctor
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider
+  name: RocketPermissionProxyProvider
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html
+  commentId: T:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider
+  nameWithType: RocketPermissionProxyProvider
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.#ctor(OpenMod.Unturned.RocketMod.IRocketModComponent,IPermissionChecker,IPermissionRoleStore,IPermissionRegistry)
+  name: RocketPermissionProxyProvider(IRocketModComponent, IPermissionChecker, IPermissionRoleStore, IPermissionRegistry)
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider__ctor_OpenMod_Unturned_RocketMod_IRocketModComponent_IPermissionChecker_IPermissionRoleStore_IPermissionRegistry_
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.#ctor(OpenMod.Unturned.RocketMod.IRocketModComponent,IPermissionChecker,IPermissionRoleStore,IPermissionRegistry)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.RocketPermissionProxyProvider(OpenMod.Unturned.RocketMod.IRocketModComponent, IPermissionChecker, IPermissionRoleStore, IPermissionRegistry)
+  nameWithType: RocketPermissionProxyProvider.RocketPermissionProxyProvider(IRocketModComponent, IPermissionChecker, IPermissionRoleStore, IPermissionRegistry)
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.#ctor*
+  name: RocketPermissionProxyProvider
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider__ctor_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.#ctor
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.RocketModPermissionProxyProvider
-  nameWithType: RocketModPermissionProxyProvider.RocketModPermissionProxyProvider
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.RocketPermissionProxyProvider
+  nameWithType: RocketPermissionProxyProvider.RocketPermissionProxyProvider
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
   name: AddGroup(RocketPermissionsGroup)
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_AddGroup_Rocket_API_Serialisation_RocketPermissionsGroup_
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
-  nameWithType: RocketModPermissionProxyProvider.AddGroup(RocketPermissionsGroup)
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddGroup*
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_AddGroup_Rocket_API_Serialisation_RocketPermissionsGroup_
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
+  nameWithType: RocketPermissionProxyProvider.AddGroup(RocketPermissionsGroup)
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddGroup*
   name: AddGroup
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_AddGroup_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddGroup
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_AddGroup_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddGroup
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddGroup
-  nameWithType: RocketModPermissionProxyProvider.AddGroup
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddPlayerToGroup(System.String,Rocket.API.IRocketPlayer)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddGroup
+  nameWithType: RocketPermissionProxyProvider.AddGroup
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddPlayerToGroup(System.String,Rocket.API.IRocketPlayer)
   name: AddPlayerToGroup(String, IRocketPlayer)
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_AddPlayerToGroup_System_String_Rocket_API_IRocketPlayer_
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddPlayerToGroup(System.String,Rocket.API.IRocketPlayer)
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddPlayerToGroup(System.String, Rocket.API.IRocketPlayer)
-  nameWithType: RocketModPermissionProxyProvider.AddPlayerToGroup(String, IRocketPlayer)
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddPlayerToGroup*
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_AddPlayerToGroup_System_String_Rocket_API_IRocketPlayer_
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddPlayerToGroup(System.String,Rocket.API.IRocketPlayer)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddPlayerToGroup(System.String, Rocket.API.IRocketPlayer)
+  nameWithType: RocketPermissionProxyProvider.AddPlayerToGroup(String, IRocketPlayer)
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddPlayerToGroup*
   name: AddPlayerToGroup
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_AddPlayerToGroup_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddPlayerToGroup
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_AddPlayerToGroup_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddPlayerToGroup
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.AddPlayerToGroup
-  nameWithType: RocketModPermissionProxyProvider.AddPlayerToGroup
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.DeleteGroup(System.String)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.AddPlayerToGroup
+  nameWithType: RocketPermissionProxyProvider.AddPlayerToGroup
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.DeleteGroup(System.String)
   name: DeleteGroup(String)
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_DeleteGroup_System_String_
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.DeleteGroup(System.String)
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.DeleteGroup(System.String)
-  nameWithType: RocketModPermissionProxyProvider.DeleteGroup(String)
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.DeleteGroup*
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_DeleteGroup_System_String_
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.DeleteGroup(System.String)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.DeleteGroup(System.String)
+  nameWithType: RocketPermissionProxyProvider.DeleteGroup(String)
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.DeleteGroup*
   name: DeleteGroup
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_DeleteGroup_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.DeleteGroup
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_DeleteGroup_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.DeleteGroup
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.DeleteGroup
-  nameWithType: RocketModPermissionProxyProvider.DeleteGroup
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Dispose
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.DeleteGroup
+  nameWithType: RocketPermissionProxyProvider.DeleteGroup
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Dispose
   name: Dispose()
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_Dispose
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Dispose
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Dispose()
-  nameWithType: RocketModPermissionProxyProvider.Dispose()
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Dispose*
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_Dispose
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Dispose
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Dispose()
+  nameWithType: RocketPermissionProxyProvider.Dispose()
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Dispose*
   name: Dispose
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_Dispose_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Dispose
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_Dispose_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Dispose
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Dispose
-  nameWithType: RocketModPermissionProxyProvider.Dispose
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroup(System.String)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Dispose
+  nameWithType: RocketPermissionProxyProvider.Dispose
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroup(System.String)
   name: GetGroup(String)
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_GetGroup_System_String_
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroup(System.String)
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroup(System.String)
-  nameWithType: RocketModPermissionProxyProvider.GetGroup(String)
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroup*
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_GetGroup_System_String_
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroup(System.String)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroup(System.String)
+  nameWithType: RocketPermissionProxyProvider.GetGroup(String)
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroup*
   name: GetGroup
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_GetGroup_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroup
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_GetGroup_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroup
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroup
-  nameWithType: RocketModPermissionProxyProvider.GetGroup
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroups(Rocket.API.IRocketPlayer,System.Boolean)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroup
+  nameWithType: RocketPermissionProxyProvider.GetGroup
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroups(Rocket.API.IRocketPlayer,System.Boolean)
   name: GetGroups(IRocketPlayer, Boolean)
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_GetGroups_Rocket_API_IRocketPlayer_System_Boolean_
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroups(Rocket.API.IRocketPlayer,System.Boolean)
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroups(Rocket.API.IRocketPlayer, System.Boolean)
-  nameWithType: RocketModPermissionProxyProvider.GetGroups(IRocketPlayer, Boolean)
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroups*
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_GetGroups_Rocket_API_IRocketPlayer_System_Boolean_
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroups(Rocket.API.IRocketPlayer,System.Boolean)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroups(Rocket.API.IRocketPlayer, System.Boolean)
+  nameWithType: RocketPermissionProxyProvider.GetGroups(IRocketPlayer, Boolean)
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroups*
   name: GetGroups
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_GetGroups_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroups
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_GetGroups_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroups
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetGroups
-  nameWithType: RocketModPermissionProxyProvider.GetGroups
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetGroups
+  nameWithType: RocketPermissionProxyProvider.GetGroups
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer)
   name: GetPermissions(IRocketPlayer)
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_GetPermissions_Rocket_API_IRocketPlayer_
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer)
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer)
-  nameWithType: RocketModPermissionProxyProvider.GetPermissions(IRocketPlayer)
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer,System.Collections.Generic.List{System.String})
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_GetPermissions_Rocket_API_IRocketPlayer_
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer)
+  nameWithType: RocketPermissionProxyProvider.GetPermissions(IRocketPlayer)
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer,System.Collections.Generic.List{System.String})
   name: GetPermissions(IRocketPlayer, List<String>)
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_GetPermissions_Rocket_API_IRocketPlayer_System_Collections_Generic_List_System_String__
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer,System.Collections.Generic.List{System.String})
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_GetPermissions_Rocket_API_IRocketPlayer_System_Collections_Generic_List_System_String__
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer,System.Collections.Generic.List{System.String})
   name.vb: GetPermissions(IRocketPlayer, List(Of String))
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer, System.Collections.Generic.List<System.String>)
-  fullName.vb: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer, System.Collections.Generic.List(Of System.String))
-  nameWithType: RocketModPermissionProxyProvider.GetPermissions(IRocketPlayer, List<String>)
-  nameWithType.vb: RocketModPermissionProxyProvider.GetPermissions(IRocketPlayer, List(Of String))
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetPermissions*
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer, System.Collections.Generic.List<System.String>)
+  fullName.vb: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetPermissions(Rocket.API.IRocketPlayer, System.Collections.Generic.List(Of System.String))
+  nameWithType: RocketPermissionProxyProvider.GetPermissions(IRocketPlayer, List<String>)
+  nameWithType.vb: RocketPermissionProxyProvider.GetPermissions(IRocketPlayer, List(Of String))
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetPermissions*
   name: GetPermissions
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_GetPermissions_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetPermissions
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_GetPermissions_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetPermissions
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.GetPermissions
-  nameWithType: RocketModPermissionProxyProvider.GetPermissions
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.HasPermission(Rocket.API.IRocketPlayer,System.Collections.Generic.List{System.String})
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.GetPermissions
+  nameWithType: RocketPermissionProxyProvider.GetPermissions
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.HasPermission(Rocket.API.IRocketPlayer,System.Collections.Generic.List{System.String})
   name: HasPermission(IRocketPlayer, List<String>)
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_HasPermission_Rocket_API_IRocketPlayer_System_Collections_Generic_List_System_String__
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.HasPermission(Rocket.API.IRocketPlayer,System.Collections.Generic.List{System.String})
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_HasPermission_Rocket_API_IRocketPlayer_System_Collections_Generic_List_System_String__
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.HasPermission(Rocket.API.IRocketPlayer,System.Collections.Generic.List{System.String})
   name.vb: HasPermission(IRocketPlayer, List(Of String))
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.HasPermission(Rocket.API.IRocketPlayer, System.Collections.Generic.List<System.String>)
-  fullName.vb: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.HasPermission(Rocket.API.IRocketPlayer, System.Collections.Generic.List(Of System.String))
-  nameWithType: RocketModPermissionProxyProvider.HasPermission(IRocketPlayer, List<String>)
-  nameWithType.vb: RocketModPermissionProxyProvider.HasPermission(IRocketPlayer, List(Of String))
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.HasPermission*
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.HasPermission(Rocket.API.IRocketPlayer, System.Collections.Generic.List<System.String>)
+  fullName.vb: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.HasPermission(Rocket.API.IRocketPlayer, System.Collections.Generic.List(Of System.String))
+  nameWithType: RocketPermissionProxyProvider.HasPermission(IRocketPlayer, List<String>)
+  nameWithType.vb: RocketPermissionProxyProvider.HasPermission(IRocketPlayer, List(Of String))
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.HasPermission*
   name: HasPermission
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_HasPermission_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.HasPermission
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_HasPermission_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.HasPermission
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.HasPermission
-  nameWithType: RocketModPermissionProxyProvider.HasPermission
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Install
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.HasPermission
+  nameWithType: RocketPermissionProxyProvider.HasPermission
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Install
   name: Install()
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_Install
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Install
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Install()
-  nameWithType: RocketModPermissionProxyProvider.Install()
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Install*
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_Install
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Install
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Install()
+  nameWithType: RocketPermissionProxyProvider.Install()
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Install*
   name: Install
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_Install_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Install
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_Install_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Install
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Install
-  nameWithType: RocketModPermissionProxyProvider.Install
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Reload
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Install
+  nameWithType: RocketPermissionProxyProvider.Install
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Reload
   name: Reload()
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_Reload
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Reload
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Reload()
-  nameWithType: RocketModPermissionProxyProvider.Reload()
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Reload*
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_Reload
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Reload
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Reload()
+  nameWithType: RocketPermissionProxyProvider.Reload()
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Reload*
   name: Reload
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_Reload_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Reload
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_Reload_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Reload
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.Reload
-  nameWithType: RocketModPermissionProxyProvider.Reload
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.RemovePlayerFromGroup(System.String,Rocket.API.IRocketPlayer)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.Reload
+  nameWithType: RocketPermissionProxyProvider.Reload
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.RemovePlayerFromGroup(System.String,Rocket.API.IRocketPlayer)
   name: RemovePlayerFromGroup(String, IRocketPlayer)
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_RemovePlayerFromGroup_System_String_Rocket_API_IRocketPlayer_
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.RemovePlayerFromGroup(System.String,Rocket.API.IRocketPlayer)
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.RemovePlayerFromGroup(System.String, Rocket.API.IRocketPlayer)
-  nameWithType: RocketModPermissionProxyProvider.RemovePlayerFromGroup(String, IRocketPlayer)
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.RemovePlayerFromGroup*
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_RemovePlayerFromGroup_System_String_Rocket_API_IRocketPlayer_
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.RemovePlayerFromGroup(System.String,Rocket.API.IRocketPlayer)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.RemovePlayerFromGroup(System.String, Rocket.API.IRocketPlayer)
+  nameWithType: RocketPermissionProxyProvider.RemovePlayerFromGroup(String, IRocketPlayer)
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.RemovePlayerFromGroup*
   name: RemovePlayerFromGroup
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_RemovePlayerFromGroup_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.RemovePlayerFromGroup
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_RemovePlayerFromGroup_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.RemovePlayerFromGroup
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.RemovePlayerFromGroup
-  nameWithType: RocketModPermissionProxyProvider.RemovePlayerFromGroup
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.SaveGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.RemovePlayerFromGroup
+  nameWithType: RocketPermissionProxyProvider.RemovePlayerFromGroup
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.SaveGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
   name: SaveGroup(RocketPermissionsGroup)
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_SaveGroup_Rocket_API_Serialisation_RocketPermissionsGroup_
-  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.SaveGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.SaveGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
-  nameWithType: RocketModPermissionProxyProvider.SaveGroup(RocketPermissionsGroup)
-- uid: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.SaveGroup*
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_SaveGroup_Rocket_API_Serialisation_RocketPermissionsGroup_
+  commentId: M:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.SaveGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.SaveGroup(Rocket.API.Serialisation.RocketPermissionsGroup)
+  nameWithType: RocketPermissionProxyProvider.SaveGroup(RocketPermissionsGroup)
+- uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.SaveGroup*
   name: SaveGroup
-  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketModPermissionProxyProvider_SaveGroup_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.SaveGroup
+  href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.html#OpenMod_Unturned_RocketMod_Permissions_RocketPermissionProxyProvider_SaveGroup_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.SaveGroup
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketModPermissionProxyProvider.SaveGroup
-  nameWithType: RocketModPermissionProxyProvider.SaveGroup
+  fullName: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionProxyProvider.SaveGroup
+  nameWithType: RocketPermissionProxyProvider.SaveGroup
 - uid: OpenMod.Unturned.RocketMod.Permissions.RocketPermissionRoleStore
   name: RocketPermissionRoleStore
   href: api/OpenMod.Unturned.RocketMod.Permissions.RocketPermissionRoleStore.html
@@ -34397,6 +34669,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.UnturnedHostInformation.IsServer
   nameWithType: UnturnedHostInformation.IsServer
+- uid: OpenMod.Unturned.UnturnedHostInformation.ServerAddress
+  name: ServerAddress
+  href: api/OpenMod.Unturned.UnturnedHostInformation.html#OpenMod_Unturned_UnturnedHostInformation_ServerAddress
+  commentId: P:OpenMod.Unturned.UnturnedHostInformation.ServerAddress
+  fullName: OpenMod.Unturned.UnturnedHostInformation.ServerAddress
+  nameWithType: UnturnedHostInformation.ServerAddress
+- uid: OpenMod.Unturned.UnturnedHostInformation.ServerAddress*
+  name: ServerAddress
+  href: api/OpenMod.Unturned.UnturnedHostInformation.html#OpenMod_Unturned_UnturnedHostInformation_ServerAddress_
+  commentId: Overload:OpenMod.Unturned.UnturnedHostInformation.ServerAddress
+  isSpec: "True"
+  fullName: OpenMod.Unturned.UnturnedHostInformation.ServerAddress
+  nameWithType: UnturnedHostInformation.ServerAddress
 - uid: OpenMod.Unturned.UnturnedHostInformation.ServerInstance
   name: ServerInstance
   href: api/OpenMod.Unturned.UnturnedHostInformation.html#OpenMod_Unturned_UnturnedHostInformation_ServerInstance
