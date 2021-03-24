@@ -18064,6 +18064,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByIdAsync
   nameWithType: VehicleDirectoryExtensions.FindByIdAsync
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByNameAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory,System.String,System.Boolean)
+  name: FindByNameAsync(IVehicleDirectory, String, Boolean)
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleDirectoryExtensions_FindByNameAsync_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleDirectory_System_String_System_Boolean_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByNameAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory,System.String,System.Boolean)
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByNameAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory, System.String, System.Boolean)
+  nameWithType: VehicleDirectoryExtensions.FindByNameAsync(IVehicleDirectory, String, Boolean)
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByNameAsync*
+  name: FindByNameAsync
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleDirectoryExtensions_FindByNameAsync_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByNameAsync
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleDirectoryExtensions.FindByNameAsync
+  nameWithType: VehicleDirectoryExtensions.FindByNameAsync
 - uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions
   name: VehicleSpawnerExtensions
   href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.html
@@ -29268,6 +29281,205 @@ references:
   fullName: OpenMod.Unturned.Items.UnturnedPlayerInventoryPage.System.Collections.IEnumerable.GetEnumerator
   nameWithType: UnturnedPlayerInventoryPage.IEnumerable.GetEnumerator
   nameWithType.vb: UnturnedPlayerInventoryPage.System.Collections.IEnumerable.GetEnumerator
+- uid: OpenMod.Unturned.Locations
+  name: OpenMod.Unturned.Locations
+  href: api/OpenMod.Unturned.Locations.html
+  commentId: N:OpenMod.Unturned.Locations
+  fullName: OpenMod.Unturned.Locations
+  nameWithType: OpenMod.Unturned.Locations
+- uid: OpenMod.Unturned.Locations.IUnturnedLocationDirectory
+  name: IUnturnedLocationDirectory
+  href: api/OpenMod.Unturned.Locations.IUnturnedLocationDirectory.html
+  commentId: T:OpenMod.Unturned.Locations.IUnturnedLocationDirectory
+  fullName: OpenMod.Unturned.Locations.IUnturnedLocationDirectory
+  nameWithType: IUnturnedLocationDirectory
+- uid: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.FindLocation(System.String,System.Boolean)
+  name: FindLocation(String, Boolean)
+  href: api/OpenMod.Unturned.Locations.IUnturnedLocationDirectory.html#OpenMod_Unturned_Locations_IUnturnedLocationDirectory_FindLocation_System_String_System_Boolean_
+  commentId: M:OpenMod.Unturned.Locations.IUnturnedLocationDirectory.FindLocation(System.String,System.Boolean)
+  fullName: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.FindLocation(System.String, System.Boolean)
+  nameWithType: IUnturnedLocationDirectory.FindLocation(String, Boolean)
+- uid: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.FindLocation*
+  name: FindLocation
+  href: api/OpenMod.Unturned.Locations.IUnturnedLocationDirectory.html#OpenMod_Unturned_Locations_IUnturnedLocationDirectory_FindLocation_
+  commentId: Overload:OpenMod.Unturned.Locations.IUnturnedLocationDirectory.FindLocation
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.FindLocation
+  nameWithType: IUnturnedLocationDirectory.FindLocation
+- uid: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetLocations
+  name: GetLocations()
+  href: api/OpenMod.Unturned.Locations.IUnturnedLocationDirectory.html#OpenMod_Unturned_Locations_IUnturnedLocationDirectory_GetLocations
+  commentId: M:OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetLocations
+  fullName: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetLocations()
+  nameWithType: IUnturnedLocationDirectory.GetLocations()
+- uid: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetLocations*
+  name: GetLocations
+  href: api/OpenMod.Unturned.Locations.IUnturnedLocationDirectory.html#OpenMod_Unturned_Locations_IUnturnedLocationDirectory_GetLocations_
+  commentId: Overload:OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetLocations
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetLocations
+  nameWithType: IUnturnedLocationDirectory.GetLocations
+- uid: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetNearestLocation(System.Numerics.Vector3)
+  name: GetNearestLocation(Vector3)
+  href: api/OpenMod.Unturned.Locations.IUnturnedLocationDirectory.html#OpenMod_Unturned_Locations_IUnturnedLocationDirectory_GetNearestLocation_System_Numerics_Vector3_
+  commentId: M:OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetNearestLocation(System.Numerics.Vector3)
+  fullName: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetNearestLocation(System.Numerics.Vector3)
+  nameWithType: IUnturnedLocationDirectory.GetNearestLocation(Vector3)
+- uid: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetNearestLocation*
+  name: GetNearestLocation
+  href: api/OpenMod.Unturned.Locations.IUnturnedLocationDirectory.html#OpenMod_Unturned_Locations_IUnturnedLocationDirectory_GetNearestLocation_
+  commentId: Overload:OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetNearestLocation
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.IUnturnedLocationDirectory.GetNearestLocation
+  nameWithType: IUnturnedLocationDirectory.GetNearestLocation
+- uid: OpenMod.Unturned.Locations.UnturnedLocation
+  name: UnturnedLocation
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html
+  commentId: T:OpenMod.Unturned.Locations.UnturnedLocation
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation
+  nameWithType: UnturnedLocation
+- uid: OpenMod.Unturned.Locations.UnturnedLocation.#ctor(LocationNode)
+  name: UnturnedLocation(LocationNode)
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation__ctor_LocationNode_
+  commentId: M:OpenMod.Unturned.Locations.UnturnedLocation.#ctor(LocationNode)
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation.UnturnedLocation(LocationNode)
+  nameWithType: UnturnedLocation.UnturnedLocation(LocationNode)
+- uid: OpenMod.Unturned.Locations.UnturnedLocation.#ctor*
+  name: UnturnedLocation
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation__ctor_
+  commentId: Overload:OpenMod.Unturned.Locations.UnturnedLocation.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation.UnturnedLocation
+  nameWithType: UnturnedLocation.UnturnedLocation
+- uid: OpenMod.Unturned.Locations.UnturnedLocation.Name
+  name: Name
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation_Name
+  commentId: P:OpenMod.Unturned.Locations.UnturnedLocation.Name
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation.Name
+  nameWithType: UnturnedLocation.Name
+- uid: OpenMod.Unturned.Locations.UnturnedLocation.Name*
+  name: Name
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation_Name_
+  commentId: Overload:OpenMod.Unturned.Locations.UnturnedLocation.Name
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation.Name
+  nameWithType: UnturnedLocation.Name
+- uid: OpenMod.Unturned.Locations.UnturnedLocation.Node
+  name: Node
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation_Node
+  commentId: P:OpenMod.Unturned.Locations.UnturnedLocation.Node
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation.Node
+  nameWithType: UnturnedLocation.Node
+- uid: OpenMod.Unturned.Locations.UnturnedLocation.Node*
+  name: Node
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation_Node_
+  commentId: Overload:OpenMod.Unturned.Locations.UnturnedLocation.Node
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation.Node
+  nameWithType: UnturnedLocation.Node
+- uid: OpenMod.Unturned.Locations.UnturnedLocation.Position
+  name: Position
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation_Position
+  commentId: P:OpenMod.Unturned.Locations.UnturnedLocation.Position
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation.Position
+  nameWithType: UnturnedLocation.Position
+- uid: OpenMod.Unturned.Locations.UnturnedLocation.Position*
+  name: Position
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation_Position_
+  commentId: Overload:OpenMod.Unturned.Locations.UnturnedLocation.Position
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation.Position
+  nameWithType: UnturnedLocation.Position
+- uid: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider
+  name: UnturnedLocationCommandParameterResolveProvider
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.html
+  commentId: T:OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider
+  nameWithType: UnturnedLocationCommandParameterResolveProvider
+- uid: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.#ctor(OpenMod.Unturned.Locations.IUnturnedLocationDirectory)
+  name: UnturnedLocationCommandParameterResolveProvider(IUnturnedLocationDirectory)
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.html#OpenMod_Unturned_Locations_UnturnedLocationCommandParameterResolveProvider__ctor_OpenMod_Unturned_Locations_IUnturnedLocationDirectory_
+  commentId: M:OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.#ctor(OpenMod.Unturned.Locations.IUnturnedLocationDirectory)
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.UnturnedLocationCommandParameterResolveProvider(OpenMod.Unturned.Locations.IUnturnedLocationDirectory)
+  nameWithType: UnturnedLocationCommandParameterResolveProvider.UnturnedLocationCommandParameterResolveProvider(IUnturnedLocationDirectory)
+- uid: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.#ctor*
+  name: UnturnedLocationCommandParameterResolveProvider
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.html#OpenMod_Unturned_Locations_UnturnedLocationCommandParameterResolveProvider__ctor_
+  commentId: Overload:OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.UnturnedLocationCommandParameterResolveProvider
+  nameWithType: UnturnedLocationCommandParameterResolveProvider.UnturnedLocationCommandParameterResolveProvider
+- uid: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.ResolveAsync(System.Type,System.String)
+  name: ResolveAsync(Type, String)
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.html#OpenMod_Unturned_Locations_UnturnedLocationCommandParameterResolveProvider_ResolveAsync_System_Type_System_String_
+  commentId: M:OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.ResolveAsync(System.Type,System.String)
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.ResolveAsync(System.Type, System.String)
+  nameWithType: UnturnedLocationCommandParameterResolveProvider.ResolveAsync(Type, String)
+- uid: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.ResolveAsync*
+  name: ResolveAsync
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.html#OpenMod_Unturned_Locations_UnturnedLocationCommandParameterResolveProvider_ResolveAsync_
+  commentId: Overload:OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.ResolveAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.ResolveAsync
+  nameWithType: UnturnedLocationCommandParameterResolveProvider.ResolveAsync
+- uid: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.Supports(System.Type)
+  name: Supports(Type)
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.html#OpenMod_Unturned_Locations_UnturnedLocationCommandParameterResolveProvider_Supports_System_Type_
+  commentId: M:OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.Supports(System.Type)
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.Supports(System.Type)
+  nameWithType: UnturnedLocationCommandParameterResolveProvider.Supports(Type)
+- uid: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.Supports*
+  name: Supports
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.html#OpenMod_Unturned_Locations_UnturnedLocationCommandParameterResolveProvider_Supports_
+  commentId: Overload:OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.Supports
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationCommandParameterResolveProvider.Supports
+  nameWithType: UnturnedLocationCommandParameterResolveProvider.Supports
+- uid: OpenMod.Unturned.Locations.UnturnedLocationDirectory
+  name: UnturnedLocationDirectory
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationDirectory.html
+  commentId: T:OpenMod.Unturned.Locations.UnturnedLocationDirectory
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationDirectory
+  nameWithType: UnturnedLocationDirectory
+- uid: OpenMod.Unturned.Locations.UnturnedLocationDirectory.FindLocation(System.String,System.Boolean)
+  name: FindLocation(String, Boolean)
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationDirectory.html#OpenMod_Unturned_Locations_UnturnedLocationDirectory_FindLocation_System_String_System_Boolean_
+  commentId: M:OpenMod.Unturned.Locations.UnturnedLocationDirectory.FindLocation(System.String,System.Boolean)
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationDirectory.FindLocation(System.String, System.Boolean)
+  nameWithType: UnturnedLocationDirectory.FindLocation(String, Boolean)
+- uid: OpenMod.Unturned.Locations.UnturnedLocationDirectory.FindLocation*
+  name: FindLocation
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationDirectory.html#OpenMod_Unturned_Locations_UnturnedLocationDirectory_FindLocation_
+  commentId: Overload:OpenMod.Unturned.Locations.UnturnedLocationDirectory.FindLocation
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationDirectory.FindLocation
+  nameWithType: UnturnedLocationDirectory.FindLocation
+- uid: OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetLocations
+  name: GetLocations()
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationDirectory.html#OpenMod_Unturned_Locations_UnturnedLocationDirectory_GetLocations
+  commentId: M:OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetLocations
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetLocations()
+  nameWithType: UnturnedLocationDirectory.GetLocations()
+- uid: OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetLocations*
+  name: GetLocations
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationDirectory.html#OpenMod_Unturned_Locations_UnturnedLocationDirectory_GetLocations_
+  commentId: Overload:OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetLocations
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetLocations
+  nameWithType: UnturnedLocationDirectory.GetLocations
+- uid: OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetNearestLocation(System.Numerics.Vector3)
+  name: GetNearestLocation(Vector3)
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationDirectory.html#OpenMod_Unturned_Locations_UnturnedLocationDirectory_GetNearestLocation_System_Numerics_Vector3_
+  commentId: M:OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetNearestLocation(System.Numerics.Vector3)
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetNearestLocation(System.Numerics.Vector3)
+  nameWithType: UnturnedLocationDirectory.GetNearestLocation(Vector3)
+- uid: OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetNearestLocation*
+  name: GetNearestLocation
+  href: api/OpenMod.Unturned.Locations.UnturnedLocationDirectory.html#OpenMod_Unturned_Locations_UnturnedLocationDirectory_GetNearestLocation_
+  commentId: Overload:OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetNearestLocation
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.UnturnedLocationDirectory.GetNearestLocation
+  nameWithType: UnturnedLocationDirectory.GetNearestLocation
 - uid: OpenMod.Unturned.Logging
   name: OpenMod.Unturned.Logging
   href: api/OpenMod.Unturned.Logging.html
@@ -32749,6 +32961,31 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.Player
   nameWithType: UnturnedPlayer.Player
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String)
+  name: PrintMessageAsync(String)
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_System_String_
+  commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String)
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String)
+  nameWithType: UnturnedPlayer.PrintMessageAsync(String)
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String,System.Drawing.Color)
+  name: PrintMessageAsync(String, Color)
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_System_String_System_Drawing_Color_
+  commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String,System.Drawing.Color)
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String, System.Drawing.Color)
+  nameWithType: UnturnedPlayer.PrintMessageAsync(String, Color)
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String,System.Drawing.Color,System.Boolean,System.String)
+  name: PrintMessageAsync(String, Color, Boolean, String)
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_System_String_System_Drawing_Color_System_Boolean_System_String_
+  commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String,System.Drawing.Color,System.Boolean,System.String)
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String, System.Drawing.Color, System.Boolean, System.String)
+  nameWithType: UnturnedPlayer.PrintMessageAsync(String, Color, Boolean, String)
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync*
+  name: PrintMessageAsync
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync
+  nameWithType: UnturnedPlayer.PrintMessageAsync
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.SetHealthAsync(System.Double)
   name: SetHealthAsync(Double)
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetHealthAsync_System_Double_
