@@ -574,6 +574,11 @@
 <td>Before a player teleports</td>
 <td>Yes</td>
 </tr>
+<tr>
+<td>UnturnedPlayerSafetyUpdatedEvent</td>
+<td>After a player safezone updated</td>
+<td>No</td>
+</tr>
 </tbody>
 </table>
 <h3 id="skills">Skills</h3>
@@ -590,6 +595,11 @@
 <tr>
 <td>UnturnedPlayerExperienceUpdatedEvent</td>
 <td>After a player's experience updates</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerReputationUpdatedEvent</td>
+<td>After a player's reputation updates</td>
 <td>No</td>
 </tr>
 </tbody>
@@ -705,6 +715,29 @@
 <td>UnturnedPlayerTextInputtedEvent</td>
 <td>After a player has inputted a text into a textbox</td>
 <td>No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="voice">Voice</h3>
+<p>These events are stored within the <code>OpenMod.Unturned.Players.Voice.Events</code> namespace.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Fired when</strong></th>
+<th><strong>Cancellable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UnturnedPlayerTalkingUpdatedEvent</td>
+<td>After a player has started or stoped talking</td>
+<td>No</td>
+</tr>
+<tr>
+<td>UnturnedPlayerRelayVoiceEvent</td>
+<td>Before a player has started talking</td>
+<td>Yes</td>
 </tr>
 </tbody>
 </table>

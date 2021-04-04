@@ -7758,7 +7758,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Events.UnturnedPlayerEvent.html",
-          "hash": "TnRUnQxoWDk5HhxkKHDbYQ=="
+          "hash": "SBwFnPfnq/QgexeMiU3a/Q=="
         }
       },
       "is_incremental": false,
@@ -7830,7 +7830,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Items.UnturnedItemDrop.html",
-          "hash": "EkYF9XQL5nbDxb0nr7ZxbA=="
+          "hash": "wAAGf8YHSYAzXD0DmivzXw=="
         }
       },
       "is_incremental": false,
@@ -8714,6 +8714,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerSafetyUpdatedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerSafetyUpdatedEvent.html",
+          "hash": "GqtuDtn9r+p10uaWEn60Xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerStanceUpdatedEvent.yml",
       "output": {
         ".html": {
@@ -8742,7 +8754,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Players.Movement.Events.html",
-          "hash": "MsZ2+SR9WOE8ZhC7NdCwsQ=="
+          "hash": "YRcGtqx69IqKG/tO5sKoRA=="
         }
       },
       "is_incremental": false,
@@ -8762,11 +8774,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Skills.Events.UnturnedPlayerReputationUpdatedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Skills.Events.UnturnedPlayerReputationUpdatedEvent.html",
+          "hash": "zgw9+OW0EKoPv3G6Q3NLrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Unturned.Players.Skills.Events.yml",
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Players.Skills.Events.html",
-          "hash": "p9Qopy08lNQO2Pl5uIx5rg=="
+          "hash": "+ITJVMJyTF7sWOUchZk1yw=="
         }
       },
       "is_incremental": false,
@@ -9050,6 +9074,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerTalkingUpdatedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerTalkingUpdatedEvent.html",
+          "hash": "JFv+IjqzJSWD8UAbY1brgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.html",
+          "hash": "2rZtpWi2Aqi/Qm9UrqBugg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Voice.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Voice.Events.html",
+          "hash": "u67MidNcOJcHIPJezRtVRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Unturned.Players.yml",
       "output": {
         ".html": {
@@ -9234,7 +9294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.RocketMod.Permissions.RocketCooldownPermissionCheckProvider.html",
-          "hash": "MI6Jv582ZcAOdeLT56Z8rw=="
+          "hash": "bdWRF0G/4i9nsaIZDuTRbg=="
         }
       },
       "is_incremental": false,
@@ -9906,7 +9966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Vehicles.UnturnedVehicle.html",
-          "hash": "NvBMJk1EN1h9XqRzkh2kZg=="
+          "hash": "xXtwGt/s6P55qqPPOz0GAQ=="
         }
       },
       "is_incremental": false,
@@ -10434,7 +10494,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "0R0TPStsYGMXAizCn//fOQ=="
+          "hash": "Zcg5/jiZtjMTq9iXmXyNcg=="
         }
       },
       "is_incremental": false,
@@ -10590,7 +10650,7 @@
       "output": {
         ".html": {
           "relative_path": "devdoc/events/unturned.html",
-          "hash": "NMNWSjGK36PRYAVhbtS4XQ=="
+          "hash": "nJoQk5vjJGFsGu/LRy/BYw=="
         }
       },
       "is_incremental": false,
@@ -10855,7 +10915,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 866,
+          "total_file_count": 871,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
