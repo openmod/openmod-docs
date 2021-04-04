@@ -33333,6 +33333,64 @@ references:
   commentId: N:OpenMod.Unturned.Players.Voice.Events
   fullName: OpenMod.Unturned.Players.Voice.Events
   nameWithType: OpenMod.Unturned.Players.Voice.Events
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent
+  name: UnturnedPlayerRelayingVoiceEvent
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html
+  commentId: T:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent
+  nameWithType: UnturnedPlayerRelayingVoiceEvent
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Boolean,System.Boolean)
+  name: UnturnedPlayerRelayingVoiceEvent(UnturnedPlayer, Boolean, Boolean)
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_Boolean_System_Boolean_
+  commentId: M:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Boolean,System.Boolean)
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.UnturnedPlayerRelayingVoiceEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.Boolean, System.Boolean)
+  nameWithType: UnturnedPlayerRelayingVoiceEvent.UnturnedPlayerRelayingVoiceEvent(UnturnedPlayer, Boolean, Boolean)
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.#ctor*
+  name: UnturnedPlayerRelayingVoiceEvent
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.UnturnedPlayerRelayingVoiceEvent
+  nameWithType: UnturnedPlayerRelayingVoiceEvent.UnturnedPlayerRelayingVoiceEvent
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.IsCancelled
+  name: IsCancelled
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent_IsCancelled
+  commentId: P:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.IsCancelled
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.IsCancelled
+  nameWithType: UnturnedPlayerRelayingVoiceEvent.IsCancelled
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.IsCancelled*
+  name: IsCancelled
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent_IsCancelled_
+  commentId: Overload:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.IsCancelled
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.IsCancelled
+  nameWithType: UnturnedPlayerRelayingVoiceEvent.IsCancelled
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.ShouldBroadcastOverRadio
+  name: ShouldBroadcastOverRadio
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent_ShouldBroadcastOverRadio
+  commentId: P:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.ShouldBroadcastOverRadio
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.ShouldBroadcastOverRadio
+  nameWithType: UnturnedPlayerRelayingVoiceEvent.ShouldBroadcastOverRadio
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.ShouldBroadcastOverRadio*
+  name: ShouldBroadcastOverRadio
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent_ShouldBroadcastOverRadio_
+  commentId: Overload:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.ShouldBroadcastOverRadio
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.ShouldBroadcastOverRadio
+  nameWithType: UnturnedPlayerRelayingVoiceEvent.ShouldBroadcastOverRadio
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.WantsToUseWalkieTalkie
+  name: WantsToUseWalkieTalkie
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent_WantsToUseWalkieTalkie
+  commentId: P:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.WantsToUseWalkieTalkie
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.WantsToUseWalkieTalkie
+  nameWithType: UnturnedPlayerRelayingVoiceEvent.WantsToUseWalkieTalkie
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.WantsToUseWalkieTalkie*
+  name: WantsToUseWalkieTalkie
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent_WantsToUseWalkieTalkie_
+  commentId: Overload:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.WantsToUseWalkieTalkie
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.WantsToUseWalkieTalkie
+  nameWithType: UnturnedPlayerRelayingVoiceEvent.WantsToUseWalkieTalkie
 - uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerTalkingUpdatedEvent
   name: UnturnedPlayerTalkingUpdatedEvent
   href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerTalkingUpdatedEvent.html
@@ -33365,64 +33423,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerTalkingUpdatedEvent.IsTalking
   nameWithType: UnturnedPlayerTalkingUpdatedEvent.IsTalking
-- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent
-  name: UnturnedPlayerVoiceEvent
-  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.html
-  commentId: T:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent
-  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent
-  nameWithType: UnturnedPlayerVoiceEvent
-- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Boolean,System.Boolean)
-  name: UnturnedPlayerVoiceEvent(UnturnedPlayer, Boolean, Boolean)
-  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerVoiceEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_Boolean_System_Boolean_
-  commentId: M:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Boolean,System.Boolean)
-  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.UnturnedPlayerVoiceEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.Boolean, System.Boolean)
-  nameWithType: UnturnedPlayerVoiceEvent.UnturnedPlayerVoiceEvent(UnturnedPlayer, Boolean, Boolean)
-- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.#ctor*
-  name: UnturnedPlayerVoiceEvent
-  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerVoiceEvent__ctor_
-  commentId: Overload:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.#ctor
-  isSpec: "True"
-  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.UnturnedPlayerVoiceEvent
-  nameWithType: UnturnedPlayerVoiceEvent.UnturnedPlayerVoiceEvent
-- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.IsCancelled
-  name: IsCancelled
-  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerVoiceEvent_IsCancelled
-  commentId: P:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.IsCancelled
-  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.IsCancelled
-  nameWithType: UnturnedPlayerVoiceEvent.IsCancelled
-- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.IsCancelled*
-  name: IsCancelled
-  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerVoiceEvent_IsCancelled_
-  commentId: Overload:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.IsCancelled
-  isSpec: "True"
-  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.IsCancelled
-  nameWithType: UnturnedPlayerVoiceEvent.IsCancelled
-- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.ShouldBroadcastOverRadio
-  name: ShouldBroadcastOverRadio
-  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerVoiceEvent_ShouldBroadcastOverRadio
-  commentId: P:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.ShouldBroadcastOverRadio
-  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.ShouldBroadcastOverRadio
-  nameWithType: UnturnedPlayerVoiceEvent.ShouldBroadcastOverRadio
-- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.ShouldBroadcastOverRadio*
-  name: ShouldBroadcastOverRadio
-  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerVoiceEvent_ShouldBroadcastOverRadio_
-  commentId: Overload:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.ShouldBroadcastOverRadio
-  isSpec: "True"
-  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.ShouldBroadcastOverRadio
-  nameWithType: UnturnedPlayerVoiceEvent.ShouldBroadcastOverRadio
-- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.WantsToUseWalkieTalkie
-  name: WantsToUseWalkieTalkie
-  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerVoiceEvent_WantsToUseWalkieTalkie
-  commentId: P:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.WantsToUseWalkieTalkie
-  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.WantsToUseWalkieTalkie
-  nameWithType: UnturnedPlayerVoiceEvent.WantsToUseWalkieTalkie
-- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.WantsToUseWalkieTalkie*
-  name: WantsToUseWalkieTalkie
-  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerVoiceEvent_WantsToUseWalkieTalkie_
-  commentId: Overload:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.WantsToUseWalkieTalkie
-  isSpec: "True"
-  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.WantsToUseWalkieTalkie
-  nameWithType: UnturnedPlayerVoiceEvent.WantsToUseWalkieTalkie
 - uid: OpenMod.Unturned.Plugins
   name: OpenMod.Unturned.Plugins
   href: api/OpenMod.Unturned.Plugins.html

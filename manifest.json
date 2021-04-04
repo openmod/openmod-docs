@@ -7758,7 +7758,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Events.UnturnedPlayerEvent.html",
-          "hash": "SBwFnPfnq/QgexeMiU3a/Q=="
+          "hash": "uZK62bF6yzZOJfIdGGAC+Q=="
         }
       },
       "is_incremental": false,
@@ -9074,6 +9074,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html",
+          "hash": "eKw3q8NuiozyfVKZC3cIHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerTalkingUpdatedEvent.yml",
       "output": {
         ".html": {
@@ -9086,23 +9098,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerVoiceEvent.html",
-          "hash": "2rZtpWi2Aqi/Qm9UrqBugg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Unturned.Players.Voice.Events.yml",
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Players.Voice.Events.html",
-          "hash": "u67MidNcOJcHIPJezRtVRg=="
+          "hash": "yfJkQTdDNZjz+CsQsbdtdg=="
         }
       },
       "is_incremental": false,
@@ -10494,7 +10494,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Zcg5/jiZtjMTq9iXmXyNcg=="
+          "hash": "pDRpBSP2R88UD376kdAsJA=="
         }
       },
       "is_incremental": false,
@@ -10650,7 +10650,7 @@
       "output": {
         ".html": {
           "relative_path": "devdoc/events/unturned.html",
-          "hash": "nJoQk5vjJGFsGu/LRy/BYw=="
+          "hash": "QwXVKMtXbi88OkrX4lyKxQ=="
         }
       },
       "is_incremental": false,
