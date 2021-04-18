@@ -3349,6 +3349,31 @@ references:
   commentId: T:OpenMod.API.Users.IUserManager
   fullName: OpenMod.API.Users.IUserManager
   nameWithType: IUserManager
+- uid: OpenMod.API.Users.IUserManager.BanAsync(OpenMod.API.Users.IUser,OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name: BanAsync(IUser, IUser, Nullable<String>, Nullable<DateTime>)
+  href: api/OpenMod.API.Users.IUserManager.html#OpenMod_API_Users_IUserManager_BanAsync_OpenMod_API_Users_IUser_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__
+  commentId: M:OpenMod.API.Users.IUserManager.BanAsync(OpenMod.API.Users.IUser,OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name.vb: BanAsync(IUser, IUser, Nullable(Of String), Nullable(Of DateTime))
+  fullName: OpenMod.API.Users.IUserManager.BanAsync(OpenMod.API.Users.IUser, OpenMod.API.Users.IUser, System.Nullable<System.String>, System.Nullable<DateTime>)
+  fullName.vb: OpenMod.API.Users.IUserManager.BanAsync(OpenMod.API.Users.IUser, OpenMod.API.Users.IUser, System.Nullable(Of System.String), System.Nullable(Of DateTime))
+  nameWithType: IUserManager.BanAsync(IUser, IUser, Nullable<String>, Nullable<DateTime>)
+  nameWithType.vb: IUserManager.BanAsync(IUser, IUser, Nullable(Of String), Nullable(Of DateTime))
+- uid: OpenMod.API.Users.IUserManager.BanAsync(OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name: BanAsync(IUser, Nullable<String>, Nullable<DateTime>)
+  href: api/OpenMod.API.Users.IUserManager.html#OpenMod_API_Users_IUserManager_BanAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__
+  commentId: M:OpenMod.API.Users.IUserManager.BanAsync(OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name.vb: BanAsync(IUser, Nullable(Of String), Nullable(Of DateTime))
+  fullName: OpenMod.API.Users.IUserManager.BanAsync(OpenMod.API.Users.IUser, System.Nullable<System.String>, System.Nullable<DateTime>)
+  fullName.vb: OpenMod.API.Users.IUserManager.BanAsync(OpenMod.API.Users.IUser, System.Nullable(Of System.String), System.Nullable(Of DateTime))
+  nameWithType: IUserManager.BanAsync(IUser, Nullable<String>, Nullable<DateTime>)
+  nameWithType.vb: IUserManager.BanAsync(IUser, Nullable(Of String), Nullable(Of DateTime))
+- uid: OpenMod.API.Users.IUserManager.BanAsync*
+  name: BanAsync
+  href: api/OpenMod.API.Users.IUserManager.html#OpenMod_API_Users_IUserManager_BanAsync_
+  commentId: Overload:OpenMod.API.Users.IUserManager.BanAsync
+  isSpec: "True"
+  fullName: OpenMod.API.Users.IUserManager.BanAsync
+  nameWithType: IUserManager.BanAsync
 - uid: OpenMod.API.Users.IUserManager.BroadcastAsync(System.String,System.Nullable{Color})
   name: BroadcastAsync(String, Nullable<Color>)
   href: api/OpenMod.API.Users.IUserManager.html#OpenMod_API_Users_IUserManager_BroadcastAsync_System_String_System_Nullable_Color__
@@ -3400,6 +3425,22 @@ references:
   isSpec: "True"
   fullName: OpenMod.API.Users.IUserManager.GetUsersAsync
   nameWithType: IUserManager.GetUsersAsync
+- uid: OpenMod.API.Users.IUserManager.KickAsync(OpenMod.API.Users.IUser,System.Nullable{System.String})
+  name: KickAsync(IUser, Nullable<String>)
+  href: api/OpenMod.API.Users.IUserManager.html#OpenMod_API_Users_IUserManager_KickAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__
+  commentId: M:OpenMod.API.Users.IUserManager.KickAsync(OpenMod.API.Users.IUser,System.Nullable{System.String})
+  name.vb: KickAsync(IUser, Nullable(Of String))
+  fullName: OpenMod.API.Users.IUserManager.KickAsync(OpenMod.API.Users.IUser, System.Nullable<System.String>)
+  fullName.vb: OpenMod.API.Users.IUserManager.KickAsync(OpenMod.API.Users.IUser, System.Nullable(Of System.String))
+  nameWithType: IUserManager.KickAsync(IUser, Nullable<String>)
+  nameWithType.vb: IUserManager.KickAsync(IUser, Nullable(Of String))
+- uid: OpenMod.API.Users.IUserManager.KickAsync*
+  name: KickAsync
+  href: api/OpenMod.API.Users.IUserManager.html#OpenMod_API_Users_IUserManager_KickAsync_
+  commentId: Overload:OpenMod.API.Users.IUserManager.KickAsync
+  isSpec: "True"
+  fullName: OpenMod.API.Users.IUserManager.KickAsync
+  nameWithType: IUserManager.KickAsync
 - uid: OpenMod.API.Users.IUserManager.UserProviders
   name: UserProviders
   href: api/OpenMod.API.Users.IUserManager.html#OpenMod_API_Users_IUserManager_UserProviders
@@ -3419,6 +3460,31 @@ references:
   commentId: T:OpenMod.API.Users.IUserProvider
   fullName: OpenMod.API.Users.IUserProvider
   nameWithType: IUserProvider
+- uid: OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser,OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name: BanAsync(IUser, IUser, Nullable<String>, Nullable<DateTime>)
+  href: api/OpenMod.API.Users.IUserProvider.html#OpenMod_API_Users_IUserProvider_BanAsync_OpenMod_API_Users_IUser_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__
+  commentId: M:OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser,OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name.vb: BanAsync(IUser, IUser, Nullable(Of String), Nullable(Of DateTime))
+  fullName: OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser, OpenMod.API.Users.IUser, System.Nullable<System.String>, System.Nullable<DateTime>)
+  fullName.vb: OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser, OpenMod.API.Users.IUser, System.Nullable(Of System.String), System.Nullable(Of DateTime))
+  nameWithType: IUserProvider.BanAsync(IUser, IUser, Nullable<String>, Nullable<DateTime>)
+  nameWithType.vb: IUserProvider.BanAsync(IUser, IUser, Nullable(Of String), Nullable(Of DateTime))
+- uid: OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name: BanAsync(IUser, Nullable<String>, Nullable<DateTime>)
+  href: api/OpenMod.API.Users.IUserProvider.html#OpenMod_API_Users_IUserProvider_BanAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__
+  commentId: M:OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name.vb: BanAsync(IUser, Nullable(Of String), Nullable(Of DateTime))
+  fullName: OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser, System.Nullable<System.String>, System.Nullable<DateTime>)
+  fullName.vb: OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser, System.Nullable(Of System.String), System.Nullable(Of DateTime))
+  nameWithType: IUserProvider.BanAsync(IUser, Nullable<String>, Nullable<DateTime>)
+  nameWithType.vb: IUserProvider.BanAsync(IUser, Nullable(Of String), Nullable(Of DateTime))
+- uid: OpenMod.API.Users.IUserProvider.BanAsync*
+  name: BanAsync
+  href: api/OpenMod.API.Users.IUserProvider.html#OpenMod_API_Users_IUserProvider_BanAsync_
+  commentId: Overload:OpenMod.API.Users.IUserProvider.BanAsync
+  isSpec: "True"
+  fullName: OpenMod.API.Users.IUserProvider.BanAsync
+  nameWithType: IUserProvider.BanAsync
 - uid: OpenMod.API.Users.IUserProvider.BroadcastAsync(System.String,System.Nullable{Color})
   name: BroadcastAsync(String, Nullable<Color>)
   href: api/OpenMod.API.Users.IUserProvider.html#OpenMod_API_Users_IUserProvider_BroadcastAsync_System_String_System_Nullable_Color__
@@ -3470,6 +3536,22 @@ references:
   isSpec: "True"
   fullName: OpenMod.API.Users.IUserProvider.GetUsersAsync
   nameWithType: IUserProvider.GetUsersAsync
+- uid: OpenMod.API.Users.IUserProvider.KickAsync(OpenMod.API.Users.IUser,System.Nullable{System.String})
+  name: KickAsync(IUser, Nullable<String>)
+  href: api/OpenMod.API.Users.IUserProvider.html#OpenMod_API_Users_IUserProvider_KickAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__
+  commentId: M:OpenMod.API.Users.IUserProvider.KickAsync(OpenMod.API.Users.IUser,System.Nullable{System.String})
+  name.vb: KickAsync(IUser, Nullable(Of String))
+  fullName: OpenMod.API.Users.IUserProvider.KickAsync(OpenMod.API.Users.IUser, System.Nullable<System.String>)
+  fullName.vb: OpenMod.API.Users.IUserProvider.KickAsync(OpenMod.API.Users.IUser, System.Nullable(Of System.String))
+  nameWithType: IUserProvider.KickAsync(IUser, Nullable<String>)
+  nameWithType.vb: IUserProvider.KickAsync(IUser, Nullable(Of String))
+- uid: OpenMod.API.Users.IUserProvider.KickAsync*
+  name: KickAsync
+  href: api/OpenMod.API.Users.IUserProvider.html#OpenMod_API_Users_IUserProvider_KickAsync_
+  commentId: Overload:OpenMod.API.Users.IUserProvider.KickAsync
+  isSpec: "True"
+  fullName: OpenMod.API.Users.IUserProvider.KickAsync
+  nameWithType: IUserProvider.KickAsync
 - uid: OpenMod.API.Users.IUserProvider.SupportsUserType(System.String)
   name: SupportsUserType(String)
   href: api/OpenMod.API.Users.IUserProvider.html#OpenMod_API_Users_IUserProvider_SupportsUserType_System_String_
@@ -14349,6 +14431,31 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Users.OfflineUserProvider.OfflineUserProvider
   nameWithType: OfflineUserProvider.OfflineUserProvider
+- uid: OpenMod.Core.Users.OfflineUserProvider.BanAsync(OpenMod.API.Users.IUser,OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name: BanAsync(IUser, IUser, Nullable<String>, Nullable<DateTime>)
+  href: api/OpenMod.Core.Users.OfflineUserProvider.html#OpenMod_Core_Users_OfflineUserProvider_BanAsync_OpenMod_API_Users_IUser_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__
+  commentId: M:OpenMod.Core.Users.OfflineUserProvider.BanAsync(OpenMod.API.Users.IUser,OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name.vb: BanAsync(IUser, IUser, Nullable(Of String), Nullable(Of DateTime))
+  fullName: OpenMod.Core.Users.OfflineUserProvider.BanAsync(OpenMod.API.Users.IUser, OpenMod.API.Users.IUser, System.Nullable<System.String>, System.Nullable<DateTime>)
+  fullName.vb: OpenMod.Core.Users.OfflineUserProvider.BanAsync(OpenMod.API.Users.IUser, OpenMod.API.Users.IUser, System.Nullable(Of System.String), System.Nullable(Of DateTime))
+  nameWithType: OfflineUserProvider.BanAsync(IUser, IUser, Nullable<String>, Nullable<DateTime>)
+  nameWithType.vb: OfflineUserProvider.BanAsync(IUser, IUser, Nullable(Of String), Nullable(Of DateTime))
+- uid: OpenMod.Core.Users.OfflineUserProvider.BanAsync(OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name: BanAsync(IUser, Nullable<String>, Nullable<DateTime>)
+  href: api/OpenMod.Core.Users.OfflineUserProvider.html#OpenMod_Core_Users_OfflineUserProvider_BanAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__
+  commentId: M:OpenMod.Core.Users.OfflineUserProvider.BanAsync(OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name.vb: BanAsync(IUser, Nullable(Of String), Nullable(Of DateTime))
+  fullName: OpenMod.Core.Users.OfflineUserProvider.BanAsync(OpenMod.API.Users.IUser, System.Nullable<System.String>, System.Nullable<DateTime>)
+  fullName.vb: OpenMod.Core.Users.OfflineUserProvider.BanAsync(OpenMod.API.Users.IUser, System.Nullable(Of System.String), System.Nullable(Of DateTime))
+  nameWithType: OfflineUserProvider.BanAsync(IUser, Nullable<String>, Nullable<DateTime>)
+  nameWithType.vb: OfflineUserProvider.BanAsync(IUser, Nullable(Of String), Nullable(Of DateTime))
+- uid: OpenMod.Core.Users.OfflineUserProvider.BanAsync*
+  name: BanAsync
+  href: api/OpenMod.Core.Users.OfflineUserProvider.html#OpenMod_Core_Users_OfflineUserProvider_BanAsync_
+  commentId: Overload:OpenMod.Core.Users.OfflineUserProvider.BanAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Users.OfflineUserProvider.BanAsync
+  nameWithType: OfflineUserProvider.BanAsync
 - uid: OpenMod.Core.Users.OfflineUserProvider.BroadcastAsync(System.String,System.Nullable{Color})
   name: BroadcastAsync(String, Nullable<Color>)
   href: api/OpenMod.Core.Users.OfflineUserProvider.html#OpenMod_Core_Users_OfflineUserProvider_BroadcastAsync_System_String_System_Nullable_Color__
@@ -14400,6 +14507,22 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Users.OfflineUserProvider.GetUsersAsync
   nameWithType: OfflineUserProvider.GetUsersAsync
+- uid: OpenMod.Core.Users.OfflineUserProvider.KickAsync(OpenMod.API.Users.IUser,System.Nullable{System.String})
+  name: KickAsync(IUser, Nullable<String>)
+  href: api/OpenMod.Core.Users.OfflineUserProvider.html#OpenMod_Core_Users_OfflineUserProvider_KickAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__
+  commentId: M:OpenMod.Core.Users.OfflineUserProvider.KickAsync(OpenMod.API.Users.IUser,System.Nullable{System.String})
+  name.vb: KickAsync(IUser, Nullable(Of String))
+  fullName: OpenMod.Core.Users.OfflineUserProvider.KickAsync(OpenMod.API.Users.IUser, System.Nullable<System.String>)
+  fullName.vb: OpenMod.Core.Users.OfflineUserProvider.KickAsync(OpenMod.API.Users.IUser, System.Nullable(Of System.String))
+  nameWithType: OfflineUserProvider.KickAsync(IUser, Nullable<String>)
+  nameWithType.vb: OfflineUserProvider.KickAsync(IUser, Nullable(Of String))
+- uid: OpenMod.Core.Users.OfflineUserProvider.KickAsync*
+  name: KickAsync
+  href: api/OpenMod.Core.Users.OfflineUserProvider.html#OpenMod_Core_Users_OfflineUserProvider_KickAsync_
+  commentId: Overload:OpenMod.Core.Users.OfflineUserProvider.KickAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Users.OfflineUserProvider.KickAsync
+  nameWithType: OfflineUserProvider.KickAsync
 - uid: OpenMod.Core.Users.OfflineUserProvider.SupportsUserType(System.String)
   name: SupportsUserType(String)
   href: api/OpenMod.Core.Users.OfflineUserProvider.html#OpenMod_Core_Users_OfflineUserProvider_SupportsUserType_System_String_
@@ -14774,6 +14897,31 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Users.UserManager.UserManager
   nameWithType: UserManager.UserManager
+- uid: OpenMod.Core.Users.UserManager.BanAsync(OpenMod.API.Users.IUser,OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name: BanAsync(IUser, IUser, Nullable<String>, Nullable<DateTime>)
+  href: api/OpenMod.Core.Users.UserManager.html#OpenMod_Core_Users_UserManager_BanAsync_OpenMod_API_Users_IUser_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__
+  commentId: M:OpenMod.Core.Users.UserManager.BanAsync(OpenMod.API.Users.IUser,OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name.vb: BanAsync(IUser, IUser, Nullable(Of String), Nullable(Of DateTime))
+  fullName: OpenMod.Core.Users.UserManager.BanAsync(OpenMod.API.Users.IUser, OpenMod.API.Users.IUser, System.Nullable<System.String>, System.Nullable<DateTime>)
+  fullName.vb: OpenMod.Core.Users.UserManager.BanAsync(OpenMod.API.Users.IUser, OpenMod.API.Users.IUser, System.Nullable(Of System.String), System.Nullable(Of DateTime))
+  nameWithType: UserManager.BanAsync(IUser, IUser, Nullable<String>, Nullable<DateTime>)
+  nameWithType.vb: UserManager.BanAsync(IUser, IUser, Nullable(Of String), Nullable(Of DateTime))
+- uid: OpenMod.Core.Users.UserManager.BanAsync(OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name: BanAsync(IUser, Nullable<String>, Nullable<DateTime>)
+  href: api/OpenMod.Core.Users.UserManager.html#OpenMod_Core_Users_UserManager_BanAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__
+  commentId: M:OpenMod.Core.Users.UserManager.BanAsync(OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})
+  name.vb: BanAsync(IUser, Nullable(Of String), Nullable(Of DateTime))
+  fullName: OpenMod.Core.Users.UserManager.BanAsync(OpenMod.API.Users.IUser, System.Nullable<System.String>, System.Nullable<DateTime>)
+  fullName.vb: OpenMod.Core.Users.UserManager.BanAsync(OpenMod.API.Users.IUser, System.Nullable(Of System.String), System.Nullable(Of DateTime))
+  nameWithType: UserManager.BanAsync(IUser, Nullable<String>, Nullable<DateTime>)
+  nameWithType.vb: UserManager.BanAsync(IUser, Nullable(Of String), Nullable(Of DateTime))
+- uid: OpenMod.Core.Users.UserManager.BanAsync*
+  name: BanAsync
+  href: api/OpenMod.Core.Users.UserManager.html#OpenMod_Core_Users_UserManager_BanAsync_
+  commentId: Overload:OpenMod.Core.Users.UserManager.BanAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Users.UserManager.BanAsync
+  nameWithType: UserManager.BanAsync
 - uid: OpenMod.Core.Users.UserManager.BroadcastAsync(System.String)
   name: BroadcastAsync(String)
   href: api/OpenMod.Core.Users.UserManager.html#OpenMod_Core_Users_UserManager_BroadcastAsync_System_String_
@@ -14850,6 +14998,22 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Users.UserManager.GetUsersAsync
   nameWithType: UserManager.GetUsersAsync
+- uid: OpenMod.Core.Users.UserManager.KickAsync(OpenMod.API.Users.IUser,System.Nullable{System.String})
+  name: KickAsync(IUser, Nullable<String>)
+  href: api/OpenMod.Core.Users.UserManager.html#OpenMod_Core_Users_UserManager_KickAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__
+  commentId: M:OpenMod.Core.Users.UserManager.KickAsync(OpenMod.API.Users.IUser,System.Nullable{System.String})
+  name.vb: KickAsync(IUser, Nullable(Of String))
+  fullName: OpenMod.Core.Users.UserManager.KickAsync(OpenMod.API.Users.IUser, System.Nullable<System.String>)
+  fullName.vb: OpenMod.Core.Users.UserManager.KickAsync(OpenMod.API.Users.IUser, System.Nullable(Of System.String))
+  nameWithType: UserManager.KickAsync(IUser, Nullable<String>)
+  nameWithType.vb: UserManager.KickAsync(IUser, Nullable(Of String))
+- uid: OpenMod.Core.Users.UserManager.KickAsync*
+  name: KickAsync
+  href: api/OpenMod.Core.Users.UserManager.html#OpenMod_Core_Users_UserManager_KickAsync_
+  commentId: Overload:OpenMod.Core.Users.UserManager.KickAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Users.UserManager.KickAsync
+  nameWithType: UserManager.KickAsync
 - uid: OpenMod.Core.Users.UserManager.UserProviders
   name: UserProviders
   href: api/OpenMod.Core.Users.UserManager.html#OpenMod_Core_Users_UserManager_UserProviders
@@ -16014,12 +16178,12 @@ references:
   commentId: M:OpenMod.Extensions.Games.Abstractions.Entities.IEntity.SetPositionAsync(Vector3)
   fullName: OpenMod.Extensions.Games.Abstractions.Entities.IEntity.SetPositionAsync(Vector3)
   nameWithType: IEntity.SetPositionAsync(Vector3)
-- uid: OpenMod.Extensions.Games.Abstractions.Entities.IEntity.SetPositionAsync(Vector3,Vector3)
-  name: SetPositionAsync(Vector3, Vector3)
-  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IEntity.html#OpenMod_Extensions_Games_Abstractions_Entities_IEntity_SetPositionAsync_Vector3_Vector3_
-  commentId: M:OpenMod.Extensions.Games.Abstractions.Entities.IEntity.SetPositionAsync(Vector3,Vector3)
-  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IEntity.SetPositionAsync(Vector3, Vector3)
-  nameWithType: IEntity.SetPositionAsync(Vector3, Vector3)
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IEntity.SetPositionAsync(Vector3,Quaternion)
+  name: SetPositionAsync(Vector3, Quaternion)
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IEntity.html#OpenMod_Extensions_Games_Abstractions_Entities_IEntity_SetPositionAsync_Vector3_Quaternion_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Entities.IEntity.SetPositionAsync(Vector3,Quaternion)
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IEntity.SetPositionAsync(Vector3, Quaternion)
+  nameWithType: IEntity.SetPositionAsync(Vector3, Quaternion)
 - uid: OpenMod.Extensions.Games.Abstractions.Entities.IEntity.SetPositionAsync*
   name: SetPositionAsync
   href: api/OpenMod.Extensions.Games.Abstractions.Entities.IEntity.html#OpenMod_Extensions_Games_Abstractions_Entities_IEntity_SetPositionAsync_
@@ -16667,6 +16831,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Extensions.Games.Abstractions.Items.IItem.SetItemAmountAsync
   nameWithType: IItem.SetItemAmountAsync
+- uid: OpenMod.Extensions.Games.Abstractions.Items.IItem.SetItemDurabilityAsync(System.Double)
+  name: SetItemDurabilityAsync(Double)
+  href: api/OpenMod.Extensions.Games.Abstractions.Items.IItem.html#OpenMod_Extensions_Games_Abstractions_Items_IItem_SetItemDurabilityAsync_System_Double_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Items.IItem.SetItemDurabilityAsync(System.Double)
+  fullName: OpenMod.Extensions.Games.Abstractions.Items.IItem.SetItemDurabilityAsync(System.Double)
+  nameWithType: IItem.SetItemDurabilityAsync(Double)
+- uid: OpenMod.Extensions.Games.Abstractions.Items.IItem.SetItemDurabilityAsync*
+  name: SetItemDurabilityAsync
+  href: api/OpenMod.Extensions.Games.Abstractions.Items.IItem.html#OpenMod_Extensions_Games_Abstractions_Items_IItem_SetItemDurabilityAsync_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Items.IItem.SetItemDurabilityAsync
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Items.IItem.SetItemDurabilityAsync
+  nameWithType: IItem.SetItemDurabilityAsync
 - uid: OpenMod.Extensions.Games.Abstractions.Items.IItem.SetItemQualityAsync(System.Double)
   name: SetItemQualityAsync(Double)
   href: api/OpenMod.Extensions.Games.Abstractions.Items.IItem.html#OpenMod_Extensions_Games_Abstractions_Items_IItem_SetItemQualityAsync_System_Double_
@@ -16738,6 +16915,45 @@ references:
   isSpec: "True"
   fullName: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.ItemType
   nameWithType: IItemAsset.ItemType
+- uid: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxAmount
+  name: MaxAmount
+  href: api/OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.html#OpenMod_Extensions_Games_Abstractions_Items_IItemAsset_MaxAmount
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxAmount
+  fullName: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxAmount
+  nameWithType: IItemAsset.MaxAmount
+- uid: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxAmount*
+  name: MaxAmount
+  href: api/OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.html#OpenMod_Extensions_Games_Abstractions_Items_IItemAsset_MaxAmount_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxAmount
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxAmount
+  nameWithType: IItemAsset.MaxAmount
+- uid: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxDurability
+  name: MaxDurability
+  href: api/OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.html#OpenMod_Extensions_Games_Abstractions_Items_IItemAsset_MaxDurability
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxDurability
+  fullName: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxDurability
+  nameWithType: IItemAsset.MaxDurability
+- uid: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxDurability*
+  name: MaxDurability
+  href: api/OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.html#OpenMod_Extensions_Games_Abstractions_Items_IItemAsset_MaxDurability_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxDurability
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxDurability
+  nameWithType: IItemAsset.MaxDurability
+- uid: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxQuality
+  name: MaxQuality
+  href: api/OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.html#OpenMod_Extensions_Games_Abstractions_Items_IItemAsset_MaxQuality
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxQuality
+  fullName: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxQuality
+  nameWithType: IItemAsset.MaxQuality
+- uid: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxQuality*
+  name: MaxQuality
+  href: api/OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.html#OpenMod_Extensions_Games_Abstractions_Items_IItemAsset_MaxQuality_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxQuality
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.MaxQuality
+  nameWithType: IItemAsset.MaxQuality
 - uid: OpenMod.Extensions.Games.Abstractions.Items.IItemDirectory
   name: IItemDirectory
   href: api/OpenMod.Extensions.Games.Abstractions.Items.IItemDirectory.html
@@ -17218,6 +17434,64 @@ references:
   commentId: N:OpenMod.Extensions.Games.Abstractions.Players
   fullName: OpenMod.Extensions.Games.Abstractions.Players
   nameWithType: OpenMod.Extensions.Games.Abstractions.Players
+- uid: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent
+  name: IBanningPlayerEvent
+  href: api/OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.html
+  commentId: T:OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent
+  fullName: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent
+  nameWithType: IBanningPlayerEvent
+- uid: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Duration
+  name: Duration
+  href: api/OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.html#OpenMod_Extensions_Games_Abstractions_Players_IBanningPlayerEvent_Duration
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Duration
+  fullName: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Duration
+  nameWithType: IBanningPlayerEvent.Duration
+- uid: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Duration*
+  name: Duration
+  href: api/OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.html#OpenMod_Extensions_Games_Abstractions_Players_IBanningPlayerEvent_Duration_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Duration
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Duration
+  nameWithType: IBanningPlayerEvent.Duration
+- uid: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorId
+  name: InstigatorId
+  href: api/OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.html#OpenMod_Extensions_Games_Abstractions_Players_IBanningPlayerEvent_InstigatorId
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorId
+  fullName: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorId
+  nameWithType: IBanningPlayerEvent.InstigatorId
+- uid: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorId*
+  name: InstigatorId
+  href: api/OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.html#OpenMod_Extensions_Games_Abstractions_Players_IBanningPlayerEvent_InstigatorId_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorId
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorId
+  nameWithType: IBanningPlayerEvent.InstigatorId
+- uid: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorType
+  name: InstigatorType
+  href: api/OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.html#OpenMod_Extensions_Games_Abstractions_Players_IBanningPlayerEvent_InstigatorType
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorType
+  fullName: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorType
+  nameWithType: IBanningPlayerEvent.InstigatorType
+- uid: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorType*
+  name: InstigatorType
+  href: api/OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.html#OpenMod_Extensions_Games_Abstractions_Players_IBanningPlayerEvent_InstigatorType_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorType
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.InstigatorType
+  nameWithType: IBanningPlayerEvent.InstigatorType
+- uid: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Reason
+  name: Reason
+  href: api/OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.html#OpenMod_Extensions_Games_Abstractions_Players_IBanningPlayerEvent_Reason
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Reason
+  fullName: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Reason
+  nameWithType: IBanningPlayerEvent.Reason
+- uid: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Reason*
+  name: Reason
+  href: api/OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.html#OpenMod_Extensions_Games_Abstractions_Players_IBanningPlayerEvent_Reason_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Reason
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.Reason
+  nameWithType: IBanningPlayerEvent.Reason
 - uid: OpenMod.Extensions.Games.Abstractions.Players.IPlayer
   name: IPlayer
   href: api/OpenMod.Extensions.Games.Abstractions.Players.IPlayer.html
@@ -17650,12 +17924,12 @@ references:
   isSpec: "True"
   fullName: OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.SetPositionAsync
   nameWithType: IWorldTransform.SetPositionAsync
-- uid: OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.SetRotationAsync(Vector3)
-  name: SetRotationAsync(Vector3)
-  href: api/OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html#OpenMod_Extensions_Games_Abstractions_Transforms_IWorldTransform_SetRotationAsync_Vector3_
-  commentId: M:OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.SetRotationAsync(Vector3)
-  fullName: OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.SetRotationAsync(Vector3)
-  nameWithType: IWorldTransform.SetRotationAsync(Vector3)
+- uid: OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.SetRotationAsync(Quaternion)
+  name: SetRotationAsync(Quaternion)
+  href: api/OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html#OpenMod_Extensions_Games_Abstractions_Transforms_IWorldTransform_SetRotationAsync_Quaternion_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.SetRotationAsync(Quaternion)
+  fullName: OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.SetRotationAsync(Quaternion)
+  nameWithType: IWorldTransform.SetRotationAsync(Quaternion)
 - uid: OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.SetRotationAsync*
   name: SetRotationAsync
   href: api/OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html#OpenMod_Extensions_Games_Abstractions_Transforms_IWorldTransform_SetRotationAsync_
@@ -17702,6 +17976,51 @@ references:
   isSpec: "True"
   fullName: OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.Velocity
   nameWithType: IWorldTransform.Velocity
+- uid: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions
+  name: QuaternionMathExtensions
+  href: api/OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.html
+  commentId: T:OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions
+  fullName: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions
+  nameWithType: QuaternionMathExtensions
+- uid: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.Rotate(Vector3,Quaternion)
+  name: Rotate(Vector3, Quaternion)
+  href: api/OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.html#OpenMod_Extensions_Games_Abstractions_Transforms_QuaternionMathExtensions_Rotate_Vector3_Quaternion_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.Rotate(Vector3,Quaternion)
+  fullName: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.Rotate(Vector3, Quaternion)
+  nameWithType: QuaternionMathExtensions.Rotate(Vector3, Quaternion)
+- uid: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.Rotate*
+  name: Rotate
+  href: api/OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.html#OpenMod_Extensions_Games_Abstractions_Transforms_QuaternionMathExtensions_Rotate_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.Rotate
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.Rotate
+  nameWithType: QuaternionMathExtensions.Rotate
+- uid: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToEulerAngles(Quaternion)
+  name: ToEulerAngles(Quaternion)
+  href: api/OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.html#OpenMod_Extensions_Games_Abstractions_Transforms_QuaternionMathExtensions_ToEulerAngles_Quaternion_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToEulerAngles(Quaternion)
+  fullName: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToEulerAngles(Quaternion)
+  nameWithType: QuaternionMathExtensions.ToEulerAngles(Quaternion)
+- uid: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToEulerAngles*
+  name: ToEulerAngles
+  href: api/OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.html#OpenMod_Extensions_Games_Abstractions_Transforms_QuaternionMathExtensions_ToEulerAngles_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToEulerAngles
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToEulerAngles
+  nameWithType: QuaternionMathExtensions.ToEulerAngles
+- uid: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToQuaternion(Vector3)
+  name: ToQuaternion(Vector3)
+  href: api/OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.html#OpenMod_Extensions_Games_Abstractions_Transforms_QuaternionMathExtensions_ToQuaternion_Vector3_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToQuaternion(Vector3)
+  fullName: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToQuaternion(Vector3)
+  nameWithType: QuaternionMathExtensions.ToQuaternion(Vector3)
+- uid: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToQuaternion*
+  name: ToQuaternion
+  href: api/OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.html#OpenMod_Extensions_Games_Abstractions_Transforms_QuaternionMathExtensions_ToQuaternion_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToQuaternion
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.ToQuaternion
+  nameWithType: QuaternionMathExtensions.ToQuaternion
 - uid: OpenMod.Extensions.Games.Abstractions.Vehicles
   name: OpenMod.Extensions.Games.Abstractions.Vehicles
   href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.html
@@ -17952,12 +18271,18 @@ references:
   commentId: T:OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner
   fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner
   nameWithType: IVehicleSpawner
-- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
-  name: SpawnVehicleAsync(Vector3, String, IVehicleState)
-  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.html#OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_
-  commentId: M:OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
-  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(Vector3, System.String, OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
-  nameWithType: IVehicleSpawner.SpawnVehicleAsync(Vector3, String, IVehicleState)
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Players.IPlayer,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  name: SpawnVehicleAsync(IPlayer, String, IVehicleState)
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.html#OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_OpenMod_Extensions_Games_Abstractions_Players_IPlayer_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Players.IPlayer,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Players.IPlayer, System.String, OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  nameWithType: IVehicleSpawner.SpawnVehicleAsync(IPlayer, String, IVehicleState)
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(Vector3,Quaternion,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  name: SpawnVehicleAsync(Vector3, Quaternion, String, IVehicleState)
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.html#OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_Vector3_Quaternion_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(Vector3,Quaternion,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(Vector3, Quaternion, System.String, OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  nameWithType: IVehicleSpawner.SpawnVehicleAsync(Vector3, Quaternion, String, IVehicleState)
 - uid: OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync*
   name: SpawnVehicleAsync
   href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.html#OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_
@@ -18089,6 +18414,12 @@ references:
   commentId: M:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner,OpenMod.Extensions.Games.Abstractions.Players.IPlayer,System.String)
   fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner, OpenMod.Extensions.Games.Abstractions.Players.IPlayer, System.String)
   nameWithType: VehicleSpawnerExtensions.SpawnVehicleAsync(IVehicleSpawner, IPlayer, String)
+- uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner,Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  name: SpawnVehicleAsync(IVehicleSpawner, Vector3, String, IVehicleState)
+  href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleSpawnerExtensions_SpawnVehicleAsync_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner,Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  fullName: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner, Vector3, System.String, OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  nameWithType: VehicleSpawnerExtensions.SpawnVehicleAsync(IVehicleSpawner, Vector3, String, IVehicleState)
 - uid: OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.SpawnVehicleAsync*
   name: SpawnVehicleAsync
   href: api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleSpawnerExtensions_SpawnVehicleAsync_
@@ -19808,12 +20139,12 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Entities.RustEntity.DamageSourceName
   nameWithType: RustEntity.DamageSourceName
-- uid: OpenMod.Rust.Entities.RustEntity.DoTeleport(System.Numerics.Vector3,System.Numerics.Vector3)
-  name: DoTeleport(Vector3, Vector3)
-  href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_DoTeleport_System_Numerics_Vector3_System_Numerics_Vector3_
-  commentId: M:OpenMod.Rust.Entities.RustEntity.DoTeleport(System.Numerics.Vector3,System.Numerics.Vector3)
-  fullName: OpenMod.Rust.Entities.RustEntity.DoTeleport(System.Numerics.Vector3, System.Numerics.Vector3)
-  nameWithType: RustEntity.DoTeleport(Vector3, Vector3)
+- uid: OpenMod.Rust.Entities.RustEntity.DoTeleport(System.Numerics.Vector3,System.Numerics.Quaternion)
+  name: DoTeleport(Vector3, Quaternion)
+  href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_DoTeleport_System_Numerics_Vector3_System_Numerics_Quaternion_
+  commentId: M:OpenMod.Rust.Entities.RustEntity.DoTeleport(System.Numerics.Vector3,System.Numerics.Quaternion)
+  fullName: OpenMod.Rust.Entities.RustEntity.DoTeleport(System.Numerics.Vector3, System.Numerics.Quaternion)
+  nameWithType: RustEntity.DoTeleport(Vector3, Quaternion)
 - uid: OpenMod.Rust.Entities.RustEntity.DoTeleport*
   name: DoTeleport
   href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_DoTeleport_
@@ -19853,12 +20184,12 @@ references:
   commentId: M:OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3)
   fullName: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3)
   nameWithType: RustEntity.SetPositionAsync(Vector3)
-- uid: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Vector3)
-  name: SetPositionAsync(Vector3, Vector3)
-  href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_SetPositionAsync_System_Numerics_Vector3_System_Numerics_Vector3_
-  commentId: M:OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Vector3)
-  fullName: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3, System.Numerics.Vector3)
-  nameWithType: RustEntity.SetPositionAsync(Vector3, Vector3)
+- uid: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Quaternion)
+  name: SetPositionAsync(Vector3, Quaternion)
+  href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_SetPositionAsync_System_Numerics_Vector3_System_Numerics_Quaternion_
+  commentId: M:OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Quaternion)
+  fullName: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3, System.Numerics.Quaternion)
+  nameWithType: RustEntity.SetPositionAsync(Vector3, Quaternion)
 - uid: OpenMod.Rust.Entities.RustEntity.SetPositionAsync*
   name: SetPositionAsync
   href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_SetPositionAsync_
@@ -20251,6 +20582,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Items.RustItem.SetItemAmountAsync
   nameWithType: RustItem.SetItemAmountAsync
+- uid: OpenMod.Rust.Items.RustItem.SetItemDurabilityAsync(System.Double)
+  name: SetItemDurabilityAsync(Double)
+  href: api/OpenMod.Rust.Items.RustItem.html#OpenMod_Rust_Items_RustItem_SetItemDurabilityAsync_System_Double_
+  commentId: M:OpenMod.Rust.Items.RustItem.SetItemDurabilityAsync(System.Double)
+  fullName: OpenMod.Rust.Items.RustItem.SetItemDurabilityAsync(System.Double)
+  nameWithType: RustItem.SetItemDurabilityAsync(Double)
+- uid: OpenMod.Rust.Items.RustItem.SetItemDurabilityAsync*
+  name: SetItemDurabilityAsync
+  href: api/OpenMod.Rust.Items.RustItem.html#OpenMod_Rust_Items_RustItem_SetItemDurabilityAsync_
+  commentId: Overload:OpenMod.Rust.Items.RustItem.SetItemDurabilityAsync
+  isSpec: "True"
+  fullName: OpenMod.Rust.Items.RustItem.SetItemDurabilityAsync
+  nameWithType: RustItem.SetItemDurabilityAsync
 - uid: OpenMod.Rust.Items.RustItem.SetItemQualityAsync(System.Double)
   name: SetItemQualityAsync(Double)
   href: api/OpenMod.Rust.Items.RustItem.html#OpenMod_Rust_Items_RustItem_SetItemQualityAsync_System_Double_
@@ -20348,6 +20692,45 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Items.RustItemAsset.ItemType
   nameWithType: RustItemAsset.ItemType
+- uid: OpenMod.Rust.Items.RustItemAsset.MaxAmount
+  name: MaxAmount
+  href: api/OpenMod.Rust.Items.RustItemAsset.html#OpenMod_Rust_Items_RustItemAsset_MaxAmount
+  commentId: P:OpenMod.Rust.Items.RustItemAsset.MaxAmount
+  fullName: OpenMod.Rust.Items.RustItemAsset.MaxAmount
+  nameWithType: RustItemAsset.MaxAmount
+- uid: OpenMod.Rust.Items.RustItemAsset.MaxAmount*
+  name: MaxAmount
+  href: api/OpenMod.Rust.Items.RustItemAsset.html#OpenMod_Rust_Items_RustItemAsset_MaxAmount_
+  commentId: Overload:OpenMod.Rust.Items.RustItemAsset.MaxAmount
+  isSpec: "True"
+  fullName: OpenMod.Rust.Items.RustItemAsset.MaxAmount
+  nameWithType: RustItemAsset.MaxAmount
+- uid: OpenMod.Rust.Items.RustItemAsset.MaxDurability
+  name: MaxDurability
+  href: api/OpenMod.Rust.Items.RustItemAsset.html#OpenMod_Rust_Items_RustItemAsset_MaxDurability
+  commentId: P:OpenMod.Rust.Items.RustItemAsset.MaxDurability
+  fullName: OpenMod.Rust.Items.RustItemAsset.MaxDurability
+  nameWithType: RustItemAsset.MaxDurability
+- uid: OpenMod.Rust.Items.RustItemAsset.MaxDurability*
+  name: MaxDurability
+  href: api/OpenMod.Rust.Items.RustItemAsset.html#OpenMod_Rust_Items_RustItemAsset_MaxDurability_
+  commentId: Overload:OpenMod.Rust.Items.RustItemAsset.MaxDurability
+  isSpec: "True"
+  fullName: OpenMod.Rust.Items.RustItemAsset.MaxDurability
+  nameWithType: RustItemAsset.MaxDurability
+- uid: OpenMod.Rust.Items.RustItemAsset.MaxQuality
+  name: MaxQuality
+  href: api/OpenMod.Rust.Items.RustItemAsset.html#OpenMod_Rust_Items_RustItemAsset_MaxQuality
+  commentId: P:OpenMod.Rust.Items.RustItemAsset.MaxQuality
+  fullName: OpenMod.Rust.Items.RustItemAsset.MaxQuality
+  nameWithType: RustItemAsset.MaxQuality
+- uid: OpenMod.Rust.Items.RustItemAsset.MaxQuality*
+  name: MaxQuality
+  href: api/OpenMod.Rust.Items.RustItemAsset.html#OpenMod_Rust_Items_RustItemAsset_MaxQuality_
+  commentId: Overload:OpenMod.Rust.Items.RustItemAsset.MaxQuality
+  isSpec: "True"
+  fullName: OpenMod.Rust.Items.RustItemAsset.MaxQuality
+  nameWithType: RustItemAsset.MaxQuality
 - uid: OpenMod.Rust.Items.RustItemContainerInventory
   name: RustItemContainerInventory
   href: api/OpenMod.Rust.Items.RustItemContainerInventory.html
@@ -23893,12 +24276,12 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.DamageAsync
   nameWithType: RustPlayer.DamageAsync
-- uid: OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3,System.Numerics.Vector3)
-  name: DoTeleport(Vector3, Vector3)
-  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_DoTeleport_System_Numerics_Vector3_System_Numerics_Vector3_
-  commentId: M:OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3,System.Numerics.Vector3)
-  fullName: OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3, System.Numerics.Vector3)
-  nameWithType: RustPlayer.DoTeleport(Vector3, Vector3)
+- uid: OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3,System.Numerics.Quaternion)
+  name: DoTeleport(Vector3, Quaternion)
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_DoTeleport_System_Numerics_Vector3_System_Numerics_Quaternion_
+  commentId: M:OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3,System.Numerics.Quaternion)
+  fullName: OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3, System.Numerics.Quaternion)
+  nameWithType: RustPlayer.DoTeleport(Vector3, Quaternion)
 - uid: OpenMod.Rust.Players.RustPlayer.DoTeleport*
   name: DoTeleport
   href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_DoTeleport_
@@ -24829,12 +25212,12 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.SetPositionAsync
   nameWithType: RustNetworkableTransform.SetPositionAsync
-- uid: OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(System.Numerics.Vector3)
-  name: SetRotationAsync(Vector3)
-  href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_SetRotationAsync_System_Numerics_Vector3_
-  commentId: M:OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(System.Numerics.Vector3)
-  fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(System.Numerics.Vector3)
-  nameWithType: RustNetworkableTransform.SetRotationAsync(Vector3)
+- uid: OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(System.Numerics.Quaternion)
+  name: SetRotationAsync(Quaternion)
+  href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_SetRotationAsync_System_Numerics_Quaternion_
+  commentId: M:OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(System.Numerics.Quaternion)
+  fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(System.Numerics.Quaternion)
+  nameWithType: RustNetworkableTransform.SetRotationAsync(Quaternion)
 - uid: OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync*
   name: SetRotationAsync
   href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_SetRotationAsync_
@@ -25340,6 +25723,38 @@ references:
   isSpec: "True"
   fullName: OpenMod.UnityEngine.Extensions.ColorConversionExtensions.ToUnityColor
   nameWithType: ColorConversionExtensions.ToUnityColor
+- uid: OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions
+  name: QuaternionConversionExtensions
+  href: api/OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.html
+  commentId: T:OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions
+  fullName: OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions
+  nameWithType: QuaternionConversionExtensions
+- uid: OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToSystemQuaternion(UnityEngine.Quaternion)
+  name: ToSystemQuaternion(UnityEngine.Quaternion)
+  href: api/OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.html#OpenMod_UnityEngine_Extensions_QuaternionConversionExtensions_ToSystemQuaternion_UnityEngine_Quaternion_
+  commentId: M:OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToSystemQuaternion(UnityEngine.Quaternion)
+  fullName: OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToSystemQuaternion(UnityEngine.Quaternion)
+  nameWithType: QuaternionConversionExtensions.ToSystemQuaternion(UnityEngine.Quaternion)
+- uid: OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToSystemQuaternion*
+  name: ToSystemQuaternion
+  href: api/OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.html#OpenMod_UnityEngine_Extensions_QuaternionConversionExtensions_ToSystemQuaternion_
+  commentId: Overload:OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToSystemQuaternion
+  isSpec: "True"
+  fullName: OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToSystemQuaternion
+  nameWithType: QuaternionConversionExtensions.ToSystemQuaternion
+- uid: OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToUnityQuaternion(System.Numerics.Quaternion)
+  name: ToUnityQuaternion(Quaternion)
+  href: api/OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.html#OpenMod_UnityEngine_Extensions_QuaternionConversionExtensions_ToUnityQuaternion_System_Numerics_Quaternion_
+  commentId: M:OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToUnityQuaternion(System.Numerics.Quaternion)
+  fullName: OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToUnityQuaternion(System.Numerics.Quaternion)
+  nameWithType: QuaternionConversionExtensions.ToUnityQuaternion(Quaternion)
+- uid: OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToUnityQuaternion*
+  name: ToUnityQuaternion
+  href: api/OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.html#OpenMod_UnityEngine_Extensions_QuaternionConversionExtensions_ToUnityQuaternion_
+  commentId: Overload:OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToUnityQuaternion
+  isSpec: "True"
+  fullName: OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToUnityQuaternion
+  nameWithType: QuaternionConversionExtensions.ToUnityQuaternion
 - uid: OpenMod.UnityEngine.Extensions.VectorConversionExtensions
   name: VectorConversionExtensions
   href: api/OpenMod.UnityEngine.Extensions.VectorConversionExtensions.html
@@ -25408,6 +25823,12 @@ references:
   commentId: T:OpenMod.UnityEngine.Helpers.ValidationHelper
   fullName: OpenMod.UnityEngine.Helpers.ValidationHelper
   nameWithType: ValidationHelper
+- uid: OpenMod.UnityEngine.Helpers.ValidationHelper.IsValid(System.Numerics.Quaternion)
+  name: IsValid(Quaternion)
+  href: api/OpenMod.UnityEngine.Helpers.ValidationHelper.html#OpenMod_UnityEngine_Helpers_ValidationHelper_IsValid_System_Numerics_Quaternion_
+  commentId: M:OpenMod.UnityEngine.Helpers.ValidationHelper.IsValid(System.Numerics.Quaternion)
+  fullName: OpenMod.UnityEngine.Helpers.ValidationHelper.IsValid(System.Numerics.Quaternion)
+  nameWithType: ValidationHelper.IsValid(Quaternion)
 - uid: OpenMod.UnityEngine.Helpers.ValidationHelper.IsValid(System.Numerics.Vector3)
   name: IsValid(Vector3)
   href: api/OpenMod.UnityEngine.Helpers.ValidationHelper.html#OpenMod_UnityEngine_Helpers_ValidationHelper_IsValid_System_Numerics_Vector3_
@@ -25420,6 +25841,12 @@ references:
   commentId: M:OpenMod.UnityEngine.Helpers.ValidationHelper.IsValid(System.Single)
   fullName: OpenMod.UnityEngine.Helpers.ValidationHelper.IsValid(System.Single)
   nameWithType: ValidationHelper.IsValid(Single)
+- uid: OpenMod.UnityEngine.Helpers.ValidationHelper.IsValid(UnityEngine.Quaternion)
+  name: IsValid(UnityEngine.Quaternion)
+  href: api/OpenMod.UnityEngine.Helpers.ValidationHelper.html#OpenMod_UnityEngine_Helpers_ValidationHelper_IsValid_UnityEngine_Quaternion_
+  commentId: M:OpenMod.UnityEngine.Helpers.ValidationHelper.IsValid(UnityEngine.Quaternion)
+  fullName: OpenMod.UnityEngine.Helpers.ValidationHelper.IsValid(UnityEngine.Quaternion)
+  nameWithType: ValidationHelper.IsValid(UnityEngine.Quaternion)
 - uid: OpenMod.UnityEngine.Helpers.ValidationHelper.IsValid(UnityEngine.Vector3)
   name: IsValid(UnityEngine.Vector3)
   href: api/OpenMod.UnityEngine.Helpers.ValidationHelper.html#OpenMod_UnityEngine_Helpers_ValidationHelper_IsValid_UnityEngine_Vector3_
@@ -25658,12 +26085,12 @@ references:
   isSpec: "True"
   fullName: OpenMod.UnityEngine.Transforms.UnityTransform.SetPositionAsync
   nameWithType: UnityTransform.SetPositionAsync
-- uid: OpenMod.UnityEngine.Transforms.UnityTransform.SetRotationAsync(System.Numerics.Vector3)
-  name: SetRotationAsync(Vector3)
-  href: api/OpenMod.UnityEngine.Transforms.UnityTransform.html#OpenMod_UnityEngine_Transforms_UnityTransform_SetRotationAsync_System_Numerics_Vector3_
-  commentId: M:OpenMod.UnityEngine.Transforms.UnityTransform.SetRotationAsync(System.Numerics.Vector3)
-  fullName: OpenMod.UnityEngine.Transforms.UnityTransform.SetRotationAsync(System.Numerics.Vector3)
-  nameWithType: UnityTransform.SetRotationAsync(Vector3)
+- uid: OpenMod.UnityEngine.Transforms.UnityTransform.SetRotationAsync(System.Numerics.Quaternion)
+  name: SetRotationAsync(Quaternion)
+  href: api/OpenMod.UnityEngine.Transforms.UnityTransform.html#OpenMod_UnityEngine_Transforms_UnityTransform_SetRotationAsync_System_Numerics_Quaternion_
+  commentId: M:OpenMod.UnityEngine.Transforms.UnityTransform.SetRotationAsync(System.Numerics.Quaternion)
+  fullName: OpenMod.UnityEngine.Transforms.UnityTransform.SetRotationAsync(System.Numerics.Quaternion)
+  nameWithType: UnityTransform.SetRotationAsync(Quaternion)
 - uid: OpenMod.UnityEngine.Transforms.UnityTransform.SetRotationAsync*
   name: SetRotationAsync
   href: api/OpenMod.UnityEngine.Transforms.UnityTransform.html#OpenMod_UnityEngine_Transforms_UnityTransform_SetRotationAsync_
@@ -26371,12 +26798,12 @@ references:
   commentId: M:OpenMod.Unturned.Animals.UnturnedAnimal.SetPositionAsync(System.Numerics.Vector3)
   fullName: OpenMod.Unturned.Animals.UnturnedAnimal.SetPositionAsync(System.Numerics.Vector3)
   nameWithType: UnturnedAnimal.SetPositionAsync(Vector3)
-- uid: OpenMod.Unturned.Animals.UnturnedAnimal.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Vector3)
-  name: SetPositionAsync(Vector3, Vector3)
-  href: api/OpenMod.Unturned.Animals.UnturnedAnimal.html#OpenMod_Unturned_Animals_UnturnedAnimal_SetPositionAsync_System_Numerics_Vector3_System_Numerics_Vector3_
-  commentId: M:OpenMod.Unturned.Animals.UnturnedAnimal.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Vector3)
-  fullName: OpenMod.Unturned.Animals.UnturnedAnimal.SetPositionAsync(System.Numerics.Vector3, System.Numerics.Vector3)
-  nameWithType: UnturnedAnimal.SetPositionAsync(Vector3, Vector3)
+- uid: OpenMod.Unturned.Animals.UnturnedAnimal.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Quaternion)
+  name: SetPositionAsync(Vector3, Quaternion)
+  href: api/OpenMod.Unturned.Animals.UnturnedAnimal.html#OpenMod_Unturned_Animals_UnturnedAnimal_SetPositionAsync_System_Numerics_Vector3_System_Numerics_Quaternion_
+  commentId: M:OpenMod.Unturned.Animals.UnturnedAnimal.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Quaternion)
+  fullName: OpenMod.Unturned.Animals.UnturnedAnimal.SetPositionAsync(System.Numerics.Vector3, System.Numerics.Quaternion)
+  nameWithType: UnturnedAnimal.SetPositionAsync(Vector3, Quaternion)
 - uid: OpenMod.Unturned.Animals.UnturnedAnimal.SetPositionAsync*
   name: SetPositionAsync
   href: api/OpenMod.Unturned.Animals.UnturnedAnimal.html#OpenMod_Unturned_Animals_UnturnedAnimal_SetPositionAsync_
@@ -28494,18 +28921,50 @@ references:
   commentId: N:OpenMod.Unturned.Items
   fullName: OpenMod.Unturned.Items
   nameWithType: OpenMod.Unturned.Items
+- uid: OpenMod.Unturned.Items.UnturnedClothingItem
+  name: UnturnedClothingItem
+  href: api/OpenMod.Unturned.Items.UnturnedClothingItem.html
+  commentId: T:OpenMod.Unturned.Items.UnturnedClothingItem
+  fullName: OpenMod.Unturned.Items.UnturnedClothingItem
+  nameWithType: UnturnedClothingItem
+- uid: OpenMod.Unturned.Items.UnturnedClothingItem.#ctor(Item,OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Players.Clothing.ClothingType)
+  name: UnturnedClothingItem(Item, UnturnedPlayer, ClothingType)
+  href: api/OpenMod.Unturned.Items.UnturnedClothingItem.html#OpenMod_Unturned_Items_UnturnedClothingItem__ctor_Item_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Players_Clothing_ClothingType_
+  commentId: M:OpenMod.Unturned.Items.UnturnedClothingItem.#ctor(Item,OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Players.Clothing.ClothingType)
+  fullName: OpenMod.Unturned.Items.UnturnedClothingItem.UnturnedClothingItem(Item, OpenMod.Unturned.Players.UnturnedPlayer, OpenMod.Unturned.Players.Clothing.ClothingType)
+  nameWithType: UnturnedClothingItem.UnturnedClothingItem(Item, UnturnedPlayer, ClothingType)
+- uid: OpenMod.Unturned.Items.UnturnedClothingItem.#ctor*
+  name: UnturnedClothingItem
+  href: api/OpenMod.Unturned.Items.UnturnedClothingItem.html#OpenMod_Unturned_Items_UnturnedClothingItem__ctor_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedClothingItem.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedClothingItem.UnturnedClothingItem
+  nameWithType: UnturnedClothingItem.UnturnedClothingItem
+- uid: OpenMod.Unturned.Items.UnturnedClothingItem.ClothingType
+  name: ClothingType
+  href: api/OpenMod.Unturned.Items.UnturnedClothingItem.html#OpenMod_Unturned_Items_UnturnedClothingItem_ClothingType
+  commentId: P:OpenMod.Unturned.Items.UnturnedClothingItem.ClothingType
+  fullName: OpenMod.Unturned.Items.UnturnedClothingItem.ClothingType
+  nameWithType: UnturnedClothingItem.ClothingType
+- uid: OpenMod.Unturned.Items.UnturnedClothingItem.ClothingType*
+  name: ClothingType
+  href: api/OpenMod.Unturned.Items.UnturnedClothingItem.html#OpenMod_Unturned_Items_UnturnedClothingItem_ClothingType_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedClothingItem.ClothingType
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedClothingItem.ClothingType
+  nameWithType: UnturnedClothingItem.ClothingType
 - uid: OpenMod.Unturned.Items.UnturnedInventoryItem
   name: UnturnedInventoryItem
   href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html
   commentId: T:OpenMod.Unturned.Items.UnturnedInventoryItem
   fullName: OpenMod.Unturned.Items.UnturnedInventoryItem
   nameWithType: UnturnedInventoryItem
-- uid: OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor(OpenMod.Unturned.Items.UnturnedPlayerInventory,ItemJar,OpenMod.Unturned.Items.UnturnedItem)
-  name: UnturnedInventoryItem(UnturnedPlayerInventory, ItemJar, UnturnedItem)
-  href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html#OpenMod_Unturned_Items_UnturnedInventoryItem__ctor_OpenMod_Unturned_Items_UnturnedPlayerInventory_ItemJar_OpenMod_Unturned_Items_UnturnedItem_
-  commentId: M:OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor(OpenMod.Unturned.Items.UnturnedPlayerInventory,ItemJar,OpenMod.Unturned.Items.UnturnedItem)
-  fullName: OpenMod.Unturned.Items.UnturnedInventoryItem.UnturnedInventoryItem(OpenMod.Unturned.Items.UnturnedPlayerInventory, ItemJar, OpenMod.Unturned.Items.UnturnedItem)
-  nameWithType: UnturnedInventoryItem.UnturnedInventoryItem(UnturnedPlayerInventory, ItemJar, UnturnedItem)
+- uid: OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor(OpenMod.Unturned.Items.UnturnedPlayerInventory,ItemJar)
+  name: UnturnedInventoryItem(UnturnedPlayerInventory, ItemJar)
+  href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html#OpenMod_Unturned_Items_UnturnedInventoryItem__ctor_OpenMod_Unturned_Items_UnturnedPlayerInventory_ItemJar_
+  commentId: M:OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor(OpenMod.Unturned.Items.UnturnedPlayerInventory,ItemJar)
+  fullName: OpenMod.Unturned.Items.UnturnedInventoryItem.UnturnedInventoryItem(OpenMod.Unturned.Items.UnturnedPlayerInventory, ItemJar)
+  nameWithType: UnturnedInventoryItem.UnturnedInventoryItem(UnturnedPlayerInventory, ItemJar)
 - uid: OpenMod.Unturned.Items.UnturnedInventoryItem.#ctor*
   name: UnturnedInventoryItem
   href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html#OpenMod_Unturned_Items_UnturnedInventoryItem__ctor_
@@ -28578,18 +29037,35 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Items.UnturnedInventoryItem.ItemJar
   nameWithType: UnturnedInventoryItem.ItemJar
+- uid: OpenMod.Unturned.Items.UnturnedInventoryItem.OpenMod#Extensions#Games#Abstractions#Items#IItemInstance#Item
+  name: IItemInstance.Item
+  href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html#OpenMod_Unturned_Items_UnturnedInventoryItem_OpenMod_Extensions_Games_Abstractions_Items_IItemInstance_Item
+  commentId: P:OpenMod.Unturned.Items.UnturnedInventoryItem.OpenMod#Extensions#Games#Abstractions#Items#IItemInstance#Item
+  name.vb: OpenMod.Extensions.Games.Abstractions.Items.IItemInstance.Item
+  fullName: OpenMod.Unturned.Items.UnturnedInventoryItem.OpenMod.Extensions.Games.Abstractions.Items.IItemInstance.Item
+  nameWithType: UnturnedInventoryItem.IItemInstance.Item
+  nameWithType.vb: UnturnedInventoryItem.OpenMod.Extensions.Games.Abstractions.Items.IItemInstance.Item
+- uid: OpenMod.Unturned.Items.UnturnedInventoryItem.OpenMod#Extensions#Games#Abstractions#Items#IItemInstance#Item*
+  name: IItemInstance.Item
+  href: api/OpenMod.Unturned.Items.UnturnedInventoryItem.html#OpenMod_Unturned_Items_UnturnedInventoryItem_OpenMod_Extensions_Games_Abstractions_Items_IItemInstance_Item_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedInventoryItem.OpenMod#Extensions#Games#Abstractions#Items#IItemInstance#Item
+  isSpec: "True"
+  name.vb: OpenMod.Extensions.Games.Abstractions.Items.IItemInstance.Item
+  fullName: OpenMod.Unturned.Items.UnturnedInventoryItem.OpenMod.Extensions.Games.Abstractions.Items.IItemInstance.Item
+  nameWithType: UnturnedInventoryItem.IItemInstance.Item
+  nameWithType.vb: UnturnedInventoryItem.OpenMod.Extensions.Games.Abstractions.Items.IItemInstance.Item
 - uid: OpenMod.Unturned.Items.UnturnedItem
   name: UnturnedItem
   href: api/OpenMod.Unturned.Items.UnturnedItem.html
   commentId: T:OpenMod.Unturned.Items.UnturnedItem
   fullName: OpenMod.Unturned.Items.UnturnedItem
   nameWithType: UnturnedItem
-- uid: OpenMod.Unturned.Items.UnturnedItem.#ctor(Item)
-  name: UnturnedItem(Item)
-  href: api/OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem__ctor_Item_
-  commentId: M:OpenMod.Unturned.Items.UnturnedItem.#ctor(Item)
-  fullName: OpenMod.Unturned.Items.UnturnedItem.UnturnedItem(Item)
-  nameWithType: UnturnedItem.UnturnedItem(Item)
+- uid: OpenMod.Unturned.Items.UnturnedItem.#ctor(Item,OpenMod.Unturned.Items.UnturnedItem.DestroyItem)
+  name: UnturnedItem(Item, UnturnedItem.DestroyItem)
+  href: api/OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem__ctor_Item_OpenMod_Unturned_Items_UnturnedItem_DestroyItem_
+  commentId: M:OpenMod.Unturned.Items.UnturnedItem.#ctor(Item,OpenMod.Unturned.Items.UnturnedItem.DestroyItem)
+  fullName: OpenMod.Unturned.Items.UnturnedItem.UnturnedItem(Item, OpenMod.Unturned.Items.UnturnedItem.DestroyItem)
+  nameWithType: UnturnedItem.UnturnedItem(Item, UnturnedItem.DestroyItem)
 - uid: OpenMod.Unturned.Items.UnturnedItem.#ctor*
   name: UnturnedItem
   href: api/OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem__ctor_
@@ -28623,6 +29099,12 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Items.UnturnedItem.DestroyAsync
   nameWithType: UnturnedItem.DestroyAsync
+- uid: OpenMod.Unturned.Items.UnturnedItem.DestroyItem
+  name: UnturnedItem.DestroyItem
+  href: api/OpenMod.Unturned.Items.UnturnedItem.DestroyItem.html
+  commentId: T:OpenMod.Unturned.Items.UnturnedItem.DestroyItem
+  fullName: OpenMod.Unturned.Items.UnturnedItem.DestroyItem
+  nameWithType: UnturnedItem.DestroyItem
 - uid: OpenMod.Unturned.Items.UnturnedItem.Item
   name: Item
   href: api/OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_Item
@@ -28662,6 +29144,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Items.UnturnedItem.SetItemAmountAsync
   nameWithType: UnturnedItem.SetItemAmountAsync
+- uid: OpenMod.Unturned.Items.UnturnedItem.SetItemDurabilityAsync(System.Double)
+  name: SetItemDurabilityAsync(Double)
+  href: api/OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_SetItemDurabilityAsync_System_Double_
+  commentId: M:OpenMod.Unturned.Items.UnturnedItem.SetItemDurabilityAsync(System.Double)
+  fullName: OpenMod.Unturned.Items.UnturnedItem.SetItemDurabilityAsync(System.Double)
+  nameWithType: UnturnedItem.SetItemDurabilityAsync(Double)
+- uid: OpenMod.Unturned.Items.UnturnedItem.SetItemDurabilityAsync*
+  name: SetItemDurabilityAsync
+  href: api/OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_SetItemDurabilityAsync_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedItem.SetItemDurabilityAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedItem.SetItemDurabilityAsync
+  nameWithType: UnturnedItem.SetItemDurabilityAsync
 - uid: OpenMod.Unturned.Items.UnturnedItem.SetItemQualityAsync(System.Double)
   name: SetItemQualityAsync(Double)
   href: api/OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_SetItemQualityAsync_System_Double_
@@ -28759,6 +29254,45 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Items.UnturnedItemAsset.ItemType
   nameWithType: UnturnedItemAsset.ItemType
+- uid: OpenMod.Unturned.Items.UnturnedItemAsset.MaxAmount
+  name: MaxAmount
+  href: api/OpenMod.Unturned.Items.UnturnedItemAsset.html#OpenMod_Unturned_Items_UnturnedItemAsset_MaxAmount
+  commentId: P:OpenMod.Unturned.Items.UnturnedItemAsset.MaxAmount
+  fullName: OpenMod.Unturned.Items.UnturnedItemAsset.MaxAmount
+  nameWithType: UnturnedItemAsset.MaxAmount
+- uid: OpenMod.Unturned.Items.UnturnedItemAsset.MaxAmount*
+  name: MaxAmount
+  href: api/OpenMod.Unturned.Items.UnturnedItemAsset.html#OpenMod_Unturned_Items_UnturnedItemAsset_MaxAmount_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedItemAsset.MaxAmount
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedItemAsset.MaxAmount
+  nameWithType: UnturnedItemAsset.MaxAmount
+- uid: OpenMod.Unturned.Items.UnturnedItemAsset.MaxDurability
+  name: MaxDurability
+  href: api/OpenMod.Unturned.Items.UnturnedItemAsset.html#OpenMod_Unturned_Items_UnturnedItemAsset_MaxDurability
+  commentId: P:OpenMod.Unturned.Items.UnturnedItemAsset.MaxDurability
+  fullName: OpenMod.Unturned.Items.UnturnedItemAsset.MaxDurability
+  nameWithType: UnturnedItemAsset.MaxDurability
+- uid: OpenMod.Unturned.Items.UnturnedItemAsset.MaxDurability*
+  name: MaxDurability
+  href: api/OpenMod.Unturned.Items.UnturnedItemAsset.html#OpenMod_Unturned_Items_UnturnedItemAsset_MaxDurability_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedItemAsset.MaxDurability
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedItemAsset.MaxDurability
+  nameWithType: UnturnedItemAsset.MaxDurability
+- uid: OpenMod.Unturned.Items.UnturnedItemAsset.MaxQuality
+  name: MaxQuality
+  href: api/OpenMod.Unturned.Items.UnturnedItemAsset.html#OpenMod_Unturned_Items_UnturnedItemAsset_MaxQuality
+  commentId: P:OpenMod.Unturned.Items.UnturnedItemAsset.MaxQuality
+  fullName: OpenMod.Unturned.Items.UnturnedItemAsset.MaxQuality
+  nameWithType: UnturnedItemAsset.MaxQuality
+- uid: OpenMod.Unturned.Items.UnturnedItemAsset.MaxQuality*
+  name: MaxQuality
+  href: api/OpenMod.Unturned.Items.UnturnedItemAsset.html#OpenMod_Unturned_Items_UnturnedItemAsset_MaxQuality_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedItemAsset.MaxQuality
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedItemAsset.MaxQuality
+  nameWithType: UnturnedItemAsset.MaxQuality
 - uid: OpenMod.Unturned.Items.UnturnedItemDirectory
   name: UnturnedItemDirectory
   href: api/OpenMod.Unturned.Items.UnturnedItemDirectory.html
@@ -30184,6 +30718,74 @@ references:
   commentId: N:OpenMod.Unturned.Players
   fullName: OpenMod.Unturned.Players
   nameWithType: OpenMod.Unturned.Players
+- uid: OpenMod.Unturned.Players.Animator
+  name: OpenMod.Unturned.Players.Animator
+  href: api/OpenMod.Unturned.Players.Animator.html
+  commentId: N:OpenMod.Unturned.Players.Animator
+  fullName: OpenMod.Unturned.Players.Animator
+  nameWithType: OpenMod.Unturned.Players.Animator
+- uid: OpenMod.Unturned.Players.Animator.Events
+  name: OpenMod.Unturned.Players.Animator.Events
+  href: api/OpenMod.Unturned.Players.Animator.Events.html
+  commentId: N:OpenMod.Unturned.Players.Animator.Events
+  fullName: OpenMod.Unturned.Players.Animator.Events
+  nameWithType: OpenMod.Unturned.Players.Animator.Events
+- uid: OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent
+  name: UnturnedPlayerLeanUpdatedEvent
+  href: api/OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.html
+  commentId: T:OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent
+  fullName: OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent
+  nameWithType: UnturnedPlayerLeanUpdatedEvent
+- uid: OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Players.Animator.LeanType)
+  name: UnturnedPlayerLeanUpdatedEvent(UnturnedPlayer, LeanType)
+  href: api/OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.html#OpenMod_Unturned_Players_Animator_Events_UnturnedPlayerLeanUpdatedEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Players_Animator_LeanType_
+  commentId: M:OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Players.Animator.LeanType)
+  fullName: OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.UnturnedPlayerLeanUpdatedEvent(OpenMod.Unturned.Players.UnturnedPlayer, OpenMod.Unturned.Players.Animator.LeanType)
+  nameWithType: UnturnedPlayerLeanUpdatedEvent.UnturnedPlayerLeanUpdatedEvent(UnturnedPlayer, LeanType)
+- uid: OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.#ctor*
+  name: UnturnedPlayerLeanUpdatedEvent
+  href: api/OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.html#OpenMod_Unturned_Players_Animator_Events_UnturnedPlayerLeanUpdatedEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.UnturnedPlayerLeanUpdatedEvent
+  nameWithType: UnturnedPlayerLeanUpdatedEvent.UnturnedPlayerLeanUpdatedEvent
+- uid: OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.Lean
+  name: Lean
+  href: api/OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.html#OpenMod_Unturned_Players_Animator_Events_UnturnedPlayerLeanUpdatedEvent_Lean
+  commentId: P:OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.Lean
+  fullName: OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.Lean
+  nameWithType: UnturnedPlayerLeanUpdatedEvent.Lean
+- uid: OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.Lean*
+  name: Lean
+  href: api/OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.html#OpenMod_Unturned_Players_Animator_Events_UnturnedPlayerLeanUpdatedEvent_Lean_
+  commentId: Overload:OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.Lean
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.Lean
+  nameWithType: UnturnedPlayerLeanUpdatedEvent.Lean
+- uid: OpenMod.Unturned.Players.Animator.LeanType
+  name: LeanType
+  href: api/OpenMod.Unturned.Players.Animator.LeanType.html
+  commentId: T:OpenMod.Unturned.Players.Animator.LeanType
+  fullName: OpenMod.Unturned.Players.Animator.LeanType
+  nameWithType: LeanType
+- uid: OpenMod.Unturned.Players.Animator.LeanType.Center
+  name: Center
+  href: api/OpenMod.Unturned.Players.Animator.LeanType.html#OpenMod_Unturned_Players_Animator_LeanType_Center
+  commentId: F:OpenMod.Unturned.Players.Animator.LeanType.Center
+  fullName: OpenMod.Unturned.Players.Animator.LeanType.Center
+  nameWithType: LeanType.Center
+- uid: OpenMod.Unturned.Players.Animator.LeanType.Left
+  name: Left
+  href: api/OpenMod.Unturned.Players.Animator.LeanType.html#OpenMod_Unturned_Players_Animator_LeanType_Left
+  commentId: F:OpenMod.Unturned.Players.Animator.LeanType.Left
+  fullName: OpenMod.Unturned.Players.Animator.LeanType.Left
+  nameWithType: LeanType.Left
+- uid: OpenMod.Unturned.Players.Animator.LeanType.Right
+  name: Right
+  href: api/OpenMod.Unturned.Players.Animator.LeanType.html#OpenMod_Unturned_Players_Animator_LeanType_Right
+  commentId: F:OpenMod.Unturned.Players.Animator.LeanType.Right
+  fullName: OpenMod.Unturned.Players.Animator.LeanType.Right
+  nameWithType: LeanType.Right
 - uid: OpenMod.Unturned.Players.Bans.Events
   name: OpenMod.Unturned.Players.Bans.Events
   href: api/OpenMod.Unturned.Players.Bans.Events.html
@@ -30280,12 +30882,12 @@ references:
   commentId: T:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent
   fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent
   nameWithType: UnturnedPlayerBanningEvent
-- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.#ctor(CSteamID,CSteamID,System.UInt32,System.String,System.UInt32)
-  name: UnturnedPlayerBanningEvent(CSteamID, CSteamID, UInt32, String, UInt32)
-  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent__ctor_CSteamID_CSteamID_System_UInt32_System_String_System_UInt32_
-  commentId: M:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.#ctor(CSteamID,CSteamID,System.UInt32,System.String,System.UInt32)
-  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.UnturnedPlayerBanningEvent(CSteamID, CSteamID, System.UInt32, System.String, System.UInt32)
-  nameWithType: UnturnedPlayerBanningEvent.UnturnedPlayerBanningEvent(CSteamID, CSteamID, UInt32, String, UInt32)
+- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.String,System.String,System.Net.IPAddress,System.String,System.TimeSpan)
+  name: UnturnedPlayerBanningEvent(UnturnedPlayer, String, String, IPAddress, String, TimeSpan)
+  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_String_System_String_System_Net_IPAddress_System_String_System_TimeSpan_
+  commentId: M:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.String,System.String,System.Net.IPAddress,System.String,System.TimeSpan)
+  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.UnturnedPlayerBanningEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.String, System.String, System.Net.IPAddress, System.String, System.TimeSpan)
+  nameWithType: UnturnedPlayerBanningEvent.UnturnedPlayerBanningEvent(UnturnedPlayer, String, String, IPAddress, String, TimeSpan)
 - uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.#ctor*
   name: UnturnedPlayerBanningEvent
   href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent__ctor_
@@ -30293,6 +30895,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.UnturnedPlayerBanningEvent
   nameWithType: UnturnedPlayerBanningEvent.UnturnedPlayerBanningEvent
+- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.AddressToBan
+  name: AddressToBan
+  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_AddressToBan
+  commentId: P:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.AddressToBan
+  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.AddressToBan
+  nameWithType: UnturnedPlayerBanningEvent.AddressToBan
+- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.AddressToBan*
+  name: AddressToBan
+  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_AddressToBan_
+  commentId: Overload:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.AddressToBan
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.AddressToBan
+  nameWithType: UnturnedPlayerBanningEvent.AddressToBan
 - uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.Duration
   name: Duration
   href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_Duration
@@ -30306,19 +30921,32 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.Duration
   nameWithType: UnturnedPlayerBanningEvent.Duration
-- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.Instigator
-  name: Instigator
-  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_Instigator
-  commentId: P:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.Instigator
-  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.Instigator
-  nameWithType: UnturnedPlayerBanningEvent.Instigator
-- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.Instigator*
-  name: Instigator
-  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_Instigator_
-  commentId: Overload:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.Instigator
+- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorId
+  name: InstigatorId
+  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_InstigatorId
+  commentId: P:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorId
+  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorId
+  nameWithType: UnturnedPlayerBanningEvent.InstigatorId
+- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorId*
+  name: InstigatorId
+  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_InstigatorId_
+  commentId: Overload:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorId
   isSpec: "True"
-  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.Instigator
-  nameWithType: UnturnedPlayerBanningEvent.Instigator
+  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorId
+  nameWithType: UnturnedPlayerBanningEvent.InstigatorId
+- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorType
+  name: InstigatorType
+  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_InstigatorType
+  commentId: P:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorType
+  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorType
+  nameWithType: UnturnedPlayerBanningEvent.InstigatorType
+- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorType*
+  name: InstigatorType
+  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_InstigatorType_
+  commentId: Overload:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorType
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorType
+  nameWithType: UnturnedPlayerBanningEvent.InstigatorType
 - uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.IPToBan
   name: IPToBan
   href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_IPToBan
@@ -30345,19 +30973,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.IsCancelled
   nameWithType: UnturnedPlayerBanningEvent.IsCancelled
-- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.PlayerToBan
-  name: PlayerToBan
-  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_PlayerToBan
-  commentId: P:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.PlayerToBan
-  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.PlayerToBan
-  nameWithType: UnturnedPlayerBanningEvent.PlayerToBan
-- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.PlayerToBan*
-  name: PlayerToBan
-  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_PlayerToBan_
-  commentId: Overload:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.PlayerToBan
-  isSpec: "True"
-  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.PlayerToBan
-  nameWithType: UnturnedPlayerBanningEvent.PlayerToBan
 - uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.Reason
   name: Reason
   href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_Reason
@@ -30811,12 +31426,12 @@ references:
   commentId: T:OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent
   fullName: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent
   nameWithType: UnturnedPlayerClothingEquippedEvent
-- uid: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedItem,OpenMod.Unturned.Players.Clothing.ClothingType)
-  name: UnturnedPlayerClothingEquippedEvent(UnturnedPlayer, UnturnedItem, ClothingType)
-  href: api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent.html#OpenMod_Unturned_Players_Clothing_Events_UnturnedPlayerClothingEquippedEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Items_UnturnedItem_OpenMod_Unturned_Players_Clothing_ClothingType_
-  commentId: M:OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedItem,OpenMod.Unturned.Players.Clothing.ClothingType)
-  fullName: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent.UnturnedPlayerClothingEquippedEvent(OpenMod.Unturned.Players.UnturnedPlayer, OpenMod.Unturned.Items.UnturnedItem, OpenMod.Unturned.Players.Clothing.ClothingType)
-  nameWithType: UnturnedPlayerClothingEquippedEvent.UnturnedPlayerClothingEquippedEvent(UnturnedPlayer, UnturnedItem, ClothingType)
+- uid: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedClothingItem)
+  name: UnturnedPlayerClothingEquippedEvent(UnturnedPlayer, UnturnedClothingItem)
+  href: api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent.html#OpenMod_Unturned_Players_Clothing_Events_UnturnedPlayerClothingEquippedEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Items_UnturnedClothingItem_
+  commentId: M:OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedClothingItem)
+  fullName: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent.UnturnedPlayerClothingEquippedEvent(OpenMod.Unturned.Players.UnturnedPlayer, OpenMod.Unturned.Items.UnturnedClothingItem)
+  nameWithType: UnturnedPlayerClothingEquippedEvent.UnturnedPlayerClothingEquippedEvent(UnturnedPlayer, UnturnedClothingItem)
 - uid: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent.#ctor*
   name: UnturnedPlayerClothingEquippedEvent
   href: api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent.html#OpenMod_Unturned_Players_Clothing_Events_UnturnedPlayerClothingEquippedEvent__ctor_
@@ -30843,12 +31458,12 @@ references:
   commentId: T:OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent
   fullName: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent
   nameWithType: UnturnedPlayerClothingEquippingEvent
-- uid: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedItem,OpenMod.Unturned.Players.Clothing.ClothingType)
-  name: UnturnedPlayerClothingEquippingEvent(UnturnedPlayer, UnturnedItem, ClothingType)
-  href: api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent.html#OpenMod_Unturned_Players_Clothing_Events_UnturnedPlayerClothingEquippingEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Items_UnturnedItem_OpenMod_Unturned_Players_Clothing_ClothingType_
-  commentId: M:OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedItem,OpenMod.Unturned.Players.Clothing.ClothingType)
-  fullName: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent.UnturnedPlayerClothingEquippingEvent(OpenMod.Unturned.Players.UnturnedPlayer, OpenMod.Unturned.Items.UnturnedItem, OpenMod.Unturned.Players.Clothing.ClothingType)
-  nameWithType: UnturnedPlayerClothingEquippingEvent.UnturnedPlayerClothingEquippingEvent(UnturnedPlayer, UnturnedItem, ClothingType)
+- uid: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedClothingItem)
+  name: UnturnedPlayerClothingEquippingEvent(UnturnedPlayer, UnturnedClothingItem)
+  href: api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent.html#OpenMod_Unturned_Players_Clothing_Events_UnturnedPlayerClothingEquippingEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Items_UnturnedClothingItem_
+  commentId: M:OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedClothingItem)
+  fullName: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent.UnturnedPlayerClothingEquippingEvent(OpenMod.Unturned.Players.UnturnedPlayer, OpenMod.Unturned.Items.UnturnedClothingItem)
+  nameWithType: UnturnedPlayerClothingEquippingEvent.UnturnedPlayerClothingEquippingEvent(UnturnedPlayer, UnturnedClothingItem)
 - uid: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent.#ctor*
   name: UnturnedPlayerClothingEquippingEvent
   href: api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent.html#OpenMod_Unturned_Players_Clothing_Events_UnturnedPlayerClothingEquippingEvent__ctor_
@@ -30907,12 +31522,12 @@ references:
   commentId: T:OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent
   fullName: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent
   nameWithType: UnturnedPlayerClothingUnequippingEvent
-- uid: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedItem,OpenMod.Unturned.Players.Clothing.ClothingType)
-  name: UnturnedPlayerClothingUnequippingEvent(UnturnedPlayer, UnturnedItem, ClothingType)
-  href: api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent.html#OpenMod_Unturned_Players_Clothing_Events_UnturnedPlayerClothingUnequippingEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Items_UnturnedItem_OpenMod_Unturned_Players_Clothing_ClothingType_
-  commentId: M:OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedItem,OpenMod.Unturned.Players.Clothing.ClothingType)
-  fullName: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent.UnturnedPlayerClothingUnequippingEvent(OpenMod.Unturned.Players.UnturnedPlayer, OpenMod.Unturned.Items.UnturnedItem, OpenMod.Unturned.Players.Clothing.ClothingType)
-  nameWithType: UnturnedPlayerClothingUnequippingEvent.UnturnedPlayerClothingUnequippingEvent(UnturnedPlayer, UnturnedItem, ClothingType)
+- uid: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedClothingItem)
+  name: UnturnedPlayerClothingUnequippingEvent(UnturnedPlayer, UnturnedClothingItem)
+  href: api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent.html#OpenMod_Unturned_Players_Clothing_Events_UnturnedPlayerClothingUnequippingEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Items_UnturnedClothingItem_
+  commentId: M:OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Items.UnturnedClothingItem)
+  fullName: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent.UnturnedPlayerClothingUnequippingEvent(OpenMod.Unturned.Players.UnturnedPlayer, OpenMod.Unturned.Items.UnturnedClothingItem)
+  nameWithType: UnturnedPlayerClothingUnequippingEvent.UnturnedPlayerClothingUnequippingEvent(UnturnedPlayer, UnturnedClothingItem)
 - uid: OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent.#ctor*
   name: UnturnedPlayerClothingUnequippingEvent
   href: api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent.html#OpenMod_Unturned_Players_Clothing_Events_UnturnedPlayerClothingUnequippingEvent__ctor_
@@ -33038,6 +33653,40 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.MaxHealth
   nameWithType: UnturnedPlayer.MaxHealth
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Items#IHasInventory#Inventory
+  name: IHasInventory.Inventory
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Items_IHasInventory_Inventory
+  commentId: P:OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Items#IHasInventory#Inventory
+  name.vb: OpenMod.Extensions.Games.Abstractions.Items.IHasInventory.Inventory
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.OpenMod.Extensions.Games.Abstractions.Items.IHasInventory.Inventory
+  nameWithType: UnturnedPlayer.IHasInventory.Inventory
+  nameWithType.vb: UnturnedPlayer.OpenMod.Extensions.Games.Abstractions.Items.IHasInventory.Inventory
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Items#IHasInventory#Inventory*
+  name: IHasInventory.Inventory
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Items_IHasInventory_Inventory_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Items#IHasInventory#Inventory
+  isSpec: "True"
+  name.vb: OpenMod.Extensions.Games.Abstractions.Items.IHasInventory.Inventory
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.OpenMod.Extensions.Games.Abstractions.Items.IHasInventory.Inventory
+  nameWithType: UnturnedPlayer.IHasInventory.Inventory
+  nameWithType.vb: UnturnedPlayer.OpenMod.Extensions.Games.Abstractions.Items.IHasInventory.Inventory
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Vehicles#ICanEnterVehicle#CurrentVehicle
+  name: ICanEnterVehicle.CurrentVehicle
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Vehicles_ICanEnterVehicle_CurrentVehicle
+  commentId: P:OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Vehicles#ICanEnterVehicle#CurrentVehicle
+  name.vb: OpenMod.Extensions.Games.Abstractions.Vehicles.ICanEnterVehicle.CurrentVehicle
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.OpenMod.Extensions.Games.Abstractions.Vehicles.ICanEnterVehicle.CurrentVehicle
+  nameWithType: UnturnedPlayer.ICanEnterVehicle.CurrentVehicle
+  nameWithType.vb: UnturnedPlayer.OpenMod.Extensions.Games.Abstractions.Vehicles.ICanEnterVehicle.CurrentVehicle
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Vehicles#ICanEnterVehicle#CurrentVehicle*
+  name: ICanEnterVehicle.CurrentVehicle
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Vehicles_ICanEnterVehicle_CurrentVehicle_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Vehicles#ICanEnterVehicle#CurrentVehicle
+  isSpec: "True"
+  name.vb: OpenMod.Extensions.Games.Abstractions.Vehicles.ICanEnterVehicle.CurrentVehicle
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.OpenMod.Extensions.Games.Abstractions.Vehicles.ICanEnterVehicle.CurrentVehicle
+  nameWithType: UnturnedPlayer.ICanEnterVehicle.CurrentVehicle
+  nameWithType.vb: UnturnedPlayer.OpenMod.Extensions.Games.Abstractions.Vehicles.ICanEnterVehicle.CurrentVehicle
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.Player
   name: Player
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Player
@@ -33095,12 +33744,12 @@ references:
   commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3)
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3)
   nameWithType: UnturnedPlayer.SetPositionAsync(Vector3)
-- uid: OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Vector3)
-  name: SetPositionAsync(Vector3, Vector3)
-  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetPositionAsync_System_Numerics_Vector3_System_Numerics_Vector3_
-  commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Vector3)
-  fullName: OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3, System.Numerics.Vector3)
-  nameWithType: UnturnedPlayer.SetPositionAsync(Vector3, Vector3)
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Quaternion)
+  name: SetPositionAsync(Vector3, Quaternion)
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetPositionAsync_System_Numerics_Vector3_System_Numerics_Quaternion_
+  commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Quaternion)
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3, System.Numerics.Quaternion)
+  nameWithType: UnturnedPlayer.SetPositionAsync(Vector3, Quaternion)
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync*
   name: SetPositionAsync
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetPositionAsync_
@@ -35951,6 +36600,31 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Users.UnturnedUserProvider.UnturnedUserProvider
   nameWithType: UnturnedUserProvider.UnturnedUserProvider
+- uid: OpenMod.Unturned.Users.UnturnedUserProvider.BanAsync(IUser,System.Nullable{IUser},System.String,System.Nullable{System.DateTime})
+  name: BanAsync(IUser, Nullable<IUser>, String, Nullable<DateTime>)
+  href: api/OpenMod.Unturned.Users.UnturnedUserProvider.html#OpenMod_Unturned_Users_UnturnedUserProvider_BanAsync_IUser_System_Nullable_IUser__System_String_System_Nullable_System_DateTime__
+  commentId: M:OpenMod.Unturned.Users.UnturnedUserProvider.BanAsync(IUser,System.Nullable{IUser},System.String,System.Nullable{System.DateTime})
+  name.vb: BanAsync(IUser, Nullable(Of IUser), String, Nullable(Of DateTime))
+  fullName: OpenMod.Unturned.Users.UnturnedUserProvider.BanAsync(IUser, System.Nullable<IUser>, System.String, System.Nullable<System.DateTime>)
+  fullName.vb: OpenMod.Unturned.Users.UnturnedUserProvider.BanAsync(IUser, System.Nullable(Of IUser), System.String, System.Nullable(Of System.DateTime))
+  nameWithType: UnturnedUserProvider.BanAsync(IUser, Nullable<IUser>, String, Nullable<DateTime>)
+  nameWithType.vb: UnturnedUserProvider.BanAsync(IUser, Nullable(Of IUser), String, Nullable(Of DateTime))
+- uid: OpenMod.Unturned.Users.UnturnedUserProvider.BanAsync(IUser,System.String,System.Nullable{System.DateTime})
+  name: BanAsync(IUser, String, Nullable<DateTime>)
+  href: api/OpenMod.Unturned.Users.UnturnedUserProvider.html#OpenMod_Unturned_Users_UnturnedUserProvider_BanAsync_IUser_System_String_System_Nullable_System_DateTime__
+  commentId: M:OpenMod.Unturned.Users.UnturnedUserProvider.BanAsync(IUser,System.String,System.Nullable{System.DateTime})
+  name.vb: BanAsync(IUser, String, Nullable(Of DateTime))
+  fullName: OpenMod.Unturned.Users.UnturnedUserProvider.BanAsync(IUser, System.String, System.Nullable<System.DateTime>)
+  fullName.vb: OpenMod.Unturned.Users.UnturnedUserProvider.BanAsync(IUser, System.String, System.Nullable(Of System.DateTime))
+  nameWithType: UnturnedUserProvider.BanAsync(IUser, String, Nullable<DateTime>)
+  nameWithType.vb: UnturnedUserProvider.BanAsync(IUser, String, Nullable(Of DateTime))
+- uid: OpenMod.Unturned.Users.UnturnedUserProvider.BanAsync*
+  name: BanAsync
+  href: api/OpenMod.Unturned.Users.UnturnedUserProvider.html#OpenMod_Unturned_Users_UnturnedUserProvider_BanAsync_
+  commentId: Overload:OpenMod.Unturned.Users.UnturnedUserProvider.BanAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Users.UnturnedUserProvider.BanAsync
+  nameWithType: UnturnedUserProvider.BanAsync
 - uid: OpenMod.Unturned.Users.UnturnedUserProvider.BroadcastAsync(System.String,System.Nullable{System.Drawing.Color})
   name: BroadcastAsync(String, Nullable<Color>)
   href: api/OpenMod.Unturned.Users.UnturnedUserProvider.html#OpenMod_Unturned_Users_UnturnedUserProvider_BroadcastAsync_System_String_System_Nullable_System_Drawing_Color__
@@ -36088,6 +36762,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Users.UnturnedUserProvider.GetUsersAsync
   nameWithType: UnturnedUserProvider.GetUsersAsync
+- uid: OpenMod.Unturned.Users.UnturnedUserProvider.KickAsync(IUser,System.String)
+  name: KickAsync(IUser, String)
+  href: api/OpenMod.Unturned.Users.UnturnedUserProvider.html#OpenMod_Unturned_Users_UnturnedUserProvider_KickAsync_IUser_System_String_
+  commentId: M:OpenMod.Unturned.Users.UnturnedUserProvider.KickAsync(IUser,System.String)
+  fullName: OpenMod.Unturned.Users.UnturnedUserProvider.KickAsync(IUser, System.String)
+  nameWithType: UnturnedUserProvider.KickAsync(IUser, String)
+- uid: OpenMod.Unturned.Users.UnturnedUserProvider.KickAsync*
+  name: KickAsync
+  href: api/OpenMod.Unturned.Users.UnturnedUserProvider.html#OpenMod_Unturned_Users_UnturnedUserProvider_KickAsync_
+  commentId: Overload:OpenMod.Unturned.Users.UnturnedUserProvider.KickAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Users.UnturnedUserProvider.KickAsync
+  nameWithType: UnturnedUserProvider.KickAsync
 - uid: OpenMod.Unturned.Users.UnturnedUserProvider.OnPendingPlayerConnecting(ValidateAuthTicketResponse_t,System.Boolean@,System.String@)
   name: OnPendingPlayerConnecting(ValidateAuthTicketResponse_t, ref Boolean, ref String)
   href: api/OpenMod.Unturned.Users.UnturnedUserProvider.html#OpenMod_Unturned_Users_UnturnedUserProvider_OnPendingPlayerConnecting_ValidateAuthTicketResponse_t_System_Boolean__System_String__
@@ -37697,12 +38384,12 @@ references:
   commentId: T:OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner
   fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner
   nameWithType: UnturnedVehicleSpawner
-- uid: OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner.SpawnVehicleAsync(System.Numerics.Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
-  name: SpawnVehicleAsync(Vector3, String, IVehicleState)
-  href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner.html#OpenMod_Unturned_Vehicles_UnturnedVehicleSpawner_SpawnVehicleAsync_System_Numerics_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_
-  commentId: M:OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner.SpawnVehicleAsync(System.Numerics.Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
-  fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner.SpawnVehicleAsync(System.Numerics.Vector3, System.String, OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
-  nameWithType: UnturnedVehicleSpawner.SpawnVehicleAsync(Vector3, String, IVehicleState)
+- uid: OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner.SpawnVehicleAsync(System.Numerics.Vector3,System.Numerics.Quaternion,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  name: SpawnVehicleAsync(Vector3, Quaternion, String, IVehicleState)
+  href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner.html#OpenMod_Unturned_Vehicles_UnturnedVehicleSpawner_SpawnVehicleAsync_System_Numerics_Vector3_System_Numerics_Quaternion_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_
+  commentId: M:OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner.SpawnVehicleAsync(System.Numerics.Vector3,System.Numerics.Quaternion,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner.SpawnVehicleAsync(System.Numerics.Vector3, System.Numerics.Quaternion, System.String, OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)
+  nameWithType: UnturnedVehicleSpawner.SpawnVehicleAsync(Vector3, Quaternion, String, IVehicleState)
 - uid: OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner.SpawnVehicleAsync*
   name: SpawnVehicleAsync
   href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner.html#OpenMod_Unturned_Vehicles_UnturnedVehicleSpawner_SpawnVehicleAsync_
@@ -37742,6 +38429,18 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleState.StateData
   nameWithType: UnturnedVehicleState.StateData
+- uid: OpenMod.Unturned.Workshop.Events
+  name: OpenMod.Unturned.Workshop.Events
+  href: api/OpenMod.Unturned.Workshop.Events.html
+  commentId: N:OpenMod.Unturned.Workshop.Events
+  fullName: OpenMod.Unturned.Workshop.Events
+  nameWithType: OpenMod.Unturned.Workshop.Events
+- uid: OpenMod.Unturned.Workshop.Events.UnturnedWorkshopLoadedEvent
+  name: UnturnedWorkshopLoadedEvent
+  href: api/OpenMod.Unturned.Workshop.Events.UnturnedWorkshopLoadedEvent.html
+  commentId: T:OpenMod.Unturned.Workshop.Events.UnturnedWorkshopLoadedEvent
+  fullName: OpenMod.Unturned.Workshop.Events.UnturnedWorkshopLoadedEvent
+  nameWithType: UnturnedWorkshopLoadedEvent
 - uid: OpenMod.Unturned.Zombies
   name: OpenMod.Unturned.Zombies
   href: api/OpenMod.Unturned.Zombies.html
@@ -37888,12 +38587,12 @@ references:
   commentId: T:OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent
   fullName: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent
   nameWithType: UnturnedZombieDamagingEvent
-- uid: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.#ctor(OpenMod.Unturned.Zombies.UnturnedZombie,OpenMod.Unturned.Players.UnturnedPlayer,System.UInt16,Vector3,ERagdollEffect,EZombieStunOverride)
-  name: UnturnedZombieDamagingEvent(UnturnedZombie, UnturnedPlayer, UInt16, Vector3, ERagdollEffect, EZombieStunOverride)
-  href: api/OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.html#OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent__ctor_OpenMod_Unturned_Zombies_UnturnedZombie_OpenMod_Unturned_Players_UnturnedPlayer_System_UInt16_Vector3_ERagdollEffect_EZombieStunOverride_
-  commentId: M:OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.#ctor(OpenMod.Unturned.Zombies.UnturnedZombie,OpenMod.Unturned.Players.UnturnedPlayer,System.UInt16,Vector3,ERagdollEffect,EZombieStunOverride)
-  fullName: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.UnturnedZombieDamagingEvent(OpenMod.Unturned.Zombies.UnturnedZombie, OpenMod.Unturned.Players.UnturnedPlayer, System.UInt16, Vector3, ERagdollEffect, EZombieStunOverride)
-  nameWithType: UnturnedZombieDamagingEvent.UnturnedZombieDamagingEvent(UnturnedZombie, UnturnedPlayer, UInt16, Vector3, ERagdollEffect, EZombieStunOverride)
+- uid: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.#ctor(OpenMod.Unturned.Zombies.UnturnedZombie,OpenMod.Unturned.Players.UnturnedPlayer,System.UInt16,Vector3,ERagdollEffect,EZombieStunOverride,ELimb)
+  name: UnturnedZombieDamagingEvent(UnturnedZombie, UnturnedPlayer, UInt16, Vector3, ERagdollEffect, EZombieStunOverride, ELimb)
+  href: api/OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.html#OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent__ctor_OpenMod_Unturned_Zombies_UnturnedZombie_OpenMod_Unturned_Players_UnturnedPlayer_System_UInt16_Vector3_ERagdollEffect_EZombieStunOverride_ELimb_
+  commentId: M:OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.#ctor(OpenMod.Unturned.Zombies.UnturnedZombie,OpenMod.Unturned.Players.UnturnedPlayer,System.UInt16,Vector3,ERagdollEffect,EZombieStunOverride,ELimb)
+  fullName: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.UnturnedZombieDamagingEvent(OpenMod.Unturned.Zombies.UnturnedZombie, OpenMod.Unturned.Players.UnturnedPlayer, System.UInt16, Vector3, ERagdollEffect, EZombieStunOverride, ELimb)
+  nameWithType: UnturnedZombieDamagingEvent.UnturnedZombieDamagingEvent(UnturnedZombie, UnturnedPlayer, UInt16, Vector3, ERagdollEffect, EZombieStunOverride, ELimb)
 - uid: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.#ctor*
   name: UnturnedZombieDamagingEvent
   href: api/OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.html#OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent__ctor_
@@ -37940,6 +38639,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.IsCancelled
   nameWithType: UnturnedZombieDamagingEvent.IsCancelled
+- uid: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.Limb
+  name: Limb
+  href: api/OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.html#OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent_Limb
+  commentId: P:OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.Limb
+  fullName: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.Limb
+  nameWithType: UnturnedZombieDamagingEvent.Limb
+- uid: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.Limb*
+  name: Limb
+  href: api/OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.html#OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent_Limb_
+  commentId: Overload:OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.Limb
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.Limb
+  nameWithType: UnturnedZombieDamagingEvent.Limb
 - uid: OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.Ragdoll
   name: Ragdoll
   href: api/OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.html#OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent_Ragdoll
@@ -38030,12 +38742,12 @@ references:
   commentId: T:OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent
   fullName: OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent
   nameWithType: UnturnedZombieDyingEvent
-- uid: OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent.#ctor(OpenMod.Unturned.Zombies.UnturnedZombie,OpenMod.Unturned.Players.UnturnedPlayer,System.UInt16,Vector3,ERagdollEffect,EZombieStunOverride)
-  name: UnturnedZombieDyingEvent(UnturnedZombie, UnturnedPlayer, UInt16, Vector3, ERagdollEffect, EZombieStunOverride)
-  href: api/OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent.html#OpenMod_Unturned_Zombies_Events_UnturnedZombieDyingEvent__ctor_OpenMod_Unturned_Zombies_UnturnedZombie_OpenMod_Unturned_Players_UnturnedPlayer_System_UInt16_Vector3_ERagdollEffect_EZombieStunOverride_
-  commentId: M:OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent.#ctor(OpenMod.Unturned.Zombies.UnturnedZombie,OpenMod.Unturned.Players.UnturnedPlayer,System.UInt16,Vector3,ERagdollEffect,EZombieStunOverride)
-  fullName: OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent.UnturnedZombieDyingEvent(OpenMod.Unturned.Zombies.UnturnedZombie, OpenMod.Unturned.Players.UnturnedPlayer, System.UInt16, Vector3, ERagdollEffect, EZombieStunOverride)
-  nameWithType: UnturnedZombieDyingEvent.UnturnedZombieDyingEvent(UnturnedZombie, UnturnedPlayer, UInt16, Vector3, ERagdollEffect, EZombieStunOverride)
+- uid: OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent.#ctor(OpenMod.Unturned.Zombies.UnturnedZombie,OpenMod.Unturned.Players.UnturnedPlayer,System.UInt16,Vector3,ERagdollEffect,EZombieStunOverride,ELimb)
+  name: UnturnedZombieDyingEvent(UnturnedZombie, UnturnedPlayer, UInt16, Vector3, ERagdollEffect, EZombieStunOverride, ELimb)
+  href: api/OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent.html#OpenMod_Unturned_Zombies_Events_UnturnedZombieDyingEvent__ctor_OpenMod_Unturned_Zombies_UnturnedZombie_OpenMod_Unturned_Players_UnturnedPlayer_System_UInt16_Vector3_ERagdollEffect_EZombieStunOverride_ELimb_
+  commentId: M:OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent.#ctor(OpenMod.Unturned.Zombies.UnturnedZombie,OpenMod.Unturned.Players.UnturnedPlayer,System.UInt16,Vector3,ERagdollEffect,EZombieStunOverride,ELimb)
+  fullName: OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent.UnturnedZombieDyingEvent(OpenMod.Unturned.Zombies.UnturnedZombie, OpenMod.Unturned.Players.UnturnedPlayer, System.UInt16, Vector3, ERagdollEffect, EZombieStunOverride, ELimb)
+  nameWithType: UnturnedZombieDyingEvent.UnturnedZombieDyingEvent(UnturnedZombie, UnturnedPlayer, UInt16, Vector3, ERagdollEffect, EZombieStunOverride, ELimb)
 - uid: OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent.#ctor*
   name: UnturnedZombieDyingEvent
   href: api/OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent.html#OpenMod_Unturned_Zombies_Events_UnturnedZombieDyingEvent__ctor_
@@ -38255,12 +38967,12 @@ references:
   commentId: M:OpenMod.Unturned.Zombies.UnturnedZombie.SetPositionAsync(System.Numerics.Vector3)
   fullName: OpenMod.Unturned.Zombies.UnturnedZombie.SetPositionAsync(System.Numerics.Vector3)
   nameWithType: UnturnedZombie.SetPositionAsync(Vector3)
-- uid: OpenMod.Unturned.Zombies.UnturnedZombie.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Vector3)
-  name: SetPositionAsync(Vector3, Vector3)
-  href: api/OpenMod.Unturned.Zombies.UnturnedZombie.html#OpenMod_Unturned_Zombies_UnturnedZombie_SetPositionAsync_System_Numerics_Vector3_System_Numerics_Vector3_
-  commentId: M:OpenMod.Unturned.Zombies.UnturnedZombie.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Vector3)
-  fullName: OpenMod.Unturned.Zombies.UnturnedZombie.SetPositionAsync(System.Numerics.Vector3, System.Numerics.Vector3)
-  nameWithType: UnturnedZombie.SetPositionAsync(Vector3, Vector3)
+- uid: OpenMod.Unturned.Zombies.UnturnedZombie.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Quaternion)
+  name: SetPositionAsync(Vector3, Quaternion)
+  href: api/OpenMod.Unturned.Zombies.UnturnedZombie.html#OpenMod_Unturned_Zombies_UnturnedZombie_SetPositionAsync_System_Numerics_Vector3_System_Numerics_Quaternion_
+  commentId: M:OpenMod.Unturned.Zombies.UnturnedZombie.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Quaternion)
+  fullName: OpenMod.Unturned.Zombies.UnturnedZombie.SetPositionAsync(System.Numerics.Vector3, System.Numerics.Quaternion)
+  nameWithType: UnturnedZombie.SetPositionAsync(Vector3, Quaternion)
 - uid: OpenMod.Unturned.Zombies.UnturnedZombie.SetPositionAsync*
   name: SetPositionAsync
   href: api/OpenMod.Unturned.Zombies.UnturnedZombie.html#OpenMod_Unturned_Zombies_UnturnedZombie_SetPositionAsync_

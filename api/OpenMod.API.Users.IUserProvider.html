@@ -110,10 +110,138 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Users_IUserProvider_BanAsync_OpenMod_API_Users_IUser_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser%2COpenMod.API.Users.IUser%2CSystem.Nullable%7BSystem.String%7D%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L66">View Source</a>
+  </span>
+  <a id="OpenMod_API_Users_IUserProvider_BanAsync_" data-uid="OpenMod.API.Users.IUserProvider.BanAsync*"></a>
+  <h4 id="OpenMod_API_Users_IUserProvider_BanAsync_OpenMod_API_Users_IUser_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__" data-uid="OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser,OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})">BanAsync(IUser, IUser, Nullable&lt;String&gt;, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"><p>Ban a user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; BanAsync(IUser user, IUser instigator = null, string? reason = null, DateTime? endTime = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Users.IUser.html">IUser</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to ban.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Users.IUser.html">IUser</a></td>
+        <td><span class="parametername">instigator</span></td>
+        <td><p>The user that ban.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The reason of the user ban.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">endTime</span></td>
+        <td><p>The time when the ban will expire.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Users_IUserProvider_BanAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser%2CSystem.Nullable%7BSystem.String%7D%2CSystem.Nullable%7BDateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L57">View Source</a>
+  </span>
+  <a id="OpenMod_API_Users_IUserProvider_BanAsync_" data-uid="OpenMod.API.Users.IUserProvider.BanAsync*"></a>
+  <h4 id="OpenMod_API_Users_IUserProvider_BanAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__System_Nullable_DateTime__" data-uid="OpenMod.API.Users.IUserProvider.BanAsync(OpenMod.API.Users.IUser,System.Nullable{System.String},System.Nullable{DateTime})">BanAsync(IUser, Nullable&lt;String&gt;, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"><p>Ban a user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; BanAsync(IUser user, string? reason = null, DateTime? endTime = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Users.IUser.html">IUser</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to ban.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The reason of the user ban.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">endTime</span></td>
+        <td><p>The time when the ban will expire.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Users_IUserProvider_BroadcastAsync_System_String_System_Nullable_Color__.md&amp;value=---%0Auid%3A%20OpenMod.API.Users.IUserProvider.BroadcastAsync(System.String%2CSystem.Nullable%7BColor%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L40">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L41">View Source</a>
   </span>
   <a id="OpenMod_API_Users_IUserProvider_BroadcastAsync_" data-uid="OpenMod.API.Users.IUserProvider.BroadcastAsync*"></a>
   <h4 id="OpenMod_API_Users_IUserProvider_BroadcastAsync_System_String_System_Nullable_Color__" data-uid="OpenMod.API.Users.IUserProvider.BroadcastAsync(System.String,System.Nullable{Color})">BroadcastAsync(String, Nullable&lt;Color&gt;)</h4>
@@ -168,7 +296,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Users_IUserProvider_BroadcastAsync_System_String_System_String_System_Nullable_Color__.md&amp;value=---%0Auid%3A%20OpenMod.API.Users.IUserProvider.BroadcastAsync(System.String%2CSystem.String%2CSystem.Nullable%7BColor%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L48">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L49">View Source</a>
   </span>
   <a id="OpenMod_API_Users_IUserProvider_BroadcastAsync_" data-uid="OpenMod.API.Users.IUserProvider.BroadcastAsync*"></a>
   <h4 id="OpenMod_API_Users_IUserProvider_BroadcastAsync_System_String_System_String_System_Nullable_Color__" data-uid="OpenMod.API.Users.IUserProvider.BroadcastAsync(System.String,System.String,System.Nullable{Color})">BroadcastAsync(String, String, Nullable&lt;Color&gt;)</h4>
@@ -229,7 +357,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Users_IUserProvider_FindUserAsync_System_String_System_String_OpenMod_API_Users_UserSearchMode_.md&amp;value=---%0Auid%3A%20OpenMod.API.Users.IUserProvider.FindUserAsync(System.String%2CSystem.String%2COpenMod.API.Users.UserSearchMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L26">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L27">View Source</a>
   </span>
   <a id="OpenMod_API_Users_IUserProvider_FindUserAsync_" data-uid="OpenMod.API.Users.IUserProvider.FindUserAsync*"></a>
   <h4 id="OpenMod_API_Users_IUserProvider_FindUserAsync_System_String_System_String_OpenMod_API_Users_UserSearchMode_" data-uid="OpenMod.API.Users.IUserProvider.FindUserAsync(System.String,System.String,OpenMod.API.Users.UserSearchMode)">FindUserAsync(String, String, UserSearchMode)</h4>
@@ -291,7 +419,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Users_IUserProvider_GetUsersAsync_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.API.Users.IUserProvider.GetUsersAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L33">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L34">View Source</a>
   </span>
   <a id="OpenMod_API_Users_IUserProvider_GetUsersAsync_" data-uid="OpenMod.API.Users.IUserProvider.GetUsersAsync*"></a>
   <h4 id="OpenMod_API_Users_IUserProvider_GetUsersAsync_System_String_" data-uid="OpenMod.API.Users.IUserProvider.GetUsersAsync(System.String)">GetUsersAsync(String)</h4>
@@ -338,10 +466,65 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Users_IUserProvider_KickAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20OpenMod.API.Users.IUserProvider.KickAsync(OpenMod.API.Users.IUser%2CSystem.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L73">View Source</a>
+  </span>
+  <a id="OpenMod_API_Users_IUserProvider_KickAsync_" data-uid="OpenMod.API.Users.IUserProvider.KickAsync*"></a>
+  <h4 id="OpenMod_API_Users_IUserProvider_KickAsync_OpenMod_API_Users_IUser_System_Nullable_System_String__" data-uid="OpenMod.API.Users.IUserProvider.KickAsync(OpenMod.API.Users.IUser,System.Nullable{System.String})">KickAsync(IUser, Nullable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>KIck a user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; KickAsync(IUser user, string? reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Users.IUser.html">IUser</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to kick.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The reason of the user kick.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Users_IUserProvider_SupportsUserType_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.API.Users.IUserProvider.SupportsUserType(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L17">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Users/IUserProvider.cs/#L18">View Source</a>
   </span>
   <a id="OpenMod_API_Users_IUserProvider_SupportsUserType_" data-uid="OpenMod.API.Users.IUserProvider.SupportsUserType*"></a>
   <h4 id="OpenMod_API_Users_IUserProvider_SupportsUserType_System_String_" data-uid="OpenMod.API.Users.IUserProvider.SupportsUserType(System.String)">SupportsUserType(String)</h4>

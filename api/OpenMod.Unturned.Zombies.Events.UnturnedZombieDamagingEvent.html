@@ -127,18 +127,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent__ctor_OpenMod_Unturned_Zombies_UnturnedZombie_OpenMod_Unturned_Players_UnturnedPlayer_System_UInt16_Vector3_ERagdollEffect_EZombieStunOverride_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.%23ctor(OpenMod.Unturned.Zombies.UnturnedZombie%2COpenMod.Unturned.Players.UnturnedPlayer%2CSystem.UInt16%2CVector3%2CERagdollEffect%2CEZombieStunOverride)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent__ctor_OpenMod_Unturned_Zombies_UnturnedZombie_OpenMod_Unturned_Players_UnturnedPlayer_System_UInt16_Vector3_ERagdollEffect_EZombieStunOverride_ELimb_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.%23ctor(OpenMod.Unturned.Zombies.UnturnedZombie%2COpenMod.Unturned.Players.UnturnedPlayer%2CSystem.UInt16%2CVector3%2CERagdollEffect%2CEZombieStunOverride%2CELimb)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Zombies/Events/UnturnedZombieDamagingEvent.cs/#L41">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Zombies/Events/UnturnedZombieDamagingEvent.cs/#L46">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent__ctor_" data-uid="OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.#ctor*"></a>
-  <h4 id="OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent__ctor_OpenMod_Unturned_Zombies_UnturnedZombie_OpenMod_Unturned_Players_UnturnedPlayer_System_UInt16_Vector3_ERagdollEffect_EZombieStunOverride_" data-uid="OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.#ctor(OpenMod.Unturned.Zombies.UnturnedZombie,OpenMod.Unturned.Players.UnturnedPlayer,System.UInt16,Vector3,ERagdollEffect,EZombieStunOverride)">UnturnedZombieDamagingEvent(UnturnedZombie, UnturnedPlayer, UInt16, Vector3, ERagdollEffect, EZombieStunOverride)</h4>
+  <h4 id="OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent__ctor_OpenMod_Unturned_Zombies_UnturnedZombie_OpenMod_Unturned_Players_UnturnedPlayer_System_UInt16_Vector3_ERagdollEffect_EZombieStunOverride_ELimb_" data-uid="OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.#ctor(OpenMod.Unturned.Zombies.UnturnedZombie,OpenMod.Unturned.Players.UnturnedPlayer,System.UInt16,Vector3,ERagdollEffect,EZombieStunOverride,ELimb)">UnturnedZombieDamagingEvent(UnturnedZombie, UnturnedPlayer, UInt16, Vector3, ERagdollEffect, EZombieStunOverride, ELimb)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnturnedZombieDamagingEvent(UnturnedZombie zombie, UnturnedPlayer user, ushort damageAmount, Vector3 ragdoll, ERagdollEffect ragdollEffect, EZombieStunOverride stunOverride)</code></pre>
+    <pre><code class="lang-csharp hljs">public UnturnedZombieDamagingEvent(UnturnedZombie zombie, UnturnedPlayer user, ushort damageAmount, Vector3 ragdoll, ERagdollEffect ragdollEffect, EZombieStunOverride stunOverride, ELimb limb)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,6 +178,11 @@
       <tr>
         <td><span class="xref">EZombieStunOverride</span></td>
         <td><span class="parametername">stunOverride</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ELimb</span></td>
+        <td><span class="parametername">limb</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -251,7 +256,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent_IsCancelled.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.IsCancelled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Zombies/Events/UnturnedZombieDamagingEvent.cs/#L39">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Zombies/Events/UnturnedZombieDamagingEvent.cs/#L44">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent_IsCancelled_" data-uid="OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.IsCancelled*"></a>
   <h4 id="OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent_IsCancelled" data-uid="OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.IsCancelled">IsCancelled</h4>
@@ -272,6 +277,37 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent_Limb.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.Limb%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Zombies/Events/UnturnedZombieDamagingEvent.cs/#L42">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent_Limb_" data-uid="OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.Limb*"></a>
+  <h4 id="OpenMod_Unturned_Zombies_Events_UnturnedZombieDamagingEvent_Limb" data-uid="OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.Limb">Limb</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the ELimb.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ELimb Limb { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ELimb</span></td>
         <td></td>
       </tr>
     </tbody>

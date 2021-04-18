@@ -110,19 +110,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_.md&amp;value=---%0Auid%3A%20OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(Vector3%2CSystem.String%2COpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_OpenMod_Extensions_Games_Abstractions_Players_IPlayer_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_.md&amp;value=---%0Auid%3A%20OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Players.IPlayer%2CSystem.String%2COpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/extensions/OpenMod.Extensions.Games.Abstractions/Vehicles/IVehicleSpawner.cs/#L20">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/extensions/OpenMod.Extensions.Games.Abstractions/Vehicles/IVehicleSpawner.cs/#L31">View Source</a>
   </span>
   <a id="OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_" data-uid="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync*"></a>
-  <h4 id="OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_" data-uid="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)">SpawnVehicleAsync(Vector3, String, IVehicleState)</h4>
-  <div class="markdown level1 summary"><p>Spawns a vehicle at the given position.</p>
+  <h4 id="OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_OpenMod_Extensions_Games_Abstractions_Players_IPlayer_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_" data-uid="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(OpenMod.Extensions.Games.Abstractions.Players.IPlayer,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)">SpawnVehicleAsync(IPlayer, String, IVehicleState)</h4>
+  <div class="markdown level1 summary"><p>Spawns a vehicle for the given player.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IVehicle&gt; SpawnVehicleAsync(Vector3 position, string vehicleAssetId, IVehicleState state = null)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IVehicle&gt; SpawnVehicleAsync(IPlayer player, string vehicleAssetId, IVehicleState state = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -135,9 +135,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">position</span></td>
-        <td><p>The position to spawn the vehicle at.</p>
+        <td><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Players.IPlayer.html">IPlayer</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>The player to spawn the vehicle for.</p>
 </td>
       </tr>
       <tr>
@@ -165,7 +165,75 @@
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicle.html">IVehicle</a>&gt;</td>
-        <td><p><strong>The spawned vehicle</strong> if successful; otherwise, <strong>false</strong>.</p>
+        <td><p><strong>The spawned vehicle</strong> if successful; otherwise, <strong>null</strong>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_Vector3_Quaternion_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_.md&amp;value=---%0Auid%3A%20OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(Vector3%2CQuaternion%2CSystem.String%2COpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/extensions/OpenMod.Extensions.Games.Abstractions/Vehicles/IVehicleSpawner.cs/#L22">View Source</a>
+  </span>
+  <a id="OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_" data-uid="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync*"></a>
+  <h4 id="OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_SpawnVehicleAsync_Vector3_Quaternion_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_" data-uid="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.SpawnVehicleAsync(Vector3,Quaternion,System.String,OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState)">SpawnVehicleAsync(Vector3, Quaternion, String, IVehicleState)</h4>
+  <div class="markdown level1 summary"><p>Spawns a vehicle at the given position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IVehicle&gt; SpawnVehicleAsync(Vector3 position, Quaternion rotation, string vehicleAssetId, IVehicleState state = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position to spawn the vehicle at.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td><p>The rotation to spawn the vehicle in.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">vehicleAssetId</span></td>
+        <td><p>The ID of the vehicle asset.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleState.html">IVehicleState</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>The optional state of the vehicle.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicle.html">IVehicle</a>&gt;</td>
+        <td><p><strong>The spawned vehicle</strong> if successful; otherwise, <strong>null</strong>.</p>
 </td>
       </tr>
     </tbody>
@@ -173,6 +241,9 @@
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleSpawnerExtensions_SpawnVehicleAsync_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_OpenMod_Extensions_Games_Abstractions_Players_IPlayer_System_String_">VehicleSpawnerExtensions.SpawnVehicleAsync(IVehicleSpawner, IPlayer, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.html#OpenMod_Extensions_Games_Abstractions_Vehicles_VehicleSpawnerExtensions_SpawnVehicleAsync_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleSpawner_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleState_">VehicleSpawnerExtensions.SpawnVehicleAsync(IVehicleSpawner, Vector3, String, IVehicleState)</a>
   </div>
   <div>
       <a class="xref" href="OpenMod.Core.Helpers.DisposeHelper.html#OpenMod_Core_Helpers_DisposeHelper_DisposeSyncOrAsync_System_Object_">DisposeHelper.DisposeSyncOrAsync(Object)</a>

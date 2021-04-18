@@ -1002,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.API.Users.IUserManager.html",
-          "hash": "angN84eH4HxtRxyUXROa2g=="
+          "hash": "vEVAxhKMvHwqfyCj2xXP7A=="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.API.Users.IUserProvider.html",
-          "hash": "1SydAkOpRlZR4e+Yie9xuA=="
+          "hash": "fUjW9/w5sjg9c2g5E3fV2A=="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Common.Hotloading.Hotloader.html",
-          "hash": "x+q5ryCnu6RlE7Vkw024AQ=="
+          "hash": "V+e7g5zvxoTg2vKYAaDLZg=="
         }
       },
       "is_incremental": false,
@@ -3186,7 +3186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Plugins.PluginAssemblyStore.html",
-          "hash": "iKTr6mzNBFvxOtuSiisv7g=="
+          "hash": "2fqK+FWm+DTVLNK4qW7CUw=="
         }
       },
       "is_incremental": false,
@@ -3738,7 +3738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Users.OfflineUserProvider.html",
-          "hash": "bspIUTXbLAPGiUHBTCk4IA=="
+          "hash": "5GDk1zAcZk/VRPJs3H3SFw=="
         }
       },
       "is_incremental": false,
@@ -3798,7 +3798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Core.Users.UserManager.html",
-          "hash": "MqB1NGLU1wyi3XqRTDktqA=="
+          "hash": "Uls+/F4t8jN18jfWP8FgsQ=="
         }
       },
       "is_incremental": false,
@@ -4182,7 +4182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Entities.IEntity.html",
-          "hash": "9y/S9e69I/z8kVMyMEETiA=="
+          "hash": "re/TBhdGcRutiV05MDUt7Q=="
         }
       },
       "is_incremental": false,
@@ -4350,7 +4350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Items.IInventoryItem.html",
-          "hash": "sDPvFG8tOb5AqhdrRFqHvw=="
+          "hash": "WXfdenuTrwYtPSI1maM0qQ=="
         }
       },
       "is_incremental": false,
@@ -4374,7 +4374,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Items.IItem.html",
-          "hash": "7pV+z02iWqvy/PQ4noMTug=="
+          "hash": "BUPrFaYENYWvxolqZk6dCA=="
         }
       },
       "is_incremental": false,
@@ -4386,7 +4386,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Items.IItemAsset.html",
-          "hash": "1eVEfmtTBV4BnO5dvC1A7Q=="
+          "hash": "vystDwqDgRG+6aDX5CDpQQ=="
         }
       },
       "is_incremental": false,
@@ -4574,11 +4574,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Players.IBanningPlayerEvent.html",
+          "hash": "26bDmyrMwIs+4ssF44s7tQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Extensions.Games.Abstractions.Players.IPlayer.yml",
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Players.IPlayer.html",
-          "hash": "pRH3ev8HoT90s+7r9dzUKg=="
+          "hash": "GKblsMQ8j/qb1Ig6zIdgUA=="
         }
       },
       "is_incremental": false,
@@ -4818,7 +4830,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Players.html",
-          "hash": "BNvUtNG3Fl5ZCKUK+ZhHPg=="
+          "hash": "VwK+ohQD//tpi3zCxafw7g=="
         }
       },
       "is_incremental": false,
@@ -4830,7 +4842,19 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html",
-          "hash": "T32ZpNNAlzEODM5Z0vIx2Q=="
+          "hash": "UouQ7HllpmQkBu0F6iAGdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Transforms.QuaternionMathExtensions.html",
+          "hash": "NtWi8uZDWnBwOzJ1MN8pAA=="
         }
       },
       "is_incremental": false,
@@ -4842,7 +4866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Transforms.html",
-          "hash": "vqdDMq0zs3hF3AK6LE2qGg=="
+          "hash": "Udenygi5QGN41lmutfPB3Q=="
         }
       },
       "is_incremental": false,
@@ -4914,7 +4938,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleSpawner.html",
-          "hash": "qO9rregB2tWfTgAICD4uog=="
+          "hash": "tllqI/pu72UtGlZl5AVVoA=="
         }
       },
       "is_incremental": false,
@@ -4974,7 +4998,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Extensions.Games.Abstractions.Vehicles.VehicleSpawnerExtensions.html",
-          "hash": "oRGJYYBZDWJzClJni3RE3Q=="
+          "hash": "G7NcSQxqximAN+N+By6nsw=="
         }
       },
       "is_incremental": false,
@@ -5058,7 +5082,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.NuGet.NuGetPackageManager.html",
-          "hash": "gBqP5G1cwKtgO692r137Iw=="
+          "hash": "2kXVTbGT0ERC7sImqXup5Q=="
         }
       },
       "is_incremental": false,
@@ -5142,7 +5166,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Runtime.OpenModStartup.html",
-          "hash": "SpW3DgHxXiNdD78QkGlCiA=="
+          "hash": "QSb7TICLSOSDr5qtHv13EQ=="
         }
       },
       "is_incremental": false,
@@ -5274,7 +5298,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Rust.Entities.RustEntity.html",
-          "hash": "Mn9YGSPu+UQw4ArzOLFPXw=="
+          "hash": "t75cuv9o/ukN7JJUIxkR3g=="
         }
       },
       "is_incremental": false,
@@ -5310,7 +5334,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Rust.Items.RustInventoryItem.html",
-          "hash": "QEVYv0Xj6jekzbR7TAgugQ=="
+          "hash": "Lhd88KqL4/dTjpzbQtpBww=="
         }
       },
       "is_incremental": false,
@@ -5334,7 +5358,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Rust.Items.RustItem.html",
-          "hash": "2veA1UO93W3hW+r+zcAKLw=="
+          "hash": "HPmXYm9XimwWGKqTZVSBUA=="
         }
       },
       "is_incremental": false,
@@ -5346,7 +5370,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Rust.Items.RustItemAsset.html",
-          "hash": "wUu8WIRpWnrEXo9w8Gq6Rg=="
+          "hash": "+ePSOTxYPgSJGvQklqGrDQ=="
         }
       },
       "is_incremental": false,
@@ -6414,7 +6438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Rust.Players.RustPlayer.html",
-          "hash": "AbkdncgaPfzMmvPa2hk6eg=="
+          "hash": "kWm1IDu/QIt2x0DOnFfgEg=="
         }
       },
       "is_incremental": false,
@@ -6642,7 +6666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Rust.Transforms.RustNetworkableTransform.html",
-          "hash": "EculsK2vU3qXmFehVBA+iA=="
+          "hash": "k9df3T6EmLecbNFJYVi0kA=="
         }
       },
       "is_incremental": false,
@@ -6794,6 +6818,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.html",
+          "hash": "omJyAyzmiFemnUAV8N1eVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.UnityEngine.Extensions.VectorConversionExtensions.yml",
       "output": {
         ".html": {
@@ -6810,7 +6846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.UnityEngine.Extensions.html",
-          "hash": "V8mmeX4FG4CulNSdWjTy9g=="
+          "hash": "9YhU2zbu94vVmH9z5hF6Sw=="
         }
       },
       "is_incremental": false,
@@ -6822,7 +6858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.UnityEngine.Helpers.ValidationHelper.html",
-          "hash": "tnxqrA9JDJSCMWJ3/N+tEg=="
+          "hash": "44wZmtVKD8S8UUdD9TfOyg=="
         }
       },
       "is_incremental": false,
@@ -6882,7 +6918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.UnityEngine.Transforms.UnityTransform.html",
-          "hash": "tqtZpGMaARsGU2s5dNdNyw=="
+          "hash": "lEwjMB3vioi8AqJhHQyK/A=="
         }
       },
       "is_incremental": false,
@@ -7086,7 +7122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Animals.UnturnedAnimal.html",
-          "hash": "so60jCx+iMeN98Ia6r7xeQ=="
+          "hash": "Qm73FWPetdml+CnzKiCJTA=="
         }
       },
       "is_incremental": false,
@@ -7758,7 +7794,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Events.UnturnedPlayerEvent.html",
-          "hash": "uZK62bF6yzZOJfIdGGAC+Q=="
+          "hash": "Ri/VwncH+SqbtXd1PeFFLA=="
         }
       },
       "is_incremental": false,
@@ -7778,11 +7814,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Items.UnturnedClothingItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Items.UnturnedClothingItem.html",
+          "hash": "NbAisiwsctU0vVFP+wFPfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Unturned.Items.UnturnedInventoryItem.yml",
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Items.UnturnedInventoryItem.html",
-          "hash": "iVt3BqSBWh2e9r3KmvGbew=="
+          "hash": "3jwmzWFqFJU/mexGw8AC0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Items.UnturnedItem.DestroyItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Items.UnturnedItem.DestroyItem.html",
+          "hash": "YzW+r4lG7CUxTCqpw6zkZw=="
         }
       },
       "is_incremental": false,
@@ -7794,7 +7854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Items.UnturnedItem.html",
-          "hash": "bFxafqReIrXswSVIw61O1w=="
+          "hash": "SjF/2cZNqUABq5MSxD+NwQ=="
         }
       },
       "is_incremental": false,
@@ -7806,7 +7866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Items.UnturnedItemAsset.html",
-          "hash": "tnb9cQrIRL4rysPvk/8VNg=="
+          "hash": "S4qFWSxwi/TDNiMdBte0jw=="
         }
       },
       "is_incremental": false,
@@ -7890,7 +7950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Items.html",
-          "hash": "uOMMroiqjK0vbjcswTkWmQ=="
+          "hash": "bp7ZvN4buqprQfn8CehFZQ=="
         }
       },
       "is_incremental": false,
@@ -8186,6 +8246,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Animator.Events.UnturnedPlayerLeanUpdatedEvent.html",
+          "hash": "c6cfimZQEg0T6EwSBnj1Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Animator.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Animator.Events.html",
+          "hash": "G+W2+uYZaWE5GFDGiYEXWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Animator.LeanType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Animator.LeanType.html",
+          "hash": "mOq6i+F7Wt/3Vp+kz3O13A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Animator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Animator.html",
+          "hash": "nnKplPLAWsiVkiTwbLHLKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBannedEvent.yml",
       "output": {
         ".html": {
@@ -8202,7 +8310,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html",
-          "hash": "b1Jh1k+7ZKNjKh0uYYqrOA=="
+          "hash": "LsQX1PnBqJ67E9F4zM6Vgw=="
         }
       },
       "is_incremental": false,
@@ -8310,7 +8418,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippedEvent.html",
-          "hash": "Kp52lxURHXogHbLw0WhptQ=="
+          "hash": "kCKlYDbvlHjlFiOb92hg+A=="
         }
       },
       "is_incremental": false,
@@ -8322,7 +8430,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingEquippingEvent.html",
-          "hash": "V90m5m0FJMdYxEzGnzfmPA=="
+          "hash": "+4pDlYxhj2l2Aqk9SPXN7g=="
         }
       },
       "is_incremental": false,
@@ -8346,7 +8454,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Players.Clothing.Events.UnturnedPlayerClothingUnequippingEvent.html",
-          "hash": "75BxcEyFL0YJ9+O4H7QGmg=="
+          "hash": "v7szc+IoVwB9p5B2Atbb7g=="
         }
       },
       "is_incremental": false,
@@ -9018,7 +9126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Players.UnturnedPlayer.html",
-          "hash": "tsensDPdevIQu7hM4uWx2g=="
+          "hash": "s+0RG+eWnZ6x3tpys7Jnfg=="
         }
       },
       "is_incremental": false,
@@ -9186,7 +9294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.RocketMod.Economy.UconomyEconomyProvider.html",
-          "hash": "N4FR2ZYCh1SHbJEq7SODMw=="
+          "hash": "WV37MkQV1dIBRJ/BYyyGlA=="
         }
       },
       "is_incremental": false,
@@ -9690,7 +9798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Users.UnturnedUserProvider.html",
-          "hash": "lwN14HnD8lnd1eoxLOIOmQ=="
+          "hash": "/atlUEa2dP66FUYEbrbY/Q=="
         }
       },
       "is_incremental": false,
@@ -10014,7 +10122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Vehicles.UnturnedVehicleSpawner.html",
-          "hash": "wxEyU6C7n8Sy55ixsg8SHQ=="
+          "hash": "q+/p+koKQmr/Lfii/Qoe5g=="
         }
       },
       "is_incremental": false,
@@ -10039,6 +10147,30 @@
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Vehicles.html",
           "hash": "URxrcg7gqidVhhyg1eS0zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Workshop.Events.UnturnedWorkshopLoadedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Workshop.Events.UnturnedWorkshopLoadedEvent.html",
+          "hash": "QnDesM4CsJ7FRHeESZJazw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Workshop.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Workshop.Events.html",
+          "hash": "qmWUFiuKA99G7qhWxwBwTQ=="
         }
       },
       "is_incremental": false,
@@ -10098,7 +10230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Zombies.Events.UnturnedZombieDamagingEvent.html",
-          "hash": "ZO4pOlrOgy1MqmhrpumkSQ=="
+          "hash": "K46qSeZ/risJ0f5y82EXng=="
         }
       },
       "is_incremental": false,
@@ -10122,7 +10254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Zombies.Events.UnturnedZombieDyingEvent.html",
-          "hash": "fYsh21lXC+kpdsXRq9oMlw=="
+          "hash": "iQW7Ck3Yz93CYvVEidisWQ=="
         }
       },
       "is_incremental": false,
@@ -10182,7 +10314,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Zombies.UnturnedZombie.html",
-          "hash": "JNR4W5cARuyzI1zcVbT7+A=="
+          "hash": "JKGeYalf8/VTuSoMjpMGZA=="
         }
       },
       "is_incremental": false,
@@ -10494,7 +10626,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "pDRpBSP2R88UD376kdAsJA=="
+          "hash": "IDx9IZXlbX+dMaz/T5MZgg=="
         }
       },
       "is_incremental": false,
@@ -10566,7 +10698,7 @@
       "output": {
         ".html": {
           "relative_path": "devdoc/concepts/permissions.html",
-          "hash": "eAqtcIKnnVk3UQAQi911iA=="
+          "hash": "Q2jCCZALXpZpRX06tpyfQQ=="
         }
       },
       "is_incremental": false,
@@ -10915,7 +11047,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 871,
+          "total_file_count": 882,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
