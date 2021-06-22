@@ -102,18 +102,34 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">OpenModStringLocalizer</span></div>
+    <div class="level1"><a class="xref" href="OpenMod.Core.Localization.ProxyStringLocalizer.html">ProxyStringLocalizer</a></div>
+    <div class="level2"><span class="xref">OpenModStringLocalizer</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="OpenMod.API.Localization.IOpenModStringLocalizer.html">IOpenModStringLocalizer</a></div>
     <div><span class="xref">IStringLocalizer</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="OpenMod.Core.Localization.ProxyStringLocalizer.html#OpenMod_Core_Localization_ProxyStringLocalizer_GetAllStrings_System_Boolean_">ProxyStringLocalizer.GetAllStrings(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="OpenMod.Core.Localization.ProxyStringLocalizer.html#OpenMod_Core_Localization_ProxyStringLocalizer_WithCulture_CultureInfo_">ProxyStringLocalizer.WithCulture(CultureInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="OpenMod.Core.Localization.ProxyStringLocalizer.html#OpenMod_Core_Localization_ProxyStringLocalizer_Item_System_String_">ProxyStringLocalizer.Item[String]</a>
+    </div>
+    <div>
+      <a class="xref" href="OpenMod.Core.Localization.ProxyStringLocalizer.html#OpenMod_Core_Localization_ProxyStringLocalizer_Item_System_String_System_Object___">ProxyStringLocalizer.Item[String, Object[]]</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Localization.html">OpenMod.Core.Localization</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
   <h5 id="OpenMod_Core_Localization_OpenModStringLocalizer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OpenModStringLocalizer : object, IOpenModStringLocalizer, IStringLocalizer</code></pre>
+    <pre><code class="lang-csharp hljs">public class OpenModStringLocalizer : ProxyStringLocalizer, IOpenModStringLocalizer, IStringLocalizer</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -122,7 +138,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Localization_OpenModStringLocalizer__ctor_IStringLocalizerFactory_OpenMod_API_IRuntime_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Localization.OpenModStringLocalizer.%23ctor(IStringLocalizerFactory%2COpenMod.API.IRuntime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/OpenModStringLocalizer.cs/#L20">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/OpenModStringLocalizer.cs/#L16">View Source</a>
   </span>
   <a id="OpenMod_Core_Localization_OpenModStringLocalizer__ctor_" data-uid="OpenMod.Core.Localization.OpenModStringLocalizer.#ctor*"></a>
   <h4 id="OpenMod_Core_Localization_OpenModStringLocalizer__ctor_IStringLocalizerFactory_OpenMod_API_IRuntime_" data-uid="OpenMod.Core.Localization.OpenModStringLocalizer.#ctor(IStringLocalizerFactory,OpenMod.API.IRuntime)">OpenModStringLocalizer(IStringLocalizerFactory, IRuntime)</h4>
@@ -150,203 +166,6 @@
       <tr>
         <td><a class="xref" href="OpenMod.API.IRuntime.html">IRuntime</a></td>
         <td><span class="parametername">runtime</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Localization_OpenModStringLocalizer_Item_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Localization.OpenModStringLocalizer.Item(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/OpenModStringLocalizer.cs/#L36">View Source</a>
-  </span>
-  <a id="OpenMod_Core_Localization_OpenModStringLocalizer_Item_" data-uid="OpenMod.Core.Localization.OpenModStringLocalizer.Item*"></a>
-  <h4 id="OpenMod_Core_Localization_OpenModStringLocalizer_Item_System_String_" data-uid="OpenMod.Core.Localization.OpenModStringLocalizer.Item(System.String)">Item[String]</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LocalizedString this[string name] { get; }</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">LocalizedString</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Localization_OpenModStringLocalizer_Item_System_String_System_Object___.md&amp;value=---%0Auid%3A%20OpenMod.Core.Localization.OpenModStringLocalizer.Item(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/OpenModStringLocalizer.cs/#L44">View Source</a>
-  </span>
-  <a id="OpenMod_Core_Localization_OpenModStringLocalizer_Item_" data-uid="OpenMod.Core.Localization.OpenModStringLocalizer.Item*"></a>
-  <h4 id="OpenMod_Core_Localization_OpenModStringLocalizer_Item_System_String_System_Object___" data-uid="OpenMod.Core.Localization.OpenModStringLocalizer.Item(System.String,System.Object[])">Item[String, Object[]]</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LocalizedString this[string name, params object[] arguments] { get; }</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">arguments</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">LocalizedString</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Localization_OpenModStringLocalizer_GetAllStrings_System_Boolean_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Localization.OpenModStringLocalizer.GetAllStrings(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/OpenModStringLocalizer.cs/#L24">View Source</a>
-  </span>
-  <a id="OpenMod_Core_Localization_OpenModStringLocalizer_GetAllStrings_" data-uid="OpenMod.Core.Localization.OpenModStringLocalizer.GetAllStrings*"></a>
-  <h4 id="OpenMod_Core_Localization_OpenModStringLocalizer_GetAllStrings_System_Boolean_" data-uid="OpenMod.Core.Localization.OpenModStringLocalizer.GetAllStrings(System.Boolean)">GetAllStrings(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;LocalizedString&gt; GetAllStrings(bool includeParentCultures)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">includeParentCultures</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">LocalizedString</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Localization_OpenModStringLocalizer_WithCulture_CultureInfo_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Localization.OpenModStringLocalizer.WithCulture(CultureInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/OpenModStringLocalizer.cs/#L30">View Source</a>
-  </span>
-  <a id="OpenMod_Core_Localization_OpenModStringLocalizer_WithCulture_" data-uid="OpenMod.Core.Localization.OpenModStringLocalizer.WithCulture*"></a>
-  <h4 id="OpenMod_Core_Localization_OpenModStringLocalizer_WithCulture_CultureInfo_" data-uid="OpenMod.Core.Localization.OpenModStringLocalizer.WithCulture(CultureInfo)">WithCulture(CultureInfo)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IStringLocalizer WithCulture(CultureInfo culture)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CultureInfo</span></td>
-        <td><span class="parametername">culture</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IStringLocalizer</span></td>
         <td></td>
       </tr>
     </tbody>

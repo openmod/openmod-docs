@@ -1,0 +1,403 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Databases | OpenMod Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Databases | OpenMod Docs ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/night-owl.min.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/discord.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+
+  <body>
+        <div class="top-navbar">
+
+            <a href="javascript:void(0);" class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="24" height="24" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+            
+            <a class="brand" href="../../index.html">
+              <img src="../../logo.png" alt="OpenMod Docs" class="logomark">
+              <span class="brand-title">OpenMod Docs</span>
+            </a>
+        </div>
+
+        <div class="body-content">
+
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+
+                <div class="sidebar">
+                    
+                    
+                    
+                    
+                    <div>
+                      
+                      <a class="brand" href="../../index.html">
+                        <img src="../../logo.png" alt="OpenMod Docs" class="logomark">
+                        <span class="brand-title">OpenMod Docs</span>
+                      </a>
+                      <div id="navbar">
+                    
+                      </div>
+                    
+                    </div>
+
+
+                    <div class="sidebar-item-separator"></div>
+
+                        
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+
+                </div>
+
+                <div class="footer">
+                  OpenMod .NET Plugin Framework.
+                  
+                </div>
+            </nav>
+
+            <main class="main-panel">
+
+                <div role="main" class="hide-when-search">
+
+                        
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="databases">Databases</h1>
+
+<p>The OpenMod.EntityFrameworkCore libraries provide functionality for using Microsoft's Entity Framework Core to load and save information from multiple types of databases.</p>
+<p>Currently supported providers:</p>
+<ul>
+<li>OpenMod.EntityFrameworkCore.MySql - MySQL/MariaDB databases.</li>
+</ul>
+<p>For more information on Entity Framework Core, <a href="https://docs.microsoft.com/en-us/ef/core/">read Microsoft's documentation</a>. A basic overview of OpenMod's implementation is written here.</p>
+<h2 id="creating-your-first-dbcontext">Creating your first DbContext</h2>
+<p>The DbContext houses all of your database sets which in turn hold all your information.</p>
+<p>In this example, we will create a database that will allow us to record every time a user connects and we will be using the MySql provider.</p>
+<p>To create your first DbContext, you must create a class which inherits OpenModDbContext and add constructors for both constructors of the base class:</p>
+<pre><code class="lang-cs">public class UserConnectionDbContext : OpenModDbContext&lt;UserConnectionDbContext&gt;
+{
+    public UserConnectionDbContext(IServiceProvider serviceProvider) : base(serviceProvider)
+    {
+    }
+
+    public UserConnectionDbContext(IDbContextConfigurator configurator, IServiceProvider serviceProvider) : base(configurator, serviceProvider)
+    {
+    }
+}
+</code></pre>
+<p>After creating this class, you must register it as a database context within your plugin. To do this, add a plugin container configurator and register the database context in its configure method.
+This class can be placed anywhere but is usually in the root namespace.</p>
+<pre><code class="lang-cs">public class PluginContainerConfigurator : IPluginContainerConfigurator
+{
+    public void ConfigureContainer(IPluginServiceConfigurationContext context)
+    {
+		    // You can extend how your database context works by using the overloads of this method.
+        context.ContainerBuilder.AddMySqlDbContext&lt;UserConnectionDbContext&gt;();
+    }
+}
+</code></pre>
+<p>By default, OpenMod will get the connection string for your MySql database from your config.yaml file. Ensure this is in your config file:</p>
+<pre><code class="lang-yaml">database:
+  ConnectionStrings:
+    default: &quot;Server=127.0.0.1; Database=openmod; Port=3306; User=root; Password=password&quot;
+</code></pre>
+<h2 id="create-your-model">Create your model</h2>
+<p>For more detail on creating models, refer to <a href="https://docs.microsoft.com/en-us/ef/core/modeling/">Microsoft's EF Core Documentation on modeling</a>.</p>
+<p>Simply begin by creating a class with all the fields you want to record.</p>
+<pre><code class="lang-cs">public class UserConnection
+{
+    // The primary key used to identify each connection.
+	  public uint ConnectionId { get; set; }
+    
+	  // The user's ID.
+    public string UserId { get; set; } = &quot;&quot;;
+	
+    // The user's type.
+    public string UserType { get; set; } = &quot;&quot;;
+
+    // The date/time of this connection record.
+    public DateTime ConnectionTime { get; set; }
+}
+</code></pre>
+<p>This class needs a primary key to identify each model and this primary key (ConnectionId) should also be automatically generated. We can configure this in two ways:</p>
+<ul>
+<li><strong>Data Annotations</strong> - Simply adding the <code>[Key]</code> attribute to our <code>UserConnection</code> class:
+<pre><code class="lang-cs">public uint ConnectionId { get; set; }
+</code></pre>
+becomes
+<pre><code class="lang-cs">[Key]
+[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+public uint ConnectionId { get; set; }
+</code></pre>
+</li>
+<li><strong>Fluent API</strong> - Overriding the <code>OnModelCreating</code> method within our <code>UserConnectionDbContext</code> class and configuring the primary key there:
+<pre><code class="lang-cs">protected override void OnModelCreating(ModelBuilder modelBuilder)
+  {
+  		base.OnModelCreating(modelBuilder);
+
+      modelBuilder.Entity&lt;UserConnection&gt;()
+  		    .HasKey(x =&gt; x.ConnectionId);
+
+    modelBuilder.Entity&lt;UserConnection&gt;()
+        .Property(x =&gt; x.ConnectionId)
+        .ValueGeneratedOnAdd();
+  }
+</code></pre>
+The purpose of Fluent API, although more complicated, allows greater control over how models are configured.</li>
+</ul>
+<h2 id="add-your-model-to-your-db-context">Add your model to your DB context</h2>
+<p>Now that you have your DB context (<code>UserConnectionDbContext</code>) and your model (<code>UserConnection</code>), linking the two is very easy. All that is needed is to define a new property in your DB context as follows:</p>
+<pre><code class="lang-cs">public DbSet&lt;UserConnection&gt; UserConnections =&gt; Set&lt;UserConnection&gt;();
+</code></pre>
+<p>We will use this property to manage our user connection records.</p>
+<p>For a recap, our classes now look like this (assuming Fluent API is being used):</p>
+<p><strong>UserConnection.cs</strong></p>
+<pre><code class="lang-cs">public class UserConnection
+{
+    // The primary key used to identify each connection.
+	  public uint ConnectionId { get; set; }
+    
+	  // The user's ID.
+    public string UserId { get; set; } = &quot;&quot;;
+	
+    // The user's type.
+    public string UserType { get; set; } = &quot;&quot;;
+
+    // The date/time of this connection record.
+    public DateTime ConnectionTime { get; set; }
+}
+</code></pre>
+<p><strong>UserConnectionDbContext.cs</strong></p>
+<pre><code class="lang-cs">public class UserConnectionDbContext : OpenModDbContext&lt;UserConnectionDbContext&gt;
+{
+    public UserConnectionDbContext(IServiceProvider serviceProvider) : base(serviceProvider)
+    {
+    }
+
+    public UserConnectionDbContext(IDbContextConfigurator configurator, IServiceProvider serviceProvider) : base(configurator, serviceProvider)
+    {
+    }
+    
+    public DbSet&lt;UserConnection&gt; UserConnections =&gt; Set&lt;UserConnection&gt;();
+    
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.Entity&lt;UserConnection&gt;()
+            .HasKey(x =&gt; x.ConnectionId);
+
+        modelBuilder.Entity&lt;UserConnection&gt;()
+            .Property(x =&gt; x.ConnectionId)
+            .ValueGeneratedOnAdd();
+    }
+}
+</code></pre>
+<h2 id="creating-a-migration">Creating a migration</h2>
+<p>For more detail on migrations, refer to <a href="https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/">Microsoft's EF Core Documentation on migrations</a>.</p>
+<p>Migrations allow EF Core to manage the creation and modifications of the database automatically. An initial migration must be created to allow EF Core to create the database for us.</p>
+<p>Creating migrations is very simple:</p>
+<ul>
+<li><p>Add a NuGet reference to the <code>Microsoft.EntityFrameworkCore.Tools</code> package (latest 3.x version - 3.1.16 at the time of writing this).
+In Microsoft Visual Studio's Package Manager: <code>Install-Package Microsoft.EntityFrameworkCore.Tools -Version 3.1.16</code>
+In Visual Studio Code's CLI (or command line): <code>dotnet add package Microsoft.EntityFrameworkCore.Tools --version 3.1.16</code></p>
+</li>
+<li><p>Create a database context factory class (this allows EF core to create an instance of the database context without needing to run the entire OpenMod server):</p>
+<pre><code class="lang-cs">public class UserConnectionDbContextFactory : OpenModMySqlDbContextFactory&lt;UserConnectionDbContext&gt;
+{
+}
+</code></pre>
+</li>
+<li><p>Use the tools package to create the migration (replace MigrationName with your desired migration name, for this sample we'll use <code>Initial</code>):
+In Microsoft Visual Studio's Package Manager: <code>Add-Migration MigrationName</code>
+In Visual Studio Code's CLI (or command line): <code>dotnet ef migrations add MigrationName</code></p>
+</li>
+<li><p>Migrate at plugin load by adding this to your plugin's load method (where <code>m_DbContext</code> is an instance of your database context):</p>
+<pre><code class="lang-cs">await m_DbContext.Database.MigrateAsync();
+</code></pre>
+</li>
+</ul>
+<p>To add migrations in the future, you only need to run the <code>Add-Migration</code> (or <code>dotnet ef migrations add</code>) command.</p>
+<h2 id="saving-data">Saving data</h2>
+<p>For more detail on saving, refer to <a href="https://docs.microsoft.com/en-us/ef/core/saving/">Microsoft's EF Core Documentation on saving data</a>.</p>
+<p>Every time a user connects, we want to record this to a database. We can subscribe to <code>IUserConnectionEvent</code> for this. For more information on events, see the <a href="events.html">Events documentation</a>.</p>
+<p>As we registered our DB context in our plugin container configurator, we can simply resolve our DB context from our constructor.</p>
+<p>The base code for our event listener is as follows:</p>
+<pre><code class="lang-cs">public class UserConnectedEventListener : IEventListener&lt;IUserConnectedEvent&gt;
+{
+    private readonly UserConnectionDbContext m_DbContext;
+
+    public UserConnectedEventListener(UserConnectionDbContext dbContext)
+    {
+        m_DbContext = dbContext;
+    }
+
+    public async Task HandleEventAsync(object? sender, IUserConnectedEvent @event)
+    {
+        // database logic
+    }
+}
+</code></pre>
+<p>To insert a record into our database:</p>
+<ul>
+<li><p>Create an instance of the record.</p>
+<pre><code class="lang-cs">UserConnection userConnection = new UserConnection
+{
+    UserId = @event.User.Id,
+    UserType = @event.User.Type,
+    ConnectionTime = DateTime.UtcNow
+};
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>We do not set <code>ConnectionId</code> as we configured the database to automatically generate this value for us.</p>
+</div>
+</li>
+<li><p>Add this instance to the database set.</p>
+<pre><code class="lang-cs">await m_DbContext.UserConnections.AddAsync(userConnection);
+</code></pre>
+</li>
+<li><p>Save our changes:</p>
+<pre><code class="lang-cs">await m_DbContext.SaveChangesAsync();
+</code></pre>
+</li>
+</ul>
+<p>Our entire <code>UserConnectedEventListener</code> class will now look like:</p>
+<pre><code class="lang-cs">public class UserConnectedEventListener : IEventListener&lt;IUserConnectedEvent&gt;
+{
+    private readonly UserConnectionDbContext m_DbContext;
+
+    public UserConnectedEventListener(UserConnectionDbContext dbContext)
+    {
+        m_DbContext = dbContext;
+    }
+
+    public async Task HandleEventAsync(object? sender, IUserConnectedEvent @event)
+    {
+        UserConnection userConnection = new UserConnection
+        {
+            UserId = @event.User.Id,
+            UserType = @event.User.Type,
+            ConnectionTime = DateTime.UtcNow
+        };
+
+        await m_DbContext.UserConnections.AddAsync(userConnection);
+
+        await m_DbContext.SaveChangesAsync();
+    }
+}
+</code></pre>
+<h2 id="querying-data">Querying data</h2>
+<p>For more detail on querying data, refer to <a href="https://docs.microsoft.com/en-us/ef/core/querying/">Microsoft's EF Core Documentation on querying</a>.</p>
+<p>For this sample, we'll create a /lastconnect command that responds with the last time a user connected. For more information on commands, see the <a href="commands.html">Commands documentation</a>.</p>
+<p>The base code for our command is as follows:</p>
+<pre><code class="lang-cs">[Command(&quot;lastconnect&quot;)]
+public class LastConnectCommand : Command
+{
+    private readonly UserConnectionDbContext m_DbContext;
+
+    public LastConnectCommand(UserConnectionDbContext dbContext,
+        IServiceProvider serviceProvider) : base(serviceProvider)
+    {
+        m_DbContext = dbContext;
+    }
+
+    protected override async Task OnExecuteAsync()
+    {
+        string userId = await Context.Parameters.GetAsync&lt;string&gt;(0);
+        string userType = await Context.Parameters.GetAsync&lt;string&gt;(1);
+
+        // database logic
+    }
+}
+</code></pre>
+<p>To get the latest connection, we can use the methods of <code>m_DbContext.UserConnections</code> to get the connection we're looking for.</p>
+<pre><code class="lang-cs">UserConnection? lastConnection = await m_DbContext.UserConnections
+    .Where(x =&gt; x.UserId == userId &amp;&amp; x.UserType == userType) // Filter by only the target user
+    .OrderByDescending(x =&gt; x.ConnectionTime)                 // Order by descending connection time (latest to earliest connections)
+    .FirstOrDefaultAsync();                                   // Execute the query
+</code></pre>
+<p>If the user has never connected, <code>lastConnection</code> will be equal to <code>null</code>.</p>
+<p>We can then output the last connection to the command actor, resulting in the command class of:</p>
+<pre><code class="lang-cs">[Command(&quot;lastconnect&quot;)]
+[CommandSyntax(&quot;&lt;user id&gt; &lt;user type&gt;&quot;)]
+public class LastConnectCommand : Command
+{
+    private readonly UserConnectionDbContext m_DbContext;
+
+    public LastConnectCommand(UserConnectionDbContext dbContext,
+        IServiceProvider serviceProvider) : base(serviceProvider)
+    {
+        m_DbContext = dbContext;
+    }
+
+    protected override async Task OnExecuteAsync()
+    {
+        var userId = await Context.Parameters.GetAsync&lt;string&gt;(0);
+        var userType = await Context.Parameters.GetAsync&lt;string&gt;(1);
+
+        UserConnection? userConnection = await m_DbContext.UserConnections
+            .Where(x =&gt; x.UserId == userId &amp;&amp; x.UserType == userType)
+            .OrderByDescending(x =&gt; x.ConnectionTime)
+            .FirstOrDefaultAsync();
+
+        if (userConnection == null)
+        {
+            await PrintAsync(&quot;This user has never connected.&quot;);
+        }
+        else
+        {
+            await PrintAsync($&quot;Last connection: {userConnection.ConnectionTime}&quot;);
+        }
+    }
+}
+</code></pre>
+</article>
+              
+                </div>
+            </main>
+        </div>
+
+        
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<script type="text/javascript" src="../../styles/jquery.twbsPagination.js"></script>
+<script type="text/javascript" src="../../styles/url.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>-->
+<script type="text/javascript" src="../../styles/docfx.js"></script>
+<script type="text/javascript" src="../../styles/main.js"></script>
+
+    </body>
+
+</html>

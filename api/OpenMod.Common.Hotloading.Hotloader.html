@@ -152,7 +152,7 @@ Use <a class="xref" href="OpenMod.Common.Hotloading.Hotloader.html#OpenMod_Commo
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Hotloading_Hotloader_GetAssembly_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Hotloading.Hotloader.GetAssembly(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Hotloading/Hotloader.cs/#L103">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Hotloading/Hotloader.cs/#L114">View Source</a>
   </span>
   <a id="OpenMod_Common_Hotloading_Hotloader_GetAssembly_" data-uid="OpenMod.Common.Hotloading.Hotloader.GetAssembly*"></a>
   <h4 id="OpenMod_Common_Hotloading_Hotloader_GetAssembly_System_String_" data-uid="OpenMod.Common.Hotloading.Hotloader.GetAssembly(System.String)">GetAssembly(String)</h4>
@@ -202,7 +202,7 @@ Use <a class="xref" href="OpenMod.Common.Hotloading.Hotloader.html#OpenMod_Commo
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Hotloading_Hotloader_GetHotloadedAssemblies.md&amp;value=---%0Auid%3A%20OpenMod.Common.Hotloading.Hotloader.GetHotloadedAssemblies%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Hotloading/Hotloader.cs/#L127">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Hotloading/Hotloader.cs/#L138">View Source</a>
   </span>
   <a id="OpenMod_Common_Hotloading_Hotloader_GetHotloadedAssemblies_" data-uid="OpenMod.Common.Hotloading.Hotloader.GetHotloadedAssemblies*"></a>
   <h4 id="OpenMod_Common_Hotloading_Hotloader_GetHotloadedAssemblies" data-uid="OpenMod.Common.Hotloading.Hotloader.GetHotloadedAssemblies">GetHotloadedAssemblies()</h4>
@@ -234,7 +234,7 @@ Use <a class="xref" href="OpenMod.Common.Hotloading.Hotloader.html#OpenMod_Commo
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Hotloading_Hotloader_GetRealAssemblyName_Assembly_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Hotloading.Hotloader.GetRealAssemblyName(Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Hotloading/Hotloader.cs/#L137">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Hotloading/Hotloader.cs/#L148">View Source</a>
   </span>
   <a id="OpenMod_Common_Hotloading_Hotloader_GetRealAssemblyName_" data-uid="OpenMod.Common.Hotloading.Hotloader.GetRealAssemblyName*"></a>
   <h4 id="OpenMod_Common_Hotloading_Hotloader_GetRealAssemblyName_Assembly_" data-uid="OpenMod.Common.Hotloading.Hotloader.GetRealAssemblyName(Assembly)">GetRealAssemblyName(Assembly)</h4>
@@ -331,10 +331,66 @@ Use <a class="xref" href="OpenMod.Common.Hotloading.Hotloader.html#OpenMod_Commo
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Hotloading_Hotloader_LoadAssembly_System_Byte___System_Byte___.md&amp;value=---%0Auid%3A%20OpenMod.Common.Hotloading.Hotloader.LoadAssembly(System.Byte%5B%5D%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Hotloading/Hotloader.cs/#L51">View Source</a>
+  </span>
+  <a id="OpenMod_Common_Hotloading_Hotloader_LoadAssembly_" data-uid="OpenMod.Common.Hotloading.Hotloader.LoadAssembly*"></a>
+  <h4 id="OpenMod_Common_Hotloading_Hotloader_LoadAssembly_System_Byte___System_Byte___" data-uid="OpenMod.Common.Hotloading.Hotloader.LoadAssembly(System.Byte[],System.Byte[])">LoadAssembly(Byte[], Byte[])</h4>
+  <div class="markdown level1 summary"><p>Hotloads an assembly. Redirects to <see cref="!:Assembly.Load(byte[], byte[])"></see> if <a class="xref" href="OpenMod.Common.Hotloading.Hotloader.html#OpenMod_Common_Hotloading_Hotloader_Enabled">Enabled</a> is set to false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Assembly LoadAssembly(byte[] assemblyData, byte[] assemblySymbols)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">assemblyData</span></td>
+        <td><p>The assembly to hotload.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">assemblySymbols</span></td>
+        <td><p>A byte array that contains the raw bytes representing the symbols for the assembly.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Assembly</span></td>
+        <td><p>The loaded assembly.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Hotloading_Hotloader_Remove_Assembly_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Hotloading.Hotloader.Remove(Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Hotloading/Hotloader.cs/#L90">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Hotloading/Hotloader.cs/#L101">View Source</a>
   </span>
   <a id="OpenMod_Common_Hotloading_Hotloader_Remove_" data-uid="OpenMod.Common.Hotloading.Hotloader.Remove*"></a>
   <h4 id="OpenMod_Common_Hotloading_Hotloader_Remove_Assembly_" data-uid="OpenMod.Common.Hotloading.Hotloader.Remove(Assembly)">Remove(Assembly)</h4>

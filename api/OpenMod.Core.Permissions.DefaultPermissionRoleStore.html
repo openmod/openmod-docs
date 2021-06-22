@@ -118,18 +118,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore__ctor_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Users_IUserDataStore_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.%23ctor(OpenMod.Core.Permissions.IPermissionRolesDataStore%2COpenMod.API.Users.IUserDataStore)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore__ctor_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Users_IUserDataStore_OpenMod_API_IRuntime_OpenMod_API_Eventing_IEventBus_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.%23ctor(OpenMod.Core.Permissions.IPermissionRolesDataStore%2COpenMod.API.Users.IUserDataStore%2COpenMod.API.IRuntime%2COpenMod.API.Eventing.IEventBus)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L24">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L29">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore__ctor_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.#ctor*"></a>
-  <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore__ctor_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Users_IUserDataStore_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.#ctor(OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Users.IUserDataStore)">DefaultPermissionRoleStore(IPermissionRolesDataStore, IUserDataStore)</h4>
+  <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore__ctor_OpenMod_Core_Permissions_IPermissionRolesDataStore_OpenMod_API_Users_IUserDataStore_OpenMod_API_IRuntime_OpenMod_API_Eventing_IEventBus_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.#ctor(OpenMod.Core.Permissions.IPermissionRolesDataStore,OpenMod.API.Users.IUserDataStore,OpenMod.API.IRuntime,OpenMod.API.Eventing.IEventBus)">DefaultPermissionRoleStore(IPermissionRolesDataStore, IUserDataStore, IRuntime, IEventBus)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DefaultPermissionRoleStore(IPermissionRolesDataStore permissionRolesDataStore, IUserDataStore userDataStore)</code></pre>
+    <pre><code class="lang-csharp hljs">public DefaultPermissionRoleStore(IPermissionRolesDataStore permissionRolesDataStore, IUserDataStore userDataStore, IRuntime runtime, IEventBus eventBus)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,6 +151,16 @@
         <td><span class="parametername">userDataStore</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.IRuntime.html">IRuntime</a></td>
+        <td><span class="parametername">runtime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Eventing.IEventBus.html">IEventBus</a></td>
+        <td><span class="parametername">eventBus</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
@@ -160,7 +170,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_AddRoleToActorAsync_OpenMod_API_Permissions_IPermissionActor_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.AddRoleToActorAsync(OpenMod.API.Permissions.IPermissionActor%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L163">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L177">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_AddRoleToActorAsync_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.AddRoleToActorAsync*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_AddRoleToActorAsync_OpenMod_API_Permissions_IPermissionActor_System_String_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.AddRoleToActorAsync(OpenMod.API.Permissions.IPermissionActor,System.String)">AddRoleToActorAsync(IPermissionActor, String)</h4>
@@ -212,7 +222,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_CreateRoleAsync_OpenMod_API_Permissions_IPermissionRole_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.CreateRoleAsync(OpenMod.API.Permissions.IPermissionRole)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L215">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L237">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_CreateRoleAsync_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.CreateRoleAsync*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_CreateRoleAsync_OpenMod_API_Permissions_IPermissionRole_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.CreateRoleAsync(OpenMod.API.Permissions.IPermissionRole)">CreateRoleAsync(IPermissionRole)</h4>
@@ -259,7 +269,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_DeleteRoleAsync_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.DeleteRoleAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L241">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L263">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_DeleteRoleAsync_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.DeleteRoleAsync*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_DeleteRoleAsync_System_String_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.DeleteRoleAsync(System.String)">DeleteRoleAsync(String)</h4>
@@ -306,7 +316,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetAutoAssignedRolesAsync_System_String_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetAutoAssignedRolesAsync(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L257">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L279">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetAutoAssignedRolesAsync_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetAutoAssignedRolesAsync*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetAutoAssignedRolesAsync_System_String_System_String_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetAutoAssignedRolesAsync(System.String,System.String)">GetAutoAssignedRolesAsync(String, String)</h4>
@@ -358,7 +368,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetAutoAssignRoles.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetAutoAssignRoles%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L323">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L345">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetAutoAssignRoles_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetAutoAssignRoles*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetAutoAssignRoles" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetAutoAssignRoles">GetAutoAssignRoles()</h4>
@@ -388,7 +398,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetPersistentDataAsync__1_System_String_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetPersistentDataAsync%60%601(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L308">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L330">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetPersistentDataAsync_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetPersistentDataAsync*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetPersistentDataAsync__1_System_String_System_String_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetPersistentDataAsync``1(System.String,System.String)">GetPersistentDataAsync&lt;T&gt;(String, String)</h4>
@@ -455,7 +465,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetRoleAsync_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetRoleAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L116">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L130">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetRoleAsync_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetRoleAsync*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetRoleAsync_System_String_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetRoleAsync(System.String)">GetRoleAsync(String)</h4>
@@ -502,7 +512,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetRolesAsync.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetRolesAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L107">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L121">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetRolesAsync_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetRolesAsync*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetRolesAsync" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetRolesAsync">GetRolesAsync()</h4>
@@ -532,7 +542,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetRolesAsync_OpenMod_API_Permissions_IPermissionActor_System_Boolean_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetRolesAsync(OpenMod.API.Permissions.IPermissionActor%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L30">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L38">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetRolesAsync_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetRolesAsync*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_GetRolesAsync_OpenMod_API_Permissions_IPermissionActor_System_Boolean_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.GetRolesAsync(OpenMod.API.Permissions.IPermissionActor,System.Boolean)">GetRolesAsync(IPermissionActor, Boolean)</h4>
@@ -584,7 +594,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_RemoveRoleFromActorAsync_OpenMod_API_Permissions_IPermissionActor_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.RemoveRoleFromActorAsync(OpenMod.API.Permissions.IPermissionActor%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L192">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L210">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_RemoveRoleFromActorAsync_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.RemoveRoleFromActorAsync*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_RemoveRoleFromActorAsync_OpenMod_API_Permissions_IPermissionActor_System_String_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.RemoveRoleFromActorAsync(OpenMod.API.Permissions.IPermissionActor,System.String)">RemoveRoleFromActorAsync(IPermissionActor, String)</h4>
@@ -636,7 +646,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_SavePersistentDataAsync__1_System_String_System_String___0_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.SavePersistentDataAsync%60%601(System.String%2CSystem.String%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L273">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L295">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_SavePersistentDataAsync_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.SavePersistentDataAsync*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_SavePersistentDataAsync__1_System_String_System_String___0_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.SavePersistentDataAsync``1(System.String,System.String,``0)">SavePersistentDataAsync&lt;T&gt;(String, String, T)</h4>
@@ -708,7 +718,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Permissions_DefaultPermissionRoleStore_UpdateRoleAsync_OpenMod_API_Permissions_IPermissionRole_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Permissions.DefaultPermissionRoleStore.UpdateRoleAsync(OpenMod.API.Permissions.IPermissionRole)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L134">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Permissions/DefaultPermissionRoleStore.cs/#L148">View Source</a>
   </span>
   <a id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_UpdateRoleAsync_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.UpdateRoleAsync*"></a>
   <h4 id="OpenMod_Core_Permissions_DefaultPermissionRoleStore_UpdateRoleAsync_OpenMod_API_Permissions_IPermissionRole_" data-uid="OpenMod.Core.Permissions.DefaultPermissionRoleStore.UpdateRoleAsync(OpenMod.API.Permissions.IPermissionRole)">UpdateRoleAsync(IPermissionRole)</h4>

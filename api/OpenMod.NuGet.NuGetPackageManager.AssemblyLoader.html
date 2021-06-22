@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ServiceDisposer
+    <title>Delegate NuGetPackageManager.AssemblyLoader
    | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ServiceDisposer
+    <meta name="title" content="Delegate NuGetPackageManager.AssemblyLoader
    | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -92,40 +92,18 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="OpenMod.EntityFrameworkCore.Extensions.ServiceDisposer">
+                    <article class="content wrap" id="_content" data-uid="OpenMod.NuGet.NuGetPackageManager.AssemblyLoader">
   
   
-  <h1 id="OpenMod_EntityFrameworkCore_Extensions_ServiceDisposer" data-uid="OpenMod.EntityFrameworkCore.Extensions.ServiceDisposer" class="text-break">Class ServiceDisposer
+  <h1 id="OpenMod_NuGet_NuGetPackageManager_AssemblyLoader" data-uid="OpenMod.NuGet.NuGetPackageManager.AssemblyLoader" class="text-break">Delegate NuGetPackageManager.AssemblyLoader
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ServiceDisposer</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.EntityFrameworkCore.Extensions.html">OpenMod.EntityFrameworkCore.Extensions</a></h6>
-  <h6><strong>Assembly</strong>: OpenMod.EntityFrameworkCore.dll</h6>
-  <h5 id="OpenMod_EntityFrameworkCore_Extensions_ServiceDisposer_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.NuGet.html">OpenMod.NuGet</a></h6>
+  <h6><strong>Assembly</strong>: OpenMod.NuGet.dll</h6>
+  <h5 id="OpenMod_NuGet_NuGetPackageManager_AssemblyLoader_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ServiceDisposer : object</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_EntityFrameworkCore_Extensions_ServiceDisposer__ctor_IDisposable_.md&amp;value=---%0Auid%3A%20OpenMod.EntityFrameworkCore.Extensions.ServiceDisposer.%23ctor(IDisposable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.EntityFrameworkCore/Extensions/ServiceDisposer.cs/#L7">View Source</a>
-  </span>
-  <a id="OpenMod_EntityFrameworkCore_Extensions_ServiceDisposer__ctor_" data-uid="OpenMod.EntityFrameworkCore.Extensions.ServiceDisposer.#ctor*"></a>
-  <h4 id="OpenMod_EntityFrameworkCore_Extensions_ServiceDisposer__ctor_IDisposable_" data-uid="OpenMod.EntityFrameworkCore.Extensions.ServiceDisposer.#ctor(IDisposable)">ServiceDisposer(IDisposable)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ServiceDisposer(IDisposable disposable)</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate Assembly AssemblyLoader(byte[] assemblyData, byte[] assemblySymbols);</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,8 +116,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IDisposable</span></td>
-        <td><span class="parametername">disposable</span></td>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">assemblyData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">assemblySymbols</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Assembly</span></td>
         <td></td>
       </tr>
     </tbody>

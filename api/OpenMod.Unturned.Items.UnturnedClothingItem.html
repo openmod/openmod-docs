@@ -102,39 +102,14 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="OpenMod.Unturned.Items.UnturnedItem.html">UnturnedItem</a></div>
-    <div class="level2"><span class="xref">UnturnedClothingItem</span></div>
+    <div class="level1"><span class="xref">UnturnedClothingItem</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Items.IItem.html">IItem</a></div>
+    <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Items.IItemInstance.html">IItemInstance</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_Item">UnturnedItem.Item</a>
-    </div>
-    <div>
-      <a class="xref" href="OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_ItemInstanceId">UnturnedItem.ItemInstanceId</a>
-    </div>
-    <div>
-      <a class="xref" href="OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_Asset">UnturnedItem.Asset</a>
-    </div>
-    <div>
-      <a class="xref" href="OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_State">UnturnedItem.State</a>
-    </div>
-    <div>
-      <a class="xref" href="OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_SetItemQualityAsync_System_Double_">UnturnedItem.SetItemQualityAsync(Double)</a>
-    </div>
-    <div>
-      <a class="xref" href="OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_SetItemAmountAsync_System_Double_">UnturnedItem.SetItemAmountAsync(Double)</a>
-    </div>
-    <div>
-      <a class="xref" href="OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_SetItemDurabilityAsync_System_Double_">UnturnedItem.SetItemDurabilityAsync(Double)</a>
-    </div>
-    <div>
-      <a class="xref" href="OpenMod.Unturned.Items.UnturnedItem.html#OpenMod_Unturned_Items_UnturnedItem_DestroyAsync">UnturnedItem.DestroyAsync()</a>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -161,7 +136,7 @@
   <h6><strong>Assembly</strong>: OpenMod.Unturned.dll</h6>
   <h5 id="OpenMod_Unturned_Items_UnturnedClothingItem_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UnturnedClothingItem : UnturnedItem, IItem</code></pre>
+    <pre><code class="lang-csharp hljs">public class UnturnedClothingItem : IItemInstance</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -170,7 +145,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedClothingItem__ctor_Item_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Players_Clothing_ClothingType_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedClothingItem.%23ctor(Item%2COpenMod.Unturned.Players.UnturnedPlayer%2COpenMod.Unturned.Players.Clothing.ClothingType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedClothingItem.cs/#L69">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedClothingItem.cs/#L70">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Items_UnturnedClothingItem__ctor_" data-uid="OpenMod.Unturned.Items.UnturnedClothingItem.#ctor*"></a>
   <h4 id="OpenMod_Unturned_Items_UnturnedClothingItem__ctor_Item_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Players_Clothing_ClothingType_" data-uid="OpenMod.Unturned.Items.UnturnedClothingItem.#ctor(Item,OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Players.Clothing.ClothingType)">UnturnedClothingItem(Item, UnturnedPlayer, ClothingType)</h4>
@@ -207,6 +182,48 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedClothingItem__ctor_Item_PlayerClothing_OpenMod_Unturned_Players_Clothing_ClothingType_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedClothingItem.%23ctor(Item%2CPlayerClothing%2COpenMod.Unturned.Players.Clothing.ClothingType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedClothingItem.cs/#L76">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Items_UnturnedClothingItem__ctor_" data-uid="OpenMod.Unturned.Items.UnturnedClothingItem.#ctor*"></a>
+  <h4 id="OpenMod_Unturned_Items_UnturnedClothingItem__ctor_Item_PlayerClothing_OpenMod_Unturned_Players_Clothing_ClothingType_" data-uid="OpenMod.Unturned.Items.UnturnedClothingItem.#ctor(Item,PlayerClothing,OpenMod.Unturned.Players.Clothing.ClothingType)">UnturnedClothingItem(Item, PlayerClothing, ClothingType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnturnedClothingItem(Item item, PlayerClothing playerClothing, ClothingType clothingType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Item</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">PlayerClothing</span></td>
+        <td><span class="parametername">playerClothing</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.Unturned.Players.Clothing.ClothingType.html">ClothingType</a></td>
+        <td><span class="parametername">clothingType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -214,7 +231,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedClothingItem_ClothingType.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedClothingItem.ClothingType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedClothingItem.cs/#L67">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedClothingItem.cs/#L68">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Items_UnturnedClothingItem_ClothingType_" data-uid="OpenMod.Unturned.Items.UnturnedClothingItem.ClothingType*"></a>
   <h4 id="OpenMod_Unturned_Items_UnturnedClothingItem_ClothingType" data-uid="OpenMod.Unturned.Items.UnturnedClothingItem.ClothingType">ClothingType</h4>
@@ -239,9 +256,71 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedClothingItem_Item.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedClothingItem.Item%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedClothingItem.cs/#L84">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Items_UnturnedClothingItem_Item_" data-uid="OpenMod.Unturned.Items.UnturnedClothingItem.Item*"></a>
+  <h4 id="OpenMod_Unturned_Items_UnturnedClothingItem_Item" data-uid="OpenMod.Unturned.Items.UnturnedClothingItem.Item">Item</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnturnedItem Item { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.Unturned.Items.UnturnedItem.html">UnturnedItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Items_UnturnedClothingItem_OpenMod_Extensions_Games_Abstractions_Items_IItemInstance_Item.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Items.UnturnedClothingItem.OpenMod%23Extensions%23Games%23Abstractions%23Items%23IItemInstance%23Item%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Items/UnturnedClothingItem.cs/#L82">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Items_UnturnedClothingItem_OpenMod_Extensions_Games_Abstractions_Items_IItemInstance_Item_" data-uid="OpenMod.Unturned.Items.UnturnedClothingItem.OpenMod#Extensions#Games#Abstractions#Items#IItemInstance#Item*"></a>
+  <h4 id="OpenMod_Unturned_Items_UnturnedClothingItem_OpenMod_Extensions_Games_Abstractions_Items_IItemInstance_Item" data-uid="OpenMod.Unturned.Items.UnturnedClothingItem.OpenMod#Extensions#Games#Abstractions#Items#IItemInstance#Item">IItemInstance.Item</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IItem IItemInstance.Item { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Items.IItem.html">IItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Items.IItem.html">IItem</a>
+      <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Items.IItemInstance.html">IItemInstance</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
