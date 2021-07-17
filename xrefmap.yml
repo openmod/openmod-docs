@@ -38398,6 +38398,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Users.UnturnedUserProvider.OnPendingPlayerConnecting
   nameWithType: UnturnedUserProvider.OnPendingPlayerConnecting
+- uid: OpenMod.Unturned.Users.UnturnedUserProvider.OnPlayerConnected(CSteamID)
+  name: OnPlayerConnected(CSteamID)
+  href: api/OpenMod.Unturned.Users.UnturnedUserProvider.html#OpenMod_Unturned_Users_UnturnedUserProvider_OnPlayerConnected_CSteamID_
+  commentId: M:OpenMod.Unturned.Users.UnturnedUserProvider.OnPlayerConnected(CSteamID)
+  fullName: OpenMod.Unturned.Users.UnturnedUserProvider.OnPlayerConnected(CSteamID)
+  nameWithType: UnturnedUserProvider.OnPlayerConnected(CSteamID)
+- uid: OpenMod.Unturned.Users.UnturnedUserProvider.OnPlayerConnected*
+  name: OnPlayerConnected
+  href: api/OpenMod.Unturned.Users.UnturnedUserProvider.html#OpenMod_Unturned_Users_UnturnedUserProvider_OnPlayerConnected_
+  commentId: Overload:OpenMod.Unturned.Users.UnturnedUserProvider.OnPlayerConnected
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Users.UnturnedUserProvider.OnPlayerConnected
+  nameWithType: UnturnedUserProvider.OnPlayerConnected
 - uid: OpenMod.Unturned.Users.UnturnedUserProvider.OnPlayerDisconnected(CSteamID)
   name: OnPlayerDisconnected(CSteamID)
   href: api/OpenMod.Unturned.Users.UnturnedUserProvider.html#OpenMod_Unturned_Users_UnturnedUserProvider_OnPlayerDisconnected_CSteamID_
