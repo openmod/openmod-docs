@@ -113,7 +113,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Eventing_IEventBus_EmitAsync_OpenMod_API_IOpenModComponent_System_Nullable_System_Object__OpenMod_API_Eventing_IEvent_OpenMod_API_Eventing_EventExecutedCallback_.md&amp;value=---%0Auid%3A%20OpenMod.API.Eventing.IEventBus.EmitAsync(OpenMod.API.IOpenModComponent%2CSystem.Nullable%7BSystem.Object%7D%2COpenMod.API.Eventing.IEvent%2COpenMod.API.Eventing.EventExecutedCallback)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L107">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L140">View Source</a>
   </span>
   <a id="OpenMod_API_Eventing_IEventBus_EmitAsync_" data-uid="OpenMod.API.Eventing.IEventBus.EmitAsync*"></a>
   <h4 id="OpenMod_API_Eventing_IEventBus_EmitAsync_OpenMod_API_IOpenModComponent_System_Nullable_System_Object__OpenMod_API_Eventing_IEvent_OpenMod_API_Eventing_EventExecutedCallback_" data-uid="OpenMod.API.Eventing.IEventBus.EmitAsync(OpenMod.API.IOpenModComponent,System.Nullable{System.Object},OpenMod.API.Eventing.IEvent,OpenMod.API.Eventing.EventExecutedCallback)">EmitAsync(IOpenModComponent, Nullable&lt;Object&gt;, IEvent, EventExecutedCallback)</h4>
@@ -180,7 +180,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Eventing_IEventBus_Subscribe_OpenMod_API_IOpenModComponent_Assembly_.md&amp;value=---%0Auid%3A%20OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent%2CAssembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L71">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L104">View Source</a>
   </span>
   <a id="OpenMod_API_Eventing_IEventBus_Subscribe_" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe*"></a>
   <h4 id="OpenMod_API_Eventing_IEventBus_Subscribe_OpenMod_API_IOpenModComponent_Assembly_" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,Assembly)">Subscribe(IOpenModComponent, Assembly)</h4>
@@ -295,10 +295,78 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Eventing_IEventBus_Subscribe_OpenMod_API_IOpenModComponent_System_String_OpenMod_API_Eventing_EventCallback_OpenMod_API_Eventing_IEventListenerOptions_.md&amp;value=---%0Auid%3A%20OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent%2CSystem.String%2COpenMod.API.Eventing.EventCallback%2COpenMod.API.Eventing.IEventListenerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L54">View Source</a>
+  </span>
+  <a id="OpenMod_API_Eventing_IEventBus_Subscribe_" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe*"></a>
+  <h4 id="OpenMod_API_Eventing_IEventBus_Subscribe_OpenMod_API_IOpenModComponent_System_String_OpenMod_API_Eventing_EventCallback_OpenMod_API_Eventing_IEventListenerOptions_" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,System.String,OpenMod.API.Eventing.EventCallback,OpenMod.API.Eventing.IEventListenerOptions)">Subscribe(IOpenModComponent, String, EventCallback, IEventListenerOptions)</h4>
+  <div class="markdown level1 summary"><p>Subscribes a component to an event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisposable Subscribe(IOpenModComponent component, string eventName, EventCallback callback, IEventListenerOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.IOpenModComponent.html">IOpenModComponent</a></td>
+        <td><span class="parametername">component</span></td>
+        <td><p>The component.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">eventName</span></td>
+        <td><p>The event to subscribe to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Eventing.EventCallback.html">EventCallback</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The action to execute. See <a class="xref" href="OpenMod.API.Eventing.EventCallback.html">EventCallback</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Eventing.IEventListenerOptions.html">IEventListenerOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The extended options for this event subscription.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDisposable</span></td>
+        <td><p>A disposable that unsubscribes the callback when disposed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Eventing_IEventBus_Subscribe_OpenMod_API_IOpenModComponent_Type_OpenMod_API_Eventing_EventCallback_.md&amp;value=---%0Auid%3A%20OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent%2CType%2COpenMod.API.Eventing.EventCallback)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L63">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L85">View Source</a>
   </span>
   <a id="OpenMod_API_Eventing_IEventBus_Subscribe_" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe*"></a>
   <h4 id="OpenMod_API_Eventing_IEventBus_Subscribe_OpenMod_API_IOpenModComponent_Type_OpenMod_API_Eventing_EventCallback_" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,Type,OpenMod.API.Eventing.EventCallback)">Subscribe(IOpenModComponent, Type, EventCallback)</h4>
@@ -357,10 +425,78 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Eventing_IEventBus_Subscribe_OpenMod_API_IOpenModComponent_Type_OpenMod_API_Eventing_EventCallback_OpenMod_API_Eventing_IEventListenerOptions_.md&amp;value=---%0Auid%3A%20OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent%2CType%2COpenMod.API.Eventing.EventCallback%2COpenMod.API.Eventing.IEventListenerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L95">View Source</a>
+  </span>
+  <a id="OpenMod_API_Eventing_IEventBus_Subscribe_" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe*"></a>
+  <h4 id="OpenMod_API_Eventing_IEventBus_Subscribe_OpenMod_API_IOpenModComponent_Type_OpenMod_API_Eventing_EventCallback_OpenMod_API_Eventing_IEventListenerOptions_" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,Type,OpenMod.API.Eventing.EventCallback,OpenMod.API.Eventing.IEventListenerOptions)">Subscribe(IOpenModComponent, Type, EventCallback, IEventListenerOptions)</h4>
+  <div class="markdown level1 summary"><p><inheritdoc cref="M:OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,System.String,OpenMod.API.Eventing.EventCallback)"></inheritdoc></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisposable Subscribe(IOpenModComponent component, Type eventType, EventCallback callback, IEventListenerOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.IOpenModComponent.html">IOpenModComponent</a></td>
+        <td><span class="parametername">component</span></td>
+        <td><p>The component.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">eventType</span></td>
+        <td><p>The event to subscribe to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Eventing.EventCallback.html">EventCallback</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The action to execute after all listeners were notified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Eventing.IEventListenerOptions.html">IEventListenerOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The extended options for this event subscription.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDisposable</span></td>
+        <td><p>A disposable that unsubscribes the callback when disposed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Eventing_IEventBus_Subscribe__1_OpenMod_API_IOpenModComponent_OpenMod_API_Eventing_EventCallback___0__.md&amp;value=---%0Auid%3A%20OpenMod.API.Eventing.IEventBus.Subscribe%60%601(OpenMod.API.IOpenModComponent%2COpenMod.API.Eventing.EventCallback%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L53">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L64">View Source</a>
   </span>
   <a id="OpenMod_API_Eventing_IEventBus_Subscribe_" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe*"></a>
   <h4 id="OpenMod_API_Eventing_IEventBus_Subscribe__1_OpenMod_API_IOpenModComponent_OpenMod_API_Eventing_EventCallback___0__" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe``1(OpenMod.API.IOpenModComponent,OpenMod.API.Eventing.EventCallback{``0})">Subscribe&lt;TEvent&gt;(IOpenModComponent, EventCallback&lt;TEvent&gt;)</h4>
@@ -430,10 +566,89 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Eventing_IEventBus_Subscribe__1_OpenMod_API_IOpenModComponent_OpenMod_API_Eventing_EventCallback___0__OpenMod_API_Eventing_IEventListenerOptions_.md&amp;value=---%0Auid%3A%20OpenMod.API.Eventing.IEventBus.Subscribe%60%601(OpenMod.API.IOpenModComponent%2COpenMod.API.Eventing.EventCallback%7B%60%600%7D%2COpenMod.API.Eventing.IEventListenerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L75">View Source</a>
+  </span>
+  <a id="OpenMod_API_Eventing_IEventBus_Subscribe_" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe*"></a>
+  <h4 id="OpenMod_API_Eventing_IEventBus_Subscribe__1_OpenMod_API_IOpenModComponent_OpenMod_API_Eventing_EventCallback___0__OpenMod_API_Eventing_IEventListenerOptions_" data-uid="OpenMod.API.Eventing.IEventBus.Subscribe``1(OpenMod.API.IOpenModComponent,OpenMod.API.Eventing.EventCallback{``0},OpenMod.API.Eventing.IEventListenerOptions)">Subscribe&lt;TEvent&gt;(IOpenModComponent, EventCallback&lt;TEvent&gt;, IEventListenerOptions)</h4>
+  <div class="markdown level1 summary"><p><inheritdoc cref="M:OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,System.String,OpenMod.API.Eventing.EventCallback)"></inheritdoc></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisposable Subscribe&lt;TEvent&gt;(IOpenModComponent component, EventCallback&lt;TEvent&gt; callback, IEventListenerOptions options)
+    where TEvent : IEvent</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.IOpenModComponent.html">IOpenModComponent</a></td>
+        <td><span class="parametername">component</span></td>
+        <td><p>The component.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Eventing.EventCallback-1.html">EventCallback</a>&lt;TEvent&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The action to execute after all listeners were notified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Eventing.IEventListenerOptions.html">IEventListenerOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The extended options for this event subscription.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDisposable</span></td>
+        <td><p>A disposable that unsubscribes the callback when disposed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEvent</span></td>
+        <td><p>The event to subscribe to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Eventing_IEventBus_Unsubscribe_OpenMod_API_IOpenModComponent_.md&amp;value=---%0Auid%3A%20OpenMod.API.Eventing.IEventBus.Unsubscribe(OpenMod.API.IOpenModComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L77">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L110">View Source</a>
   </span>
   <a id="OpenMod_API_Eventing_IEventBus_Unsubscribe_" data-uid="OpenMod.API.Eventing.IEventBus.Unsubscribe*"></a>
   <h4 id="OpenMod_API_Eventing_IEventBus_Unsubscribe_OpenMod_API_IOpenModComponent_" data-uid="OpenMod.API.Eventing.IEventBus.Unsubscribe(OpenMod.API.IOpenModComponent)">Unsubscribe(IOpenModComponent)</h4>
@@ -467,7 +682,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Eventing_IEventBus_Unsubscribe_OpenMod_API_IOpenModComponent_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.API.Eventing.IEventBus.Unsubscribe(OpenMod.API.IOpenModComponent%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L84">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L117">View Source</a>
   </span>
   <a id="OpenMod_API_Eventing_IEventBus_Unsubscribe_" data-uid="OpenMod.API.Eventing.IEventBus.Unsubscribe*"></a>
   <h4 id="OpenMod_API_Eventing_IEventBus_Unsubscribe_OpenMod_API_IOpenModComponent_System_String_" data-uid="OpenMod.API.Eventing.IEventBus.Unsubscribe(OpenMod.API.IOpenModComponent,System.String)">Unsubscribe(IOpenModComponent, String)</h4>
@@ -507,7 +722,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Eventing_IEventBus_Unsubscribe_OpenMod_API_IOpenModComponent_Type_.md&amp;value=---%0Auid%3A%20OpenMod.API.Eventing.IEventBus.Unsubscribe(OpenMod.API.IOpenModComponent%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L98">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L131">View Source</a>
   </span>
   <a id="OpenMod_API_Eventing_IEventBus_Unsubscribe_" data-uid="OpenMod.API.Eventing.IEventBus.Unsubscribe*"></a>
   <h4 id="OpenMod_API_Eventing_IEventBus_Unsubscribe_OpenMod_API_IOpenModComponent_Type_" data-uid="OpenMod.API.Eventing.IEventBus.Unsubscribe(OpenMod.API.IOpenModComponent,Type)">Unsubscribe(IOpenModComponent, Type)</h4>
@@ -547,7 +762,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Eventing_IEventBus_Unsubscribe__1_OpenMod_API_IOpenModComponent_.md&amp;value=---%0Auid%3A%20OpenMod.API.Eventing.IEventBus.Unsubscribe%60%601(OpenMod.API.IOpenModComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L91">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Eventing/IEventBus.cs/#L124">View Source</a>
   </span>
   <a id="OpenMod_API_Eventing_IEventBus_Unsubscribe_" data-uid="OpenMod.API.Eventing.IEventBus.Unsubscribe*"></a>
   <h4 id="OpenMod_API_Eventing_IEventBus_Unsubscribe__1_OpenMod_API_IOpenModComponent_" data-uid="OpenMod.API.Eventing.IEventBus.Unsubscribe``1(OpenMod.API.IOpenModComponent)">Unsubscribe&lt;TEvent&gt;(IOpenModComponent)</h4>

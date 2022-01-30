@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace OpenMod.Unturned.Players.Equipment.Events
+    <title>Enum PluginStatus
    | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace OpenMod.Unturned.Players.Equipment.Events
+    <meta name="title" content="Enum PluginStatus
    | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -92,25 +92,67 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="OpenMod.Unturned.Players.Equipment.Events">
+                    <article class="content wrap" id="_content" data-uid="OpenMod.Core.Plugins.PluginStatus">
   
-  <h1 id="OpenMod_Unturned_Players_Equipment_Events" data-uid="OpenMod.Unturned.Players.Equipment.Events" class="text-break">Namespace OpenMod.Unturned.Players.Equipment.Events
+  
+  <h1 id="OpenMod_Core_Plugins_PluginStatus" data-uid="OpenMod.Core.Plugins.PluginStatus" class="text-break">Enum PluginStatus
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The loading status of an OpenMod plugin.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Plugins.html">OpenMod.Core.Plugins</a></h6>
+  <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
+  <h5 id="OpenMod_Core_Plugins_PluginStatus_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum PluginStatus : int</code></pre>
+  </div>
+  <h3 id="fields">Fields
   </h3>
-      <h4><a class="xref" href="OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerItemEquippedEvent.html">UnturnedPlayerItemEquippedEvent</a></h4>
-      <section></section>
-      <h4><a class="xref" href="OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerItemEquippingEvent.html">UnturnedPlayerItemEquippingEvent</a></h4>
-      <section></section>
-      <h4><a class="xref" href="OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerItemUnequippedEvent.html">UnturnedPlayerItemUnequippedEvent</a></h4>
-      <section></section>
-      <h4><a class="xref" href="OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerItemUnequippingEvent.html">UnturnedPlayerItemUnequippingEvent</a></h4>
-      <section></section>
-      <h4><a class="xref" href="OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.html">UnturnedPlayerPunchEvent</a></h4>
-      <section></section>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="OpenMod_Core_Plugins_PluginStatus_ExceptionWhenLoading">ExceptionWhenLoading</td>
+        <td><p>The plugin threw an exception during the loading process.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="OpenMod_Core_Plugins_PluginStatus_ExceptionWhenUnloading">ExceptionWhenUnloading</td>
+        <td><p>The plugin threw an exception during the unloading process.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="OpenMod_Core_Plugins_PluginStatus_Initialized">Initialized</td>
+        <td><p>The plugin instance has been created but hasn't been loaded yet.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="OpenMod_Core_Plugins_PluginStatus_Loaded">Loaded</td>
+        <td><p>The plugin has finished loading.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="OpenMod_Core_Plugins_PluginStatus_Loading">Loading</td>
+        <td><p>The plugin is loading, but has not yet finished.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="OpenMod_Core_Plugins_PluginStatus_Unloaded">Unloaded</td>
+        <td><p>The plugin has finished unloading.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="OpenMod_Core_Plugins_PluginStatus_Unloading">Unloading</td>
+        <td><p>The plugin is unloading, but has not yet finished.</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
 </article>
               
                 </div>

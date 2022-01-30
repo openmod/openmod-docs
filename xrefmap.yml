@@ -1005,12 +1005,24 @@ references:
   commentId: M:OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,System.String,OpenMod.API.Eventing.EventCallback)
   fullName: OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent, System.String, OpenMod.API.Eventing.EventCallback)
   nameWithType: IEventBus.Subscribe(IOpenModComponent, String, EventCallback)
+- uid: OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,System.String,OpenMod.API.Eventing.EventCallback,OpenMod.API.Eventing.IEventListenerOptions)
+  name: Subscribe(IOpenModComponent, String, EventCallback, IEventListenerOptions)
+  href: api/OpenMod.API.Eventing.IEventBus.html#OpenMod_API_Eventing_IEventBus_Subscribe_OpenMod_API_IOpenModComponent_System_String_OpenMod_API_Eventing_EventCallback_OpenMod_API_Eventing_IEventListenerOptions_
+  commentId: M:OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,System.String,OpenMod.API.Eventing.EventCallback,OpenMod.API.Eventing.IEventListenerOptions)
+  fullName: OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent, System.String, OpenMod.API.Eventing.EventCallback, OpenMod.API.Eventing.IEventListenerOptions)
+  nameWithType: IEventBus.Subscribe(IOpenModComponent, String, EventCallback, IEventListenerOptions)
 - uid: OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,Type,OpenMod.API.Eventing.EventCallback)
   name: Subscribe(IOpenModComponent, Type, EventCallback)
   href: api/OpenMod.API.Eventing.IEventBus.html#OpenMod_API_Eventing_IEventBus_Subscribe_OpenMod_API_IOpenModComponent_Type_OpenMod_API_Eventing_EventCallback_
   commentId: M:OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,Type,OpenMod.API.Eventing.EventCallback)
   fullName: OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent, Type, OpenMod.API.Eventing.EventCallback)
   nameWithType: IEventBus.Subscribe(IOpenModComponent, Type, EventCallback)
+- uid: OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,Type,OpenMod.API.Eventing.EventCallback,OpenMod.API.Eventing.IEventListenerOptions)
+  name: Subscribe(IOpenModComponent, Type, EventCallback, IEventListenerOptions)
+  href: api/OpenMod.API.Eventing.IEventBus.html#OpenMod_API_Eventing_IEventBus_Subscribe_OpenMod_API_IOpenModComponent_Type_OpenMod_API_Eventing_EventCallback_OpenMod_API_Eventing_IEventListenerOptions_
+  commentId: M:OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent,Type,OpenMod.API.Eventing.EventCallback,OpenMod.API.Eventing.IEventListenerOptions)
+  fullName: OpenMod.API.Eventing.IEventBus.Subscribe(OpenMod.API.IOpenModComponent, Type, OpenMod.API.Eventing.EventCallback, OpenMod.API.Eventing.IEventListenerOptions)
+  nameWithType: IEventBus.Subscribe(IOpenModComponent, Type, EventCallback, IEventListenerOptions)
 - uid: OpenMod.API.Eventing.IEventBus.Subscribe*
   name: Subscribe
   href: api/OpenMod.API.Eventing.IEventBus.html#OpenMod_API_Eventing_IEventBus_Subscribe_
@@ -1027,6 +1039,15 @@ references:
   fullName.vb: OpenMod.API.Eventing.IEventBus.Subscribe(Of TEvent)(OpenMod.API.IOpenModComponent, OpenMod.API.Eventing.EventCallback(Of TEvent))
   nameWithType: IEventBus.Subscribe<TEvent>(IOpenModComponent, EventCallback<TEvent>)
   nameWithType.vb: IEventBus.Subscribe(Of TEvent)(IOpenModComponent, EventCallback(Of TEvent))
+- uid: OpenMod.API.Eventing.IEventBus.Subscribe``1(OpenMod.API.IOpenModComponent,OpenMod.API.Eventing.EventCallback{``0},OpenMod.API.Eventing.IEventListenerOptions)
+  name: Subscribe<TEvent>(IOpenModComponent, EventCallback<TEvent>, IEventListenerOptions)
+  href: api/OpenMod.API.Eventing.IEventBus.html#OpenMod_API_Eventing_IEventBus_Subscribe__1_OpenMod_API_IOpenModComponent_OpenMod_API_Eventing_EventCallback___0__OpenMod_API_Eventing_IEventListenerOptions_
+  commentId: M:OpenMod.API.Eventing.IEventBus.Subscribe``1(OpenMod.API.IOpenModComponent,OpenMod.API.Eventing.EventCallback{``0},OpenMod.API.Eventing.IEventListenerOptions)
+  name.vb: Subscribe(Of TEvent)(IOpenModComponent, EventCallback(Of TEvent), IEventListenerOptions)
+  fullName: OpenMod.API.Eventing.IEventBus.Subscribe<TEvent>(OpenMod.API.IOpenModComponent, OpenMod.API.Eventing.EventCallback<TEvent>, OpenMod.API.Eventing.IEventListenerOptions)
+  fullName.vb: OpenMod.API.Eventing.IEventBus.Subscribe(Of TEvent)(OpenMod.API.IOpenModComponent, OpenMod.API.Eventing.EventCallback(Of TEvent), OpenMod.API.Eventing.IEventListenerOptions)
+  nameWithType: IEventBus.Subscribe<TEvent>(IOpenModComponent, EventCallback<TEvent>, IEventListenerOptions)
+  nameWithType.vb: IEventBus.Subscribe(Of TEvent)(IOpenModComponent, EventCallback(Of TEvent), IEventListenerOptions)
 - uid: OpenMod.API.Eventing.IEventBus.Unsubscribe(OpenMod.API.IOpenModComponent)
   name: Unsubscribe(IOpenModComponent)
   href: api/OpenMod.API.Eventing.IEventBus.html#OpenMod_API_Eventing_IEventBus_Unsubscribe_OpenMod_API_IOpenModComponent_
@@ -1094,6 +1115,38 @@ references:
   fullName.vb: OpenMod.API.Eventing.IEventListener(Of TEvent).HandleEventAsync
   nameWithType: IEventListener<TEvent>.HandleEventAsync
   nameWithType.vb: IEventListener(Of TEvent).HandleEventAsync
+- uid: OpenMod.API.Eventing.IEventListenerOptions
+  name: IEventListenerOptions
+  href: api/OpenMod.API.Eventing.IEventListenerOptions.html
+  commentId: T:OpenMod.API.Eventing.IEventListenerOptions
+  fullName: OpenMod.API.Eventing.IEventListenerOptions
+  nameWithType: IEventListenerOptions
+- uid: OpenMod.API.Eventing.IEventListenerOptions.IgnoreCancelled
+  name: IgnoreCancelled
+  href: api/OpenMod.API.Eventing.IEventListenerOptions.html#OpenMod_API_Eventing_IEventListenerOptions_IgnoreCancelled
+  commentId: P:OpenMod.API.Eventing.IEventListenerOptions.IgnoreCancelled
+  fullName: OpenMod.API.Eventing.IEventListenerOptions.IgnoreCancelled
+  nameWithType: IEventListenerOptions.IgnoreCancelled
+- uid: OpenMod.API.Eventing.IEventListenerOptions.IgnoreCancelled*
+  name: IgnoreCancelled
+  href: api/OpenMod.API.Eventing.IEventListenerOptions.html#OpenMod_API_Eventing_IEventListenerOptions_IgnoreCancelled_
+  commentId: Overload:OpenMod.API.Eventing.IEventListenerOptions.IgnoreCancelled
+  isSpec: "True"
+  fullName: OpenMod.API.Eventing.IEventListenerOptions.IgnoreCancelled
+  nameWithType: IEventListenerOptions.IgnoreCancelled
+- uid: OpenMod.API.Eventing.IEventListenerOptions.Priority
+  name: Priority
+  href: api/OpenMod.API.Eventing.IEventListenerOptions.html#OpenMod_API_Eventing_IEventListenerOptions_Priority
+  commentId: P:OpenMod.API.Eventing.IEventListenerOptions.Priority
+  fullName: OpenMod.API.Eventing.IEventListenerOptions.Priority
+  nameWithType: IEventListenerOptions.Priority
+- uid: OpenMod.API.Eventing.IEventListenerOptions.Priority*
+  name: Priority
+  href: api/OpenMod.API.Eventing.IEventListenerOptions.html#OpenMod_API_Eventing_IEventListenerOptions_Priority_
+  commentId: Overload:OpenMod.API.Eventing.IEventListenerOptions.Priority
+  isSpec: "True"
+  fullName: OpenMod.API.Eventing.IEventListenerOptions.Priority
+  nameWithType: IEventListenerOptions.Priority
 - uid: OpenMod.API.IHostInformation
   name: IHostInformation
   href: api/OpenMod.API.IHostInformation.html
@@ -5781,12 +5834,12 @@ references:
   commentId: M:OpenMod.Core.Commands.CommandWrongUsageException.#ctor(OpenMod.API.Commands.ICommandContext)
   fullName: OpenMod.Core.Commands.CommandWrongUsageException.CommandWrongUsageException(OpenMod.API.Commands.ICommandContext)
   nameWithType: CommandWrongUsageException.CommandWrongUsageException(ICommandContext)
-- uid: OpenMod.Core.Commands.CommandWrongUsageException.#ctor(OpenMod.API.Commands.ICommandContext,IStringLocalizer)
-  name: CommandWrongUsageException(ICommandContext, IStringLocalizer)
-  href: api/OpenMod.Core.Commands.CommandWrongUsageException.html#OpenMod_Core_Commands_CommandWrongUsageException__ctor_OpenMod_API_Commands_ICommandContext_IStringLocalizer_
-  commentId: M:OpenMod.Core.Commands.CommandWrongUsageException.#ctor(OpenMod.API.Commands.ICommandContext,IStringLocalizer)
-  fullName: OpenMod.Core.Commands.CommandWrongUsageException.CommandWrongUsageException(OpenMod.API.Commands.ICommandContext, IStringLocalizer)
-  nameWithType: CommandWrongUsageException.CommandWrongUsageException(ICommandContext, IStringLocalizer)
+- uid: OpenMod.Core.Commands.CommandWrongUsageException.#ctor(OpenMod.API.Commands.ICommandContext,OpenMod.API.Localization.IOpenModStringLocalizer)
+  name: CommandWrongUsageException(ICommandContext, IOpenModStringLocalizer)
+  href: api/OpenMod.Core.Commands.CommandWrongUsageException.html#OpenMod_Core_Commands_CommandWrongUsageException__ctor_OpenMod_API_Commands_ICommandContext_OpenMod_API_Localization_IOpenModStringLocalizer_
+  commentId: M:OpenMod.Core.Commands.CommandWrongUsageException.#ctor(OpenMod.API.Commands.ICommandContext,OpenMod.API.Localization.IOpenModStringLocalizer)
+  fullName: OpenMod.Core.Commands.CommandWrongUsageException.CommandWrongUsageException(OpenMod.API.Commands.ICommandContext, OpenMod.API.Localization.IOpenModStringLocalizer)
+  nameWithType: CommandWrongUsageException.CommandWrongUsageException(ICommandContext, IOpenModStringLocalizer)
 - uid: OpenMod.Core.Commands.CommandWrongUsageException.#ctor(System.String)
   name: CommandWrongUsageException(String)
   href: api/OpenMod.Core.Commands.CommandWrongUsageException.html#OpenMod_Core_Commands_CommandWrongUsageException__ctor_System_String_
@@ -6043,18 +6096,18 @@ references:
   commentId: T:OpenMod.Core.Commands.NotEnoughPermissionException
   fullName: OpenMod.Core.Commands.NotEnoughPermissionException
   nameWithType: NotEnoughPermissionException
-- uid: OpenMod.Core.Commands.NotEnoughPermissionException.#ctor(IStringLocalizer,System.String)
-  name: NotEnoughPermissionException(IStringLocalizer, String)
-  href: api/OpenMod.Core.Commands.NotEnoughPermissionException.html#OpenMod_Core_Commands_NotEnoughPermissionException__ctor_IStringLocalizer_System_String_
-  commentId: M:OpenMod.Core.Commands.NotEnoughPermissionException.#ctor(IStringLocalizer,System.String)
-  fullName: OpenMod.Core.Commands.NotEnoughPermissionException.NotEnoughPermissionException(IStringLocalizer, System.String)
-  nameWithType: NotEnoughPermissionException.NotEnoughPermissionException(IStringLocalizer, String)
 - uid: OpenMod.Core.Commands.NotEnoughPermissionException.#ctor(OpenMod.API.Commands.ICommandContext,System.String)
   name: NotEnoughPermissionException(ICommandContext, String)
   href: api/OpenMod.Core.Commands.NotEnoughPermissionException.html#OpenMod_Core_Commands_NotEnoughPermissionException__ctor_OpenMod_API_Commands_ICommandContext_System_String_
   commentId: M:OpenMod.Core.Commands.NotEnoughPermissionException.#ctor(OpenMod.API.Commands.ICommandContext,System.String)
   fullName: OpenMod.Core.Commands.NotEnoughPermissionException.NotEnoughPermissionException(OpenMod.API.Commands.ICommandContext, System.String)
   nameWithType: NotEnoughPermissionException.NotEnoughPermissionException(ICommandContext, String)
+- uid: OpenMod.Core.Commands.NotEnoughPermissionException.#ctor(OpenMod.API.Localization.IOpenModStringLocalizer,System.String)
+  name: NotEnoughPermissionException(IOpenModStringLocalizer, String)
+  href: api/OpenMod.Core.Commands.NotEnoughPermissionException.html#OpenMod_Core_Commands_NotEnoughPermissionException__ctor_OpenMod_API_Localization_IOpenModStringLocalizer_System_String_
+  commentId: M:OpenMod.Core.Commands.NotEnoughPermissionException.#ctor(OpenMod.API.Localization.IOpenModStringLocalizer,System.String)
+  fullName: OpenMod.Core.Commands.NotEnoughPermissionException.NotEnoughPermissionException(OpenMod.API.Localization.IOpenModStringLocalizer, System.String)
+  nameWithType: NotEnoughPermissionException.NotEnoughPermissionException(IOpenModStringLocalizer, String)
 - uid: OpenMod.Core.Commands.NotEnoughPermissionException.#ctor*
   name: NotEnoughPermissionException
   href: api/OpenMod.Core.Commands.NotEnoughPermissionException.html#OpenMod_Core_Commands_NotEnoughPermissionException__ctor_
@@ -8070,12 +8123,24 @@ references:
   commentId: M:OpenMod.Core.Eventing.EventBus.Subscribe(OpenMod.API.IOpenModComponent,System.String,OpenMod.API.Eventing.EventCallback)
   fullName: OpenMod.Core.Eventing.EventBus.Subscribe(OpenMod.API.IOpenModComponent, System.String, OpenMod.API.Eventing.EventCallback)
   nameWithType: EventBus.Subscribe(IOpenModComponent, String, EventCallback)
+- uid: OpenMod.Core.Eventing.EventBus.Subscribe(OpenMod.API.IOpenModComponent,System.String,OpenMod.API.Eventing.EventCallback,OpenMod.API.Eventing.IEventListenerOptions)
+  name: Subscribe(IOpenModComponent, String, EventCallback, IEventListenerOptions)
+  href: api/OpenMod.Core.Eventing.EventBus.html#OpenMod_Core_Eventing_EventBus_Subscribe_OpenMod_API_IOpenModComponent_System_String_OpenMod_API_Eventing_EventCallback_OpenMod_API_Eventing_IEventListenerOptions_
+  commentId: M:OpenMod.Core.Eventing.EventBus.Subscribe(OpenMod.API.IOpenModComponent,System.String,OpenMod.API.Eventing.EventCallback,OpenMod.API.Eventing.IEventListenerOptions)
+  fullName: OpenMod.Core.Eventing.EventBus.Subscribe(OpenMod.API.IOpenModComponent, System.String, OpenMod.API.Eventing.EventCallback, OpenMod.API.Eventing.IEventListenerOptions)
+  nameWithType: EventBus.Subscribe(IOpenModComponent, String, EventCallback, IEventListenerOptions)
 - uid: OpenMod.Core.Eventing.EventBus.Subscribe(OpenMod.API.IOpenModComponent,Type,OpenMod.API.Eventing.EventCallback)
   name: Subscribe(IOpenModComponent, Type, EventCallback)
   href: api/OpenMod.Core.Eventing.EventBus.html#OpenMod_Core_Eventing_EventBus_Subscribe_OpenMod_API_IOpenModComponent_Type_OpenMod_API_Eventing_EventCallback_
   commentId: M:OpenMod.Core.Eventing.EventBus.Subscribe(OpenMod.API.IOpenModComponent,Type,OpenMod.API.Eventing.EventCallback)
   fullName: OpenMod.Core.Eventing.EventBus.Subscribe(OpenMod.API.IOpenModComponent, Type, OpenMod.API.Eventing.EventCallback)
   nameWithType: EventBus.Subscribe(IOpenModComponent, Type, EventCallback)
+- uid: OpenMod.Core.Eventing.EventBus.Subscribe(OpenMod.API.IOpenModComponent,Type,OpenMod.API.Eventing.EventCallback,OpenMod.API.Eventing.IEventListenerOptions)
+  name: Subscribe(IOpenModComponent, Type, EventCallback, IEventListenerOptions)
+  href: api/OpenMod.Core.Eventing.EventBus.html#OpenMod_Core_Eventing_EventBus_Subscribe_OpenMod_API_IOpenModComponent_Type_OpenMod_API_Eventing_EventCallback_OpenMod_API_Eventing_IEventListenerOptions_
+  commentId: M:OpenMod.Core.Eventing.EventBus.Subscribe(OpenMod.API.IOpenModComponent,Type,OpenMod.API.Eventing.EventCallback,OpenMod.API.Eventing.IEventListenerOptions)
+  fullName: OpenMod.Core.Eventing.EventBus.Subscribe(OpenMod.API.IOpenModComponent, Type, OpenMod.API.Eventing.EventCallback, OpenMod.API.Eventing.IEventListenerOptions)
+  nameWithType: EventBus.Subscribe(IOpenModComponent, Type, EventCallback, IEventListenerOptions)
 - uid: OpenMod.Core.Eventing.EventBus.Subscribe*
   name: Subscribe
   href: api/OpenMod.Core.Eventing.EventBus.html#OpenMod_Core_Eventing_EventBus_Subscribe_
@@ -8092,6 +8157,15 @@ references:
   fullName.vb: OpenMod.Core.Eventing.EventBus.Subscribe(Of TEvent)(OpenMod.API.IOpenModComponent, OpenMod.API.Eventing.EventCallback(Of TEvent))
   nameWithType: EventBus.Subscribe<TEvent>(IOpenModComponent, EventCallback<TEvent>)
   nameWithType.vb: EventBus.Subscribe(Of TEvent)(IOpenModComponent, EventCallback(Of TEvent))
+- uid: OpenMod.Core.Eventing.EventBus.Subscribe``1(OpenMod.API.IOpenModComponent,OpenMod.API.Eventing.EventCallback{``0},OpenMod.API.Eventing.IEventListenerOptions)
+  name: Subscribe<TEvent>(IOpenModComponent, EventCallback<TEvent>, IEventListenerOptions)
+  href: api/OpenMod.Core.Eventing.EventBus.html#OpenMod_Core_Eventing_EventBus_Subscribe__1_OpenMod_API_IOpenModComponent_OpenMod_API_Eventing_EventCallback___0__OpenMod_API_Eventing_IEventListenerOptions_
+  commentId: M:OpenMod.Core.Eventing.EventBus.Subscribe``1(OpenMod.API.IOpenModComponent,OpenMod.API.Eventing.EventCallback{``0},OpenMod.API.Eventing.IEventListenerOptions)
+  name.vb: Subscribe(Of TEvent)(IOpenModComponent, EventCallback(Of TEvent), IEventListenerOptions)
+  fullName: OpenMod.Core.Eventing.EventBus.Subscribe<TEvent>(OpenMod.API.IOpenModComponent, OpenMod.API.Eventing.EventCallback<TEvent>, OpenMod.API.Eventing.IEventListenerOptions)
+  fullName.vb: OpenMod.Core.Eventing.EventBus.Subscribe(Of TEvent)(OpenMod.API.IOpenModComponent, OpenMod.API.Eventing.EventCallback(Of TEvent), OpenMod.API.Eventing.IEventListenerOptions)
+  nameWithType: EventBus.Subscribe<TEvent>(IOpenModComponent, EventCallback<TEvent>, IEventListenerOptions)
+  nameWithType.vb: EventBus.Subscribe(Of TEvent)(IOpenModComponent, EventCallback(Of TEvent), IEventListenerOptions)
 - uid: OpenMod.Core.Eventing.EventBus.Unsubscribe(OpenMod.API.IOpenModComponent)
   name: Unsubscribe(IOpenModComponent)
   href: api/OpenMod.Core.Eventing.EventBus.html#OpenMod_Core_Eventing_EventBus_Unsubscribe_OpenMod_API_IOpenModComponent_
@@ -12423,6 +12497,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Plugins.OpenModPluginBase.Runtime
   nameWithType: OpenModPluginBase.Runtime
+- uid: OpenMod.Core.Plugins.OpenModPluginBase.Status
+  name: Status
+  href: api/OpenMod.Core.Plugins.OpenModPluginBase.html#OpenMod_Core_Plugins_OpenModPluginBase_Status
+  commentId: P:OpenMod.Core.Plugins.OpenModPluginBase.Status
+  fullName: OpenMod.Core.Plugins.OpenModPluginBase.Status
+  nameWithType: OpenModPluginBase.Status
+- uid: OpenMod.Core.Plugins.OpenModPluginBase.Status*
+  name: Status
+  href: api/OpenMod.Core.Plugins.OpenModPluginBase.html#OpenMod_Core_Plugins_OpenModPluginBase_Status_
+  commentId: Overload:OpenMod.Core.Plugins.OpenModPluginBase.Status
+  isSpec: "True"
+  fullName: OpenMod.Core.Plugins.OpenModPluginBase.Status
+  nameWithType: OpenModPluginBase.Status
 - uid: OpenMod.Core.Plugins.OpenModPluginBase.UnloadAsync
   name: UnloadAsync()
   href: api/OpenMod.Core.Plugins.OpenModPluginBase.html#OpenMod_Core_Plugins_OpenModPluginBase_UnloadAsync
@@ -12910,6 +12997,54 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Plugins.PluginServiceConfigurationContext.ParentLifetimeScope
   nameWithType: PluginServiceConfigurationContext.ParentLifetimeScope
+- uid: OpenMod.Core.Plugins.PluginStatus
+  name: PluginStatus
+  href: api/OpenMod.Core.Plugins.PluginStatus.html
+  commentId: T:OpenMod.Core.Plugins.PluginStatus
+  fullName: OpenMod.Core.Plugins.PluginStatus
+  nameWithType: PluginStatus
+- uid: OpenMod.Core.Plugins.PluginStatus.ExceptionWhenLoading
+  name: ExceptionWhenLoading
+  href: api/OpenMod.Core.Plugins.PluginStatus.html#OpenMod_Core_Plugins_PluginStatus_ExceptionWhenLoading
+  commentId: F:OpenMod.Core.Plugins.PluginStatus.ExceptionWhenLoading
+  fullName: OpenMod.Core.Plugins.PluginStatus.ExceptionWhenLoading
+  nameWithType: PluginStatus.ExceptionWhenLoading
+- uid: OpenMod.Core.Plugins.PluginStatus.ExceptionWhenUnloading
+  name: ExceptionWhenUnloading
+  href: api/OpenMod.Core.Plugins.PluginStatus.html#OpenMod_Core_Plugins_PluginStatus_ExceptionWhenUnloading
+  commentId: F:OpenMod.Core.Plugins.PluginStatus.ExceptionWhenUnloading
+  fullName: OpenMod.Core.Plugins.PluginStatus.ExceptionWhenUnloading
+  nameWithType: PluginStatus.ExceptionWhenUnloading
+- uid: OpenMod.Core.Plugins.PluginStatus.Initialized
+  name: Initialized
+  href: api/OpenMod.Core.Plugins.PluginStatus.html#OpenMod_Core_Plugins_PluginStatus_Initialized
+  commentId: F:OpenMod.Core.Plugins.PluginStatus.Initialized
+  fullName: OpenMod.Core.Plugins.PluginStatus.Initialized
+  nameWithType: PluginStatus.Initialized
+- uid: OpenMod.Core.Plugins.PluginStatus.Loaded
+  name: Loaded
+  href: api/OpenMod.Core.Plugins.PluginStatus.html#OpenMod_Core_Plugins_PluginStatus_Loaded
+  commentId: F:OpenMod.Core.Plugins.PluginStatus.Loaded
+  fullName: OpenMod.Core.Plugins.PluginStatus.Loaded
+  nameWithType: PluginStatus.Loaded
+- uid: OpenMod.Core.Plugins.PluginStatus.Loading
+  name: Loading
+  href: api/OpenMod.Core.Plugins.PluginStatus.html#OpenMod_Core_Plugins_PluginStatus_Loading
+  commentId: F:OpenMod.Core.Plugins.PluginStatus.Loading
+  fullName: OpenMod.Core.Plugins.PluginStatus.Loading
+  nameWithType: PluginStatus.Loading
+- uid: OpenMod.Core.Plugins.PluginStatus.Unloaded
+  name: Unloaded
+  href: api/OpenMod.Core.Plugins.PluginStatus.html#OpenMod_Core_Plugins_PluginStatus_Unloaded
+  commentId: F:OpenMod.Core.Plugins.PluginStatus.Unloaded
+  fullName: OpenMod.Core.Plugins.PluginStatus.Unloaded
+  nameWithType: PluginStatus.Unloaded
+- uid: OpenMod.Core.Plugins.PluginStatus.Unloading
+  name: Unloading
+  href: api/OpenMod.Core.Plugins.PluginStatus.html#OpenMod_Core_Plugins_PluginStatus_Unloading
+  commentId: F:OpenMod.Core.Plugins.PluginStatus.Unloading
+  fullName: OpenMod.Core.Plugins.PluginStatus.Unloading
+  nameWithType: PluginStatus.Unloading
 - uid: OpenMod.Core.Prioritization
   name: OpenMod.Core.Prioritization
   href: api/OpenMod.Core.Prioritization.html
@@ -16969,6 +17104,51 @@ references:
   isSpec: "True"
   fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.SetHealthAsync
   nameWithType: IHasHealth.SetHealthAsync
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger
+  name: IHasHunger
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.html
+  commentId: T:OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger
+  nameWithType: IHasHunger
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.Hunger
+  name: Hunger
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasHunger_Hunger
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.Hunger
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.Hunger
+  nameWithType: IHasHunger.Hunger
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.Hunger*
+  name: Hunger
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasHunger_Hunger_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.Hunger
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.Hunger
+  nameWithType: IHasHunger.Hunger
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.MaxHunger
+  name: MaxHunger
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasHunger_MaxHunger
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.MaxHunger
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.MaxHunger
+  nameWithType: IHasHunger.MaxHunger
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.MaxHunger*
+  name: MaxHunger
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasHunger_MaxHunger_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.MaxHunger
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.MaxHunger
+  nameWithType: IHasHunger.MaxHunger
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.SetHungerAsync(System.Double)
+  name: SetHungerAsync(Double)
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasHunger_SetHungerAsync_System_Double_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.SetHungerAsync(System.Double)
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.SetHungerAsync(System.Double)
+  nameWithType: IHasHunger.SetHungerAsync(Double)
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.SetHungerAsync*
+  name: SetHungerAsync
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasHunger_SetHungerAsync_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.SetHungerAsync
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.SetHungerAsync
+  nameWithType: IHasHunger.SetHungerAsync
 - uid: OpenMod.Extensions.Games.Abstractions.Entities.KnownEntityTypes
   name: KnownEntityTypes
   href: api/OpenMod.Extensions.Games.Abstractions.Entities.KnownEntityTypes.html
@@ -27491,12 +27671,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent
   nameWithType: UnturnedBarricadeDamagingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  name: UnturnedBarricadeDamagingEvent(UnturnedBarricadeBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeDamagingEvent__ctor_OpenMod_Unturned_Building_UnturnedBarricadeBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent.UnturnedBarricadeDamagingEvent(OpenMod.Unturned.Building.UnturnedBarricadeBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID)
-  nameWithType: UnturnedBarricadeDamagingEvent.UnturnedBarricadeDamagingEvent(UnturnedBarricadeBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
+- uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedBarricadeDamagingEvent(UnturnedBarricadeBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeDamagingEvent__ctor_OpenMod_Unturned_Building_UnturnedBarricadeBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent.UnturnedBarricadeDamagingEvent(OpenMod.Unturned.Building.UnturnedBarricadeBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedBarricadeDamagingEvent.UnturnedBarricadeDamagingEvent(UnturnedBarricadeBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent.#ctor*
   name: UnturnedBarricadeDamagingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeDamagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeDamagingEvent__ctor_
@@ -27632,12 +27812,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent
   nameWithType: UnturnedBarricadeDestroyingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  name: UnturnedBarricadeDestroyingEvent(UnturnedBarricadeBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeDestroyingEvent__ctor_OpenMod_Unturned_Building_UnturnedBarricadeBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent.UnturnedBarricadeDestroyingEvent(OpenMod.Unturned.Building.UnturnedBarricadeBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID)
-  nameWithType: UnturnedBarricadeDestroyingEvent.UnturnedBarricadeDestroyingEvent(UnturnedBarricadeBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
+- uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedBarricadeDestroyingEvent(UnturnedBarricadeBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeDestroyingEvent__ctor_OpenMod_Unturned_Building_UnturnedBarricadeBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent.UnturnedBarricadeDestroyingEvent(OpenMod.Unturned.Building.UnturnedBarricadeBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedBarricadeDestroyingEvent.UnturnedBarricadeDestroyingEvent(UnturnedBarricadeBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent.#ctor*
   name: UnturnedBarricadeDestroyingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeDestroyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeDestroyingEvent__ctor_
@@ -27664,12 +27844,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent
   nameWithType: UnturnedBarricadeSalvagingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  name: UnturnedBarricadeSalvagingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeSalvagingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent.UnturnedBarricadeSalvagingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID)
-  nameWithType: UnturnedBarricadeSalvagingEvent.UnturnedBarricadeSalvagingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID)
+- uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedBarricadeSalvagingEvent(UnturnedBuildable, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeSalvagingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent.UnturnedBarricadeSalvagingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedBarricadeSalvagingEvent.UnturnedBarricadeSalvagingEvent(UnturnedBuildable, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent.#ctor*
   name: UnturnedBarricadeSalvagingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeSalvagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeSalvagingEvent__ctor_
@@ -27696,12 +27876,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent
   nameWithType: UnturnedBarricadeTransformedEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,CSteamID,OpenMod.Unturned.Players.UnturnedPlayer)
-  name: UnturnedBarricadeTransformedEvent(UnturnedBuildable, CSteamID, UnturnedPlayer)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeTransformedEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_CSteamID_OpenMod_Unturned_Players_UnturnedPlayer_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,CSteamID,OpenMod.Unturned.Players.UnturnedPlayer)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent.UnturnedBarricadeTransformedEvent(OpenMod.Unturned.Building.UnturnedBuildable, CSteamID, OpenMod.Unturned.Players.UnturnedPlayer)
-  nameWithType: UnturnedBarricadeTransformedEvent.UnturnedBarricadeTransformedEvent(UnturnedBuildable, CSteamID, UnturnedPlayer)
+- uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedBarricadeTransformedEvent(UnturnedBuildable, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeTransformedEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent.UnturnedBarricadeTransformedEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedBarricadeTransformedEvent.UnturnedBarricadeTransformedEvent(UnturnedBuildable, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent.#ctor*
   name: UnturnedBarricadeTransformedEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformedEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeTransformedEvent__ctor_
@@ -27728,12 +27908,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent
   nameWithType: UnturnedBarricadeTransformingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,Vector3,Quaternion)
-  name: UnturnedBarricadeTransformingEvent(UnturnedBarricadeBuildable, UnturnedPlayer, CSteamID, Vector3, Quaternion)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeTransformingEvent__ctor_OpenMod_Unturned_Building_UnturnedBarricadeBuildable_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_Vector3_Quaternion_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,Vector3,Quaternion)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent.UnturnedBarricadeTransformingEvent(OpenMod.Unturned.Building.UnturnedBarricadeBuildable, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID, Vector3, Quaternion)
-  nameWithType: UnturnedBarricadeTransformingEvent.UnturnedBarricadeTransformingEvent(UnturnedBarricadeBuildable, UnturnedPlayer, CSteamID, Vector3, Quaternion)
+- uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,OpenMod.Unturned.Players.UnturnedPlayer,Vector3,Quaternion)
+  name: UnturnedBarricadeTransformingEvent(UnturnedBarricadeBuildable, UnturnedPlayer, Vector3, Quaternion)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeTransformingEvent__ctor_OpenMod_Unturned_Building_UnturnedBarricadeBuildable_OpenMod_Unturned_Players_UnturnedPlayer_Vector3_Quaternion_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBarricadeBuildable,OpenMod.Unturned.Players.UnturnedPlayer,Vector3,Quaternion)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent.UnturnedBarricadeTransformingEvent(OpenMod.Unturned.Building.UnturnedBarricadeBuildable, OpenMod.Unturned.Players.UnturnedPlayer, Vector3, Quaternion)
+  nameWithType: UnturnedBarricadeTransformingEvent.UnturnedBarricadeTransformingEvent(UnturnedBarricadeBuildable, UnturnedPlayer, Vector3, Quaternion)
 - uid: OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent.#ctor*
   name: UnturnedBarricadeTransformingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedBarricadeTransformingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBarricadeTransformingEvent__ctor_
@@ -27760,12 +27940,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent
   nameWithType: UnturnedBuildableDamagingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  name: UnturnedBuildableDamagingEvent(UnturnedBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableDamagingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent.UnturnedBuildableDamagingEvent(OpenMod.Unturned.Building.UnturnedBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID)
-  nameWithType: UnturnedBuildableDamagingEvent.UnturnedBuildableDamagingEvent(UnturnedBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
+- uid: OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedBuildableDamagingEvent(UnturnedBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableDamagingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent.UnturnedBuildableDamagingEvent(OpenMod.Unturned.Building.UnturnedBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedBuildableDamagingEvent.UnturnedBuildableDamagingEvent(UnturnedBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent.#ctor*
   name: UnturnedBuildableDamagingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableDamagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableDamagingEvent__ctor_
@@ -27996,12 +28176,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent
   nameWithType: UnturnedBuildableDestroyingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  name: UnturnedBuildableDestroyingEvent(UnturnedBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableDestroyingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent.UnturnedBuildableDestroyingEvent(OpenMod.Unturned.Building.UnturnedBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID)
-  nameWithType: UnturnedBuildableDestroyingEvent.UnturnedBuildableDestroyingEvent(UnturnedBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
+- uid: OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedBuildableDestroyingEvent(UnturnedBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableDestroyingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent.UnturnedBuildableDestroyingEvent(OpenMod.Unturned.Building.UnturnedBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedBuildableDestroyingEvent.UnturnedBuildableDestroyingEvent(UnturnedBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent.#ctor*
   name: UnturnedBuildableDestroyingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableDestroyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableDestroyingEvent__ctor_
@@ -28064,12 +28244,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent
   nameWithType: UnturnedBuildableSalvagingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  name: UnturnedBuildableSalvagingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableSalvagingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent.UnturnedBuildableSalvagingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID)
-  nameWithType: UnturnedBuildableSalvagingEvent.UnturnedBuildableSalvagingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID)
+- uid: OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedBuildableSalvagingEvent(UnturnedBuildable, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableSalvagingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent.UnturnedBuildableSalvagingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedBuildableSalvagingEvent.UnturnedBuildableSalvagingEvent(UnturnedBuildable, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent.#ctor*
   name: UnturnedBuildableSalvagingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableSalvagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableSalvagingEvent__ctor_
@@ -28122,12 +28302,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent
   nameWithType: UnturnedBuildableTransformedEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,CSteamID,OpenMod.Unturned.Players.UnturnedPlayer)
-  name: UnturnedBuildableTransformedEvent(UnturnedBuildable, CSteamID, UnturnedPlayer)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableTransformedEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_CSteamID_OpenMod_Unturned_Players_UnturnedPlayer_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,CSteamID,OpenMod.Unturned.Players.UnturnedPlayer)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent.UnturnedBuildableTransformedEvent(OpenMod.Unturned.Building.UnturnedBuildable, CSteamID, OpenMod.Unturned.Players.UnturnedPlayer)
-  nameWithType: UnturnedBuildableTransformedEvent.UnturnedBuildableTransformedEvent(UnturnedBuildable, CSteamID, UnturnedPlayer)
+- uid: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedBuildableTransformedEvent(UnturnedBuildable, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableTransformedEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent.UnturnedBuildableTransformedEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedBuildableTransformedEvent.UnturnedBuildableTransformedEvent(UnturnedBuildable, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent.#ctor*
   name: UnturnedBuildableTransformedEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableTransformedEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableTransformedEvent__ctor_
@@ -28167,12 +28347,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent
   nameWithType: UnturnedBuildableTransformingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,Vector3,Quaternion)
-  name: UnturnedBuildableTransformingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID, Vector3, Quaternion)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableTransformingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_Vector3_Quaternion_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,Vector3,Quaternion)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent.UnturnedBuildableTransformingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID, Vector3, Quaternion)
-  nameWithType: UnturnedBuildableTransformingEvent.UnturnedBuildableTransformingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID, Vector3, Quaternion)
+- uid: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,Vector3,Quaternion)
+  name: UnturnedBuildableTransformingEvent(UnturnedBuildable, UnturnedPlayer, Vector3, Quaternion)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableTransformingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_Vector3_Quaternion_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,Vector3,Quaternion)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent.UnturnedBuildableTransformingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer, Vector3, Quaternion)
+  nameWithType: UnturnedBuildableTransformingEvent.UnturnedBuildableTransformingEvent(UnturnedBuildable, UnturnedPlayer, Vector3, Quaternion)
 - uid: OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent.#ctor*
   name: UnturnedBuildableTransformingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedBuildableTransformingEvent.html#OpenMod_Unturned_Building_Events_UnturnedBuildableTransformingEvent__ctor_
@@ -28251,12 +28431,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent
   nameWithType: UnturnedPlantHarvestingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  name: UnturnedPlantHarvestingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent.html#OpenMod_Unturned_Building_Events_UnturnedPlantHarvestingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent.UnturnedPlantHarvestingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID)
-  nameWithType: UnturnedPlantHarvestingEvent.UnturnedPlantHarvestingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID)
+- uid: OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedPlantHarvestingEvent(UnturnedBuildable, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent.html#OpenMod_Unturned_Building_Events_UnturnedPlantHarvestingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent.UnturnedPlantHarvestingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedPlantHarvestingEvent.UnturnedPlantHarvestingEvent(UnturnedBuildable, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent.#ctor*
   name: UnturnedPlantHarvestingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedPlantHarvestingEvent.html#OpenMod_Unturned_Building_Events_UnturnedPlantHarvestingEvent__ctor_
@@ -28322,12 +28502,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent
   nameWithType: UnturnedSignModifyingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,System.String)
-  name: UnturnedSignModifyingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID, String)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedSignModifyingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_System_String_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,System.String)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent.UnturnedSignModifyingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID, System.String)
-  nameWithType: UnturnedSignModifyingEvent.UnturnedSignModifyingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID, String)
+- uid: OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,System.String)
+  name: UnturnedSignModifyingEvent(UnturnedBuildable, UnturnedPlayer, String)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedSignModifyingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_System_String_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,System.String)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent.UnturnedSignModifyingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer, System.String)
+  nameWithType: UnturnedSignModifyingEvent.UnturnedSignModifyingEvent(UnturnedBuildable, UnturnedPlayer, String)
 - uid: OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent.#ctor*
   name: UnturnedSignModifyingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedSignModifyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedSignModifyingEvent__ctor_
@@ -28406,12 +28586,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent
   nameWithType: UnturnedStorageOpeningEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  name: UnturnedStorageOpeningEvent(UnturnedBuildable, UnturnedPlayer, CSteamID)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent.html#OpenMod_Unturned_Building_Events_UnturnedStorageOpeningEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent.UnturnedStorageOpeningEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID)
-  nameWithType: UnturnedStorageOpeningEvent.UnturnedStorageOpeningEvent(UnturnedBuildable, UnturnedPlayer, CSteamID)
+- uid: OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedStorageOpeningEvent(UnturnedBuildable, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent.html#OpenMod_Unturned_Building_Events_UnturnedStorageOpeningEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent.UnturnedStorageOpeningEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedStorageOpeningEvent.UnturnedStorageOpeningEvent(UnturnedBuildable, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent.#ctor*
   name: UnturnedStorageOpeningEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedStorageOpeningEvent.html#OpenMod_Unturned_Building_Events_UnturnedStorageOpeningEvent__ctor_
@@ -28477,12 +28657,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent
   nameWithType: UnturnedStructureDamagingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  name: UnturnedStructureDamagingEvent(UnturnedStructureBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureDamagingEvent__ctor_OpenMod_Unturned_Building_UnturnedStructureBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent.UnturnedStructureDamagingEvent(OpenMod.Unturned.Building.UnturnedStructureBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID)
-  nameWithType: UnturnedStructureDamagingEvent.UnturnedStructureDamagingEvent(UnturnedStructureBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
+- uid: OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedStructureDamagingEvent(UnturnedStructureBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureDamagingEvent__ctor_OpenMod_Unturned_Building_UnturnedStructureBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent.UnturnedStructureDamagingEvent(OpenMod.Unturned.Building.UnturnedStructureBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedStructureDamagingEvent.UnturnedStructureDamagingEvent(UnturnedStructureBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent.#ctor*
   name: UnturnedStructureDamagingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedStructureDamagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureDamagingEvent__ctor_
@@ -28605,12 +28785,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent
   nameWithType: UnturnedStructureDestroyingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  name: UnturnedStructureDestroyingEvent(UnturnedStructureBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureDestroyingEvent__ctor_OpenMod_Unturned_Building_UnturnedStructureBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent.UnturnedStructureDestroyingEvent(OpenMod.Unturned.Building.UnturnedStructureBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID)
-  nameWithType: UnturnedStructureDestroyingEvent.UnturnedStructureDestroyingEvent(UnturnedStructureBuildable, UInt16, EDamageOrigin, UnturnedPlayer, CSteamID)
+- uid: OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedStructureDestroyingEvent(UnturnedStructureBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureDestroyingEvent__ctor_OpenMod_Unturned_Building_UnturnedStructureBuildable_System_UInt16_EDamageOrigin_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,System.UInt16,EDamageOrigin,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent.UnturnedStructureDestroyingEvent(OpenMod.Unturned.Building.UnturnedStructureBuildable, System.UInt16, EDamageOrigin, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedStructureDestroyingEvent.UnturnedStructureDestroyingEvent(UnturnedStructureBuildable, UInt16, EDamageOrigin, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent.#ctor*
   name: UnturnedStructureDestroyingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedStructureDestroyingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureDestroyingEvent__ctor_
@@ -28637,12 +28817,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent
   nameWithType: UnturnedStructureSalvagingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  name: UnturnedStructureSalvagingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureSalvagingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent.UnturnedStructureSalvagingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID)
-  nameWithType: UnturnedStructureSalvagingEvent.UnturnedStructureSalvagingEvent(UnturnedBuildable, UnturnedPlayer, CSteamID)
+- uid: OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedStructureSalvagingEvent(UnturnedBuildable, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureSalvagingEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent.UnturnedStructureSalvagingEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedStructureSalvagingEvent.UnturnedStructureSalvagingEvent(UnturnedBuildable, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent.#ctor*
   name: UnturnedStructureSalvagingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedStructureSalvagingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureSalvagingEvent__ctor_
@@ -28669,12 +28849,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent
   nameWithType: UnturnedStructureTransformedEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,CSteamID,OpenMod.Unturned.Players.UnturnedPlayer)
-  name: UnturnedStructureTransformedEvent(UnturnedBuildable, CSteamID, UnturnedPlayer)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureTransformedEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_CSteamID_OpenMod_Unturned_Players_UnturnedPlayer_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,CSteamID,OpenMod.Unturned.Players.UnturnedPlayer)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent.UnturnedStructureTransformedEvent(OpenMod.Unturned.Building.UnturnedBuildable, CSteamID, OpenMod.Unturned.Players.UnturnedPlayer)
-  nameWithType: UnturnedStructureTransformedEvent.UnturnedStructureTransformedEvent(UnturnedBuildable, CSteamID, UnturnedPlayer)
+- uid: OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedStructureTransformedEvent(UnturnedBuildable, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureTransformedEvent__ctor_OpenMod_Unturned_Building_UnturnedBuildable_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent.#ctor(OpenMod.Unturned.Building.UnturnedBuildable,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent.UnturnedStructureTransformedEvent(OpenMod.Unturned.Building.UnturnedBuildable, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedStructureTransformedEvent.UnturnedStructureTransformedEvent(UnturnedBuildable, UnturnedPlayer)
 - uid: OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent.#ctor*
   name: UnturnedStructureTransformedEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedStructureTransformedEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureTransformedEvent__ctor_
@@ -28701,12 +28881,12 @@ references:
   commentId: T:OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent
   fullName: OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent
   nameWithType: UnturnedStructureTransformingEvent
-- uid: OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,Vector3,Quaternion)
-  name: UnturnedStructureTransformingEvent(UnturnedStructureBuildable, UnturnedPlayer, CSteamID, Vector3, Quaternion)
-  href: api/OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureTransformingEvent__ctor_OpenMod_Unturned_Building_UnturnedStructureBuildable_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_Vector3_Quaternion_
-  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,Vector3,Quaternion)
-  fullName: OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent.UnturnedStructureTransformingEvent(OpenMod.Unturned.Building.UnturnedStructureBuildable, OpenMod.Unturned.Players.UnturnedPlayer, CSteamID, Vector3, Quaternion)
-  nameWithType: UnturnedStructureTransformingEvent.UnturnedStructureTransformingEvent(UnturnedStructureBuildable, UnturnedPlayer, CSteamID, Vector3, Quaternion)
+- uid: OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,OpenMod.Unturned.Players.UnturnedPlayer,Vector3,Quaternion)
+  name: UnturnedStructureTransformingEvent(UnturnedStructureBuildable, UnturnedPlayer, Vector3, Quaternion)
+  href: api/OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureTransformingEvent__ctor_OpenMod_Unturned_Building_UnturnedStructureBuildable_OpenMod_Unturned_Players_UnturnedPlayer_Vector3_Quaternion_
+  commentId: M:OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent.#ctor(OpenMod.Unturned.Building.UnturnedStructureBuildable,OpenMod.Unturned.Players.UnturnedPlayer,Vector3,Quaternion)
+  fullName: OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent.UnturnedStructureTransformingEvent(OpenMod.Unturned.Building.UnturnedStructureBuildable, OpenMod.Unturned.Players.UnturnedPlayer, Vector3, Quaternion)
+  nameWithType: UnturnedStructureTransformingEvent.UnturnedStructureTransformingEvent(UnturnedStructureBuildable, UnturnedPlayer, Vector3, Quaternion)
 - uid: OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent.#ctor*
   name: UnturnedStructureTransformingEvent
   href: api/OpenMod.Unturned.Building.Events.UnturnedStructureTransformingEvent.html#OpenMod_Unturned_Building_Events_UnturnedStructureTransformingEvent__ctor_
@@ -28739,6 +28919,12 @@ references:
   commentId: M:OpenMod.Unturned.Building.UnturnedBarricadeBuildable.#ctor(BarricadeData,BarricadeDrop)
   fullName: OpenMod.Unturned.Building.UnturnedBarricadeBuildable.UnturnedBarricadeBuildable(BarricadeData, BarricadeDrop)
   nameWithType: UnturnedBarricadeBuildable.UnturnedBarricadeBuildable(BarricadeData, BarricadeDrop)
+- uid: OpenMod.Unturned.Building.UnturnedBarricadeBuildable.#ctor(BarricadeDrop)
+  name: UnturnedBarricadeBuildable(BarricadeDrop)
+  href: api/OpenMod.Unturned.Building.UnturnedBarricadeBuildable.html#OpenMod_Unturned_Building_UnturnedBarricadeBuildable__ctor_BarricadeDrop_
+  commentId: M:OpenMod.Unturned.Building.UnturnedBarricadeBuildable.#ctor(BarricadeDrop)
+  fullName: OpenMod.Unturned.Building.UnturnedBarricadeBuildable.UnturnedBarricadeBuildable(BarricadeDrop)
+  nameWithType: UnturnedBarricadeBuildable.UnturnedBarricadeBuildable(BarricadeDrop)
 - uid: OpenMod.Unturned.Building.UnturnedBarricadeBuildable.#ctor*
   name: UnturnedBarricadeBuildable
   href: api/OpenMod.Unturned.Building.UnturnedBarricadeBuildable.html#OpenMod_Unturned_Building_UnturnedBarricadeBuildable__ctor_
@@ -29150,6 +29336,12 @@ references:
   commentId: M:OpenMod.Unturned.Building.UnturnedStructureBuildable.#ctor(StructureData,StructureDrop)
   fullName: OpenMod.Unturned.Building.UnturnedStructureBuildable.UnturnedStructureBuildable(StructureData, StructureDrop)
   nameWithType: UnturnedStructureBuildable.UnturnedStructureBuildable(StructureData, StructureDrop)
+- uid: OpenMod.Unturned.Building.UnturnedStructureBuildable.#ctor(StructureDrop)
+  name: UnturnedStructureBuildable(StructureDrop)
+  href: api/OpenMod.Unturned.Building.UnturnedStructureBuildable.html#OpenMod_Unturned_Building_UnturnedStructureBuildable__ctor_StructureDrop_
+  commentId: M:OpenMod.Unturned.Building.UnturnedStructureBuildable.#ctor(StructureDrop)
+  fullName: OpenMod.Unturned.Building.UnturnedStructureBuildable.UnturnedStructureBuildable(StructureDrop)
+  nameWithType: UnturnedStructureBuildable.UnturnedStructureBuildable(StructureDrop)
 - uid: OpenMod.Unturned.Building.UnturnedStructureBuildable.#ctor*
   name: UnturnedStructureBuildable
   href: api/OpenMod.Unturned.Building.UnturnedStructureBuildable.html#OpenMod_Unturned_Building_UnturnedStructureBuildable__ctor_
@@ -30824,6 +31016,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Items.UnturnedPlayerInventory.UnturnedPlayerInventory
   nameWithType: UnturnedPlayerInventory.UnturnedPlayerInventory
+- uid: OpenMod.Unturned.Items.UnturnedPlayerInventory.Clear
+  name: Clear()
+  href: api/OpenMod.Unturned.Items.UnturnedPlayerInventory.html#OpenMod_Unturned_Items_UnturnedPlayerInventory_Clear
+  commentId: M:OpenMod.Unturned.Items.UnturnedPlayerInventory.Clear
+  fullName: OpenMod.Unturned.Items.UnturnedPlayerInventory.Clear()
+  nameWithType: UnturnedPlayerInventory.Clear()
+- uid: OpenMod.Unturned.Items.UnturnedPlayerInventory.Clear*
+  name: Clear
+  href: api/OpenMod.Unturned.Items.UnturnedPlayerInventory.html#OpenMod_Unturned_Items_UnturnedPlayerInventory_Clear_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedPlayerInventory.Clear
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedPlayerInventory.Clear
+  nameWithType: UnturnedPlayerInventory.Clear
 - uid: OpenMod.Unturned.Items.UnturnedPlayerInventory.Count
   name: Count
   href: api/OpenMod.Unturned.Items.UnturnedPlayerInventory.html#OpenMod_Unturned_Items_UnturnedPlayerInventory_Count
@@ -30837,6 +31042,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Items.UnturnedPlayerInventory.Count
   nameWithType: UnturnedPlayerInventory.Count
+- uid: OpenMod.Unturned.Items.UnturnedPlayerInventory.Equals(System.Object)
+  name: Equals(Object)
+  href: api/OpenMod.Unturned.Items.UnturnedPlayerInventory.html#OpenMod_Unturned_Items_UnturnedPlayerInventory_Equals_System_Object_
+  commentId: M:OpenMod.Unturned.Items.UnturnedPlayerInventory.Equals(System.Object)
+  fullName: OpenMod.Unturned.Items.UnturnedPlayerInventory.Equals(System.Object)
+  nameWithType: UnturnedPlayerInventory.Equals(Object)
+- uid: OpenMod.Unturned.Items.UnturnedPlayerInventory.Equals*
+  name: Equals
+  href: api/OpenMod.Unturned.Items.UnturnedPlayerInventory.html#OpenMod_Unturned_Items_UnturnedPlayerInventory_Equals_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedPlayerInventory.Equals
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedPlayerInventory.Equals
+  nameWithType: UnturnedPlayerInventory.Equals
 - uid: OpenMod.Unturned.Items.UnturnedPlayerInventory.GetEnumerator
   name: GetEnumerator()
   href: api/OpenMod.Unturned.Items.UnturnedPlayerInventory.html#OpenMod_Unturned_Items_UnturnedPlayerInventory_GetEnumerator
@@ -31801,15 +32019,15 @@ references:
   commentId: T:OpenMod.Unturned.OpenModUnturnedHost
   fullName: OpenMod.Unturned.OpenModUnturnedHost
   nameWithType: OpenModUnturnedHost
-- uid: OpenMod.Unturned.OpenModUnturnedHost.#ctor(IRuntime,IHostInformation,System.IServiceProvider,ILifetimeScope,IDataStoreFactory,IConsoleActorAccessor,ILogger{OpenMod.Unturned.OpenModUnturnedHost},NuGetPackageManager,System.Lazy{ICommandExecutor},System.Lazy{OpenMod.Unturned.Users.UnturnedCommandHandler})
-  name: OpenModUnturnedHost(IRuntime, IHostInformation, IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger<OpenModUnturnedHost>, NuGetPackageManager, Lazy<ICommandExecutor>, Lazy<UnturnedCommandHandler>)
-  href: api/OpenMod.Unturned.OpenModUnturnedHost.html#OpenMod_Unturned_OpenModUnturnedHost__ctor_IRuntime_IHostInformation_System_IServiceProvider_ILifetimeScope_IDataStoreFactory_IConsoleActorAccessor_ILogger_OpenMod_Unturned_OpenModUnturnedHost__NuGetPackageManager_System_Lazy_ICommandExecutor__System_Lazy_OpenMod_Unturned_Users_UnturnedCommandHandler__
-  commentId: M:OpenMod.Unturned.OpenModUnturnedHost.#ctor(IRuntime,IHostInformation,System.IServiceProvider,ILifetimeScope,IDataStoreFactory,IConsoleActorAccessor,ILogger{OpenMod.Unturned.OpenModUnturnedHost},NuGetPackageManager,System.Lazy{ICommandExecutor},System.Lazy{OpenMod.Unturned.Users.UnturnedCommandHandler})
-  name.vb: OpenModUnturnedHost(IRuntime, IHostInformation, IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger(Of OpenModUnturnedHost), NuGetPackageManager, Lazy(Of ICommandExecutor), Lazy(Of UnturnedCommandHandler))
-  fullName: OpenMod.Unturned.OpenModUnturnedHost.OpenModUnturnedHost(IRuntime, IHostInformation, System.IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger<OpenMod.Unturned.OpenModUnturnedHost>, NuGetPackageManager, System.Lazy<ICommandExecutor>, System.Lazy<OpenMod.Unturned.Users.UnturnedCommandHandler>)
-  fullName.vb: OpenMod.Unturned.OpenModUnturnedHost.OpenModUnturnedHost(IRuntime, IHostInformation, System.IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger(Of OpenMod.Unturned.OpenModUnturnedHost), NuGetPackageManager, System.Lazy(Of ICommandExecutor), System.Lazy(Of OpenMod.Unturned.Users.UnturnedCommandHandler))
-  nameWithType: OpenModUnturnedHost.OpenModUnturnedHost(IRuntime, IHostInformation, IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger<OpenModUnturnedHost>, NuGetPackageManager, Lazy<ICommandExecutor>, Lazy<UnturnedCommandHandler>)
-  nameWithType.vb: OpenModUnturnedHost.OpenModUnturnedHost(IRuntime, IHostInformation, IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger(Of OpenModUnturnedHost), NuGetPackageManager, Lazy(Of ICommandExecutor), Lazy(Of UnturnedCommandHandler))
+- uid: OpenMod.Unturned.OpenModUnturnedHost.#ctor(IRuntime,IHostInformation,System.IServiceProvider,ILifetimeScope,IDataStoreFactory,IConsoleActorAccessor,ILogger{OpenMod.Unturned.OpenModUnturnedHost},NuGetPackageManager,System.Lazy{ICommandExecutor},System.Lazy{OpenMod.Unturned.Users.UnturnedCommandHandler},ILoggerFactory)
+  name: OpenModUnturnedHost(IRuntime, IHostInformation, IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger<OpenModUnturnedHost>, NuGetPackageManager, Lazy<ICommandExecutor>, Lazy<UnturnedCommandHandler>, ILoggerFactory)
+  href: api/OpenMod.Unturned.OpenModUnturnedHost.html#OpenMod_Unturned_OpenModUnturnedHost__ctor_IRuntime_IHostInformation_System_IServiceProvider_ILifetimeScope_IDataStoreFactory_IConsoleActorAccessor_ILogger_OpenMod_Unturned_OpenModUnturnedHost__NuGetPackageManager_System_Lazy_ICommandExecutor__System_Lazy_OpenMod_Unturned_Users_UnturnedCommandHandler__ILoggerFactory_
+  commentId: M:OpenMod.Unturned.OpenModUnturnedHost.#ctor(IRuntime,IHostInformation,System.IServiceProvider,ILifetimeScope,IDataStoreFactory,IConsoleActorAccessor,ILogger{OpenMod.Unturned.OpenModUnturnedHost},NuGetPackageManager,System.Lazy{ICommandExecutor},System.Lazy{OpenMod.Unturned.Users.UnturnedCommandHandler},ILoggerFactory)
+  name.vb: OpenModUnturnedHost(IRuntime, IHostInformation, IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger(Of OpenModUnturnedHost), NuGetPackageManager, Lazy(Of ICommandExecutor), Lazy(Of UnturnedCommandHandler), ILoggerFactory)
+  fullName: OpenMod.Unturned.OpenModUnturnedHost.OpenModUnturnedHost(IRuntime, IHostInformation, System.IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger<OpenMod.Unturned.OpenModUnturnedHost>, NuGetPackageManager, System.Lazy<ICommandExecutor>, System.Lazy<OpenMod.Unturned.Users.UnturnedCommandHandler>, ILoggerFactory)
+  fullName.vb: OpenMod.Unturned.OpenModUnturnedHost.OpenModUnturnedHost(IRuntime, IHostInformation, System.IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger(Of OpenMod.Unturned.OpenModUnturnedHost), NuGetPackageManager, System.Lazy(Of ICommandExecutor), System.Lazy(Of OpenMod.Unturned.Users.UnturnedCommandHandler), ILoggerFactory)
+  nameWithType: OpenModUnturnedHost.OpenModUnturnedHost(IRuntime, IHostInformation, IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger<OpenModUnturnedHost>, NuGetPackageManager, Lazy<ICommandExecutor>, Lazy<UnturnedCommandHandler>, ILoggerFactory)
+  nameWithType.vb: OpenModUnturnedHost.OpenModUnturnedHost(IRuntime, IHostInformation, IServiceProvider, ILifetimeScope, IDataStoreFactory, IConsoleActorAccessor, ILogger(Of OpenModUnturnedHost), NuGetPackageManager, Lazy(Of ICommandExecutor), Lazy(Of UnturnedCommandHandler), ILoggerFactory)
 - uid: OpenMod.Unturned.OpenModUnturnedHost.#ctor*
   name: OpenModUnturnedHost
   href: api/OpenMod.Unturned.OpenModUnturnedHost.html#OpenMod_Unturned_OpenModUnturnedHost__ctor_
@@ -33166,6 +33384,89 @@ references:
   fullName: OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerItemUnequippingEvent.OpenMod.Extensions.Games.Abstractions.Items.IItemEvent.Item
   nameWithType: UnturnedPlayerItemUnequippingEvent.IItemEvent.Item
   nameWithType.vb: UnturnedPlayerItemUnequippingEvent.OpenMod.Extensions.Games.Abstractions.Items.IItemEvent.Item
+- uid: OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent
+  name: UnturnedPlayerPunchEvent
+  href: api/OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.html
+  commentId: T:OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent
+  fullName: OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent
+  nameWithType: UnturnedPlayerPunchEvent
+- uid: OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,EPlayerPunch)
+  name: UnturnedPlayerPunchEvent(UnturnedPlayer, EPlayerPunch)
+  href: api/OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.html#OpenMod_Unturned_Players_Equipment_Events_UnturnedPlayerPunchEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_EPlayerPunch_
+  commentId: M:OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,EPlayerPunch)
+  fullName: OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.UnturnedPlayerPunchEvent(OpenMod.Unturned.Players.UnturnedPlayer, EPlayerPunch)
+  nameWithType: UnturnedPlayerPunchEvent.UnturnedPlayerPunchEvent(UnturnedPlayer, EPlayerPunch)
+- uid: OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.#ctor*
+  name: UnturnedPlayerPunchEvent
+  href: api/OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.html#OpenMod_Unturned_Players_Equipment_Events_UnturnedPlayerPunchEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.UnturnedPlayerPunchEvent
+  nameWithType: UnturnedPlayerPunchEvent.UnturnedPlayerPunchEvent
+- uid: OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.Punch
+  name: Punch
+  href: api/OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.html#OpenMod_Unturned_Players_Equipment_Events_UnturnedPlayerPunchEvent_Punch
+  commentId: P:OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.Punch
+  fullName: OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.Punch
+  nameWithType: UnturnedPlayerPunchEvent.Punch
+- uid: OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.Punch*
+  name: Punch
+  href: api/OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.html#OpenMod_Unturned_Players_Equipment_Events_UnturnedPlayerPunchEvent_Punch_
+  commentId: Overload:OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.Punch
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Equipment.Events.UnturnedPlayerPunchEvent.Punch
+  nameWithType: UnturnedPlayerPunchEvent.Punch
+- uid: OpenMod.Unturned.Players.Input.Events
+  name: OpenMod.Unturned.Players.Input.Events
+  href: api/OpenMod.Unturned.Players.Input.Events.html
+  commentId: N:OpenMod.Unturned.Players.Input.Events
+  fullName: OpenMod.Unturned.Players.Input.Events
+  nameWithType: OpenMod.Unturned.Players.Input.Events
+- uid: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent
+  name: UnturnedPlayerPluginKeyStateChangedEvent
+  href: api/OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.html
+  commentId: T:OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent
+  fullName: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent
+  nameWithType: UnturnedPlayerPluginKeyStateChangedEvent
+- uid: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Byte,System.Boolean)
+  name: UnturnedPlayerPluginKeyStateChangedEvent(UnturnedPlayer, Byte, Boolean)
+  href: api/OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.html#OpenMod_Unturned_Players_Input_Events_UnturnedPlayerPluginKeyStateChangedEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_Byte_System_Boolean_
+  commentId: M:OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Byte,System.Boolean)
+  fullName: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.UnturnedPlayerPluginKeyStateChangedEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.Byte, System.Boolean)
+  nameWithType: UnturnedPlayerPluginKeyStateChangedEvent.UnturnedPlayerPluginKeyStateChangedEvent(UnturnedPlayer, Byte, Boolean)
+- uid: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.#ctor*
+  name: UnturnedPlayerPluginKeyStateChangedEvent
+  href: api/OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.html#OpenMod_Unturned_Players_Input_Events_UnturnedPlayerPluginKeyStateChangedEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.UnturnedPlayerPluginKeyStateChangedEvent
+  nameWithType: UnturnedPlayerPluginKeyStateChangedEvent.UnturnedPlayerPluginKeyStateChangedEvent
+- uid: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.Key
+  name: Key
+  href: api/OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.html#OpenMod_Unturned_Players_Input_Events_UnturnedPlayerPluginKeyStateChangedEvent_Key
+  commentId: P:OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.Key
+  fullName: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.Key
+  nameWithType: UnturnedPlayerPluginKeyStateChangedEvent.Key
+- uid: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.Key*
+  name: Key
+  href: api/OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.html#OpenMod_Unturned_Players_Input_Events_UnturnedPlayerPluginKeyStateChangedEvent_Key_
+  commentId: Overload:OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.Key
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.Key
+  nameWithType: UnturnedPlayerPluginKeyStateChangedEvent.Key
+- uid: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.State
+  name: State
+  href: api/OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.html#OpenMod_Unturned_Players_Input_Events_UnturnedPlayerPluginKeyStateChangedEvent_State
+  commentId: P:OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.State
+  fullName: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.State
+  nameWithType: UnturnedPlayerPluginKeyStateChangedEvent.State
+- uid: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.State*
+  name: State
+  href: api/OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.html#OpenMod_Unturned_Players_Input_Events_UnturnedPlayerPluginKeyStateChangedEvent_State_
+  commentId: Overload:OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.State
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.State
+  nameWithType: UnturnedPlayerPluginKeyStateChangedEvent.State
 - uid: OpenMod.Unturned.Players.Inventory.Events
   name: OpenMod.Unturned.Players.Inventory.Events
   href: api/OpenMod.Unturned.Players.Inventory.Events.html
@@ -35067,6 +35368,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.Health
   nameWithType: UnturnedPlayer.Health
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.Hunger
+  name: Hunger
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Hunger
+  commentId: P:OpenMod.Unturned.Players.UnturnedPlayer.Hunger
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.Hunger
+  nameWithType: UnturnedPlayer.Hunger
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.Hunger*
+  name: Hunger
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Hunger_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.Hunger
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.Hunger
+  nameWithType: UnturnedPlayer.Hunger
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.Inventory
   name: Inventory
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Inventory
@@ -35119,6 +35433,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.MaxHealth
   nameWithType: UnturnedPlayer.MaxHealth
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.MaxHunger
+  name: MaxHunger
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_MaxHunger
+  commentId: P:OpenMod.Unturned.Players.UnturnedPlayer.MaxHunger
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.MaxHunger
+  nameWithType: UnturnedPlayer.MaxHunger
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.MaxHunger*
+  name: MaxHunger
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_MaxHunger_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.MaxHunger
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.MaxHunger
+  nameWithType: UnturnedPlayer.MaxHunger
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Items#IHasInventory#Inventory
   name: IHasInventory.Inventory
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Items_IHasInventory_Inventory
@@ -35204,6 +35531,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.SetHealthAsync
   nameWithType: UnturnedPlayer.SetHealthAsync
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.SetHungerAsync(System.Double)
+  name: SetHungerAsync(Double)
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetHungerAsync_System_Double_
+  commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.SetHungerAsync(System.Double)
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.SetHungerAsync(System.Double)
+  nameWithType: UnturnedPlayer.SetHungerAsync(Double)
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.SetHungerAsync*
+  name: SetHungerAsync
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetHungerAsync_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.SetHungerAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.SetHungerAsync
+  nameWithType: UnturnedPlayer.SetHungerAsync
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3)
   name: SetPositionAsync(Vector3)
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetPositionAsync_System_Numerics_Vector3_
@@ -44715,15 +45055,18 @@ references:
   commentId: T:UserDatabasePlugin.Database.UserDatabaseDbContext
   fullName: UserDatabasePlugin.Database.UserDatabaseDbContext
   nameWithType: UserDatabaseDbContext
-- uid: UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(DbContextOptions{UserDatabasePlugin.Database.UserDatabaseDbContext},System.IServiceProvider)
-  name: UserDatabaseDbContext(DbContextOptions<UserDatabaseDbContext>, IServiceProvider)
-  href: api/UserDatabasePlugin.Database.UserDatabaseDbContext.html#UserDatabasePlugin_Database_UserDatabaseDbContext__ctor_DbContextOptions_UserDatabasePlugin_Database_UserDatabaseDbContext__System_IServiceProvider_
-  commentId: M:UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(DbContextOptions{UserDatabasePlugin.Database.UserDatabaseDbContext},System.IServiceProvider)
-  name.vb: UserDatabaseDbContext(DbContextOptions(Of UserDatabaseDbContext), IServiceProvider)
-  fullName: UserDatabasePlugin.Database.UserDatabaseDbContext.UserDatabaseDbContext(DbContextOptions<UserDatabasePlugin.Database.UserDatabaseDbContext>, System.IServiceProvider)
-  fullName.vb: UserDatabasePlugin.Database.UserDatabaseDbContext.UserDatabaseDbContext(DbContextOptions(Of UserDatabasePlugin.Database.UserDatabaseDbContext), System.IServiceProvider)
-  nameWithType: UserDatabaseDbContext.UserDatabaseDbContext(DbContextOptions<UserDatabaseDbContext>, IServiceProvider)
-  nameWithType.vb: UserDatabaseDbContext.UserDatabaseDbContext(DbContextOptions(Of UserDatabaseDbContext), IServiceProvider)
+- uid: UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(IDbContextConfigurator,System.IServiceProvider)
+  name: UserDatabaseDbContext(IDbContextConfigurator, IServiceProvider)
+  href: api/UserDatabasePlugin.Database.UserDatabaseDbContext.html#UserDatabasePlugin_Database_UserDatabaseDbContext__ctor_IDbContextConfigurator_System_IServiceProvider_
+  commentId: M:UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(IDbContextConfigurator,System.IServiceProvider)
+  fullName: UserDatabasePlugin.Database.UserDatabaseDbContext.UserDatabaseDbContext(IDbContextConfigurator, System.IServiceProvider)
+  nameWithType: UserDatabaseDbContext.UserDatabaseDbContext(IDbContextConfigurator, IServiceProvider)
+- uid: UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(System.IServiceProvider)
+  name: UserDatabaseDbContext(IServiceProvider)
+  href: api/UserDatabasePlugin.Database.UserDatabaseDbContext.html#UserDatabasePlugin_Database_UserDatabaseDbContext__ctor_System_IServiceProvider_
+  commentId: M:UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(System.IServiceProvider)
+  fullName: UserDatabasePlugin.Database.UserDatabaseDbContext.UserDatabaseDbContext(System.IServiceProvider)
+  nameWithType: UserDatabaseDbContext.UserDatabaseDbContext(IServiceProvider)
 - uid: UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor*
   name: UserDatabaseDbContext
   href: api/UserDatabasePlugin.Database.UserDatabaseDbContext.html#UserDatabasePlugin_Database_UserDatabaseDbContext__ctor_
@@ -44769,141 +45112,51 @@ references:
   commentId: N:UserDatabasePlugin.Migrations
   fullName: UserDatabasePlugin.Migrations
   nameWithType: UserDatabasePlugin.Migrations
-- uid: UserDatabasePlugin.Migrations.AddMissingNotNull
-  name: AddMissingNotNull
-  href: api/UserDatabasePlugin.Migrations.AddMissingNotNull.html
-  commentId: T:UserDatabasePlugin.Migrations.AddMissingNotNull
-  fullName: UserDatabasePlugin.Migrations.AddMissingNotNull
-  nameWithType: AddMissingNotNull
-- uid: UserDatabasePlugin.Migrations.AddMissingNotNull.BuildTargetModel(ModelBuilder)
+- uid: UserDatabasePlugin.Migrations.MigrateToPomelo
+  name: MigrateToPomelo
+  href: api/UserDatabasePlugin.Migrations.MigrateToPomelo.html
+  commentId: T:UserDatabasePlugin.Migrations.MigrateToPomelo
+  fullName: UserDatabasePlugin.Migrations.MigrateToPomelo
+  nameWithType: MigrateToPomelo
+- uid: UserDatabasePlugin.Migrations.MigrateToPomelo.BuildTargetModel(ModelBuilder)
   name: BuildTargetModel(ModelBuilder)
-  href: api/UserDatabasePlugin.Migrations.AddMissingNotNull.html#UserDatabasePlugin_Migrations_AddMissingNotNull_BuildTargetModel_ModelBuilder_
-  commentId: M:UserDatabasePlugin.Migrations.AddMissingNotNull.BuildTargetModel(ModelBuilder)
-  fullName: UserDatabasePlugin.Migrations.AddMissingNotNull.BuildTargetModel(ModelBuilder)
-  nameWithType: AddMissingNotNull.BuildTargetModel(ModelBuilder)
-- uid: UserDatabasePlugin.Migrations.AddMissingNotNull.BuildTargetModel*
+  href: api/UserDatabasePlugin.Migrations.MigrateToPomelo.html#UserDatabasePlugin_Migrations_MigrateToPomelo_BuildTargetModel_ModelBuilder_
+  commentId: M:UserDatabasePlugin.Migrations.MigrateToPomelo.BuildTargetModel(ModelBuilder)
+  fullName: UserDatabasePlugin.Migrations.MigrateToPomelo.BuildTargetModel(ModelBuilder)
+  nameWithType: MigrateToPomelo.BuildTargetModel(ModelBuilder)
+- uid: UserDatabasePlugin.Migrations.MigrateToPomelo.BuildTargetModel*
   name: BuildTargetModel
-  href: api/UserDatabasePlugin.Migrations.AddMissingNotNull.html#UserDatabasePlugin_Migrations_AddMissingNotNull_BuildTargetModel_
-  commentId: Overload:UserDatabasePlugin.Migrations.AddMissingNotNull.BuildTargetModel
+  href: api/UserDatabasePlugin.Migrations.MigrateToPomelo.html#UserDatabasePlugin_Migrations_MigrateToPomelo_BuildTargetModel_
+  commentId: Overload:UserDatabasePlugin.Migrations.MigrateToPomelo.BuildTargetModel
   isSpec: "True"
-  fullName: UserDatabasePlugin.Migrations.AddMissingNotNull.BuildTargetModel
-  nameWithType: AddMissingNotNull.BuildTargetModel
-- uid: UserDatabasePlugin.Migrations.AddMissingNotNull.Down(MigrationBuilder)
+  fullName: UserDatabasePlugin.Migrations.MigrateToPomelo.BuildTargetModel
+  nameWithType: MigrateToPomelo.BuildTargetModel
+- uid: UserDatabasePlugin.Migrations.MigrateToPomelo.Down(MigrationBuilder)
   name: Down(MigrationBuilder)
-  href: api/UserDatabasePlugin.Migrations.AddMissingNotNull.html#UserDatabasePlugin_Migrations_AddMissingNotNull_Down_MigrationBuilder_
-  commentId: M:UserDatabasePlugin.Migrations.AddMissingNotNull.Down(MigrationBuilder)
-  fullName: UserDatabasePlugin.Migrations.AddMissingNotNull.Down(MigrationBuilder)
-  nameWithType: AddMissingNotNull.Down(MigrationBuilder)
-- uid: UserDatabasePlugin.Migrations.AddMissingNotNull.Down*
+  href: api/UserDatabasePlugin.Migrations.MigrateToPomelo.html#UserDatabasePlugin_Migrations_MigrateToPomelo_Down_MigrationBuilder_
+  commentId: M:UserDatabasePlugin.Migrations.MigrateToPomelo.Down(MigrationBuilder)
+  fullName: UserDatabasePlugin.Migrations.MigrateToPomelo.Down(MigrationBuilder)
+  nameWithType: MigrateToPomelo.Down(MigrationBuilder)
+- uid: UserDatabasePlugin.Migrations.MigrateToPomelo.Down*
   name: Down
-  href: api/UserDatabasePlugin.Migrations.AddMissingNotNull.html#UserDatabasePlugin_Migrations_AddMissingNotNull_Down_
-  commentId: Overload:UserDatabasePlugin.Migrations.AddMissingNotNull.Down
+  href: api/UserDatabasePlugin.Migrations.MigrateToPomelo.html#UserDatabasePlugin_Migrations_MigrateToPomelo_Down_
+  commentId: Overload:UserDatabasePlugin.Migrations.MigrateToPomelo.Down
   isSpec: "True"
-  fullName: UserDatabasePlugin.Migrations.AddMissingNotNull.Down
-  nameWithType: AddMissingNotNull.Down
-- uid: UserDatabasePlugin.Migrations.AddMissingNotNull.Up(MigrationBuilder)
+  fullName: UserDatabasePlugin.Migrations.MigrateToPomelo.Down
+  nameWithType: MigrateToPomelo.Down
+- uid: UserDatabasePlugin.Migrations.MigrateToPomelo.Up(MigrationBuilder)
   name: Up(MigrationBuilder)
-  href: api/UserDatabasePlugin.Migrations.AddMissingNotNull.html#UserDatabasePlugin_Migrations_AddMissingNotNull_Up_MigrationBuilder_
-  commentId: M:UserDatabasePlugin.Migrations.AddMissingNotNull.Up(MigrationBuilder)
-  fullName: UserDatabasePlugin.Migrations.AddMissingNotNull.Up(MigrationBuilder)
-  nameWithType: AddMissingNotNull.Up(MigrationBuilder)
-- uid: UserDatabasePlugin.Migrations.AddMissingNotNull.Up*
+  href: api/UserDatabasePlugin.Migrations.MigrateToPomelo.html#UserDatabasePlugin_Migrations_MigrateToPomelo_Up_MigrationBuilder_
+  commentId: M:UserDatabasePlugin.Migrations.MigrateToPomelo.Up(MigrationBuilder)
+  fullName: UserDatabasePlugin.Migrations.MigrateToPomelo.Up(MigrationBuilder)
+  nameWithType: MigrateToPomelo.Up(MigrationBuilder)
+- uid: UserDatabasePlugin.Migrations.MigrateToPomelo.Up*
   name: Up
-  href: api/UserDatabasePlugin.Migrations.AddMissingNotNull.html#UserDatabasePlugin_Migrations_AddMissingNotNull_Up_
-  commentId: Overload:UserDatabasePlugin.Migrations.AddMissingNotNull.Up
+  href: api/UserDatabasePlugin.Migrations.MigrateToPomelo.html#UserDatabasePlugin_Migrations_MigrateToPomelo_Up_
+  commentId: Overload:UserDatabasePlugin.Migrations.MigrateToPomelo.Up
   isSpec: "True"
-  fullName: UserDatabasePlugin.Migrations.AddMissingNotNull.Up
-  nameWithType: AddMissingNotNull.Up
-- uid: UserDatabasePlugin.Migrations.Initial
-  name: Initial
-  href: api/UserDatabasePlugin.Migrations.Initial.html
-  commentId: T:UserDatabasePlugin.Migrations.Initial
-  fullName: UserDatabasePlugin.Migrations.Initial
-  nameWithType: Initial
-- uid: UserDatabasePlugin.Migrations.Initial.BuildTargetModel(ModelBuilder)
-  name: BuildTargetModel(ModelBuilder)
-  href: api/UserDatabasePlugin.Migrations.Initial.html#UserDatabasePlugin_Migrations_Initial_BuildTargetModel_ModelBuilder_
-  commentId: M:UserDatabasePlugin.Migrations.Initial.BuildTargetModel(ModelBuilder)
-  fullName: UserDatabasePlugin.Migrations.Initial.BuildTargetModel(ModelBuilder)
-  nameWithType: Initial.BuildTargetModel(ModelBuilder)
-- uid: UserDatabasePlugin.Migrations.Initial.BuildTargetModel*
-  name: BuildTargetModel
-  href: api/UserDatabasePlugin.Migrations.Initial.html#UserDatabasePlugin_Migrations_Initial_BuildTargetModel_
-  commentId: Overload:UserDatabasePlugin.Migrations.Initial.BuildTargetModel
-  isSpec: "True"
-  fullName: UserDatabasePlugin.Migrations.Initial.BuildTargetModel
-  nameWithType: Initial.BuildTargetModel
-- uid: UserDatabasePlugin.Migrations.Initial.Down(MigrationBuilder)
-  name: Down(MigrationBuilder)
-  href: api/UserDatabasePlugin.Migrations.Initial.html#UserDatabasePlugin_Migrations_Initial_Down_MigrationBuilder_
-  commentId: M:UserDatabasePlugin.Migrations.Initial.Down(MigrationBuilder)
-  fullName: UserDatabasePlugin.Migrations.Initial.Down(MigrationBuilder)
-  nameWithType: Initial.Down(MigrationBuilder)
-- uid: UserDatabasePlugin.Migrations.Initial.Down*
-  name: Down
-  href: api/UserDatabasePlugin.Migrations.Initial.html#UserDatabasePlugin_Migrations_Initial_Down_
-  commentId: Overload:UserDatabasePlugin.Migrations.Initial.Down
-  isSpec: "True"
-  fullName: UserDatabasePlugin.Migrations.Initial.Down
-  nameWithType: Initial.Down
-- uid: UserDatabasePlugin.Migrations.Initial.Up(MigrationBuilder)
-  name: Up(MigrationBuilder)
-  href: api/UserDatabasePlugin.Migrations.Initial.html#UserDatabasePlugin_Migrations_Initial_Up_MigrationBuilder_
-  commentId: M:UserDatabasePlugin.Migrations.Initial.Up(MigrationBuilder)
-  fullName: UserDatabasePlugin.Migrations.Initial.Up(MigrationBuilder)
-  nameWithType: Initial.Up(MigrationBuilder)
-- uid: UserDatabasePlugin.Migrations.Initial.Up*
-  name: Up
-  href: api/UserDatabasePlugin.Migrations.Initial.html#UserDatabasePlugin_Migrations_Initial_Up_
-  commentId: Overload:UserDatabasePlugin.Migrations.Initial.Up
-  isSpec: "True"
-  fullName: UserDatabasePlugin.Migrations.Initial.Up
-  nameWithType: Initial.Up
-- uid: UserDatabasePlugin.Migrations.UserActivityAddUserName
-  name: UserActivityAddUserName
-  href: api/UserDatabasePlugin.Migrations.UserActivityAddUserName.html
-  commentId: T:UserDatabasePlugin.Migrations.UserActivityAddUserName
-  fullName: UserDatabasePlugin.Migrations.UserActivityAddUserName
-  nameWithType: UserActivityAddUserName
-- uid: UserDatabasePlugin.Migrations.UserActivityAddUserName.BuildTargetModel(ModelBuilder)
-  name: BuildTargetModel(ModelBuilder)
-  href: api/UserDatabasePlugin.Migrations.UserActivityAddUserName.html#UserDatabasePlugin_Migrations_UserActivityAddUserName_BuildTargetModel_ModelBuilder_
-  commentId: M:UserDatabasePlugin.Migrations.UserActivityAddUserName.BuildTargetModel(ModelBuilder)
-  fullName: UserDatabasePlugin.Migrations.UserActivityAddUserName.BuildTargetModel(ModelBuilder)
-  nameWithType: UserActivityAddUserName.BuildTargetModel(ModelBuilder)
-- uid: UserDatabasePlugin.Migrations.UserActivityAddUserName.BuildTargetModel*
-  name: BuildTargetModel
-  href: api/UserDatabasePlugin.Migrations.UserActivityAddUserName.html#UserDatabasePlugin_Migrations_UserActivityAddUserName_BuildTargetModel_
-  commentId: Overload:UserDatabasePlugin.Migrations.UserActivityAddUserName.BuildTargetModel
-  isSpec: "True"
-  fullName: UserDatabasePlugin.Migrations.UserActivityAddUserName.BuildTargetModel
-  nameWithType: UserActivityAddUserName.BuildTargetModel
-- uid: UserDatabasePlugin.Migrations.UserActivityAddUserName.Down(MigrationBuilder)
-  name: Down(MigrationBuilder)
-  href: api/UserDatabasePlugin.Migrations.UserActivityAddUserName.html#UserDatabasePlugin_Migrations_UserActivityAddUserName_Down_MigrationBuilder_
-  commentId: M:UserDatabasePlugin.Migrations.UserActivityAddUserName.Down(MigrationBuilder)
-  fullName: UserDatabasePlugin.Migrations.UserActivityAddUserName.Down(MigrationBuilder)
-  nameWithType: UserActivityAddUserName.Down(MigrationBuilder)
-- uid: UserDatabasePlugin.Migrations.UserActivityAddUserName.Down*
-  name: Down
-  href: api/UserDatabasePlugin.Migrations.UserActivityAddUserName.html#UserDatabasePlugin_Migrations_UserActivityAddUserName_Down_
-  commentId: Overload:UserDatabasePlugin.Migrations.UserActivityAddUserName.Down
-  isSpec: "True"
-  fullName: UserDatabasePlugin.Migrations.UserActivityAddUserName.Down
-  nameWithType: UserActivityAddUserName.Down
-- uid: UserDatabasePlugin.Migrations.UserActivityAddUserName.Up(MigrationBuilder)
-  name: Up(MigrationBuilder)
-  href: api/UserDatabasePlugin.Migrations.UserActivityAddUserName.html#UserDatabasePlugin_Migrations_UserActivityAddUserName_Up_MigrationBuilder_
-  commentId: M:UserDatabasePlugin.Migrations.UserActivityAddUserName.Up(MigrationBuilder)
-  fullName: UserDatabasePlugin.Migrations.UserActivityAddUserName.Up(MigrationBuilder)
-  nameWithType: UserActivityAddUserName.Up(MigrationBuilder)
-- uid: UserDatabasePlugin.Migrations.UserActivityAddUserName.Up*
-  name: Up
-  href: api/UserDatabasePlugin.Migrations.UserActivityAddUserName.html#UserDatabasePlugin_Migrations_UserActivityAddUserName_Up_
-  commentId: Overload:UserDatabasePlugin.Migrations.UserActivityAddUserName.Up
-  isSpec: "True"
-  fullName: UserDatabasePlugin.Migrations.UserActivityAddUserName.Up
-  nameWithType: UserActivityAddUserName.Up
+  fullName: UserDatabasePlugin.Migrations.MigrateToPomelo.Up
+  nameWithType: MigrateToPomelo.Up
 - uid: UserDatabasePlugin.UserDatabasePlugin
   name: UserDatabasePlugin
   href: api/UserDatabasePlugin.UserDatabasePlugin.html
