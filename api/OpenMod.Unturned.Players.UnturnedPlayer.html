@@ -115,6 +115,7 @@
     <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Vehicles.ICanEnterVehicle.html">ICanEnterVehicle</a></div>
     <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IDamageSource.html">IDamageSource</a></div>
     <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.html">IHasHunger</a></div>
+    <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.html">IHasThirst</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -138,7 +139,7 @@
   <h6><strong>Assembly</strong>: OpenMod.Unturned.dll</h6>
   <h5 id="OpenMod_Unturned_Players_UnturnedPlayer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UnturnedPlayer : IEquatable&lt;UnturnedPlayer&gt;, IPlayer, IEntity, IGameObject, IHasHealth, IHasInventory, ICanEnterVehicle, IDamageSource, IHasHunger</code></pre>
+    <pre><code class="lang-csharp hljs">public class UnturnedPlayer : IEquatable&lt;UnturnedPlayer&gt;, IPlayer, IEntity, IGameObject, IHasHealth, IHasInventory, ICanEnterVehicle, IDamageSource, IHasHunger, IHasThirst</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -147,7 +148,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer__ctor_Player_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.%23ctor(Player)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L35">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L37">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer__ctor_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.#ctor*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer__ctor_Player_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.#ctor(Player)">UnturnedPlayer(Player)</h4>
@@ -181,7 +182,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_Address.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.Address%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L80">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L84">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_Address_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Address*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_Address" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Address">Address</h4>
@@ -211,7 +212,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_Asset.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.Asset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L66">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L70">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_Asset_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Asset*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_Asset" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Asset">Asset</h4>
@@ -241,7 +242,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_CurrentVehicle.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.CurrentVehicle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L162">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L193">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_CurrentVehicle_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.CurrentVehicle*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_CurrentVehicle" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.CurrentVehicle">CurrentVehicle</h4>
@@ -272,7 +273,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_DamageSourceName.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.DamageSourceName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L176">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L202">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_DamageSourceName_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.DamageSourceName*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_DamageSourceName" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.DamageSourceName">DamageSourceName</h4>
@@ -302,7 +303,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_EntityInstanceId.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.EntityInstanceId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L72">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L76">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_EntityInstanceId_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.EntityInstanceId*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_EntityInstanceId" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.EntityInstanceId">EntityInstanceId</h4>
@@ -332,7 +333,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_Health.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.Health%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L78">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L82">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_Health_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Health*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_Health" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Health">Health</h4>
@@ -362,7 +363,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_Hunger.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.Hunger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L186">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L212">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_Hunger_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Hunger*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_Hunger" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Hunger">Hunger</h4>
@@ -392,7 +393,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_Inventory.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.Inventory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L155">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L186">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_Inventory_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Inventory*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_Inventory" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Inventory">Inventory</h4>
@@ -423,7 +424,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_IsAlive.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.IsAlive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L74">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L78">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_IsAlive_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.IsAlive*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_IsAlive" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.IsAlive">IsAlive</h4>
@@ -453,7 +454,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_MaxHealth.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.MaxHealth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L76">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L80">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_MaxHealth_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.MaxHealth*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_MaxHealth" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.MaxHealth">MaxHealth</h4>
@@ -483,7 +484,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_MaxHunger.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.MaxHunger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L184">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L210">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_MaxHunger_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.MaxHunger*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_MaxHunger" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.MaxHunger">MaxHunger</h4>
@@ -492,6 +493,36 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public double MaxHunger { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_MaxThirst.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.MaxThirst%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L220">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Players_UnturnedPlayer_MaxThirst_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.MaxThirst*"></a>
+  <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_MaxThirst" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.MaxThirst">MaxThirst</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double MaxThirst { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -540,10 +571,40 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_PlayerLife.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.PlayerLife%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L35">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Players_UnturnedPlayer_PlayerLife_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.PlayerLife*"></a>
+  <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_PlayerLife" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.PlayerLife">PlayerLife</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerLife PlayerLife { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlayerLife</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_Stance.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.Stance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L148">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L179">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_Stance_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Stance*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_Stance" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Stance">Stance</h4>
@@ -573,7 +634,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_State.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L68">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L72">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_State_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.State*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_State" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.State">State</h4>
@@ -660,10 +721,40 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_Thirst.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.Thirst%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L222">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Players_UnturnedPlayer_Thirst_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Thirst*"></a>
+  <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_Thirst" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Thirst">Thirst</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Thirst { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_Transform.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.Transform%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L70">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L74">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_Transform_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Transform*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_Transform" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Transform">Transform</h4>
@@ -695,7 +786,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_DamageAsync_System_Double_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.DamageAsync(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L99">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L131">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_DamageAsync_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.DamageAsync*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_DamageAsync_System_Double_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.DamageAsync(System.Double)">DamageAsync(Double)</h4>
@@ -742,7 +833,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_Equals_OpenMod_Unturned_Players_UnturnedPlayer_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.Equals(OpenMod.Unturned.Players.UnturnedPlayer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L48">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L52">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_Equals_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Equals*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_Equals_OpenMod_Unturned_Players_UnturnedPlayer_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Equals(OpenMod.Unturned.Players.UnturnedPlayer)">Equals(UnturnedPlayer)</h4>
@@ -789,7 +880,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_Equals_System_Object_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L53">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L57">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_Equals_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Equals*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_Equals_System_Object_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.Equals(System.Object)">Equals(Object)</h4>
@@ -838,7 +929,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_GetHashCode.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L61">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L65">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_GetHashCode_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.GetHashCode*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_GetHashCode" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.GetHashCode">GetHashCode()</h4>
@@ -870,7 +961,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_KillAsync.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.KillAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L115">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L147">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_KillAsync_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.KillAsync*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_KillAsync" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.KillAsync">KillAsync()</h4>
@@ -900,7 +991,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L194">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L230">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_System_String_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String)">PrintMessageAsync(String)</h4>
@@ -947,7 +1038,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_System_String_System_Drawing_Color_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String%2CSystem.Drawing.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L199">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L235">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_System_String_System_Drawing_Color_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String,System.Drawing.Color)">PrintMessageAsync(String, Color)</h4>
@@ -999,7 +1090,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_System_String_System_Drawing_Color_System_Boolean_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String%2CSystem.Drawing.Color%2CSystem.Boolean%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L204">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L240">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_System_String_System_Drawing_Color_System_Boolean_System_String_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String,System.Drawing.Color,System.Boolean,System.String)">PrintMessageAsync(String, Color, Boolean, String)</h4>
@@ -1058,10 +1149,40 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_SetFullHealthAsync.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.SetFullHealthAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L92">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Players_UnturnedPlayer_SetFullHealthAsync_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetFullHealthAsync*"></a>
+  <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_SetFullHealthAsync" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetFullHealthAsync">SetFullHealthAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetFullHealthAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_SetHealthAsync_System_Double_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.SetHealthAsync(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L88">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L108">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_SetHealthAsync_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetHealthAsync*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_SetHealthAsync_System_Double_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetHealthAsync(System.Double)">SetHealthAsync(Double)</h4>
@@ -1108,7 +1229,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_SetHungerAsync_System_Double_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.SetHungerAsync(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L279">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L271">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_SetHungerAsync_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetHungerAsync*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_SetHungerAsync_System_Double_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetHungerAsync(System.Double)">SetHungerAsync(Double)</h4>
@@ -1155,7 +1276,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_SetPositionAsync_System_Numerics_Vector3_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L120">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L152">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_SetPositionAsync_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_SetPositionAsync_System_Numerics_Vector3_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3)">SetPositionAsync(Vector3)</h4>
@@ -1202,7 +1323,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_SetPositionAsync_System_Numerics_Vector3_System_Numerics_Quaternion_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3%2CSystem.Numerics.Quaternion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L125">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L157">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_SetPositionAsync_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_SetPositionAsync_System_Numerics_Vector3_System_Numerics_Quaternion_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Quaternion)">SetPositionAsync(Vector3, Quaternion)</h4>
@@ -1249,6 +1370,53 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_SetThirstAsync_System_Double_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.SetThirstAsync(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L294">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_Players_UnturnedPlayer_SetThirstAsync_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetThirstAsync*"></a>
+  <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_SetThirstAsync_System_Double_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.SetThirstAsync(System.Double)">SetThirstAsync(Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetThirstAsync(double thirst)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">thirst</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="eii">Explicit Interface Implementations
   </h3>
   <span class="small pull-right mobile-hide">
@@ -1256,7 +1424,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Items_IHasInventory_Inventory.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.OpenMod%23Extensions%23Games%23Abstractions%23Items%23IHasInventory%23Inventory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L150">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L181">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Items_IHasInventory_Inventory_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Items#IHasInventory#Inventory*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Items_IHasInventory_Inventory" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Items#IHasInventory#Inventory">IHasInventory.Inventory</h4>
@@ -1286,7 +1454,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Vehicles_ICanEnterVehicle_CurrentVehicle.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Players.UnturnedPlayer.OpenMod%23Extensions%23Games%23Abstractions%23Vehicles%23ICanEnterVehicle%23CurrentVehicle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L157">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Players/UnturnedPlayer.cs/#L188">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Vehicles_ICanEnterVehicle_CurrentVehicle_" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Vehicles#ICanEnterVehicle#CurrentVehicle*"></a>
   <h4 id="OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Vehicles_ICanEnterVehicle_CurrentVehicle" data-uid="OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Vehicles#ICanEnterVehicle#CurrentVehicle">ICanEnterVehicle.CurrentVehicle</h4>
@@ -1338,6 +1506,9 @@
   </div>
   <div>
       <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.html">IHasHunger</a>
+  </div>
+  <div>
+      <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.html">IHasThirst</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

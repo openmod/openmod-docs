@@ -8774,6 +8774,25 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Helpers.ServiceProviderTypeDescriptor.ServiceProvider
   nameWithType: ServiceProviderTypeDescriptor.ServiceProvider
+- uid: OpenMod.Core.Helpers.SmartFormatterHelper
+  name: SmartFormatterHelper
+  href: api/OpenMod.Core.Helpers.SmartFormatterHelper.html
+  commentId: T:OpenMod.Core.Helpers.SmartFormatterHelper
+  fullName: OpenMod.Core.Helpers.SmartFormatterHelper
+  nameWithType: SmartFormatterHelper
+- uid: OpenMod.Core.Helpers.SmartFormatterHelper.ObtainSmartFormatter
+  name: ObtainSmartFormatter()
+  href: api/OpenMod.Core.Helpers.SmartFormatterHelper.html#OpenMod_Core_Helpers_SmartFormatterHelper_ObtainSmartFormatter
+  commentId: M:OpenMod.Core.Helpers.SmartFormatterHelper.ObtainSmartFormatter
+  fullName: OpenMod.Core.Helpers.SmartFormatterHelper.ObtainSmartFormatter()
+  nameWithType: SmartFormatterHelper.ObtainSmartFormatter()
+- uid: OpenMod.Core.Helpers.SmartFormatterHelper.ObtainSmartFormatter*
+  name: ObtainSmartFormatter
+  href: api/OpenMod.Core.Helpers.SmartFormatterHelper.html#OpenMod_Core_Helpers_SmartFormatterHelper_ObtainSmartFormatter_
+  commentId: Overload:OpenMod.Core.Helpers.SmartFormatterHelper.ObtainSmartFormatter
+  isSpec: "True"
+  fullName: OpenMod.Core.Helpers.SmartFormatterHelper.ObtainSmartFormatter
+  nameWithType: SmartFormatterHelper.ObtainSmartFormatter
 - uid: OpenMod.Core.Helpers.StringHelper
   name: StringHelper
   href: api/OpenMod.Core.Helpers.StringHelper.html
@@ -17091,6 +17110,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.MaxHealth
   nameWithType: IHasHealth.MaxHealth
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.SetFullHealthAsync
+  name: SetFullHealthAsync()
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasHealth_SetFullHealthAsync
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.SetFullHealthAsync
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.SetFullHealthAsync()
+  nameWithType: IHasHealth.SetFullHealthAsync()
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.SetFullHealthAsync*
+  name: SetFullHealthAsync
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasHealth_SetFullHealthAsync_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.SetFullHealthAsync
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.SetFullHealthAsync
+  nameWithType: IHasHealth.SetFullHealthAsync
 - uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.SetHealthAsync(System.Double)
   name: SetHealthAsync(Double)
   href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasHealth.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasHealth_SetHealthAsync_System_Double_
@@ -17149,6 +17181,51 @@ references:
   isSpec: "True"
   fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasHunger.SetHungerAsync
   nameWithType: IHasHunger.SetHungerAsync
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst
+  name: IHasThirst
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.html
+  commentId: T:OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst
+  nameWithType: IHasThirst
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.MaxThirst
+  name: MaxThirst
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasThirst_MaxThirst
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.MaxThirst
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.MaxThirst
+  nameWithType: IHasThirst.MaxThirst
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.MaxThirst*
+  name: MaxThirst
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasThirst_MaxThirst_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.MaxThirst
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.MaxThirst
+  nameWithType: IHasThirst.MaxThirst
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.SetThirstAsync(System.Double)
+  name: SetThirstAsync(Double)
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasThirst_SetThirstAsync_System_Double_
+  commentId: M:OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.SetThirstAsync(System.Double)
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.SetThirstAsync(System.Double)
+  nameWithType: IHasThirst.SetThirstAsync(Double)
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.SetThirstAsync*
+  name: SetThirstAsync
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasThirst_SetThirstAsync_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.SetThirstAsync
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.SetThirstAsync
+  nameWithType: IHasThirst.SetThirstAsync
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.Thirst
+  name: Thirst
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasThirst_Thirst
+  commentId: P:OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.Thirst
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.Thirst
+  nameWithType: IHasThirst.Thirst
+- uid: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.Thirst*
+  name: Thirst
+  href: api/OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.html#OpenMod_Extensions_Games_Abstractions_Entities_IHasThirst_Thirst_
+  commentId: Overload:OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.Thirst
+  isSpec: "True"
+  fullName: OpenMod.Extensions.Games.Abstractions.Entities.IHasThirst.Thirst
+  nameWithType: IHasThirst.Thirst
 - uid: OpenMod.Extensions.Games.Abstractions.Entities.KnownEntityTypes
   name: KnownEntityTypes
   href: api/OpenMod.Extensions.Games.Abstractions.Entities.KnownEntityTypes.html
@@ -19576,12 +19653,12 @@ references:
   isSpec: "True"
   fullName: OpenMod.NuGet.NuGetPackageManager.PackagesDirectory
   nameWithType: NuGetPackageManager.PackagesDirectory
-- uid: OpenMod.NuGet.NuGetPackageManager.QueryDependenciesAsync(PackageIdentity,SourceCacheContext)
-  name: QueryDependenciesAsync(PackageIdentity, SourceCacheContext)
-  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_QueryDependenciesAsync_PackageIdentity_SourceCacheContext_
-  commentId: M:OpenMod.NuGet.NuGetPackageManager.QueryDependenciesAsync(PackageIdentity,SourceCacheContext)
-  fullName: OpenMod.NuGet.NuGetPackageManager.QueryDependenciesAsync(PackageIdentity, SourceCacheContext)
-  nameWithType: NuGetPackageManager.QueryDependenciesAsync(PackageIdentity, SourceCacheContext)
+- uid: OpenMod.NuGet.NuGetPackageManager.QueryDependenciesAsync(PackageIdentity,SourceCacheContext,System.Boolean)
+  name: QueryDependenciesAsync(PackageIdentity, SourceCacheContext, Boolean)
+  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_QueryDependenciesAsync_PackageIdentity_SourceCacheContext_System_Boolean_
+  commentId: M:OpenMod.NuGet.NuGetPackageManager.QueryDependenciesAsync(PackageIdentity,SourceCacheContext,System.Boolean)
+  fullName: OpenMod.NuGet.NuGetPackageManager.QueryDependenciesAsync(PackageIdentity, SourceCacheContext, System.Boolean)
+  nameWithType: NuGetPackageManager.QueryDependenciesAsync(PackageIdentity, SourceCacheContext, Boolean)
 - uid: OpenMod.NuGet.NuGetPackageManager.QueryDependenciesAsync*
   name: QueryDependenciesAsync
   href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_QueryDependenciesAsync_
@@ -19589,15 +19666,15 @@ references:
   isSpec: "True"
   fullName: OpenMod.NuGet.NuGetPackageManager.QueryDependenciesAsync
   nameWithType: NuGetPackageManager.QueryDependenciesAsync
-- uid: OpenMod.NuGet.NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity,SourceCacheContext,IEnumerable{SourceRepository},ISet{SourcePackageDependencyInfo})
-  name: QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable<SourceRepository>, ISet<SourcePackageDependencyInfo>)
-  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_QueryPackageDependenciesAsync_PackageIdentity_SourceCacheContext_IEnumerable_SourceRepository__ISet_SourcePackageDependencyInfo__
-  commentId: M:OpenMod.NuGet.NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity,SourceCacheContext,IEnumerable{SourceRepository},ISet{SourcePackageDependencyInfo})
-  name.vb: QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable(Of SourceRepository), ISet(Of SourcePackageDependencyInfo))
-  fullName: OpenMod.NuGet.NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable<SourceRepository>, ISet<SourcePackageDependencyInfo>)
-  fullName.vb: OpenMod.NuGet.NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable(Of SourceRepository), ISet(Of SourcePackageDependencyInfo))
-  nameWithType: NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable<SourceRepository>, ISet<SourcePackageDependencyInfo>)
-  nameWithType.vb: NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable(Of SourceRepository), ISet(Of SourcePackageDependencyInfo))
+- uid: OpenMod.NuGet.NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity,SourceCacheContext,IEnumerable{SourceRepository},ISet{SourcePackageDependencyInfo},System.Boolean)
+  name: QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable<SourceRepository>, ISet<SourcePackageDependencyInfo>, Boolean)
+  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_QueryPackageDependenciesAsync_PackageIdentity_SourceCacheContext_IEnumerable_SourceRepository__ISet_SourcePackageDependencyInfo__System_Boolean_
+  commentId: M:OpenMod.NuGet.NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity,SourceCacheContext,IEnumerable{SourceRepository},ISet{SourcePackageDependencyInfo},System.Boolean)
+  name.vb: QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable(Of SourceRepository), ISet(Of SourcePackageDependencyInfo), Boolean)
+  fullName: OpenMod.NuGet.NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable<SourceRepository>, ISet<SourcePackageDependencyInfo>, System.Boolean)
+  fullName.vb: OpenMod.NuGet.NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable(Of SourceRepository), ISet(Of SourcePackageDependencyInfo), System.Boolean)
+  nameWithType: NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable<SourceRepository>, ISet<SourcePackageDependencyInfo>, Boolean)
+  nameWithType.vb: NuGetPackageManager.QueryPackageDependenciesAsync(PackageIdentity, SourceCacheContext, IEnumerable(Of SourceRepository), ISet(Of SourcePackageDependencyInfo), Boolean)
 - uid: OpenMod.NuGet.NuGetPackageManager.QueryPackageDependenciesAsync*
   name: QueryPackageDependenciesAsync
   href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_QueryPackageDependenciesAsync_
@@ -19621,6 +19698,22 @@ references:
   isSpec: "True"
   fullName: OpenMod.NuGet.NuGetPackageManager.QueryPackageExactAsync
   nameWithType: NuGetPackageManager.QueryPackageExactAsync
+- uid: OpenMod.NuGet.NuGetPackageManager.QueryPackageLatestVersionAsync(PackageIdentity,SourceCacheContext,IEnumerable{SourceRepository},System.Boolean)
+  name: QueryPackageLatestVersionAsync(PackageIdentity, SourceCacheContext, IEnumerable<SourceRepository>, Boolean)
+  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_QueryPackageLatestVersionAsync_PackageIdentity_SourceCacheContext_IEnumerable_SourceRepository__System_Boolean_
+  commentId: M:OpenMod.NuGet.NuGetPackageManager.QueryPackageLatestVersionAsync(PackageIdentity,SourceCacheContext,IEnumerable{SourceRepository},System.Boolean)
+  name.vb: QueryPackageLatestVersionAsync(PackageIdentity, SourceCacheContext, IEnumerable(Of SourceRepository), Boolean)
+  fullName: OpenMod.NuGet.NuGetPackageManager.QueryPackageLatestVersionAsync(PackageIdentity, SourceCacheContext, IEnumerable<SourceRepository>, System.Boolean)
+  fullName.vb: OpenMod.NuGet.NuGetPackageManager.QueryPackageLatestVersionAsync(PackageIdentity, SourceCacheContext, IEnumerable(Of SourceRepository), System.Boolean)
+  nameWithType: NuGetPackageManager.QueryPackageLatestVersionAsync(PackageIdentity, SourceCacheContext, IEnumerable<SourceRepository>, Boolean)
+  nameWithType.vb: NuGetPackageManager.QueryPackageLatestVersionAsync(PackageIdentity, SourceCacheContext, IEnumerable(Of SourceRepository), Boolean)
+- uid: OpenMod.NuGet.NuGetPackageManager.QueryPackageLatestVersionAsync*
+  name: QueryPackageLatestVersionAsync
+  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_QueryPackageLatestVersionAsync_
+  commentId: Overload:OpenMod.NuGet.NuGetPackageManager.QueryPackageLatestVersionAsync
+  isSpec: "True"
+  fullName: OpenMod.NuGet.NuGetPackageManager.QueryPackageLatestVersionAsync
+  nameWithType: NuGetPackageManager.QueryPackageLatestVersionAsync
 - uid: OpenMod.NuGet.NuGetPackageManager.QueryPackagesAsync(System.String,System.Nullable{System.String},System.Boolean)
   name: QueryPackagesAsync(String, Nullable<String>, Boolean)
   href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_QueryPackagesAsync_System_String_System_Nullable_System_String__System_Boolean_
@@ -25022,6 +25115,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.Health
   nameWithType: RustPlayer.Health
+- uid: OpenMod.Rust.Players.RustPlayer.Hunger
+  name: Hunger
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Hunger
+  commentId: P:OpenMod.Rust.Players.RustPlayer.Hunger
+  fullName: OpenMod.Rust.Players.RustPlayer.Hunger
+  nameWithType: RustPlayer.Hunger
+- uid: OpenMod.Rust.Players.RustPlayer.Hunger*
+  name: Hunger
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Hunger_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.Hunger
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.Hunger
+  nameWithType: RustPlayer.Hunger
 - uid: OpenMod.Rust.Players.RustPlayer.Inventory
   name: Inventory
   href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Inventory
@@ -25074,6 +25180,32 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.MaxHealth
   nameWithType: RustPlayer.MaxHealth
+- uid: OpenMod.Rust.Players.RustPlayer.MaxHunger
+  name: MaxHunger
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_MaxHunger
+  commentId: P:OpenMod.Rust.Players.RustPlayer.MaxHunger
+  fullName: OpenMod.Rust.Players.RustPlayer.MaxHunger
+  nameWithType: RustPlayer.MaxHunger
+- uid: OpenMod.Rust.Players.RustPlayer.MaxHunger*
+  name: MaxHunger
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_MaxHunger_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.MaxHunger
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.MaxHunger
+  nameWithType: RustPlayer.MaxHunger
+- uid: OpenMod.Rust.Players.RustPlayer.MaxThirst
+  name: MaxThirst
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_MaxThirst
+  commentId: P:OpenMod.Rust.Players.RustPlayer.MaxThirst
+  fullName: OpenMod.Rust.Players.RustPlayer.MaxThirst
+  nameWithType: RustPlayer.MaxThirst
+- uid: OpenMod.Rust.Players.RustPlayer.MaxThirst*
+  name: MaxThirst
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_MaxThirst_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.MaxThirst
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.MaxThirst
+  nameWithType: RustPlayer.MaxThirst
 - uid: OpenMod.Rust.Players.RustPlayer.Player
   name: Player
   href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Player
@@ -25087,6 +25219,32 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.Player
   nameWithType: RustPlayer.Player
+- uid: OpenMod.Rust.Players.RustPlayer.PlayerMetabolism
+  name: PlayerMetabolism
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_PlayerMetabolism
+  commentId: P:OpenMod.Rust.Players.RustPlayer.PlayerMetabolism
+  fullName: OpenMod.Rust.Players.RustPlayer.PlayerMetabolism
+  nameWithType: RustPlayer.PlayerMetabolism
+- uid: OpenMod.Rust.Players.RustPlayer.PlayerMetabolism*
+  name: PlayerMetabolism
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_PlayerMetabolism_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.PlayerMetabolism
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.PlayerMetabolism
+  nameWithType: RustPlayer.PlayerMetabolism
+- uid: OpenMod.Rust.Players.RustPlayer.SetFullHealthAsync
+  name: SetFullHealthAsync()
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_SetFullHealthAsync
+  commentId: M:OpenMod.Rust.Players.RustPlayer.SetFullHealthAsync
+  fullName: OpenMod.Rust.Players.RustPlayer.SetFullHealthAsync()
+  nameWithType: RustPlayer.SetFullHealthAsync()
+- uid: OpenMod.Rust.Players.RustPlayer.SetFullHealthAsync*
+  name: SetFullHealthAsync
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_SetFullHealthAsync_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.SetFullHealthAsync
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.SetFullHealthAsync
+  nameWithType: RustPlayer.SetFullHealthAsync
 - uid: OpenMod.Rust.Players.RustPlayer.SetHealthAsync(System.Double)
   name: SetHealthAsync(Double)
   href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_SetHealthAsync_System_Double_
@@ -25100,6 +25258,32 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.SetHealthAsync
   nameWithType: RustPlayer.SetHealthAsync
+- uid: OpenMod.Rust.Players.RustPlayer.SetHungerAsync(System.Double)
+  name: SetHungerAsync(Double)
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_SetHungerAsync_System_Double_
+  commentId: M:OpenMod.Rust.Players.RustPlayer.SetHungerAsync(System.Double)
+  fullName: OpenMod.Rust.Players.RustPlayer.SetHungerAsync(System.Double)
+  nameWithType: RustPlayer.SetHungerAsync(Double)
+- uid: OpenMod.Rust.Players.RustPlayer.SetHungerAsync*
+  name: SetHungerAsync
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_SetHungerAsync_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.SetHungerAsync
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.SetHungerAsync
+  nameWithType: RustPlayer.SetHungerAsync
+- uid: OpenMod.Rust.Players.RustPlayer.SetThirstAsync(System.Double)
+  name: SetThirstAsync(Double)
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_SetThirstAsync_System_Double_
+  commentId: M:OpenMod.Rust.Players.RustPlayer.SetThirstAsync(System.Double)
+  fullName: OpenMod.Rust.Players.RustPlayer.SetThirstAsync(System.Double)
+  nameWithType: RustPlayer.SetThirstAsync(Double)
+- uid: OpenMod.Rust.Players.RustPlayer.SetThirstAsync*
+  name: SetThirstAsync
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_SetThirstAsync_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.SetThirstAsync
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.SetThirstAsync
+  nameWithType: RustPlayer.SetThirstAsync
 - uid: OpenMod.Rust.Players.RustPlayer.Stance
   name: Stance
   href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Stance
@@ -25113,6 +25297,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.Stance
   nameWithType: RustPlayer.Stance
+- uid: OpenMod.Rust.Players.RustPlayer.Thirst
+  name: Thirst
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Thirst
+  commentId: P:OpenMod.Rust.Players.RustPlayer.Thirst
+  fullName: OpenMod.Rust.Players.RustPlayer.Thirst
+  nameWithType: RustPlayer.Thirst
+- uid: OpenMod.Rust.Players.RustPlayer.Thirst*
+  name: Thirst
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_Thirst_
+  commentId: Overload:OpenMod.Rust.Players.RustPlayer.Thirst
+  isSpec: "True"
+  fullName: OpenMod.Rust.Players.RustPlayer.Thirst
+  nameWithType: RustPlayer.Thirst
 - uid: OpenMod.Rust.Players.RustPlayerAsset
   name: RustPlayerAsset
   href: api/OpenMod.Rust.Players.RustPlayerAsset.html
@@ -27486,6 +27683,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Animals.UnturnedAnimal.MaxHealth
   nameWithType: UnturnedAnimal.MaxHealth
+- uid: OpenMod.Unturned.Animals.UnturnedAnimal.SetFullHealthAsync
+  name: SetFullHealthAsync()
+  href: api/OpenMod.Unturned.Animals.UnturnedAnimal.html#OpenMod_Unturned_Animals_UnturnedAnimal_SetFullHealthAsync
+  commentId: M:OpenMod.Unturned.Animals.UnturnedAnimal.SetFullHealthAsync
+  fullName: OpenMod.Unturned.Animals.UnturnedAnimal.SetFullHealthAsync()
+  nameWithType: UnturnedAnimal.SetFullHealthAsync()
+- uid: OpenMod.Unturned.Animals.UnturnedAnimal.SetFullHealthAsync*
+  name: SetFullHealthAsync
+  href: api/OpenMod.Unturned.Animals.UnturnedAnimal.html#OpenMod_Unturned_Animals_UnturnedAnimal_SetFullHealthAsync_
+  commentId: Overload:OpenMod.Unturned.Animals.UnturnedAnimal.SetFullHealthAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Animals.UnturnedAnimal.SetFullHealthAsync
+  nameWithType: UnturnedAnimal.SetFullHealthAsync
 - uid: OpenMod.Unturned.Animals.UnturnedAnimal.SetHealthAsync(System.Double)
   name: SetHealthAsync(Double)
   href: api/OpenMod.Unturned.Animals.UnturnedAnimal.html#OpenMod_Unturned_Animals_UnturnedAnimal_SetHealthAsync_System_Double_
@@ -30759,6 +30969,51 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Items.UnturnedItemAsset.MaxQuality
   nameWithType: UnturnedItemAsset.MaxQuality
+- uid: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider
+  name: UnturnedItemAssetCommandParameterResolveProvider
+  href: api/OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.html
+  commentId: T:OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider
+  fullName: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider
+  nameWithType: UnturnedItemAssetCommandParameterResolveProvider
+- uid: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.#ctor(OpenMod.Extensions.Games.Abstractions.Items.IItemDirectory)
+  name: UnturnedItemAssetCommandParameterResolveProvider(IItemDirectory)
+  href: api/OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Items_UnturnedItemAssetCommandParameterResolveProvider__ctor_OpenMod_Extensions_Games_Abstractions_Items_IItemDirectory_
+  commentId: M:OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.#ctor(OpenMod.Extensions.Games.Abstractions.Items.IItemDirectory)
+  fullName: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.UnturnedItemAssetCommandParameterResolveProvider(OpenMod.Extensions.Games.Abstractions.Items.IItemDirectory)
+  nameWithType: UnturnedItemAssetCommandParameterResolveProvider.UnturnedItemAssetCommandParameterResolveProvider(IItemDirectory)
+- uid: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.#ctor*
+  name: UnturnedItemAssetCommandParameterResolveProvider
+  href: api/OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Items_UnturnedItemAssetCommandParameterResolveProvider__ctor_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.UnturnedItemAssetCommandParameterResolveProvider
+  nameWithType: UnturnedItemAssetCommandParameterResolveProvider.UnturnedItemAssetCommandParameterResolveProvider
+- uid: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.ResolveAsync(System.Type,System.String)
+  name: ResolveAsync(Type, String)
+  href: api/OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Items_UnturnedItemAssetCommandParameterResolveProvider_ResolveAsync_System_Type_System_String_
+  commentId: M:OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.ResolveAsync(System.Type,System.String)
+  fullName: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.ResolveAsync(System.Type, System.String)
+  nameWithType: UnturnedItemAssetCommandParameterResolveProvider.ResolveAsync(Type, String)
+- uid: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.ResolveAsync*
+  name: ResolveAsync
+  href: api/OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Items_UnturnedItemAssetCommandParameterResolveProvider_ResolveAsync_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.ResolveAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.ResolveAsync
+  nameWithType: UnturnedItemAssetCommandParameterResolveProvider.ResolveAsync
+- uid: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.Supports(System.Type)
+  name: Supports(Type)
+  href: api/OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Items_UnturnedItemAssetCommandParameterResolveProvider_Supports_System_Type_
+  commentId: M:OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.Supports(System.Type)
+  fullName: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.Supports(System.Type)
+  nameWithType: UnturnedItemAssetCommandParameterResolveProvider.Supports(Type)
+- uid: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.Supports*
+  name: Supports
+  href: api/OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Items_UnturnedItemAssetCommandParameterResolveProvider_Supports_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.Supports
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedItemAssetCommandParameterResolveProvider.Supports
+  nameWithType: UnturnedItemAssetCommandParameterResolveProvider.Supports
 - uid: OpenMod.Unturned.Items.UnturnedItemDirectory
   name: UnturnedItemDirectory
   href: api/OpenMod.Unturned.Items.UnturnedItemDirectory.html
@@ -35446,6 +35701,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.MaxHunger
   nameWithType: UnturnedPlayer.MaxHunger
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.MaxThirst
+  name: MaxThirst
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_MaxThirst
+  commentId: P:OpenMod.Unturned.Players.UnturnedPlayer.MaxThirst
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.MaxThirst
+  nameWithType: UnturnedPlayer.MaxThirst
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.MaxThirst*
+  name: MaxThirst
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_MaxThirst_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.MaxThirst
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.MaxThirst
+  nameWithType: UnturnedPlayer.MaxThirst
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.OpenMod#Extensions#Games#Abstractions#Items#IHasInventory#Inventory
   name: IHasInventory.Inventory
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Extensions_Games_Abstractions_Items_IHasInventory_Inventory
@@ -35493,6 +35761,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.Player
   nameWithType: UnturnedPlayer.Player
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.PlayerLife
+  name: PlayerLife
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_PlayerLife
+  commentId: P:OpenMod.Unturned.Players.UnturnedPlayer.PlayerLife
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.PlayerLife
+  nameWithType: UnturnedPlayer.PlayerLife
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.PlayerLife*
+  name: PlayerLife
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_PlayerLife_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.PlayerLife
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.PlayerLife
+  nameWithType: UnturnedPlayer.PlayerLife
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync(System.String)
   name: PrintMessageAsync(String)
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_PrintMessageAsync_System_String_
@@ -35518,6 +35799,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.PrintMessageAsync
   nameWithType: UnturnedPlayer.PrintMessageAsync
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.SetFullHealthAsync
+  name: SetFullHealthAsync()
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetFullHealthAsync
+  commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.SetFullHealthAsync
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.SetFullHealthAsync()
+  nameWithType: UnturnedPlayer.SetFullHealthAsync()
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.SetFullHealthAsync*
+  name: SetFullHealthAsync
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetFullHealthAsync_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.SetFullHealthAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.SetFullHealthAsync
+  nameWithType: UnturnedPlayer.SetFullHealthAsync
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.SetHealthAsync(System.Double)
   name: SetHealthAsync(Double)
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetHealthAsync_System_Double_
@@ -35563,6 +35857,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.SetPositionAsync
   nameWithType: UnturnedPlayer.SetPositionAsync
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.SetThirstAsync(System.Double)
+  name: SetThirstAsync(Double)
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetThirstAsync_System_Double_
+  commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.SetThirstAsync(System.Double)
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.SetThirstAsync(System.Double)
+  nameWithType: UnturnedPlayer.SetThirstAsync(Double)
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.SetThirstAsync*
+  name: SetThirstAsync
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_SetThirstAsync_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.SetThirstAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.SetThirstAsync
+  nameWithType: UnturnedPlayer.SetThirstAsync
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.Stance
   name: Stance
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Stance
@@ -35615,6 +35922,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.SteamPlayer
   nameWithType: UnturnedPlayer.SteamPlayer
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.Thirst
+  name: Thirst
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Thirst
+  commentId: P:OpenMod.Unturned.Players.UnturnedPlayer.Thirst
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.Thirst
+  nameWithType: UnturnedPlayer.Thirst
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.Thirst*
+  name: Thirst
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Thirst_
+  commentId: Overload:OpenMod.Unturned.Players.UnturnedPlayer.Thirst
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.Thirst
+  nameWithType: UnturnedPlayer.Thirst
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.Transform
   name: Transform
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Transform
@@ -36043,12 +36363,12 @@ references:
   commentId: T:OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener
   fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener
   nameWithType: RocketModCommandEventListener
-- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.#ctor(OpenMod.Unturned.Configuration.IOpenModUnturnedConfiguration,ICommandCooldownStore,IOpenModStringLocalizer)
-  name: RocketModCommandEventListener(IOpenModUnturnedConfiguration, ICommandCooldownStore, IOpenModStringLocalizer)
-  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener__ctor_OpenMod_Unturned_Configuration_IOpenModUnturnedConfiguration_ICommandCooldownStore_IOpenModStringLocalizer_
-  commentId: M:OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.#ctor(OpenMod.Unturned.Configuration.IOpenModUnturnedConfiguration,ICommandCooldownStore,IOpenModStringLocalizer)
-  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.RocketModCommandEventListener(OpenMod.Unturned.Configuration.IOpenModUnturnedConfiguration, ICommandCooldownStore, IOpenModStringLocalizer)
-  nameWithType: RocketModCommandEventListener.RocketModCommandEventListener(IOpenModUnturnedConfiguration, ICommandCooldownStore, IOpenModStringLocalizer)
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.#ctor(ICommandCooldownStore,IOpenModStringLocalizer)
+  name: RocketModCommandEventListener(ICommandCooldownStore, IOpenModStringLocalizer)
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener__ctor_ICommandCooldownStore_IOpenModStringLocalizer_
+  commentId: M:OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.#ctor(ICommandCooldownStore,IOpenModStringLocalizer)
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.RocketModCommandEventListener(ICommandCooldownStore, IOpenModStringLocalizer)
+  nameWithType: RocketModCommandEventListener.RocketModCommandEventListener(ICommandCooldownStore, IOpenModStringLocalizer)
 - uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.#ctor*
   name: RocketModCommandEventListener
   href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener__ctor_
@@ -36069,6 +36389,164 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.HandleEventAsync
   nameWithType: RocketModCommandEventListener.HandleEventAsync
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod
+  name: RocketModCommandFromOpenMod
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html
+  commentId: T:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod
+  nameWithType: RocketModCommandFromOpenMod
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.#ctor(ICommandContext)
+  name: RocketModCommandFromOpenMod(ICommandContext)
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod__ctor_ICommandContext_
+  commentId: M:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.#ctor(ICommandContext)
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.RocketModCommandFromOpenMod(ICommandContext)
+  nameWithType: RocketModCommandFromOpenMod.RocketModCommandFromOpenMod(ICommandContext)
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.#ctor*
+  name: RocketModCommandFromOpenMod
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod__ctor_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.RocketModCommandFromOpenMod
+  nameWithType: RocketModCommandFromOpenMod.RocketModCommandFromOpenMod
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Aliases
+  name: Aliases
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Aliases
+  commentId: P:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Aliases
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Aliases
+  nameWithType: RocketModCommandFromOpenMod.Aliases
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Aliases*
+  name: Aliases
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Aliases_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Aliases
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Aliases
+  nameWithType: RocketModCommandFromOpenMod.Aliases
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.AllowedCaller
+  name: AllowedCaller
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_AllowedCaller
+  commentId: P:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.AllowedCaller
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.AllowedCaller
+  nameWithType: RocketModCommandFromOpenMod.AllowedCaller
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.AllowedCaller*
+  name: AllowedCaller
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_AllowedCaller_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.AllowedCaller
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.AllowedCaller
+  nameWithType: RocketModCommandFromOpenMod.AllowedCaller
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Execute(Rocket.API.IRocketPlayer,System.String[])
+  name: Execute(IRocketPlayer, String[])
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Execute_Rocket_API_IRocketPlayer_System_String___
+  commentId: M:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Execute(Rocket.API.IRocketPlayer,System.String[])
+  name.vb: Execute(IRocketPlayer, String())
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Execute(Rocket.API.IRocketPlayer, System.String[])
+  fullName.vb: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Execute(Rocket.API.IRocketPlayer, System.String())
+  nameWithType: RocketModCommandFromOpenMod.Execute(IRocketPlayer, String[])
+  nameWithType.vb: RocketModCommandFromOpenMod.Execute(IRocketPlayer, String())
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Execute*
+  name: Execute
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Execute_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Execute
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Execute
+  nameWithType: RocketModCommandFromOpenMod.Execute
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Help
+  name: Help
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Help
+  commentId: P:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Help
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Help
+  nameWithType: RocketModCommandFromOpenMod.Help
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Help*
+  name: Help
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Help_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Help
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Help
+  nameWithType: RocketModCommandFromOpenMod.Help
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Name
+  name: Name
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Name
+  commentId: P:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Name
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Name
+  nameWithType: RocketModCommandFromOpenMod.Name
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Name*
+  name: Name
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Name_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Name
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Name
+  nameWithType: RocketModCommandFromOpenMod.Name
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Permissions
+  name: Permissions
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Permissions
+  commentId: P:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Permissions
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Permissions
+  nameWithType: RocketModCommandFromOpenMod.Permissions
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Permissions*
+  name: Permissions
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Permissions_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Permissions
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Permissions
+  nameWithType: RocketModCommandFromOpenMod.Permissions
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Syntax
+  name: Syntax
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Syntax
+  commentId: P:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Syntax
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Syntax
+  nameWithType: RocketModCommandFromOpenMod.Syntax
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Syntax*
+  name: Syntax
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.html#OpenMod_Unturned_RocketMod_Commands_RocketModCommandFromOpenMod_Syntax_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Syntax
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModCommandFromOpenMod.Syntax
+  nameWithType: RocketModCommandFromOpenMod.Syntax
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger
+  name: RocketModExecuteCommandEventTrigger
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.html
+  commentId: T:OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger
+  nameWithType: RocketModExecuteCommandEventTrigger
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.#ctor
+  name: RocketModExecuteCommandEventTrigger()
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.html#OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger__ctor
+  commentId: M:OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.#ctor
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.RocketModExecuteCommandEventTrigger()
+  nameWithType: RocketModExecuteCommandEventTrigger.RocketModExecuteCommandEventTrigger()
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.#ctor*
+  name: RocketModExecuteCommandEventTrigger
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.html#OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger__ctor_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.RocketModExecuteCommandEventTrigger
+  nameWithType: RocketModExecuteCommandEventTrigger.RocketModExecuteCommandEventTrigger
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.HandleEventAsync(System.Object,CommandExecutingEvent)
+  name: HandleEventAsync(Object, CommandExecutingEvent)
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.html#OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger_HandleEventAsync_System_Object_CommandExecutingEvent_
+  commentId: M:OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.HandleEventAsync(System.Object,CommandExecutingEvent)
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.HandleEventAsync(System.Object, CommandExecutingEvent)
+  nameWithType: RocketModExecuteCommandEventTrigger.HandleEventAsync(Object, CommandExecutingEvent)
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.HandleEventAsync*
+  name: HandleEventAsync
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.html#OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger_HandleEventAsync_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.HandleEventAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.HandleEventAsync
+  nameWithType: RocketModExecuteCommandEventTrigger.HandleEventAsync
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.RocketModExecuteEvent
+  name: RocketModExecuteEvent
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.html#OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger_RocketModExecuteEvent
+  commentId: P:OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.RocketModExecuteEvent
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.RocketModExecuteEvent
+  nameWithType: RocketModExecuteCommandEventTrigger.RocketModExecuteEvent
+- uid: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.RocketModExecuteEvent*
+  name: RocketModExecuteEvent
+  href: api/OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.html#OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger_RocketModExecuteEvent_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.RocketModExecuteEvent
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.RocketModExecuteEvent
+  nameWithType: RocketModExecuteCommandEventTrigger.RocketModExecuteEvent
 - uid: OpenMod.Unturned.RocketMod.Economy
   name: OpenMod.Unturned.RocketMod.Economy
   href: api/OpenMod.Unturned.RocketMod.Economy.html
@@ -39815,12 +40293,12 @@ references:
   commentId: T:OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent
   fullName: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent
   nameWithType: UnturnedVehicleReplacingBatteryEvent
-- uid: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Vehicles.UnturnedVehicle,System.Byte)
-  name: UnturnedVehicleReplacingBatteryEvent(UnturnedPlayer, UnturnedVehicle, Byte)
-  href: api/OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.html#OpenMod_Unturned_Vehicles_Events_UnturnedVehicleReplacingBatteryEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Vehicles_UnturnedVehicle_System_Byte_
-  commentId: M:OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Vehicles.UnturnedVehicle,System.Byte)
-  fullName: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.UnturnedVehicleReplacingBatteryEvent(OpenMod.Unturned.Players.UnturnedPlayer, OpenMod.Unturned.Vehicles.UnturnedVehicle, System.Byte)
-  nameWithType: UnturnedVehicleReplacingBatteryEvent.UnturnedVehicleReplacingBatteryEvent(UnturnedPlayer, UnturnedVehicle, Byte)
+- uid: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Vehicles.UnturnedVehicle,System.Byte,System.Guid)
+  name: UnturnedVehicleReplacingBatteryEvent(UnturnedPlayer, UnturnedVehicle, Byte, Guid)
+  href: api/OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.html#OpenMod_Unturned_Vehicles_Events_UnturnedVehicleReplacingBatteryEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_OpenMod_Unturned_Vehicles_UnturnedVehicle_System_Byte_System_Guid_
+  commentId: M:OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,OpenMod.Unturned.Vehicles.UnturnedVehicle,System.Byte,System.Guid)
+  fullName: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.UnturnedVehicleReplacingBatteryEvent(OpenMod.Unturned.Players.UnturnedPlayer, OpenMod.Unturned.Vehicles.UnturnedVehicle, System.Byte, System.Guid)
+  nameWithType: UnturnedVehicleReplacingBatteryEvent.UnturnedVehicleReplacingBatteryEvent(UnturnedPlayer, UnturnedVehicle, Byte, Guid)
 - uid: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.#ctor*
   name: UnturnedVehicleReplacingBatteryEvent
   href: api/OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.html#OpenMod_Unturned_Vehicles_Events_UnturnedVehicleReplacingBatteryEvent__ctor_
@@ -39828,6 +40306,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.UnturnedVehicleReplacingBatteryEvent
   nameWithType: UnturnedVehicleReplacingBatteryEvent.UnturnedVehicleReplacingBatteryEvent
+- uid: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.BatteryItemGuid
+  name: BatteryItemGuid
+  href: api/OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.html#OpenMod_Unturned_Vehicles_Events_UnturnedVehicleReplacingBatteryEvent_BatteryItemGuid
+  commentId: P:OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.BatteryItemGuid
+  fullName: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.BatteryItemGuid
+  nameWithType: UnturnedVehicleReplacingBatteryEvent.BatteryItemGuid
+- uid: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.BatteryItemGuid*
+  name: BatteryItemGuid
+  href: api/OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.html#OpenMod_Unturned_Vehicles_Events_UnturnedVehicleReplacingBatteryEvent_BatteryItemGuid_
+  commentId: Overload:OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.BatteryItemGuid
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.BatteryItemGuid
+  nameWithType: UnturnedVehicleReplacingBatteryEvent.BatteryItemGuid
 - uid: OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.BatteryQuality
   name: BatteryQuality
   href: api/OpenMod.Unturned.Vehicles.Events.UnturnedVehicleReplacingBatteryEvent.html#OpenMod_Unturned_Vehicles_Events_UnturnedVehicleReplacingBatteryEvent_BatteryQuality
@@ -40222,6 +40713,51 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleAsset.VehicleType
   nameWithType: UnturnedVehicleAsset.VehicleType
+- uid: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider
+  name: UnturnedVehicleAssetCommandParameterResolveProvider
+  href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.html
+  commentId: T:OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider
+  fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider
+  nameWithType: UnturnedVehicleAssetCommandParameterResolveProvider
+- uid: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.#ctor(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory)
+  name: UnturnedVehicleAssetCommandParameterResolveProvider(IVehicleDirectory)
+  href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Vehicles_UnturnedVehicleAssetCommandParameterResolveProvider__ctor_OpenMod_Extensions_Games_Abstractions_Vehicles_IVehicleDirectory_
+  commentId: M:OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.#ctor(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory)
+  fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.UnturnedVehicleAssetCommandParameterResolveProvider(OpenMod.Extensions.Games.Abstractions.Vehicles.IVehicleDirectory)
+  nameWithType: UnturnedVehicleAssetCommandParameterResolveProvider.UnturnedVehicleAssetCommandParameterResolveProvider(IVehicleDirectory)
+- uid: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.#ctor*
+  name: UnturnedVehicleAssetCommandParameterResolveProvider
+  href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Vehicles_UnturnedVehicleAssetCommandParameterResolveProvider__ctor_
+  commentId: Overload:OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.UnturnedVehicleAssetCommandParameterResolveProvider
+  nameWithType: UnturnedVehicleAssetCommandParameterResolveProvider.UnturnedVehicleAssetCommandParameterResolveProvider
+- uid: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.ResolveAsync(System.Type,System.String)
+  name: ResolveAsync(Type, String)
+  href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Vehicles_UnturnedVehicleAssetCommandParameterResolveProvider_ResolveAsync_System_Type_System_String_
+  commentId: M:OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.ResolveAsync(System.Type,System.String)
+  fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.ResolveAsync(System.Type, System.String)
+  nameWithType: UnturnedVehicleAssetCommandParameterResolveProvider.ResolveAsync(Type, String)
+- uid: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.ResolveAsync*
+  name: ResolveAsync
+  href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Vehicles_UnturnedVehicleAssetCommandParameterResolveProvider_ResolveAsync_
+  commentId: Overload:OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.ResolveAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.ResolveAsync
+  nameWithType: UnturnedVehicleAssetCommandParameterResolveProvider.ResolveAsync
+- uid: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.Supports(System.Type)
+  name: Supports(Type)
+  href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Vehicles_UnturnedVehicleAssetCommandParameterResolveProvider_Supports_System_Type_
+  commentId: M:OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.Supports(System.Type)
+  fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.Supports(System.Type)
+  nameWithType: UnturnedVehicleAssetCommandParameterResolveProvider.Supports(Type)
+- uid: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.Supports*
+  name: Supports
+  href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.html#OpenMod_Unturned_Vehicles_UnturnedVehicleAssetCommandParameterResolveProvider_Supports_
+  commentId: Overload:OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.Supports
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Vehicles.UnturnedVehicleAssetCommandParameterResolveProvider.Supports
+  nameWithType: UnturnedVehicleAssetCommandParameterResolveProvider.Supports
 - uid: OpenMod.Unturned.Vehicles.UnturnedVehicleDirectory
   name: UnturnedVehicleDirectory
   href: api/OpenMod.Unturned.Vehicles.UnturnedVehicleDirectory.html
@@ -40895,6 +41431,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Zombies.UnturnedZombie.MaxHealth
   nameWithType: UnturnedZombie.MaxHealth
+- uid: OpenMod.Unturned.Zombies.UnturnedZombie.SetFullHealthAsync
+  name: SetFullHealthAsync()
+  href: api/OpenMod.Unturned.Zombies.UnturnedZombie.html#OpenMod_Unturned_Zombies_UnturnedZombie_SetFullHealthAsync
+  commentId: M:OpenMod.Unturned.Zombies.UnturnedZombie.SetFullHealthAsync
+  fullName: OpenMod.Unturned.Zombies.UnturnedZombie.SetFullHealthAsync()
+  nameWithType: UnturnedZombie.SetFullHealthAsync()
+- uid: OpenMod.Unturned.Zombies.UnturnedZombie.SetFullHealthAsync*
+  name: SetFullHealthAsync
+  href: api/OpenMod.Unturned.Zombies.UnturnedZombie.html#OpenMod_Unturned_Zombies_UnturnedZombie_SetFullHealthAsync_
+  commentId: Overload:OpenMod.Unturned.Zombies.UnturnedZombie.SetFullHealthAsync
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Zombies.UnturnedZombie.SetFullHealthAsync
+  nameWithType: UnturnedZombie.SetFullHealthAsync
 - uid: OpenMod.Unturned.Zombies.UnturnedZombie.SetHealthAsync(System.Double)
   name: SetHealthAsync(Double)
   href: api/OpenMod.Unturned.Zombies.UnturnedZombie.html#OpenMod_Unturned_Zombies_UnturnedZombie_SetHealthAsync_System_Double_
