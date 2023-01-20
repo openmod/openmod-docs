@@ -141,7 +141,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_Body.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Body%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Rcon/RocketModRconPacket.cs/#L9">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Rcon/RocketModRconPacket.cs/#L7">View Source</a>
   </span>
   <a id="OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_Body_" data-uid="OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Body*"></a>
   <h4 id="OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_Body" data-uid="OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Body">Body</h4>
@@ -166,41 +166,22 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_ReadFromStreamAsync_System_IO_Stream_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_NewLineType.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.NewLineType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Rcon/RocketModRconPacket.cs/#L11">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Rcon/RocketModRconPacket.cs/#L8">View Source</a>
   </span>
-  <a id="OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_ReadFromStreamAsync_" data-uid="OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync*"></a>
-  <h4 id="OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_ReadFromStreamAsync_System_IO_Stream_" data-uid="OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync(System.IO.Stream)">ReadFromStreamAsync(Stream)</h4>
+  <a id="OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_NewLineType_" data-uid="OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.NewLineType*"></a>
+  <h4 id="OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_NewLineType" data-uid="OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.NewLineType">NewLineType</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;RocketModRconPacket&gt; ReadFromStreamAsync(Stream stream)</code></pre>
+    <pre><code class="lang-csharp hljs">public NewLineType NewLineType { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IO.Stream</span></td>
-        <td><span class="parametername">stream</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -210,17 +191,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html">RocketModRconPacket</a>&gt;</td>
+        <td><a class="xref" href="OpenMod.Unturned.RocketMod.Rcon.NewLineType.html">NewLineType</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_Serialize.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Serialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Rcon/RocketModRconPacket.cs/#L22">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Rcon/RocketModRconPacket.cs/#L10">View Source</a>
   </span>
   <a id="OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_Serialize_" data-uid="OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Serialize*"></a>
   <h4 id="OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_Serialize" data-uid="OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Serialize">Serialize()</h4>

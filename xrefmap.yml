@@ -31323,6 +31323,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Items.UnturnedPlayerInventory.GetEnumerator
   nameWithType: UnturnedPlayerInventory.GetEnumerator
+- uid: OpenMod.Unturned.Items.UnturnedPlayerInventory.GetHashCode
+  name: GetHashCode()
+  href: api/OpenMod.Unturned.Items.UnturnedPlayerInventory.html#OpenMod_Unturned_Items_UnturnedPlayerInventory_GetHashCode
+  commentId: M:OpenMod.Unturned.Items.UnturnedPlayerInventory.GetHashCode
+  fullName: OpenMod.Unturned.Items.UnturnedPlayerInventory.GetHashCode()
+  nameWithType: UnturnedPlayerInventory.GetHashCode()
+- uid: OpenMod.Unturned.Items.UnturnedPlayerInventory.GetHashCode*
+  name: GetHashCode
+  href: api/OpenMod.Unturned.Items.UnturnedPlayerInventory.html#OpenMod_Unturned_Items_UnturnedPlayerInventory_GetHashCode_
+  commentId: Overload:OpenMod.Unturned.Items.UnturnedPlayerInventory.GetHashCode
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Items.UnturnedPlayerInventory.GetHashCode
+  nameWithType: UnturnedPlayerInventory.GetHashCode
 - uid: OpenMod.Unturned.Items.UnturnedPlayerInventory.Inventory
   name: Inventory
   href: api/OpenMod.Unturned.Items.UnturnedPlayerInventory.html#OpenMod_Unturned_Items_UnturnedPlayerInventory_Inventory
@@ -32497,6 +32510,18 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Permissions.UnturnedAdminPermissionCheckProvider.SupportsActor
   nameWithType: UnturnedAdminPermissionCheckProvider.SupportsActor
+- uid: OpenMod.Unturned.Persistence.Events
+  name: OpenMod.Unturned.Persistence.Events
+  href: api/OpenMod.Unturned.Persistence.Events.html
+  commentId: N:OpenMod.Unturned.Persistence.Events
+  fullName: OpenMod.Unturned.Persistence.Events
+  nameWithType: OpenMod.Unturned.Persistence.Events
+- uid: OpenMod.Unturned.Persistence.Events.UnturnedGameSavedEvent
+  name: UnturnedGameSavedEvent
+  href: api/OpenMod.Unturned.Persistence.Events.UnturnedGameSavedEvent.html
+  commentId: T:OpenMod.Unturned.Persistence.Events.UnturnedGameSavedEvent
+  fullName: OpenMod.Unturned.Persistence.Events.UnturnedGameSavedEvent
+  nameWithType: UnturnedGameSavedEvent
 - uid: OpenMod.Unturned.Players
   name: OpenMod.Unturned.Players
   href: api/OpenMod.Unturned.Players.html
@@ -32667,6 +32692,15 @@ references:
   commentId: T:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent
   fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent
   nameWithType: UnturnedPlayerBanningEvent
+- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.String,System.String,System.Net.IPAddress,System.Collections.Generic.IEnumerable{System.Byte[]},System.String,System.TimeSpan)
+  name: UnturnedPlayerBanningEvent(UnturnedPlayer, String, String, IPAddress, IEnumerable<Byte[]>, String, TimeSpan)
+  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_String_System_String_System_Net_IPAddress_System_Collections_Generic_IEnumerable_System_Byte____System_String_System_TimeSpan_
+  commentId: M:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.String,System.String,System.Net.IPAddress,System.Collections.Generic.IEnumerable{System.Byte[]},System.String,System.TimeSpan)
+  name.vb: UnturnedPlayerBanningEvent(UnturnedPlayer, String, String, IPAddress, IEnumerable(Of Byte()), String, TimeSpan)
+  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.UnturnedPlayerBanningEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.String, System.String, System.Net.IPAddress, System.Collections.Generic.IEnumerable<System.Byte[]>, System.String, System.TimeSpan)
+  fullName.vb: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.UnturnedPlayerBanningEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.String, System.String, System.Net.IPAddress, System.Collections.Generic.IEnumerable(Of System.Byte()), System.String, System.TimeSpan)
+  nameWithType: UnturnedPlayerBanningEvent.UnturnedPlayerBanningEvent(UnturnedPlayer, String, String, IPAddress, IEnumerable<Byte[]>, String, TimeSpan)
+  nameWithType.vb: UnturnedPlayerBanningEvent.UnturnedPlayerBanningEvent(UnturnedPlayer, String, String, IPAddress, IEnumerable(Of Byte()), String, TimeSpan)
 - uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.String,System.String,System.Net.IPAddress,System.String,System.TimeSpan)
   name: UnturnedPlayerBanningEvent(UnturnedPlayer, String, String, IPAddress, String, TimeSpan)
   href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_String_System_String_System_Net_IPAddress_System_String_System_TimeSpan_
@@ -32706,6 +32740,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.Duration
   nameWithType: UnturnedPlayerBanningEvent.Duration
+- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.HwidsToBan
+  name: HwidsToBan
+  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_HwidsToBan
+  commentId: P:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.HwidsToBan
+  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.HwidsToBan
+  nameWithType: UnturnedPlayerBanningEvent.HwidsToBan
+- uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.HwidsToBan*
+  name: HwidsToBan
+  href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_HwidsToBan_
+  commentId: Overload:OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.HwidsToBan
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.HwidsToBan
+  nameWithType: UnturnedPlayerBanningEvent.HwidsToBan
 - uid: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.InstigatorId
   name: InstigatorId
   href: api/OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerBanningEvent.html#OpenMod_Unturned_Players_Bans_Events_UnturnedPlayerBanningEvent_InstigatorId
@@ -34561,6 +34608,107 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerDyingEvent.UnturnedPlayerDyingEvent
   nameWithType: UnturnedPlayerDyingEvent.UnturnedPlayerDyingEvent
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent
+  name: UnturnedPlayerFallDamagingEvent
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html
+  commentId: T:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent
+  nameWithType: UnturnedPlayerFallDamagingEvent
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Single,System.Byte,OpenMod.Extensions.Games.Abstractions.Entities.IDamageSource,System.Boolean)
+  name: UnturnedPlayerFallDamagingEvent(UnturnedPlayer, Single, Byte, IDamageSource, Boolean)
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_Single_System_Byte_OpenMod_Extensions_Games_Abstractions_Entities_IDamageSource_System_Boolean_
+  commentId: M:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Single,System.Byte,OpenMod.Extensions.Games.Abstractions.Entities.IDamageSource,System.Boolean)
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.UnturnedPlayerFallDamagingEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.Single, System.Byte, OpenMod.Extensions.Games.Abstractions.Entities.IDamageSource, System.Boolean)
+  nameWithType: UnturnedPlayerFallDamagingEvent.UnturnedPlayerFallDamagingEvent(UnturnedPlayer, Single, Byte, IDamageSource, Boolean)
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.#ctor*
+  name: UnturnedPlayerFallDamagingEvent
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.UnturnedPlayerFallDamagingEvent
+  nameWithType: UnturnedPlayerFallDamagingEvent.UnturnedPlayerFallDamagingEvent
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageAmount
+  name: DamageAmount
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_DamageAmount
+  commentId: P:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageAmount
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageAmount
+  nameWithType: UnturnedPlayerFallDamagingEvent.DamageAmount
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageAmount*
+  name: DamageAmount
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_DamageAmount_
+  commentId: Overload:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageAmount
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageAmount
+  nameWithType: UnturnedPlayerFallDamagingEvent.DamageAmount
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageSource
+  name: DamageSource
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_DamageSource
+  commentId: P:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageSource
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageSource
+  nameWithType: UnturnedPlayerFallDamagingEvent.DamageSource
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageSource*
+  name: DamageSource
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_DamageSource_
+  commentId: Overload:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageSource
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.DamageSource
+  nameWithType: UnturnedPlayerFallDamagingEvent.DamageSource
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.IsCancelled
+  name: IsCancelled
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_IsCancelled
+  commentId: P:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.IsCancelled
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.IsCancelled
+  nameWithType: UnturnedPlayerFallDamagingEvent.IsCancelled
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.IsCancelled*
+  name: IsCancelled
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_IsCancelled_
+  commentId: Overload:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.IsCancelled
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.IsCancelled
+  nameWithType: UnturnedPlayerFallDamagingEvent.IsCancelled
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.OpenMod#Extensions#Games#Abstractions#Players#IPlayerDamagingEvent#DamageAmount
+  name: IPlayerDamagingEvent.DamageAmount
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_OpenMod_Extensions_Games_Abstractions_Players_IPlayerDamagingEvent_DamageAmount
+  commentId: P:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.OpenMod#Extensions#Games#Abstractions#Players#IPlayerDamagingEvent#DamageAmount
+  name.vb: OpenMod.Extensions.Games.Abstractions.Players.IPlayerDamagingEvent.DamageAmount
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.OpenMod.Extensions.Games.Abstractions.Players.IPlayerDamagingEvent.DamageAmount
+  nameWithType: UnturnedPlayerFallDamagingEvent.IPlayerDamagingEvent.DamageAmount
+  nameWithType.vb: UnturnedPlayerFallDamagingEvent.OpenMod.Extensions.Games.Abstractions.Players.IPlayerDamagingEvent.DamageAmount
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.OpenMod#Extensions#Games#Abstractions#Players#IPlayerDamagingEvent#DamageAmount*
+  name: IPlayerDamagingEvent.DamageAmount
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_OpenMod_Extensions_Games_Abstractions_Players_IPlayerDamagingEvent_DamageAmount_
+  commentId: Overload:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.OpenMod#Extensions#Games#Abstractions#Players#IPlayerDamagingEvent#DamageAmount
+  isSpec: "True"
+  name.vb: OpenMod.Extensions.Games.Abstractions.Players.IPlayerDamagingEvent.DamageAmount
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.OpenMod.Extensions.Games.Abstractions.Players.IPlayerDamagingEvent.DamageAmount
+  nameWithType: UnturnedPlayerFallDamagingEvent.IPlayerDamagingEvent.DamageAmount
+  nameWithType.vb: UnturnedPlayerFallDamagingEvent.OpenMod.Extensions.Games.Abstractions.Players.IPlayerDamagingEvent.DamageAmount
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.ShouldBreakLegs
+  name: ShouldBreakLegs
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_ShouldBreakLegs
+  commentId: P:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.ShouldBreakLegs
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.ShouldBreakLegs
+  nameWithType: UnturnedPlayerFallDamagingEvent.ShouldBreakLegs
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.ShouldBreakLegs*
+  name: ShouldBreakLegs
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_ShouldBreakLegs_
+  commentId: Overload:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.ShouldBreakLegs
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.ShouldBreakLegs
+  nameWithType: UnturnedPlayerFallDamagingEvent.ShouldBreakLegs
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.Velocity
+  name: Velocity
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_Velocity
+  commentId: P:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.Velocity
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.Velocity
+  nameWithType: UnturnedPlayerFallDamagingEvent.Velocity
+- uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.Velocity*
+  name: Velocity
+  href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.html#OpenMod_Unturned_Players_Life_Events_UnturnedPlayerFallDamagingEvent_Velocity_
+  commentId: Overload:OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.Velocity
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerFallDamagingEvent.Velocity
+  nameWithType: UnturnedPlayerFallDamagingEvent.Velocity
 - uid: OpenMod.Unturned.Players.Life.Events.UnturnedPlayerRevivedEvent
   name: UnturnedPlayerRevivedEvent
   href: api/OpenMod.Unturned.Players.Life.Events.UnturnedPlayerRevivedEvent.html
@@ -34637,6 +34785,25 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerGestureUpdatedEvent.Gesture
   nameWithType: UnturnedPlayerGestureUpdatedEvent.Gesture
+- uid: OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent
+  name: UnturnedPlayerJumpedEvent
+  href: api/OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent.html
+  commentId: T:OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent
+  fullName: OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent
+  nameWithType: UnturnedPlayerJumpedEvent
+- uid: OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedPlayerJumpedEvent(UnturnedPlayer)
+  href: api/OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent.html#OpenMod_Unturned_Players_Movement_Events_UnturnedPlayerJumpedEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent.UnturnedPlayerJumpedEvent(OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedPlayerJumpedEvent.UnturnedPlayerJumpedEvent(UnturnedPlayer)
+- uid: OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent.#ctor*
+  name: UnturnedPlayerJumpedEvent
+  href: api/OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent.html#OpenMod_Unturned_Players_Movement_Events_UnturnedPlayerJumpedEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerJumpedEvent.UnturnedPlayerJumpedEvent
+  nameWithType: UnturnedPlayerJumpedEvent.UnturnedPlayerJumpedEvent
 - uid: OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerSafetyUpdatedEvent
   name: UnturnedPlayerSafetyUpdatedEvent
   href: api/OpenMod.Unturned.Players.Movement.Events.UnturnedPlayerSafetyUpdatedEvent.html
@@ -36357,6 +36524,37 @@ references:
   commentId: N:OpenMod.Unturned.RocketMod.Commands
   fullName: OpenMod.Unturned.RocketMod.Commands
   nameWithType: OpenMod.Unturned.RocketMod.Commands
+- uid: OpenMod.Unturned.RocketMod.Commands.RconPlayer
+  name: RconPlayer
+  href: api/OpenMod.Unturned.RocketMod.Commands.RconPlayer.html
+  commentId: T:OpenMod.Unturned.RocketMod.Commands.RconPlayer
+  fullName: OpenMod.Unturned.RocketMod.Commands.RconPlayer
+  nameWithType: RconPlayer
+- uid: OpenMod.Unturned.RocketMod.Commands.RconPlayer.#ctor
+  name: RconPlayer()
+  href: api/OpenMod.Unturned.RocketMod.Commands.RconPlayer.html#OpenMod_Unturned_RocketMod_Commands_RconPlayer__ctor
+  commentId: M:OpenMod.Unturned.RocketMod.Commands.RconPlayer.#ctor
+  fullName: OpenMod.Unturned.RocketMod.Commands.RconPlayer.RconPlayer()
+  nameWithType: RconPlayer.RconPlayer()
+- uid: OpenMod.Unturned.RocketMod.Commands.RconPlayer.#ctor(ICommandActor)
+  name: RconPlayer(ICommandActor)
+  href: api/OpenMod.Unturned.RocketMod.Commands.RconPlayer.html#OpenMod_Unturned_RocketMod_Commands_RconPlayer__ctor_ICommandActor_
+  commentId: M:OpenMod.Unturned.RocketMod.Commands.RconPlayer.#ctor(ICommandActor)
+  fullName: OpenMod.Unturned.RocketMod.Commands.RconPlayer.RconPlayer(ICommandActor)
+  nameWithType: RconPlayer.RconPlayer(ICommandActor)
+- uid: OpenMod.Unturned.RocketMod.Commands.RconPlayer.#ctor*
+  name: RconPlayer
+  href: api/OpenMod.Unturned.RocketMod.Commands.RconPlayer.html#OpenMod_Unturned_RocketMod_Commands_RconPlayer__ctor_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Commands.RconPlayer.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.RocketMod.Commands.RconPlayer.RconPlayer
+  nameWithType: RconPlayer.RconPlayer
+- uid: OpenMod.Unturned.RocketMod.Commands.RconPlayer.CommandActor
+  name: CommandActor
+  href: api/OpenMod.Unturned.RocketMod.Commands.RconPlayer.html#OpenMod_Unturned_RocketMod_Commands_RconPlayer_CommandActor
+  commentId: F:OpenMod.Unturned.RocketMod.Commands.RconPlayer.CommandActor
+  fullName: OpenMod.Unturned.RocketMod.Commands.RconPlayer.CommandActor
+  nameWithType: RconPlayer.CommandActor
 - uid: OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener
   name: RocketModCommandEventListener
   href: api/OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.html
@@ -37518,6 +37716,30 @@ references:
   commentId: N:OpenMod.Unturned.RocketMod.Rcon
   fullName: OpenMod.Unturned.RocketMod.Rcon
   nameWithType: OpenMod.Unturned.RocketMod.Rcon
+- uid: OpenMod.Unturned.RocketMod.Rcon.NewLineType
+  name: NewLineType
+  href: api/OpenMod.Unturned.RocketMod.Rcon.NewLineType.html
+  commentId: T:OpenMod.Unturned.RocketMod.Rcon.NewLineType
+  fullName: OpenMod.Unturned.RocketMod.Rcon.NewLineType
+  nameWithType: NewLineType
+- uid: OpenMod.Unturned.RocketMod.Rcon.NewLineType.Linux
+  name: Linux
+  href: api/OpenMod.Unturned.RocketMod.Rcon.NewLineType.html#OpenMod_Unturned_RocketMod_Rcon_NewLineType_Linux
+  commentId: F:OpenMod.Unturned.RocketMod.Rcon.NewLineType.Linux
+  fullName: OpenMod.Unturned.RocketMod.Rcon.NewLineType.Linux
+  nameWithType: NewLineType.Linux
+- uid: OpenMod.Unturned.RocketMod.Rcon.NewLineType.Mac
+  name: Mac
+  href: api/OpenMod.Unturned.RocketMod.Rcon.NewLineType.html#OpenMod_Unturned_RocketMod_Rcon_NewLineType_Mac
+  commentId: F:OpenMod.Unturned.RocketMod.Rcon.NewLineType.Mac
+  fullName: OpenMod.Unturned.RocketMod.Rcon.NewLineType.Mac
+  nameWithType: NewLineType.Mac
+- uid: OpenMod.Unturned.RocketMod.Rcon.NewLineType.Windows
+  name: Windows
+  href: api/OpenMod.Unturned.RocketMod.Rcon.NewLineType.html#OpenMod_Unturned_RocketMod_Rcon_NewLineType_Windows
+  commentId: F:OpenMod.Unturned.RocketMod.Rcon.NewLineType.Windows
+  fullName: OpenMod.Unturned.RocketMod.Rcon.NewLineType.Windows
+  nameWithType: NewLineType.Windows
 - uid: OpenMod.Unturned.RocketMod.Rcon.RconStartListener
   name: RconStartListener
   href: api/OpenMod.Unturned.RocketMod.Rcon.RconStartListener.html
@@ -37594,19 +37816,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.OnDataReceivedAsync
   nameWithType: RocketModRconClient.OnDataReceivedAsync
-- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync(OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket)
-  name: ProcessPacketAsync(RocketModRconPacket)
-  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient_ProcessPacketAsync_OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_
-  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync(OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket)
-  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync(OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket)
-  nameWithType: RocketModRconClient.ProcessPacketAsync(RocketModRconPacket)
-- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync*
-  name: ProcessPacketAsync
-  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient_ProcessPacketAsync_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync
-  isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.ProcessPacketAsync
-  nameWithType: RocketModRconClient.ProcessPacketAsync
 - uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.SendMessageAsync(System.String,System.Threading.CancellationToken)
   name: SendMessageAsync(String, CancellationToken)
   href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconClient.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconClient_SendMessageAsync_System_String_System_Threading_CancellationToken_
@@ -37671,19 +37880,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Body
   nameWithType: RocketModRconPacket.Body
-- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync(System.IO.Stream)
-  name: ReadFromStreamAsync(Stream)
-  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_ReadFromStreamAsync_System_IO_Stream_
-  commentId: M:OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync(System.IO.Stream)
-  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync(System.IO.Stream)
-  nameWithType: RocketModRconPacket.ReadFromStreamAsync(Stream)
-- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync*
-  name: ReadFromStreamAsync
-  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_ReadFromStreamAsync_
-  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.NewLineType
+  name: NewLineType
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_NewLineType
+  commentId: P:OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.NewLineType
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.NewLineType
+  nameWithType: RocketModRconPacket.NewLineType
+- uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.NewLineType*
+  name: NewLineType
+  href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_NewLineType_
+  commentId: Overload:OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.NewLineType
   isSpec: "True"
-  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.ReadFromStreamAsync
-  nameWithType: RocketModRconPacket.ReadFromStreamAsync
+  fullName: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.NewLineType
+  nameWithType: RocketModRconPacket.NewLineType
 - uid: OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.Serialize
   name: Serialize()
   href: api/OpenMod.Unturned.RocketMod.Rcon.RocketModRconPacket.html#OpenMod_Unturned_RocketMod_Rcon_RocketModRconPacket_Serialize

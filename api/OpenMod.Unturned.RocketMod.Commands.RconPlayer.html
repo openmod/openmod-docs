@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RocketModCommandEventListener
+    <title>Class RconPlayer
    | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RocketModCommandEventListener
+    <meta name="title" content="Class RconPlayer
    | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -92,20 +92,38 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener">
+                    <article class="content wrap" id="_content" data-uid="OpenMod.Unturned.RocketMod.Commands.RconPlayer">
   
   
-  <h1 id="OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener" data-uid="OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener" class="text-break">Class RocketModCommandEventListener
+  <h1 id="OpenMod_Unturned_RocketMod_Commands_RconPlayer" data-uid="OpenMod.Unturned.RocketMod.Commands.RconPlayer" class="text-break">Class RconPlayer
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">RocketModCommandEventListener</span></div>
+    <div class="level1"><span class="xref">Rocket.API.ConsolePlayer</span></div>
+    <div class="level2"><span class="xref">RconPlayer</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Rocket.API.IRocketPlayer</span></div>
+    <div><span class="xref">System.IComparable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Rocket.API.ConsolePlayer.CompareTo(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">Rocket.API.ConsolePlayer.Id</span>
+    </div>
+    <div>
+      <span class="xref">Rocket.API.ConsolePlayer.DisplayName</span>
+    </div>
+    <div>
+      <span class="xref">Rocket.API.ConsolePlayer.IsAdmin</span>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -130,26 +148,41 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Unturned.RocketMod.Commands.html">OpenMod.Unturned.RocketMod.Commands</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.Unturned.dll</h6>
-  <h5 id="OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener_syntax">Syntax</h5>
+  <h5 id="OpenMod_Unturned_RocketMod_Commands_RconPlayer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RocketModCommandEventListener</code></pre>
+    <pre><code class="lang-csharp hljs">public class RconPlayer : ConsolePlayer, IRocketPlayer, IComparable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener__ctor_ICommandCooldownStore_IOpenModStringLocalizer_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.%23ctor(ICommandCooldownStore%2CIOpenModStringLocalizer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_RocketMod_Commands_RconPlayer__ctor.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.RocketMod.Commands.RconPlayer.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Commands/RocketModCommandEventListener.cs/#L38">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Commands/RconPlayer.cs/#L10">View Source</a>
   </span>
-  <a id="OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener__ctor_" data-uid="OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.#ctor*"></a>
-  <h4 id="OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener__ctor_ICommandCooldownStore_IOpenModStringLocalizer_" data-uid="OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.#ctor(ICommandCooldownStore,IOpenModStringLocalizer)">RocketModCommandEventListener(ICommandCooldownStore, IOpenModStringLocalizer)</h4>
+  <a id="OpenMod_Unturned_RocketMod_Commands_RconPlayer__ctor_" data-uid="OpenMod.Unturned.RocketMod.Commands.RconPlayer.#ctor*"></a>
+  <h4 id="OpenMod_Unturned_RocketMod_Commands_RconPlayer__ctor" data-uid="OpenMod.Unturned.RocketMod.Commands.RconPlayer.#ctor">RconPlayer()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RocketModCommandEventListener(ICommandCooldownStore commandCooldownStore, IOpenModStringLocalizer stringLocalizer)</code></pre>
+    <pre><code class="lang-csharp hljs">public RconPlayer()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_RocketMod_Commands_RconPlayer__ctor_ICommandActor_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.RocketMod.Commands.RconPlayer.%23ctor(ICommandActor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Commands/RconPlayer.cs/#L13">View Source</a>
+  </span>
+  <a id="OpenMod_Unturned_RocketMod_Commands_RconPlayer__ctor_" data-uid="OpenMod.Unturned.RocketMod.Commands.RconPlayer.#ctor*"></a>
+  <h4 id="OpenMod_Unturned_RocketMod_Commands_RconPlayer__ctor_ICommandActor_" data-uid="OpenMod.Unturned.RocketMod.Commands.RconPlayer.#ctor(ICommandActor)">RconPlayer(ICommandActor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RconPlayer(ICommandActor actor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,57 +195,29 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ICommandCooldownStore</span></td>
-        <td><span class="parametername">commandCooldownStore</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IOpenModStringLocalizer</span></td>
-        <td><span class="parametername">stringLocalizer</span></td>
+        <td><span class="xref">ICommandActor</span></td>
+        <td><span class="parametername">actor</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener_HandleEventAsync_System_Object_CommandExecutedEvent_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.HandleEventAsync(System.Object%2CCommandExecutedEvent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_RocketMod_Commands_RconPlayer_CommandActor.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.RocketMod.Commands.RconPlayer.CommandActor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Commands/RocketModCommandEventListener.cs/#L46">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Commands/RconPlayer.cs/#L8">View Source</a>
   </span>
-  <a id="OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener_HandleEventAsync_" data-uid="OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.HandleEventAsync*"></a>
-  <h4 id="OpenMod_Unturned_RocketMod_Commands_RocketModCommandEventListener_HandleEventAsync_System_Object_CommandExecutedEvent_" data-uid="OpenMod.Unturned.RocketMod.Commands.RocketModCommandEventListener.HandleEventAsync(System.Object,CommandExecutedEvent)">HandleEventAsync(Object, CommandExecutedEvent)</h4>
+  <h4 id="OpenMod_Unturned_RocketMod_Commands_RconPlayer_CommandActor" data-uid="OpenMod.Unturned.RocketMod.Commands.RconPlayer.CommandActor">CommandActor</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task HandleEventAsync(object _, CommandExecutedEvent event)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly ICommandActor? CommandActor</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">_</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CommandExecutedEvent</span></td>
-        <td><span class="parametername">event</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -222,11 +227,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ICommandActor</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Rocket.API.IRocketPlayer</span>
+  </div>
+  <div>
+      <span class="xref">System.IComparable</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="OpenMod.Core.Helpers.DisposeHelper.html#OpenMod_Core_Helpers_DisposeHelper_DisposeSyncOrAsync_System_Object_">DisposeHelper.DisposeSyncOrAsync(Object)</a>
