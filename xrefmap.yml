@@ -3053,6 +3053,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.API.Plugins.IPluginServiceConfigurationContext.ParentLifetimeScope
   nameWithType: IPluginServiceConfigurationContext.ParentLifetimeScope
+- uid: OpenMod.API.Plugins.IPluginServiceConfigurationContext.WorkingDirectory
+  name: WorkingDirectory
+  href: api/OpenMod.API.Plugins.IPluginServiceConfigurationContext.html#OpenMod_API_Plugins_IPluginServiceConfigurationContext_WorkingDirectory
+  commentId: P:OpenMod.API.Plugins.IPluginServiceConfigurationContext.WorkingDirectory
+  fullName: OpenMod.API.Plugins.IPluginServiceConfigurationContext.WorkingDirectory
+  nameWithType: IPluginServiceConfigurationContext.WorkingDirectory
+- uid: OpenMod.API.Plugins.IPluginServiceConfigurationContext.WorkingDirectory*
+  name: WorkingDirectory
+  href: api/OpenMod.API.Plugins.IPluginServiceConfigurationContext.html#OpenMod_API_Plugins_IPluginServiceConfigurationContext_WorkingDirectory_
+  commentId: Overload:OpenMod.API.Plugins.IPluginServiceConfigurationContext.WorkingDirectory
+  isSpec: "True"
+  fullName: OpenMod.API.Plugins.IPluginServiceConfigurationContext.WorkingDirectory
+  nameWithType: IPluginServiceConfigurationContext.WorkingDirectory
 - uid: OpenMod.API.Plugins.PluginMetadataAttribute
   name: PluginMetadataAttribute
   href: api/OpenMod.API.Plugins.PluginMetadataAttribute.html
@@ -12964,12 +12977,12 @@ references:
   commentId: T:OpenMod.Core.Plugins.PluginServiceConfigurationContext
   fullName: OpenMod.Core.Plugins.PluginServiceConfigurationContext
   nameWithType: PluginServiceConfigurationContext
-- uid: OpenMod.Core.Plugins.PluginServiceConfigurationContext.#ctor(ILifetimeScope,IConfigurationRoot,ContainerBuilder)
-  name: PluginServiceConfigurationContext(ILifetimeScope, IConfigurationRoot, ContainerBuilder)
-  href: api/OpenMod.Core.Plugins.PluginServiceConfigurationContext.html#OpenMod_Core_Plugins_PluginServiceConfigurationContext__ctor_ILifetimeScope_IConfigurationRoot_ContainerBuilder_
-  commentId: M:OpenMod.Core.Plugins.PluginServiceConfigurationContext.#ctor(ILifetimeScope,IConfigurationRoot,ContainerBuilder)
-  fullName: OpenMod.Core.Plugins.PluginServiceConfigurationContext.PluginServiceConfigurationContext(ILifetimeScope, IConfigurationRoot, ContainerBuilder)
-  nameWithType: PluginServiceConfigurationContext.PluginServiceConfigurationContext(ILifetimeScope, IConfigurationRoot, ContainerBuilder)
+- uid: OpenMod.Core.Plugins.PluginServiceConfigurationContext.#ctor(ILifetimeScope,IConfigurationRoot,ContainerBuilder,System.String)
+  name: PluginServiceConfigurationContext(ILifetimeScope, IConfigurationRoot, ContainerBuilder, String)
+  href: api/OpenMod.Core.Plugins.PluginServiceConfigurationContext.html#OpenMod_Core_Plugins_PluginServiceConfigurationContext__ctor_ILifetimeScope_IConfigurationRoot_ContainerBuilder_System_String_
+  commentId: M:OpenMod.Core.Plugins.PluginServiceConfigurationContext.#ctor(ILifetimeScope,IConfigurationRoot,ContainerBuilder,System.String)
+  fullName: OpenMod.Core.Plugins.PluginServiceConfigurationContext.PluginServiceConfigurationContext(ILifetimeScope, IConfigurationRoot, ContainerBuilder, System.String)
+  nameWithType: PluginServiceConfigurationContext.PluginServiceConfigurationContext(ILifetimeScope, IConfigurationRoot, ContainerBuilder, String)
 - uid: OpenMod.Core.Plugins.PluginServiceConfigurationContext.#ctor*
   name: PluginServiceConfigurationContext
   href: api/OpenMod.Core.Plugins.PluginServiceConfigurationContext.html#OpenMod_Core_Plugins_PluginServiceConfigurationContext__ctor_
@@ -13016,6 +13029,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Plugins.PluginServiceConfigurationContext.ParentLifetimeScope
   nameWithType: PluginServiceConfigurationContext.ParentLifetimeScope
+- uid: OpenMod.Core.Plugins.PluginServiceConfigurationContext.WorkingDirectory
+  name: WorkingDirectory
+  href: api/OpenMod.Core.Plugins.PluginServiceConfigurationContext.html#OpenMod_Core_Plugins_PluginServiceConfigurationContext_WorkingDirectory
+  commentId: P:OpenMod.Core.Plugins.PluginServiceConfigurationContext.WorkingDirectory
+  fullName: OpenMod.Core.Plugins.PluginServiceConfigurationContext.WorkingDirectory
+  nameWithType: PluginServiceConfigurationContext.WorkingDirectory
+- uid: OpenMod.Core.Plugins.PluginServiceConfigurationContext.WorkingDirectory*
+  name: WorkingDirectory
+  href: api/OpenMod.Core.Plugins.PluginServiceConfigurationContext.html#OpenMod_Core_Plugins_PluginServiceConfigurationContext_WorkingDirectory_
+  commentId: Overload:OpenMod.Core.Plugins.PluginServiceConfigurationContext.WorkingDirectory
+  isSpec: "True"
+  fullName: OpenMod.Core.Plugins.PluginServiceConfigurationContext.WorkingDirectory
+  nameWithType: PluginServiceConfigurationContext.WorkingDirectory
 - uid: OpenMod.Core.Plugins.PluginStatus
   name: PluginStatus
   href: api/OpenMod.Core.Plugins.PluginStatus.html
@@ -31670,6 +31696,12 @@ references:
   commentId: T:OpenMod.Unturned.Locations.UnturnedLocation
   fullName: OpenMod.Unturned.Locations.UnturnedLocation
   nameWithType: UnturnedLocation
+- uid: OpenMod.Unturned.Locations.UnturnedLocation.#ctor(LocationDevkitNode)
+  name: UnturnedLocation(LocationDevkitNode)
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation__ctor_LocationDevkitNode_
+  commentId: M:OpenMod.Unturned.Locations.UnturnedLocation.#ctor(LocationDevkitNode)
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation.UnturnedLocation(LocationDevkitNode)
+  nameWithType: UnturnedLocation.UnturnedLocation(LocationDevkitNode)
 - uid: OpenMod.Unturned.Locations.UnturnedLocation.#ctor(LocationNode)
   name: UnturnedLocation(LocationNode)
   href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation__ctor_LocationNode_
@@ -31683,6 +31715,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Locations.UnturnedLocation.UnturnedLocation
   nameWithType: UnturnedLocation.UnturnedLocation
+- uid: OpenMod.Unturned.Locations.UnturnedLocation.DevkitNode
+  name: DevkitNode
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation_DevkitNode
+  commentId: P:OpenMod.Unturned.Locations.UnturnedLocation.DevkitNode
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation.DevkitNode
+  nameWithType: UnturnedLocation.DevkitNode
+- uid: OpenMod.Unturned.Locations.UnturnedLocation.DevkitNode*
+  name: DevkitNode
+  href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation_DevkitNode_
+  commentId: Overload:OpenMod.Unturned.Locations.UnturnedLocation.DevkitNode
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Locations.UnturnedLocation.DevkitNode
+  nameWithType: UnturnedLocation.DevkitNode
 - uid: OpenMod.Unturned.Locations.UnturnedLocation.Name
   name: Name
   href: api/OpenMod.Unturned.Locations.UnturnedLocation.html#OpenMod_Unturned_Locations_UnturnedLocation_Name
@@ -33769,6 +33814,57 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Input.Events.UnturnedPlayerPluginKeyStateChangedEvent.State
   nameWithType: UnturnedPlayerPluginKeyStateChangedEvent.State
+- uid: OpenMod.Unturned.Players.Interacting.Events
+  name: OpenMod.Unturned.Players.Interacting.Events
+  href: api/OpenMod.Unturned.Players.Interacting.Events.html
+  commentId: N:OpenMod.Unturned.Players.Interacting.Events
+  fullName: OpenMod.Unturned.Players.Interacting.Events
+  nameWithType: OpenMod.Unturned.Players.Interacting.Events
+- uid: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent
+  name: UnturnedPlayerBedClaimingEvent
+  href: api/OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.html
+  commentId: T:OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent
+  fullName: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent
+  nameWithType: UnturnedPlayerBedClaimingEvent
+- uid: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.#ctor(InteractableBed,OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedPlayerBedClaimingEvent(InteractableBed, UnturnedPlayer)
+  href: api/OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.html#OpenMod_Unturned_Players_Interacting_Events_UnturnedPlayerBedClaimingEvent__ctor_InteractableBed_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.#ctor(InteractableBed,OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.UnturnedPlayerBedClaimingEvent(InteractableBed, OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedPlayerBedClaimingEvent.UnturnedPlayerBedClaimingEvent(InteractableBed, UnturnedPlayer)
+- uid: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.#ctor*
+  name: UnturnedPlayerBedClaimingEvent
+  href: api/OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.html#OpenMod_Unturned_Players_Interacting_Events_UnturnedPlayerBedClaimingEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.UnturnedPlayerBedClaimingEvent
+  nameWithType: UnturnedPlayerBedClaimingEvent.UnturnedPlayerBedClaimingEvent
+- uid: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.Bed
+  name: Bed
+  href: api/OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.html#OpenMod_Unturned_Players_Interacting_Events_UnturnedPlayerBedClaimingEvent_Bed
+  commentId: P:OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.Bed
+  fullName: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.Bed
+  nameWithType: UnturnedPlayerBedClaimingEvent.Bed
+- uid: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.Bed*
+  name: Bed
+  href: api/OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.html#OpenMod_Unturned_Players_Interacting_Events_UnturnedPlayerBedClaimingEvent_Bed_
+  commentId: Overload:OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.Bed
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.Bed
+  nameWithType: UnturnedPlayerBedClaimingEvent.Bed
+- uid: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.IsCancelled
+  name: IsCancelled
+  href: api/OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.html#OpenMod_Unturned_Players_Interacting_Events_UnturnedPlayerBedClaimingEvent_IsCancelled
+  commentId: P:OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.IsCancelled
+  fullName: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.IsCancelled
+  nameWithType: UnturnedPlayerBedClaimingEvent.IsCancelled
+- uid: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.IsCancelled*
+  name: IsCancelled
+  href: api/OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.html#OpenMod_Unturned_Players_Interacting_Events_UnturnedPlayerBedClaimingEvent_IsCancelled_
+  commentId: Overload:OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.IsCancelled
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Interacting.Events.UnturnedPlayerBedClaimingEvent.IsCancelled
+  nameWithType: UnturnedPlayerBedClaimingEvent.IsCancelled
 - uid: OpenMod.Unturned.Players.Inventory.Events
   name: OpenMod.Unturned.Players.Inventory.Events
   href: api/OpenMod.Unturned.Players.Inventory.Events.html
@@ -36281,12 +36377,12 @@ references:
   commentId: T:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent
   fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent
   nameWithType: UnturnedPlayerRelayingVoiceEvent
-- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Boolean,System.Boolean)
-  name: UnturnedPlayerRelayingVoiceEvent(UnturnedPlayer, Boolean, Boolean)
-  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_Boolean_System_Boolean_
-  commentId: M:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Boolean,System.Boolean)
-  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.UnturnedPlayerRelayingVoiceEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.Boolean, System.Boolean)
-  nameWithType: UnturnedPlayerRelayingVoiceEvent.UnturnedPlayerRelayingVoiceEvent(UnturnedPlayer, Boolean, Boolean)
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Boolean,System.Boolean,PlayerVoice.RelayVoiceCullingHandler)
+  name: UnturnedPlayerRelayingVoiceEvent(UnturnedPlayer, Boolean, Boolean, PlayerVoice.RelayVoiceCullingHandler)
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_Boolean_System_Boolean_PlayerVoice_RelayVoiceCullingHandler_
+  commentId: M:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.Boolean,System.Boolean,PlayerVoice.RelayVoiceCullingHandler)
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.UnturnedPlayerRelayingVoiceEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.Boolean, System.Boolean, PlayerVoice.RelayVoiceCullingHandler)
+  nameWithType: UnturnedPlayerRelayingVoiceEvent.UnturnedPlayerRelayingVoiceEvent(UnturnedPlayer, Boolean, Boolean, PlayerVoice.RelayVoiceCullingHandler)
 - uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.#ctor*
   name: UnturnedPlayerRelayingVoiceEvent
   href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent__ctor_
@@ -36294,6 +36390,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.UnturnedPlayerRelayingVoiceEvent
   nameWithType: UnturnedPlayerRelayingVoiceEvent.UnturnedPlayerRelayingVoiceEvent
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.CullingHandler
+  name: CullingHandler
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent_CullingHandler
+  commentId: P:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.CullingHandler
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.CullingHandler
+  nameWithType: UnturnedPlayerRelayingVoiceEvent.CullingHandler
+- uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.CullingHandler*
+  name: CullingHandler
+  href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent_CullingHandler_
+  commentId: Overload:OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.CullingHandler
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.CullingHandler
+  nameWithType: UnturnedPlayerRelayingVoiceEvent.CullingHandler
 - uid: OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.IsCancelled
   name: IsCancelled
   href: api/OpenMod.Unturned.Players.Voice.Events.UnturnedPlayerRelayingVoiceEvent.html#OpenMod_Unturned_Players_Voice_Events_UnturnedPlayerRelayingVoiceEvent_IsCancelled
@@ -38215,6 +38324,12 @@ references:
   commentId: N:OpenMod.Unturned.Server.Events
   fullName: OpenMod.Unturned.Server.Events
   nameWithType: OpenMod.Unturned.Server.Events
+- uid: OpenMod.Unturned.Server.Events.UnturnedServerHostedEvent
+  name: UnturnedServerHostedEvent
+  href: api/OpenMod.Unturned.Server.Events.UnturnedServerHostedEvent.html
+  commentId: T:OpenMod.Unturned.Server.Events.UnturnedServerHostedEvent
+  fullName: OpenMod.Unturned.Server.Events.UnturnedServerHostedEvent
+  nameWithType: UnturnedServerHostedEvent
 - uid: OpenMod.Unturned.Server.Events.UnturnedShutdownCommencedEvent
   name: UnturnedShutdownCommencedEvent
   href: api/OpenMod.Unturned.Server.Events.UnturnedShutdownCommencedEvent.html
