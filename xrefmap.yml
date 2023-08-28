@@ -4058,6 +4058,51 @@ references:
   isSpec: "True"
   fullName: OpenMod.Common.Helpers.AssemblyExtensions.GetLoadableTypes
   nameWithType: AssemblyExtensions.GetLoadableTypes
+- uid: OpenMod.Common.Helpers.AssemblyNameEqualityComparer
+  name: AssemblyNameEqualityComparer
+  href: api/OpenMod.Common.Helpers.AssemblyNameEqualityComparer.html
+  commentId: T:OpenMod.Common.Helpers.AssemblyNameEqualityComparer
+  fullName: OpenMod.Common.Helpers.AssemblyNameEqualityComparer
+  nameWithType: AssemblyNameEqualityComparer
+- uid: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals(AssemblyName,AssemblyName)
+  name: Equals(AssemblyName, AssemblyName)
+  href: api/OpenMod.Common.Helpers.AssemblyNameEqualityComparer.html#OpenMod_Common_Helpers_AssemblyNameEqualityComparer_Equals_AssemblyName_AssemblyName_
+  commentId: M:OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals(AssemblyName,AssemblyName)
+  fullName: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals(AssemblyName, AssemblyName)
+  nameWithType: AssemblyNameEqualityComparer.Equals(AssemblyName, AssemblyName)
+- uid: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals*
+  name: Equals
+  href: api/OpenMod.Common.Helpers.AssemblyNameEqualityComparer.html#OpenMod_Common_Helpers_AssemblyNameEqualityComparer_Equals_
+  commentId: Overload:OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals
+  isSpec: "True"
+  fullName: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals
+  nameWithType: AssemblyNameEqualityComparer.Equals
+- uid: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.GetHashCode(AssemblyName)
+  name: GetHashCode(AssemblyName)
+  href: api/OpenMod.Common.Helpers.AssemblyNameEqualityComparer.html#OpenMod_Common_Helpers_AssemblyNameEqualityComparer_GetHashCode_AssemblyName_
+  commentId: M:OpenMod.Common.Helpers.AssemblyNameEqualityComparer.GetHashCode(AssemblyName)
+  fullName: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.GetHashCode(AssemblyName)
+  nameWithType: AssemblyNameEqualityComparer.GetHashCode(AssemblyName)
+- uid: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.GetHashCode*
+  name: GetHashCode
+  href: api/OpenMod.Common.Helpers.AssemblyNameEqualityComparer.html#OpenMod_Common_Helpers_AssemblyNameEqualityComparer_GetHashCode_
+  commentId: Overload:OpenMod.Common.Helpers.AssemblyNameEqualityComparer.GetHashCode
+  isSpec: "True"
+  fullName: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.GetHashCode
+  nameWithType: AssemblyNameEqualityComparer.GetHashCode
+- uid: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Instance
+  name: Instance
+  href: api/OpenMod.Common.Helpers.AssemblyNameEqualityComparer.html#OpenMod_Common_Helpers_AssemblyNameEqualityComparer_Instance
+  commentId: P:OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Instance
+  fullName: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Instance
+  nameWithType: AssemblyNameEqualityComparer.Instance
+- uid: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Instance*
+  name: Instance
+  href: api/OpenMod.Common.Helpers.AssemblyNameEqualityComparer.html#OpenMod_Common_Helpers_AssemblyNameEqualityComparer_Instance_
+  commentId: Overload:OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Instance
+  isSpec: "True"
+  fullName: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Instance
+  nameWithType: AssemblyNameEqualityComparer.Instance
 - uid: OpenMod.Common.Helpers.ReflectionExtensions
   name: ReflectionExtensions
   href: api/OpenMod.Common.Helpers.ReflectionExtensions.html
@@ -4252,6 +4297,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Common.Hotloading.Hotloader.Enabled
   nameWithType: Hotloader.Enabled
+- uid: OpenMod.Common.Hotloading.Hotloader.FindAssembly(AssemblyName)
+  name: FindAssembly(AssemblyName)
+  href: api/OpenMod.Common.Hotloading.Hotloader.html#OpenMod_Common_Hotloading_Hotloader_FindAssembly_AssemblyName_
+  commentId: M:OpenMod.Common.Hotloading.Hotloader.FindAssembly(AssemblyName)
+  fullName: OpenMod.Common.Hotloading.Hotloader.FindAssembly(AssemblyName)
+  nameWithType: Hotloader.FindAssembly(AssemblyName)
+- uid: OpenMod.Common.Hotloading.Hotloader.FindAssembly*
+  name: FindAssembly
+  href: api/OpenMod.Common.Hotloading.Hotloader.html#OpenMod_Common_Hotloading_Hotloader_FindAssembly_
+  commentId: Overload:OpenMod.Common.Hotloading.Hotloader.FindAssembly
+  isSpec: "True"
+  fullName: OpenMod.Common.Hotloading.Hotloader.FindAssembly
+  nameWithType: Hotloader.FindAssembly
 - uid: OpenMod.Common.Hotloading.Hotloader.GetAssembly(System.String)
   name: GetAssembly(String)
   href: api/OpenMod.Common.Hotloading.Hotloader.html#OpenMod_Common_Hotloading_Hotloader_GetAssembly_System_String_
@@ -4341,6 +4399,25 @@ references:
   commentId: N:OpenMod.Core.Commands
   fullName: OpenMod.Core.Commands
   nameWithType: OpenMod.Core.Commands
+- uid: OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor
+  name: AsyncLocalCurrentCommandContextAccessor
+  href: api/OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor.html
+  commentId: T:OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor
+  fullName: OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor
+  nameWithType: AsyncLocalCurrentCommandContextAccessor
+- uid: OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor.Context
+  name: Context
+  href: api/OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor.html#OpenMod_Core_Commands_AsyncLocalCurrentCommandContextAccessor_Context
+  commentId: P:OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor.Context
+  fullName: OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor.Context
+  nameWithType: AsyncLocalCurrentCommandContextAccessor.Context
+- uid: OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor.Context*
+  name: Context
+  href: api/OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor.html#OpenMod_Core_Commands_AsyncLocalCurrentCommandContextAccessor_Context_
+  commentId: Overload:OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor.Context
+  isSpec: "True"
+  fullName: OpenMod.Core.Commands.AsyncLocalCurrentCommandContextAccessor.Context
+  nameWithType: AsyncLocalCurrentCommandContextAccessor.Context
 - uid: OpenMod.Core.Commands.Command
   name: Command
   href: api/OpenMod.Core.Commands.Command.html
@@ -7336,25 +7413,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Commands.RegisteredCommandsData.Commands
   nameWithType: RegisteredCommandsData.Commands
-- uid: OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor
-  name: ThreadLocalCurrentCommandContextAccessor
-  href: api/OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor.html
-  commentId: T:OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor
-  fullName: OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor
-  nameWithType: ThreadLocalCurrentCommandContextAccessor
-- uid: OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor.Context
-  name: Context
-  href: api/OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor.html#OpenMod_Core_Commands_ThreadLocalCurrentCommandContextAccessor_Context
-  commentId: P:OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor.Context
-  fullName: OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor.Context
-  nameWithType: ThreadLocalCurrentCommandContextAccessor.Context
-- uid: OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor.Context*
-  name: Context
-  href: api/OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor.html#OpenMod_Core_Commands_ThreadLocalCurrentCommandContextAccessor_Context_
-  commentId: Overload:OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor.Context
-  isSpec: "True"
-  fullName: OpenMod.Core.Commands.ThreadLocalCurrentCommandContextAccessor.Context
-  nameWithType: ThreadLocalCurrentCommandContextAccessor.Context
 - uid: OpenMod.Core.Commands.TypeDescriptorCommandParameterResolveProvider
   name: TypeDescriptorCommandParameterResolveProvider
   href: api/OpenMod.Core.Commands.TypeDescriptorCommandParameterResolveProvider.html
@@ -9491,12 +9549,15 @@ references:
   commentId: T:OpenMod.Core.Localization.ConfigurationBasedStringLocalizer
   fullName: OpenMod.Core.Localization.ConfigurationBasedStringLocalizer
   nameWithType: ConfigurationBasedStringLocalizer
-- uid: OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.#ctor(IConfiguration)
-  name: ConfigurationBasedStringLocalizer(IConfiguration)
-  href: api/OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.html#OpenMod_Core_Localization_ConfigurationBasedStringLocalizer__ctor_IConfiguration_
-  commentId: M:OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.#ctor(IConfiguration)
-  fullName: OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.ConfigurationBasedStringLocalizer(IConfiguration)
-  nameWithType: ConfigurationBasedStringLocalizer.ConfigurationBasedStringLocalizer(IConfiguration)
+- uid: OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.#ctor(IConfiguration,IOptions{OpenMod.Core.Localization.SmartFormatOptions})
+  name: ConfigurationBasedStringLocalizer(IConfiguration, IOptions<SmartFormatOptions>)
+  href: api/OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.html#OpenMod_Core_Localization_ConfigurationBasedStringLocalizer__ctor_IConfiguration_IOptions_OpenMod_Core_Localization_SmartFormatOptions__
+  commentId: M:OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.#ctor(IConfiguration,IOptions{OpenMod.Core.Localization.SmartFormatOptions})
+  name.vb: ConfigurationBasedStringLocalizer(IConfiguration, IOptions(Of SmartFormatOptions))
+  fullName: OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.ConfigurationBasedStringLocalizer(IConfiguration, IOptions<OpenMod.Core.Localization.SmartFormatOptions>)
+  fullName.vb: OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.ConfigurationBasedStringLocalizer(IConfiguration, IOptions(Of OpenMod.Core.Localization.SmartFormatOptions))
+  nameWithType: ConfigurationBasedStringLocalizer.ConfigurationBasedStringLocalizer(IConfiguration, IOptions<SmartFormatOptions>)
+  nameWithType.vb: ConfigurationBasedStringLocalizer.ConfigurationBasedStringLocalizer(IConfiguration, IOptions(Of SmartFormatOptions))
 - uid: OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.#ctor*
   name: ConfigurationBasedStringLocalizer
   href: api/OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.html#OpenMod_Core_Localization_ConfigurationBasedStringLocalizer__ctor_
@@ -9561,15 +9622,15 @@ references:
   commentId: T:OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory
   fullName: OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory
   nameWithType: ConfigurationBasedStringLocalizerFactory
-- uid: OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.#ctor(ILogger{OpenMod.Core.Localization.ConfigurationBasedStringLocalizer})
-  name: ConfigurationBasedStringLocalizerFactory(ILogger<ConfigurationBasedStringLocalizer>)
-  href: api/OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.html#OpenMod_Core_Localization_ConfigurationBasedStringLocalizerFactory__ctor_ILogger_OpenMod_Core_Localization_ConfigurationBasedStringLocalizer__
-  commentId: M:OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.#ctor(ILogger{OpenMod.Core.Localization.ConfigurationBasedStringLocalizer})
-  name.vb: ConfigurationBasedStringLocalizerFactory(ILogger(Of ConfigurationBasedStringLocalizer))
-  fullName: OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.ConfigurationBasedStringLocalizerFactory(ILogger<OpenMod.Core.Localization.ConfigurationBasedStringLocalizer>)
-  fullName.vb: OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.ConfigurationBasedStringLocalizerFactory(ILogger(Of OpenMod.Core.Localization.ConfigurationBasedStringLocalizer))
-  nameWithType: ConfigurationBasedStringLocalizerFactory.ConfigurationBasedStringLocalizerFactory(ILogger<ConfigurationBasedStringLocalizer>)
-  nameWithType.vb: ConfigurationBasedStringLocalizerFactory.ConfigurationBasedStringLocalizerFactory(ILogger(Of ConfigurationBasedStringLocalizer))
+- uid: OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.#ctor(ILogger{OpenMod.Core.Localization.ConfigurationBasedStringLocalizer},IOptions{OpenMod.Core.Localization.SmartFormatOptions})
+  name: ConfigurationBasedStringLocalizerFactory(ILogger<ConfigurationBasedStringLocalizer>, IOptions<SmartFormatOptions>)
+  href: api/OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.html#OpenMod_Core_Localization_ConfigurationBasedStringLocalizerFactory__ctor_ILogger_OpenMod_Core_Localization_ConfigurationBasedStringLocalizer__IOptions_OpenMod_Core_Localization_SmartFormatOptions__
+  commentId: M:OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.#ctor(ILogger{OpenMod.Core.Localization.ConfigurationBasedStringLocalizer},IOptions{OpenMod.Core.Localization.SmartFormatOptions})
+  name.vb: ConfigurationBasedStringLocalizerFactory(ILogger(Of ConfigurationBasedStringLocalizer), IOptions(Of SmartFormatOptions))
+  fullName: OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.ConfigurationBasedStringLocalizerFactory(ILogger<OpenMod.Core.Localization.ConfigurationBasedStringLocalizer>, IOptions<OpenMod.Core.Localization.SmartFormatOptions>)
+  fullName.vb: OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.ConfigurationBasedStringLocalizerFactory(ILogger(Of OpenMod.Core.Localization.ConfigurationBasedStringLocalizer), IOptions(Of OpenMod.Core.Localization.SmartFormatOptions))
+  nameWithType: ConfigurationBasedStringLocalizerFactory.ConfigurationBasedStringLocalizerFactory(ILogger<ConfigurationBasedStringLocalizer>, IOptions<SmartFormatOptions>)
+  nameWithType.vb: ConfigurationBasedStringLocalizerFactory.ConfigurationBasedStringLocalizerFactory(ILogger(Of ConfigurationBasedStringLocalizer), IOptions(Of SmartFormatOptions))
 - uid: OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.#ctor*
   name: ConfigurationBasedStringLocalizerFactory
   href: api/OpenMod.Core.Localization.ConfigurationBasedStringLocalizerFactory.html#OpenMod_Core_Localization_ConfigurationBasedStringLocalizerFactory__ctor_
@@ -9755,6 +9816,118 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Localization.ProxyStringLocalizer.WithCulture
   nameWithType: ProxyStringLocalizer.WithCulture
+- uid: OpenMod.Core.Localization.SmartFormatOptions
+  name: SmartFormatOptions
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html
+  commentId: T:OpenMod.Core.Localization.SmartFormatOptions
+  fullName: OpenMod.Core.Localization.SmartFormatOptions
+  nameWithType: SmartFormatOptions
+- uid: OpenMod.Core.Localization.SmartFormatOptions.#ctor
+  name: SmartFormatOptions()
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions__ctor
+  commentId: M:OpenMod.Core.Localization.SmartFormatOptions.#ctor
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.SmartFormatOptions()
+  nameWithType: SmartFormatOptions.SmartFormatOptions()
+- uid: OpenMod.Core.Localization.SmartFormatOptions.#ctor*
+  name: SmartFormatOptions
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions__ctor_
+  commentId: Overload:OpenMod.Core.Localization.SmartFormatOptions.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.SmartFormatOptions
+  nameWithType: SmartFormatOptions.SmartFormatOptions
+- uid: OpenMod.Core.Localization.SmartFormatOptions.GetSmartFormatter
+  name: GetSmartFormatter()
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_GetSmartFormatter
+  commentId: M:OpenMod.Core.Localization.SmartFormatOptions.GetSmartFormatter
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.GetSmartFormatter()
+  nameWithType: SmartFormatOptions.GetSmartFormatter()
+- uid: OpenMod.Core.Localization.SmartFormatOptions.GetSmartFormatter*
+  name: GetSmartFormatter
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_GetSmartFormatter_
+  commentId: Overload:OpenMod.Core.Localization.SmartFormatOptions.GetSmartFormatter
+  isSpec: "True"
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.GetSmartFormatter
+  nameWithType: SmartFormatOptions.GetSmartFormatter
+- uid: OpenMod.Core.Localization.SmartFormatOptions.SetLocalizationProvider(System.Nullable{ILocalizationProvider})
+  name: SetLocalizationProvider(Nullable<ILocalizationProvider>)
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_SetLocalizationProvider_System_Nullable_ILocalizationProvider__
+  commentId: M:OpenMod.Core.Localization.SmartFormatOptions.SetLocalizationProvider(System.Nullable{ILocalizationProvider})
+  name.vb: SetLocalizationProvider(Nullable(Of ILocalizationProvider))
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.SetLocalizationProvider(System.Nullable<ILocalizationProvider>)
+  fullName.vb: OpenMod.Core.Localization.SmartFormatOptions.SetLocalizationProvider(System.Nullable(Of ILocalizationProvider))
+  nameWithType: SmartFormatOptions.SetLocalizationProvider(Nullable<ILocalizationProvider>)
+  nameWithType.vb: SmartFormatOptions.SetLocalizationProvider(Nullable(Of ILocalizationProvider))
+- uid: OpenMod.Core.Localization.SmartFormatOptions.SetLocalizationProvider*
+  name: SetLocalizationProvider
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_SetLocalizationProvider_
+  commentId: Overload:OpenMod.Core.Localization.SmartFormatOptions.SetLocalizationProvider
+  isSpec: "True"
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.SetLocalizationProvider
+  nameWithType: SmartFormatOptions.SetLocalizationProvider
+- uid: OpenMod.Core.Localization.SmartFormatOptions.TryAddFormatter*
+  name: TryAddFormatter
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_TryAddFormatter_
+  commentId: Overload:OpenMod.Core.Localization.SmartFormatOptions.TryAddFormatter
+  isSpec: "True"
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.TryAddFormatter
+  nameWithType: SmartFormatOptions.TryAddFormatter
+- uid: OpenMod.Core.Localization.SmartFormatOptions.TryAddFormatter``1
+  name: TryAddFormatter<T>()
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_TryAddFormatter__1
+  commentId: M:OpenMod.Core.Localization.SmartFormatOptions.TryAddFormatter``1
+  name.vb: TryAddFormatter(Of T)()
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.TryAddFormatter<T>()
+  fullName.vb: OpenMod.Core.Localization.SmartFormatOptions.TryAddFormatter(Of T)()
+  nameWithType: SmartFormatOptions.TryAddFormatter<T>()
+  nameWithType.vb: SmartFormatOptions.TryAddFormatter(Of T)()
+- uid: OpenMod.Core.Localization.SmartFormatOptions.TryAddSource*
+  name: TryAddSource
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_TryAddSource_
+  commentId: Overload:OpenMod.Core.Localization.SmartFormatOptions.TryAddSource
+  isSpec: "True"
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.TryAddSource
+  nameWithType: SmartFormatOptions.TryAddSource
+- uid: OpenMod.Core.Localization.SmartFormatOptions.TryAddSource``1
+  name: TryAddSource<T>()
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_TryAddSource__1
+  commentId: M:OpenMod.Core.Localization.SmartFormatOptions.TryAddSource``1
+  name.vb: TryAddSource(Of T)()
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.TryAddSource<T>()
+  fullName.vb: OpenMod.Core.Localization.SmartFormatOptions.TryAddSource(Of T)()
+  nameWithType: SmartFormatOptions.TryAddSource<T>()
+  nameWithType.vb: SmartFormatOptions.TryAddSource(Of T)()
+- uid: OpenMod.Core.Localization.SmartFormatOptions.TryRemoveFormatter*
+  name: TryRemoveFormatter
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_TryRemoveFormatter_
+  commentId: Overload:OpenMod.Core.Localization.SmartFormatOptions.TryRemoveFormatter
+  isSpec: "True"
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.TryRemoveFormatter
+  nameWithType: SmartFormatOptions.TryRemoveFormatter
+- uid: OpenMod.Core.Localization.SmartFormatOptions.TryRemoveFormatter``1
+  name: TryRemoveFormatter<T>()
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_TryRemoveFormatter__1
+  commentId: M:OpenMod.Core.Localization.SmartFormatOptions.TryRemoveFormatter``1
+  name.vb: TryRemoveFormatter(Of T)()
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.TryRemoveFormatter<T>()
+  fullName.vb: OpenMod.Core.Localization.SmartFormatOptions.TryRemoveFormatter(Of T)()
+  nameWithType: SmartFormatOptions.TryRemoveFormatter<T>()
+  nameWithType.vb: SmartFormatOptions.TryRemoveFormatter(Of T)()
+- uid: OpenMod.Core.Localization.SmartFormatOptions.TryRemoveSource*
+  name: TryRemoveSource
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_TryRemoveSource_
+  commentId: Overload:OpenMod.Core.Localization.SmartFormatOptions.TryRemoveSource
+  isSpec: "True"
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.TryRemoveSource
+  nameWithType: SmartFormatOptions.TryRemoveSource
+- uid: OpenMod.Core.Localization.SmartFormatOptions.TryRemoveSource``1
+  name: TryRemoveSource<T>()
+  href: api/OpenMod.Core.Localization.SmartFormatOptions.html#OpenMod_Core_Localization_SmartFormatOptions_TryRemoveSource__1
+  commentId: M:OpenMod.Core.Localization.SmartFormatOptions.TryRemoveSource``1
+  name.vb: TryRemoveSource(Of T)()
+  fullName: OpenMod.Core.Localization.SmartFormatOptions.TryRemoveSource<T>()
+  fullName.vb: OpenMod.Core.Localization.SmartFormatOptions.TryRemoveSource(Of T)()
+  nameWithType: SmartFormatOptions.TryRemoveSource<T>()
+  nameWithType.vb: SmartFormatOptions.TryRemoveSource(Of T)()
 - uid: OpenMod.Core.Patching
   name: OpenMod.Core.Patching
   href: api/OpenMod.Core.Patching.html
@@ -12868,12 +13041,12 @@ references:
   commentId: T:OpenMod.Core.Plugins.PluginHelpWriter
   fullName: OpenMod.Core.Plugins.PluginHelpWriter
   nameWithType: PluginHelpWriter
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.#ctor(OpenMod.API.Commands.ICommandPermissionBuilder,OpenMod.API.Permissions.IPermissionRegistry,OpenMod.API.Plugins.IOpenModPlugin,OpenMod.API.Commands.ICommandStore,OpenMod.API.Commands.ICommandContextBuilder)
-  name: PluginHelpWriter(ICommandPermissionBuilder, IPermissionRegistry, IOpenModPlugin, ICommandStore, ICommandContextBuilder)
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.html#OpenMod_Core_Plugins_PluginHelpWriter__ctor_OpenMod_API_Commands_ICommandPermissionBuilder_OpenMod_API_Permissions_IPermissionRegistry_OpenMod_API_Plugins_IOpenModPlugin_OpenMod_API_Commands_ICommandStore_OpenMod_API_Commands_ICommandContextBuilder_
-  commentId: M:OpenMod.Core.Plugins.PluginHelpWriter.#ctor(OpenMod.API.Commands.ICommandPermissionBuilder,OpenMod.API.Permissions.IPermissionRegistry,OpenMod.API.Plugins.IOpenModPlugin,OpenMod.API.Commands.ICommandStore,OpenMod.API.Commands.ICommandContextBuilder)
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PluginHelpWriter(OpenMod.API.Commands.ICommandPermissionBuilder, OpenMod.API.Permissions.IPermissionRegistry, OpenMod.API.Plugins.IOpenModPlugin, OpenMod.API.Commands.ICommandStore, OpenMod.API.Commands.ICommandContextBuilder)
-  nameWithType: PluginHelpWriter.PluginHelpWriter(ICommandPermissionBuilder, IPermissionRegistry, IOpenModPlugin, ICommandStore, ICommandContextBuilder)
+- uid: OpenMod.Core.Plugins.PluginHelpWriter.#ctor(OpenMod.API.Commands.ICommandPermissionBuilder,OpenMod.API.Permissions.IPermissionRegistry,OpenMod.API.Plugins.IOpenModPlugin,OpenMod.API.Commands.ICommandStore)
+  name: PluginHelpWriter(ICommandPermissionBuilder, IPermissionRegistry, IOpenModPlugin, ICommandStore)
+  href: api/OpenMod.Core.Plugins.PluginHelpWriter.html#OpenMod_Core_Plugins_PluginHelpWriter__ctor_OpenMod_API_Commands_ICommandPermissionBuilder_OpenMod_API_Permissions_IPermissionRegistry_OpenMod_API_Plugins_IOpenModPlugin_OpenMod_API_Commands_ICommandStore_
+  commentId: M:OpenMod.Core.Plugins.PluginHelpWriter.#ctor(OpenMod.API.Commands.ICommandPermissionBuilder,OpenMod.API.Permissions.IPermissionRegistry,OpenMod.API.Plugins.IOpenModPlugin,OpenMod.API.Commands.ICommandStore)
+  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PluginHelpWriter(OpenMod.API.Commands.ICommandPermissionBuilder, OpenMod.API.Permissions.IPermissionRegistry, OpenMod.API.Plugins.IOpenModPlugin, OpenMod.API.Commands.ICommandStore)
+  nameWithType: PluginHelpWriter.PluginHelpWriter(ICommandPermissionBuilder, IPermissionRegistry, IOpenModPlugin, ICommandStore)
 - uid: OpenMod.Core.Plugins.PluginHelpWriter.#ctor*
   name: PluginHelpWriter
   href: api/OpenMod.Core.Plugins.PluginHelpWriter.html#OpenMod_Core_Plugins_PluginHelpWriter__ctor_
@@ -12881,83 +13054,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Plugins.PluginHelpWriter.PluginHelpWriter
   nameWithType: PluginHelpWriter.PluginHelpWriter
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor
-  name: PluginHelpWriter.PseudoActor
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html
-  commentId: T:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor
-  nameWithType: PluginHelpWriter.PseudoActor
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.DisplayName
-  name: DisplayName
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_DisplayName
-  commentId: P:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.DisplayName
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.DisplayName
-  nameWithType: PluginHelpWriter.PseudoActor.DisplayName
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.DisplayName*
-  name: DisplayName
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_DisplayName_
-  commentId: Overload:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.DisplayName
-  isSpec: "True"
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.DisplayName
-  nameWithType: PluginHelpWriter.PseudoActor.DisplayName
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName
-  name: FullActorName
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_FullActorName
-  commentId: P:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName
-  nameWithType: PluginHelpWriter.PseudoActor.FullActorName
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName*
-  name: FullActorName
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_FullActorName_
-  commentId: Overload:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName
-  isSpec: "True"
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.FullActorName
-  nameWithType: PluginHelpWriter.PseudoActor.FullActorName
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Id
-  name: Id
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_Id
-  commentId: P:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Id
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Id
-  nameWithType: PluginHelpWriter.PseudoActor.Id
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Id*
-  name: Id
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_Id_
-  commentId: Overload:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Id
-  isSpec: "True"
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Id
-  nameWithType: PluginHelpWriter.PseudoActor.Id
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.PrintMessageAsync(System.String)
-  name: PrintMessageAsync(String)
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_PrintMessageAsync_System_String_
-  commentId: M:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.PrintMessageAsync(System.String)
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.PrintMessageAsync(System.String)
-  nameWithType: PluginHelpWriter.PseudoActor.PrintMessageAsync(String)
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.PrintMessageAsync(System.String,Color)
-  name: PrintMessageAsync(String, Color)
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_PrintMessageAsync_System_String_Color_
-  commentId: M:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.PrintMessageAsync(System.String,Color)
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.PrintMessageAsync(System.String, Color)
-  nameWithType: PluginHelpWriter.PseudoActor.PrintMessageAsync(String, Color)
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.PrintMessageAsync*
-  name: PrintMessageAsync
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_PrintMessageAsync_
-  commentId: Overload:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.PrintMessageAsync
-  isSpec: "True"
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.PrintMessageAsync
-  nameWithType: PluginHelpWriter.PseudoActor.PrintMessageAsync
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Type
-  name: Type
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_Type
-  commentId: P:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Type
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Type
-  nameWithType: PluginHelpWriter.PseudoActor.Type
-- uid: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Type*
-  name: Type
-  href: api/OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.html#OpenMod_Core_Plugins_PluginHelpWriter_PseudoActor_Type_
-  commentId: Overload:OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Type
-  isSpec: "True"
-  fullName: OpenMod.Core.Plugins.PluginHelpWriter.PseudoActor.Type
-  nameWithType: PluginHelpWriter.PseudoActor.Type
 - uid: OpenMod.Core.Plugins.PluginHelpWriter.WriteHelpFileAsync
   name: WriteHelpFileAsync()
   href: api/OpenMod.Core.Plugins.PluginHelpWriter.html#OpenMod_Core_Plugins_PluginHelpWriter_WriteHelpFileAsync
@@ -19276,6 +19372,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.NuGet.NuGetAssembly.AssemblyName
   nameWithType: NuGetAssembly.AssemblyName
+- uid: OpenMod.NuGet.NuGetAssembly.AssemblyName2
+  name: AssemblyName2
+  href: api/OpenMod.NuGet.NuGetAssembly.html#OpenMod_NuGet_NuGetAssembly_AssemblyName2
+  commentId: P:OpenMod.NuGet.NuGetAssembly.AssemblyName2
+  fullName: OpenMod.NuGet.NuGetAssembly.AssemblyName2
+  nameWithType: NuGetAssembly.AssemblyName2
+- uid: OpenMod.NuGet.NuGetAssembly.AssemblyName2*
+  name: AssemblyName2
+  href: api/OpenMod.NuGet.NuGetAssembly.html#OpenMod_NuGet_NuGetAssembly_AssemblyName2_
+  commentId: Overload:OpenMod.NuGet.NuGetAssembly.AssemblyName2
+  isSpec: "True"
+  fullName: OpenMod.NuGet.NuGetAssembly.AssemblyName2
+  nameWithType: NuGetAssembly.AssemblyName2
 - uid: OpenMod.NuGet.NuGetAssembly.Package
   name: Package
   href: api/OpenMod.NuGet.NuGetAssembly.html#OpenMod_NuGet_NuGetAssembly_Package
@@ -19308,6 +19417,25 @@ references:
   commentId: T:OpenMod.NuGet.NuGetConsoleLogger
   fullName: OpenMod.NuGet.NuGetConsoleLogger
   nameWithType: NuGetConsoleLogger
+- uid: OpenMod.NuGet.NuGetConsoleLogger.#ctor
+  name: NuGetConsoleLogger()
+  href: api/OpenMod.NuGet.NuGetConsoleLogger.html#OpenMod_NuGet_NuGetConsoleLogger__ctor
+  commentId: M:OpenMod.NuGet.NuGetConsoleLogger.#ctor
+  fullName: OpenMod.NuGet.NuGetConsoleLogger.NuGetConsoleLogger()
+  nameWithType: NuGetConsoleLogger.NuGetConsoleLogger()
+- uid: OpenMod.NuGet.NuGetConsoleLogger.#ctor(LogLevel)
+  name: NuGetConsoleLogger(LogLevel)
+  href: api/OpenMod.NuGet.NuGetConsoleLogger.html#OpenMod_NuGet_NuGetConsoleLogger__ctor_LogLevel_
+  commentId: M:OpenMod.NuGet.NuGetConsoleLogger.#ctor(LogLevel)
+  fullName: OpenMod.NuGet.NuGetConsoleLogger.NuGetConsoleLogger(LogLevel)
+  nameWithType: NuGetConsoleLogger.NuGetConsoleLogger(LogLevel)
+- uid: OpenMod.NuGet.NuGetConsoleLogger.#ctor*
+  name: NuGetConsoleLogger
+  href: api/OpenMod.NuGet.NuGetConsoleLogger.html#OpenMod_NuGet_NuGetConsoleLogger__ctor_
+  commentId: Overload:OpenMod.NuGet.NuGetConsoleLogger.#ctor
+  isSpec: "True"
+  fullName: OpenMod.NuGet.NuGetConsoleLogger.NuGetConsoleLogger
+  nameWithType: NuGetConsoleLogger.NuGetConsoleLogger
 - uid: OpenMod.NuGet.NuGetConsoleLogger.Log(ILogMessage)
   name: Log(ILogMessage)
   href: api/OpenMod.NuGet.NuGetConsoleLogger.html#OpenMod_NuGet_NuGetConsoleLogger_Log_ILogMessage_
@@ -19449,12 +19577,12 @@ references:
   commentId: T:OpenMod.NuGet.NuGetPackageManager.AssemblyLoader
   fullName: OpenMod.NuGet.NuGetPackageManager.AssemblyLoader
   nameWithType: NuGetPackageManager.AssemblyLoader
-- uid: OpenMod.NuGet.NuGetPackageManager.ClearCache
-  name: ClearCache()
-  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_ClearCache
-  commentId: M:OpenMod.NuGet.NuGetPackageManager.ClearCache
-  fullName: OpenMod.NuGet.NuGetPackageManager.ClearCache()
-  nameWithType: NuGetPackageManager.ClearCache()
+- uid: OpenMod.NuGet.NuGetPackageManager.ClearCache(System.Boolean)
+  name: ClearCache(Boolean)
+  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_ClearCache_System_Boolean_
+  commentId: M:OpenMod.NuGet.NuGetPackageManager.ClearCache(System.Boolean)
+  fullName: OpenMod.NuGet.NuGetPackageManager.ClearCache(System.Boolean)
+  nameWithType: NuGetPackageManager.ClearCache(Boolean)
 - uid: OpenMod.NuGet.NuGetPackageManager.ClearCache*
   name: ClearCache
   href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_ClearCache_
@@ -19527,22 +19655,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.NuGet.NuGetPackageManager.GetNugetPackageFile
   nameWithType: NuGetPackageManager.GetNugetPackageFile
-- uid: OpenMod.NuGet.NuGetPackageManager.GetVersionIndependentName(System.String,System.String@)
-  name: GetVersionIndependentName(String, out String)
-  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_GetVersionIndependentName_System_String_System_String__
-  commentId: M:OpenMod.NuGet.NuGetPackageManager.GetVersionIndependentName(System.String,System.String@)
-  name.vb: GetVersionIndependentName(String, ByRef String)
-  fullName: OpenMod.NuGet.NuGetPackageManager.GetVersionIndependentName(System.String, out System.String)
-  fullName.vb: OpenMod.NuGet.NuGetPackageManager.GetVersionIndependentName(System.String, ByRef System.String)
-  nameWithType: NuGetPackageManager.GetVersionIndependentName(String, out String)
-  nameWithType.vb: NuGetPackageManager.GetVersionIndependentName(String, ByRef String)
-- uid: OpenMod.NuGet.NuGetPackageManager.GetVersionIndependentName*
-  name: GetVersionIndependentName
-  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_GetVersionIndependentName_
-  commentId: Overload:OpenMod.NuGet.NuGetPackageManager.GetVersionIndependentName
-  isSpec: "True"
-  fullName: OpenMod.NuGet.NuGetPackageManager.GetVersionIndependentName
-  nameWithType: NuGetPackageManager.GetVersionIndependentName
 - uid: OpenMod.NuGet.NuGetPackageManager.IgnoreDependencies(System.String[])
   name: IgnoreDependencies(String[])
   href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_IgnoreDependencies_System_String___
@@ -19640,19 +19752,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.NuGet.NuGetPackageManager.LoadAssembliesFromNuGetPackageAsync
   nameWithType: NuGetPackageManager.LoadAssembliesFromNuGetPackageAsync
-- uid: OpenMod.NuGet.NuGetPackageManager.LoadAssemblyDataFromNuGetPackageAsync(System.String)
-  name: LoadAssemblyDataFromNuGetPackageAsync(String)
-  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_LoadAssemblyDataFromNuGetPackageAsync_System_String_
-  commentId: M:OpenMod.NuGet.NuGetPackageManager.LoadAssemblyDataFromNuGetPackageAsync(System.String)
-  fullName: OpenMod.NuGet.NuGetPackageManager.LoadAssemblyDataFromNuGetPackageAsync(System.String)
-  nameWithType: NuGetPackageManager.LoadAssemblyDataFromNuGetPackageAsync(String)
-- uid: OpenMod.NuGet.NuGetPackageManager.LoadAssemblyDataFromNuGetPackageAsync*
-  name: LoadAssemblyDataFromNuGetPackageAsync
-  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_LoadAssemblyDataFromNuGetPackageAsync_
-  commentId: Overload:OpenMod.NuGet.NuGetPackageManager.LoadAssemblyDataFromNuGetPackageAsync
-  isSpec: "True"
-  fullName: OpenMod.NuGet.NuGetPackageManager.LoadAssemblyDataFromNuGetPackageAsync
-  nameWithType: NuGetPackageManager.LoadAssemblyDataFromNuGetPackageAsync
 - uid: OpenMod.NuGet.NuGetPackageManager.Logger
   name: Logger
   href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_Logger
@@ -19782,15 +19881,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.NuGet.NuGetPackageManager.RemoveOutdatedPackagesAsync
   nameWithType: NuGetPackageManager.RemoveOutdatedPackagesAsync
-- uid: OpenMod.NuGet.NuGetPackageManager.SetAssemblyLoader(Func{System.Byte[],Assembly})
-  name: SetAssemblyLoader(Func<Byte[], Assembly>)
-  href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_SetAssemblyLoader_Func_System_Byte___Assembly__
-  commentId: M:OpenMod.NuGet.NuGetPackageManager.SetAssemblyLoader(Func{System.Byte[],Assembly})
-  name.vb: SetAssemblyLoader(Func(Of Byte(), Assembly))
-  fullName: OpenMod.NuGet.NuGetPackageManager.SetAssemblyLoader(Func<System.Byte[], Assembly>)
-  fullName.vb: OpenMod.NuGet.NuGetPackageManager.SetAssemblyLoader(Func(Of System.Byte(), Assembly))
-  nameWithType: NuGetPackageManager.SetAssemblyLoader(Func<Byte[], Assembly>)
-  nameWithType.vb: NuGetPackageManager.SetAssemblyLoader(Func(Of Byte(), Assembly))
 - uid: OpenMod.NuGet.NuGetPackageManager.SetAssemblyLoader(OpenMod.NuGet.NuGetPackageManager.AssemblyLoader)
   name: SetAssemblyLoader(NuGetPackageManager.AssemblyLoader)
   href: api/OpenMod.NuGet.NuGetPackageManager.html#OpenMod_NuGet_NuGetPackageManager_SetAssemblyLoader_OpenMod_NuGet_NuGetPackageManager_AssemblyLoader_
@@ -20037,15 +20127,15 @@ references:
   commentId: T:OpenMod.Runtime.OpenModHostedService
   fullName: OpenMod.Runtime.OpenModHostedService
   nameWithType: OpenModHostedService
-- uid: OpenMod.Runtime.OpenModHostedService.#ctor(ILogger{OpenMod.Runtime.OpenModHostedService},OpenMod.API.Permissions.IPermissionChecker,OpenMod.API.IHostInformation,OpenMod.API.IOpenModHost,OpenMod.API.Plugins.IPluginAssemblyStore,OpenMod.API.Plugins.IPluginActivator,OpenMod.API.Eventing.IEventBus,OpenMod.API.Jobs.IJobScheduler,OpenMod.API.IRuntime)
-  name: OpenModHostedService(ILogger<OpenModHostedService>, IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime)
-  href: api/OpenMod.Runtime.OpenModHostedService.html#OpenMod_Runtime_OpenModHostedService__ctor_ILogger_OpenMod_Runtime_OpenModHostedService__OpenMod_API_Permissions_IPermissionChecker_OpenMod_API_IHostInformation_OpenMod_API_IOpenModHost_OpenMod_API_Plugins_IPluginAssemblyStore_OpenMod_API_Plugins_IPluginActivator_OpenMod_API_Eventing_IEventBus_OpenMod_API_Jobs_IJobScheduler_OpenMod_API_IRuntime_
-  commentId: M:OpenMod.Runtime.OpenModHostedService.#ctor(ILogger{OpenMod.Runtime.OpenModHostedService},OpenMod.API.Permissions.IPermissionChecker,OpenMod.API.IHostInformation,OpenMod.API.IOpenModHost,OpenMod.API.Plugins.IPluginAssemblyStore,OpenMod.API.Plugins.IPluginActivator,OpenMod.API.Eventing.IEventBus,OpenMod.API.Jobs.IJobScheduler,OpenMod.API.IRuntime)
-  name.vb: OpenModHostedService(ILogger(Of OpenModHostedService), IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime)
-  fullName: OpenMod.Runtime.OpenModHostedService.OpenModHostedService(ILogger<OpenMod.Runtime.OpenModHostedService>, OpenMod.API.Permissions.IPermissionChecker, OpenMod.API.IHostInformation, OpenMod.API.IOpenModHost, OpenMod.API.Plugins.IPluginAssemblyStore, OpenMod.API.Plugins.IPluginActivator, OpenMod.API.Eventing.IEventBus, OpenMod.API.Jobs.IJobScheduler, OpenMod.API.IRuntime)
-  fullName.vb: OpenMod.Runtime.OpenModHostedService.OpenModHostedService(ILogger(Of OpenMod.Runtime.OpenModHostedService), OpenMod.API.Permissions.IPermissionChecker, OpenMod.API.IHostInformation, OpenMod.API.IOpenModHost, OpenMod.API.Plugins.IPluginAssemblyStore, OpenMod.API.Plugins.IPluginActivator, OpenMod.API.Eventing.IEventBus, OpenMod.API.Jobs.IJobScheduler, OpenMod.API.IRuntime)
-  nameWithType: OpenModHostedService.OpenModHostedService(ILogger<OpenModHostedService>, IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime)
-  nameWithType.vb: OpenModHostedService.OpenModHostedService(ILogger(Of OpenModHostedService), IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime)
+- uid: OpenMod.Runtime.OpenModHostedService.#ctor(ILogger{OpenMod.Runtime.OpenModHostedService},OpenMod.API.Permissions.IPermissionChecker,OpenMod.API.IHostInformation,OpenMod.API.IOpenModHost,OpenMod.API.Plugins.IPluginAssemblyStore,OpenMod.API.Plugins.IPluginActivator,OpenMod.API.Eventing.IEventBus,OpenMod.API.Jobs.IJobScheduler,OpenMod.API.IRuntime,IOptions{OpenMod.Core.Localization.SmartFormatOptions})
+  name: OpenModHostedService(ILogger<OpenModHostedService>, IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime, IOptions<SmartFormatOptions>)
+  href: api/OpenMod.Runtime.OpenModHostedService.html#OpenMod_Runtime_OpenModHostedService__ctor_ILogger_OpenMod_Runtime_OpenModHostedService__OpenMod_API_Permissions_IPermissionChecker_OpenMod_API_IHostInformation_OpenMod_API_IOpenModHost_OpenMod_API_Plugins_IPluginAssemblyStore_OpenMod_API_Plugins_IPluginActivator_OpenMod_API_Eventing_IEventBus_OpenMod_API_Jobs_IJobScheduler_OpenMod_API_IRuntime_IOptions_OpenMod_Core_Localization_SmartFormatOptions__
+  commentId: M:OpenMod.Runtime.OpenModHostedService.#ctor(ILogger{OpenMod.Runtime.OpenModHostedService},OpenMod.API.Permissions.IPermissionChecker,OpenMod.API.IHostInformation,OpenMod.API.IOpenModHost,OpenMod.API.Plugins.IPluginAssemblyStore,OpenMod.API.Plugins.IPluginActivator,OpenMod.API.Eventing.IEventBus,OpenMod.API.Jobs.IJobScheduler,OpenMod.API.IRuntime,IOptions{OpenMod.Core.Localization.SmartFormatOptions})
+  name.vb: OpenModHostedService(ILogger(Of OpenModHostedService), IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime, IOptions(Of SmartFormatOptions))
+  fullName: OpenMod.Runtime.OpenModHostedService.OpenModHostedService(ILogger<OpenMod.Runtime.OpenModHostedService>, OpenMod.API.Permissions.IPermissionChecker, OpenMod.API.IHostInformation, OpenMod.API.IOpenModHost, OpenMod.API.Plugins.IPluginAssemblyStore, OpenMod.API.Plugins.IPluginActivator, OpenMod.API.Eventing.IEventBus, OpenMod.API.Jobs.IJobScheduler, OpenMod.API.IRuntime, IOptions<OpenMod.Core.Localization.SmartFormatOptions>)
+  fullName.vb: OpenMod.Runtime.OpenModHostedService.OpenModHostedService(ILogger(Of OpenMod.Runtime.OpenModHostedService), OpenMod.API.Permissions.IPermissionChecker, OpenMod.API.IHostInformation, OpenMod.API.IOpenModHost, OpenMod.API.Plugins.IPluginAssemblyStore, OpenMod.API.Plugins.IPluginActivator, OpenMod.API.Eventing.IEventBus, OpenMod.API.Jobs.IJobScheduler, OpenMod.API.IRuntime, IOptions(Of OpenMod.Core.Localization.SmartFormatOptions))
+  nameWithType: OpenModHostedService.OpenModHostedService(ILogger<OpenModHostedService>, IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime, IOptions<SmartFormatOptions>)
+  nameWithType.vb: OpenModHostedService.OpenModHostedService(ILogger(Of OpenModHostedService), IPermissionChecker, IHostInformation, IOpenModHost, IPluginAssemblyStore, IPluginActivator, IEventBus, IJobScheduler, IRuntime, IOptions(Of SmartFormatOptions))
 - uid: OpenMod.Runtime.OpenModHostedService.#ctor*
   name: OpenModHostedService
   href: api/OpenMod.Runtime.OpenModHostedService.html#OpenMod_Runtime_OpenModHostedService__ctor_
@@ -27329,12 +27419,12 @@ references:
   commentId: T:OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent
   fullName: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent
   nameWithType: UnturnedAnimalDamagingEvent
-- uid: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.#ctor(OpenMod.Unturned.Animals.UnturnedAnimal,System.UInt16,System.Numerics.Vector3,ERagdollEffect,CSteamID)
-  name: UnturnedAnimalDamagingEvent(UnturnedAnimal, UInt16, Vector3, ERagdollEffect, CSteamID)
-  href: api/OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.html#OpenMod_Unturned_Animals_Events_UnturnedAnimalDamagingEvent__ctor_OpenMod_Unturned_Animals_UnturnedAnimal_System_UInt16_System_Numerics_Vector3_ERagdollEffect_CSteamID_
-  commentId: M:OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.#ctor(OpenMod.Unturned.Animals.UnturnedAnimal,System.UInt16,System.Numerics.Vector3,ERagdollEffect,CSteamID)
-  fullName: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.UnturnedAnimalDamagingEvent(OpenMod.Unturned.Animals.UnturnedAnimal, System.UInt16, System.Numerics.Vector3, ERagdollEffect, CSteamID)
-  nameWithType: UnturnedAnimalDamagingEvent.UnturnedAnimalDamagingEvent(UnturnedAnimal, UInt16, Vector3, ERagdollEffect, CSteamID)
+- uid: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.#ctor(OpenMod.Unturned.Animals.UnturnedAnimal,System.UInt16,System.Numerics.Vector3,ERagdollEffect,CSteamID,ELimb)
+  name: UnturnedAnimalDamagingEvent(UnturnedAnimal, UInt16, Vector3, ERagdollEffect, CSteamID, ELimb)
+  href: api/OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.html#OpenMod_Unturned_Animals_Events_UnturnedAnimalDamagingEvent__ctor_OpenMod_Unturned_Animals_UnturnedAnimal_System_UInt16_System_Numerics_Vector3_ERagdollEffect_CSteamID_ELimb_
+  commentId: M:OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.#ctor(OpenMod.Unturned.Animals.UnturnedAnimal,System.UInt16,System.Numerics.Vector3,ERagdollEffect,CSteamID,ELimb)
+  fullName: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.UnturnedAnimalDamagingEvent(OpenMod.Unturned.Animals.UnturnedAnimal, System.UInt16, System.Numerics.Vector3, ERagdollEffect, CSteamID, ELimb)
+  nameWithType: UnturnedAnimalDamagingEvent.UnturnedAnimalDamagingEvent(UnturnedAnimal, UInt16, Vector3, ERagdollEffect, CSteamID, ELimb)
 - uid: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.#ctor*
   name: UnturnedAnimalDamagingEvent
   href: api/OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.html#OpenMod_Unturned_Animals_Events_UnturnedAnimalDamagingEvent__ctor_
@@ -27381,6 +27471,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.IsCancelled
   nameWithType: UnturnedAnimalDamagingEvent.IsCancelled
+- uid: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.Limb
+  name: Limb
+  href: api/OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.html#OpenMod_Unturned_Animals_Events_UnturnedAnimalDamagingEvent_Limb
+  commentId: P:OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.Limb
+  fullName: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.Limb
+  nameWithType: UnturnedAnimalDamagingEvent.Limb
+- uid: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.Limb*
+  name: Limb
+  href: api/OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.html#OpenMod_Unturned_Animals_Events_UnturnedAnimalDamagingEvent_Limb_
+  commentId: Overload:OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.Limb
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.Limb
+  nameWithType: UnturnedAnimalDamagingEvent.Limb
 - uid: OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.Ragdoll
   name: Ragdoll
   href: api/OpenMod.Unturned.Animals.Events.UnturnedAnimalDamagingEvent.html#OpenMod_Unturned_Animals_Events_UnturnedAnimalDamagingEvent_Ragdoll
@@ -27458,12 +27561,12 @@ references:
   commentId: T:OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent
   fullName: OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent
   nameWithType: UnturnedAnimalDyingEvent
-- uid: OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent.#ctor(OpenMod.Unturned.Animals.UnturnedAnimal,System.UInt16,System.Numerics.Vector3,ERagdollEffect,CSteamID)
-  name: UnturnedAnimalDyingEvent(UnturnedAnimal, UInt16, Vector3, ERagdollEffect, CSteamID)
-  href: api/OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent.html#OpenMod_Unturned_Animals_Events_UnturnedAnimalDyingEvent__ctor_OpenMod_Unturned_Animals_UnturnedAnimal_System_UInt16_System_Numerics_Vector3_ERagdollEffect_CSteamID_
-  commentId: M:OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent.#ctor(OpenMod.Unturned.Animals.UnturnedAnimal,System.UInt16,System.Numerics.Vector3,ERagdollEffect,CSteamID)
-  fullName: OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent.UnturnedAnimalDyingEvent(OpenMod.Unturned.Animals.UnturnedAnimal, System.UInt16, System.Numerics.Vector3, ERagdollEffect, CSteamID)
-  nameWithType: UnturnedAnimalDyingEvent.UnturnedAnimalDyingEvent(UnturnedAnimal, UInt16, Vector3, ERagdollEffect, CSteamID)
+- uid: OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent.#ctor(OpenMod.Unturned.Animals.UnturnedAnimal,System.UInt16,System.Numerics.Vector3,ERagdollEffect,CSteamID,ELimb)
+  name: UnturnedAnimalDyingEvent(UnturnedAnimal, UInt16, Vector3, ERagdollEffect, CSteamID, ELimb)
+  href: api/OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent.html#OpenMod_Unturned_Animals_Events_UnturnedAnimalDyingEvent__ctor_OpenMod_Unturned_Animals_UnturnedAnimal_System_UInt16_System_Numerics_Vector3_ERagdollEffect_CSteamID_ELimb_
+  commentId: M:OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent.#ctor(OpenMod.Unturned.Animals.UnturnedAnimal,System.UInt16,System.Numerics.Vector3,ERagdollEffect,CSteamID,ELimb)
+  fullName: OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent.UnturnedAnimalDyingEvent(OpenMod.Unturned.Animals.UnturnedAnimal, System.UInt16, System.Numerics.Vector3, ERagdollEffect, CSteamID, ELimb)
+  nameWithType: UnturnedAnimalDyingEvent.UnturnedAnimalDyingEvent(UnturnedAnimal, UInt16, Vector3, ERagdollEffect, CSteamID, ELimb)
 - uid: OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent.#ctor*
   name: UnturnedAnimalDyingEvent
   href: api/OpenMod.Unturned.Animals.Events.UnturnedAnimalDyingEvent.html#OpenMod_Unturned_Animals_Events_UnturnedAnimalDyingEvent__ctor_
@@ -33138,6 +33241,44 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Bans.Events.UnturnedPlayerUnbanningEvent.PlayerToUnban
   nameWithType: UnturnedPlayerUnbanningEvent.PlayerToUnban
+- uid: OpenMod.Unturned.Players.BattlEye.Events
+  name: OpenMod.Unturned.Players.BattlEye.Events
+  href: api/OpenMod.Unturned.Players.BattlEye.Events.html
+  commentId: N:OpenMod.Unturned.Players.BattlEye.Events
+  fullName: OpenMod.Unturned.Players.BattlEye.Events
+  nameWithType: OpenMod.Unturned.Players.BattlEye.Events
+- uid: OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent
+  name: UnturnedBattlEyeKickedEvent
+  href: api/OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.html
+  commentId: T:OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent
+  fullName: OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent
+  nameWithType: UnturnedBattlEyeKickedEvent
+- uid: OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.String)
+  name: UnturnedBattlEyeKickedEvent(UnturnedPlayer, String)
+  href: api/OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.html#OpenMod_Unturned_Players_BattlEye_Events_UnturnedBattlEyeKickedEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_System_String_
+  commentId: M:OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,System.String)
+  fullName: OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.UnturnedBattlEyeKickedEvent(OpenMod.Unturned.Players.UnturnedPlayer, System.String)
+  nameWithType: UnturnedBattlEyeKickedEvent.UnturnedBattlEyeKickedEvent(UnturnedPlayer, String)
+- uid: OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.#ctor*
+  name: UnturnedBattlEyeKickedEvent
+  href: api/OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.html#OpenMod_Unturned_Players_BattlEye_Events_UnturnedBattlEyeKickedEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.UnturnedBattlEyeKickedEvent
+  nameWithType: UnturnedBattlEyeKickedEvent.UnturnedBattlEyeKickedEvent
+- uid: OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.Reason
+  name: Reason
+  href: api/OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.html#OpenMod_Unturned_Players_BattlEye_Events_UnturnedBattlEyeKickedEvent_Reason
+  commentId: P:OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.Reason
+  fullName: OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.Reason
+  nameWithType: UnturnedBattlEyeKickedEvent.Reason
+- uid: OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.Reason*
+  name: Reason
+  href: api/OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.html#OpenMod_Unturned_Players_BattlEye_Events_UnturnedBattlEyeKickedEvent_Reason_
+  commentId: Overload:OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.Reason
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.BattlEye.Events.UnturnedBattlEyeKickedEvent.Reason
+  nameWithType: UnturnedBattlEyeKickedEvent.Reason
 - uid: OpenMod.Unturned.Players.Chat.Events
   name: OpenMod.Unturned.Players.Chat.Events
   href: api/OpenMod.Unturned.Players.Chat.Events.html
@@ -33570,6 +33711,64 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerDisconnectedEvent.UnturnedPlayerDisconnectedEvent
   nameWithType: UnturnedPlayerDisconnectedEvent.UnturnedPlayerDisconnectedEvent
+- uid: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent
+  name: UnturnedPlayerRejectedEvent
+  href: api/OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.html
+  commentId: T:OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent
+  fullName: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent
+  nameWithType: UnturnedPlayerRejectedEvent
+- uid: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.#ctor(CSteamID,ESteamRejection,System.String)
+  name: UnturnedPlayerRejectedEvent(CSteamID, ESteamRejection, String)
+  href: api/OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.html#OpenMod_Unturned_Players_Connections_Events_UnturnedPlayerRejectedEvent__ctor_CSteamID_ESteamRejection_System_String_
+  commentId: M:OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.#ctor(CSteamID,ESteamRejection,System.String)
+  fullName: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.UnturnedPlayerRejectedEvent(CSteamID, ESteamRejection, System.String)
+  nameWithType: UnturnedPlayerRejectedEvent.UnturnedPlayerRejectedEvent(CSteamID, ESteamRejection, String)
+- uid: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.#ctor*
+  name: UnturnedPlayerRejectedEvent
+  href: api/OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.html#OpenMod_Unturned_Players_Connections_Events_UnturnedPlayerRejectedEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.UnturnedPlayerRejectedEvent
+  nameWithType: UnturnedPlayerRejectedEvent.UnturnedPlayerRejectedEvent
+- uid: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Explanation
+  name: Explanation
+  href: api/OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.html#OpenMod_Unturned_Players_Connections_Events_UnturnedPlayerRejectedEvent_Explanation
+  commentId: P:OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Explanation
+  fullName: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Explanation
+  nameWithType: UnturnedPlayerRejectedEvent.Explanation
+- uid: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Explanation*
+  name: Explanation
+  href: api/OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.html#OpenMod_Unturned_Players_Connections_Events_UnturnedPlayerRejectedEvent_Explanation_
+  commentId: Overload:OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Explanation
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Explanation
+  nameWithType: UnturnedPlayerRejectedEvent.Explanation
+- uid: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Rejection
+  name: Rejection
+  href: api/OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.html#OpenMod_Unturned_Players_Connections_Events_UnturnedPlayerRejectedEvent_Rejection
+  commentId: P:OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Rejection
+  fullName: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Rejection
+  nameWithType: UnturnedPlayerRejectedEvent.Rejection
+- uid: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Rejection*
+  name: Rejection
+  href: api/OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.html#OpenMod_Unturned_Players_Connections_Events_UnturnedPlayerRejectedEvent_Rejection_
+  commentId: Overload:OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Rejection
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.Rejection
+  nameWithType: UnturnedPlayerRejectedEvent.Rejection
+- uid: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.SteamId
+  name: SteamId
+  href: api/OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.html#OpenMod_Unturned_Players_Connections_Events_UnturnedPlayerRejectedEvent_SteamId
+  commentId: P:OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.SteamId
+  fullName: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.SteamId
+  nameWithType: UnturnedPlayerRejectedEvent.SteamId
+- uid: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.SteamId*
+  name: SteamId
+  href: api/OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.html#OpenMod_Unturned_Players_Connections_Events_UnturnedPlayerRejectedEvent_SteamId_
+  commentId: Overload:OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.SteamId
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Connections.Events.UnturnedPlayerRejectedEvent.SteamId
+  nameWithType: UnturnedPlayerRejectedEvent.SteamId
 - uid: OpenMod.Unturned.Players.Crafting.Events
   name: OpenMod.Unturned.Players.Crafting.Events
   href: api/OpenMod.Unturned.Players.Crafting.Events.html

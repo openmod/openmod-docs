@@ -113,7 +113,7 @@
 <p>If you are using Linux and do not want to use Visual Studio Code, you can install <a href="https://www.jetbrains.com/rider/">Rider</a>. Although it is a commercial product, it can be obtained for free when applying for a Jetbrains Student License. Like Visual Studio, it provides a full IDE experience and has similar capabilities.</p>
 <h2 id="generating-the-plugin-project">Generating the Plugin Project</h2>
 <p>Start cmd or Powershell and navigate to the folder where you want to create the plugin project.</p>
-<p>E.g.</p>
+<p>E.g. ([optional])</p>
 <pre><code>mkdir C:\Users\&lt;Username&gt;\source\repos\MyPlugin\
 cd C:\Users\&lt;Username&gt;\source\repos\MyPlugin\
 </code></pre>
@@ -139,7 +139,7 @@ If you want to create an Unturned plugin project, you can use the following comm
 <pre><code>dotnet new openmod-unturned-plugin --FullPluginName &quot;My Unturned Plugin&quot; --PluginId &quot;MyName.MyUnturnedPlugin&quot;
 </code></pre>
 <h2 id="adding-a-basic-command">Adding a basic command</h2>
-<p>Now that you've set up your plugin, open the .csproj file with the IDE you have installed earlier.</p>
+<p>Now that you've set up your plugin, open the .cs file with the IDE you have installed earlier.</p>
 <p>In this example we are creating an echo command. Create a new class (how you do this depends on your IDE). By convention command classes are prefixed with &quot;Command&quot; so call it CommandEcho. Since this will be an universal command that works on all platforms, we will make it inherit from <code>Command</code>. If this command would be only for Unturned, we would inherit from <code>UnturnedCommand</code> instead.</p>
 <p>This is what your class should look like:</p>
 <pre><code class="lang-c#">public class CommandEcho : Command
