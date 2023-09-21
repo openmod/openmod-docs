@@ -4857,7 +4857,7 @@
   "index.html": {
     "href": "index.html",
     "title": "OpenMod Documentation | OpenMod Docs",
-    "keywords": "OpenMod Documentation Welcome to the OpenMod Documentation. What is OpenMod? OpenMod is a .NET plugin framework. Installing OpenMod If you want to install OpenMod, installation guides for the following platforms are available: Unturned Using OpenMod Visit the user page for information on how OpenMod works and how to use it. Developing Plugins If you want to make plugins for OpenMod, you can get started by reading the Making your first plugin page . Links GitHub Discord"
+    "keywords": "OpenMod Documentation Welcome to the OpenMod Documentation. What is OpenMod? OpenMod is a .NET plugin framework. Installing OpenMod If you want to install OpenMod, installation guides for the following platforms are available: Unturned Using OpenMod Visit the user page for information on how OpenMod works and how to use it. Developing Plugins If you want to make plugins for OpenMod, you can get started by reading the Making your first plugin page . Links GitHub Discord .NET Foundation This project is supported by the .NET Foundation ."
   },
   "README.html": {
     "href": "README.html",
