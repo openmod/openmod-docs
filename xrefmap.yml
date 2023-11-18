@@ -35509,58 +35509,122 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.UnturnedPlayerGroupChangedEvent
   nameWithType: UnturnedPlayerGroupChangedEvent.UnturnedPlayerGroupChangedEvent
-- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupId
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent
+  name: UnturnedPlayerGroupIdChangedEvent
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.html
+  commentId: T:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent
+  nameWithType: UnturnedPlayerGroupIdChangedEvent
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,CSteamID)
+  name: UnturnedPlayerGroupIdChangedEvent(UnturnedPlayer, CSteamID, CSteamID)
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupIdChangedEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_CSteamID_
+  commentId: M:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,CSteamID)
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.UnturnedPlayerGroupIdChangedEvent(OpenMod.Unturned.Players.UnturnedPlayer, CSteamID, CSteamID)
+  nameWithType: UnturnedPlayerGroupIdChangedEvent.UnturnedPlayerGroupIdChangedEvent(UnturnedPlayer, CSteamID, CSteamID)
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.#ctor*
+  name: UnturnedPlayerGroupIdChangedEvent
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupIdChangedEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.UnturnedPlayerGroupIdChangedEvent
+  nameWithType: UnturnedPlayerGroupIdChangedEvent.UnturnedPlayerGroupIdChangedEvent
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.NewGroupId
   name: NewGroupId
-  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupChangedEvent_NewGroupId
-  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupId
-  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupId
-  nameWithType: UnturnedPlayerGroupChangedEvent.NewGroupId
-- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupId*
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupIdChangedEvent_NewGroupId
+  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.NewGroupId
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.NewGroupId
+  nameWithType: UnturnedPlayerGroupIdChangedEvent.NewGroupId
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.NewGroupId*
   name: NewGroupId
-  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupChangedEvent_NewGroupId_
-  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupId
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupIdChangedEvent_NewGroupId_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.NewGroupId
   isSpec: "True"
-  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupId
-  nameWithType: UnturnedPlayerGroupChangedEvent.NewGroupId
-- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupRank
-  name: NewGroupRank
-  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupChangedEvent_NewGroupRank
-  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupRank
-  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupRank
-  nameWithType: UnturnedPlayerGroupChangedEvent.NewGroupRank
-- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupRank*
-  name: NewGroupRank
-  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupChangedEvent_NewGroupRank_
-  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupRank
-  isSpec: "True"
-  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.NewGroupRank
-  nameWithType: UnturnedPlayerGroupChangedEvent.NewGroupRank
-- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupId
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.NewGroupId
+  nameWithType: UnturnedPlayerGroupIdChangedEvent.NewGroupId
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.OldGroupId
   name: OldGroupId
-  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupChangedEvent_OldGroupId
-  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupId
-  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupId
-  nameWithType: UnturnedPlayerGroupChangedEvent.OldGroupId
-- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupId*
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupIdChangedEvent_OldGroupId
+  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.OldGroupId
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.OldGroupId
+  nameWithType: UnturnedPlayerGroupIdChangedEvent.OldGroupId
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.OldGroupId*
   name: OldGroupId
-  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupChangedEvent_OldGroupId_
-  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupId
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupIdChangedEvent_OldGroupId_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.OldGroupId
   isSpec: "True"
-  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupId
-  nameWithType: UnturnedPlayerGroupChangedEvent.OldGroupId
-- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupRank
-  name: OldGroupRank
-  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupChangedEvent_OldGroupRank
-  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupRank
-  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupRank
-  nameWithType: UnturnedPlayerGroupChangedEvent.OldGroupRank
-- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupRank*
-  name: OldGroupRank
-  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupChangedEvent_OldGroupRank_
-  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupRank
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.OldGroupId
+  nameWithType: UnturnedPlayerGroupIdChangedEvent.OldGroupId
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent
+  name: UnturnedPlayerGroupOrRankChangedEvent
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html
+  commentId: T:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent
+  nameWithType: UnturnedPlayerGroupOrRankChangedEvent
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,EPlayerGroupRank,CSteamID,EPlayerGroupRank)
+  name: UnturnedPlayerGroupOrRankChangedEvent(UnturnedPlayer, CSteamID, EPlayerGroupRank, CSteamID, EPlayerGroupRank)
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupOrRankChangedEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_EPlayerGroupRank_CSteamID_EPlayerGroupRank_
+  commentId: M:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,EPlayerGroupRank,CSteamID,EPlayerGroupRank)
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.UnturnedPlayerGroupOrRankChangedEvent(OpenMod.Unturned.Players.UnturnedPlayer, CSteamID, EPlayerGroupRank, CSteamID, EPlayerGroupRank)
+  nameWithType: UnturnedPlayerGroupOrRankChangedEvent.UnturnedPlayerGroupOrRankChangedEvent(UnturnedPlayer, CSteamID, EPlayerGroupRank, CSteamID, EPlayerGroupRank)
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.#ctor*
+  name: UnturnedPlayerGroupOrRankChangedEvent
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupOrRankChangedEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.#ctor
   isSpec: "True"
-  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.OldGroupRank
-  nameWithType: UnturnedPlayerGroupChangedEvent.OldGroupRank
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.UnturnedPlayerGroupOrRankChangedEvent
+  nameWithType: UnturnedPlayerGroupOrRankChangedEvent.UnturnedPlayerGroupOrRankChangedEvent
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupId
+  name: NewGroupId
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupOrRankChangedEvent_NewGroupId
+  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupId
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupId
+  nameWithType: UnturnedPlayerGroupOrRankChangedEvent.NewGroupId
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupId*
+  name: NewGroupId
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupOrRankChangedEvent_NewGroupId_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupId
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupId
+  nameWithType: UnturnedPlayerGroupOrRankChangedEvent.NewGroupId
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupRank
+  name: NewGroupRank
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupOrRankChangedEvent_NewGroupRank
+  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupRank
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupRank
+  nameWithType: UnturnedPlayerGroupOrRankChangedEvent.NewGroupRank
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupRank*
+  name: NewGroupRank
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupOrRankChangedEvent_NewGroupRank_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupRank
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.NewGroupRank
+  nameWithType: UnturnedPlayerGroupOrRankChangedEvent.NewGroupRank
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupId
+  name: OldGroupId
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupOrRankChangedEvent_OldGroupId
+  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupId
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupId
+  nameWithType: UnturnedPlayerGroupOrRankChangedEvent.OldGroupId
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupId*
+  name: OldGroupId
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupOrRankChangedEvent_OldGroupId_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupId
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupId
+  nameWithType: UnturnedPlayerGroupOrRankChangedEvent.OldGroupId
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupRank
+  name: OldGroupRank
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupOrRankChangedEvent_OldGroupRank
+  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupRank
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupRank
+  nameWithType: UnturnedPlayerGroupOrRankChangedEvent.OldGroupRank
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupRank*
+  name: OldGroupRank
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerGroupOrRankChangedEvent_OldGroupRank_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupRank
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.OldGroupRank
+  nameWithType: UnturnedPlayerGroupOrRankChangedEvent.OldGroupRank
 - uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupRankChangedEvent
   name: UnturnedPlayerGroupRankChangedEvent
   href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupRankChangedEvent.html
@@ -35606,6 +35670,96 @@ references:
   isSpec: "True"
   fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupRankChangedEvent.OldGroupRank
   nameWithType: UnturnedPlayerGroupRankChangedEvent.OldGroupRank
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent
+  name: UnturnedPlayerJoiningGroupEvent
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.html
+  commentId: T:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent
+  nameWithType: UnturnedPlayerJoiningGroupEvent
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,EPlayerGroupRank)
+  name: UnturnedPlayerJoiningGroupEvent(UnturnedPlayer, CSteamID, EPlayerGroupRank)
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerJoiningGroupEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_CSteamID_EPlayerGroupRank_
+  commentId: M:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer,CSteamID,EPlayerGroupRank)
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.UnturnedPlayerJoiningGroupEvent(OpenMod.Unturned.Players.UnturnedPlayer, CSteamID, EPlayerGroupRank)
+  nameWithType: UnturnedPlayerJoiningGroupEvent.UnturnedPlayerJoiningGroupEvent(UnturnedPlayer, CSteamID, EPlayerGroupRank)
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.#ctor*
+  name: UnturnedPlayerJoiningGroupEvent
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerJoiningGroupEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.UnturnedPlayerJoiningGroupEvent
+  nameWithType: UnturnedPlayerJoiningGroupEvent.UnturnedPlayerJoiningGroupEvent
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.IsCancelled
+  name: IsCancelled
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerJoiningGroupEvent_IsCancelled
+  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.IsCancelled
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.IsCancelled
+  nameWithType: UnturnedPlayerJoiningGroupEvent.IsCancelled
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.IsCancelled*
+  name: IsCancelled
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerJoiningGroupEvent_IsCancelled_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.IsCancelled
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.IsCancelled
+  nameWithType: UnturnedPlayerJoiningGroupEvent.IsCancelled
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupId
+  name: NewGroupId
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerJoiningGroupEvent_NewGroupId
+  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupId
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupId
+  nameWithType: UnturnedPlayerJoiningGroupEvent.NewGroupId
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupId*
+  name: NewGroupId
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerJoiningGroupEvent_NewGroupId_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupId
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupId
+  nameWithType: UnturnedPlayerJoiningGroupEvent.NewGroupId
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupRank
+  name: NewGroupRank
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerJoiningGroupEvent_NewGroupRank
+  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupRank
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupRank
+  nameWithType: UnturnedPlayerJoiningGroupEvent.NewGroupRank
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupRank*
+  name: NewGroupRank
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerJoiningGroupEvent_NewGroupRank_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupRank
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.NewGroupRank
+  nameWithType: UnturnedPlayerJoiningGroupEvent.NewGroupRank
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent
+  name: UnturnedPlayerLeavingGroupEvent
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.html
+  commentId: T:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent
+  nameWithType: UnturnedPlayerLeavingGroupEvent
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer)
+  name: UnturnedPlayerLeavingGroupEvent(UnturnedPlayer)
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerLeavingGroupEvent__ctor_OpenMod_Unturned_Players_UnturnedPlayer_
+  commentId: M:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.#ctor(OpenMod.Unturned.Players.UnturnedPlayer)
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.UnturnedPlayerLeavingGroupEvent(OpenMod.Unturned.Players.UnturnedPlayer)
+  nameWithType: UnturnedPlayerLeavingGroupEvent.UnturnedPlayerLeavingGroupEvent(UnturnedPlayer)
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.#ctor*
+  name: UnturnedPlayerLeavingGroupEvent
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerLeavingGroupEvent__ctor_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.UnturnedPlayerLeavingGroupEvent
+  nameWithType: UnturnedPlayerLeavingGroupEvent.UnturnedPlayerLeavingGroupEvent
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.IsCancelled
+  name: IsCancelled
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerLeavingGroupEvent_IsCancelled
+  commentId: P:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.IsCancelled
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.IsCancelled
+  nameWithType: UnturnedPlayerLeavingGroupEvent.IsCancelled
+- uid: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.IsCancelled*
+  name: IsCancelled
+  href: api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.html#OpenMod_Unturned_Players_Quests_Events_UnturnedPlayerLeavingGroupEvent_IsCancelled_
+  commentId: Overload:OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.IsCancelled
+  isSpec: "True"
+  fullName: OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.IsCancelled
+  nameWithType: UnturnedPlayerLeavingGroupEvent.IsCancelled
 - uid: OpenMod.Unturned.Players.Skills.Events
   name: OpenMod.Unturned.Players.Skills.Events
   href: api/OpenMod.Unturned.Players.Skills.Events.html

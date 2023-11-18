@@ -8262,7 +8262,7 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Events.UnturnedPlayerEvent.html",
-          "hash": "PVRfswhoGxrdKaHBBIUcSA=="
+          "hash": "QOpa7z13py7TL540X7gBfQ=="
         }
       },
       "is_incremental": false,
@@ -9594,7 +9594,31 @@
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupChangedEvent.html",
-          "hash": "qro11VO9zRiruTwMRUIg3g=="
+          "hash": "RHZcnQEQM5QlS8QvCXhuMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupIdChangedEvent.html",
+          "hash": "otRRrp+ubUJ0MTcOqXuVBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerGroupOrRankChangedEvent.html",
+          "hash": "SsXBcX3gMP2t2cBO3vePqw=="
         }
       },
       "is_incremental": false,
@@ -9614,11 +9638,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerJoiningGroupEvent.html",
+          "hash": "5WqESic9ixTwr10fi7kWjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OpenMod.Unturned.Players.Quests.Events.UnturnedPlayerLeavingGroupEvent.html",
+          "hash": "eNA93FJxQCaVI+JuStukWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/OpenMod.Unturned.Players.Quests.Events.yml",
       "output": {
         ".html": {
           "relative_path": "api/OpenMod.Unturned.Players.Quests.Events.html",
-          "hash": "NDWlyxmu8pZTG9e+gV1bxA=="
+          "hash": "bPDTZ58EwDYcmVdOQ+W6YQ=="
         }
       },
       "is_incremental": false,
@@ -11478,7 +11526,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ZQ3SrP2pJZVXdD3R2Ulddg=="
+          "hash": "o+3Y+ndYnrNDVHRvNmQCUg=="
         }
       },
       "is_incremental": false,
@@ -11776,7 +11824,7 @@
       "output": {
         ".html": {
           "relative_path": "userdoc/concepts/jobs.html",
-          "hash": "mkqDfi8+QswQ5xd2FWzw/A=="
+          "hash": "70GD1eLKqxPUQRQCf/X4Ew=="
         }
       },
       "is_incremental": false,
@@ -11911,7 +11959,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 953,
+          "total_file_count": 957,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
