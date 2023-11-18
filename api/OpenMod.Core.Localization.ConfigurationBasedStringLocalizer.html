@@ -104,11 +104,15 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ConfigurationBasedStringLocalizer</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IDisposable</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Localization.html">OpenMod.Core.Localization</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
   <h5 id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ConfigurationBasedStringLocalizer : IStringLocalizer</code></pre>
+    <pre><code class="lang-csharp hljs">public class ConfigurationBasedStringLocalizer : IStringLocalizer, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -117,7 +121,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Localization_ConfigurationBasedStringLocalizer__ctor_IConfiguration_IOptions_OpenMod_Core_Localization_SmartFormatOptions__.md&amp;value=---%0Auid%3A%20OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.%23ctor(IConfiguration%2CIOptions%7BOpenMod.Core.Localization.SmartFormatOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/ConfigurationBasedStringLocalizer.cs/#L17">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/ConfigurationBasedStringLocalizer.cs/#L18">View Source</a>
   </span>
   <a id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer__ctor_" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.#ctor*"></a>
   <h4 id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer__ctor_IConfiguration_IOptions_OpenMod_Core_Localization_SmartFormatOptions__" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.#ctor(IConfiguration,IOptions{OpenMod.Core.Localization.SmartFormatOptions})">ConfigurationBasedStringLocalizer(IConfiguration, IOptions&lt;SmartFormatOptions&gt;)</h4>
@@ -156,7 +160,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_Item_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.Item(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/ConfigurationBasedStringLocalizer.cs/#L49">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/ConfigurationBasedStringLocalizer.cs/#L50">View Source</a>
   </span>
   <a id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_Item_" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.Item*"></a>
   <h4 id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_Item_System_String_" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.Item(System.String)">Item[String]</h4>
@@ -203,7 +207,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_Item_System_String_System_Object___.md&amp;value=---%0Auid%3A%20OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.Item(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/ConfigurationBasedStringLocalizer.cs/#L60">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/ConfigurationBasedStringLocalizer.cs/#L61">View Source</a>
   </span>
   <a id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_Item_" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.Item*"></a>
   <h4 id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_Item_System_String_System_Object___" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.Item(System.String,System.Object[])">Item[String, Object[]]</h4>
@@ -254,10 +258,25 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_Dispose.md&amp;value=---%0Auid%3A%20OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/ConfigurationBasedStringLocalizer.cs/#L76">View Source</a>
+  </span>
+  <a id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_Dispose_" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.Dispose*"></a>
+  <h4 id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_Dispose" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_GetAllStrings_System_Boolean_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.GetAllStrings(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/ConfigurationBasedStringLocalizer.cs/#L23">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/ConfigurationBasedStringLocalizer.cs/#L24">View Source</a>
   </span>
   <a id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_GetAllStrings_" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.GetAllStrings*"></a>
   <h4 id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_GetAllStrings_System_Boolean_" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.GetAllStrings(System.Boolean)">GetAllStrings(Boolean)</h4>
@@ -304,7 +323,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_WithCulture_CultureInfo_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.WithCulture(CultureInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/ConfigurationBasedStringLocalizer.cs/#L44">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Localization/ConfigurationBasedStringLocalizer.cs/#L45">View Source</a>
   </span>
   <a id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_WithCulture_" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.WithCulture*"></a>
   <h4 id="OpenMod_Core_Localization_ConfigurationBasedStringLocalizer_WithCulture_CultureInfo_" data-uid="OpenMod.Core.Localization.ConfigurationBasedStringLocalizer.WithCulture(CultureInfo)">WithCulture(CultureInfo)</h4>
@@ -346,6 +365,10 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IDisposable</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="OpenMod.Core.Helpers.DisposeHelper.html#OpenMod_Core_Helpers_DisposeHelper_DisposeSyncOrAsync_System_Object_">DisposeHelper.DisposeSyncOrAsync(Object)</a>

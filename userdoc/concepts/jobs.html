@@ -111,24 +111,39 @@ The jobs are defined in the autoexec.yaml file.</p>
 <h2 id="name">Name</h2>
 <p>Sets the name of the job. Must be unique.</p>
 <h2 id="schedule">Schedule</h2>
-<p>Schedule defines when the job will run.</p>
-<p>**@startup**: Executes a job after OpenMod and all plugins have loaded, including reloads.<br>
-**@reboot**: Executes a job after OpenMod and all plugins have loaded, excluding reloads.<br>
-**@single_exec**: Executes a job a single time and then removes it from the file.<br>
-<strong>crontab expression</strong>: Executes the job periodically, like every minute, every Sunday, every third Monday, etc. Visit <a href="https://crontab.guru/">https://crontab.guru/</a> for more information.</p>
-<p>Here are some example crontab expressions:</p>
-<ul>
-<li><strong>0 0 * * 0</strong>: Every Sunday at 0:00 AM.</li>
-<li><strong>0 3 * * *</strong>: Everyday at 3 AM.</li>
-<li><strong>*/5 * * * *</strong>: Every 5 minutes.</li>
-<li><strong>0 0 1 * *</strong>: At the first day of every month at 0:00 AM.</li>
-</ul>
+<p>Schedule defines when a job will run. There are several ways to do it.</p>
+<h3 id="one-time-schedule">One-time schedule</h3>
+<p>A one-time scheduling allows to define the conditions under which a job will be executed.</p>
+<p>Below are the <code>schedule</code> types that define required conditions.
+| Type         | Description                                                                          |
+|--------------|------------------------------------------------------------------------------------- |
+| @startup     | Executes a job after OpenMod and all plugins have loaded, including reloads.         |
+| @reboot      | Executes a job after OpenMod and all plugins have loaded, excluding reloads.         |
+| @single_exec | Executes a job a single time after OpenMod loaded and then removes it from the file. |</p>
+<p>You can also delay execution of one-time scheduled job. Delayed job <code>schedule</code> template should look as further: <code>&lt;schedule type&gt;:&lt;delay&gt;</code>.</p>
+<p>Here are some examples of delayed job <code>schedule</code>.
+| Example schedule template                   | Description                                                                                                                  |
+|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------- |
+| @startup:20 seconds                         | Executes a job 20 seconds after OpenMod and all plugins have loaded, including reloads.                                      |
+| @reboot:30 days, 40 minutes, and 50 seconds | Executes a job 30 days, 40 minutes and 50 seconds after OpenMod and all plugins have loaded, excluding reloads.              |
+| @single_exec:10h20m30s                      | Executes a job a single time 10 hours, 20 minutes and 30 seconds after OpenMod has loaded and then removes it from the file. |
+| @startup:3.5 days                          | Executes a job 3 days and 12 hours after OpenMod and all plugins have loaded, including reloads.                             |
+| @single_exec:1234.123     milliseconds      | Executes a job a single time 1234.123 milliseconds after OpenMod has loaded and then removes it from the file.               |</p>
+<h3 id="periodical-schedule">Periodical schedule</h3>
+<p>For periodical scheduling OpenMod uses <strong>crontab expressions</strong>. It allows to execute a job at fixed intervals, like every minute, every Sunday, every third Monday, etc. Visit <a href="https://crontab.guru/">https://crontab.guru/</a> for more information.</p>
+<p>Here are some example crontab expressions.
+| Expression  | Description                                 |
+|-------------|---------------------------------------------|
+| 0 0 * * 0   | Every Sunday at 0:00 AM.                    |
+| 0 3 * * *   | Everyday at 3 AM.                           |
+| */5 * * * * | Every 5 minutes.                            |
+| 0 0 1 * *   | At the first day of every month at 0:00 AM. |</p>
 <h2 id="task">Task</h2>
-<p>The task to execute. There are 2 built-in tasks:</p>
-<ul>
-<li><strong>openmod_command</strong>: Executes one or more OpenMod commands. Needs args.commands to be defined.</li>
-<li><strong>system_command</strong>: Executes one or more system commands. Needs args.commands to be defined.</li>
-</ul>
+<p>The task to execute. There are 2 built-in tasks:
+| Task type       | Description                                                               |
+|-----------------|---------------------------------------------------------------------------|
+| openmod_command | Executes one or more OpenMod commands. Needs args.commands to be defined. |
+| system_command  | Executes one or more system commands. Needs args.commands to be defined.  |</p>
 <p>Plugins can add more task types.</p>
 <h2 id="enabled">Enabled</h2>
 <p>Sets if the job is enabled.</p>
@@ -176,6 +191,15 @@ The jobs are defined in the autoexec.yaml file.</p>
   args:
     commands:
     - openmod purge
+  enabled: true
+</code></pre>
+<p>Shut the application down 5 minutes and 2 seconds after OpenMod loaded (will only execute a single time)</p>
+<pre><code class="lang-yaml">- name: Initial shutdown
+  schedule: '@single_exec:5m2s'
+  task: openmod_command
+  args:
+    commands: 
+    - shutdown
   enabled: true
 </code></pre>
 </article>

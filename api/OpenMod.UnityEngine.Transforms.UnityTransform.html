@@ -108,38 +108,12 @@
     <h5>Implements</h5>
     <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html">IWorldTransform</a></div>
     <div><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html">IWorldTransform</a>&gt;</div>
-    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html">IWorldTransform</a>&gt;</div>
-    <div><span class="xref">System.Collections.IEnumerable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.UnityEngine.Transforms.html">OpenMod.UnityEngine.Transforms</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.UnityEngine.dll</h6>
   <h5 id="OpenMod_UnityEngine_Transforms_UnityTransform_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UnityTransform : IWorldTransform, IReadOnlyCollection&lt;IWorldTransform&gt;, IEnumerable&lt;IWorldTransform&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public class UnityTransform : object, IWorldTransform, IReadOnlyCollection&lt;IWorldTransform&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -202,7 +176,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html">IWorldTransform</a>&gt;</td>
+        <td><span class="xref">IReadOnlyCollection</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html">IWorldTransform</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -280,7 +254,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 Position { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public System.Numerics.Vector3 Position { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -310,7 +284,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Quaternion Rotation { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public System.Numerics.Quaternion Rotation { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -370,7 +344,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 Velocity { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public System.Numerics.Vector3 Velocity { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -398,8 +372,7 @@
   </span>
   <a id="OpenMod_UnityEngine_Transforms_UnityTransform_DestroyAsync_" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.DestroyAsync*"></a>
   <h4 id="OpenMod_UnityEngine_Transforms_UnityTransform_DestroyAsync" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.DestroyAsync">DestroyAsync()</h4>
-  <div class="markdown level1 summary"><p>Destorys the transform.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -415,7 +388,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -445,7 +418,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html">IWorldTransform</a>&gt;</td>
+        <td><span class="xref">IEnumerator</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html">IWorldTransform</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -458,12 +431,12 @@
     <a href="https://github.com/openmod/openmod/blob/main/unityengine/OpenMod.UnityEngine/Transforms/UnityTransform.cs/#L78">View Source</a>
   </span>
   <a id="OpenMod_UnityEngine_Transforms_UnityTransform_SetPositionAsync_" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.SetPositionAsync*"></a>
-  <h4 id="OpenMod_UnityEngine_Transforms_UnityTransform_SetPositionAsync_System_Numerics_Vector3_" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.SetPositionAsync(System.Numerics.Vector3)">SetPositionAsync(Vector3)</h4>
+  <h4 id="OpenMod_UnityEngine_Transforms_UnityTransform_SetPositionAsync_System_Numerics_Vector3_" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.SetPositionAsync(System.Numerics.Vector3)">SetPositionAsync(System.Numerics.Vector3)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual Task&lt;bool&gt; SetPositionAsync(Vector3 targetPosition)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;bool&gt; SetPositionAsync(System.Numerics.Vector3 targetPosition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -492,7 +465,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -505,12 +478,12 @@
     <a href="https://github.com/openmod/openmod/blob/main/unityengine/OpenMod.UnityEngine/Transforms/UnityTransform.cs/#L108">View Source</a>
   </span>
   <a id="OpenMod_UnityEngine_Transforms_UnityTransform_SetRotationAsync_" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.SetRotationAsync*"></a>
-  <h4 id="OpenMod_UnityEngine_Transforms_UnityTransform_SetRotationAsync_System_Numerics_Quaternion_" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.SetRotationAsync(System.Numerics.Quaternion)">SetRotationAsync(Quaternion)</h4>
+  <h4 id="OpenMod_UnityEngine_Transforms_UnityTransform_SetRotationAsync_System_Numerics_Quaternion_" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.SetRotationAsync(System.Numerics.Quaternion)">SetRotationAsync(System.Numerics.Quaternion)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual Task&lt;bool&gt; SetRotationAsync(Quaternion rotation)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;bool&gt; SetRotationAsync(System.Numerics.Quaternion rotation)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -539,7 +512,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -552,12 +525,12 @@
     <a href="https://github.com/openmod/openmod/blob/main/unityengine/OpenMod.UnityEngine/Transforms/UnityTransform.cs/#L60">View Source</a>
   </span>
   <a id="OpenMod_UnityEngine_Transforms_UnityTransform_SetVelocityAsync_" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.SetVelocityAsync*"></a>
-  <h4 id="OpenMod_UnityEngine_Transforms_UnityTransform_SetVelocityAsync_System_Numerics_Vector3_" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.SetVelocityAsync(System.Numerics.Vector3)">SetVelocityAsync(Vector3)</h4>
+  <h4 id="OpenMod_UnityEngine_Transforms_UnityTransform_SetVelocityAsync_System_Numerics_Vector3_" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.SetVelocityAsync(System.Numerics.Vector3)">SetVelocityAsync(System.Numerics.Vector3)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; SetVelocityAsync(Vector3 velocity)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; SetVelocityAsync(System.Numerics.Vector3 velocity)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -586,39 +559,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_UnityEngine_Transforms_UnityTransform_System_Collections_IEnumerable_GetEnumerator.md&amp;value=---%0Auid%3A%20OpenMod.UnityEngine.Transforms.UnityTransform.System%23Collections%23IEnumerable%23GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unityengine/OpenMod.UnityEngine/Transforms/UnityTransform.cs/#L30">View Source</a>
-  </span>
-  <a id="OpenMod_UnityEngine_Transforms_UnityTransform_System_Collections_IEnumerable_GetEnumerator_" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.System#Collections#IEnumerable#GetEnumerator*"></a>
-  <h4 id="OpenMod_UnityEngine_Transforms_UnityTransform_System_Collections_IEnumerable_GetEnumerator" data-uid="OpenMod.UnityEngine.Transforms.UnityTransform.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -628,13 +569,7 @@
       <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Transforms.IWorldTransform.html">IWorldTransform</a>
   </div>
   <div>
-      <span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
-  </div>
-  <div>
-      <span class="xref">System.Collections.IEnumerable</span>
+      <span class="xref">System.Collections.Generic.IReadOnlyCollection&lt;&gt;</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

@@ -108,47 +108,23 @@
     <h5>Implements</h5>
     <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IEntitySpawner.html">IEntitySpawner</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Unturned.Entities.html">OpenMod.Unturned.Entities</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.Unturned.dll</h6>
   <h5 id="OpenMod_Unturned_Entities_UnturnedEntitySpawner_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UnturnedEntitySpawner : IEntitySpawner</code></pre>
+    <pre><code class="lang-csharp hljs">public class UnturnedEntitySpawner : object, IEntitySpawner</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Entities_UnturnedEntitySpawner_SpawnEntityAsync_System_Numerics_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Entities_IEntityState_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Entities.UnturnedEntitySpawner.SpawnEntityAsync(System.Numerics.Vector3%2CSystem.String%2COpenMod.Extensions.Games.Abstractions.Entities.IEntityState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Entities_UnturnedEntitySpawner_SpawnEntityAsync_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Entities_IEntityState_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Entities.UnturnedEntitySpawner.SpawnEntityAsync(Vector3%2CSystem.String%2COpenMod.Extensions.Games.Abstractions.Entities.IEntityState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Entities/UnturnedEntitySpawner.cs/#L13">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Entities_UnturnedEntitySpawner_SpawnEntityAsync_" data-uid="OpenMod.Unturned.Entities.UnturnedEntitySpawner.SpawnEntityAsync*"></a>
-  <h4 id="OpenMod_Unturned_Entities_UnturnedEntitySpawner_SpawnEntityAsync_System_Numerics_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Entities_IEntityState_" data-uid="OpenMod.Unturned.Entities.UnturnedEntitySpawner.SpawnEntityAsync(System.Numerics.Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Entities.IEntityState)">SpawnEntityAsync(Vector3, String, IEntityState)</h4>
+  <h4 id="OpenMod_Unturned_Entities_UnturnedEntitySpawner_SpawnEntityAsync_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Entities_IEntityState_" data-uid="OpenMod.Unturned.Entities.UnturnedEntitySpawner.SpawnEntityAsync(Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Entities.IEntityState)">SpawnEntityAsync(Vector3, String, IEntityState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -166,7 +142,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Numerics.Vector3</span></td>
+        <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">position</span></td>
         <td></td>
       </tr>
@@ -192,7 +168,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IEntity.html">IEntity</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IEntity.html">IEntity</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

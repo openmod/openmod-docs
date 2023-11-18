@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ServiceRegistrationHelper
+    <title>Class YamlVector3TypeConverter
    | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ServiceRegistrationHelper
+    <meta name="title" content="Class YamlVector3TypeConverter
    | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -92,41 +92,40 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="OpenMod.Core.Ioc.ServiceRegistrationHelper">
+                    <article class="content wrap" id="_content" data-uid="OpenMod.Core.Persistence.YamlVector3TypeConverter">
   
   
-  <h1 id="OpenMod_Core_Ioc_ServiceRegistrationHelper" data-uid="OpenMod.Core.Ioc.ServiceRegistrationHelper" class="text-break">Class ServiceRegistrationHelper
+  <h1 id="OpenMod_Core_Persistence_YamlVector3TypeConverter" data-uid="OpenMod.Core.Persistence.YamlVector3TypeConverter" class="text-break">Class YamlVector3TypeConverter
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ServiceRegistrationHelper</span></div>
+    <div class="level1"><span class="xref">YamlVector3TypeConverter</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Ioc.html">OpenMod.Core.Ioc</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Persistence.html">OpenMod.Core.Persistence</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
-  <h5 id="OpenMod_Core_Ioc_ServiceRegistrationHelper_syntax">Syntax</h5>
+  <h5 id="OpenMod_Core_Persistence_YamlVector3TypeConverter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ServiceRegistrationHelper : object</code></pre>
+    <pre><code class="lang-csharp hljs">public class YamlVector3TypeConverter : IYamlTypeConverter</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Ioc_ServiceRegistrationHelper_FindFromAssembly__1_Assembly_System_Nullable_ILogger__.md&amp;value=---%0Auid%3A%20OpenMod.Core.Ioc.ServiceRegistrationHelper.FindFromAssembly%60%601(Assembly%2CSystem.Nullable%7BILogger%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Persistence_YamlVector3TypeConverter_Accepts_Type_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Persistence.YamlVector3TypeConverter.Accepts(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Ioc/ServiceRegistrationHelper.cs/#L17">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Persistence/YamlVector3TypeConverter.cs/#L19">View Source</a>
   </span>
-  <a id="OpenMod_Core_Ioc_ServiceRegistrationHelper_FindFromAssembly_" data-uid="OpenMod.Core.Ioc.ServiceRegistrationHelper.FindFromAssembly*"></a>
-  <h4 id="OpenMod_Core_Ioc_ServiceRegistrationHelper_FindFromAssembly__1_Assembly_System_Nullable_ILogger__" data-uid="OpenMod.Core.Ioc.ServiceRegistrationHelper.FindFromAssembly``1(Assembly,System.Nullable{ILogger})">FindFromAssembly&lt;T&gt;(Assembly, Nullable&lt;ILogger&gt;)</h4>
+  <a id="OpenMod_Core_Persistence_YamlVector3TypeConverter_Accepts_" data-uid="OpenMod.Core.Persistence.YamlVector3TypeConverter.Accepts*"></a>
+  <h4 id="OpenMod_Core_Persistence_YamlVector3TypeConverter_Accepts_Type_" data-uid="OpenMod.Core.Persistence.YamlVector3TypeConverter.Accepts(Type)">Accepts(Type)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;ServiceRegistration&gt; FindFromAssembly&lt;T&gt;(Assembly assembly, ILogger? logger = null)
-    where T : ServiceImplementationAttribute</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Accepts(Type type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -139,13 +138,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Assembly</span></td>
-        <td><span class="parametername">assembly</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ILogger</span>&gt;</td>
-        <td><span class="parametername">logger</span></td>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">type</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -160,41 +154,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="OpenMod.Core.Ioc.ServiceRegistration.html">ServiceRegistration</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Ioc_ServiceRegistrationHelper_FindServicesFromTypes__1_IEnumerable_Type__System_Nullable_ILogger__System_Nullable_System_String__.md&amp;value=---%0Auid%3A%20OpenMod.Core.Ioc.ServiceRegistrationHelper.FindServicesFromTypes%60%601(IEnumerable%7BType%7D%2CSystem.Nullable%7BILogger%7D%2CSystem.Nullable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Persistence_YamlVector3TypeConverter_ReadYaml_IParser_Type_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Persistence.YamlVector3TypeConverter.ReadYaml(IParser%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Ioc/ServiceRegistrationHelper.cs/#L23">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Persistence/YamlVector3TypeConverter.cs/#L24">View Source</a>
   </span>
-  <a id="OpenMod_Core_Ioc_ServiceRegistrationHelper_FindServicesFromTypes_" data-uid="OpenMod.Core.Ioc.ServiceRegistrationHelper.FindServicesFromTypes*"></a>
-  <h4 id="OpenMod_Core_Ioc_ServiceRegistrationHelper_FindServicesFromTypes__1_IEnumerable_Type__System_Nullable_ILogger__System_Nullable_System_String__" data-uid="OpenMod.Core.Ioc.ServiceRegistrationHelper.FindServicesFromTypes``1(IEnumerable{Type},System.Nullable{ILogger},System.Nullable{System.String})">FindServicesFromTypes&lt;T&gt;(IEnumerable&lt;Type&gt;, Nullable&lt;ILogger&gt;, Nullable&lt;String&gt;)</h4>
+  <a id="OpenMod_Core_Persistence_YamlVector3TypeConverter_ReadYaml_" data-uid="OpenMod.Core.Persistence.YamlVector3TypeConverter.ReadYaml*"></a>
+  <h4 id="OpenMod_Core_Persistence_YamlVector3TypeConverter_ReadYaml_IParser_Type_" data-uid="OpenMod.Core.Persistence.YamlVector3TypeConverter.ReadYaml(IParser,Type)">ReadYaml(IParser, Type)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;ServiceRegistration&gt; FindServicesFromTypes&lt;T&gt;(this IEnumerable&lt;Type&gt; types, ILogger? logger = null, string? assemblyName = null)
-    where T : ServiceImplementationAttribute</code></pre>
+    <pre><code class="lang-csharp hljs">public object? ReadYaml(IParser parser, Type type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -207,18 +185,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Type</span>&gt;</td>
-        <td><span class="parametername">types</span></td>
+        <td><span class="xref">IParser</span></td>
+        <td><span class="parametername">parser</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ILogger</span>&gt;</td>
-        <td><span class="parametername">logger</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">assemblyName</span></td>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">type</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -233,26 +206,57 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="OpenMod.Core.Ioc.ServiceRegistration.html">ServiceRegistration</a>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Persistence_YamlVector3TypeConverter_WriteYaml_IEmitter_System_Nullable_System_Object__Type_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Persistence.YamlVector3TypeConverter.WriteYaml(IEmitter%2CSystem.Nullable%7BSystem.Object%7D%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Persistence/YamlVector3TypeConverter.cs/#L57">View Source</a>
+  </span>
+  <a id="OpenMod_Core_Persistence_YamlVector3TypeConverter_WriteYaml_" data-uid="OpenMod.Core.Persistence.YamlVector3TypeConverter.WriteYaml*"></a>
+  <h4 id="OpenMod_Core_Persistence_YamlVector3TypeConverter_WriteYaml_IEmitter_System_Nullable_System_Object__Type_" data-uid="OpenMod.Core.Persistence.YamlVector3TypeConverter.WriteYaml(IEmitter,System.Nullable{System.Object},Type)">WriteYaml(IEmitter, Nullable&lt;Object&gt;, Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteYaml(IEmitter emitter, object? value, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="xref">IEmitter</span></td>
+        <td><span class="parametername">emitter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">type</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="OpenMod.Core.Helpers.DisposeHelper.html#OpenMod_Core_Helpers_DisposeHelper_DisposeSyncOrAsync_System_Object_">DisposeHelper.DisposeSyncOrAsync(Object)</a>
+  </div>
 </article>
               
                 </div>

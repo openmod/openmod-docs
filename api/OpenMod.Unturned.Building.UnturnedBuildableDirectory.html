@@ -108,35 +108,11 @@
     <h5>Implements</h5>
     <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Building.IBuildableDirectory.html">IBuildableDirectory</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Unturned.Building.html">OpenMod.Unturned.Building</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.Unturned.dll</h6>
   <h5 id="OpenMod_Unturned_Building_UnturnedBuildableDirectory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UnturnedBuildableDirectory : IBuildableDirectory</code></pre>
+    <pre><code class="lang-csharp hljs">public class UnturnedBuildableDirectory : object, IBuildableDirectory</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -165,7 +141,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Building.IBuildableAsset.html">IBuildableAsset</a>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyCollection</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Building.IBuildableAsset.html">IBuildableAsset</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -175,7 +151,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_Building_UnturnedBuildableDirectory_GetBuildablesAsync.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.Building.UnturnedBuildableDirectory.GetBuildablesAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Building/UnturnedBuildableDirectory.cs/#L30">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/Building/UnturnedBuildableDirectory.cs/#L26">View Source</a>
   </span>
   <a id="OpenMod_Unturned_Building_UnturnedBuildableDirectory_GetBuildablesAsync_" data-uid="OpenMod.Unturned.Building.UnturnedBuildableDirectory.GetBuildablesAsync*"></a>
   <h4 id="OpenMod_Unturned_Building_UnturnedBuildableDirectory_GetBuildablesAsync" data-uid="OpenMod.Unturned.Building.UnturnedBuildableDirectory.GetBuildablesAsync">GetBuildablesAsync()</h4>
@@ -195,7 +171,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Building.IBuildable.html">IBuildable</a>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyCollection</span>&lt;<a class="xref" href="OpenMod.Extensions.Games.Abstractions.Building.IBuildable.html">IBuildable</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>

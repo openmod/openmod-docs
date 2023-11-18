@@ -104,35 +104,11 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">RocketModExecuteCommandEventTrigger</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Unturned.RocketMod.Commands.html">OpenMod.Unturned.RocketMod.Commands</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.Unturned.dll</h6>
   <h5 id="OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RocketModExecuteCommandEventTrigger</code></pre>
+    <pre><code class="lang-csharp hljs">public class RocketModExecuteCommandEventTrigger : object</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -166,7 +142,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FieldInfo RocketModExecuteEvent { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public FieldInfo? RocketModExecuteEvent { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,7 +154,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.FieldInfo</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">FieldInfo</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -187,18 +163,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger_HandleEventAsync_System_Object_CommandExecutingEvent_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.HandleEventAsync(System.Object%2CCommandExecutingEvent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger_HandleEventAsync_System_Nullable_System_Object__CommandExecutingEvent_.md&amp;value=---%0Auid%3A%20OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.HandleEventAsync(System.Nullable%7BSystem.Object%7D%2CCommandExecutingEvent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/openmod/openmod/blob/main/unturned/OpenMod.Unturned/RocketMod/Commands/RocketModExecuteCommandEventTrigger.cs/#L28">View Source</a>
   </span>
   <a id="OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger_HandleEventAsync_" data-uid="OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.HandleEventAsync*"></a>
-  <h4 id="OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger_HandleEventAsync_System_Object_CommandExecutingEvent_" data-uid="OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.HandleEventAsync(System.Object,CommandExecutingEvent)">HandleEventAsync(Object, CommandExecutingEvent)</h4>
+  <h4 id="OpenMod_Unturned_RocketMod_Commands_RocketModExecuteCommandEventTrigger_HandleEventAsync_System_Nullable_System_Object__CommandExecutingEvent_" data-uid="OpenMod.Unturned.RocketMod.Commands.RocketModExecuteCommandEventTrigger.HandleEventAsync(System.Nullable{System.Object},CommandExecutingEvent)">HandleEventAsync(Nullable&lt;Object&gt;, CommandExecutingEvent)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task HandleEventAsync(object _, CommandExecutingEvent event)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task HandleEventAsync(object? _, CommandExecutingEvent event)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -211,7 +187,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">_</span></td>
         <td></td>
       </tr>
@@ -232,7 +208,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>

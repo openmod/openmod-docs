@@ -107,6 +107,7 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><span class="xref">IDisposable</span></div>
     <div><a class="xref" href="OpenMod.API.Localization.IOpenModStringLocalizer.html">IOpenModStringLocalizer</a></div>
     <div><span class="xref">IStringLocalizer</span></div>
   </div>
@@ -124,12 +125,15 @@
     <div>
       <a class="xref" href="OpenMod.Core.Localization.ProxyStringLocalizer.html#OpenMod_Core_Localization_ProxyStringLocalizer_Item_System_String_System_Object___">ProxyStringLocalizer.Item[String, Object[]]</a>
     </div>
+    <div>
+      <a class="xref" href="OpenMod.Core.Localization.ProxyStringLocalizer.html#OpenMod_Core_Localization_ProxyStringLocalizer_Dispose">ProxyStringLocalizer.Dispose()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Localization.html">OpenMod.Core.Localization</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
   <h5 id="OpenMod_Core_Localization_OpenModStringLocalizer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OpenModStringLocalizer : ProxyStringLocalizer, IOpenModStringLocalizer, IStringLocalizer</code></pre>
+    <pre><code class="lang-csharp hljs">public class OpenModStringLocalizer : ProxyStringLocalizer, IDisposable, IOpenModStringLocalizer, IStringLocalizer</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -171,6 +175,9 @@
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IDisposable</span>
+  </div>
   <div>
       <a class="xref" href="OpenMod.API.Localization.IOpenModStringLocalizer.html">IOpenModStringLocalizer</a>
   </div>

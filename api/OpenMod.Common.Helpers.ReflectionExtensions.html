@@ -117,7 +117,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_FindAllTypes_Assembly_System_Boolean_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.FindAllTypes(Assembly%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L104">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L105">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_ReflectionExtensions_FindAllTypes_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.FindAllTypes*"></a>
   <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_FindAllTypes_Assembly_System_Boolean_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.FindAllTypes(Assembly,System.Boolean)">FindAllTypes(Assembly, Boolean)</h4>
@@ -169,7 +169,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_FindTypes__1_Assembly_System_Boolean_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.FindTypes%60%601(Assembly%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L122">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L116">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_ReflectionExtensions_FindTypes_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.FindTypes*"></a>
   <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_FindTypes__1_Assembly_System_Boolean_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.FindTypes``1(Assembly,System.Boolean)">FindTypes&lt;T&gt;(Assembly, Boolean)</h4>
@@ -192,6 +192,73 @@
       <tr>
         <td><span class="xref">Assembly</span></td>
         <td><span class="parametername">assembly</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeAbstractAndInterfaces</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Type</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_FindTypes__1_IEnumerable_Type__System_Boolean_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.FindTypes%60%601(IEnumerable%7BType%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L123">View Source</a>
+  </span>
+  <a id="OpenMod_Common_Helpers_ReflectionExtensions_FindTypes_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.FindTypes*"></a>
+  <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_FindTypes__1_IEnumerable_Type__System_Boolean_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.FindTypes``1(IEnumerable{Type},System.Boolean)">FindTypes&lt;T&gt;(IEnumerable&lt;Type&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Type&gt; FindTypes&lt;T&gt;(this IEnumerable&lt;Type&gt; types, bool includeAbstractAndInterfaces = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Type</span>&gt;</td>
+        <td><span class="parametername">types</span></td>
         <td></td>
       </tr>
       <tr>
@@ -283,7 +350,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_GetCallingMethod_Type___MethodBase___System_Boolean_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.GetCallingMethod(Type%5B%5D%2CMethodBase%5B%5D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L16">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L17">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_ReflectionExtensions_GetCallingMethod_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetCallingMethod*"></a>
   <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_GetCallingMethod_Type___MethodBase___System_Boolean_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetCallingMethod(Type[],MethodBase[],System.Boolean)">GetCallingMethod(Type[], MethodBase[], Boolean)</h4>
@@ -340,7 +407,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_GetDebugName_MethodBase_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.GetDebugName(MethodBase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L144">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L149">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_ReflectionExtensions_GetDebugName_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetDebugName*"></a>
   <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_GetDebugName_MethodBase_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetDebugName(MethodBase)">GetDebugName(MethodBase)</h4>
@@ -387,7 +454,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_GetParametersTypes_ParameterInfo___.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.GetParametersTypes(ParameterInfo%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L239">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L244">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_ReflectionExtensions_GetParametersTypes_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetParametersTypes*"></a>
   <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_GetParametersTypes_ParameterInfo___" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetParametersTypes(ParameterInfo[])">GetParametersTypes(ParameterInfo[])</h4>
@@ -434,7 +501,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_GetTypeHierarchy_Type_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.GetTypeHierarchy(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L88">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L89">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_ReflectionExtensions_GetTypeHierarchy_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetTypeHierarchy*"></a>
   <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_GetTypeHierarchy_Type_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetTypeHierarchy(Type)">GetTypeHierarchy(Type)</h4>
@@ -481,7 +548,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_GetVersionIndependentName_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.GetVersionIndependentName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L127">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L131">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_ReflectionExtensions_GetVersionIndependentName_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetVersionIndependentName*"></a>
   <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_GetVersionIndependentName_System_String_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetVersionIndependentName(System.String)">GetVersionIndependentName(String)</h4>
@@ -528,7 +595,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_GetVersionIndependentName_System_String_System_String__.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.GetVersionIndependentName(System.String%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L132">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L136">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_ReflectionExtensions_GetVersionIndependentName_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetVersionIndependentName*"></a>
   <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_GetVersionIndependentName_System_String_System_String__" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.GetVersionIndependentName(System.String,System.String@)">GetVersionIndependentName(String, out String)</h4>
@@ -580,7 +647,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_HasConversionOperator_Type_Type_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.HasConversionOperator(Type%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L213">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L218">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_ReflectionExtensions_HasConversionOperator_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.HasConversionOperator*"></a>
   <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_HasConversionOperator_Type_Type_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.HasConversionOperator(Type,Type)">HasConversionOperator(Type, Type)</h4>
@@ -632,7 +699,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_InvokeWithTaskSupportAsync_MethodBase_System_Nullable_System_Object__System_Nullable_System_Object____.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.InvokeWithTaskSupportAsync(MethodBase%2CSystem.Nullable%7BSystem.Object%7D%2CSystem.Nullable%7BSystem.Object%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L159">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L164">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_ReflectionExtensions_InvokeWithTaskSupportAsync_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.InvokeWithTaskSupportAsync*"></a>
   <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_InvokeWithTaskSupportAsync_MethodBase_System_Nullable_System_Object__System_Nullable_System_Object____" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.InvokeWithTaskSupportAsync(MethodBase,System.Nullable{System.Object},System.Nullable{System.Object}[])">InvokeWithTaskSupportAsync(MethodBase, Nullable&lt;Object&gt;, Nullable&lt;Object&gt;[])</h4>
@@ -689,7 +756,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_ReflectionExtensions_ToObject__1_Dictionary_System_Object_System_Object__.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.ReflectionExtensions.ToObject%60%601(Dictionary%7BSystem.Object%2CSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L182">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/ReflectionExtensions.cs/#L187">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_ReflectionExtensions_ToObject_" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.ToObject*"></a>
   <h4 id="OpenMod_Common_Helpers_ReflectionExtensions_ToObject__1_Dictionary_System_Object_System_Object__" data-uid="OpenMod.Common.Helpers.ReflectionExtensions.ToObject``1(Dictionary{System.Object,System.Object})">ToObject&lt;T&gt;(Dictionary&lt;Object, Object&gt;)</h4>

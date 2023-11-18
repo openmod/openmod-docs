@@ -97,7 +97,7 @@
   
   <h1 id="OpenMod_Common_Helpers_AssemblyExtensions" data-uid="OpenMod.Common.Helpers.AssemblyExtensions" class="text-break">Class AssemblyExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extension methods for <see cref="!:System.Reflection.Assembly"></see>.</p>
+  <div class="markdown level0 summary"><p>Extension methods for <see cref="!:Assembly"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -118,7 +118,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_AssemblyExtensions_GetLoadableTypes_Assembly_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.AssemblyExtensions.GetLoadableTypes(Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/AssemblyExtensions.cs/#L24">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/AssemblyExtensions.cs/#L28">View Source</a>
   </span>
   <a id="OpenMod_Common_Helpers_AssemblyExtensions_GetLoadableTypes_" data-uid="OpenMod.Common.Helpers.AssemblyExtensions.GetLoadableTypes*"></a>
   <h4 id="OpenMod_Common_Helpers_AssemblyExtensions_GetLoadableTypes_Assembly_" data-uid="OpenMod.Common.Helpers.AssemblyExtensions.GetLoadableTypes(Assembly)">GetLoadableTypes(Assembly)</h4>
@@ -142,7 +142,7 @@
       <tr>
         <td><span class="xref">Assembly</span></td>
         <td><span class="parametername">assembly</span></td>
-        <td><p>The <see cref="!:System.Reflection.Assembly"></see> from which to load types.</p>
+        <td><p>The <see cref="!:Assembly"></see> from which to load types.</p>
 </td>
       </tr>
     </tbody>
@@ -161,6 +161,151 @@
         <td><p>The set of types from the <code data-dev-comment-type="paramref" class="paramref">assembly</code>, or the subset
 of types that could be loaded if there was any error.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="OpenMod_Common_Helpers_AssemblyExtensions_GetLoadableTypes_Assembly__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Avoid using this method, unless you don't care about missing types</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_AssemblyExtensions_GetMissingDependencies_ReflectionTypeLoadException_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.AssemblyExtensions.GetMissingDependencies(ReflectionTypeLoadException)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/AssemblyExtensions.cs/#L56">View Source</a>
+  </span>
+  <a id="OpenMod_Common_Helpers_AssemblyExtensions_GetMissingDependencies_" data-uid="OpenMod.Common.Helpers.AssemblyExtensions.GetMissingDependencies*"></a>
+  <h4 id="OpenMod_Common_Helpers_AssemblyExtensions_GetMissingDependencies_ReflectionTypeLoadException_" data-uid="OpenMod.Common.Helpers.AssemblyExtensions.GetMissingDependencies(ReflectionTypeLoadException)">GetMissingDependencies(ReflectionTypeLoadException)</h4>
+  <div class="markdown level1 summary"><p>Gets the missing assembly names based on ReflectionTypeLoadException</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;AssemblyName&gt; GetMissingDependencies(this ReflectionTypeLoadException reflectionTypeLoadException)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReflectionTypeLoadException</span></td>
+        <td><span class="parametername">reflectionTypeLoadException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">AssemblyName</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_AssemblyExtensions_GetNameVersion_Assembly_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.AssemblyExtensions.GetNameVersion(Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/AssemblyExtensions.cs/#L87">View Source</a>
+  </span>
+  <a id="OpenMod_Common_Helpers_AssemblyExtensions_GetNameVersion_" data-uid="OpenMod.Common.Helpers.AssemblyExtensions.GetNameVersion*"></a>
+  <h4 id="OpenMod_Common_Helpers_AssemblyExtensions_GetNameVersion_Assembly_" data-uid="OpenMod.Common.Helpers.AssemblyExtensions.GetNameVersion(Assembly)">GetNameVersion(Assembly)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetNameVersion(this Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Common_Helpers_AssemblyExtensions_GetNameVersion_AssemblyName_.md&amp;value=---%0Auid%3A%20OpenMod.Common.Helpers.AssemblyExtensions.GetNameVersion(AssemblyName)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Common/Helpers/AssemblyExtensions.cs/#L93">View Source</a>
+  </span>
+  <a id="OpenMod_Common_Helpers_AssemblyExtensions_GetNameVersion_" data-uid="OpenMod.Common.Helpers.AssemblyExtensions.GetNameVersion*"></a>
+  <h4 id="OpenMod_Common_Helpers_AssemblyExtensions_GetNameVersion_AssemblyName_" data-uid="OpenMod.Common.Helpers.AssemblyExtensions.GetNameVersion(AssemblyName)">GetNameVersion(AssemblyName)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetNameVersion(this AssemblyName assemblyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AssemblyName</span></td>
+        <td><span class="parametername">assemblyName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

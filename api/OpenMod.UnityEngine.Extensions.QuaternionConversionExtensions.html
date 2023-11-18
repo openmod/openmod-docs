@@ -104,35 +104,11 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">QuaternionConversionExtensions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.UnityEngine.Extensions.html">OpenMod.UnityEngine.Extensions</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.UnityEngine.dll</h6>
   <h5 id="OpenMod_UnityEngine_Extensions_QuaternionConversionExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class QuaternionConversionExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class QuaternionConversionExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -149,7 +125,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Quaternion ToSystemQuaternion(this UnityEngine.Quaternion quaternion)</code></pre>
+    <pre><code class="lang-csharp hljs">public static System.Numerics.Quaternion ToSystemQuaternion(this UnityEngine.Quaternion quaternion)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,12 +167,12 @@
     <a href="https://github.com/openmod/openmod/blob/main/unityengine/OpenMod.UnityEngine/Extensions/QuaternionConversionExtensions.cs/#L9">View Source</a>
   </span>
   <a id="OpenMod_UnityEngine_Extensions_QuaternionConversionExtensions_ToUnityQuaternion_" data-uid="OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToUnityQuaternion*"></a>
-  <h4 id="OpenMod_UnityEngine_Extensions_QuaternionConversionExtensions_ToUnityQuaternion_System_Numerics_Quaternion_" data-uid="OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToUnityQuaternion(System.Numerics.Quaternion)">ToUnityQuaternion(Quaternion)</h4>
+  <h4 id="OpenMod_UnityEngine_Extensions_QuaternionConversionExtensions_ToUnityQuaternion_System_Numerics_Quaternion_" data-uid="OpenMod.UnityEngine.Extensions.QuaternionConversionExtensions.ToUnityQuaternion(System.Numerics.Quaternion)">ToUnityQuaternion(System.Numerics.Quaternion)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityEngine.Quaternion ToUnityQuaternion(this Quaternion quaternion)</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityEngine.Quaternion ToUnityQuaternion(this System.Numerics.Quaternion quaternion)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
