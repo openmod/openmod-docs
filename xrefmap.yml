@@ -1845,6 +1845,15 @@ references:
   fullName.vb: OpenMod.API.Jobs.JobTask.JobTask(System.String, System.String, Dictionary(Of System.String, System.Nullable(Of System.Object)))
   nameWithType: JobTask.JobTask(String, String, Dictionary<String, Nullable<Object>>)
   nameWithType.vb: JobTask.JobTask(String, String, Dictionary(Of String, Nullable(Of Object)))
+- uid: OpenMod.API.Jobs.JobTask.#ctor(System.String,System.String,Dictionary{System.String,System.Nullable{System.Object}},System.Object[])
+  name: JobTask(String, String, Dictionary<String, Nullable<Object>>, Object[])
+  href: api/OpenMod.API.Jobs.JobTask.html#OpenMod_API_Jobs_JobTask__ctor_System_String_System_String_Dictionary_System_String_System_Nullable_System_Object___System_Object___
+  commentId: M:OpenMod.API.Jobs.JobTask.#ctor(System.String,System.String,Dictionary{System.String,System.Nullable{System.Object}},System.Object[])
+  name.vb: JobTask(String, String, Dictionary(Of String, Nullable(Of Object)), Object())
+  fullName: OpenMod.API.Jobs.JobTask.JobTask(System.String, System.String, Dictionary<System.String, System.Nullable<System.Object>>, System.Object[])
+  fullName.vb: OpenMod.API.Jobs.JobTask.JobTask(System.String, System.String, Dictionary(Of System.String, System.Nullable(Of System.Object)), System.Object())
+  nameWithType: JobTask.JobTask(String, String, Dictionary<String, Nullable<Object>>, Object[])
+  nameWithType.vb: JobTask.JobTask(String, String, Dictionary(Of String, Nullable(Of Object)), Object())
 - uid: OpenMod.API.Jobs.JobTask.#ctor*
   name: JobTask
   href: api/OpenMod.API.Jobs.JobTask.html#OpenMod_API_Jobs_JobTask__ctor_
@@ -1878,6 +1887,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.API.Jobs.JobTask.JobName
   nameWithType: JobTask.JobName
+- uid: OpenMod.API.Jobs.JobTask.Parameters
+  name: Parameters
+  href: api/OpenMod.API.Jobs.JobTask.html#OpenMod_API_Jobs_JobTask_Parameters
+  commentId: P:OpenMod.API.Jobs.JobTask.Parameters
+  fullName: OpenMod.API.Jobs.JobTask.Parameters
+  nameWithType: JobTask.Parameters
+- uid: OpenMod.API.Jobs.JobTask.Parameters*
+  name: Parameters
+  href: api/OpenMod.API.Jobs.JobTask.html#OpenMod_API_Jobs_JobTask_Parameters_
+  commentId: Overload:OpenMod.API.Jobs.JobTask.Parameters
+  isSpec: "True"
+  fullName: OpenMod.API.Jobs.JobTask.Parameters
+  nameWithType: JobTask.Parameters
 - uid: OpenMod.API.Jobs.JobTask.Task
   name: Task
   href: api/OpenMod.API.Jobs.JobTask.html#OpenMod_API_Jobs_JobTask_Task
@@ -1891,6 +1913,48 @@ references:
   isSpec: "True"
   fullName: OpenMod.API.Jobs.JobTask.Task
   nameWithType: JobTask.Task
+- uid: OpenMod.API.Jobs.KnownJobTypes
+  name: KnownJobTypes
+  href: api/OpenMod.API.Jobs.KnownJobTypes.html
+  commentId: T:OpenMod.API.Jobs.KnownJobTypes
+  fullName: OpenMod.API.Jobs.KnownJobTypes
+  nameWithType: KnownJobTypes
+- uid: OpenMod.API.Jobs.KnownJobTypes.Default
+  name: Default
+  href: api/OpenMod.API.Jobs.KnownJobTypes.html#OpenMod_API_Jobs_KnownJobTypes_Default
+  commentId: F:OpenMod.API.Jobs.KnownJobTypes.Default
+  fullName: OpenMod.API.Jobs.KnownJobTypes.Default
+  nameWithType: KnownJobTypes.Default
+- uid: OpenMod.API.Jobs.KnownJobTypes.Event
+  name: Event
+  href: api/OpenMod.API.Jobs.KnownJobTypes.html#OpenMod_API_Jobs_KnownJobTypes_Event
+  commentId: F:OpenMod.API.Jobs.KnownJobTypes.Event
+  fullName: OpenMod.API.Jobs.KnownJobTypes.Event
+  nameWithType: KnownJobTypes.Event
+- uid: OpenMod.API.Jobs.KnownJobTypes.Reboot
+  name: Reboot
+  href: api/OpenMod.API.Jobs.KnownJobTypes.html#OpenMod_API_Jobs_KnownJobTypes_Reboot
+  commentId: F:OpenMod.API.Jobs.KnownJobTypes.Reboot
+  fullName: OpenMod.API.Jobs.KnownJobTypes.Reboot
+  nameWithType: KnownJobTypes.Reboot
+- uid: OpenMod.API.Jobs.KnownJobTypes.Repeat
+  name: Repeat
+  href: api/OpenMod.API.Jobs.KnownJobTypes.html#OpenMod_API_Jobs_KnownJobTypes_Repeat
+  commentId: F:OpenMod.API.Jobs.KnownJobTypes.Repeat
+  fullName: OpenMod.API.Jobs.KnownJobTypes.Repeat
+  nameWithType: KnownJobTypes.Repeat
+- uid: OpenMod.API.Jobs.KnownJobTypes.SingleExec
+  name: SingleExec
+  href: api/OpenMod.API.Jobs.KnownJobTypes.html#OpenMod_API_Jobs_KnownJobTypes_SingleExec
+  commentId: F:OpenMod.API.Jobs.KnownJobTypes.SingleExec
+  fullName: OpenMod.API.Jobs.KnownJobTypes.SingleExec
+  nameWithType: KnownJobTypes.SingleExec
+- uid: OpenMod.API.Jobs.KnownJobTypes.Startup
+  name: Startup
+  href: api/OpenMod.API.Jobs.KnownJobTypes.html#OpenMod_API_Jobs_KnownJobTypes_Startup
+  commentId: F:OpenMod.API.Jobs.KnownJobTypes.Startup
+  fullName: OpenMod.API.Jobs.KnownJobTypes.Startup
+  nameWithType: KnownJobTypes.Startup
 - uid: OpenMod.API.Jobs.ScheduledJob
   name: ScheduledJob
   href: api/OpenMod.API.Jobs.ScheduledJob.html
@@ -1910,6 +1974,19 @@ references:
   isSpec: "True"
   fullName: OpenMod.API.Jobs.ScheduledJob.Args
   nameWithType: ScheduledJob.Args
+- uid: OpenMod.API.Jobs.ScheduledJob.CancellationTokenSource
+  name: CancellationTokenSource
+  href: api/OpenMod.API.Jobs.ScheduledJob.html#OpenMod_API_Jobs_ScheduledJob_CancellationTokenSource
+  commentId: P:OpenMod.API.Jobs.ScheduledJob.CancellationTokenSource
+  fullName: OpenMod.API.Jobs.ScheduledJob.CancellationTokenSource
+  nameWithType: ScheduledJob.CancellationTokenSource
+- uid: OpenMod.API.Jobs.ScheduledJob.CancellationTokenSource*
+  name: CancellationTokenSource
+  href: api/OpenMod.API.Jobs.ScheduledJob.html#OpenMod_API_Jobs_ScheduledJob_CancellationTokenSource_
+  commentId: Overload:OpenMod.API.Jobs.ScheduledJob.CancellationTokenSource
+  isSpec: "True"
+  fullName: OpenMod.API.Jobs.ScheduledJob.CancellationTokenSource
+  nameWithType: ScheduledJob.CancellationTokenSource
 - uid: OpenMod.API.Jobs.ScheduledJob.Enabled
   name: Enabled
   href: api/OpenMod.API.Jobs.ScheduledJob.html#OpenMod_API_Jobs_ScheduledJob_Enabled
@@ -1929,12 +2006,15 @@ references:
   commentId: M:OpenMod.API.Jobs.ScheduledJob.Equals(OpenMod.API.Jobs.ScheduledJob)
   fullName: OpenMod.API.Jobs.ScheduledJob.Equals(OpenMod.API.Jobs.ScheduledJob)
   nameWithType: ScheduledJob.Equals(ScheduledJob)
-- uid: OpenMod.API.Jobs.ScheduledJob.Equals(System.Object)
-  name: Equals(Object)
-  href: api/OpenMod.API.Jobs.ScheduledJob.html#OpenMod_API_Jobs_ScheduledJob_Equals_System_Object_
-  commentId: M:OpenMod.API.Jobs.ScheduledJob.Equals(System.Object)
-  fullName: OpenMod.API.Jobs.ScheduledJob.Equals(System.Object)
-  nameWithType: ScheduledJob.Equals(Object)
+- uid: OpenMod.API.Jobs.ScheduledJob.Equals(System.Nullable{System.Object})
+  name: Equals(Nullable<Object>)
+  href: api/OpenMod.API.Jobs.ScheduledJob.html#OpenMod_API_Jobs_ScheduledJob_Equals_System_Nullable_System_Object__
+  commentId: M:OpenMod.API.Jobs.ScheduledJob.Equals(System.Nullable{System.Object})
+  name.vb: Equals(Nullable(Of Object))
+  fullName: OpenMod.API.Jobs.ScheduledJob.Equals(System.Nullable<System.Object>)
+  fullName.vb: OpenMod.API.Jobs.ScheduledJob.Equals(System.Nullable(Of System.Object))
+  nameWithType: ScheduledJob.Equals(Nullable<Object>)
+  nameWithType.vb: ScheduledJob.Equals(Nullable(Of Object))
 - uid: OpenMod.API.Jobs.ScheduledJob.Equals*
   name: Equals
   href: api/OpenMod.API.Jobs.ScheduledJob.html#OpenMod_API_Jobs_ScheduledJob_Equals_
@@ -2777,6 +2857,12 @@ references:
   isSpec: "True"
   fullName: OpenMod.API.Persistence.IOpenModDataStoreAccessor.DataStore
   nameWithType: IOpenModDataStoreAccessor.DataStore
+- uid: OpenMod.API.Persistence.SerializeIgnoreAttribute
+  name: SerializeIgnoreAttribute
+  href: api/OpenMod.API.Persistence.SerializeIgnoreAttribute.html
+  commentId: T:OpenMod.API.Persistence.SerializeIgnoreAttribute
+  fullName: OpenMod.API.Persistence.SerializeIgnoreAttribute
+  nameWithType: SerializeIgnoreAttribute
 - uid: OpenMod.API.Plugins
   name: OpenMod.API.Plugins
   href: api/OpenMod.API.Plugins.html
@@ -4096,12 +4182,15 @@ references:
   commentId: T:OpenMod.Common.Helpers.AssemblyNameEqualityComparer
   fullName: OpenMod.Common.Helpers.AssemblyNameEqualityComparer
   nameWithType: AssemblyNameEqualityComparer
-- uid: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals(AssemblyName,AssemblyName)
-  name: Equals(AssemblyName, AssemblyName)
-  href: api/OpenMod.Common.Helpers.AssemblyNameEqualityComparer.html#OpenMod_Common_Helpers_AssemblyNameEqualityComparer_Equals_AssemblyName_AssemblyName_
-  commentId: M:OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals(AssemblyName,AssemblyName)
-  fullName: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals(AssemblyName, AssemblyName)
-  nameWithType: AssemblyNameEqualityComparer.Equals(AssemblyName, AssemblyName)
+- uid: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals(System.Nullable{AssemblyName},System.Nullable{AssemblyName})
+  name: Equals(Nullable<AssemblyName>, Nullable<AssemblyName>)
+  href: api/OpenMod.Common.Helpers.AssemblyNameEqualityComparer.html#OpenMod_Common_Helpers_AssemblyNameEqualityComparer_Equals_System_Nullable_AssemblyName__System_Nullable_AssemblyName__
+  commentId: M:OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals(System.Nullable{AssemblyName},System.Nullable{AssemblyName})
+  name.vb: Equals(Nullable(Of AssemblyName), Nullable(Of AssemblyName))
+  fullName: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals(System.Nullable<AssemblyName>, System.Nullable<AssemblyName>)
+  fullName.vb: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals(System.Nullable(Of AssemblyName), System.Nullable(Of AssemblyName))
+  nameWithType: AssemblyNameEqualityComparer.Equals(Nullable<AssemblyName>, Nullable<AssemblyName>)
+  nameWithType.vb: AssemblyNameEqualityComparer.Equals(Nullable(Of AssemblyName), Nullable(Of AssemblyName))
 - uid: OpenMod.Common.Helpers.AssemblyNameEqualityComparer.Equals*
   name: Equals
   href: api/OpenMod.Common.Helpers.AssemblyNameEqualityComparer.html#OpenMod_Common_Helpers_AssemblyNameEqualityComparer_Equals_
@@ -8464,12 +8553,15 @@ references:
   commentId: T:OpenMod.Core.Helpers.AssemblyEqualityComparer
   fullName: OpenMod.Core.Helpers.AssemblyEqualityComparer
   nameWithType: AssemblyEqualityComparer
-- uid: OpenMod.Core.Helpers.AssemblyEqualityComparer.Equals(Assembly,Assembly)
-  name: Equals(Assembly, Assembly)
-  href: api/OpenMod.Core.Helpers.AssemblyEqualityComparer.html#OpenMod_Core_Helpers_AssemblyEqualityComparer_Equals_Assembly_Assembly_
-  commentId: M:OpenMod.Core.Helpers.AssemblyEqualityComparer.Equals(Assembly,Assembly)
-  fullName: OpenMod.Core.Helpers.AssemblyEqualityComparer.Equals(Assembly, Assembly)
-  nameWithType: AssemblyEqualityComparer.Equals(Assembly, Assembly)
+- uid: OpenMod.Core.Helpers.AssemblyEqualityComparer.Equals(System.Nullable{Assembly},System.Nullable{Assembly})
+  name: Equals(Nullable<Assembly>, Nullable<Assembly>)
+  href: api/OpenMod.Core.Helpers.AssemblyEqualityComparer.html#OpenMod_Core_Helpers_AssemblyEqualityComparer_Equals_System_Nullable_Assembly__System_Nullable_Assembly__
+  commentId: M:OpenMod.Core.Helpers.AssemblyEqualityComparer.Equals(System.Nullable{Assembly},System.Nullable{Assembly})
+  name.vb: Equals(Nullable(Of Assembly), Nullable(Of Assembly))
+  fullName: OpenMod.Core.Helpers.AssemblyEqualityComparer.Equals(System.Nullable<Assembly>, System.Nullable<Assembly>)
+  fullName.vb: OpenMod.Core.Helpers.AssemblyEqualityComparer.Equals(System.Nullable(Of Assembly), System.Nullable(Of Assembly))
+  nameWithType: AssemblyEqualityComparer.Equals(Nullable<Assembly>, Nullable<Assembly>)
+  nameWithType.vb: AssemblyEqualityComparer.Equals(Nullable(Of Assembly), Nullable(Of Assembly))
 - uid: OpenMod.Core.Helpers.AssemblyEqualityComparer.Equals*
   name: Equals
   href: api/OpenMod.Core.Helpers.AssemblyEqualityComparer.html#OpenMod_Core_Helpers_AssemblyEqualityComparer_Equals_
@@ -8613,6 +8705,15 @@ references:
   fullName.vb: OpenMod.Core.Helpers.AsyncHelper.Schedule(System.String, Func(Of Task), System.Nullable(Of Action(Of Exception)))
   nameWithType: AsyncHelper.Schedule(String, Func<Task>, Nullable<Action<Exception>>)
   nameWithType.vb: AsyncHelper.Schedule(String, Func(Of Task), Nullable(Of Action(Of Exception)))
+- uid: OpenMod.Core.Helpers.AsyncHelper.Schedule(System.String,Func{Task},System.Nullable{CancellationToken},System.Nullable{Action{Exception}})
+  name: Schedule(String, Func<Task>, Nullable<CancellationToken>, Nullable<Action<Exception>>)
+  href: api/OpenMod.Core.Helpers.AsyncHelper.html#OpenMod_Core_Helpers_AsyncHelper_Schedule_System_String_Func_Task__System_Nullable_CancellationToken__System_Nullable_Action_Exception___
+  commentId: M:OpenMod.Core.Helpers.AsyncHelper.Schedule(System.String,Func{Task},System.Nullable{CancellationToken},System.Nullable{Action{Exception}})
+  name.vb: Schedule(String, Func(Of Task), Nullable(Of CancellationToken), Nullable(Of Action(Of Exception)))
+  fullName: OpenMod.Core.Helpers.AsyncHelper.Schedule(System.String, Func<Task>, System.Nullable<CancellationToken>, System.Nullable<Action<Exception>>)
+  fullName.vb: OpenMod.Core.Helpers.AsyncHelper.Schedule(System.String, Func(Of Task), System.Nullable(Of CancellationToken), System.Nullable(Of Action(Of Exception)))
+  nameWithType: AsyncHelper.Schedule(String, Func<Task>, Nullable<CancellationToken>, Nullable<Action<Exception>>)
+  nameWithType.vb: AsyncHelper.Schedule(String, Func(Of Task), Nullable(Of CancellationToken), Nullable(Of Action(Of Exception)))
 - uid: OpenMod.Core.Helpers.AsyncHelper.Schedule*
   name: Schedule
   href: api/OpenMod.Core.Helpers.AsyncHelper.html#OpenMod_Core_Helpers_AsyncHelper_Schedule_
@@ -9201,25 +9302,70 @@ references:
   commentId: N:OpenMod.Core.Jobs
   fullName: OpenMod.Core.Jobs
   nameWithType: OpenMod.Core.Jobs
+- uid: OpenMod.Core.Jobs.CommandTaskExecutor
+  name: CommandTaskExecutor
+  href: api/OpenMod.Core.Jobs.CommandTaskExecutor.html
+  commentId: T:OpenMod.Core.Jobs.CommandTaskExecutor
+  fullName: OpenMod.Core.Jobs.CommandTaskExecutor
+  nameWithType: CommandTaskExecutor
+- uid: OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteAsync(OpenMod.API.Jobs.JobTask)
+  name: ExecuteAsync(JobTask)
+  href: api/OpenMod.Core.Jobs.CommandTaskExecutor.html#OpenMod_Core_Jobs_CommandTaskExecutor_ExecuteAsync_OpenMod_API_Jobs_JobTask_
+  commentId: M:OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteAsync(OpenMod.API.Jobs.JobTask)
+  fullName: OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteAsync(OpenMod.API.Jobs.JobTask)
+  nameWithType: CommandTaskExecutor.ExecuteAsync(JobTask)
+- uid: OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/OpenMod.Core.Jobs.CommandTaskExecutor.html#OpenMod_Core_Jobs_CommandTaskExecutor_ExecuteAsync_
+  commentId: Overload:OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteAsync
+  isSpec: "True"
+  fullName: OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteAsync
+  nameWithType: CommandTaskExecutor.ExecuteAsync
+- uid: OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteCommandTask(System.String,OpenMod.API.Jobs.JobTask)
+  name: ExecuteCommandTask(String, JobTask)
+  href: api/OpenMod.Core.Jobs.CommandTaskExecutor.html#OpenMod_Core_Jobs_CommandTaskExecutor_ExecuteCommandTask_System_String_OpenMod_API_Jobs_JobTask_
+  commentId: M:OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteCommandTask(System.String,OpenMod.API.Jobs.JobTask)
+  fullName: OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteCommandTask(System.String, OpenMod.API.Jobs.JobTask)
+  nameWithType: CommandTaskExecutor.ExecuteCommandTask(String, JobTask)
+- uid: OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteCommandTask*
+  name: ExecuteCommandTask
+  href: api/OpenMod.Core.Jobs.CommandTaskExecutor.html#OpenMod_Core_Jobs_CommandTaskExecutor_ExecuteCommandTask_
+  commentId: Overload:OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteCommandTask
+  isSpec: "True"
+  fullName: OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteCommandTask
+  nameWithType: CommandTaskExecutor.ExecuteCommandTask
+- uid: OpenMod.Core.Jobs.CommandTaskExecutor.SupportsType(System.String)
+  name: SupportsType(String)
+  href: api/OpenMod.Core.Jobs.CommandTaskExecutor.html#OpenMod_Core_Jobs_CommandTaskExecutor_SupportsType_System_String_
+  commentId: M:OpenMod.Core.Jobs.CommandTaskExecutor.SupportsType(System.String)
+  fullName: OpenMod.Core.Jobs.CommandTaskExecutor.SupportsType(System.String)
+  nameWithType: CommandTaskExecutor.SupportsType(String)
+- uid: OpenMod.Core.Jobs.CommandTaskExecutor.SupportsType*
+  name: SupportsType
+  href: api/OpenMod.Core.Jobs.CommandTaskExecutor.html#OpenMod_Core_Jobs_CommandTaskExecutor_SupportsType_
+  commentId: Overload:OpenMod.Core.Jobs.CommandTaskExecutor.SupportsType
+  isSpec: "True"
+  fullName: OpenMod.Core.Jobs.CommandTaskExecutor.SupportsType
+  nameWithType: CommandTaskExecutor.SupportsType
+- uid: OpenMod.Core.Jobs.CommandTaskExecutor.TaskType
+  name: TaskType
+  href: api/OpenMod.Core.Jobs.CommandTaskExecutor.html#OpenMod_Core_Jobs_CommandTaskExecutor_TaskType
+  commentId: P:OpenMod.Core.Jobs.CommandTaskExecutor.TaskType
+  fullName: OpenMod.Core.Jobs.CommandTaskExecutor.TaskType
+  nameWithType: CommandTaskExecutor.TaskType
+- uid: OpenMod.Core.Jobs.CommandTaskExecutor.TaskType*
+  name: TaskType
+  href: api/OpenMod.Core.Jobs.CommandTaskExecutor.html#OpenMod_Core_Jobs_CommandTaskExecutor_TaskType_
+  commentId: Overload:OpenMod.Core.Jobs.CommandTaskExecutor.TaskType
+  isSpec: "True"
+  fullName: OpenMod.Core.Jobs.CommandTaskExecutor.TaskType
+  nameWithType: CommandTaskExecutor.TaskType
 - uid: OpenMod.Core.Jobs.JobExecutorOptions
   name: JobExecutorOptions
   href: api/OpenMod.Core.Jobs.JobExecutorOptions.html
   commentId: T:OpenMod.Core.Jobs.JobExecutorOptions
   fullName: OpenMod.Core.Jobs.JobExecutorOptions
   nameWithType: JobExecutorOptions
-- uid: OpenMod.Core.Jobs.JobExecutorOptions.#ctor
-  name: JobExecutorOptions()
-  href: api/OpenMod.Core.Jobs.JobExecutorOptions.html#OpenMod_Core_Jobs_JobExecutorOptions__ctor
-  commentId: M:OpenMod.Core.Jobs.JobExecutorOptions.#ctor
-  fullName: OpenMod.Core.Jobs.JobExecutorOptions.JobExecutorOptions()
-  nameWithType: JobExecutorOptions.JobExecutorOptions()
-- uid: OpenMod.Core.Jobs.JobExecutorOptions.#ctor*
-  name: JobExecutorOptions
-  href: api/OpenMod.Core.Jobs.JobExecutorOptions.html#OpenMod_Core_Jobs_JobExecutorOptions__ctor_
-  commentId: Overload:OpenMod.Core.Jobs.JobExecutorOptions.#ctor
-  isSpec: "True"
-  fullName: OpenMod.Core.Jobs.JobExecutorOptions.JobExecutorOptions
-  nameWithType: JobExecutorOptions.JobExecutorOptions
 - uid: OpenMod.Core.Jobs.JobExecutorOptions.AddJobExecutor(Type)
   name: AddJobExecutor(Type)
   href: api/OpenMod.Core.Jobs.JobExecutorOptions.html#OpenMod_Core_Jobs_JobExecutorOptions_AddJobExecutor_Type_
@@ -9283,15 +9429,12 @@ references:
   commentId: T:OpenMod.Core.Jobs.JobScheduler
   fullName: OpenMod.Core.Jobs.JobScheduler
   nameWithType: JobScheduler
-- uid: OpenMod.Core.Jobs.JobScheduler.#ctor(OpenMod.API.IRuntime,ILogger{OpenMod.Core.Jobs.JobScheduler},OpenMod.API.Persistence.IDataStoreFactory,IOptions{OpenMod.Core.Jobs.JobExecutorOptions})
-  name: JobScheduler(IRuntime, ILogger<JobScheduler>, IDataStoreFactory, IOptions<JobExecutorOptions>)
-  href: api/OpenMod.Core.Jobs.JobScheduler.html#OpenMod_Core_Jobs_JobScheduler__ctor_OpenMod_API_IRuntime_ILogger_OpenMod_Core_Jobs_JobScheduler__OpenMod_API_Persistence_IDataStoreFactory_IOptions_OpenMod_Core_Jobs_JobExecutorOptions__
-  commentId: M:OpenMod.Core.Jobs.JobScheduler.#ctor(OpenMod.API.IRuntime,ILogger{OpenMod.Core.Jobs.JobScheduler},OpenMod.API.Persistence.IDataStoreFactory,IOptions{OpenMod.Core.Jobs.JobExecutorOptions})
-  name.vb: JobScheduler(IRuntime, ILogger(Of JobScheduler), IDataStoreFactory, IOptions(Of JobExecutorOptions))
-  fullName: OpenMod.Core.Jobs.JobScheduler.JobScheduler(OpenMod.API.IRuntime, ILogger<OpenMod.Core.Jobs.JobScheduler>, OpenMod.API.Persistence.IDataStoreFactory, IOptions<OpenMod.Core.Jobs.JobExecutorOptions>)
-  fullName.vb: OpenMod.Core.Jobs.JobScheduler.JobScheduler(OpenMod.API.IRuntime, ILogger(Of OpenMod.Core.Jobs.JobScheduler), OpenMod.API.Persistence.IDataStoreFactory, IOptions(Of OpenMod.Core.Jobs.JobExecutorOptions))
-  nameWithType: JobScheduler.JobScheduler(IRuntime, ILogger<JobScheduler>, IDataStoreFactory, IOptions<JobExecutorOptions>)
-  nameWithType.vb: JobScheduler.JobScheduler(IRuntime, ILogger(Of JobScheduler), IDataStoreFactory, IOptions(Of JobExecutorOptions))
+- uid: OpenMod.Core.Jobs.JobScheduler.#ctor(OpenMod.API.IRuntime)
+  name: JobScheduler(IRuntime)
+  href: api/OpenMod.Core.Jobs.JobScheduler.html#OpenMod_Core_Jobs_JobScheduler__ctor_OpenMod_API_IRuntime_
+  commentId: M:OpenMod.Core.Jobs.JobScheduler.#ctor(OpenMod.API.IRuntime)
+  fullName: OpenMod.Core.Jobs.JobScheduler.JobScheduler(OpenMod.API.IRuntime)
+  nameWithType: JobScheduler.JobScheduler(IRuntime)
 - uid: OpenMod.Core.Jobs.JobScheduler.#ctor*
   name: JobScheduler
   href: api/OpenMod.Core.Jobs.JobScheduler.html#OpenMod_Core_Jobs_JobScheduler__ctor_
@@ -9479,15 +9622,15 @@ references:
   commentId: T:OpenMod.Core.Jobs.OpenModCommandTaskExecutor
   fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor
   nameWithType: OpenModCommandTaskExecutor
-- uid: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.#ctor(OpenMod.API.Commands.ICommandExecutor,ILogger{OpenMod.Core.Jobs.OpenModCommandTaskExecutor})
-  name: OpenModCommandTaskExecutor(ICommandExecutor, ILogger<OpenModCommandTaskExecutor>)
-  href: api/OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html#OpenMod_Core_Jobs_OpenModCommandTaskExecutor__ctor_OpenMod_API_Commands_ICommandExecutor_ILogger_OpenMod_Core_Jobs_OpenModCommandTaskExecutor__
-  commentId: M:OpenMod.Core.Jobs.OpenModCommandTaskExecutor.#ctor(OpenMod.API.Commands.ICommandExecutor,ILogger{OpenMod.Core.Jobs.OpenModCommandTaskExecutor})
-  name.vb: OpenModCommandTaskExecutor(ICommandExecutor, ILogger(Of OpenModCommandTaskExecutor))
-  fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.OpenModCommandTaskExecutor(OpenMod.API.Commands.ICommandExecutor, ILogger<OpenMod.Core.Jobs.OpenModCommandTaskExecutor>)
-  fullName.vb: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.OpenModCommandTaskExecutor(OpenMod.API.Commands.ICommandExecutor, ILogger(Of OpenMod.Core.Jobs.OpenModCommandTaskExecutor))
-  nameWithType: OpenModCommandTaskExecutor.OpenModCommandTaskExecutor(ICommandExecutor, ILogger<OpenModCommandTaskExecutor>)
-  nameWithType.vb: OpenModCommandTaskExecutor.OpenModCommandTaskExecutor(ICommandExecutor, ILogger(Of OpenModCommandTaskExecutor))
+- uid: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.#ctor(OpenMod.API.Commands.ICommandExecutor,ILogger{OpenMod.Core.Jobs.OpenModCommandTaskExecutor},IOptions{OpenMod.Core.Localization.SmartFormatOptions})
+  name: OpenModCommandTaskExecutor(ICommandExecutor, ILogger<OpenModCommandTaskExecutor>, IOptions<SmartFormatOptions>)
+  href: api/OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html#OpenMod_Core_Jobs_OpenModCommandTaskExecutor__ctor_OpenMod_API_Commands_ICommandExecutor_ILogger_OpenMod_Core_Jobs_OpenModCommandTaskExecutor__IOptions_OpenMod_Core_Localization_SmartFormatOptions__
+  commentId: M:OpenMod.Core.Jobs.OpenModCommandTaskExecutor.#ctor(OpenMod.API.Commands.ICommandExecutor,ILogger{OpenMod.Core.Jobs.OpenModCommandTaskExecutor},IOptions{OpenMod.Core.Localization.SmartFormatOptions})
+  name.vb: OpenModCommandTaskExecutor(ICommandExecutor, ILogger(Of OpenModCommandTaskExecutor), IOptions(Of SmartFormatOptions))
+  fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.OpenModCommandTaskExecutor(OpenMod.API.Commands.ICommandExecutor, ILogger<OpenMod.Core.Jobs.OpenModCommandTaskExecutor>, IOptions<OpenMod.Core.Localization.SmartFormatOptions>)
+  fullName.vb: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.OpenModCommandTaskExecutor(OpenMod.API.Commands.ICommandExecutor, ILogger(Of OpenMod.Core.Jobs.OpenModCommandTaskExecutor), IOptions(Of OpenMod.Core.Localization.SmartFormatOptions))
+  nameWithType: OpenModCommandTaskExecutor.OpenModCommandTaskExecutor(ICommandExecutor, ILogger<OpenModCommandTaskExecutor>, IOptions<SmartFormatOptions>)
+  nameWithType.vb: OpenModCommandTaskExecutor.OpenModCommandTaskExecutor(ICommandExecutor, ILogger(Of OpenModCommandTaskExecutor), IOptions(Of SmartFormatOptions))
 - uid: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.#ctor*
   name: OpenModCommandTaskExecutor
   href: api/OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html#OpenMod_Core_Jobs_OpenModCommandTaskExecutor__ctor_
@@ -9495,32 +9638,32 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.OpenModCommandTaskExecutor
   nameWithType: OpenModCommandTaskExecutor.OpenModCommandTaskExecutor
-- uid: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteAsync(OpenMod.API.Jobs.JobTask)
-  name: ExecuteAsync(JobTask)
-  href: api/OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html#OpenMod_Core_Jobs_OpenModCommandTaskExecutor_ExecuteAsync_OpenMod_API_Jobs_JobTask_
-  commentId: M:OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteAsync(OpenMod.API.Jobs.JobTask)
-  fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteAsync(OpenMod.API.Jobs.JobTask)
-  nameWithType: OpenModCommandTaskExecutor.ExecuteAsync(JobTask)
-- uid: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteAsync*
-  name: ExecuteAsync
-  href: api/OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html#OpenMod_Core_Jobs_OpenModCommandTaskExecutor_ExecuteAsync_
-  commentId: Overload:OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteAsync
+- uid: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteCommandTask(System.String,OpenMod.API.Jobs.JobTask)
+  name: ExecuteCommandTask(String, JobTask)
+  href: api/OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html#OpenMod_Core_Jobs_OpenModCommandTaskExecutor_ExecuteCommandTask_System_String_OpenMod_API_Jobs_JobTask_
+  commentId: M:OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteCommandTask(System.String,OpenMod.API.Jobs.JobTask)
+  fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteCommandTask(System.String, OpenMod.API.Jobs.JobTask)
+  nameWithType: OpenModCommandTaskExecutor.ExecuteCommandTask(String, JobTask)
+- uid: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteCommandTask*
+  name: ExecuteCommandTask
+  href: api/OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html#OpenMod_Core_Jobs_OpenModCommandTaskExecutor_ExecuteCommandTask_
+  commentId: Overload:OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteCommandTask
   isSpec: "True"
-  fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteAsync
-  nameWithType: OpenModCommandTaskExecutor.ExecuteAsync
-- uid: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.SupportsType(System.String)
-  name: SupportsType(String)
-  href: api/OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html#OpenMod_Core_Jobs_OpenModCommandTaskExecutor_SupportsType_System_String_
-  commentId: M:OpenMod.Core.Jobs.OpenModCommandTaskExecutor.SupportsType(System.String)
-  fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.SupportsType(System.String)
-  nameWithType: OpenModCommandTaskExecutor.SupportsType(String)
-- uid: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.SupportsType*
-  name: SupportsType
-  href: api/OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html#OpenMod_Core_Jobs_OpenModCommandTaskExecutor_SupportsType_
-  commentId: Overload:OpenMod.Core.Jobs.OpenModCommandTaskExecutor.SupportsType
+  fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.ExecuteCommandTask
+  nameWithType: OpenModCommandTaskExecutor.ExecuteCommandTask
+- uid: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.TaskType
+  name: TaskType
+  href: api/OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html#OpenMod_Core_Jobs_OpenModCommandTaskExecutor_TaskType
+  commentId: P:OpenMod.Core.Jobs.OpenModCommandTaskExecutor.TaskType
+  fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.TaskType
+  nameWithType: OpenModCommandTaskExecutor.TaskType
+- uid: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.TaskType*
+  name: TaskType
+  href: api/OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html#OpenMod_Core_Jobs_OpenModCommandTaskExecutor_TaskType_
+  commentId: Overload:OpenMod.Core.Jobs.OpenModCommandTaskExecutor.TaskType
   isSpec: "True"
-  fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.SupportsType
-  nameWithType: OpenModCommandTaskExecutor.SupportsType
+  fullName: OpenMod.Core.Jobs.OpenModCommandTaskExecutor.TaskType
+  nameWithType: OpenModCommandTaskExecutor.TaskType
 - uid: OpenMod.Core.Jobs.ScheduledJobsFile
   name: ScheduledJobsFile
   href: api/OpenMod.Core.Jobs.ScheduledJobsFile.html
@@ -9562,32 +9705,32 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Jobs.SystemCommandTaskExecutor.SystemCommandTaskExecutor
   nameWithType: SystemCommandTaskExecutor.SystemCommandTaskExecutor
-- uid: OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteAsync(OpenMod.API.Jobs.JobTask)
-  name: ExecuteAsync(JobTask)
-  href: api/OpenMod.Core.Jobs.SystemCommandTaskExecutor.html#OpenMod_Core_Jobs_SystemCommandTaskExecutor_ExecuteAsync_OpenMod_API_Jobs_JobTask_
-  commentId: M:OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteAsync(OpenMod.API.Jobs.JobTask)
-  fullName: OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteAsync(OpenMod.API.Jobs.JobTask)
-  nameWithType: SystemCommandTaskExecutor.ExecuteAsync(JobTask)
-- uid: OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteAsync*
-  name: ExecuteAsync
-  href: api/OpenMod.Core.Jobs.SystemCommandTaskExecutor.html#OpenMod_Core_Jobs_SystemCommandTaskExecutor_ExecuteAsync_
-  commentId: Overload:OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteAsync
+- uid: OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteCommandTask(System.String,OpenMod.API.Jobs.JobTask)
+  name: ExecuteCommandTask(String, JobTask)
+  href: api/OpenMod.Core.Jobs.SystemCommandTaskExecutor.html#OpenMod_Core_Jobs_SystemCommandTaskExecutor_ExecuteCommandTask_System_String_OpenMod_API_Jobs_JobTask_
+  commentId: M:OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteCommandTask(System.String,OpenMod.API.Jobs.JobTask)
+  fullName: OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteCommandTask(System.String, OpenMod.API.Jobs.JobTask)
+  nameWithType: SystemCommandTaskExecutor.ExecuteCommandTask(String, JobTask)
+- uid: OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteCommandTask*
+  name: ExecuteCommandTask
+  href: api/OpenMod.Core.Jobs.SystemCommandTaskExecutor.html#OpenMod_Core_Jobs_SystemCommandTaskExecutor_ExecuteCommandTask_
+  commentId: Overload:OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteCommandTask
   isSpec: "True"
-  fullName: OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteAsync
-  nameWithType: SystemCommandTaskExecutor.ExecuteAsync
-- uid: OpenMod.Core.Jobs.SystemCommandTaskExecutor.SupportsType(System.String)
-  name: SupportsType(String)
-  href: api/OpenMod.Core.Jobs.SystemCommandTaskExecutor.html#OpenMod_Core_Jobs_SystemCommandTaskExecutor_SupportsType_System_String_
-  commentId: M:OpenMod.Core.Jobs.SystemCommandTaskExecutor.SupportsType(System.String)
-  fullName: OpenMod.Core.Jobs.SystemCommandTaskExecutor.SupportsType(System.String)
-  nameWithType: SystemCommandTaskExecutor.SupportsType(String)
-- uid: OpenMod.Core.Jobs.SystemCommandTaskExecutor.SupportsType*
-  name: SupportsType
-  href: api/OpenMod.Core.Jobs.SystemCommandTaskExecutor.html#OpenMod_Core_Jobs_SystemCommandTaskExecutor_SupportsType_
-  commentId: Overload:OpenMod.Core.Jobs.SystemCommandTaskExecutor.SupportsType
+  fullName: OpenMod.Core.Jobs.SystemCommandTaskExecutor.ExecuteCommandTask
+  nameWithType: SystemCommandTaskExecutor.ExecuteCommandTask
+- uid: OpenMod.Core.Jobs.SystemCommandTaskExecutor.TaskType
+  name: TaskType
+  href: api/OpenMod.Core.Jobs.SystemCommandTaskExecutor.html#OpenMod_Core_Jobs_SystemCommandTaskExecutor_TaskType
+  commentId: P:OpenMod.Core.Jobs.SystemCommandTaskExecutor.TaskType
+  fullName: OpenMod.Core.Jobs.SystemCommandTaskExecutor.TaskType
+  nameWithType: SystemCommandTaskExecutor.TaskType
+- uid: OpenMod.Core.Jobs.SystemCommandTaskExecutor.TaskType*
+  name: TaskType
+  href: api/OpenMod.Core.Jobs.SystemCommandTaskExecutor.html#OpenMod_Core_Jobs_SystemCommandTaskExecutor_TaskType_
+  commentId: Overload:OpenMod.Core.Jobs.SystemCommandTaskExecutor.TaskType
   isSpec: "True"
-  fullName: OpenMod.Core.Jobs.SystemCommandTaskExecutor.SupportsType
-  nameWithType: SystemCommandTaskExecutor.SupportsType
+  fullName: OpenMod.Core.Jobs.SystemCommandTaskExecutor.TaskType
+  nameWithType: SystemCommandTaskExecutor.TaskType
 - uid: OpenMod.Core.Localization
   name: OpenMod.Core.Localization
   href: api/OpenMod.Core.Localization.html
@@ -9880,19 +10023,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Core.Localization.ProxyStringLocalizer.Item
   nameWithType: ProxyStringLocalizer.Item
-- uid: OpenMod.Core.Localization.ProxyStringLocalizer.WithCulture(CultureInfo)
-  name: WithCulture(CultureInfo)
-  href: api/OpenMod.Core.Localization.ProxyStringLocalizer.html#OpenMod_Core_Localization_ProxyStringLocalizer_WithCulture_CultureInfo_
-  commentId: M:OpenMod.Core.Localization.ProxyStringLocalizer.WithCulture(CultureInfo)
-  fullName: OpenMod.Core.Localization.ProxyStringLocalizer.WithCulture(CultureInfo)
-  nameWithType: ProxyStringLocalizer.WithCulture(CultureInfo)
-- uid: OpenMod.Core.Localization.ProxyStringLocalizer.WithCulture*
-  name: WithCulture
-  href: api/OpenMod.Core.Localization.ProxyStringLocalizer.html#OpenMod_Core_Localization_ProxyStringLocalizer_WithCulture_
-  commentId: Overload:OpenMod.Core.Localization.ProxyStringLocalizer.WithCulture
-  isSpec: "True"
-  fullName: OpenMod.Core.Localization.ProxyStringLocalizer.WithCulture
-  nameWithType: ProxyStringLocalizer.WithCulture
 - uid: OpenMod.Core.Localization.SmartFormatOptions
   name: SmartFormatOptions
   href: api/OpenMod.Core.Localization.SmartFormatOptions.html
@@ -11927,6 +12057,41 @@ references:
   fullName.vb: OpenMod.Core.Persistence.YamlDataStore.SaveAsync(Of T)(System.String, T)
   nameWithType: YamlDataStore.SaveAsync<T>(String, T)
   nameWithType.vb: YamlDataStore.SaveAsync(Of T)(String, T)
+- uid: OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector
+  name: YamlDataStore.SerializableIgnoreInspector
+  href: api/OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.html
+  commentId: T:OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector
+  fullName: OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector
+  nameWithType: YamlDataStore.SerializableIgnoreInspector
+- uid: OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.#ctor(ITypeInspector)
+  name: SerializableIgnoreInspector(ITypeInspector)
+  href: api/OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.html#OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector__ctor_ITypeInspector_
+  commentId: M:OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.#ctor(ITypeInspector)
+  fullName: OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.SerializableIgnoreInspector(ITypeInspector)
+  nameWithType: YamlDataStore.SerializableIgnoreInspector.SerializableIgnoreInspector(ITypeInspector)
+- uid: OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.#ctor*
+  name: SerializableIgnoreInspector
+  href: api/OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.html#OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector__ctor_
+  commentId: Overload:OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.#ctor
+  isSpec: "True"
+  fullName: OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.SerializableIgnoreInspector
+  nameWithType: YamlDataStore.SerializableIgnoreInspector.SerializableIgnoreInspector
+- uid: OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.GetProperties(Type,System.Nullable{System.Object})
+  name: GetProperties(Type, Nullable<Object>)
+  href: api/OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.html#OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector_GetProperties_Type_System_Nullable_System_Object__
+  commentId: M:OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.GetProperties(Type,System.Nullable{System.Object})
+  name.vb: GetProperties(Type, Nullable(Of Object))
+  fullName: OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.GetProperties(Type, System.Nullable<System.Object>)
+  fullName.vb: OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.GetProperties(Type, System.Nullable(Of System.Object))
+  nameWithType: YamlDataStore.SerializableIgnoreInspector.GetProperties(Type, Nullable<Object>)
+  nameWithType.vb: YamlDataStore.SerializableIgnoreInspector.GetProperties(Type, Nullable(Of Object))
+- uid: OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.GetProperties*
+  name: GetProperties
+  href: api/OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.html#OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector_GetProperties_
+  commentId: Overload:OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.GetProperties
+  isSpec: "True"
+  fullName: OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.GetProperties
+  nameWithType: YamlDataStore.SerializableIgnoreInspector.GetProperties
 - uid: OpenMod.Core.Persistence.YamlDataStoreFactory
   name: YamlDataStoreFactory
   href: api/OpenMod.Core.Persistence.YamlDataStoreFactory.html
@@ -16432,28 +16597,6 @@ references:
   fullName.vb: OpenMod.EntityFrameworkCore.MySql.OpenModMySqlDbContextFactory(Of TDbContext).CreateDbContext
   nameWithType: OpenModMySqlDbContextFactory<TDbContext>.CreateDbContext
   nameWithType.vb: OpenModMySqlDbContextFactory(Of TDbContext).CreateDbContext
-- uid: OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver
-  name: PomeloMySqlConnectorResolver
-  href: api/OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver.html
-  commentId: T:OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver
-  fullName: OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver
-  nameWithType: PomeloMySqlConnectorResolver
-- uid: OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver.#ctor(NuGetPackageManager,ILogger{OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver})
-  name: PomeloMySqlConnectorResolver(NuGetPackageManager, ILogger<PomeloMySqlConnectorResolver>)
-  href: api/OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver.html#OpenMod_EntityFrameworkCore_MySql_PomeloMySqlConnectorResolver__ctor_NuGetPackageManager_ILogger_OpenMod_EntityFrameworkCore_MySql_PomeloMySqlConnectorResolver__
-  commentId: M:OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver.#ctor(NuGetPackageManager,ILogger{OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver})
-  name.vb: PomeloMySqlConnectorResolver(NuGetPackageManager, ILogger(Of PomeloMySqlConnectorResolver))
-  fullName: OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver.PomeloMySqlConnectorResolver(NuGetPackageManager, ILogger<OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver>)
-  fullName.vb: OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver.PomeloMySqlConnectorResolver(NuGetPackageManager, ILogger(Of OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver))
-  nameWithType: PomeloMySqlConnectorResolver.PomeloMySqlConnectorResolver(NuGetPackageManager, ILogger<PomeloMySqlConnectorResolver>)
-  nameWithType.vb: PomeloMySqlConnectorResolver.PomeloMySqlConnectorResolver(NuGetPackageManager, ILogger(Of PomeloMySqlConnectorResolver))
-- uid: OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver.#ctor*
-  name: PomeloMySqlConnectorResolver
-  href: api/OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver.html#OpenMod_EntityFrameworkCore_MySql_PomeloMySqlConnectorResolver__ctor_
-  commentId: Overload:OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver.#ctor
-  isSpec: "True"
-  fullName: OpenMod.EntityFrameworkCore.MySql.PomeloMySqlConnectorResolver.PomeloMySqlConnectorResolver
-  nameWithType: PomeloMySqlConnectorResolver.PomeloMySqlConnectorResolver
 - uid: OpenMod.EntityFrameworkCore.OpenModDbContext`1
   name: OpenModDbContext<TSelf>
   href: api/OpenMod.EntityFrameworkCore.OpenModDbContext-1.html
@@ -21282,11 +21425,11 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Entities.RustEntity.DamageSourceName
   nameWithType: RustEntity.DamageSourceName
-- uid: OpenMod.Rust.Entities.RustEntity.DoTeleport(System.Numerics.Vector3,System.Numerics.Quaternion)
+- uid: OpenMod.Rust.Entities.RustEntity.DoTeleport(Vector3,Quaternion)
   name: DoTeleport(Vector3, Quaternion)
-  href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_DoTeleport_System_Numerics_Vector3_System_Numerics_Quaternion_
-  commentId: M:OpenMod.Rust.Entities.RustEntity.DoTeleport(System.Numerics.Vector3,System.Numerics.Quaternion)
-  fullName: OpenMod.Rust.Entities.RustEntity.DoTeleport(System.Numerics.Vector3, System.Numerics.Quaternion)
+  href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_DoTeleport_Vector3_Quaternion_
+  commentId: M:OpenMod.Rust.Entities.RustEntity.DoTeleport(Vector3,Quaternion)
+  fullName: OpenMod.Rust.Entities.RustEntity.DoTeleport(Vector3, Quaternion)
   nameWithType: RustEntity.DoTeleport(Vector3, Quaternion)
 - uid: OpenMod.Rust.Entities.RustEntity.DoTeleport*
   name: DoTeleport
@@ -21321,17 +21464,17 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Entities.RustEntity.EntityInstanceId
   nameWithType: RustEntity.EntityInstanceId
-- uid: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3)
+- uid: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(Vector3)
   name: SetPositionAsync(Vector3)
-  href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_SetPositionAsync_System_Numerics_Vector3_
-  commentId: M:OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3)
-  fullName: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3)
+  href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_SetPositionAsync_Vector3_
+  commentId: M:OpenMod.Rust.Entities.RustEntity.SetPositionAsync(Vector3)
+  fullName: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(Vector3)
   nameWithType: RustEntity.SetPositionAsync(Vector3)
-- uid: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Quaternion)
+- uid: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(Vector3,Quaternion)
   name: SetPositionAsync(Vector3, Quaternion)
-  href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_SetPositionAsync_System_Numerics_Vector3_System_Numerics_Quaternion_
-  commentId: M:OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3,System.Numerics.Quaternion)
-  fullName: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(System.Numerics.Vector3, System.Numerics.Quaternion)
+  href: api/OpenMod.Rust.Entities.RustEntity.html#OpenMod_Rust_Entities_RustEntity_SetPositionAsync_Vector3_Quaternion_
+  commentId: M:OpenMod.Rust.Entities.RustEntity.SetPositionAsync(Vector3,Quaternion)
+  fullName: OpenMod.Rust.Entities.RustEntity.SetPositionAsync(Vector3, Quaternion)
   nameWithType: RustEntity.SetPositionAsync(Vector3, Quaternion)
 - uid: OpenMod.Rust.Entities.RustEntity.SetPositionAsync*
   name: SetPositionAsync
@@ -21494,12 +21637,15 @@ references:
   commentId: T:OpenMod.Rust.Items.RustInventoryPage
   fullName: OpenMod.Rust.Items.RustInventoryPage
   nameWithType: RustInventoryPage
-- uid: OpenMod.Rust.Items.RustInventoryPage.#ctor(ItemContainer,OpenMod.Extensions.Games.Abstractions.Items.IInventory,System.String)
-  name: RustInventoryPage(ItemContainer, IInventory, String)
-  href: api/OpenMod.Rust.Items.RustInventoryPage.html#OpenMod_Rust_Items_RustInventoryPage__ctor_ItemContainer_OpenMod_Extensions_Games_Abstractions_Items_IInventory_System_String_
-  commentId: M:OpenMod.Rust.Items.RustInventoryPage.#ctor(ItemContainer,OpenMod.Extensions.Games.Abstractions.Items.IInventory,System.String)
-  fullName: OpenMod.Rust.Items.RustInventoryPage.RustInventoryPage(ItemContainer, OpenMod.Extensions.Games.Abstractions.Items.IInventory, System.String)
-  nameWithType: RustInventoryPage.RustInventoryPage(ItemContainer, IInventory, String)
+- uid: OpenMod.Rust.Items.RustInventoryPage.#ctor(ItemContainer,OpenMod.Extensions.Games.Abstractions.Items.IInventory,System.Nullable{System.String})
+  name: RustInventoryPage(ItemContainer, IInventory, Nullable<String>)
+  href: api/OpenMod.Rust.Items.RustInventoryPage.html#OpenMod_Rust_Items_RustInventoryPage__ctor_ItemContainer_OpenMod_Extensions_Games_Abstractions_Items_IInventory_System_Nullable_System_String__
+  commentId: M:OpenMod.Rust.Items.RustInventoryPage.#ctor(ItemContainer,OpenMod.Extensions.Games.Abstractions.Items.IInventory,System.Nullable{System.String})
+  name.vb: RustInventoryPage(ItemContainer, IInventory, Nullable(Of String))
+  fullName: OpenMod.Rust.Items.RustInventoryPage.RustInventoryPage(ItemContainer, OpenMod.Extensions.Games.Abstractions.Items.IInventory, System.Nullable<System.String>)
+  fullName.vb: OpenMod.Rust.Items.RustInventoryPage.RustInventoryPage(ItemContainer, OpenMod.Extensions.Games.Abstractions.Items.IInventory, System.Nullable(Of System.String))
+  nameWithType: RustInventoryPage.RustInventoryPage(ItemContainer, IInventory, Nullable<String>)
+  nameWithType.vb: RustInventoryPage.RustInventoryPage(ItemContainer, IInventory, Nullable(Of String))
 - uid: OpenMod.Rust.Items.RustInventoryPage.#ctor*
   name: RustInventoryPage
   href: api/OpenMod.Rust.Items.RustInventoryPage.html#OpenMod_Rust_Items_RustInventoryPage__ctor_
@@ -21624,23 +21770,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Items.RustInventoryPage.Name
   nameWithType: RustInventoryPage.Name
-- uid: OpenMod.Rust.Items.RustInventoryPage.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/OpenMod.Rust.Items.RustInventoryPage.html#OpenMod_Rust_Items_RustInventoryPage_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:OpenMod.Rust.Items.RustInventoryPage.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: OpenMod.Rust.Items.RustInventoryPage.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: RustInventoryPage.IEnumerable.GetEnumerator()
-  nameWithType.vb: RustInventoryPage.System.Collections.IEnumerable.GetEnumerator()
-- uid: OpenMod.Rust.Items.RustInventoryPage.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/OpenMod.Rust.Items.RustInventoryPage.html#OpenMod_Rust_Items_RustInventoryPage_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:OpenMod.Rust.Items.RustInventoryPage.System#Collections#IEnumerable#GetEnumerator
-  isSpec: "True"
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: OpenMod.Rust.Items.RustInventoryPage.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: RustInventoryPage.IEnumerable.GetEnumerator
-  nameWithType.vb: RustInventoryPage.System.Collections.IEnumerable.GetEnumerator
 - uid: OpenMod.Rust.Items.RustItem
   name: RustItem
   href: api/OpenMod.Rust.Items.RustItem.html
@@ -21958,23 +22087,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Items.RustItemContainerInventory.Pages
   nameWithType: RustItemContainerInventory.Pages
-- uid: OpenMod.Rust.Items.RustItemContainerInventory.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/OpenMod.Rust.Items.RustItemContainerInventory.html#OpenMod_Rust_Items_RustItemContainerInventory_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:OpenMod.Rust.Items.RustItemContainerInventory.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: OpenMod.Rust.Items.RustItemContainerInventory.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: RustItemContainerInventory.IEnumerable.GetEnumerator()
-  nameWithType.vb: RustItemContainerInventory.System.Collections.IEnumerable.GetEnumerator()
-- uid: OpenMod.Rust.Items.RustItemContainerInventory.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/OpenMod.Rust.Items.RustItemContainerInventory.html#OpenMod_Rust_Items_RustItemContainerInventory_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:OpenMod.Rust.Items.RustItemContainerInventory.System#Collections#IEnumerable#GetEnumerator
-  isSpec: "True"
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: OpenMod.Rust.Items.RustItemContainerInventory.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: RustItemContainerInventory.IEnumerable.GetEnumerator
-  nameWithType.vb: RustItemContainerInventory.System.Collections.IEnumerable.GetEnumerator
 - uid: OpenMod.Rust.Items.RustItemDirectory
   name: RustItemDirectory
   href: api/OpenMod.Rust.Items.RustItemDirectory.html
@@ -22127,11 +22239,11 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Items.RustItemSpawner.GiveItemAsync
   nameWithType: RustItemSpawner.GiveItemAsync
-- uid: OpenMod.Rust.Items.RustItemSpawner.SpawnItemAsync(System.Numerics.Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Items.IItemState)
+- uid: OpenMod.Rust.Items.RustItemSpawner.SpawnItemAsync(Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Items.IItemState)
   name: SpawnItemAsync(Vector3, String, IItemState)
-  href: api/OpenMod.Rust.Items.RustItemSpawner.html#OpenMod_Rust_Items_RustItemSpawner_SpawnItemAsync_System_Numerics_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Items_IItemState_
-  commentId: M:OpenMod.Rust.Items.RustItemSpawner.SpawnItemAsync(System.Numerics.Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Items.IItemState)
-  fullName: OpenMod.Rust.Items.RustItemSpawner.SpawnItemAsync(System.Numerics.Vector3, System.String, OpenMod.Extensions.Games.Abstractions.Items.IItemState)
+  href: api/OpenMod.Rust.Items.RustItemSpawner.html#OpenMod_Rust_Items_RustItemSpawner_SpawnItemAsync_Vector3_System_String_OpenMod_Extensions_Games_Abstractions_Items_IItemState_
+  commentId: M:OpenMod.Rust.Items.RustItemSpawner.SpawnItemAsync(Vector3,System.String,OpenMod.Extensions.Games.Abstractions.Items.IItemState)
+  fullName: OpenMod.Rust.Items.RustItemSpawner.SpawnItemAsync(Vector3, System.String, OpenMod.Extensions.Games.Abstractions.Items.IItemState)
   nameWithType: RustItemSpawner.SpawnItemAsync(Vector3, String, IItemState)
 - uid: OpenMod.Rust.Items.RustItemSpawner.SpawnItemAsync*
   name: SpawnItemAsync
@@ -22295,23 +22407,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Items.RustPlayerInventory.PlayerInventory
   nameWithType: RustPlayerInventory.PlayerInventory
-- uid: OpenMod.Rust.Items.RustPlayerInventory.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/OpenMod.Rust.Items.RustPlayerInventory.html#OpenMod_Rust_Items_RustPlayerInventory_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:OpenMod.Rust.Items.RustPlayerInventory.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: OpenMod.Rust.Items.RustPlayerInventory.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: RustPlayerInventory.IEnumerable.GetEnumerator()
-  nameWithType.vb: RustPlayerInventory.System.Collections.IEnumerable.GetEnumerator()
-- uid: OpenMod.Rust.Items.RustPlayerInventory.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/OpenMod.Rust.Items.RustPlayerInventory.html#OpenMod_Rust_Items_RustPlayerInventory_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:OpenMod.Rust.Items.RustPlayerInventory.System#Collections#IEnumerable#GetEnumerator
-  isSpec: "True"
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: OpenMod.Rust.Items.RustPlayerInventory.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: RustPlayerInventory.IEnumerable.GetEnumerator
-  nameWithType.vb: RustPlayerInventory.System.Collections.IEnumerable.GetEnumerator
 - uid: OpenMod.Rust.Networkables
   name: OpenMod.Rust.Networkables
   href: api/OpenMod.Rust.Networkables.html
@@ -22561,11 +22656,11 @@ references:
   commentId: T:OpenMod.Rust.Oxide.OpenModRustOxideHost
   fullName: OpenMod.Rust.Oxide.OpenModRustOxideHost
   nameWithType: OpenModRustOxideHost
-- uid: OpenMod.Rust.Oxide.OpenModRustOxideHost.#ctor(System.IServiceProvider,ILifetimeScope,IRuntime,IDataStoreFactory)
+- uid: OpenMod.Rust.Oxide.OpenModRustOxideHost.#ctor(IServiceProvider,ILifetimeScope,IRuntime,IDataStoreFactory)
   name: OpenModRustOxideHost(IServiceProvider, ILifetimeScope, IRuntime, IDataStoreFactory)
-  href: api/OpenMod.Rust.Oxide.OpenModRustOxideHost.html#OpenMod_Rust_Oxide_OpenModRustOxideHost__ctor_System_IServiceProvider_ILifetimeScope_IRuntime_IDataStoreFactory_
-  commentId: M:OpenMod.Rust.Oxide.OpenModRustOxideHost.#ctor(System.IServiceProvider,ILifetimeScope,IRuntime,IDataStoreFactory)
-  fullName: OpenMod.Rust.Oxide.OpenModRustOxideHost.OpenModRustOxideHost(System.IServiceProvider, ILifetimeScope, IRuntime, IDataStoreFactory)
+  href: api/OpenMod.Rust.Oxide.OpenModRustOxideHost.html#OpenMod_Rust_Oxide_OpenModRustOxideHost__ctor_IServiceProvider_ILifetimeScope_IRuntime_IDataStoreFactory_
+  commentId: M:OpenMod.Rust.Oxide.OpenModRustOxideHost.#ctor(IServiceProvider,ILifetimeScope,IRuntime,IDataStoreFactory)
+  fullName: OpenMod.Rust.Oxide.OpenModRustOxideHost.OpenModRustOxideHost(IServiceProvider, ILifetimeScope, IRuntime, IDataStoreFactory)
   nameWithType: OpenModRustOxideHost.OpenModRustOxideHost(IServiceProvider, ILifetimeScope, IRuntime, IDataStoreFactory)
 - uid: OpenMod.Rust.Oxide.OpenModRustOxideHost.#ctor*
   name: OpenModRustOxideHost
@@ -25143,13 +25238,13 @@ references:
   commentId: T:OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent
   fullName: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent
   nameWithType: RustPlayerMapMarkersClearedEvent
-- uid: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent.#ctor(OpenMod.Rust.Players.RustPlayer,System.Collections.Generic.List{MapNote})
+- uid: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent.#ctor(OpenMod.Rust.Players.RustPlayer,List{MapNote})
   name: RustPlayerMapMarkersClearedEvent(RustPlayer, List<MapNote>)
-  href: api/OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent.html#OpenMod_Rust_Players_Map_Events_RustPlayerMapMarkersClearedEvent__ctor_OpenMod_Rust_Players_RustPlayer_System_Collections_Generic_List_MapNote__
-  commentId: M:OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent.#ctor(OpenMod.Rust.Players.RustPlayer,System.Collections.Generic.List{MapNote})
+  href: api/OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent.html#OpenMod_Rust_Players_Map_Events_RustPlayerMapMarkersClearedEvent__ctor_OpenMod_Rust_Players_RustPlayer_List_MapNote__
+  commentId: M:OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent.#ctor(OpenMod.Rust.Players.RustPlayer,List{MapNote})
   name.vb: RustPlayerMapMarkersClearedEvent(RustPlayer, List(Of MapNote))
-  fullName: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent.RustPlayerMapMarkersClearedEvent(OpenMod.Rust.Players.RustPlayer, System.Collections.Generic.List<MapNote>)
-  fullName.vb: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent.RustPlayerMapMarkersClearedEvent(OpenMod.Rust.Players.RustPlayer, System.Collections.Generic.List(Of MapNote))
+  fullName: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent.RustPlayerMapMarkersClearedEvent(OpenMod.Rust.Players.RustPlayer, List<MapNote>)
+  fullName.vb: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent.RustPlayerMapMarkersClearedEvent(OpenMod.Rust.Players.RustPlayer, List(Of MapNote))
   nameWithType: RustPlayerMapMarkersClearedEvent.RustPlayerMapMarkersClearedEvent(RustPlayer, List<MapNote>)
   nameWithType.vb: RustPlayerMapMarkersClearedEvent.RustPlayerMapMarkersClearedEvent(RustPlayer, List(Of MapNote))
 - uid: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearedEvent.#ctor*
@@ -25178,13 +25273,13 @@ references:
   commentId: T:OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent
   fullName: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent
   nameWithType: RustPlayerMapMarkersClearingEvent
-- uid: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent.#ctor(OpenMod.Rust.Players.RustPlayer,System.Collections.Generic.List{MapNote})
+- uid: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent.#ctor(OpenMod.Rust.Players.RustPlayer,List{MapNote})
   name: RustPlayerMapMarkersClearingEvent(RustPlayer, List<MapNote>)
-  href: api/OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent.html#OpenMod_Rust_Players_Map_Events_RustPlayerMapMarkersClearingEvent__ctor_OpenMod_Rust_Players_RustPlayer_System_Collections_Generic_List_MapNote__
-  commentId: M:OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent.#ctor(OpenMod.Rust.Players.RustPlayer,System.Collections.Generic.List{MapNote})
+  href: api/OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent.html#OpenMod_Rust_Players_Map_Events_RustPlayerMapMarkersClearingEvent__ctor_OpenMod_Rust_Players_RustPlayer_List_MapNote__
+  commentId: M:OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent.#ctor(OpenMod.Rust.Players.RustPlayer,List{MapNote})
   name.vb: RustPlayerMapMarkersClearingEvent(RustPlayer, List(Of MapNote))
-  fullName: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent.RustPlayerMapMarkersClearingEvent(OpenMod.Rust.Players.RustPlayer, System.Collections.Generic.List<MapNote>)
-  fullName.vb: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent.RustPlayerMapMarkersClearingEvent(OpenMod.Rust.Players.RustPlayer, System.Collections.Generic.List(Of MapNote))
+  fullName: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent.RustPlayerMapMarkersClearingEvent(OpenMod.Rust.Players.RustPlayer, List<MapNote>)
+  fullName.vb: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent.RustPlayerMapMarkersClearingEvent(OpenMod.Rust.Players.RustPlayer, List(Of MapNote))
   nameWithType: RustPlayerMapMarkersClearingEvent.RustPlayerMapMarkersClearingEvent(RustPlayer, List<MapNote>)
   nameWithType.vb: RustPlayerMapMarkersClearingEvent.RustPlayerMapMarkersClearingEvent(RustPlayer, List(Of MapNote))
 - uid: OpenMod.Rust.Players.Map.Events.RustPlayerMapMarkersClearingEvent.#ctor*
@@ -25419,11 +25514,11 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Players.RustPlayer.DamageAsync
   nameWithType: RustPlayer.DamageAsync
-- uid: OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3,System.Numerics.Quaternion)
+- uid: OpenMod.Rust.Players.RustPlayer.DoTeleport(Vector3,Quaternion)
   name: DoTeleport(Vector3, Quaternion)
-  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_DoTeleport_System_Numerics_Vector3_System_Numerics_Quaternion_
-  commentId: M:OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3,System.Numerics.Quaternion)
-  fullName: OpenMod.Rust.Players.RustPlayer.DoTeleport(System.Numerics.Vector3, System.Numerics.Quaternion)
+  href: api/OpenMod.Rust.Players.RustPlayer.html#OpenMod_Rust_Players_RustPlayer_DoTeleport_Vector3_Quaternion_
+  commentId: M:OpenMod.Rust.Players.RustPlayer.DoTeleport(Vector3,Quaternion)
+  fullName: OpenMod.Rust.Players.RustPlayer.DoTeleport(Vector3, Quaternion)
   nameWithType: RustPlayer.DoTeleport(Vector3, Quaternion)
 - uid: OpenMod.Rust.Players.RustPlayer.DoTeleport*
   name: DoTeleport
@@ -26447,11 +26542,11 @@ references:
   fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.Rotation
   nameWithType: RustNetworkableTransform.Rotation
 - uid: OpenMod.Rust.Transforms.RustNetworkableTransform.SetPositionAsync(System.Numerics.Vector3)
-  name: SetPositionAsync(Vector3)
+  name: SetPositionAsync(System.Numerics.Vector3)
   href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_SetPositionAsync_System_Numerics_Vector3_
   commentId: M:OpenMod.Rust.Transforms.RustNetworkableTransform.SetPositionAsync(System.Numerics.Vector3)
   fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.SetPositionAsync(System.Numerics.Vector3)
-  nameWithType: RustNetworkableTransform.SetPositionAsync(Vector3)
+  nameWithType: RustNetworkableTransform.SetPositionAsync(System.Numerics.Vector3)
 - uid: OpenMod.Rust.Transforms.RustNetworkableTransform.SetPositionAsync*
   name: SetPositionAsync
   href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_SetPositionAsync_
@@ -26459,11 +26554,11 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.SetPositionAsync
   nameWithType: RustNetworkableTransform.SetPositionAsync
-- uid: OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(System.Numerics.Quaternion)
+- uid: OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(Quaternion)
   name: SetRotationAsync(Quaternion)
-  href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_SetRotationAsync_System_Numerics_Quaternion_
-  commentId: M:OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(System.Numerics.Quaternion)
-  fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(System.Numerics.Quaternion)
+  href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_SetRotationAsync_Quaternion_
+  commentId: M:OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(Quaternion)
+  fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync(Quaternion)
   nameWithType: RustNetworkableTransform.SetRotationAsync(Quaternion)
 - uid: OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync*
   name: SetRotationAsync
@@ -26473,11 +26568,11 @@ references:
   fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.SetRotationAsync
   nameWithType: RustNetworkableTransform.SetRotationAsync
 - uid: OpenMod.Rust.Transforms.RustNetworkableTransform.SetVelocityAsync(System.Numerics.Vector3)
-  name: SetVelocityAsync(Vector3)
+  name: SetVelocityAsync(System.Numerics.Vector3)
   href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_SetVelocityAsync_System_Numerics_Vector3_
   commentId: M:OpenMod.Rust.Transforms.RustNetworkableTransform.SetVelocityAsync(System.Numerics.Vector3)
   fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.SetVelocityAsync(System.Numerics.Vector3)
-  nameWithType: RustNetworkableTransform.SetVelocityAsync(Vector3)
+  nameWithType: RustNetworkableTransform.SetVelocityAsync(System.Numerics.Vector3)
 - uid: OpenMod.Rust.Transforms.RustNetworkableTransform.SetVelocityAsync*
   name: SetVelocityAsync
   href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_SetVelocityAsync_
@@ -26485,23 +26580,6 @@ references:
   isSpec: "True"
   fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.SetVelocityAsync
   nameWithType: RustNetworkableTransform.SetVelocityAsync
-- uid: OpenMod.Rust.Transforms.RustNetworkableTransform.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:OpenMod.Rust.Transforms.RustNetworkableTransform.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: RustNetworkableTransform.IEnumerable.GetEnumerator()
-  nameWithType.vb: RustNetworkableTransform.System.Collections.IEnumerable.GetEnumerator()
-- uid: OpenMod.Rust.Transforms.RustNetworkableTransform.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:OpenMod.Rust.Transforms.RustNetworkableTransform.System#Collections#IEnumerable#GetEnumerator
-  isSpec: "True"
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: OpenMod.Rust.Transforms.RustNetworkableTransform.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: RustNetworkableTransform.IEnumerable.GetEnumerator
-  nameWithType.vb: RustNetworkableTransform.System.Collections.IEnumerable.GetEnumerator
 - uid: OpenMod.Rust.Transforms.RustNetworkableTransform.TransformName
   name: TransformName
   href: api/OpenMod.Rust.Transforms.RustNetworkableTransform.html#OpenMod_Rust_Transforms_RustNetworkableTransform_TransformName
@@ -36444,12 +36522,15 @@ references:
   commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.Equals(OpenMod.Unturned.Players.UnturnedPlayer)
   fullName: OpenMod.Unturned.Players.UnturnedPlayer.Equals(OpenMod.Unturned.Players.UnturnedPlayer)
   nameWithType: UnturnedPlayer.Equals(UnturnedPlayer)
-- uid: OpenMod.Unturned.Players.UnturnedPlayer.Equals(System.Object)
-  name: Equals(Object)
-  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Equals_System_Object_
-  commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.Equals(System.Object)
-  fullName: OpenMod.Unturned.Players.UnturnedPlayer.Equals(System.Object)
-  nameWithType: UnturnedPlayer.Equals(Object)
+- uid: OpenMod.Unturned.Players.UnturnedPlayer.Equals(System.Nullable{System.Object})
+  name: Equals(Nullable<Object>)
+  href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Equals_System_Nullable_System_Object__
+  commentId: M:OpenMod.Unturned.Players.UnturnedPlayer.Equals(System.Nullable{System.Object})
+  name.vb: Equals(Nullable(Of Object))
+  fullName: OpenMod.Unturned.Players.UnturnedPlayer.Equals(System.Nullable<System.Object>)
+  fullName.vb: OpenMod.Unturned.Players.UnturnedPlayer.Equals(System.Nullable(Of System.Object))
+  nameWithType: UnturnedPlayer.Equals(Nullable<Object>)
+  nameWithType.vb: UnturnedPlayer.Equals(Nullable(Of Object))
 - uid: OpenMod.Unturned.Players.UnturnedPlayer.Equals*
   name: Equals
   href: api/OpenMod.Unturned.Players.UnturnedPlayer.html#OpenMod_Unturned_Players_UnturnedPlayer_Equals_
@@ -39562,12 +39643,15 @@ references:
   commentId: M:OpenMod.Unturned.Users.UnturnedPendingUser.Equals(OpenMod.Unturned.Users.UnturnedUser)
   fullName: OpenMod.Unturned.Users.UnturnedPendingUser.Equals(OpenMod.Unturned.Users.UnturnedUser)
   nameWithType: UnturnedPendingUser.Equals(UnturnedUser)
-- uid: OpenMod.Unturned.Users.UnturnedPendingUser.Equals(System.Object)
-  name: Equals(Object)
-  href: api/OpenMod.Unturned.Users.UnturnedPendingUser.html#OpenMod_Unturned_Users_UnturnedPendingUser_Equals_System_Object_
-  commentId: M:OpenMod.Unturned.Users.UnturnedPendingUser.Equals(System.Object)
-  fullName: OpenMod.Unturned.Users.UnturnedPendingUser.Equals(System.Object)
-  nameWithType: UnturnedPendingUser.Equals(Object)
+- uid: OpenMod.Unturned.Users.UnturnedPendingUser.Equals(System.Nullable{System.Object})
+  name: Equals(Nullable<Object>)
+  href: api/OpenMod.Unturned.Users.UnturnedPendingUser.html#OpenMod_Unturned_Users_UnturnedPendingUser_Equals_System_Nullable_System_Object__
+  commentId: M:OpenMod.Unturned.Users.UnturnedPendingUser.Equals(System.Nullable{System.Object})
+  name.vb: Equals(Nullable(Of Object))
+  fullName: OpenMod.Unturned.Users.UnturnedPendingUser.Equals(System.Nullable<System.Object>)
+  fullName.vb: OpenMod.Unturned.Users.UnturnedPendingUser.Equals(System.Nullable(Of System.Object))
+  nameWithType: UnturnedPendingUser.Equals(Nullable<Object>)
+  nameWithType.vb: UnturnedPendingUser.Equals(Nullable(Of Object))
 - uid: OpenMod.Unturned.Users.UnturnedPendingUser.Equals*
   name: Equals
   href: api/OpenMod.Unturned.Users.UnturnedPendingUser.html#OpenMod_Unturned_Users_UnturnedPendingUser_Equals_
@@ -46354,11 +46438,11 @@ references:
   commentId: T:UserDatabasePlugin.Commands.CommandLookup
   fullName: UserDatabasePlugin.Commands.CommandLookup
   nameWithType: CommandLookup
-- uid: UserDatabasePlugin.Commands.CommandLookup.#ctor(System.IServiceProvider,IUserManager,IStringLocalizer,UserDatabasePlugin.Database.UserDatabaseDbContext)
+- uid: UserDatabasePlugin.Commands.CommandLookup.#ctor(IServiceProvider,IUserManager,IStringLocalizer,UserDatabasePlugin.Database.UserDatabaseDbContext)
   name: CommandLookup(IServiceProvider, IUserManager, IStringLocalizer, UserDatabaseDbContext)
-  href: api/UserDatabasePlugin.Commands.CommandLookup.html#UserDatabasePlugin_Commands_CommandLookup__ctor_System_IServiceProvider_IUserManager_IStringLocalizer_UserDatabasePlugin_Database_UserDatabaseDbContext_
-  commentId: M:UserDatabasePlugin.Commands.CommandLookup.#ctor(System.IServiceProvider,IUserManager,IStringLocalizer,UserDatabasePlugin.Database.UserDatabaseDbContext)
-  fullName: UserDatabasePlugin.Commands.CommandLookup.CommandLookup(System.IServiceProvider, IUserManager, IStringLocalizer, UserDatabasePlugin.Database.UserDatabaseDbContext)
+  href: api/UserDatabasePlugin.Commands.CommandLookup.html#UserDatabasePlugin_Commands_CommandLookup__ctor_IServiceProvider_IUserManager_IStringLocalizer_UserDatabasePlugin_Database_UserDatabaseDbContext_
+  commentId: M:UserDatabasePlugin.Commands.CommandLookup.#ctor(IServiceProvider,IUserManager,IStringLocalizer,UserDatabasePlugin.Database.UserDatabaseDbContext)
+  fullName: UserDatabasePlugin.Commands.CommandLookup.CommandLookup(IServiceProvider, IUserManager, IStringLocalizer, UserDatabasePlugin.Database.UserDatabaseDbContext)
   nameWithType: CommandLookup.CommandLookup(IServiceProvider, IUserManager, IStringLocalizer, UserDatabaseDbContext)
 - uid: UserDatabasePlugin.Commands.CommandLookup.#ctor*
   name: CommandLookup
@@ -46546,17 +46630,17 @@ references:
   commentId: T:UserDatabasePlugin.Database.UserDatabaseDbContext
   fullName: UserDatabasePlugin.Database.UserDatabaseDbContext
   nameWithType: UserDatabaseDbContext
-- uid: UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(IDbContextConfigurator,System.IServiceProvider)
+- uid: UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(IDbContextConfigurator,IServiceProvider)
   name: UserDatabaseDbContext(IDbContextConfigurator, IServiceProvider)
-  href: api/UserDatabasePlugin.Database.UserDatabaseDbContext.html#UserDatabasePlugin_Database_UserDatabaseDbContext__ctor_IDbContextConfigurator_System_IServiceProvider_
-  commentId: M:UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(IDbContextConfigurator,System.IServiceProvider)
-  fullName: UserDatabasePlugin.Database.UserDatabaseDbContext.UserDatabaseDbContext(IDbContextConfigurator, System.IServiceProvider)
+  href: api/UserDatabasePlugin.Database.UserDatabaseDbContext.html#UserDatabasePlugin_Database_UserDatabaseDbContext__ctor_IDbContextConfigurator_IServiceProvider_
+  commentId: M:UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(IDbContextConfigurator,IServiceProvider)
+  fullName: UserDatabasePlugin.Database.UserDatabaseDbContext.UserDatabaseDbContext(IDbContextConfigurator, IServiceProvider)
   nameWithType: UserDatabaseDbContext.UserDatabaseDbContext(IDbContextConfigurator, IServiceProvider)
-- uid: UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(System.IServiceProvider)
+- uid: UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(IServiceProvider)
   name: UserDatabaseDbContext(IServiceProvider)
-  href: api/UserDatabasePlugin.Database.UserDatabaseDbContext.html#UserDatabasePlugin_Database_UserDatabaseDbContext__ctor_System_IServiceProvider_
-  commentId: M:UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(System.IServiceProvider)
-  fullName: UserDatabasePlugin.Database.UserDatabaseDbContext.UserDatabaseDbContext(System.IServiceProvider)
+  href: api/UserDatabasePlugin.Database.UserDatabaseDbContext.html#UserDatabasePlugin_Database_UserDatabaseDbContext__ctor_IServiceProvider_
+  commentId: M:UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor(IServiceProvider)
+  fullName: UserDatabasePlugin.Database.UserDatabaseDbContext.UserDatabaseDbContext(IServiceProvider)
   nameWithType: UserDatabaseDbContext.UserDatabaseDbContext(IServiceProvider)
 - uid: UserDatabasePlugin.Database.UserDatabaseDbContext.#ctor*
   name: UserDatabaseDbContext
@@ -46654,13 +46738,13 @@ references:
   commentId: T:UserDatabasePlugin.UserDatabasePlugin
   fullName: UserDatabasePlugin.UserDatabasePlugin
   nameWithType: UserDatabasePlugin
-- uid: UserDatabasePlugin.UserDatabasePlugin.#ctor(ILogger{UserDatabasePlugin.UserDatabasePlugin},System.IServiceProvider,IPermissionRegistry,UserDatabasePlugin.Database.UserDatabaseDbContext)
+- uid: UserDatabasePlugin.UserDatabasePlugin.#ctor(ILogger{UserDatabasePlugin.UserDatabasePlugin},IServiceProvider,IPermissionRegistry,UserDatabasePlugin.Database.UserDatabaseDbContext)
   name: UserDatabasePlugin(ILogger<UserDatabasePlugin>, IServiceProvider, IPermissionRegistry, UserDatabaseDbContext)
-  href: api/UserDatabasePlugin.UserDatabasePlugin.html#UserDatabasePlugin_UserDatabasePlugin__ctor_ILogger_UserDatabasePlugin_UserDatabasePlugin__System_IServiceProvider_IPermissionRegistry_UserDatabasePlugin_Database_UserDatabaseDbContext_
-  commentId: M:UserDatabasePlugin.UserDatabasePlugin.#ctor(ILogger{UserDatabasePlugin.UserDatabasePlugin},System.IServiceProvider,IPermissionRegistry,UserDatabasePlugin.Database.UserDatabaseDbContext)
+  href: api/UserDatabasePlugin.UserDatabasePlugin.html#UserDatabasePlugin_UserDatabasePlugin__ctor_ILogger_UserDatabasePlugin_UserDatabasePlugin__IServiceProvider_IPermissionRegistry_UserDatabasePlugin_Database_UserDatabaseDbContext_
+  commentId: M:UserDatabasePlugin.UserDatabasePlugin.#ctor(ILogger{UserDatabasePlugin.UserDatabasePlugin},IServiceProvider,IPermissionRegistry,UserDatabasePlugin.Database.UserDatabaseDbContext)
   name.vb: UserDatabasePlugin(ILogger(Of UserDatabasePlugin), IServiceProvider, IPermissionRegistry, UserDatabaseDbContext)
-  fullName: UserDatabasePlugin.UserDatabasePlugin.UserDatabasePlugin(ILogger<UserDatabasePlugin.UserDatabasePlugin>, System.IServiceProvider, IPermissionRegistry, UserDatabasePlugin.Database.UserDatabaseDbContext)
-  fullName.vb: UserDatabasePlugin.UserDatabasePlugin.UserDatabasePlugin(ILogger(Of UserDatabasePlugin.UserDatabasePlugin), System.IServiceProvider, IPermissionRegistry, UserDatabasePlugin.Database.UserDatabaseDbContext)
+  fullName: UserDatabasePlugin.UserDatabasePlugin.UserDatabasePlugin(ILogger<UserDatabasePlugin.UserDatabasePlugin>, IServiceProvider, IPermissionRegistry, UserDatabasePlugin.Database.UserDatabaseDbContext)
+  fullName.vb: UserDatabasePlugin.UserDatabasePlugin.UserDatabasePlugin(ILogger(Of UserDatabasePlugin.UserDatabasePlugin), IServiceProvider, IPermissionRegistry, UserDatabasePlugin.Database.UserDatabaseDbContext)
   nameWithType: UserDatabasePlugin.UserDatabasePlugin(ILogger<UserDatabasePlugin>, IServiceProvider, IPermissionRegistry, UserDatabaseDbContext)
   nameWithType.vb: UserDatabasePlugin.UserDatabasePlugin(ILogger(Of UserDatabasePlugin), IServiceProvider, IPermissionRegistry, UserDatabaseDbContext)
 - uid: UserDatabasePlugin.UserDatabasePlugin.#ctor*
@@ -46702,18 +46786,24 @@ references:
   isSpec: "True"
   fullName: UserDatabasePlugin.UserEventsListener.UserEventsListener
   nameWithType: UserEventsListener.UserEventsListener
-- uid: UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Object,OpenMod.Core.Users.Events.IUserConnectedEvent)
-  name: HandleEventAsync(Object, IUserConnectedEvent)
-  href: api/UserDatabasePlugin.UserEventsListener.html#UserDatabasePlugin_UserEventsListener_HandleEventAsync_System_Object_OpenMod_Core_Users_Events_IUserConnectedEvent_
-  commentId: M:UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Object,OpenMod.Core.Users.Events.IUserConnectedEvent)
-  fullName: UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Object, OpenMod.Core.Users.Events.IUserConnectedEvent)
-  nameWithType: UserEventsListener.HandleEventAsync(Object, IUserConnectedEvent)
-- uid: UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Object,OpenMod.Core.Users.Events.IUserDisconnectedEvent)
-  name: HandleEventAsync(Object, IUserDisconnectedEvent)
-  href: api/UserDatabasePlugin.UserEventsListener.html#UserDatabasePlugin_UserEventsListener_HandleEventAsync_System_Object_OpenMod_Core_Users_Events_IUserDisconnectedEvent_
-  commentId: M:UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Object,OpenMod.Core.Users.Events.IUserDisconnectedEvent)
-  fullName: UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Object, OpenMod.Core.Users.Events.IUserDisconnectedEvent)
-  nameWithType: UserEventsListener.HandleEventAsync(Object, IUserDisconnectedEvent)
+- uid: UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Nullable{System.Object},OpenMod.Core.Users.Events.IUserConnectedEvent)
+  name: HandleEventAsync(Nullable<Object>, IUserConnectedEvent)
+  href: api/UserDatabasePlugin.UserEventsListener.html#UserDatabasePlugin_UserEventsListener_HandleEventAsync_System_Nullable_System_Object__OpenMod_Core_Users_Events_IUserConnectedEvent_
+  commentId: M:UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Nullable{System.Object},OpenMod.Core.Users.Events.IUserConnectedEvent)
+  name.vb: HandleEventAsync(Nullable(Of Object), IUserConnectedEvent)
+  fullName: UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Nullable<System.Object>, OpenMod.Core.Users.Events.IUserConnectedEvent)
+  fullName.vb: UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Nullable(Of System.Object), OpenMod.Core.Users.Events.IUserConnectedEvent)
+  nameWithType: UserEventsListener.HandleEventAsync(Nullable<Object>, IUserConnectedEvent)
+  nameWithType.vb: UserEventsListener.HandleEventAsync(Nullable(Of Object), IUserConnectedEvent)
+- uid: UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Nullable{System.Object},OpenMod.Core.Users.Events.IUserDisconnectedEvent)
+  name: HandleEventAsync(Nullable<Object>, IUserDisconnectedEvent)
+  href: api/UserDatabasePlugin.UserEventsListener.html#UserDatabasePlugin_UserEventsListener_HandleEventAsync_System_Nullable_System_Object__OpenMod_Core_Users_Events_IUserDisconnectedEvent_
+  commentId: M:UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Nullable{System.Object},OpenMod.Core.Users.Events.IUserDisconnectedEvent)
+  name.vb: HandleEventAsync(Nullable(Of Object), IUserDisconnectedEvent)
+  fullName: UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Nullable<System.Object>, OpenMod.Core.Users.Events.IUserDisconnectedEvent)
+  fullName.vb: UserDatabasePlugin.UserEventsListener.HandleEventAsync(System.Nullable(Of System.Object), OpenMod.Core.Users.Events.IUserDisconnectedEvent)
+  nameWithType: UserEventsListener.HandleEventAsync(Nullable<Object>, IUserDisconnectedEvent)
+  nameWithType.vb: UserEventsListener.HandleEventAsync(Nullable(Of Object), IUserDisconnectedEvent)
 - uid: UserDatabasePlugin.UserEventsListener.HandleEventAsync*
   name: HandleEventAsync
   href: api/UserDatabasePlugin.UserEventsListener.html#UserDatabasePlugin_UserEventsListener_HandleEventAsync_

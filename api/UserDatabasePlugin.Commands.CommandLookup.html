@@ -122,53 +122,29 @@
       <a class="xref" href="OpenMod.Core.Commands.CommandBase.html#OpenMod_Core_Commands_CommandBase_PrintAsync_System_String_">CommandBase.PrintAsync(String)</a>
     </div>
     <div>
-      <span class="xref">OpenMod.Core.Commands.CommandBase.PrintAsync(System.String, System.Drawing.Color)</span>
+      <a class="xref" href="OpenMod.Core.Commands.CommandBase.html#OpenMod_Core_Commands_CommandBase_PrintAsync_System_String_Color_">CommandBase.PrintAsync(String, Color)</a>
     </div>
     <div>
       <a class="xref" href="OpenMod.Core.Commands.CommandBase.html#OpenMod_Core_Commands_CommandBase_CheckPermissionAsync_System_String_">CommandBase.CheckPermissionAsync(String)</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="UserDatabasePlugin.Commands.html">UserDatabasePlugin.Commands</a></h6>
   <h6><strong>Assembly</strong>: UserDatabasePlugin.dll</h6>
   <h5 id="UserDatabasePlugin_Commands_CommandLookup_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CommandDescription(&quot;Looks up a player&quot;)]
-[CommandSyntax(&quot;&lt;player name or id&gt;&quot;)]
-[RegisterCommandPermission(&quot;offline&quot;, Description = &quot;Allows to look up offline players&quot;)]
-public class CommandLookup : Command, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class CommandLookup : Command, ICommand</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=UserDatabasePlugin_Commands_CommandLookup__ctor_System_IServiceProvider_IUserManager_IStringLocalizer_UserDatabasePlugin_Database_UserDatabaseDbContext_.md&amp;value=---%0Auid%3A%20UserDatabasePlugin.Commands.CommandLookup.%23ctor(System.IServiceProvider%2CIUserManager%2CIStringLocalizer%2CUserDatabasePlugin.Database.UserDatabaseDbContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=UserDatabasePlugin_Commands_CommandLookup__ctor_IServiceProvider_IUserManager_IStringLocalizer_UserDatabasePlugin_Database_UserDatabaseDbContext_.md&amp;value=---%0Auid%3A%20UserDatabasePlugin.Commands.CommandLookup.%23ctor(IServiceProvider%2CIUserManager%2CIStringLocalizer%2CUserDatabasePlugin.Database.UserDatabaseDbContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/openmod/openmod/blob/main/samples/UserDatabasePlugin/Commands/CommandLookup.cs/#L28">View Source</a>
   </span>
   <a id="UserDatabasePlugin_Commands_CommandLookup__ctor_" data-uid="UserDatabasePlugin.Commands.CommandLookup.#ctor*"></a>
-  <h4 id="UserDatabasePlugin_Commands_CommandLookup__ctor_System_IServiceProvider_IUserManager_IStringLocalizer_UserDatabasePlugin_Database_UserDatabaseDbContext_" data-uid="UserDatabasePlugin.Commands.CommandLookup.#ctor(System.IServiceProvider,IUserManager,IStringLocalizer,UserDatabasePlugin.Database.UserDatabaseDbContext)">CommandLookup(IServiceProvider, IUserManager, IStringLocalizer, UserDatabaseDbContext)</h4>
+  <h4 id="UserDatabasePlugin_Commands_CommandLookup__ctor_IServiceProvider_IUserManager_IStringLocalizer_UserDatabasePlugin_Database_UserDatabaseDbContext_" data-uid="UserDatabasePlugin.Commands.CommandLookup.#ctor(IServiceProvider,IUserManager,IStringLocalizer,UserDatabasePlugin.Database.UserDatabaseDbContext)">CommandLookup(IServiceProvider, IUserManager, IStringLocalizer, UserDatabaseDbContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -186,7 +162,7 @@ public class CommandLookup : Command, ICommand</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IServiceProvider</span></td>
+        <td><span class="xref">IServiceProvider</span></td>
         <td><span class="parametername">serviceProvider</span></td>
         <td></td>
       </tr>
@@ -221,7 +197,7 @@ public class CommandLookup : Command, ICommand</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string OfflineLookupPermission = &quot;offline&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public const string OfflineLookupPermission = null</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -265,7 +241,7 @@ public class CommandLookup : Command, ICommand</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>

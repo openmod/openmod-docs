@@ -118,7 +118,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Jobs_ScheduledJob_Args.md&amp;value=---%0Auid%3A%20OpenMod.API.Jobs.ScheduledJob.Args%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L20">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L22">View Source</a>
   </span>
   <a id="OpenMod_API_Jobs_ScheduledJob_Args_" data-uid="OpenMod.API.Jobs.ScheduledJob.Args*"></a>
   <h4 id="OpenMod_API_Jobs_ScheduledJob_Args" data-uid="OpenMod.API.Jobs.ScheduledJob.Args">Args</h4>
@@ -146,10 +146,41 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Jobs_ScheduledJob_CancellationTokenSource.md&amp;value=---%0Auid%3A%20OpenMod.API.Jobs.ScheduledJob.CancellationTokenSource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L42">View Source</a>
+  </span>
+  <a id="OpenMod_API_Jobs_ScheduledJob_CancellationTokenSource_" data-uid="OpenMod.API.Jobs.ScheduledJob.CancellationTokenSource*"></a>
+  <h4 id="OpenMod_API_Jobs_ScheduledJob_CancellationTokenSource" data-uid="OpenMod.API.Jobs.ScheduledJob.CancellationTokenSource">CancellationTokenSource</h4>
+  <div class="markdown level1 summary"><p>Cancelling a job will always dispose the token source and remove it from schedule list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CancellationTokenSource? CancellationTokenSource { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">CancellationTokenSource</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Jobs_ScheduledJob_Enabled.md&amp;value=---%0Auid%3A%20OpenMod.API.Jobs.ScheduledJob.Enabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L35">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L37">View Source</a>
   </span>
   <a id="OpenMod_API_Jobs_ScheduledJob_Enabled_" data-uid="OpenMod.API.Jobs.ScheduledJob.Enabled*"></a>
   <h4 id="OpenMod_API_Jobs_ScheduledJob_Enabled" data-uid="OpenMod.API.Jobs.ScheduledJob.Enabled">Enabled</h4>
@@ -180,7 +211,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Jobs_ScheduledJob_Name.md&amp;value=---%0Auid%3A%20OpenMod.API.Jobs.ScheduledJob.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L15">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L17">View Source</a>
   </span>
   <a id="OpenMod_API_Jobs_ScheduledJob_Name_" data-uid="OpenMod.API.Jobs.ScheduledJob.Name*"></a>
   <h4 id="OpenMod_API_Jobs_ScheduledJob_Name" data-uid="OpenMod.API.Jobs.ScheduledJob.Name">Name</h4>
@@ -211,11 +242,11 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Jobs_ScheduledJob_Schedule.md&amp;value=---%0Auid%3A%20OpenMod.API.Jobs.ScheduledJob.Schedule%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L30">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L32">View Source</a>
   </span>
   <a id="OpenMod_API_Jobs_ScheduledJob_Schedule_" data-uid="OpenMod.API.Jobs.ScheduledJob.Schedule*"></a>
   <h4 id="OpenMod_API_Jobs_ScheduledJob_Schedule" data-uid="OpenMod.API.Jobs.ScheduledJob.Schedule">Schedule</h4>
-  <div class="markdown level1 summary"><p>Gets the schedule expression.</p>
+  <div class="markdown level1 summary"><p>Gets the schedule time.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -242,7 +273,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Jobs_ScheduledJob_Task.md&amp;value=---%0Auid%3A%20OpenMod.API.Jobs.ScheduledJob.Task%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L25">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L27">View Source</a>
   </span>
   <a id="OpenMod_API_Jobs_ScheduledJob_Task_" data-uid="OpenMod.API.Jobs.ScheduledJob.Task*"></a>
   <h4 id="OpenMod_API_Jobs_ScheduledJob_Task" data-uid="OpenMod.API.Jobs.ScheduledJob.Task">Task</h4>
@@ -275,7 +306,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Jobs_ScheduledJob_Equals_OpenMod_API_Jobs_ScheduledJob_.md&amp;value=---%0Auid%3A%20OpenMod.API.Jobs.ScheduledJob.Equals(OpenMod.API.Jobs.ScheduledJob)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L37">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L52">View Source</a>
   </span>
   <a id="OpenMod_API_Jobs_ScheduledJob_Equals_" data-uid="OpenMod.API.Jobs.ScheduledJob.Equals*"></a>
   <h4 id="OpenMod_API_Jobs_ScheduledJob_Equals_OpenMod_API_Jobs_ScheduledJob_" data-uid="OpenMod.API.Jobs.ScheduledJob.Equals(OpenMod.API.Jobs.ScheduledJob)">Equals(ScheduledJob)</h4>
@@ -319,18 +350,18 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Jobs_ScheduledJob_Equals_System_Object_.md&amp;value=---%0Auid%3A%20OpenMod.API.Jobs.ScheduledJob.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Jobs_ScheduledJob_Equals_System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20OpenMod.API.Jobs.ScheduledJob.Equals(System.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L44">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L68">View Source</a>
   </span>
   <a id="OpenMod_API_Jobs_ScheduledJob_Equals_" data-uid="OpenMod.API.Jobs.ScheduledJob.Equals*"></a>
-  <h4 id="OpenMod_API_Jobs_ScheduledJob_Equals_System_Object_" data-uid="OpenMod.API.Jobs.ScheduledJob.Equals(System.Object)">Equals(Object)</h4>
+  <h4 id="OpenMod_API_Jobs_ScheduledJob_Equals_System_Nullable_System_Object__" data-uid="OpenMod.API.Jobs.ScheduledJob.Equals(System.Nullable{System.Object})">Equals(Nullable&lt;Object&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -343,7 +374,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">obj</span></td>
         <td></td>
       </tr>
@@ -369,7 +400,7 @@
     <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_API_Jobs_ScheduledJob_GetHashCode.md&amp;value=---%0Auid%3A%20OpenMod.API.Jobs.ScheduledJob.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L52">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.API/Jobs/ScheduledJob.cs/#L45">View Source</a>
   </span>
   <a id="OpenMod_API_Jobs_ScheduledJob_GetHashCode_" data-uid="OpenMod.API.Jobs.ScheduledJob.GetHashCode*"></a>
   <h4 id="OpenMod_API_Jobs_ScheduledJob_GetHashCode" data-uid="OpenMod.API.Jobs.ScheduledJob.GetHashCode">GetHashCode()</h4>

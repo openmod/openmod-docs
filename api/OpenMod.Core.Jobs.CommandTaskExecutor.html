@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PluginActivator
+    <title>Class CommandTaskExecutor
    | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PluginActivator
+    <meta name="title" content="Class CommandTaskExecutor
    | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -92,104 +92,46 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="OpenMod.Core.Plugins.PluginActivator">
+                    <article class="content wrap" id="_content" data-uid="OpenMod.Core.Jobs.CommandTaskExecutor">
   
   
-  <h1 id="OpenMod_Core_Plugins_PluginActivator" data-uid="OpenMod.Core.Plugins.PluginActivator" class="text-break">Class PluginActivator
+  <h1 id="OpenMod_Core_Jobs_CommandTaskExecutor" data-uid="OpenMod.Core.Jobs.CommandTaskExecutor" class="text-break">Class CommandTaskExecutor
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">PluginActivator</span></div>
+    <div class="level1"><span class="xref">CommandTaskExecutor</span></div>
+      <div class="level2"><a class="xref" href="OpenMod.Core.Jobs.OpenModCommandTaskExecutor.html">OpenModCommandTaskExecutor</a></div>
+      <div class="level2"><a class="xref" href="OpenMod.Core.Jobs.SystemCommandTaskExecutor.html">SystemCommandTaskExecutor</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="OpenMod.API.Plugins.IPluginActivator.html">IPluginActivator</a></div>
-    <div><span class="xref">IAsyncDisposable</span></div>
+    <div><a class="xref" href="OpenMod.API.Jobs.ITaskExecutor.html">ITaskExecutor</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Plugins.html">OpenMod.Core.Plugins</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Jobs.html">OpenMod.Core.Jobs</a></h6>
   <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
-  <h5 id="OpenMod_Core_Plugins_PluginActivator_syntax">Syntax</h5>
+  <h5 id="OpenMod_Core_Jobs_CommandTaskExecutor_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PluginActivator : object, IPluginActivator, IAsyncDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class CommandTaskExecutor : object, ITaskExecutor</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Plugins_PluginActivator__ctor_OpenMod_API_IRuntime_ILogger_OpenMod_Core_Plugins_PluginActivator__IStringLocalizerFactory_ILifetimeScope_OpenMod_API_Persistence_IDataStoreFactory_OpenMod_API_Eventing_IEventBus_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Plugins.PluginActivator.%23ctor(OpenMod.API.IRuntime%2CILogger%7BOpenMod.Core.Plugins.PluginActivator%7D%2CIStringLocalizerFactory%2CILifetimeScope%2COpenMod.API.Persistence.IDataStoreFactory%2COpenMod.API.Eventing.IEventBus)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Plugins/PluginActivator.cs/#L47">View Source</a>
-  </span>
-  <a id="OpenMod_Core_Plugins_PluginActivator__ctor_" data-uid="OpenMod.Core.Plugins.PluginActivator.#ctor*"></a>
-  <h4 id="OpenMod_Core_Plugins_PluginActivator__ctor_OpenMod_API_IRuntime_ILogger_OpenMod_Core_Plugins_PluginActivator__IStringLocalizerFactory_ILifetimeScope_OpenMod_API_Persistence_IDataStoreFactory_OpenMod_API_Eventing_IEventBus_" data-uid="OpenMod.Core.Plugins.PluginActivator.#ctor(OpenMod.API.IRuntime,ILogger{OpenMod.Core.Plugins.PluginActivator},IStringLocalizerFactory,ILifetimeScope,OpenMod.API.Persistence.IDataStoreFactory,OpenMod.API.Eventing.IEventBus)">PluginActivator(IRuntime, ILogger&lt;PluginActivator&gt;, IStringLocalizerFactory, ILifetimeScope, IDataStoreFactory, IEventBus)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PluginActivator(IRuntime runtime, ILogger&lt;PluginActivator&gt; logger, IStringLocalizerFactory stringLocalizerFactory, ILifetimeScope lifetimeScope, IDataStoreFactory dataStoreFactory, IEventBus eventBus)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="OpenMod.API.IRuntime.html">IRuntime</a></td>
-        <td><span class="parametername">runtime</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">ILogger</span>&lt;<a class="xref" href="OpenMod.Core.Plugins.PluginActivator.html">PluginActivator</a>&gt;</td>
-        <td><span class="parametername">logger</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IStringLocalizerFactory</span></td>
-        <td><span class="parametername">stringLocalizerFactory</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">ILifetimeScope</span></td>
-        <td><span class="parametername">lifetimeScope</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="OpenMod.API.Persistence.IDataStoreFactory.html">IDataStoreFactory</a></td>
-        <td><span class="parametername">dataStoreFactory</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="OpenMod.API.Eventing.IEventBus.html">IEventBus</a></td>
-        <td><span class="parametername">eventBus</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Plugins_PluginActivator_ActivatedPlugins.md&amp;value=---%0Auid%3A%20OpenMod.Core.Plugins.PluginActivator.ActivatedPlugins%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Jobs_CommandTaskExecutor_TaskType.md&amp;value=---%0Auid%3A%20OpenMod.Core.Jobs.CommandTaskExecutor.TaskType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Plugins/PluginActivator.cs/#L63">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Jobs/CommandTaskExecutor.cs/#L11">View Source</a>
   </span>
-  <a id="OpenMod_Core_Plugins_PluginActivator_ActivatedPlugins_" data-uid="OpenMod.Core.Plugins.PluginActivator.ActivatedPlugins*"></a>
-  <h4 id="OpenMod_Core_Plugins_PluginActivator_ActivatedPlugins" data-uid="OpenMod.Core.Plugins.PluginActivator.ActivatedPlugins">ActivatedPlugins</h4>
+  <a id="OpenMod_Core_Jobs_CommandTaskExecutor_TaskType_" data-uid="OpenMod.Core.Jobs.CommandTaskExecutor.TaskType*"></a>
+  <h4 id="OpenMod_Core_Jobs_CommandTaskExecutor_TaskType" data-uid="OpenMod.Core.Jobs.CommandTaskExecutor.TaskType">TaskType</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;IOpenModPlugin&gt; ActivatedPlugins { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract string TaskType { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,7 +143,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyCollection</span>&lt;<a class="xref" href="OpenMod.API.Plugins.IOpenModPlugin.html">IOpenModPlugin</a>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -210,48 +152,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Plugins_PluginActivator_DisposeAsync.md&amp;value=---%0Auid%3A%20OpenMod.Core.Plugins.PluginActivator.DisposeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Jobs_CommandTaskExecutor_ExecuteAsync_OpenMod_API_Jobs_JobTask_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteAsync(OpenMod.API.Jobs.JobTask)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Plugins/PluginActivator.cs/#L325">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Jobs/CommandTaskExecutor.cs/#L18">View Source</a>
   </span>
-  <a id="OpenMod_Core_Plugins_PluginActivator_DisposeAsync_" data-uid="OpenMod.Core.Plugins.PluginActivator.DisposeAsync*"></a>
-  <h4 id="OpenMod_Core_Plugins_PluginActivator_DisposeAsync" data-uid="OpenMod.Core.Plugins.PluginActivator.DisposeAsync">DisposeAsync()</h4>
+  <a id="OpenMod_Core_Jobs_CommandTaskExecutor_ExecuteAsync_" data-uid="OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteAsync*"></a>
+  <h4 id="OpenMod_Core_Jobs_CommandTaskExecutor_ExecuteAsync_OpenMod_API_Jobs_JobTask_" data-uid="OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteAsync(OpenMod.API.Jobs.JobTask)">ExecuteAsync(JobTask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueTask DisposeAsync()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ValueTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Plugins_PluginActivator_TryActivatePluginAsync_Assembly_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Plugins.PluginActivator.TryActivatePluginAsync(Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Plugins/PluginActivator.cs/#L76">View Source</a>
-  </span>
-  <a id="OpenMod_Core_Plugins_PluginActivator_TryActivatePluginAsync_" data-uid="OpenMod.Core.Plugins.PluginActivator.TryActivatePluginAsync*"></a>
-  <h4 id="OpenMod_Core_Plugins_PluginActivator_TryActivatePluginAsync_Assembly_" data-uid="OpenMod.Core.Plugins.PluginActivator.TryActivatePluginAsync(Assembly)">TryActivatePluginAsync(Assembly)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IOpenModPlugin&gt; TryActivatePluginAsync(Assembly assembly)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task ExecuteAsync(JobTask task)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -264,8 +176,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Assembly</span></td>
-        <td><span class="parametername">assembly</span></td>
+        <td><a class="xref" href="OpenMod.API.Jobs.JobTask.html">JobTask</a></td>
+        <td><span class="parametername">task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -280,17 +192,113 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<a class="xref" href="OpenMod.API.Plugins.IOpenModPlugin.html">IOpenModPlugin</a>&gt;</td>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Jobs_CommandTaskExecutor_ExecuteCommandTask_System_String_OpenMod_API_Jobs_JobTask_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteCommandTask(System.String%2COpenMod.API.Jobs.JobTask)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Jobs/CommandTaskExecutor.cs/#L32">View Source</a>
+  </span>
+  <a id="OpenMod_Core_Jobs_CommandTaskExecutor_ExecuteCommandTask_" data-uid="OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteCommandTask*"></a>
+  <h4 id="OpenMod_Core_Jobs_CommandTaskExecutor_ExecuteCommandTask_System_String_OpenMod_API_Jobs_JobTask_" data-uid="OpenMod.Core.Jobs.CommandTaskExecutor.ExecuteCommandTask(System.String,OpenMod.API.Jobs.JobTask)">ExecuteCommandTask(String, JobTask)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract Task ExecuteCommandTask(string command, JobTask task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">command</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OpenMod.API.Jobs.JobTask.html">JobTask</a></td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Jobs_CommandTaskExecutor_SupportsType_System_String_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Jobs.CommandTaskExecutor.SupportsType(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Jobs/CommandTaskExecutor.cs/#L13">View Source</a>
+  </span>
+  <a id="OpenMod_Core_Jobs_CommandTaskExecutor_SupportsType_" data-uid="OpenMod.Core.Jobs.CommandTaskExecutor.SupportsType*"></a>
+  <h4 id="OpenMod_Core_Jobs_CommandTaskExecutor_SupportsType_System_String_" data-uid="OpenMod.Core.Jobs.CommandTaskExecutor.SupportsType(System.String)">SupportsType(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool SupportsType(string taskType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">taskType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="OpenMod.API.Plugins.IPluginActivator.html">IPluginActivator</a>
-  </div>
-  <div>
-      <span class="xref">IAsyncDisposable</span>
+      <a class="xref" href="OpenMod.API.Jobs.ITaskExecutor.html">ITaskExecutor</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

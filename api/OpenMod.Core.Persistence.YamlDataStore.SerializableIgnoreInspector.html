@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RustEntityState
+    <title>Class YamlDataStore.SerializableIgnoreInspector
    | OpenMod Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RustEntityState
+    <meta name="title" content="Class YamlDataStore.SerializableIgnoreInspector
    | OpenMod Docs ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -92,44 +92,40 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="OpenMod.Rust.Entities.RustEntityState">
+                    <article class="content wrap" id="_content" data-uid="OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector">
   
   
-  <h1 id="OpenMod_Rust_Entities_RustEntityState" data-uid="OpenMod.Rust.Entities.RustEntityState" class="text-break">Class RustEntityState
+  <h1 id="OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector" data-uid="OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector" class="text-break">Class YamlDataStore.SerializableIgnoreInspector
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">RustEntityState</span></div>
+    <div class="level1"><span class="xref">YamlDataStore.SerializableIgnoreInspector</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IEntityState.html">IEntityState</a></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Rust.Entities.html">OpenMod.Rust.Entities</a></h6>
-  <h6><strong>Assembly</strong>: OpenMod.Rust.dll</h6>
-  <h5 id="OpenMod_Rust_Entities_RustEntityState_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OpenMod.Core.Persistence.html">OpenMod.Core.Persistence</a></h6>
+  <h6><strong>Assembly</strong>: OpenMod.Core.dll</h6>
+  <h5 id="OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RustEntityState : object, IEntityState</code></pre>
+    <pre><code class="lang-csharp hljs">public class SerializableIgnoreInspector : TypeInspectorSkeleton</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Entities_RustEntityState__ctor_BaseEntity_.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Entities.RustEntityState.%23ctor(BaseEntity)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector__ctor_ITypeInspector_.md&amp;value=---%0Auid%3A%20OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.%23ctor(ITypeInspector)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Entities/RustEntityState.cs/#L11">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Persistence/YamlDataStore.cs/#L477">View Source</a>
   </span>
-  <a id="OpenMod_Rust_Entities_RustEntityState__ctor_" data-uid="OpenMod.Rust.Entities.RustEntityState.#ctor*"></a>
-  <h4 id="OpenMod_Rust_Entities_RustEntityState__ctor_BaseEntity_" data-uid="OpenMod.Rust.Entities.RustEntityState.#ctor(BaseEntity)">RustEntityState(BaseEntity)</h4>
+  <a id="OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector__ctor_" data-uid="OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.#ctor*"></a>
+  <h4 id="OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector__ctor_ITypeInspector_" data-uid="OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.#ctor(ITypeInspector)">SerializableIgnoreInspector(ITypeInspector)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RustEntityState(BaseEntity entity)</code></pre>
+    <pre><code class="lang-csharp hljs">public SerializableIgnoreInspector(ITypeInspector typeInspector)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,62 +138,52 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">BaseEntity</span></td>
-        <td><span class="parametername">entity</span></td>
+        <td><span class="xref">ITypeInspector</span></td>
+        <td><span class="parametername">typeInspector</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Entities_RustEntityState__ctor_System_Byte___.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Entities.RustEntityState.%23ctor(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Entities/RustEntityState.cs/#L16">View Source</a>
-  </span>
-  <a id="OpenMod_Rust_Entities_RustEntityState__ctor_" data-uid="OpenMod.Rust.Entities.RustEntityState.#ctor*"></a>
-  <h4 id="OpenMod_Rust_Entities_RustEntityState__ctor_System_Byte___" data-uid="OpenMod.Rust.Entities.RustEntityState.#ctor(System.Byte[])">RustEntityState(Byte[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RustEntityState(byte[] data)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
-        <td><span class="parametername">data</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Rust_Entities_RustEntityState_StateData.md&amp;value=---%0Auid%3A%20OpenMod.Rust.Entities.RustEntityState.StateData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/openmod/openmod/new/main/apiSpec/new?filename=OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector_GetProperties_Type_System_Nullable_System_Object__.md&amp;value=---%0Auid%3A%20OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.GetProperties(Type%2CSystem.Nullable%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/openmod/openmod/blob/main/rust/OpenMod.Rust/Entities/RustEntityState.cs/#L21">View Source</a>
+    <a href="https://github.com/openmod/openmod/blob/main/framework/OpenMod.Core/Persistence/YamlDataStore.cs/#L482">View Source</a>
   </span>
-  <a id="OpenMod_Rust_Entities_RustEntityState_StateData_" data-uid="OpenMod.Rust.Entities.RustEntityState.StateData*"></a>
-  <h4 id="OpenMod_Rust_Entities_RustEntityState_StateData" data-uid="OpenMod.Rust.Entities.RustEntityState.StateData">StateData</h4>
+  <a id="OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector_GetProperties_" data-uid="OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.GetProperties*"></a>
+  <h4 id="OpenMod_Core_Persistence_YamlDataStore_SerializableIgnoreInspector_GetProperties_Type_System_Nullable_System_Object__" data-uid="OpenMod.Core.Persistence.YamlDataStore.SerializableIgnoreInspector.GetProperties(Type,System.Nullable{System.Object})">GetProperties(Type, Nullable&lt;Object&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte[] StateData { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;IPropertyDescriptor&gt; GetProperties(Type type, object? container)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">container</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -207,15 +193,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">IPropertyDescriptor</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="OpenMod.Extensions.Games.Abstractions.Entities.IEntityState.html">IEntityState</a>
-  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="OpenMod.Core.Helpers.DisposeHelper.html#OpenMod_Core_Helpers_DisposeHelper_DisposeSyncOrAsync_System_Object_">DisposeHelper.DisposeSyncOrAsync(Object)</a>
